@@ -9,7 +9,13 @@ class Reviewer:# o orquestador
     def make_topic_summary(self,):
         pass
 
-    def make_final_summary(self,):
+    def make_final_summary(self):
+        """Creates the final summary out of the topic summaries (o lo hacemos dado toda la conversacion?)
+
+        Args:
+        Returns:
+            string: The final summary.
+        """
         pass
     
     def search_similar_laws(self,):
