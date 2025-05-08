@@ -1,55 +1,23 @@
+# --- Script de Uso del Agente API (Versión con cliente inicializado DENTRO de la clase API_Model) ---
+
 # --- Imports ---
-import os
-from dotenv import load_dotenv
-import asyncio # Necesario para correr funciones asíncronas
-from typing import Any
-from pydantic import BaseModel, Field , ValidationError # Necesitas BaseModel y Field de pydantic
+import asyncio
 
-from openai import AsyncAzureOpenAI
-import instructor # Importa instructor
-
-# Inicializa el cliente de Azure OpenAI utilizando tus variables cargadas
-# Necesitas pasar la version_api que estés usando también.
-# Puedes definirla como una variable si no la tienes en .env
-API_VERSION = "2024-12-01-preview" # <-- Define tu versión de API aquí. Verifica la correcta para tu deployment.
-
-# Cargar variables de entorno desde .env file
-load_dotenv()
-
-# Asegúrate de que las variables API_KEY, ENDPOINT, y DEPLOYMENT_NAME se cargaron
-api_key = os.getenv("API_KEY")
-endpoint = os.getenv("ENDPOINT")
-deployment_name = os.getenv("DEPLOYMENT")
-
-if not all([api_key, endpoint, deployment_name]):
-    print("Error: Asegúrate de que API_KEY, ENDPOINT y DEPLOYMENT están definidos en tu archivo .env")
-    exit()
-
-# Crea la instancia del cliente *antes* de parchearla
-# Pasa explícitamente el endpoint y la clave API
-async_client_instance = AsyncAzureOpenAI(
-    api_version=API_VERSION,
-    azure_endpoint=endpoint,
-    api_key=api_key
-)
-
-# Aplica el parche de instructor a la instancia específica del cliente
-client = instructor.patch(async_client_instance)
-
-print(f"Endpoint (loaded): {endpoint}")
-print(f"Deployment (loaded): {deployment_name}")
-
-# --- Definición del Modelo Pydantic para la Respuesta ---
-# Estructura para la opinión liberal
-class OpinionLiberal(BaseModel):
-    razonamiento: str = Field(description="El razonamiento detallado detrás de la opinión desde una perspectiva liberal, explicando los principios aplicados.")
-    opinion_resumen: str = Field(description="Un resumen conciso de la opinión principal sobre el tópico propuesto, formulada desde una perspectiva liberal.")
-    # Cambié 'opinion' a 'opinion_resumen' para diferenciarlo del campo 'razonamiento'
+from API_Model import  API_Model
 
 
-# --- Definición de Ejemplos Few-Shot para el Agente Liberal ---
-# Estos ejemplos guían al modelo sobre el tipo de respuesta esperada.
-# Nota: Las respuestas del assistant aquí son TEXTO, no JSON, ya que instructor las parseará después.
+# --- Definición de Prompts Específicos para el Agente Liberal ---
+# Estos prompts definen la personalidad y tarea de *este* agente particular.
+SYSTEM_PROMPT_LIBERAL = {
+    "role": "system",
+    "content": (
+        "Eres un agente de opinión con una fuerte perspectiva liberal clásica. "
+        "Tu tarea es analizar el tópico presentado y generar una respuesta detallada y concisa desde esta óptica. "
+        "Enfócate en principios como la libertad individual, la competencia, la mínima intervención estatal, los mercados libres y la responsabilidad personal. "
+        "La respuesta debe ser estructurada para que pueda ser parseada como un JSON válido que cumpla con el esquema proporcionado, conteniendo el razonamiento liberal y un resumen de la opinión principal."
+    ),
+}
+
 LIBERAL_FEWSHOT_EXAMPLES = [
     {
         "role": "user",
@@ -80,76 +48,65 @@ LIBERAL_FEWSHOT_EXAMPLES = [
 ]
 
 
-# --- Función Asíncrona Principal ---
+# --- Función Principal Asíncrona para Correr el Ejemplo ---
 async def main():
-    # Define el tópico sobre el que quieres la opinión
-    topico_a_opinar = "¿Es deseable un sistema de salud universal administrado por el estado desde una perspectiva liberal?"
-
-    # --- Definición de Mensajes ---
-    # Incluimos el mensaje del sistema, los few-shots y el nuevo tópico del usuario
-    messages = [
-        {
-            "role": "system",
-            "content": (
-                "Eres un agente de opinión con una fuerte perspectiva liberal clásica. "
-                "Tu tarea es analizar el tópico presentado y generar una opinión detallada y concisa desde esta óptica. "
-                "Enfócate en principios como la libertad individual, la competencia, la mínima intervención estatal, los mercados libres y la responsabilidad personal. "
-                "La respuesta debe ser estructurada para que pueda ser parseada como un JSON válido que cumpla con el esquema de OpinionLiberal, conteniendo el razonamiento y un resumen de la opinión."
-            ),
-        },
-    ]
-    # Agregamos los ejemplos few-shot
-    messages.extend(LIBERAL_FEWSHOT_EXAMPLES)
-    # Agregamos el tópico actual del usuario
-    messages.append({
-        "role": "user",
-        "content": f"Opina desde una perspectiva liberal sobre: {topico_a_opinar}",
-    })
+    """
+    Configura los parámetros necesarios, crea la instancia del agente API
+    y realiza una llamada de ejemplo.
+    """
+    print("--- Iniciando Script de Uso del Agente ---")
 
 
-    # --- Llamada a la API usando response_model ---
-    # Usamos el cliente parcheado 'client'
-    try:
-        opinion_generada: OpinionLiberal = await client.chat.completions.create(
-            model=deployment_name, # Usar el nombre del deployment en Azure
-            messages=messages,
-            response_model=OpinionLiberal, # Especifica el modelo Pydantic esperado
-            max_retries=3 # instructor puede reintentar si el parseo falla inicialmente
-        )
+    # --- Crear una Instancia del Agente API ---
+    api_model_agent = API_Model(
+        system_prompt=SYSTEM_PROMPT_LIBERAL, # Le pasamos el prompt que lo define como liberal
+        few_shot_examples=LIBERAL_FEWSHOT_EXAMPLES, # Le pasamos los few-shots liberales
+    )
 
-        # --- Imprimir la opinión generada ---
-        print("\n--- Opinión Liberal Generada ---")
-        print(f"Tópico: {topico_a_opinar}")
-        print(f"Opinión Resumen: {opinion_generada.opinion_resumen}")
-        print(f"Razonamiento: {opinion_generada.razonamiento}")
+    # --- Definir el Tópico para la Llamada Actual ---
+    topico_ejemplo = "¿Debería prohibirse la compra y venta de órganos humanos?"
+    ley_relacionada = "Legislación sobre trasplantes y donación de órganos" # Ejemplo de ley (puede ser None)
 
-        # Si quieres ver el JSON crudo que cumple el esquema:
-        # print("\n--- JSON de la Opinión ---")
-        # print(opinion_generada.model_dump_json(indent=2)) # Usa model_dump_json() en Pydantic v2+
+    # Define un contexto de rondas previas si es necesario (para conversaciones más largas)
+    # Para la primera llamada, suele ser una lista vacía
+    contexto_previo = []
 
-    except ValidationError as e:
-        print(f"Error de validación de Pydantic: {e}")
-        # Opcional: imprimir la respuesta cruda del modelo si falla la validación
-        # print(f"Respuesta cruda recibida: {e.response.text}")
-    except Exception as e:
-        print(f"Ocurrió un error al llamar a la API: {e}")
+    # --- Realizar la Llamada a la API ---
+    print("\n--- Realizando llamada al agente API ---")
+    generated_response = await api_model_agent.call_api(
+        topic=topico_ejemplo,
+        law=ley_relacionada,
+        previous_rounds_context=contexto_previo
+    )
+
+    # --- Procesar e Imprimir la Respuesta ---
+    if generated_response:
+        print("\n--- Respuesta Estructurada Recibida ---")
+        print(f"Tópico Consultar: {topico_ejemplo}")
+        if ley_relacionada:
+             print(f"Ley Relacionada: {ley_relacionada}")
+        print(f"Resumen Principal: {generated_response.resumen_principal}")
+        print(f"Razonamiento: {generated_response.razonamiento}")
+        print("\n--- Fin de la Respuesta ---")
+    else:
+        print("\n--- Falló la generación o el parseo de la respuesta (ver errores anteriores) ---")
+        print("--- Fin del Script ---")
 
 
-# --- Ejecutar la función principal asíncrona ---
+# --- Punto de entrada del script ---
 if __name__ == "__main__":
-    # Verifica si el bucle de asyncio ya se está ejecutando (útil en notebooks)
+    # Ejecutar la función principal asíncrona
+    # Manejo estándar para entornos con loop existente (como notebooks) vs script normal
     try:
         loop = asyncio.get_running_loop()
     except RuntimeError: # No running loop
         loop = None
 
     if loop and loop.is_running():
-        print("Running from a notebook or context with an existing loop. Awaiting main()...")
-        # Si estás en un entorno con un loop ya corriendo (como Jupyter/IPython),
-        # simplemente await main()
-        # await main() # Descomentar si realmente estás en ese entorno
-
+        print("Running from a notebook or context with an existing loop. Scheduling task...")
+        # En entornos como Jupyter, crea una tarea en el loop existente.
+        loop.create_task(main())
     else:
-        # Si no hay un loop corriendo, usamos asyncio.run()
+        # En un script Python normal, usa asyncio.run()
         print("Running with asyncio.run()...")
         asyncio.run(main())
