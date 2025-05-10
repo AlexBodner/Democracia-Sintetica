@@ -43,7 +43,7 @@ class Debate:
             round_context.append(dar_palabra)
 
             round_context.append(agent_response)
-            time.sleep(61)
+            #time.sleep(61)
         return round_context
 
     # def debate_round(self,prev_round_context,round_nr, topic, law):

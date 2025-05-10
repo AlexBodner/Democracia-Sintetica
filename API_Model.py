@@ -9,6 +9,7 @@ import instructor # Librería para estructurar la salida del modelo
 import os
 from agents.agent_response_structure import StructuredAgentResponse
 from dotenv import load_dotenv
+import tiktoken
 
 
 # --- Cargar variables de entorno ---
@@ -95,8 +96,7 @@ class API_Model:
 
         # 3. Añadir contexto de rondas previas (si existe)
         if previous_rounds_context:
-            messages.extend([{"role": "assistant",
-                             "content": previous_rounds_context}])
+            messages.extend(previous_rounds_context)
 
         # 4. Construir y añadir el mensaje del usuario actual
         user_message_content = f"Siendo esta la ronda {ronda}, por favor genera una respuesta estructurada sobre el tópico: '{topic}'"
@@ -109,8 +109,12 @@ class API_Model:
             "role": "user",
             "content": user_message_content,
         })
+        enc = tiktoken.encoding_for_model("gpt-4o-mini")
 
-        print(" message al agente", messages)
+        num_tokens = sum([len(enc.encode(m["content"])) for m in messages])
+        print("tokens" , num_tokens)
+        #print(" message al agente", messages)
+
         # --- Realizar la llamada a la API utilizando el cliente almacenado ---
         try:
             # Usamos self.client que fue inicializado y parcheado en __init__
