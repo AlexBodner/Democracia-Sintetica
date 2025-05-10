@@ -7,7 +7,7 @@ from openai import AsyncAzureOpenAI # Cliente asíncrono de OpenAI
 import instructor # Librería para estructurar la salida del modelo
 
 import os
-from agents.agent import  StructuredAgentResponse
+from agents.agent_response_structure import StructuredAgentResponse
 from dotenv import load_dotenv
 
 
@@ -64,8 +64,10 @@ class API_Model:
     async def call_api(
         self,
         topic: str,
+        ronda:int,
         law: str = None,
-        previous_rounds_context: List[Dict[str, str]] = None
+        previous_rounds_context: List[Dict[str, str]] = None,
+
     ) -> Union[StructuredAgentResponse, None]:
         """
         Realiza una llamada asíncrona al modelo de lenguaje con el contexto y tópico dados.
@@ -93,10 +95,11 @@ class API_Model:
 
         # 3. Añadir contexto de rondas previas (si existe)
         if previous_rounds_context:
-            messages.extend(previous_rounds_context)
+            messages.extend([{"role": "assistant",
+                             "content": previous_rounds_context}])
 
         # 4. Construir y añadir el mensaje del usuario actual
-        user_message_content = f"Por favor, genera una respuesta estructurada sobre el tópico: '{topic}'"
+        user_message_content = f"Siendo esta la ronda {ronda}, por favor genera una respuesta estructurada sobre el tópico: '{topic}'"
         if law:
             user_message_content += f" en relación con la ley '{law}'."
         else:
@@ -107,6 +110,7 @@ class API_Model:
             "content": user_message_content,
         })
 
+        print(" message al agente", messages)
         # --- Realizar la llamada a la API utilizando el cliente almacenado ---
         try:
             # Usamos self.client que fue inicializado y parcheado en __init__
@@ -116,7 +120,7 @@ class API_Model:
                 response_model=StructuredAgentResponse,
                 max_retries=3
             )
-            print("Llamada a la API exitosa y respuesta parseada.")
+            #print("Llamada a la API exitosa y respuesta parseada.")
             return generated_response
 
         except ValidationError as e:
@@ -125,6 +129,7 @@ class API_Model:
                  print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
             return None
         except Exception as e:
+            print(e)
             print(f"Ocurrió un error inesperado al llamar a la API: {e}")
             return None
 

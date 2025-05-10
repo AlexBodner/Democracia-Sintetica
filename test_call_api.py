@@ -87,8 +87,6 @@ async def main():
             max_retries=3 # instructor puede reintentar si el parseo falla inicialmente
         )
 
-        # --- Imprimir la opinión generada ---
-        # Como la respuesta es un objeto OpinionLiberal, puedes acceder a sus atributos
         print("\n--- Opinión Liberal Generada ---")
         print(f"Tópico: {topico_a_opinar}")
         print(f"Opinión: {opinion_generada.opinion}")
@@ -104,6 +102,5 @@ async def main():
 
 
 # --- Ejecutar la función principal asíncrona ---
-# Este bloque es el punto de entrada al script
 if __name__ == "__main__":
     asyncio.run(main())
