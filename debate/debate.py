@@ -26,7 +26,8 @@ class Debate:
                 print("-----------------------------------","Round", round,"-----------------------------------")
                 context+=(self.debate_round(context, round,  topic, self.law))
             full_debate[topic] = deepcopy(context)
-
+            topic_summary = self.reviewer.make_topic_summary(context)
+            print(topic_summary)
         print("--- Full debate ---")
         print(full_debate)
         #return self.conclusiones(full_debate)
@@ -59,7 +60,7 @@ class Debate:
         for agent in self.agents:
             print("Agente:", agent.agent_name)
             dar_palabra = {"role":"user", "content": f"Tiene la palabra el {agent.agent_name}"} #este es el reviewer
-            agent_response = asyncio.run(agent.speak(prev_round_context, topic, law, round_nr))
+            agent_response = asyncio.run(agent.speak(prev_round_context))
             
             print(agent_response)
             round_context.append(dar_palabra)
@@ -68,11 +69,6 @@ class Debate:
             #time.sleep(61)
         return round_context
 
-    # def debate_round(self,prev_round_context,round_nr, topic, law):
-    #     round_context = {"ronda": round_nr, "intervenciones": []} 
-    #     for agent in self.agents:
-    #         round_context["intervenciones"].append(asyncio.run(agent.speak(prev_round_context, topic, law, round_nr)))
 
-    #     return round_context
     def conclusiones(self,full_debate):
         return self.reviewer.make_final_summary(full_debate)

@@ -13,11 +13,8 @@ class Agent:
     #     return [{"role":"system",
     #             "content": self.sys_prompt},
     #             "role": ]
-    async def speak(self, prev_round_context, topic, law, round_nr):
+    async def speak(self, prev_round_context):
         generated_response = await self.api_model_agent.call_api(
-            topic=topic,
-            ronda= round_nr,
-            law=law,
             previous_rounds_context=prev_round_context
         )
         output = {

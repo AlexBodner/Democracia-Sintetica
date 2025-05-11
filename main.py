@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     debate = Debate(agents, 
                     law,
-                    Reviewer(prompt = "Sos delfi", agents = agents),
+                    Reviewer(system_prompt = "Sos delfi", agents = agents),
                     obligatory_topics=["Eje Etico"],#["Eje Economico", "Eje Social", "Eje Etico"]
                     n_rounds=3
                     )

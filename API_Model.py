@@ -64,9 +64,6 @@ class API_Model:
 
     async def call_api(
         self,
-        topic: str,
-        ronda:int,
-        law: str = None,
         previous_rounds_context: List[Dict[str, str]] = None,
 
     ) -> Union[StructuredAgentResponse, None]:
@@ -83,10 +80,6 @@ class API_Model:
             Una instancia de StructuredAgentResponse si la llamada a la API y el parseo
             son exitosos. Retorna None en caso de cualquier error (API o validación).
         """
-        print(f"\nPreparando llamada a la API para tópico: '{topic}'...")
-        if law:
-            print(f"Relacionado con ley: '{law}'")
-
         # --- Construir la lista completa de mensajes para enviar a la API ---
         messages = [self.system_prompt] # 1. Empezamos con el mensaje del sistema
 
@@ -98,32 +91,20 @@ class API_Model:
         if previous_rounds_context:
             messages.extend(previous_rounds_context)
 
-        # 4. Construir y añadir el mensaje del usuario actual
-        user_message_content = f"Siendo esta la ronda {ronda}, por favor genera una respuesta estructurada sobre el tópico: '{topic}'"
-        if law:
-            user_message_content += f" en relación con la ley '{law}'."
-        else:
-             user_message_content += "."
-
-        messages.append({
-            "role": "user",
-            "content": user_message_content,
-        })
         enc = tiktoken.encoding_for_model("gpt-4o-mini")
-
-        num_tokens = sum([len(enc.encode(m["content"])) for m in messages])
-        print("tokens" , num_tokens)
-        #print(" message al agente", messages)
 
         # --- Realizar la llamada a la API utilizando el cliente almacenado ---
         try:
-            # Usamos self.client que fue inicializado y parcheado en __init__
             generated_response: StructuredAgentResponse = await self.client.chat.completions.create(
                 model=self.deployment_name,
                 messages=messages,
                 response_model=StructuredAgentResponse,
                 max_retries=3
             )
+            num_tokens = sum([len(enc.encode(m["content"])) for m in messages])
+            print("input tokens" , num_tokens)
+            num_tokens = sum([len(enc.encode(generated_response.razonamiento))])
+            print("output tokens" , num_tokens)
             #print("Llamada a la API exitosa y respuesta parseada.")
             return generated_response
 
