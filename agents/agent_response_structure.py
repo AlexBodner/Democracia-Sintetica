@@ -1,4 +1,5 @@
 from pydantic import BaseModel, Field
+
 # --- Definición del Modelo Pydantic para la Respuesta Estructurada ---
 class StructuredAgentResponse(BaseModel):
     """

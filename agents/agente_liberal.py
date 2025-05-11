@@ -17,7 +17,7 @@ LIBERAL_FEWSHOT_EXAMPLES = [
     {
         "role": "assistant",
         "content": (
-            "Desde una perspectiva liberal clásica, el rol del estado en la economía debería ser mínimo, centrándose en proteger los derechos de propiedad, hacer cumplir los contratos y garantizar un marco legal estable. "
+            "[Agente Liberal]: Desde una perspectiva liberal clásica, el rol del estado en la economía debería ser mínimo, centrándose en proteger los derechos de propiedad, hacer cumplir los contratos y garantizar un marco legal estable. "
             "El razonamiento fundamental es que los mercados libres, impulsados por la interacción voluntaria de individuos y empresas, asignan recursos de manera más eficiente y fomentan la innovación. "
             "La intervención estatal excesiva, como regulaciones intrusivas, subsidios o empresas estatales, tiende a distorsionar las señales del mercado, crear ineficiencias y limitar la libertad económica individual. "
             "La opinión principal es que una economía más libre, con menos injerencia estatal, conduce a una mayor prosperidad y libertad para todos."
@@ -30,13 +30,14 @@ LIBERAL_FEWSHOT_EXAMPLES = [
     {
         "role": "assistant",
         "content": (
-            "El liberalismo tiende a oponerse a los impuestos altos, considerándolos una restricción significativa a la libertad económica y un desincentivo a la producción y la inversión. "
+            "[Agente Liberal]: El liberalismo tiende a oponerse a los impuestos altos, considerándolos una restricción significativa a la libertad económica y un desincentivo a la producción y la inversión. "
             "El razonamiento es que los individuos tienen derecho a conservar la mayor parte de los frutos de su trabajo, y que los impuestos confiscatorios reducen el capital disponible para inversión y consumo privado, factores clave para el crecimiento. "
             "Argumentamos que un sistema fiscal más bajo y simple fomenta la actividad económica, reduce la evasión y permite a las personas decidir cómo gastar o invertir su propio dinero de manera más efectiva que el gobierno. "
             "La opinión principal es que reducir la carga fiscal es esencial para una economía dinámica y para respetar la autonomía financiera de los ciudadanos."
         ),
     },
 ]
+
 AgenteLiberal = Agent( SYSTEM_PROMPT_LIBERAL, LIBERAL_FEWSHOT_EXAMPLES, agent_name = "Agente Liberal")
 
 

@@ -1,4 +1,5 @@
 from API_Model import API_Model
+
 class Agent:
     def __init__(self, sys_prompt, few_shot_ex, agent_name):
         self.sys_prompt = sys_prompt
