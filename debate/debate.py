@@ -17,6 +17,7 @@ class Debate:
         #Sin intervencion del reviewer en el medio
         
         full_debate = {}
+        topic_summaries = {}
         for topic in self.topics:
             context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}  y el topico {topic}.\
                         Van a haber 3 rondas, en la primera cada agente dara su opinion y argumentos a favor o en contra. \
@@ -27,10 +28,14 @@ class Debate:
                 context+=(self.debate_round(context, round,  topic, self.law))
             full_debate[topic] = deepcopy(context)
             topic_summary =  asyncio.run(self.reviewer.make_topic_summary(context))
+            topic_summaries[topic] = topic_summary
             print("Topic sumary")
             print(topic_summary)
         print("--- Full debate ---")
         print(full_debate)
+        #final_summary =  asyncio.run(self.reviewer.make_final_summary(topic_summaries))
+        #print(final_summary)
+
         #return self.conclusiones(full_debate)
     # def inicializar_ronda (self):
     #     context_few_shots = []
