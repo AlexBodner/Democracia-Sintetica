@@ -74,8 +74,7 @@ async def main():
     # --- Realizar la Llamada a la API ---
     print("\n--- Realizando llamada al agente API ---")
     generated_response = await api_model_agent.call_api(
-        topic=topico_ejemplo,
-        law=ley_relacionada,
+
         previous_rounds_context=contexto_previo
     )
 

@@ -7,7 +7,7 @@ from openai import AsyncAzureOpenAI # Cliente asíncrono de OpenAI
 import instructor # Librería para estructurar la salida del modelo
 
 import os
-from agents.agent_response_structure import StructuredAgentResponse
+from agents.response_structures import StructuredAgentResponse
 from dotenv import load_dotenv
 import tiktoken
 
@@ -65,6 +65,8 @@ class API_Model:
     async def call_api(
         self,
         previous_rounds_context: List[Dict[str, str]] = None,
+        pydantic_response_structure = StructuredAgentResponse
+
 
     ) -> Union[StructuredAgentResponse, None]:
         """
@@ -91,20 +93,20 @@ class API_Model:
         if previous_rounds_context:
             messages.extend(previous_rounds_context)
 
-        enc = tiktoken.encoding_for_model("gpt-4o-mini")
+        #enc = tiktoken.encoding_for_model("gpt-4o-mini")
 
         # --- Realizar la llamada a la API utilizando el cliente almacenado ---
         try:
-            generated_response: StructuredAgentResponse = await self.client.chat.completions.create(
+            generated_response: pydantic_response_structure = await self.client.chat.completions.create(
                 model=self.deployment_name,
                 messages=messages,
-                response_model=StructuredAgentResponse,
+                response_model=pydantic_response_structure,
                 max_retries=3
             )
-            num_tokens = sum([len(enc.encode(m["content"])) for m in messages])
-            print("input tokens" , num_tokens)
-            num_tokens = sum([len(enc.encode(generated_response.razonamiento))])
-            print("output tokens" , num_tokens)
+            # num_tokens = sum([len(enc.encode(m["content"])) for m in messages])
+            # print("input tokens" , num_tokens)
+            # num_tokens = sum([len(enc.encode(generated_response.razonamiento))])
+            # print("output tokens" , num_tokens)
             #print("Llamada a la API exitosa y respuesta parseada.")
             return generated_response
 
@@ -112,9 +114,5 @@ class API_Model:
             print(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
             if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
                  print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
-            return None
-        except Exception as e:
-            print(e)
-            print(f"Ocurrió un error inesperado al llamar a la API: {e}")
             return None
 
