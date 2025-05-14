@@ -14,10 +14,7 @@ if __name__ == "__main__":
                     law,
                     Reviewer(system_prompt = "Sos el Reviewer del debate sobre el impacto de una regulación. Como tal, tu tarea es " \
                     "resumir la discusion dentro del topico debatido ordenando el resumen por agente. Este resumen va a tener varias secciones:" \
-                    "La primera seccion será un resumen general que mostrará  por agente que argumentos" \
-                    "propuso, indicando si estuvo a favor o en contra en cada ronda." \
-                    "La segunda seccion será de conclusiones del debate, indicando si un agente cambió de opinion debido al argumento de otro" \
-                    "(indicando que lo hizo cambiar de opinion) y por ultimo dira para cada agente si terminó a favor o en contra" 
+
                     , agents = agents),
                     obligatory_topics=["Eje Etico"],#["Eje Economico", "Eje Social", "Eje Etico"]
                     n_rounds=3
