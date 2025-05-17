@@ -11,9 +11,12 @@ class Reviewer:# o orquestador
         self.per_topic_summary_prompt = {"role":"user", "content":"Ahora tu tarea es " \
                     "resumir la discusion dentro del topico debatido ordenando el resumen por agente. Este resumen va a tener varias secciones:" \
                     "La primera seccion será un resumen general que mostrará  por agente que argumentos" \
-                    "propuso, indicando si estuvo a favor o en contra en cada ronda." \
-                    "La segunda seccion será de conclusiones del debate, indicando si un agente cambió de opinion debido al argumento de otro" \
-                    "(indicando que lo hizo cambiar de opinion) y por ultimo dira para cada agente si terminó a favor o en contra" }
+                    "propuso, indicando si estuvo a favor o en contra en cada ronda. Tambien indicá si un agente cambió de opinion debido al argumento de otro" \
+                    "(indicando que lo hizo cambiar de opinion)" \
+                    "La segunda seccion será de conclusiones del debate, aca se esperan bullet points sobre cada agente indicando " \
+                    "Puntos de acuerdo, Conflictos ideológicos principales, Divergencias argumentativas, Resultado de la votación: [x votos a favor / x en contra]" \
+                    ""
+                    }
         self.final_summary_prompt =  {"role":"user", "content":"Ahora tu tarea es  hacer el resumen final de la discusion para que un humano"
                     "lo pueda entender rápidamente atravesando todos los ejes. Tendrás que hacer un cierre por agente, indicando"
                     "si cambió en que topicos y debido a que argumento, por otro lado indicar su postura general respecto de la ley diciendo"
@@ -46,8 +49,8 @@ class Reviewer:# o orquestador
         context.append(self.final_summary_prompt)
 
         for topic in topics_sumaries:
-            context.append("role":"user",
-                           "content": f"Este es el resumen del Eje de debate {topic}: \n {topics_sumaries[topics_sumaries]}")
+            context.append({"role" : "user", 
+                           "content": f"Este es el resumen del Eje de debate {topic}: \n {topics_sumaries[topics_sumaries]}"})
 
 
         generated_response = await self.api_model_agent.call_api(
