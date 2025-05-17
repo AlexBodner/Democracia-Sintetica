@@ -14,7 +14,7 @@ class Agent:
     #             "content": self.sys_prompt},
     #             "role": ]
     async def speak(self, prev_round_context):
-        generated_response = await self.api_model_agent.call_api(
+        generated_response = await self.api_model_agent.call_api_search(
             previous_rounds_context=prev_round_context
         )
         output = {

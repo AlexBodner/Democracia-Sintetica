@@ -1,10 +1,10 @@
-from agents.reviewer import *
-from agents.agent import Agent
+from debate_agents.reviewer import Reviewer
+from debate_agents.agent import Agent
 from debate.debate import Debate
-from agents.agente_liberal import AgenteLiberal
-from agents.agente_izquierda import AgenteIzquierda
+from debate_agents.agente_liberal import AgenteLiberal
+from debate_agents.agente_izquierda import AgenteIzquierda
 if __name__ == "__main__":
-    agente_liberal =AgenteLiberal
+    agente_liberal = AgenteLiberal
     agente_izquierda = AgenteIzquierda
     agents = [agente_liberal, agente_izquierda]
 

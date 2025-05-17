@@ -1,4 +1,4 @@
-from agents.agent import Agent
+from debate_agents.agent import Agent
 
 SYSTEM_PROMPT_ULTRAIZQUIERDA = {
     "role": "system",

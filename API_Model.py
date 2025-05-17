@@ -7,13 +7,17 @@ from openai import AsyncAzureOpenAI # Cliente asíncrono de OpenAI
 import instructor # Librería para estructurar la salida del modelo
 
 import os
-from agents.response_structures import StructuredAgentResponse
+from debate_agents.response_structures import StructuredAgentResponse
 from dotenv import load_dotenv
-import tiktoken
-
-
+#import tiktoken
+from pydantic import BaseModel
+import openai
+from pydantic_ai import Agent, RunContext
+from openai import AsyncOpenAI
+from pydantic_ai.common_tools.duckduckgo import duckduckgo_search_tool
 # --- Cargar variables de entorno ---
 load_dotenv()
+
 
 
 # --- Clase API_Model ---
@@ -43,19 +47,19 @@ class API_Model:
         self.system_prompt = system_prompt
         self.few_shot_examples = few_shot_examples if few_shot_examples is not None else []
         # Asegúrate de que estas variables existan en tu .env
-        api_key = os.getenv("API_KEY")
-        endpoint = os.getenv("ENDPOINT")
+        self.api_key = os.getenv("API_KEY")
+        self.endpoint = os.getenv("ENDPOINT")
         # --- Configuración de la API ---
-        api_version = "2024-12-01-preview"
+        self.api_version = "2024-12-01-preview"
         try:
             # Crea la instancia del cliente usando los parámetros pasados al __init__
-            async_client_instance = AsyncAzureOpenAI(
-                api_version=api_version,
-                azure_endpoint=endpoint,
-                api_key=api_key
+            self.client = AsyncAzureOpenAI(
+                api_version=self.api_version,
+                azure_endpoint=self.endpoint,
+                api_key=self.api_key
             )
             # Aplica el parche de instructor a la instancia específica del cliente
-            self.client = instructor.patch(async_client_instance) # Almacena el cliente parcheado
+            self.client = instructor.patch(self.client) # Almacena el cliente parcheado
 
         except Exception as e:
             raise ValueError(f"ERROR al inicializar o parchear el cliente OpenAI: {e}") from e
@@ -116,3 +120,63 @@ class API_Model:
                  print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
             return None
 
+    async def call_api_search(
+        self,
+        previous_rounds_context: List[Dict[str, str]] = None,
+        pydantic_response_structure = StructuredAgentResponse
+    ) -> Union[StructuredAgentResponse, None]:
+        """
+        Realiza una llamada asíncrona al modelo de lenguaje con el contexto y tópico dados.
+
+        Args:
+            topic: El tópico principal de la consulta del usuario.
+            law: Opcional, información sobre una ley relacionada con el tópico.
+            previous_rounds_context: Opcional, lista de mensajes que representan
+                                     conversaciones anteriores (historial del chat).
+
+        Returns:
+            Una instancia de StructuredAgentResponse si la llamada a la API y el parseo
+            son exitosos. Retorna None en caso de cualquier error (API o validación).
+        """
+        #set_default_openai_client(self.client)
+
+        # --- Construir la lista completa de mensajes para enviar a la API ---
+        messages = []#[self.system_prompt] # 1. Empezamos con el mensaje del sistema
+        #set_default_openai_client(self.client)
+
+        # 2. Añadir few-shot examples (si existen)
+        if self.few_shot_examples:
+            messages.extend(self.few_shot_examples)
+
+        # 3. Añadir contexto de rondas previas (si existe)
+        if previous_rounds_context:
+            messages.extend(previous_rounds_context)
+
+        try:
+            from pydantic_ai.models.openai import OpenAIModel
+            from pydantic_ai.providers.openai import OpenAIProvider
+
+            client = AsyncAzureOpenAI(
+                azure_endpoint=self.endpoint,
+                api_version=self.api_version,
+                api_key=self.api_key,
+            )
+
+            model = OpenAIModel(
+                self.deployment_name,
+                provider=OpenAIProvider(openai_client=client),
+            )
+            agent = Agent(model, system_prompt = self.system_prompt, tools=[duckduckgo_search_tool()],)
+                           #instructions = #"Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición.")
+            # "Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
+            result = await agent.run("Que localidades de buenos aires ")
+            print(result)
+            print("Structured Result:", result.output)
+
+            return result
+
+        except ValidationError as e:
+            print(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
+            if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
+                 print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
+            return None

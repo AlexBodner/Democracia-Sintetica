@@ -1,5 +1,5 @@
 from API_Model import API_Model
-from agents.response_structures import StructuredReviewerResponse
+from debate_agents.response_structures import StructuredReviewerResponse
 class Reviewer:# o orquestador
     def __init__(self, system_prompt, agents,):
         self.system_prompt = {"role":"system", "content":system_prompt}
