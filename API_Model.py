@@ -69,9 +69,7 @@ class API_Model:
     async def call_api(
         self,
         previous_rounds_context: List[Dict[str, str]] = None,
-        pydantic_response_structure = StructuredAgentResponse
-
-
+        pydantic_response_structure=StructuredAgentResponse
     ) -> Union[StructuredAgentResponse, None]:
         """
         Realiza una llamada asíncrona al modelo de lenguaje con el contexto y tópico dados.
@@ -101,21 +99,20 @@ class API_Model:
 
         # --- Realizar la llamada a la API utilizando el cliente almacenado ---
         try:
+            # Validar que todos los mensajes tengan la clave "content"
+            for message in messages:
+                if "content" not in message:
+                    raise ValueError(f"El mensaje no contiene la clave 'content': {message}")
+
+            # Realizar la llamada al modelo
             generated_response: pydantic_response_structure = await self.client.chat.completions.create(
                 model=self.deployment_name,
                 messages=messages,
                 response_model=pydantic_response_structure,
                 max_retries=3,
-                seed = 42
-
+                seed=42
             )
-            # num_tokens = sum([len(enc.encode(m["content"])) for m in messages])
-            # print("input tokens" , num_tokens)
-            # num_tokens = sum([len(enc.encode(generated_response.razonamiento))])
-            # print("output tokens" , num_tokens)
-            #print("Llamada a la API exitosa y respuesta parseada.")
             return generated_response
-
         except ValidationError as e:
             print(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
             if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):

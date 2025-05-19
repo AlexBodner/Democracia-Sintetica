@@ -55,14 +55,19 @@ class Investigador:
 
     async def busca(
         self, consigna_de_busqueda
-    ) :
+    ):
         try:
-            print("consgna",type(consigna_de_busqueda))
-            print("Busca en google lo siguiente: "+ consigna_de_busqueda)
-            result = await self.agent.run_sync("Busca en google lo siguiente: "+ consigna_de_busqueda)
-            #print("Structured Result:", result.output)
-            return result.output
+            print("Busca en google lo siguiente: " + consigna_de_busqueda)
+            # Ajustamos el prompt para que sea más claro y específico
+            prompt = (
+                "Busca información confiable y relevante sobre el siguiente tema en la web: "
+                f"'{consigna_de_busqueda}'. Devuélveme directamente los hechos, datos y argumentos clave "
+                "relacionados con esta búsqueda. No hagas preguntas ni introducciones, solo proporciona un resumen claro y directo."
+            )
+    
+            result = await self.agent.run({"role": "user", "content": prompt})
 
+            return result.output
         except ValidationError as e:
             print(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
             if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):

@@ -14,28 +14,26 @@ class Agent:
     #     return [{"role":"system",
     #             "content": self.sys_prompt},
     #             "role": ]
-    async def speak(self, prev_round_context, search = False, investigador =None):
-        
+    async def speak(self, prev_round_context, search = False, investigador = None):
         if search:
             search_response = await self.api_model_agent.call_api(
-                previous_rounds_context = prev_round_context+ [{"role":"user",
-                                                                "content":"Tienes la posibilidad de buscar en la web, si tienes la necesidad de buscar mas argumentos,"
+                previous_rounds_context = prev_round_context + [{"role":"user",
+                                                                "content":"Tienes la posibilidad de buscar en la web, si tienes la necesidad de buscar más argumentos,"
                                                                 " respaldar alguno de los tuyos con datos o quieres verificar el de otro agente, puedes hacerlo completando el campo 'queres_buscar'"
                                                                 "y el campo 'consigna_de_busqueda' con lo que quieras que el Agente Investigador busque por ti."}], 
                 pydantic_response_structure = SearchAgentResponse
             )
-            print("search_response",search_response)
             if search_response.queres_buscar:
                 contexto = deepcopy(prev_round_context)
                 busqueda = await investigador.busca(search_response.consigna_de_busqueda)
                 contexto.append({
-                    "role": "user",
-                    "content": f"Los resultados de la investigacion sobre: {search_response.consigna_de_busqueda} son: {busqueda}" ,
+                    "role": "user", 
+                    "content": f"Los resultados de la investigación sobre: {search_response.consigna_de_busqueda} son: {busqueda}" ,
                 })
 
-                print("-------------------Busqueda de google------------------------------")
+                print("------------------- Búsqueda de Google ------------------------------")
                 print(busqueda)
-                print("-----------------------------------------------------------")
+                print("---------------------------------------------------------------------")
                 generated_response = await self.api_model_agent.call_api(
                     previous_rounds_context = contexto
                 )
@@ -55,4 +53,4 @@ class Agent:
 
     def vote_topic(self, topic, summary):
         pass
-    
+
