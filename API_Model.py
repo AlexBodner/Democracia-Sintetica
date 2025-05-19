@@ -105,7 +105,9 @@ class API_Model:
                 model=self.deployment_name,
                 messages=messages,
                 response_model=pydantic_response_structure,
-                max_retries=3
+                max_retries=3,
+                seed = 42
+
             )
             # num_tokens = sum([len(enc.encode(m["content"])) for m in messages])
             # print("input tokens" , num_tokens)
@@ -120,63 +122,3 @@ class API_Model:
                  print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
             return None
 
-    async def call_api_search(
-        self,
-        previous_rounds_context: List[Dict[str, str]] = None,
-        pydantic_response_structure = StructuredAgentResponse
-    ) -> Union[StructuredAgentResponse, None]:
-        """
-        Realiza una llamada asíncrona al modelo de lenguaje con el contexto y tópico dados.
-
-        Args:
-            topic: El tópico principal de la consulta del usuario.
-            law: Opcional, información sobre una ley relacionada con el tópico.
-            previous_rounds_context: Opcional, lista de mensajes que representan
-                                     conversaciones anteriores (historial del chat).
-
-        Returns:
-            Una instancia de StructuredAgentResponse si la llamada a la API y el parseo
-            son exitosos. Retorna None en caso de cualquier error (API o validación).
-        """
-        #set_default_openai_client(self.client)
-
-        # --- Construir la lista completa de mensajes para enviar a la API ---
-        messages = []#[self.system_prompt] # 1. Empezamos con el mensaje del sistema
-        #set_default_openai_client(self.client)
-
-        # 2. Añadir few-shot examples (si existen)
-        if self.few_shot_examples:
-            messages.extend(self.few_shot_examples)
-
-        # 3. Añadir contexto de rondas previas (si existe)
-        if previous_rounds_context:
-            messages.extend(previous_rounds_context)
-
-        try:
-            from pydantic_ai.models.openai import OpenAIModel
-            from pydantic_ai.providers.openai import OpenAIProvider
-
-            client = AsyncAzureOpenAI(
-                azure_endpoint=self.endpoint,
-                api_version=self.api_version,
-                api_key=self.api_key,
-            )
-
-            model = OpenAIModel(
-                self.deployment_name,
-                provider=OpenAIProvider(openai_client=client),
-            )
-            agent = Agent(model, system_prompt = self.system_prompt, tools=[duckduckgo_search_tool()],)
-                           #instructions = #"Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición.")
-            # "Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
-            result = await agent.run("Que localidades de buenos aires ")
-            print(result)
-            print("Structured Result:", result.output)
-
-            return result
-
-        except ValidationError as e:
-            print(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
-            if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
-                 print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
-            return None

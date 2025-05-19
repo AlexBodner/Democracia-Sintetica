@@ -27,7 +27,7 @@ class Investigador:
     ):
 
         self.deployment_name =  os.getenv("DEPLOYMENT") 
-        self.system_prompt = system_prompt #"Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
+        self.system_prompt = system_prompt #"
         self.instruction = instruction
         # Asegúrate de que estas variables existan en tu .env
         self.api_key = os.getenv("API_KEY")
@@ -57,7 +57,9 @@ class Investigador:
         self, consigna_de_busqueda
     ) :
         try:
-            result = await self.agent.run(self, "Busca en google lo siguiente:"+ consigna_de_busqueda)
+            print("consgna",type(consigna_de_busqueda))
+            print("Busca en google lo siguiente: "+ consigna_de_busqueda)
+            result = await self.agent.run_sync("Busca en google lo siguiente: "+ consigna_de_busqueda)
             #print("Structured Result:", result.output)
             return result.output
 
