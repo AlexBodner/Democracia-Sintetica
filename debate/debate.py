@@ -10,10 +10,9 @@ class Debate:
         self.n_rounds = n_rounds
         self.topics = obligatory_topics
         self.round_info = []
-        self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica."\
-                                         ,
-                                         instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición.")
-    def run_debate(self,):
+        self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica.")
+    #                                         , instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
+    async def run_debate(self,):
         #Sin intervencion del reviewer en el medio
         
         full_debate = {}
@@ -25,30 +24,28 @@ class Debate:
                         la ultima ronda cada uno recibira los argumentos y contraargumentos y podra hacer una argumentacion y conclusion final."}, ]
             for round in range(self.n_rounds):
                 print("-----------------------------------","Round", round,"-----------------------------------")
-                context+= asyncio.run(self.debate_round(context, round,  topic, self.law))
+                result = await self.debate_round(context, round,  topic, self.law)
+                context+= result
             full_debate[topic] = deepcopy(context)
-            topic_summary =  asyncio.run(self.reviewer.make_topic_summary(context))
+            topic_summary = await self.reviewer.make_topic_summary(context)
             topic_summaries[topic] = topic_summary
             print("Topic sumary")
             print(topic_summary)
         print("--- Full debate ---")
         print(full_debate)
+        
+        final_summary =  await self.reviewer.make_final_summary(topic_summaries)
 
-        final_summary =  asyncio.run(self.reviewer.make_final_summary(topic_summaries))
         print("---------------------- Final Summary------------------------")
 
         print(final_summary)
 
-        #final_summary =  asyncio.run(self.reviewer.make_final_summary(topic_summaries))
         #print(final_summary)
 
         #return self.conclusiones(full_debate)
-    # def inicializar_ronda (self):
-    #     context_few_shots = []
-    #     for agent in self.agents:
-    #         context_few_shots.append()
 
-    def debate_round(self,prev_round_context,round_nr, topic, law):
+
+    async def debate_round(self,prev_round_context,round_nr, topic, law):
         prev_round_context.append({"role":"user",
             "content": f"Ahora arranca la ronda {round_nr}"}) #este es el reviewer
         
@@ -75,7 +72,7 @@ class Debate:
             agent_context = deepcopy(prev_round_context)
             agent_context.append(dar_palabra)
 
-            agent_response = asyncio.run(agent.speak(agent_context, search = True, investigador = self.investigador))
+            agent_response = await agent.speak(agent_context, search = True, investigador = self.investigador)
             
             print(agent_response)
             round_context.append(dar_palabra)

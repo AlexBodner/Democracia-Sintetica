@@ -25,3 +25,9 @@ class StructuredReviewerResponse(BaseModel):
     """
     resumen: str = Field(description="El resumen solicitado.")
     #resumen_principal: str = Field(description="Un resumen conciso de la idea principal o conclusión de la respuesta del agente.")
+class InvestigadorResponse(BaseModel):
+    """
+    Define la estructura esperada para una respuesta estructurada de un agente.
+    Esta clase sirve como esquema para el parseo de la respuesta de texto del modelo.
+    """
+    razonamiento: str = Field(description="La informacion explicada de las distintas paginas que sean relevantes hacia la busqueda.")

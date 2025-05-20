@@ -3,6 +3,7 @@ from debate_agents.agent import Agent
 from debate.debate import Debate
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
+import asyncio
 if __name__ == "__main__":
     agente_liberal = AgenteLiberal
     agente_izquierda = AgenteIzquierda
@@ -23,5 +24,5 @@ if __name__ == "__main__":
                     obligatory_topics=["Eje Etico"],#["Eje Economico", "Eje Social", "Eje Etico"]
                     n_rounds=3
                     )
-    debate.run_debate()
+    asyncio.run(debate.run_debate())
 

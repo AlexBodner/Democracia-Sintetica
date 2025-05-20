@@ -1,70 +1,73 @@
-# --- Imports necesarios para las definiciones de clases ---
-from typing import Any, List, Dict, Union # Tipado para métodos y atributos
 
 from pydantic import BaseModel, Field, ValidationError # Clases base y excepciones de Pydantic
-from openai import AsyncAzureOpenAI # Cliente asíncrono de OpenAI
-import instructor # Librería para estructurar la salida del modelo
 
-import os
-from debate_agents.response_structures import StructuredAgentResponse
+from debate_agents.response_structures import *
+
+from API_Model import API_Model
 from dotenv import load_dotenv
 #import tiktoken
-from pydantic import BaseModel
-import openai
-from pydantic_ai import Agent, RunContext
-from openai import AsyncOpenAI
-from pydantic_ai.common_tools.duckduckgo import duckduckgo_search_tool
+import http.client
+import json
+import requests
 # --- Cargar variables de entorno ---
 load_dotenv()
-from pydantic_ai.models.openai import OpenAIModel
-from pydantic_ai.providers.openai import OpenAIProvider
+
 # --- Clase API_Model ---
 class Investigador:
     def __init__(
         self,
         system_prompt: str, # El mensaje del sistema que define el rol/persona del agente
-        instruction: str
-    ):
+        #instruction: str
+        ):
+        self.key = "a44bce33a7cc6234f7fd5ec6084a446260289206"
 
-        self.deployment_name =  os.getenv("DEPLOYMENT") 
-        self.system_prompt = system_prompt #"
-        self.instruction = instruction
-        # Asegúrate de que estas variables existan en tu .env
-        self.api_key = os.getenv("API_KEY")
-        self.endpoint = os.getenv("ENDPOINT")
-        # --- Configuración de la API ---
-        self.api_version = "2024-12-01-preview"
-        try:
-            # Crea la instancia del cliente usando los parámetros pasados al __init__
-            self.client = AsyncAzureOpenAI(
-                api_version=self.api_version,
-                azure_endpoint=self.endpoint,
-                api_key=self.api_key
+        self.api_model_agent = API_Model(
+            system_prompt=system_prompt, 
             )
-            # Aplica el parche de instructor a la instancia específica del cliente
-            self.client = instructor.patch(self.client) # Almacena el cliente parcheado
-            model = OpenAIModel(
-                self.deployment_name,
-                provider=OpenAIProvider(openai_client=self.client),
-            )
-            self.agent = Agent(model, system_prompt = self.system_prompt, tools=[duckduckgo_search_tool()],
-                           instructions = self.instruction)
-        except Exception as e:
-            raise ValueError(f"ERROR al inicializar o parchear el cliente OpenAI: {e}") from e
+
+        self.conn = http.client.HTTPSConnection("google.serper.dev")
 
 
-    async def busca(
-        self, consigna_de_busqueda
-    ) :
+    def get_pages_info(self, consigna_de_busqueda):
+        payload = json.dumps({
+          "q": consigna_de_busqueda,
+          "gl": "ar"
+        })
+        headers = {
+          'X-API-KEY': self.key,
+          'Content-Type': 'application/json'
+        }
+        self.conn.request("POST", "/search", payload, headers)
+        res = self.conn.getresponse()
+        response_body = res.read()
+        response = json.loads(response_body)
+        busqueda = ""
+        for i in range(5):
+            link = response["organic"][i]["link"]
+            data = requests.get(link) 
+            if data.status_code ==200:
+                busqueda+= f"El contenido para la pagina {link} es : \n"
+                busqueda+= data.text + "\n"
+                #print(data.text)
+        return busqueda
+    async def busca(self, consigna_de_busqueda) :
         try:
-            print("consgna",type(consigna_de_busqueda))
-            print("Busca en google lo siguiente: "+ consigna_de_busqueda)
-            result = await self.agent.run_sync("Busca en google lo siguiente: "+ consigna_de_busqueda)
-            #print("Structured Result:", result.output)
-            return result.output
+            busqueda = self.get_pages_info( consigna_de_busqueda)
+            contexto = ({
+                "role": "user",
+                "content": "Extrae la informacion importante sobre las siguientes paginas solicitadas para que luego los" 
+                f"agentes políticos. La consigna de busqueda fue {consigna_de_busqueda} y los contenidos devueltos fueron: {busqueda}" ,
+            })
 
+            print("-------------------Busqueda de google------------------------------")
+            print("-----------------------------------------------------------")
+            generated_response:InvestigadorResponse = await self.api_model_agent.call_api(
+                previous_rounds_context = contexto
+            )
+            return generated_response.razonamiento
         except ValidationError as e:
             print(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
             if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
                  print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
             return None
+        
