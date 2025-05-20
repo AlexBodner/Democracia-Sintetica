@@ -53,11 +53,11 @@ class Investigador:
     async def busca(self, consigna_de_busqueda) :
         try:
             busqueda = self.get_pages_info( consigna_de_busqueda)
-            contexto = ({
+            contexto = [{
                 "role": "user",
                 "content": "Extrae la informacion importante sobre las siguientes paginas solicitadas para que luego los" 
                 f"agentes políticos. La consigna de busqueda fue {consigna_de_busqueda} y los contenidos devueltos fueron: {busqueda}" ,
-            })
+            }]
 
             print("-------------------Busqueda de google------------------------------")
             print("-----------------------------------------------------------")
