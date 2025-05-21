@@ -22,7 +22,7 @@ class Investigador:
         self.key = "a44bce33a7cc6234f7fd5ec6084a446260289206"
 
         self.api_model_agent = API_Model(
-            system_prompt=system_prompt, 
+            system_prompt={"role":"system", "content": system_prompt}, 
             )
 
         self.conn = http.client.HTTPSConnection("google.serper.dev")
@@ -48,6 +48,7 @@ class Investigador:
             if data.status_code ==200:
                 busqueda+= f"El contenido para la pagina {link} es : \n"
                 busqueda+= data.text + "\n"
+            print(link)
                 #print(data.text)
         return busqueda
     async def busca(self, consigna_de_busqueda) :
@@ -62,7 +63,8 @@ class Investigador:
             print("-------------------Busqueda de google------------------------------")
             print("-----------------------------------------------------------")
             generated_response:InvestigadorResponse = await self.api_model_agent.call_api(
-                previous_rounds_context = contexto
+                previous_rounds_context = contexto,pydantic_response_structure=InvestigadorResponse
+
             )
             return generated_response.razonamiento
         except ValidationError as e:
