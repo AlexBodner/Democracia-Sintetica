@@ -31,3 +31,10 @@ class InvestigadorResponse(BaseModel):
     Esta clase sirve como esquema para el parseo de la respuesta de texto del modelo.
     """
     razonamiento: str = Field(description="La informacion explicada de las distintas paginas que sean relevantes hacia la busqueda.")
+
+class EvaluadorResponse(BaseModel):
+    """
+    Define la estructura esperada para una respuesta estructurada del Evaluador de resultados del debate.
+    """
+    razonamiento: str = Field(description="La explicacion de porque considera que los argumentos son similares y porque asigna ese puntaje.")
+    puntaje: float = Field(description="El puntaje de similaridad entre 0 y 1 entre los argumentos del debate sintético y el debate original.")
