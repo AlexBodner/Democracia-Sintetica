@@ -10,7 +10,8 @@ def evaluar_argumentos_dado_resumen(ley_dict, resumen_general, api_model: API_Mo
     #iterar sobre ley_dict["argumentos"]
         #tirarle al api_model consulta de si se parecen y cuanto
         postura_debate = hacer algo con resumen_general
-        context = [{"role":"user", "content":"Compara la postura original: {postura} contra la postura: {postura_debate}"}]
+        context = [{"role":"user", "content":"Enfocandose en los argumentos del agente {Agente}, compara la postura original: {postura} contra"
+        " la postura de {Agente} en el resumen del siguiente debate: {postura_debate}"}]
         results_dict[postura] = api_model.call_api(context)
     return results_dict
 
