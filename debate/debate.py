@@ -19,6 +19,7 @@ class Debate:
         full_debate = {}
         topic_summaries = {}
         for topic in self.topics:
+            logger.info(f"\n\n\n            -----------------------------------Topic {topic} -----------------------------------\n\n\n")
             context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}  y el topico {topic}.\
                         Van a haber 3 rondas, en la primera cada agente dara su opinion y argumentos a favor o en contra. \
                         En la segunda ronda los agentes recibiran los argumentos del resto y podran contraargumentar. En \
@@ -54,7 +55,7 @@ class Debate:
         
         if round_nr == 0:
             prev_round_context.append({"role":"user",
-                    "content": f"En esta ronda cada aagente puede dar argumentos a favor o en contra del tema {topic} y la ley {law}.\
+                    "content": f"En esta ronda cada agente puede dar argumentos a favor o en contra del tema {topic} y la ley {law}.\
                     La argumentacion no debe ser muy extensa pero debe estar bien fundamentada, con ejemplos y referencias a la ley concisos y reales."}) 
         if round_nr == 1:
             prev_round_context.append({"role":"user",
