@@ -9,11 +9,12 @@ import tiktoken
 import http.client
 import json
 import requests
+from logger import logger
+
 # --- Cargar variables de entorno ---
 load_dotenv()
 from boilerpy3 import extractors
 
-# --- Clase API_Model ---
 class Investigador:
     def __init__(
         self,
@@ -60,13 +61,17 @@ class Investigador:
             cantidad_correctos+=1
             #print(data.text)
         return busqueda
+    
+    
     async def busca(self, consigna_de_busqueda) :
         try:
             busqueda = self.get_pages_info( consigna_de_busqueda)
             contexto = [{
                 "role": "user",
-                "content": "Extrae la informacion importante sobre las siguientes paginas solicitadas para que luego los agentes políticos. La consigna de busqueda fue" 
-                +consigna_de_busqueda + " y los contenidos devueltos fueron: "+busqueda ,
+                "content": "Extrae la informacion importante sobre las siguientes paginas solicitadas para que luego los agentes\
+                    políticos puedan debatir con fundamento. La idea es que extraigas datos que le puedan servir al agente \
+                        para sustentar su debate y contraargumentar o fortalecer ciertas ideas. La consigna de busqueda fue" 
+                        + consigna_de_busqueda + " y los contenidos devueltos fueron: "+ busqueda ,
             }]
 
 
@@ -76,8 +81,8 @@ class Investigador:
             )
             return generated_response.razonamiento
         except ValidationError as e:
-            print(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
+            logger.error(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
             if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
-                 print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
+                 logger.error(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
             return None
     

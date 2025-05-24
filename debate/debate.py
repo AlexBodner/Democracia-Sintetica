@@ -1,6 +1,7 @@
 import asyncio
 from copy import deepcopy
 from debate_agents.investigador import Investigador
+from logger import logger
 
 class Debate:
     def __init__(self, agents, law, reviewer, obligatory_topics , n_rounds = 3):
@@ -23,22 +24,22 @@ class Debate:
                         En la segunda ronda los agentes recibiran los argumentos del resto y podran contraargumentar. En \
                         la ultima ronda cada uno recibira los argumentos y contraargumentos y podra hacer una argumentacion y conclusion final."}, ]
             for round in range(self.n_rounds):
-                print("-----------------------------------","Round", round,"-----------------------------------")
+                logger.info(f"-----------------------------------Round {round} -----------------------------------")
                 result = await self.debate_round(context, round,  topic, self.law)
                 context+= result
             full_debate[topic] = deepcopy(context)
             topic_summary = await self.reviewer.make_topic_summary(context)
             topic_summaries[topic] = topic_summary
-            print("Topic sumary")
-            print(topic_summary)
-        print("--- Full debate ---")
-        print(full_debate)
+            logger.info("Topic sumary")
+            logger.info(topic_summary)
+        logger.info("--- Full debate ---")
+        logger.info(full_debate)
         
         final_summary =  await self.reviewer.make_final_summary(topic_summaries)
 
-        print("---------------------- Final Summary------------------------")
+        logger.info("---------------------- Final Summary------------------------")
 
-        print(final_summary)
+        logger.info(final_summary)
 
         #print(final_summary)
 
@@ -67,14 +68,14 @@ class Debate:
                         dado los contraargumentos. Deben hacer un resumen final de su postura y una conclusion sobre el tema, siempre fiel a su postura politica."}) 
 
         for agent in self.agents:
-            print("Agente:", agent.agent_name)
+            logger.info(f"Agente: {agent.agent_name}")
             dar_palabra = {"role":"user", "content": f"Tiene la palabra el {agent.agent_name}"} #este es el reviewer
             agent_context = deepcopy(prev_round_context)
             agent_context.append(dar_palabra)
 
             agent_response = await agent.speak(agent_context, search = True, investigador = self.investigador)
             
-            print(agent_response)
+            logger.info(agent_response)
             round_context.append(dar_palabra)
 
             round_context.append(agent_response)

@@ -5,12 +5,15 @@ from debate.debate import Debate
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
 import asyncio
+import pydantic
+
 if __name__ == "__main__":
     agente_liberal = AgenteLiberal
     agente_izquierda = AgenteIzquierda
     agents = [agente_liberal, agente_izquierda]
 
-    law = "Se debe legalizar el LSD?"
+    #law = "Se debe legalizar el LSD?"
+    law = "Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."
 
     debate = Debate(agents, 
                     law,
@@ -22,8 +25,9 @@ if __name__ == "__main__":
                                             "Tu análisis debe ser claro, objetivo y técnico, sin introducir opiniones propias. Usá un tono institucional, como el de un informe parlamentario." 
 
                     , agents = agents),
-                    obligatory_topics=["Eje Etico"],#["Eje Economico", "Eje Social", "Eje Etico"]
+                    obligatory_topics=["Eje Etico","Eje Economico", "Eje Social", "Eje Etico"],
                     n_rounds=3
                     )
+    
     asyncio.run(debate.run_debate())
 

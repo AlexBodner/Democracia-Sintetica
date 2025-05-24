@@ -14,11 +14,11 @@ from pydantic import BaseModel
 import openai
 from pydantic_ai import Agent, RunContext
 from openai import AsyncOpenAI
-from pydantic_ai.common_tools.duckduckgo import duckduckgo_search_tool
+from logger import logger
+
+# from pydantic_ai.common_tools.duckduckgo import duckduckgo_search_tool
 # --- Cargar variables de entorno ---
 load_dotenv()
-
-
 
 # --- Clase API_Model ---
 class API_Model:
@@ -114,8 +114,8 @@ class API_Model:
             )
             return generated_response
         except ValidationError as e:
-            print(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
+            logger.error(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
             if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
-                 print(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
+                 logger.error(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
             return None
 
