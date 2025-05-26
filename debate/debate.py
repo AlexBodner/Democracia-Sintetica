@@ -33,6 +33,7 @@ class Debate:
             topic_summaries[topic] = topic_summary
             logger.info("Topic sumary")
             logger.info(topic_summary)
+            
         logger.info("--- Full debate ---")
         logger.info(full_debate)
         
