@@ -7,7 +7,6 @@ from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteCentroIzquierda
 from debate_agents.agente_centro_derecha import AgenteCentroDerecha
 import asyncio
-import pydantic
 
 if __name__ == "__main__":
     
@@ -37,4 +36,3 @@ if __name__ == "__main__":
                     )
     
     asyncio.run(debate.run_debate())
-
