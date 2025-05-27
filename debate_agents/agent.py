@@ -20,16 +20,19 @@ class Agent:
                 previous_rounds_context = prev_round_context+ [{"role":"user",
                                                                 "content":"Tienes la posibilidad de buscar en la web, si tienes la necesidad de buscar mas argumentos,"
                                                                 " respaldar alguno de los tuyos con datos o quieres verificar el de otro agente, puedes hacerlo completando el campo 'queres_buscar'"
-                                                                "y el campo 'consigna_de_busqueda' con lo que quieras que el Agente Investigador busque por ti."}], 
+                                                                "y el campo 'consigna_de_busqueda' con lo que quieras que el Agente Investigador busque por ti."
+                                                                "Podes buscar leyes similares que se hayan aplicado en otros paises y sus consecuencias,"
+                                                                "o buscar datos estadísticos o casos que respalden tus argumentos. Asegurate de no buscar"
+                                                                " futura, es decir de años posteriores a la ley que se esta debatiendo o información que ya tengas en el contexto de la conversación."}], 
                                                                 pydantic_response_structure = SearchAgentResponse
             )
             if search_response.queres_buscar:
-                logger.info(f"\n\n\n       Consigna de busqueda: {search_response.consigna_de_busqueda}\n\n\n")
+                logger.info(f"\n\n       Consigna de busqueda: {search_response.consigna_de_busqueda}\n\n")
                 contexto = deepcopy(prev_round_context)
                 busqueda =await investigador.busca(search_response.consigna_de_busqueda)
                 contexto.append({
                     "role": "user", 
-                    "content": f"Los resultados de la investigación sobre: {search_response.consigna_de_busqueda} son: {busqueda}" ,
+                    "content": f"Los resultados de tu investigación sobre: {search_response.consigna_de_busqueda} son: {busqueda}" ,
                 })
 
                 logger.info("------------------- Búsqueda de Google ------------------------------")
