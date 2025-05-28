@@ -13,6 +13,12 @@ class Debate:
         self.round_info = []
         self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica.")
     #                                         , instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
+    
+    
+    
+
+
+
     async def run_debate(self,):
         #Sin intervencion del reviewer en el medio
         
@@ -41,6 +47,10 @@ class Debate:
             
         logger.info("--- Full debate ---")
         logger.info(full_debate)
+        
+        full_debate["debate general"] = await self.make_closing_arguments(full_debate)
+        logger.info("-------------------------------------------------")
+        
         
         final_summary =  await self.reviewer.make_final_summary(topic_summaries)
 
@@ -92,3 +102,44 @@ class Debate:
 
     def conclusiones(self,full_debate):
         return self.reviewer.make_final_summary(full_debate)
+    
+    
+
+    async def make_closing_arguments(self, full_debate):
+        closing_round = []
+        logger.info("\n\n------------------- RONDA FINAL: CONCLUSIÓN GENERAL -------------------\n\n")
+
+
+        for agent in self.agents:
+            closing_instruction = {
+            "role": "user",
+            "content": (
+                "A continuación, deberás realizar un argumento de cierre sobre la ley en debate, tomando en cuenta todo el intercambio anterior.\n"
+                "Revisá tus posturas anteriores y las de los demás agentes, y hacé una síntesis final de tu postura general sobre la ley.\n"
+                "Podés mantener o cambiar tu voto si considerás que los argumentos de otros agentes te convencieron en alguno de los ejes.\n\n"
+                "Tu respuesta debe:\n"
+                f"- Ser coherente con tu identidad política. Recorda que debes ser fiel a {agent.agent_name}\n"
+                "- Incluir referencias o menciones a los argumentos más relevantes de los distintos tópicos.\n"
+                "- Terminar con tu voto final sobre la ley: A FAVOR o EN CONTRA.\n\n"
+                "Este voto será considerado el definitivo."
+            )
+        }
+            logger.info(f"Agente: {agent.agent_name}")
+            agent_context = []
+
+        
+            for topic, messages in full_debate.items():
+                agent_context.append({
+                    "role": "user",
+                    "content": f"Debate sobre el eje '{topic}':\n"
+                })
+                agent_context.extend(messages)
+
+        
+            agent_context.append(closing_instruction)
+        
+            response = await agent.speak(agent_context, topic="cierre_final", search=False)
+            logger.info(response)
+            closing_round.append({"agent": agent.agent_name, "response": response})
+
+        return closing_round

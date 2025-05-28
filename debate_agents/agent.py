@@ -17,7 +17,7 @@ class Agent:
         
         if search:
             search_response: SearchAgentResponse = await self.api_model_agent.call_api(
-                previous_rounds_context = prev_round_context+ [{"role":"user",
+                previous_rounds_context = prev_round_context + [{"role":"user",
                                                                 "content":f"Tienes la posibilidad de buscar en la web, si tienes la necesidad de buscar mas argumentos. Acordate que deben aplicar al eje {topic}"
                                                                 " respaldar alguno de los tuyos con datos o quieres verificar el de otro agente, puedes hacerlo completando el campo 'queres_buscar'"
                                                                 "y el campo 'consigna_de_busqueda' con lo que quieras que el Agente Investigador busque por ti."
