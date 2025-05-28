@@ -13,17 +13,17 @@ class Agent:
             )
         self.agent_name = agent_name
 
-    async def speak(self, prev_round_context, search = False, investigador =None):
+    async def speak(self, prev_round_context, topic, search = False, investigador =None):
         
         if search:
             search_response: SearchAgentResponse = await self.api_model_agent.call_api(
                 previous_rounds_context = prev_round_context+ [{"role":"user",
-                                                                "content":"Tienes la posibilidad de buscar en la web, si tienes la necesidad de buscar mas argumentos,"
+                                                                "content":f"Tienes la posibilidad de buscar en la web, si tienes la necesidad de buscar mas argumentos. Acordate que deben aplicar al eje {topic}"
                                                                 " respaldar alguno de los tuyos con datos o quieres verificar el de otro agente, puedes hacerlo completando el campo 'queres_buscar'"
                                                                 "y el campo 'consigna_de_busqueda' con lo que quieras que el Agente Investigador busque por ti."
                                                                 "Podes buscar leyes similares que se hayan aplicado en otros paises y sus consecuencias,"
                                                                 "o buscar datos estadísticos o casos que respalden tus argumentos. Asegurate de no buscar"
-                                                                " futura, es decir de años posteriores a la ley que se esta debatiendo o información que ya tengas en el contexto de la conversación."}], 
+                                                                " informacion futura, es decir de años posteriores a la ley que se esta debatiendo o información que ya tengas en el contexto de la conversación."}], 
                                                                 pydantic_response_structure = SearchAgentResponse
             )
             if search_response.queres_buscar:

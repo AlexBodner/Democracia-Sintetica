@@ -20,10 +20,15 @@ class Debate:
         topic_summaries = {}
         for topic in self.topics:
             logger.info(f"\n\n\n            -----------------------------------Topic {topic} -----------------------------------\n\n\n")
-            context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}  y el topico {topic}.\
+            context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}  y el topico {topic}. Enfocate en argumentar unicamente sobre\
+                        este topico. Al final va a haber un espacio para juntar las argumentaciones de varios ejes y hacer un resumen general, pero por ahora\
+                        la argumentacion debe limitarse al topico {topic}.\n\
                         Van a haber 3 rondas, en la primera cada agente dara su opinion y argumentos a favor o en contra. \
                         En la segunda ronda los agentes recibiran los argumentos del resto y podran contraargumentar. En \
-                        la ultima ronda cada uno recibira los argumentos y contraargumentos y podra hacer una argumentacion y conclusion final."}, ]
+                        la ultima ronda cada uno recibira los argumentos y contraargumentos y podra hacer una argumentacion y conclusion final.\
+                        Se espera que en todas las rondas, el agente aclare al finalizar su argumentacion si vota a favor o en contra. El voto puede\
+                        cambiar ronda a ronda, pero el voto final para ver si una ley se aprueba o no es el de la ultima ronda. "}, ]
+            
             for round in range(self.n_rounds):
                 logger.info(f"-----------------------------------Round {round} -----------------------------------")
                 result = await self.debate_round(context, round,  topic, self.law)
@@ -75,7 +80,7 @@ class Debate:
             agent_context = deepcopy(prev_round_context)
             agent_context.append(dar_palabra)
 
-            agent_response = await agent.speak(agent_context, search = True, investigador = self.investigador)
+            agent_response = await agent.speak(agent_context, topic, search = True, investigador = self.investigador)
             
             logger.info(agent_response)
             round_context.append(dar_palabra)
