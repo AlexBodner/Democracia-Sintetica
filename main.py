@@ -31,7 +31,6 @@ if __name__ == "__main__":
                                             "Tu análisis debe ser claro, objetivo y técnico, sin introducir opiniones propias. Usá un tono institucional, como el de un informe parlamentario." 
 
                     , agents = agents),
-                    obligatory_topics=["Eje Etico","Eje Economico", "Eje Social"],
                     n_rounds=3
                     )
     

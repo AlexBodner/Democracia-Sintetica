@@ -71,19 +71,7 @@ class API_Model:
         previous_rounds_context: List[Dict[str, str]] = None,
         pydantic_response_structure=StructuredAgentResponse
     ) -> Union[StructuredAgentResponse, None]:
-        """
-        Realiza una llamada asíncrona al modelo de lenguaje con el contexto y tópico dados.
 
-        Args:
-            topic: El tópico principal de la consulta del usuario.
-            law: Opcional, información sobre una ley relacionada con el tópico.
-            previous_rounds_context: Opcional, lista de mensajes que representan
-                                     conversaciones anteriores (historial del chat).
-
-        Returns:
-            Una instancia de StructuredAgentResponse si la llamada a la API y el parseo
-            son exitosos. Retorna None en caso de cualquier error (API o validación).
-        """
         # --- Construir la lista completa de mensajes para enviar a la API ---
         messages = [self.system_prompt] # 1. Empezamos con el mensaje del sistema
 
@@ -105,7 +93,7 @@ class API_Model:
                     raise ValueError(f"El mensaje no contiene la clave 'content': {message}")
 
             # Realizar la llamada al modelo
-            generated_response: pydantic_response_structure = await self.client.chat.completions.create(
+            generated_response: pydantic_response_structure = await self.client.chat.completions.create( # type: ignore
                 model=self.deployment_name,
                 messages=messages,
                 response_model=pydantic_response_structure,

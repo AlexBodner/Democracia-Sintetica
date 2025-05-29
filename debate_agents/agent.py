@@ -13,17 +13,17 @@ class Agent:
             )
         self.agent_name = agent_name
 
-    async def speak(self, prev_round_context, topic, search = False, investigador =None):
+    async def speak(self, prev_round_context, search = False, investigador =None):
         
         if search:
             search_response: SearchAgentResponse = await self.api_model_agent.call_api(
                 previous_rounds_context = prev_round_context + [{"role":"user",
-                                                                "content":f"Tienes la posibilidad de buscar en la web, si tienes la necesidad de buscar mas argumentos. Acordate que deben aplicar al eje {topic}"
+                                                                "content":f"Tienes la posibilidad de buscar en la web, si tienes la necesidad de buscar mas argumentos."
                                                                 " respaldar alguno de los tuyos con datos o quieres verificar el de otro agente, puedes hacerlo completando el campo 'queres_buscar'"
                                                                 "y el campo 'consigna_de_busqueda' con lo que quieras que el Agente Investigador busque por ti."
-                                                                "Podes buscar leyes similares que se hayan aplicado en otros paises y sus consecuencias,"
+                                                                "Podes buscar leyes similares que se hayan aplicado en uno o varios paises y sus consecuencias,"
                                                                 "o buscar datos estadísticos o casos que respalden tus argumentos. Asegurate de no buscar"
-                                                                " informacion futura, es decir de años posteriores a la ley que se esta debatiendo o información que ya tengas en el contexto de la conversación."}], 
+                                                                " información que ya tengas en el contexto de la conversación ni repetir busquedas."}], 
                                                                 pydantic_response_structure = SearchAgentResponse
             )
             if search_response.queres_buscar:
@@ -41,7 +41,7 @@ class Agent:
                 generated_response = await self.api_model_agent.call_api(
                     previous_rounds_context = contexto
                 )
-                razonamiento = generated_response.razonamiento
+                razonamiento = f"Investigué sobre: {search_response.consigna_de_busqueda} y los resultados obtenidos son: \n {busqueda} \n\n Mi argumentación es:" + generated_response.razonamiento 
             else:
                 razonamiento = search_response.razonamiento
         else:
@@ -51,7 +51,7 @@ class Agent:
             razonamiento = generated_response.razonamiento
         output = {
             "role": "assistant",
-            "content": f"[{self.agent_name}]: " + razonamiento,
+            "content": f"[{self.agent_name}]: " + f"{razonamiento}",
         }
         return output
 
