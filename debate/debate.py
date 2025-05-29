@@ -14,11 +14,6 @@ class Debate:
         self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica.")
     #                                         , instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
     
-    
-    
-
-
-
     async def run_debate(self,):
         #Sin intervencion del reviewer en el medio
         
@@ -51,11 +46,9 @@ class Debate:
         full_debate["debate general"] = await self.make_closing_arguments(full_debate)
         logger.info("-------------------------------------------------")
         
-        
+    
         final_summary =  await self.reviewer.make_final_summary(topic_summaries)
-
         logger.info("---------------------- Final Summary------------------------")
-
         logger.info(final_summary)
 
         #print(final_summary)
@@ -104,7 +97,6 @@ class Debate:
         return self.reviewer.make_final_summary(full_debate)
     
     
-
     async def make_closing_arguments(self, full_debate):
         closing_round = []
         logger.info("\n\n------------------- RONDA FINAL: CONCLUSIÓN GENERAL -------------------\n\n")
@@ -118,9 +110,13 @@ class Debate:
                 "Revisá tus posturas anteriores y las de los demás agentes, y hacé una síntesis final de tu postura general sobre la ley.\n"
                 "Podés mantener o cambiar tu voto si considerás que los argumentos de otros agentes te convencieron en alguno de los ejes.\n\n"
                 "Tu respuesta debe:\n"
-                f"- Ser coherente con tu identidad política. Recorda que debes ser fiel a {agent.agent_name}\n"
+                f"- Ser coherente con tu identidad política. Recorda que debes ser fiel a {agent.agent_name}. Junta todos tus argumentos,\
+                    resumilos, y hace una conclusion final de tu voto general considerando todos los ejes.\n"
                 "- Incluir referencias o menciones a los argumentos más relevantes de los distintos tópicos.\n"
-                "- Terminar con tu voto final sobre la ley: A FAVOR o EN CONTRA.\n\n"
+                "- Terminar tu argumento con tu voto a favor o en contra, siguiendo este formato: \
+                    { argumentacion:  ....,\
+                      voto: ....\
+                    }\n\n"
                 "Este voto será considerado el definitivo."
             )
         }

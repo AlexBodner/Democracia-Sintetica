@@ -52,6 +52,8 @@ class Reviewer:# o orquestador
             pydantic_response_structure=StructuredReviewerResponse
         )
         return generated_response.resumen
+    
+    
     async def make_final_summary(self, topics_sumaries: dict):
         """Creates the final summary out of the topic summaries (o lo hacemos dado toda la conversacion?)
 
