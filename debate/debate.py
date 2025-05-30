@@ -2,15 +2,16 @@ import asyncio
 from copy import deepcopy
 from debate_agents.investigador import Investigador
 from logger import logger
+from debate.round import FirstRound, SecondRound, ThirdRound
+
 
 class Debate:
-    def __init__(self, agents, law, reviewer, n_rounds = 3):
+    def __init__(self, agents, law, reviewer):  
         self.agents = agents
         self.law = law
         self.reviewer = reviewer 
-        self.n_rounds = n_rounds
-
-        self.round_info = []
+        self.rounds = [FirstRound(law), SecondRound(law), ThirdRound(law)]
+        #self.round_info = []
         self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica.")
     #                                         , instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
     
@@ -27,8 +28,8 @@ class Debate:
                     Se espera que en todas las rondas, el agente aclare al finalizar su argumentacion si vota a favor o en contra. El voto puede\
                     cambiar ronda a ronda, pero el voto final para ver si una ley se aprueba o no es el de la ultima ronda. "}, ]
         
-        for round in range(self.n_rounds):
-            logger.info(f"-----------------------------------Round {round} -----------------------------------")
+        for round in self.rounds:
+            logger.info(f"-----------------------------------Round {round.round_nr} -----------------------------------")
             result = await self.debate_round(context, round, self.law)
             context+= result
 
@@ -48,28 +49,12 @@ class Debate:
         
         return full_debate
 
-    async def debate_round(self,prev_round_context,round_nr, law):
+    async def debate_round(self,prev_round_context, round, law):
         prev_round_context.append({"role":"user",
-            "content": f"Ahora arranca la ronda {round_nr}"}) #este es el reviewer
+            "content": f"Ahora arranca la ronda {round.round_nr}"}) #este es el reviewer
         
         round_context = []
-        
-        if round_nr == 0:
-            prev_round_context.append({"role":"user",
-                    "content": f"En esta ronda cada agente puede dar argumentos a favor o en contra de la ley {law}.\
-                    La argumentacion no debe ser muy extensa pero debe estar bien fundamentada, con ejemplos y referencias a la ley concisos y reales."}) 
-            
-        if round_nr == 1:
-            prev_round_context.append({"role":"user",
-                    "content": f"En esta ronda cada agente recibe como contexto previo los argumentos de los todos agentes de la primera ronda \
-                        y van a poder contraargumentar o reafirmar su postura. Deben aclarar a que agente le estan respondiendo. Los agentes pueden intentar convencer al otro o cambiar su postura.\
-                        Es importante que los agentes no se repitan y que cada uno aporte algo nuevo y deben ser fieles a su postura politica."}) 
-            
-        if round_nr == 2:
-            prev_round_context.append({"role":"user",
-                    "content": f"En esta ronda cada agente recibe como contexto previo los argumentos y contraargumentos de todos los \
-                        agentes de la segunda ronda y van a poder hacer una argumentacion final. Pueden mantener la misma postura o cambiar de opinion \
-                        dado los contraargumentos. Deben hacer un resumen final de su postura y una conclusion sobre el tema, siempre fiel a su postura politica."}) 
+        prev_round_context.append({"role":"user", "content": round.prompt})
 
         for agent in self.agents:
             logger.info(f"Agente: {agent.agent_name}")

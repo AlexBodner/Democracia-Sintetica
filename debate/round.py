@@ -1,7 +1,31 @@
 class Round:
-    def __init__(self, topic, law, previous_rounds_context, agents, round_nr):
-        self.topic = topic
+    def __init__(self,  law):
         self.law = law
-        self.previous_rounds_context = previous_rounds_context
-        self.agents = agents
-        self.round_nr = round_nr
+        self.prompt = None
+        self.round_nr = None
+        
+
+class FirstRound(Round):
+    def __init__(self, law):
+        super().__init__(law)
+        self.prompt = f"En esta ronda cada agente puede dar argumentos a favor o en contra de la ley {law}. " \
+                      "La argumentación no debe ser muy extensa pero debe estar bien fundamentada, con ejemplos y referencias a la ley concisos y reales."
+        self.round_nr = 0
+
+
+class SecondRound(Round):
+    def __init__(self, law):
+        super().__init__(law)
+        self.prompt = f"En esta ronda cada agente recibe como contexto previo los argumentos de todos los agentes de la primera ronda " \
+                      "y van a poder contraargumentar o reafirmar su postura. Deben aclarar a qué agente le están respondiendo. " \
+                      "Los agentes pueden intentar convencer al otro o cambiar su postura. Es importante que los agentes no se repitan y que\
+                      cada uno aporte algo nuevo y sean fieles a su postura política."
+        self.round_nr = 1
+                      
+class ThirdRound(Round):
+    def __init__(self, law):
+        super().__init__(law)
+        self.prompt = f"En esta ronda cada agente recibe como contexto previo los argumentos y contraargumentos de todos los " \
+                      "agentes de la segunda ronda y van a poder hacer una argumentación final. Pueden mantener la misma postura o cambiar de opinión " \
+                      "dado los contraargumentos. Deben hacer un resumen final de su postura y una conclusión sobre el tema, siempre fiel a su postura política."
+        self.round_nr = 2

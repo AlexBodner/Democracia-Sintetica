@@ -30,8 +30,6 @@ if __name__ == "__main__":
                                             "Luego, hacés una síntesis general del debate en ese eje: señalás los puntos en común, los principales desacuerdos, si hubo cambio de postura o consenso parcial, y cuál fue la distribución del voto." \
                                             "Tu análisis debe ser claro, objetivo y técnico, sin introducir opiniones propias. Usá un tono institucional, como el de un informe parlamentario." 
 
-                    , agents = agents),
-                    n_rounds=3
-                    )
+                    , agents = agents))
     
     asyncio.run(debate.run_debate())
