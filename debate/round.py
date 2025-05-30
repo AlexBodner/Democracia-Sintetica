@@ -8,25 +8,38 @@ class Round:
 class FirstRound(Round):
     def __init__(self, law):
         super().__init__(law)
-        self.prompt = f"En esta ronda cada agente puede dar argumentos a favor o en contra de la ley {law}. " \
-                      "La argumentación no debe ser muy extensa pero debe estar bien fundamentada, con ejemplos y referencias a la ley concisos y reales."
         self.round_nr = 0
+        self.prompt = (
+            f"En esta primera ronda, cada agente debe presentar su postura inicial frente a la ley '{law}', expresando si está a favor o en contra. "
+            "La argumentación debe ser clara, concreta y estar bien fundamentada desde su perspectiva ideológica. "
+            "Se espera que se incluya al menos un ejemplo relevante, una referencia específica a la ley en cuestión y el impacto que podría tener. "
+            "Esta ronda sienta las bases del debate, por lo tanto es fundamental que cada agente exprese con solidez sus valores, principios y preocupaciones clave. "
+            "Al finalizar su intervención, cada agente debe explicitar su voto actual: a favor o en contra de la ley."
+            )
+
 
 
 class SecondRound(Round):
     def __init__(self, law):
         super().__init__(law)
-        self.prompt = f"En esta ronda cada agente recibe como contexto previo los argumentos de todos los agentes de la primera ronda (inlcuso lo que dijo el mismo) " \
-                      "y van a poder contraargumentar o reafirmar su postura. Deben aclarar a qué agente le están respondiendo. " \
-                      "Los agentes pueden intentar convencer al otro o cambiar su postura. Es importante que los agentes no se repitan y que\
-                      cada uno aporte algo nuevo y sean fieles a su postura política. Tiene que seguir el planteo que hizo en la ronda\
-                      anterior, pero puede cambiar de opinión si lo considera necesario, siempre aclarando por que cambia de opinion y argumentando su decision. " 
         self.round_nr = 1
+        self.prompt = (
+            f"En esta segunda ronda, cada agente recibe como contexto los argumentos expresados en la primera ronda por todos los agentes, "
+            "incluyendo su propia intervención. Su tarea es analizar críticamente esos argumentos y responder, reafirmando o ajustando su postura. "
+            "Deben identificar explícitamente a qué agente(s) están respondiendo, señalar los puntos de acuerdo o desacuerdo, y plantear contraargumentos claros y consistentes con su identidad ideológica. "
+            "Si algún agente decide modificar su postura o voto, debe explicar de forma justificada qué lo motivó al cambio. "
+            "Esta ronda es clave para generar diálogo, tensión argumentativa y refinar las posiciones. "
+            "Al final, cada agente debe indicar si mantiene o modifica su voto sobre la ley."
+        )
+
                       
 class ThirdRound(Round):
     def __init__(self, law):
         super().__init__(law)
-        self.prompt = f"En esta ronda cada agente recibe como contexto previo los argumentos y contraargumentos de todos los " \
-                      "agentes de la segunda ronda y van a poder hacer una argumentación final. Pueden mantener la misma postura o cambiar de opinión " \
-                      "dado los contraargumentos. Deben hacer un resumen final de su postura y una conclusión sobre el tema, siempre fiel a su postura política."
         self.round_nr = 2
+        self.prompt = (
+            "En esta tercera ronda, cada agente dispone de todos los argumentos y contraargumentos previos para realizar una síntesis final. "
+            "Debe elaborar una conclusión que integre su postura original con las réplicas del debate, señalando qué elementos considera válidos, cuáles descarta y por qué. "
+            "Es fundamental que su intervención sea coherente, fiel a sus valores ideológicos y que evalúe si el intercambio enriqueció su mirada o reforzó su posición inicial. "
+            f"La respuesta debe cerrar el debate desde su perspectiva y justificar de manera clara su voto final: a favor o en contra de la ley {law}."
+        )
