@@ -1,6 +1,7 @@
 from pydantic import BaseModel, Field
+from typing import Dict
 
-# --- Definición del Modelo Pydantic para la Respuesta Estructurada ---
+
 class StructuredAgentResponse(BaseModel):
     """
     Define la estructura esperada para una respuesta estructurada de un agente.
@@ -10,6 +11,7 @@ class StructuredAgentResponse(BaseModel):
     consigna_de_busqueda:str
     queres_buscar: bool
 
+
 class SearchAgentResponse(BaseModel):
     """
     Define la estructura esperada para una respuesta estructurada de un agente.
@@ -18,13 +20,16 @@ class SearchAgentResponse(BaseModel):
     razonamiento: str = Field(description="El razonamiento detallado detrás de la respuesta del agente, explicando los argumentos o pasos seguidos. No completar si va a querer hacer un google search (queres_buscar = True)")
     consigna_de_busqueda:str = Field(description="Las query de busqueda para el Google Search. No completar si va a querer hacer un google search (queres_buscar = True)")
     queres_buscar: bool
-# --- Definición del Modelo Pydantic para la Respuesta Estructurada ---
+
+
 class StructuredReviewerResponse(BaseModel):
     """
     Define la estructura esperada para una respuesta estructurada de un reviewer.
     """
     resumen: str = Field(description="El resumen solicitado.")
     #resumen_principal: str = Field(description="Un resumen conciso de la idea principal o conclusión de la respuesta del agente.")
+
+
 class InvestigadorResponse(BaseModel):
     """
     Define la estructura esperada para una respuesta estructurada de un agente.
@@ -32,12 +37,18 @@ class InvestigadorResponse(BaseModel):
     """
     razonamiento: str = Field(description="La informacion explicada de las distintas paginas que sean relevantes hacia la busqueda.")
 
+
+class AnalisisAgente(BaseModel):
+    debate_sintetico: str = Field(description="Lo que dijo el agente en el debate sintético.")
+    postura_real: str = Field(description="La postura esperada según la ideología.")
+    similitudes: str = Field(description="Similitudes entre el debate sintético y el real.")
+    diferencias: str = Field(description="Diferencias entre el debate sintético y el real.")
+    puntaje: float = Field(description="Puntaje de similitud para este agente, entre 0 y 1, basado en la fidelidad ideológica.")
+
 class EvaluadorResponse(BaseModel):
-    """
-    Define la estructura esperada para una respuesta estructurada del Evaluador de resultados del debate.
-    """
-    razonamiento: str = Field(description="La explicacion de porque considera que los argumentos son similares y porque asigna ese puntaje.")
-    puntaje: float = Field(description="El puntaje de similaridad entre 0 y 1 entre los argumentos del debate sintético y el debate original.")
+    analisis_por_agente: Dict[str, AnalisisAgente] = Field(description="Un diccionario donde la clave es el agente y el valor es un análisis detallado con similitudes, diferencias, posturas, etc.")
+    razonamiento_general: str = Field( description="Explicación general de las coincidencias o diferencias encontradas en los debates, y justificación del puntaje.")
+    puntaje_final: float = Field(description="Puntaje de similaridad global entre el debate sintético y el real, entre 0 y 1.")
     
     
     """
