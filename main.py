@@ -1,6 +1,6 @@
 import asyncio
 from debate_agents.reviewer import Reviewer
-from debate_agents.agent import Agent
+#from debate_agents.agent import Agent
 from debate.debate import Debate
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda

@@ -1,8 +1,12 @@
 import json
 from API_Model import API_Model
 from debate_agents.response_structures import EvaluadorResponse
+import re
 
 class AgenteEvaluador:
+    puntaje_base_general = 0
+    analisis_agente = {}
+
     def __init__(self, system_prompt: str):
         """
         Inicializa el agente evaluador con el modelo de evaluación.
@@ -32,11 +36,20 @@ class AgenteEvaluador:
         """
         Evalúa un debate sintético contra las posturas reales y devuelve el razonamiento y puntaje.
         """
-        context = [
+
+        # Contexto para el LLM 
+        context = [ 
             {
                 "role": "user",
                 "content": f"### Debate generado por agentes (sintético):\n{debate_sintetico}\n\n"
-                           f"### Posturas reales por partido:\n{json.dumps(posturas_reales, indent=2)}",
+                           f"### Posturas reales por partido:\n{json.dumps(posturas_reales, indent=2)}\n\n"
+                           f"Estructura la respuesta de la siguiente manera:\n\n"
+                           f"1. Análisis detallado por agente:\n"
+                           f"   - Para cada agente, analiza los argumentos del debate sintético y del debate real.\n"
+                           f"   - Identifica similitudes y diferencias.\n"
+                           f"   - Calcula un puntaje de similaridad por agente.\n"
+                           f"2. Un párrafo general sobre el debate.\n"
+                           f"3. Puntaje global del debate.\n"
             }
         ]
 
@@ -45,15 +58,47 @@ class AgenteEvaluador:
             pydantic_response_structure=EvaluadorResponse,
         )
         return response
+    
 
-    def registrar_evaluacion(self, ley: str, razonamiento: str, puntaje: float):
-        """
-        Imprime la evaluación en la consola.
-        """
-        print(f"Evaluación para la ley: {ley}")
-        print(f"Razón: {razonamiento}")
-        print(f"Puntaje: {puntaje}")
+    # def registrar_evaluacion(self, ley: str, razonamiento_general: str, analisis_por_agente: dict, puntaje_final: float):
+    #     print(f"\nEvaluación para la ley: {ley}")
+    #     print("\nAnálisis por agente:")
+    #     for agente, analisis in analisis_por_agente.items():
+    #         print(f"\n\n- {agente}:")
+    #         print(f"  \nDebate sintético: {analisis.debate_sintetico}")
+    #         print(f"  \nPostura real: {analisis.postura_real}")
+    #         print(f"  \nSimilitudes: {analisis.similitudes}")
+    #         print(f"  \nDiferencias: {analisis.diferencias}")
+    #         print(f"  \nPuntaje: {analisis.puntaje}")
 
+    #     print(f"\n\nRazón general:\n{razonamiento_general}")
+    #     print(f"\nPuntaje final ajustado: {puntaje_final}")
+
+    def registrar_evaluacion(self, ley: str, razonamiento_general: str, analisis_por_agente: dict, puntaje_final: float):
+        resultado = f"\nEvaluación para la ley: {ley}\n"
+        resultado += "\nAnálisis por agente:\n"
+        for agente, analisis in analisis_por_agente.items():
+            resultado += f"\n\n- {agente}:\n"
+            resultado += f"  Debate sintético: {analisis.debate_sintetico}\n"
+            resultado += f"  Postura real: {analisis.postura_real}\n"
+            resultado += f"  Similitudes: {analisis.similitudes}\n"
+            resultado += f"  Diferencias: {analisis.diferencias}\n"
+            resultado += f"  Puntaje: {analisis.puntaje}\n"
+
+        resultado += f"\n\nRazón general:\n{razonamiento_general}\n"
+        resultado += f"\nPuntaje final ajustado: {puntaje_final}\n"
+        resultado += f"{'-'*80}\n"
+
+        # Imprimir en consola
+        print(resultado)
+
+        # Guardar en archivo evaluador.log (modo append)
+        with open("evaluador.log", "w", encoding="utf-8") as f:
+            f.write(resultado)
+
+
+
+            
     async def procesar_ley(self, leyes_filepath: str, log_filepath: str, law: str):
         """
         Procesa la ley correspondiente y evalúa el debate sintético contra las posturas reales.
@@ -77,7 +122,11 @@ class AgenteEvaluador:
             response = await self.evaluar_debate(debate_sintetico, ley["posturas"])
 
             # Imprimir resultados
-            self.registrar_evaluacion(ley["nombre"], response.razonamiento, response.puntaje)
+            self.registrar_evaluacion(ley["nombre"], 
+                                      response.razonamiento_general,
+                                      response.analisis_por_agente,
+                                      response.puntaje_final)                       
+
 
         except Exception as e:
             print(f"Error al evaluar la ley {ley['nombre']}: {e}")

@@ -9,3 +9,7 @@ tiktoken
 pydantic
 urllib3
 boilerpy3
+langgraph
+langchain 
+langchain-openai
+langchain-community

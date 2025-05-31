@@ -3,7 +3,7 @@ from copy import deepcopy
 from debate_agents.investigador import Investigador
 from logger import logger
 from debate.round import FirstRound, SecondRound, ThirdRound
-
+from researcher.deepresearch import deepresearch
 
 class Debate:
     def __init__(self, agents, law, reviewer):  
@@ -20,7 +20,7 @@ class Debate:
         #Sin intervencion del reviewer en el medio
         
         full_debate = {}
-    
+        await deepresearch()
         context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}. \n\
                     Van a haber 3 rondas, en la primera cada agente dara su opinion y argumentos a favor o en contra. \
                     En la segunda ronda los agentes recibiran los argumentos del resto y podran contraargumentar. En \
@@ -62,13 +62,12 @@ class Debate:
             agent_context = deepcopy(prev_round_context)
             agent_context.append(dar_palabra)
 
-            agent_response = await agent.speak(agent_context, search = True, investigador = self.investigador)
+            agent_response = await agent.speak(agent_context, search = False, investigador = self.investigador)
             
             logger.info(agent_response['content'])
             round_context.append(dar_palabra)
 
             round_context.append(agent_response)
-            #time.sleep(61)
         return round_context
 
 

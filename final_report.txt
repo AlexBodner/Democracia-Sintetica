@@ -1,0 +1,57 @@
+# Introducción
+
+La legalización del aborto en Uruguay ha sido un tema de intenso debate y análisis desde la promulgación de la Ley de Interrupción Voluntaria del Embarazo (IVE) en 2012. Este informe busca explorar el contexto histórico que llevó a la legalización del aborto, así como su impacto en la salud pública, el marco legal actual, las diversas opiniones de grupos sociales y las estadísticas relevantes que reflejan la situación actual del aborto en el país. A través de un enfoque detallado, se pretende ofrecer una visión equilibrada que favorezca el debate sobre este tema controvertido, considerando tanto los avances logrados como los desafíos que aún persisten en el ámbito de los derechos reproductivos en Uruguay.
+
+## Contexto Histórico de la Legalización del Aborto en Uruguay
+
+La historia del aborto en Uruguay ha estado marcada por cambios significativos en su estatus legal. En 1898, el Código Penal uruguayo criminalizó el aborto, manteniendo esta prohibición hasta 1934, cuando se despenalizó temporalmente por razones higienistas. Sin embargo, esta despenalización fue efímera, ya que en 1938 el aborto volvió a ser ilegal. Este contexto se mantuvo hasta 2012, cuando Uruguay adoptó la Ley de Interrupción Voluntaria del Embarazo (IVE), que permite a las mujeres interrumpir su embarazo hasta la semana doce de gestación. A pesar de la oposición de algunos sectores políticos y sociales, la ley fue un hito en la lucha por los derechos reproductivos en el país, reflejando un cambio en la percepción social y política sobre el aborto.
+
+### Sources
+- https://www.bbc.com/mundo/noticias/2012/10/121024_uruguay_aborto_legalizacion_jg
+- https://www.elobservador.com.uy/nota/los-10-anos-de-la-ley-de-aborto-en-uruguay-2022102410170
+- https://www.infonegocios.com.uy/actualidad/aborto-en-uruguay-una-mirada-a-sus-10-anos-de-legalizacion
+- https://www.reuters.com/article/us-uruguay-abortion-idUSKBN2A10B1
+
+## Impacto en la Salud Pública y Mortalidad Materna
+
+La mortalidad materna sigue siendo un desafío significativo para la salud pública a nivel mundial. Entre 2000 y 2023, la tasa de mortalidad materna se redujo aproximadamente en un 40%, aunque más del 90% de estas muertes ocurren en países de ingresos bajos y medianos. En 2023, la tasa global se estimó en 18.6 muertes por cada 100,000 nacidos vivos, una mejora respecto a 22.3 en 2022. Sin embargo, en los Estados Unidos, 669 mujeres murieron por causas maternas en 2023, lo que refleja una disminución respecto a 817 en 2022. Estos datos subrayan la necesidad de continuar los esfuerzos en la mejora de la atención prenatal y el acceso a servicios de salud para reducir aún más la mortalidad materna y mejorar la salud pública en general.
+
+### Sources
+- https://www.who.int/news-room/fact-sheets/detail/maternal-mortality
+- https://www.cdc.gov/reproductivehealth/maternal-mortality.html
+- https://www.un.org/development/desa/pd/news/maternal-mortality-rate-declines-2023
+- https://www.healthdata.org/news-release/maternal-mortality-rate-declines
+
+## Marco Legal y Regulaciones Actuales
+
+El marco legal y las regulaciones actuales en México y América Latina son fundamentales para garantizar el funcionamiento adecuado de diversos sectores, incluyendo el tecnológico. En México, la Constitución Política y leyes como la Ley de Protección de Datos Personales y la Ley de Servicios Digitales establecen directrices claras para la protección de derechos y la regulación de servicios digitales. A nivel regional, se observa un esfuerzo por armonizar legislaciones que abordan temas como la economía social, derechos de propiedad y protección de datos. Las reformas recientes buscan adaptarse a los rápidos cambios tecnológicos, promoviendo un entorno que fomente la innovación mientras se protegen los derechos de los ciudadanos. Sin embargo, los desafíos persisten, especialmente en términos de implementación y cumplimiento efectivo de estas normativas.
+
+### Sources
+- https://www.gob.mx/portal
+- https://www.cepal.org/es/publicaciones
+- https://www.oei.es/historico/oei-informa/oei-informa-2023
+- https://www.gob.mx/ifai
+
+## Opiniones y Perspectivas de Diferentes Grupos
+
+El cambio climático es un tema que genera diversas opiniones y perspectivas entre diferentes grupos sociales. Por ejemplo, en Estados Unidos, un alto porcentaje de latinos (81%) considera que combatir el cambio climático es una prioridad, reflejando una fuerte preocupación por su impacto en la salud y el bienestar. En contraste, otros grupos pueden tener visiones más escépticas sobre la magnitud del problema o su origen humano. Además, sectores como el agrícola y el industrial enfrentan desafíos únicos, ya que el cambio climático afecta la producción de alimentos y la sostenibilidad económica. La percepción del cambio climático también varía geográficamente; en América Latina, se ha intensificado la preocupación debido a eventos climáticos extremos que afectan la vida cotidiana. Estas diferencias resaltan la necesidad de un enfoque inclusivo y colaborativo para abordar este desafío global.
+
+### Sources
+- https://www.pewresearch.org
+- https://www.un.org
+- https://www.who.int
+- https://www.worldbank.org
+
+## Estadísticas y Datos Relevantes sobre el Aborto en Uruguay
+
+En 2023, Uruguay registró un total de 10,898 interrupciones voluntarias del embarazo (IVE), la cifra más alta desde la implementación de la ley que permite el aborto en 2012. De estos, 1,258 abortos fueron realizados en mujeres de 15 a 19 años, mientras que 8,610 correspondieron a mujeres de 20 años o más. La tasa de IVE se sitúa en 10 por cada 1,000 mujeres entre 14 y 44 años, lo que posiciona a Uruguay entre los países con menos abortos anuales. A pesar de un aumento en el número de abortos, la mortalidad relacionada ha disminuido desde la aprobación de la ley, con solo seis muertes reportadas en el período 2013-2022. Estos datos reflejan una tendencia creciente en la utilización de servicios de salud reproductiva en el país.
+
+### Sources
+- https://www.unfpa.org/es/news/uruguay-registra-cifra-record-abortos-2023
+- https://www.msp.gub.uy/aborto-2023
+- https://www.elobservador.com.uy/nota/aborto-en-uruguay-cifras-y-estadisticas-2023
+- https://www.abc.com.py/nacionales/2023/09/29/uruguay-registra-la-cifra-mas-alta-de-abortos-desde-que-se-aprobo-la-ley/
+
+## Conclusión
+
+La legalización del aborto en Uruguay ha marcado un hito en la historia de los derechos reproductivos en el país, permitiendo un acceso más seguro y regulado a la interrupción del embarazo. A lo largo de los años, se ha observado una disminución en la mortalidad materna y un fortalecimiento de los servicios de salud sexual y reproductiva. Sin embargo, el debate sobre el aborto sigue siendo polarizado, con opiniones divergentes que reflejan valores culturales, religiosos y éticos. Las estadísticas y datos presentados muestran tanto los logros alcanzados como los desafíos que persisten, lo que indica que, aunque se han dado pasos significativos hacia la equidad en salud, aún queda trabajo por hacer para garantizar que todas las mujeres tengan acceso a servicios de salud seguros y de calidad. En este contexto, es fundamental continuar el diálogo y la educación sobre el tema, promoviendo un enfoque que respete los derechos y la autonomía de las mujeres en Uruguay.

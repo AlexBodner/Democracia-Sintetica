@@ -40,7 +40,35 @@ class Reviewer:# o orquestador
         )
         return generated_response.resumen
     
-    
+    async def make_deep_research(self, ley):
+        context = []
+        #  Como especialista en Geopolitica, ciencias sociales y economía,
+        context.append({"role" : "user", "content":  f"""\
+            Tu tarea es redactar una consigna de búsqueda exhaustiva y bien estructurada para que un Agente especializado realice una investigación profunda sobre el tema de desregulación indicado.
+
+            El objetivo de esta investigación es proporcionar a los legisladores de la República Argentina un panorama completo que les permita comprender a fondo el contexto, los antecedentes, los impactos potenciales y los casos comparables a nivel nacional e internacional.
+
+            La desregulación a debatir es: {ley}
+
+            La consigna debe incluir:
+            - Qué aspectos investigar (económicos, sociales, legales, ambientales, etc.)
+            - Qué fuentes consultar (académicas, gubernamentales, medios especializados, organismos internacionales, informes técnicos)
+            - Qué tipo de datos buscar (estadísticas, estudios de impacto, experiencias previas, legislación comparada, opinión de expertos)
+            - Qué países o regiones podrían ofrecer casos relevantes para comparar
+            - Posibles efectos positivos y negativos reportados
+            - Actores clave involucrados (empresas, sindicatos, ONGs, organismos públicos)
+
+            La búsqueda debe enfocarse en brindar insumos que enriquezcan el debate parlamentario, ofreciendo tanto evidencia empírica como argumentos teóricos.
+
+            Ahora redactá una consigna clara, detallada y orientada a la acción para el Agente de investigación, que incluya todos estos elementos.
+            """})
+
+        generated_response = await self.api_model_agent.call_api(
+            previous_rounds_context=context,
+            pydantic_response_structure= StructuredReviewerResponse
+        )
+
+        return  generated_response.resumen
     async def make_final_summary(self, full_debate: dict):
         """Creates the final summary out of the topic summaries (o lo hacemos dado toda la conversacion?)
 
