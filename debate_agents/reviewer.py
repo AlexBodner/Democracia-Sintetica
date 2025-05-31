@@ -1,5 +1,6 @@
 from API_Model import API_Model
-from debate_agents.response_structures import StructuredReviewerResponse
+from debate_agents.response_structures import StructuredReviewerResponse, DeepResearchQuery
+from researcher.deepresearch import deepresearch
 class Reviewer:# o orquestador
     def __init__(self, system_prompt, agents,):
         self.system_prompt = {"role":"system", "content":system_prompt}
@@ -40,7 +41,7 @@ class Reviewer:# o orquestador
         )
         return generated_response.resumen
     
-    async def make_deep_research(self, ley):
+    async def make_deep_research(self, ley, mock=True):
         context = []
         #  Como especialista en Geopolitica, ciencias sociales y economía,
         context.append({"role" : "user", "content":  f"""\
@@ -65,10 +66,14 @@ class Reviewer:# o orquestador
 
         generated_response = await self.api_model_agent.call_api(
             previous_rounds_context=context,
-            pydantic_response_structure= StructuredReviewerResponse
+            pydantic_response_structure= DeepResearchQuery
         )
-
-        return  generated_response.resumen
+        if mock == False:
+            report = await deepresearch(generated_response.consigna_de_busqueda)
+        else:
+            with open("final_report.txt", "r") as archivo:
+                report = archivo.read()
+        return  report
     async def make_final_summary(self, full_debate: dict):
         """Creates the final summary out of the topic summaries (o lo hacemos dado toda la conversacion?)
 

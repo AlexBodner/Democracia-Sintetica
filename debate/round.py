@@ -20,11 +20,13 @@ class FirstRound(Round):
 
 
 class SecondRound(Round):
-    def __init__(self, law):
+    def __init__(self, law, research):
         super().__init__(law)
         self.round_nr = 1
         self.prompt = (
-            f"En esta segunda ronda, cada agente recibe como contexto los argumentos expresados en la primera ronda por todos los agentes, "
+            f"Un investigador especializado en el tema recopilo datos y estadisticas que podes usar para sustentar tu argumentacion y contrargumentar a otros agentes. A continuacion te presento el informe generado: "
+            f"{research} \n\n"
+            "En esta segunda ronda, cada agente recibe como contexto los argumentos expresados en la primera ronda por todos los agentes, "
             "incluyendo su propia intervención. Su tarea es analizar críticamente esos argumentos y responder, reafirmando o ajustando su postura. "
             "Deben identificar explícitamente a qué agente(s) están respondiendo, señalar los puntos de acuerdo o desacuerdo, y plantear contraargumentos claros y consistentes con su identidad ideológica. "
             "Si algún agente decide modificar su postura o voto, debe explicar de forma justificada qué lo motivó al cambio. "

@@ -21,6 +21,13 @@ class SearchAgentResponse(BaseModel):
     consigna_de_busqueda:str = Field(description="Las query de busqueda para el Google Search. No completar si va a querer hacer un google search (queres_buscar = True)")
     queres_buscar: bool
 
+class DeepResearchQuery(BaseModel):
+    """
+    Define la estructura esperada para una busqueda en google.
+    """
+    razonamiento: str = Field(description="Razonamiento de porque se elige esa query")
+    consigna_de_busqueda:str = Field(description="La query de busqueda para el Google Search.")
+
 
 class StructuredReviewerResponse(BaseModel):
     """

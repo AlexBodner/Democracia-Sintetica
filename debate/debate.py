@@ -10,7 +10,7 @@ class Debate:
         self.agents = agents
         self.law = law
         self.reviewer = reviewer 
-        self.rounds = [FirstRound(law), SecondRound(law), ThirdRound(law)]
+        self.rounds = [FirstRound(law), SecondRound(law, ""), ThirdRound(law)]
         #self.round_info = []
         self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica.")
     #                                         , instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
@@ -20,13 +20,17 @@ class Debate:
         #Sin intervencion del reviewer en el medio
         
         full_debate = {}
-        await deepresearch()
+        
+        research = await self.reviewer.make_deep_research(self.law)
+
+        self.rounds[1] = SecondRound(self.law, research)
+
         context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}. \n\
                     Van a haber 3 rondas, en la primera cada agente dara su opinion y argumentos a favor o en contra. \
                     En la segunda ronda los agentes recibiran los argumentos del resto y podran contraargumentar. En \
                     la ultima ronda cada uno recibira los argumentos y contraargumentos y podra hacer una argumentacion y conclusion final.\
                     Se espera que en todas las rondas, el agente aclare al finalizar su argumentacion si vota a favor o en contra. El voto puede\
-                    cambiar ronda a ronda, pero el voto final para ver si una ley se aprueba o no es el de la ultima ronda. "}, ]
+                    cambiar ronda a ronda, pero el voto final para ver si una ley se aprueba o no es el de la ultima ronda."}, ]
         
         for round in self.rounds:
             logger.info(f"-----------------------------------Round {round.round_nr} -----------------------------------")

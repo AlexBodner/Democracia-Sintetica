@@ -304,8 +304,8 @@ import os
 
 
 
-async def deepresearch(initial_msg = {"role": "user", "content": "Cual es el impacto de la legalización del aborto en Uruguay y que leyes hay al respecto?"},
-                      followup_msg = {"role": "user", "content": "Haz un reporte super detallado, include informacion real, trae todos los casos y datos que puedas como para favorecer el debate entre distintas ideas"}
+async def deepresearch(initial_msg,
+                      followup_msg = {"role": "user", "content": "Haz un reporte super detallado, incluye informacion real, trae todos los casos y datos que puedas como para favorecer el debate entre distintas ideas"}
     ):
     # 1. Checkpointer
     checkpointer = MemorySaver()
@@ -315,6 +315,8 @@ async def deepresearch(initial_msg = {"role": "user", "content": "Cual es el imp
 
 
     thread_config = {"configurable": config}
+
+    initial_msg = {"role": "user", "content": initial_msg}
 
     # 4. Simulated user flow
     await graph.ainvoke({"messages": [initial_msg]}, config=thread_config)
