@@ -58,3 +58,5 @@ class Agent:
     def vote_topic(self, topic, summary):
         pass
 
+    def get_system_prompt(self):
+        return self.sys_prompt

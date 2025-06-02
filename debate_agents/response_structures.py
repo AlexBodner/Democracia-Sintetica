@@ -57,41 +57,10 @@ class EvaluadorResponse(BaseModel):
     razonamiento_general: str = Field( description="Explicación general de las coincidencias o diferencias encontradas en los debates, y justificación del puntaje.")
     puntaje_final: float = Field(description="Puntaje de similaridad global entre el debate sintético y el real, entre 0 y 1.")
     
+
+class EvaluarAgenteResponse(BaseModel):
+    similitudes: str = Field( description="Explicación general de las coincidencias encontradas en los debates, y justificación del puntaje.")
+    diferencias: str = Field( description="Explicación general de las  diferencias encontradas en los debates, y justificación del puntaje.")
+    similitud: float = Field(description="Puntaje de similaridad global entre el debate sintético de los agentes y el real, entre 0 y 1.")
     
-    """
-        contexto = [{
-        "role": "user",
-        "content":
-            f"
-                Sos un evaluador experto en política argentina. Tu tarea es comparar dos debates políticos sobre una misma ley: uno generado por\
-                    agentes de IA ideológicos, y otro basado en argumentos reales utilizados por representantes de partidos políticos argentinos.
 
-                Debés analizar qué tan similares son ambos debates en cuanto a:
-                - Posturas generales adoptadas por cada ideología (izquierda, centro-izquierda, centro-derecha, derecha).
-                - Argumentos esgrimidos (legales, éticos, económicos, etc.).
-                - Nivel de polarización y alineamiento político.
-                - Tono y fundamentos de cada postura.
-
-                ### Debate generado por agentes (sintético):
-                {debate_sintetico}
-
-                ### Debate real:
-                {debate_real}
-
-                Respondé con:
-                1. Una explicación clara del razonamiento comparativo (qué coincidencias encontraste, qué diferencias, si alguna ideología cambió de\
-                    posición, etc.).
-                2. Un puntaje de similitud entre 0 y 1, donde:
-                - 1.0 = coincidencia total (los agentes simulan perfectamente el debate real, con los mismos argumentos y posturas).
-                - 0.5 = similitud parcial (algunos bloques alineados, otros no)
-                - 0.0 = no hay coincidencia relevante, las posturas no corresponden a la ideologia del agente.
-
-                Formato de salida esperado (en JSON):
-                {{
-                "razonamiento": "...",
-                "puntaje": ...
-                }}
-                        ".strip()
-                }]
-
-    """

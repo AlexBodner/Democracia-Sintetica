@@ -4,40 +4,40 @@ Evaluación para la ley: Ley de Interrupción Voluntaria del Embarazo (IVE) – 
 Análisis por agente:
 
 
-- Agente Liberal:
-  Debate sintético: El Agente Liberal plantea que la legalización del aborto podría no ser una solución efectiva, argumentando en defensa de la libertad individual y la protección de la vida. Presenta estadísticas que sugieren que la legalización no siempre previene muertes maternas, como los casos de Argentina y Cuba.
-  Postura real: La postura esperada del Agente Liberal es la oposición a la legalización del aborto, fundamentando la protección de la vida y el enfoque en la educación como alternativas. Lo manifestaron los partidos en contextos similares.
-  Similitudes: Ambos debates enfatizan la protección de la vida y el derecho individual, sin embargo, el argumento sintético se centra más en la dimensión económica que se espera del liberalismo.
-  Diferencias: En el debate real, el enfoque fue más en la libertad individual que sobre el impacto en la salud pública, lo cual es relevante y se nota en el discurso. La falta de adaptabilidad a los cambios legislativos en el debate sintético contrasta con la evolución de los argumentos en la realidad.
-  Puntaje: 0.7
-
-
-- Agente Centro-Izquierda:
-  Debate sintético: Defiende la legalización del aborto como una cuestión de derechos reproductivos, citando ejemplos de otros países que han logrado reducciones en la mortalidad materna tras la legalización.
-  Postura real: La postura esperada es a favor de la legalización, resaltando la salud pública y la justicia social. Esta visión es coherente con la realidad en torno al Partido de Centro-Izquierda en Argentina.
-  Similitudes: Hay un fuerte acuerdo en que la legalización es necesaria para garantizar la salud y derechos de las mujeres, tal como es reconocido en el debate real.
-  Diferencias: La argumentación sintética podría ser considerada más extensa en sensibilidad a derechos humanos en comparación al debate real que podría haberse centrado en casos específicos.
+- Agente Izquierda:
+  Debate sintético: El Agente de Izquierda defiende el Proyecto de Ley como una conquista fundamental para la defensa de los derechos de las mujeres y considera el acceso a un aborto legal, seguro y gratuito como un derecho humano.
+  Postura real: A favor sin ambages. Se consideró un triunfo histórico de la lucha feminista, que era un problema de salud pública y de justicia social.
+  Similitudes: Ambos debates coinciden en la defensa de los derechos reproductivos, el acceso a servicios de salud seguros y el rechazo a la criminalización del aborto.
+  Diferencias: La IA destaca más aspectos prácticos en el debate, mientras que el debate real también abarca la vigilancia sobre la implementación y objeciones de conciencia.
   Puntaje: 0.9
 
 
+- Agente Centro-Izquierda:
+  Debate sintético: El Agente de Centro-Izquierda apoya el proyecto, argumentando que garantiza los derechos de las mujeres y mejora la salud pública al reducir los abortos inseguros.
+  Postura real: A favor, resaltando salud pública, equidad y justicia social, y el acompañamiento integral en la atención a las mujeres.
+  Similitudes: Ambos enfoques resaltan la importancia de la salud pública y la justicia social como razones centrales para justificar la ley.
+  Diferencias: En el debate sintético, el agente menciona la reducción de complicaciones de abortos inseguros más enfáticamente, mientras que en el real se adiciona la regulación y acompañamiento integral.
+  Puntaje: 0.85
+
+
 - Agente Centro-Derecha:
-  Debate sintético: El Agente de Centro-Derecha muestra apertura hacia la legalización pero plantea preocupaciones sobre la banalización de la vida, sugiriendo que se deben explorar otros enfoques como la educación y la promoción de métodos anticonceptivos.
-  Postura real: Se esperaba un posicionamiento más conciliador, enfatizando la salud pública a pesar de las preocupaciones éticas, y la oposición a la legalización total.
-  Similitudes: Ambos debates buscan balancear los derechos reproductivos y la protección de la vida humana, pero con diferentes enfoques en la solución.
-  Diferencias: En el debate real, la postura fue más marcada en defensa de la vida, mientras que en el debate sintético la preocupación sobre el impacto de la educación fue más prominente.
-  Puntaje: 0.8
+  Debate sintético: El Agente de Centro-Derecha defiende la protección de la vida desde la concepción, argumentando que la legalización del aborto desvaloriza la vida humana.
+  Postura real: Voto dividido, con argumentos variando entre la salud pública y la autonomía individual y los derechos del no nacido.
+  Similitudes: Ambos debates destacan la importancia de la vida y refuerzan el respeto por los no nacidos, además de señalar la necesidad de educación sexual.
+  Diferencias: El debate sintético se centra en la desvalorización de la vida sin abordar la complejidad de las soluciones alternativas como lo hace el debate real, donde algunos sectores expresaron argumentos a favor de la ley también.
+  Puntaje: 0.65
 
 
-- Agente Izquierda:
-  Debate sintético: El Agente de Izquierda argumenta fuertemente a favor del aborto como un derecho humano, enfatizando las tasas de mortalidad materna y vinculando la criminalización del aborto con muertes inseguras.
-  Postura real: Se esperaba una postura clara a favor de la legalización del aborto como parte de la lucha feminista por los derechos de las mujeres.
-  Similitudes: Ambos debates mantienen la defensa de la legalización como un medio para promover la salud pública y el derecho a decidir, lo que coincide con la narrativa presentada.
-  Diferencias: La argumentación sintética presenta ejemplos más globales, mientras que el argumento real estaba más enfocado en la situación nacional argentina y sus implicancias locales.
-  Puntaje: 0.95
+- Agente Liberal:
+  Debate sintético: El Agente Liberal argumenta que la legalización del aborto interviene en la libertad individual y que el estado no debería involucrarse en decisiones personales.
+  Postura real: Se opone a la intervención estatal, defendiendo la libertad individual y derechos de propiedad sin considerar dimensiones sociales y de salud pública.
+  Similitudes: Ambos debates enfatizan la libertad individual y la responsabilidad personal, así como el rechazo a la intervención estatal.
+  Diferencias: En el real, la discusión carece del enfoque de no intervención en términos de derechos de salud pública y femeninos, y mengua la dimensión social del debate.
+  Puntaje: 0.6
 
 
 Razón general:
-El análisis revela que hay una clara alineación entre las posiciones de los agentes de izquierda y centro-izquierda con respecto a la legalización del aborto, tal como se presenta en el debate real. Ambos promueven la legalización como un derecho humano y una garantía de salud pública. Por otro lado, los agentes de centro-derecha y liberal mantienen una postura crítica, argumentando en defensa de la vida desde la concepción y haciendo hincapié en la importancia de la prevención y la educación sexual. Las diferencias ideológicas se tradujo en una clara división sobre la efectividad de la legalización para mejorar la salud maternal. En general, la polarización fue notoria y las similitudes entre los debates sintético y real reflejan adecuadamente las posturas políticas de cada agente. La estructura de argumentación y la variabilidad en la evidencia presentada también aportan a una comprensión más compleja del tema.
+El debate presentado por los agentes de IA y el debate real sobre la Ley de Interrupción Voluntaria del Embarazo (IVE) muestran similitudes y diferencias notables. En general, mientras que los agentes de izquierda y centro-izquierda se alinean bien con las posturas reales de sus partidos, existieron desviaciones ideológicas en los agentes de centro-derecha y liberal. La polarización en torno al tema del aborto es evidente, y los argumentos recaen en principios éticos, derechos individuales y valores humanos. En términos de fidelidad, los agentes de izquierda y centro-izquierda reflejan de manera precisa sus respectivas posturas, aunque el agente de centro-derecha y el liberal presentan ciertos matices que distorsionan la fidelidad ideológica, especialmente a la hora de interpretar el papel del Estado.
 
-Puntaje final ajustado: 0.83
+Puntaje final ajustado: 0.775
 --------------------------------------------------------------------------------

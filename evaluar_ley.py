@@ -3,7 +3,8 @@ import random
 import numpy as np
 #from agenteEvaluador import AgenteEvaluador
 from agente_evaluador import AgenteEvaluador
-
+from API_Model import API_Model
+from debate_agents.response_structures import EvaluarAgenteResponse
 def set_seed(seed: int):
     """
     Establece una semilla global para garantizar reproducibilidad.
@@ -91,8 +92,87 @@ async def main():
     )
 
     # Evaluar el debate
-    # await evaluador.procesar_ley("testing/leyes.json", "debateSystem.log", law)
     await evaluador.procesar_ley("testing/leyes.json", "debate_system.log", law)
+async def main():
+    set_seed(42) 
+    from debate_agents.agente_liberal import AgenteLiberal
+    from debate_agents.agente_izquierda import AgenteIzquierda
+    from debate_agents.agente_centro_izquierda import AgenteCentroIzquierda
+    from debate_agents.agente_centro_derecha import AgenteCentroDerecha
+    import json
+    # Definir la ley a evaluar
+    law = "Ley de Interrupción Voluntaria del Embarazo (IVE) – aborto legal Legaliza el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."
+    agente_liberal = AgenteLiberal
+    agente_izquierda = AgenteIzquierda
+    agente_centro_izquierda = AgenteCentroIzquierda
+    agente_centro_derecha = AgenteCentroDerecha
+    debate_sintetico_por_agente = #lo de delfi
 
+    with open("testing/leyes.json", "r", encoding="utf-8") as f:
+        leyes = json.load(f)
+    for ley in leyes:
+        agentes = [agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
+        #AGREGAR FEW SHOTS? 
+        for agente in agentes:
+
+            system_prompt={
+                "role": "system",
+                "content": """Sos un evaluador experto en política argentina. Tu tarea es comparar dos debates políticos sobre una misma ley: uno generado por agentes de IA ideológicos, y otro basado en argumentos reales utilizados por representantes de partidos políticos argentinos.
+
+                Debés analizar qué tan similares son ambos debates en cuanto a:
+                - Posturas generales adoptadas por cada ideología (izquierda, centro-izquierda, centro-derecha, derecha).
+                - Argumentos esgrimidos (legales, éticos, económicos, etc.). 
+                - Nivel de polarización y alineamiento político.
+                - Tono y fundamentos de cada postura.
+
+                Además, es fundamental que evalúes la fidelidad ideológica de los agentes. Cada agente debe seguir estrictamente las ideologías del partido político que representa:
+                En este caso analizaras el comportamiento del agente """ + agente.agent_name + ", cuyo prompt de sistema es: " + agente.sys_prompt+ 
+                """Respondé con:
+                1. Un análisis detallado por agente:
+                - Qué dijo el agente en el debate sintético.
+                - Qué postura real se esperaba del agente según su ideología.
+                - Similitudes y diferencias entre el debate sintético y el debate real.
+                - Puntaje de similitud para el agente.
+
+                2. Una explicación clara, global, del razonamiento comparativo (qué coincidencias encontraste, qué diferencias, si alguna ideología cambió de posición, etc.).
+                3. Un puntaje global del debate, basado en la fidelidad ideológica y la similitud general.
+
+                Formato de salida esperado:
+                {{
+                    "debate_sintetico": "...",
+                    "postura_real": "...",
+                    "similitudes": "...",
+                    "diferencias": "...",
+                    "puntaje": ...
+                }}
+                """.strip()
+            }
+        
+            model = API_Model(system_prompt=system_prompt)
+
+            #ley = self.cargar_ley(leyes_filepath, law)
+            debate_sintetico = debate_sintetico_por_agente[agente.agent_name]
+            # Contexto para el LLM 
+            context = [ 
+                {
+                    "role": "user",
+                    "content": f"### Debate generado por agente (sintético):\n{debate_sintetico}\n\n"
+                            f"### Posturas reales del partido:\n{json.dumps(ley["posturas_reales"], indent=2)}\n\n"
+                            f"Estructura la respuesta de la siguiente manera:\n\n"
+                            f"1. Análisis detallado por agente:\n"
+                            f"   - Para cada agente, analiza los argumentos del debate sintético y del debate real.\n"
+                            f"   - Identifica similitudes y diferencias.\n"
+                            f"   - Calcula un puntaje de similaridad por agente.\n"
+                            f"2. Un párrafo general sobre el debate.\n"
+                            f"3. Puntaje global del debate.\n"
+                }
+            ]
+
+            response: EvaluarAgenteResponse = await model.call_api(
+                previous_rounds_context=context,
+                pydantic_response_structure=EvaluarAgenteResponse,
+            )
+            print(response)
+            break # PARA SOLO HACER CON LA PRIMERA
 if __name__ == "__main__":
     asyncio.run(main())

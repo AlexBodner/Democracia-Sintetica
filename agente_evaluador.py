@@ -12,7 +12,7 @@ class AgenteEvaluador:
         Inicializa el agente evaluador con el modelo de evaluación.
         """
         self.model = API_Model(system_prompt=system_prompt)
-
+        self.system_promt= system_prompt
     def cargar_ley(self, filepath: str, law: str):
         """
         Busca y carga la ley correspondiente desde el archivo JSON.
@@ -36,7 +36,6 @@ class AgenteEvaluador:
         """
         Evalúa un debate sintético contra las posturas reales y devuelve el razonamiento y puntaje.
         """
-
         # Contexto para el LLM 
         context = [ 
             {
@@ -58,21 +57,6 @@ class AgenteEvaluador:
             pydantic_response_structure=EvaluadorResponse,
         )
         return response
-    
-
-    # def registrar_evaluacion(self, ley: str, razonamiento_general: str, analisis_por_agente: dict, puntaje_final: float):
-    #     print(f"\nEvaluación para la ley: {ley}")
-    #     print("\nAnálisis por agente:")
-    #     for agente, analisis in analisis_por_agente.items():
-    #         print(f"\n\n- {agente}:")
-    #         print(f"  \nDebate sintético: {analisis.debate_sintetico}")
-    #         print(f"  \nPostura real: {analisis.postura_real}")
-    #         print(f"  \nSimilitudes: {analisis.similitudes}")
-    #         print(f"  \nDiferencias: {analisis.diferencias}")
-    #         print(f"  \nPuntaje: {analisis.puntaje}")
-
-    #     print(f"\n\nRazón general:\n{razonamiento_general}")
-    #     print(f"\nPuntaje final ajustado: {puntaje_final}")
 
     def registrar_evaluacion(self, ley: str, razonamiento_general: str, analisis_por_agente: dict, puntaje_final: float):
         resultado = f"\nEvaluación para la ley: {ley}\n"
@@ -116,7 +100,6 @@ class AgenteEvaluador:
         # Extraer el debate sintético desde el log
         with open(log_filepath, "r", encoding="utf-8") as log_file:
             debate_sintetico = log_file.read()
-
         try:
             # Evaluar el debate sintético contra las posturas reales
             response = await self.evaluar_debate(debate_sintetico, ley["posturas"])
