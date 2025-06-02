@@ -4,6 +4,7 @@ from debate_agents.investigador import Investigador
 from logger import logger
 from debate.round import FirstRound, SecondRound, ThirdRound
 from researcher.deepresearch import deepresearch
+import json
 
 class Debate:
     def __init__(self, agents, law, reviewer):  
@@ -34,14 +35,10 @@ class Debate:
         
         for round in self.rounds:
             logger.info(f"-----------------------------------Round {round.round_nr} -----------------------------------")
-            result = await self.debate_round(context, round, self.law)
+            result = await self.debate_round(context, round,  full_debate)
             context+= result
 
-            
-        
-        full_debate["Debate"] = context
-
-  
+        full_debate["Debate Completo"] = context
         logger.info("-------------------------------------------------")
         final_summary =  await self.reviewer.make_final_summary(full_debate)
         logger.info("---------------------- Final Summary------------------------")
@@ -51,11 +48,17 @@ class Debate:
         logger.info("--- Full debate ---")
         logger.info(full_debate)
         
+        with open("debate.json", "w", encoding ='utf8') as archivo:
+            json.dump(full_debate, archivo, indent=4, ensure_ascii = False)
+            
         return full_debate
 
-    async def debate_round(self,prev_round_context, round, law):
+    async def debate_round(self,prev_round_context, round, full_debate):
+        
         prev_round_context.append({"role":"user",
             "content": f"Ahora arranca la ronda {round.round_nr}"}) #este es el reviewer
+        
+        full_debate[f"Round {round.round_nr}"] = {}
         
         round_context = []
         prev_round_context.append({"role":"user", "content": round.prompt})
@@ -72,6 +75,8 @@ class Debate:
             round_context.append(dar_palabra)
 
             round_context.append(agent_response)
+            full_debate[f"Round {round.round_nr}"][agent.agent_name] = agent_response["content"]
+            
         return round_context
 
 
