@@ -83,7 +83,7 @@ class Reviewer:# o orquestador
         """
         context = []
 
-        context.append({"role" : "user", "content": f"El debate generado es: {full_debate['Debate']}"})
+        context.append({"role" : "user", "content": f"El debate generado es: {full_debate['Debate Completo']}"})
         context.append(self.final_summary_prompt)
 
         generated_response = await self.api_model_agent.call_api(
