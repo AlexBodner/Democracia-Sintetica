@@ -7,6 +7,12 @@ from logger import new_logger
 class AgenteEvaluador:
     puntaje_base_general = 0
     analisis_agente = {}
+    posturas = {"En contra": 0,
+                "Critico": 1,
+                "Dividido": 2,
+                "Apoyo critico": 3,
+                "A favor": 4}
+
 
     def __init__(self, system_prompt: str):
         """
@@ -14,6 +20,12 @@ class AgenteEvaluador:
         """
         self.model = API_Model(system_prompt=system_prompt)
         self.system_promt = system_prompt
+        
+    def evaluar_votacion(self, debate_sintetico_por_agente, nombre_agente, n_ley=1):
+        voto = debate_sintetico_por_agente["Round 2"][nombre_agente]["voto"]
+        if voto == True:
+            return 4 
+            
 
     async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, posturas_reales, n_rounds=3, 
                               id = 0, output_folder = "evaluaciones"):

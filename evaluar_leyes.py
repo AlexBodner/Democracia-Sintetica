@@ -12,11 +12,6 @@ import json
 
 
 
-{"En contra": 0,
- "Critico": 1,
- "Dividido": 2,
- "Apoyo critico": 3,
-"A favor": 4}
 
 
 
