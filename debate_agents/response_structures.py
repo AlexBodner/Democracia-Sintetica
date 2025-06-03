@@ -8,10 +8,10 @@ class StructuredAgentResponse(BaseModel):
     Esta clase sirve como esquema para el parseo de la respuesta de texto del modelo.
     """
     razonamiento: str = Field(description="El razonamiento detallado detrás de la respuesta del agente, explicando los argumentos o pasos seguidos.")
+    voto: bool = Field(default=False, description="Indica si el agente vota a favor o en contra de la ley. Si es True, el agente vota a favor; si es False, vota en contra.")
     consigna_de_busqueda:str
     queres_buscar: bool
-
-
+    
 class SearchAgentResponse(BaseModel):
     """
     Define la estructura esperada para una respuesta estructurada de un agente.

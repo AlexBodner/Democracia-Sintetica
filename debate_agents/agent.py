@@ -44,9 +44,10 @@ class Agent:
                 previous_rounds_context=prev_round_context
             )
             razonamiento = generated_response.razonamiento
+            voto = generated_response.voto
         output = {
             "role": "assistant",
-            "content": f"[{self.agent_name}]: " + f"{razonamiento}",
+            "content": {"argumentacion": f"[{self.agent_name}]: " + f"{razonamiento}", "voto": voto},
         }
         return output
 

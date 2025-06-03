@@ -72,12 +72,16 @@ class Debate:
             agent_context.append(dar_palabra)
 
             agent_response = await agent.speak(agent_context, search = False, investigador = self.investigador)
+            full_debate[f"Round {round.round_nr}"][agent.agent_name] = {"argumentacion": agent_response["content"]["argumentacion"], "voto": agent_response["content"]["voto"]}
+            
+            agent_context = agent_response
+            agent_context['content'] = agent_context['content']['argumentacion']
             
             logger.info(agent_response['content'])
             round_context.append(dar_palabra)
 
-            round_context.append(agent_response)
-            full_debate[f"Round {round.round_nr}"][agent.agent_name] = agent_response["content"]
+            round_context.append(agent_context)
+            
             
         return round_context
 

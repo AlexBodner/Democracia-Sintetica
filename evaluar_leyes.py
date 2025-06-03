@@ -15,6 +15,7 @@ def set_seed(seed: int):
     """
     random.seed(seed)
     np.random.seed(seed)
+    
 def format_system_prompt(agent):
     return {"role": "system",
         "content": """Sos un evaluador experto en política argentina. Tu tarea es comparar dos debates políticos sobre una misma ley: uno generado por agentes de IA ideológicos, y otro basado en argumentos reales utilizados por representantes de partidos políticos argentinos.
@@ -64,7 +65,7 @@ async def main(output_folder = "evaluaciones"):
         leyes = json.load(f)
     for ley in leyes:
         #with open('debate_{ley["id"]}.json', 'r') as file:
-        with open('debate.json', 'r') as file:
+        with open('evaluaciones/debate_1.json', 'r', encoding="utf-8") as file:
             debate_sintetico_por_agente = json.load(file)
         puntaje_final = 0 
 
@@ -82,6 +83,9 @@ async def main(output_folder = "evaluaciones"):
         with open(os.path.join(output_folder,f"evaluador_{ley['id']}.log"), "a+", encoding="utf-8") as f:
             f.write(resultado)
         break # PARA SOLO HACER CON LA PRIMERA
+    
+    
+    
 if __name__ == "__main__":
     asyncio.run(main())
 

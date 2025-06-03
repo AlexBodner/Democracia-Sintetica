@@ -92,6 +92,7 @@ class API_Model:
                 seed=42
             )
             return generated_response
+        
         except ValidationError as e:
             # logger.error(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
             # if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
