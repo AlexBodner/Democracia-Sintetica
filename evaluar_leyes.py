@@ -9,6 +9,18 @@ from debate_agents.agente_centro_izquierda import AgenteCentroIzquierda
 from debate_agents.agente_centro_derecha import AgenteCentroDerecha
 import os
 import json
+
+
+
+{"En contra": 0,
+ "Critico": 1,
+ "Dividido": 2,
+ "Apoyo critico": 3,
+"A favor": 4}
+
+
+
+
 def set_seed(seed: int):
     """
     Establece una semilla global para garantizar reproducibilidad.

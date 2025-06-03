@@ -12,15 +12,15 @@
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Postura dividida, con un sector importante a favor. Argumentos a favor: El aborto clandestino como un grave problema de salud pública que el Estado debía abordar para evitar muertes y garantizar la salud integral. La penalización no impedía los abortos, solo los hacía inseguros y selectivos socialmente. Defensa de la ampliación de derechos y la autonomía de las mujeres. Argumentos en contra (sector conservador): Defensa del 'derecho a la vida desde la concepción' y convicciones religiosas, con posibles objeciones a la constitucionalidad.",
-        "voto": "Dividido - Mayoría a favor"
+        "voto": "A favor"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Postura profundamente dividida. Argumentos en contra (mayoría en el Senado): El principal argumento fue la 'defensa de las dos vidas', sosteniendo que la vida comienza en la concepción y que el embrión/feto es un sujeto de derecho. Objeciones constitucionales y a tratados internacionales. Fuertes convicciones religiosas y morales. Se propusieron alternativas como fortalecer la prevención y el acompañamiento a la maternidad. Argumentos a favor (sector importante en Diputados): Énfasis en la salud pública, evitar muertes por clandestinidad y la discriminación hacia las mujeres pobres. Defensa de la autonomía de la mujer y libertad de conciencia. Se argumentó que penalizar no salvaba vidas y que el Estado debía dar una respuesta desde la compasión y la salud pública.",
-        "voto": "Dividido - Mayoría en contra"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA. Sectores conservadores (algunos dentro del espectro de centro-derecha) se opusieron férreamente. Argumentos: Defensa de la vida desde la concepción como un derecho absoluto, con fuertes fundamentos religiosos y morales. Rechazo al aborto como derecho, considerándolo la eliminación de una vida humana inocente.",
-        "voto": "En contra (sectores conservadores)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Rechazado en el Senado por 38 votos en contra, 31 a favor y 2 abstenciones. Obtuvo media sanción en la Cámara de Diputados (129 a favor, 125 en contra)."
@@ -46,7 +46,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA consolidada. Sectores conservadores (incluyendo parte del PRO) se opusieron férreamente con argumentos de defensa irrestricta de la vida desde la concepción, objeciones morales y religiosas. Consideraron la ley una imposición ideológica.",
-        "voto": "En contra (sectores conservadores)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada. Media sanción en Diputados (131-117-6). Sancionada en el Senado (38-29-1)."
@@ -60,7 +60,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Apoyo crítico. Se valoró la necesidad de regular para proteger derechos laborales básicos, pero se señalaron insuficiencias, como asegurar que los costos no recayeran en los trabajadores y garantizar la organización sindical. Se alertó sobre el riesgo de flexibilización encubierta.",
-        "voto": "Apoyo crítico"
+        "voto": "Apoyo critico"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. Se impulsó como una necesidad por la pandemia para proteger a los teletrabajadores. Se defendió como garantía de derechos esenciales: igualdad de trato, desconexión digital, compensación por gastos y provisión de herramientas. Se enfatizó la voluntariedad y reversibilidad, buscando un 'piso mínimo de derechos'.",
@@ -72,7 +72,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA. Sectores liberales y pro-mercado (incluyendo el ala dura del PRO) compartieron críticas sobre la excesiva intervención estatal, costos y rigideces que desincentivarían la contratación y la adopción de la modalidad. Abogaron por marcos más flexibles.",
-        "voto": "En contra (sectores liberales y pro-mercado)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada. Senado: 40 a favor, 30 en contra."
@@ -86,7 +86,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Abstención o críticas por insuficiencia. Si bien no se oponían a gravar grandes fortunas, consideraron el aporte limitado, excepcional y no una reforma tributaria progresiva y permanente. Plantearon que debía ser más abarcativo y los fondos gestionados por trabajadores y sectores populares.",
-        "voto": "Abstención"
+        "voto": "Apoyo critico"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. Impulsó y defendió el aporte como un acto de 'justicia social' y 'solidaridad' en un contexto de emergencia por la pandemia. Se argumentó que era necesario que los sectores de mayor capacidad contributiva realizaran un esfuerzo 'extraordinario' y 'por única vez' para financiar políticas sanitarias, productivas y sociales urgentes. Se enfatizó que no era un impuesto, sino un aporte excepcional para atender una situación crítica.",
@@ -98,7 +98,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA. Sectores liberales y del PRO (dentro de JxC) lideraron el rechazo, con argumentos centrados en la defensa de la propiedad privada, la crítica a la 'voracidad fiscal' del Estado y el impacto negativo sobre la actividad económica. Lo consideraron una 'salvajada tributaria'.",
-        "voto": "En contra (sectores liberales y PRO)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada. Diputados: 133 a favor, 115 en contra. Senado: 42 a favor, 26 en contra."
@@ -124,7 +124,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA en 2021 o sin una postura clara y unificada en ese momento. Los sectores más liberales dentro de JxC (PRO) mostraron mayor escepticismo o rechazo, argumentando contra la 'excesiva regulación' y el potencial impacto negativo en la industria alimentaria.",
-        "voto": "En contra/Escéptico (sectores liberales PRO)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada con amplio apoyo transversal. Diputados: 200 votos a favor, 22 en contra, 16 abstenciones. Senado: 60 a favor, 5 en contra, 3 abstenciones."
@@ -150,7 +150,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA en 2019. En general, los sectores más liberales suelen ser críticos de las declaraciones de emergencia permanentes y el aumento del gasto público, aunque en contextos de crisis social aguda pueden acompañar medidas de asistencia directa si son focalizadas y transitorias.",
-        "voto": "Crítico (pero podría acompañar en crisis)"
+        "voto": "Apoyo critico"
       }
     },
     "resultado_final": "Aprobada por unanimidad en ambas cámaras. Senado: 61 votos a favor, 0 en contra."
@@ -164,19 +164,19 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Postura crítica sobre sus efectos, aunque inicialmente pudieron verla como un intento de proteger a inquilinos. Con el tiempo, denunciaron que la ley, en el marco de una crisis habitacional más profunda y especulación inmobiliaria, no solucionó el problema de fondo y que se necesitaban medidas más estructurales como control de precios, impuestos a la vivienda ociosa y construcción de vivienda pública.",
-        "voto": "Crítico sobre efectos"
+        "voto": "A favor"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Impulsó y aprobó la ley con el objetivo de brindar mayor previsibilidad y protección a los inquilinos frente a los vaivenes del mercado y la inflación. Se buscó equilibrar la relación entre propietarios e inquilinos. Con el tiempo, y ante las críticas sobre la retracción de la oferta y el aumento de precios iniciales, sectores del oficialismo reconocieron problemas en su aplicación y se abrieron a discutir modificaciones.",
-        "voto": "A favor (inicialmente)"
+        "voto": "A favor"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Inicialmente divididos, con algunos sectores apoyando la necesidad de una nueva ley. Sin embargo, con el tiempo se consolidó una postura mayoritariamente crítica o a favor de su derogación/modificación profunda. Argumentaron que la ley generó el efecto contrario al buscado: retracción de la oferta de alquileres, aumento de los precios de entrada, y dificultades para los propietarios, lo que terminó perjudicando también a los inquilinos. Propusieron volver a plazos de contrato más cortos y libre acuerdo entre las partes para la actualización de precios.",
-        "voto": "A favor de derogación/modificación (postura consolidada)"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Crítica frontal y a favor de la derogación total. Argumentaron que la ley representaba una intervención excesiva del Estado en contratos privados, que distorsionaba el mercado inmobiliario, desincentivaba la inversión en propiedades para alquilar y reducía drásticamente la oferta. Abogaron por la libre negociación entre partes y la mínima regulación estatal. La derogación fue una de las medidas incluidas en el DNU 70/2023 del gobierno de LLA.",
-        "voto": "A favor de derogación total"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Sancionada en junio de 2020. Generó controversia y fue modificada parcialmente en 2023. Finalmente, fue derogada por el DNU 70/2023 en diciembre de 2023, restableciendo en gran medida la libertad contractual (Código Civil y Comercial) con algunas disposiciones especiales."
@@ -202,7 +202,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA en 2020. En general, estos sectores podrían ver con cautela regulaciones que aumenten la 'rigidez' del mercado laboral, aunque la protección a la maternidad suele tener un consenso social más amplio.",
-        "voto": "Cauto (pero tema con consenso social)"
+        "voto": "Apoyo critico"
       }
     },
     "resultado_final": "Aprobada con amplio consenso, casi unánime."
@@ -224,11 +224,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "A favor en su mayoría. Hubo un consenso considerable en la importancia de avanzar hacia la paridad de género, reconociéndolo como un estándar democrático. Algunas voces minoritarias pudieron expresar reservas sobre las 'cuotas' o la intervención en la conformación de listas, pero no impidieron el apoyo mayoritario.",
-        "voto": "A favor en su mayoría"
+        "voto": "A favor"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA en 2021 con postura unificada clara. Sectores más conservadores o liberales podrían expresar escepticismo hacia las leyes de cupo o paridad, argumentando que los cargos deben definirse por 'mérito' y no por género, aunque la tendencia hacia la paridad ya estaba bastante instalada.",
-        "voto": "Escéptico/En contra de cupos (sectores conservadores/liberales)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada con amplio apoyo de todos los bloques principales."
@@ -242,7 +242,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Crítica y rechazo. Se argumentó que las reformas propuestas no apuntaban a una democratización real de la justicia ni a terminar con la influencia de los poderes económicos y políticos sobre el sistema judicial. Se denunció que podrían ser intentos de garantizar impunidad o manejar causas sensibles, y que no abordaban los problemas estructurales de acceso a la justicia para los sectores populares.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. El oficialismo defendió las propuestas como necesarias para mejorar la eficiencia, transparencia e independencia del Poder Judicial, desconcentrar el poder en el fuero federal y 'despolitizar' la justicia. Se argumentó que buscaban terminar con el 'lawfare' y las 'mesas judiciales'. Respecto al Ministerio Público, se buscaba modificar la forma de elección y remoción del Procurador General.",
@@ -250,11 +250,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo de plano. La oposición argumentó que las reformas eran un intento del oficialismo de controlar el Poder Judicial, asegurar la impunidad en causas de corrupción que involucraban a exfuncionarios y limitar la independencia de fiscales y jueces. Se denunció un supuesto plan para 'colonizar' la justicia y se criticó la falta de consenso para reformas de esta envergadura.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA en 2020. Los sectores más duros del PRO (dentro de JxC) lideraron el rechazo, con argumentos similares sobre el intento de cooptación de la justicia.",
-        "voto": "En contra (sectores PRO)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Rechazados o no prosperaron. La reforma del fuero federal obtuvo media sanción en el Senado pero no avanzó en Diputados. Otros proyectos conexos tampoco lograron consenso."
@@ -268,11 +268,11 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Rechazo total. Se denunció que la reforma era un intento de flexibilizar las condiciones laborales en detrimento de los trabajadores, reducir derechos adquiridos, facilitar despidos, debilitar a los sindicatos y precarizar el empleo, siguiendo recetas del FMI y de organismos internacionales.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Rechazo total (principalmente kirchnerismo y sectores del PJ). Se opusieron argumentando que implicaba una pérdida de derechos para los trabajadores, una reducción de las indemnizaciones por despido, y que buscaba debilitar el poder de negociación de los gremios. Lo consideraron un retroceso en materia de legislación laboral protectora.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "A favor. El gobierno de Cambiemos impulsó la reforma argumentando que era necesaria para 'modernizar' las relaciones laborales, reducir la 'litigiosidad excesiva' (juicios laborales), fomentar la creación de empleo formal, atraer inversiones y mejorar la competitividad de las empresas. Sostuvieron que no se quitaban derechos, sino que se buscaban mecanismos más ágiles y eficientes.",
@@ -280,7 +280,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA. Sectores liberales dentro de Cambiemos y afines apoyaron la iniciativa con mayor énfasis, considerándola un paso necesario, aunque quizás insuficiente, hacia una mayor liberalización del mercado laboral.",
-        "voto": "A favor (sectores liberales)"
+        "voto": "A favor"
       }
     },
     "resultado_final": "Rechazado/No tratado. El proyecto no logró consenso y fue retirado o no tratado formalmente en el Congreso antes del fin del mandato del gobierno que lo impulsó."
@@ -294,11 +294,11 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Crítica y rechazo al DNU en su conjunto. Argumentaron que estas medidas eran un avasallamiento de las facultades del Congreso, un intento de concentración de poder en el Ejecutivo y que afectaban la representación democrática y el pluralismo.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Crítica y rechazo al DNU. Sostuvieron que las reformas que afectaban al Congreso debían realizarse por ley y con debate parlamentario, no por decreto. Denunciaron un intento de debilitar al Poder Legislativo y alterar el equilibrio de poderes.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Posturas divididas respecto al DNU en general. Sobre los aspectos específicos que afectaban al Congreso, hubo críticas de sectores que consideraron que se invadían competencias legislativas y se alteraba la representación democrática, aunque otros sectores pudieron apoyar la búsqueda de 'eficiencia' o 'reducción del gasto político'.",
@@ -320,7 +320,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Apoyo crítico. Si bien reconocieron la necesidad de medidas sanitarias urgentes, criticaron la delegación de facultades al Ejecutivo sin suficiente control parlamentario. Exigieron mayores medidas de protección social para los sectores más afectados por la crisis económica derivada de la pandemia y las cuarentenas, como un ingreso universal de emergencia más amplio y sostenido, y cuestionaron que el esfuerzo no recayera más en los grandes grupos económicos.",
-        "voto": "Apoyo crítico"
+        "voto": "Apoyo critico"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. Impulsó la ley como herramienta indispensable para que el Ejecutivo pudiera responder con agilidad y eficacia a la crisis sanitaria sin precedentes. Se argumentó la necesidad de centralizar decisiones, gestionar recursos de forma extraordinaria y proteger la salud de la población mediante medidas como el ASPO. Se defendió la delegación de facultades como un mecanismo necesario en emergencias.",
@@ -328,11 +328,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Acompañamiento general inicial, reconociendo la gravedad de la situación, aunque con cuestionamientos crecientes a la extensión de la delegación de facultades, la duración de las medidas de aislamiento y su impacto económico. Se plantearon preocupaciones por las libertades individuales y la falta de un plan económico claro para la post-pandemia. Hubo críticas a la discrecionalidad en el uso de los fondos y la falta de transparencia en algunas contrataciones.",
-        "voto": "Acompañamiento inicial con críticas crecientes"
+        "voto": "A favor"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No existía LLA como tal al inicio. Los sectores más liberales y del ala dura del PRO (dentro de JxC) fueron los más críticos a las restricciones, la intervención estatal en la economía y la delegación de poderes, argumentando que se afectaban libertades fundamentales y se dañaba la actividad productiva.",
-        "voto": "Crítico (sectores liberales/PRO)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada. Mayoría en ambas cámaras."
@@ -346,7 +346,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Rechazo o apoyo muy crítico. Consideraron que la ley era un 'paquete de ajuste' que, si bien contenía algunas medidas paliativas, no resolvía los problemas de fondo y afectaba a los jubilados (por la suspensión de la movilidad) y a los trabajadores. Argumentaron que las medidas eran insuficientes para los sectores populares y que el esfuerzo principal seguía recayendo sobre ellos, mientras se beneficiaba al sector financiero o no se afectaban los intereses de los grandes grupos económicos.",
-        "voto": "Rechazo o Apoyo muy crítico"
+        "voto": "Apoyo critico"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. El gobierno entrante la defendió como una herramienta de emergencia imprescindible para 'poner de pie' al país tras la crisis heredada, proteger a los sectores más vulnerables y reactivar la economía. Se argumentó que se buscaba 'solidaridad' pidiendo un mayor esfuerzo a quienes más tenían (suba de retenciones, impuesto PAIS) para financiar la asistencia social y la recuperación productiva. La suspensión de la movilidad jubilatoria se justificó como transitoria para diseñar un nuevo sistema 'sustentable'.",
@@ -354,11 +354,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo. Criticaron la ley por otorgar 'superpoderes' al Ejecutivo, por el aumento de impuestos (retenciones, impuesto PAIS), el congelamiento de tarifas (considerado perjudicial para la inversión), y la suspensión de la movilidad jubilatoria (calificada como un 'ajuste a los jubilados'). Argumentaron que era una ley de 'intervencionismo excesivo' que generaría mayor incertidumbre económica y no solucionaría los problemas estructurales.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No existía LLA. Los sectores liberales y del PRO (dentro de JxC) lideraron las críticas, denunciando un 'impuestazo', un ataque a la propiedad privada y a las reglas de juego, y una concentración de poder peligrosa en el Ejecutivo.",
-        "voto": "En contra (sectores liberales/PRO)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada. Mayoría simple en ambas cámaras."
@@ -372,7 +372,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Rechazo. Argumentaron que la nueva fórmula seguía siendo un mecanismo de ajuste sobre los haberes previsionales y que no garantizaba la recuperación del poder adquisitivo perdido por los jubilados. Reclamaron un aumento de emergencia y un haber mínimo igual a la canasta básica del adulto mayor. Denunciaron que se buscaba reducir el 'gasto' previsional a costa de los jubilados.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. El oficialismo defendió la nueva fórmula argumentando que era 'más solidaria' y 'sustentable' que la anterior (que estaba atada principalmente a la inflación y había resultado perjudicial en contextos de alta inflación y caída de la actividad). Sostuvieron que la nueva fórmula, al atar los aumentos a la recaudación y los salarios, protegería mejor el poder adquisitivo de los jubilados en un contexto de crecimiento económico y recuperación del empleo. Se buscaba, según el oficialismo, una mayor 'previsibilidad' y 'equidad'.",
@@ -380,7 +380,7 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo. La oposición argumentó que la nueva fórmula era perjudicial para los jubilados y que implicaría una pérdida de poder adquisitivo respecto a la fórmula de 2017 (que ellos habían impulsado y que el FdT había suspendido). Sostuvieron que la nueva fórmula era discrecional, poco transparente y que desvinculaba los haberes de la inflación, lo que en un contexto inflacionario resultaría en un deterioro de las jubilaciones. La calificaron como un 'nuevo ajuste a los jubilados'.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA. Los sectores liberales y del PRO (dentro de JxC) se opusieron fuertemente, coincidiendo con los argumentos sobre la pérdida de poder adquisitivo y la falta de transparencia de la nueva fórmula.",
@@ -410,7 +410,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA en ese momento. En general, los sectores liberales suelen ver con buenos ojos la promoción de sectores de alta tecnología y la reducción de impuestos, aunque podrían preferir un enfoque de baja de impuestos generalizada más que regímenes sectoriales específicos.",
-        "voto": "A favor (en general, sectores liberales)"
+        "voto": "A favor"
       }
     },
     "resultado_final": "Aprobada con amplio consenso (casi unanimidad tanto la ley original como sus modificaciones)."
@@ -428,7 +428,7 @@
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Rechazo mayoritario. El oficialismo se opuso argumentando que el sistema de boleta única de papel presentaba 'inseguridades técnicas', complejizaba innecesariamente el proceso de votación (especialmente para adultos mayores o personas con bajo nivel de instrucción) y no garantizaba mayor transparencia. Defendieron el sistema actual de boleta partidaria, considerándolo ágil y conocido por la ciudadanía. Se planteó que podría dificultar la identificación de las propuestas partidarias y favorecer la personalización de la política.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Fuerte impulso y apoyo. La oposición (principalmente JxC) fue la principal impulsora del proyecto, argumentando que la boleta única de papel fortalecería la transparencia del proceso electoral, reduciría costos de impresión de boletas, evitaría maniobras como el robo o destrucción de boletas en el cuarto oscuro, disminuiría el clientelismo y facilitaría la fiscalización. Se presentó como una herramienta para mejorar la calidad institucional y la equidad en la competencia electoral.",
@@ -450,11 +450,11 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Rechazo total y categórico. Denunciaron el DNU como inconstitucional en su forma y en su fondo, un 'plan de guerra' contra los trabajadores y los sectores populares, y un avasallamiento de las facultades del Congreso. Argumentaron que implicaba una brutal transferencia de ingresos hacia los grandes grupos económicos, la pérdida de derechos laborales históricos, la destrucción de la industria nacional y la entrega de la soberanía. Convocaron a movilizaciones y exigieron su derogación inmediata.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Rechazo. Argumentaron la inconstitucionalidad del DNU por no existir las 'necesidades y urgencias' que lo justifiquen y por pretender legislar sobre múltiples materias reservadas al Congreso. Criticaron el contenido por considerarlo regresivo en materia de derechos laborales y sociales, perjudicial para la producción nacional y los consumidores, y por favorecer la concentración económica. Advirtieron sobre el impacto negativo en el acceso a la vivienda, la salud y otros servicios esenciales.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Posturas divididas y con matices. Un sector (principalmente el PRO y aliados más liberales) expresó apoyo al DNU en nombre de la 'libertad de mercado', la 'modernización' y la necesidad de 'reformas estructurales' para combatir la crisis. Argumentaron que muchas de las leyes derogadas eran obstáculos para la inversión y la competencia. Otro sector (UCR, Coalición Cívica y algunos del PRO) cuestionó la validez constitucional del DNU por su forma y amplitud, sosteniendo que las reformas debían pasar por el Congreso, aunque pudieron compartir la necesidad de discutir algunas de las desregulaciones propuestas.",
@@ -476,7 +476,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Apoyo crítico. Si bien valoraron el avance en el acceso al cannabis medicinal y el potencial desarrollo productivo, suelen plantear la necesidad de un enfoque que priorice la producción pública, el control estatal y el acceso gratuito o a bajo costo para los pacientes, evitando que se convierta en un negocio para grandes corporaciones. Podrían haber abogado por una despenalización más amplia del cannabis.",
-        "voto": "Apoyo crítico"
+        "voto": "Apoyo critico"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. Impulsó la ley argumentando que ampliaba derechos para los usuarios de cannabis medicinal, fomentaba la investigación científica y generaba una nueva industria con potencial de inversión, empleo y exportación. Se destacó la importancia de una regulación estatal para garantizar la calidad y seguridad de los productos, y la posibilidad de desarrollo para pymes y economías regionales.",
@@ -484,11 +484,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Voto dividido, aunque con un sector importante a favor. Argumentos a favor se centraron en los beneficios terapéuticos para los pacientes, la necesidad de una regulación clara para una actividad que ya existía de facto, y el potencial económico de la industria. Argumentos en contra o abstenciones provinieron de sectores más conservadores, con preocupaciones sobre el control, el posible desvío al mercado recreativo o reparos morales/sanitarios.",
-        "voto": "Dividido - Mayoría a favor"
+        "voto": "A favor"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA con postura unificada en 2022. Sectores liberales podrían ver con buenos ojos el desarrollo de una nueva industria y la libertad de elección de los pacientes, mientras que sectores más conservadores podrían tener reservas similares a las expresadas en JxC.",
-        "voto": "Dividido (liberales a favor, conservadores con reservas)"
+        "voto": "A favor"
       }
     },
     "resultado_final": "Aprobada con mayoría amplia en ambas cámaras. Senado: 56 votos a favor, 5 en contra, 1 abstención. Diputados: 155 a favor, 56 en contra, 19 abstenciones."
@@ -502,7 +502,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Rechazo o crítica. Argumentaron que una simple ampliación del número de miembros no garantizaba una justicia más democrática, independiente o accesible para el pueblo. Plantearon que podría ser una maniobra para asegurar una mayoría adicta al gobierno de turno y que se necesitaban reformas más profundas, como la elección popular de los jueces o mecanismos de control ciudadano.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. El oficialismo argumentó que la ampliación permitiría una Corte más federal, con representación de las provincias, y con mayor diversidad de miradas y especializaciones para abordar la complejidad de los casos. Se sostuvo que una Corte con más miembros sería más ágil y menos susceptible a presiones. Se vinculó con la necesidad de 'desconcentrar' el poder judicial.",
@@ -510,11 +510,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo total. La oposición denunció el proyecto como un intento del oficialismo de 'copar' la Corte Suprema, nombrar jueces afines y garantizar la impunidad en causas de corrupción. Argumentaron que no había fundamentos técnicos para una ampliación tan grande y que solo buscaba licuar el poder de los jueces existentes y controlar al máximo tribunal. Defendieron la composición actual o, en todo caso, reformas consensuadas.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Rechazo. Coincidieron con los argumentos de JxC sobre el intento de cooptación y la falta de fundamentos válidos para la ampliación, viéndolo como un avance sobre la independencia judicial.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Rechazada. Obtuvo media sanción en el Senado (impulsada por el FdT y aliados) pero no logró ser tratada o no consiguió los votos necesarios en la Cámara de Diputados."
@@ -528,7 +528,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Apoyo crítico. Vieron positivamente la intención de regular a los grandes supermercados y dar visibilidad a pequeños productores, pero pudieron considerarla insuficiente para controlar realmente los precios o combatir la inflación estructural. Abogarían por controles de precios más estrictos y medidas contra la especulación.",
-        "voto": "Apoyo crítico"
+        "voto": "Apoyo critico"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. Impulsó la ley como una herramienta para defender a los consumidores, mejorar la competencia en las góndolas, dar oportunidades a pequeños y medianos productores y cooperativas, y transparentar la formación de precios. Se argumentó que buscaba evitar abusos de posición dominante por parte de las grandes empresas proveedoras y cadenas de supermercados.",
@@ -536,11 +536,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo o críticas. Argumentaron que la ley era una intervención excesiva e innecesaria en el mercado, que generaría mayores costos para los supermercados (que se trasladarían a precios), que sería de difícil fiscalización y que no solucionaría el problema de la inflación. Sostuvieron que la competencia se fomenta con otras medidas y no con regulaciones de este tipo. Consideraron que podría afectar la libertad de comercio.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Rechazo. Consideraron la ley un ejemplo de intervencionismo estatal perjudicial, que distorsionaba el funcionamiento del mercado, imponía cuotas artificiales y no atacaba las causas reales de los problemas de precios. La derogación fue parte del DNU 70/2023, argumentando la necesidad de liberar la economía.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada en febrero de 2020. Reglamentada en diciembre de 2020. Derogada por el DNU 70/2023 en diciembre de 2023."
@@ -554,19 +554,19 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Rechazo o crítica. Argumentaron que los proyectos no apuntaban a una real democratización del organismo ni a terminar con su politización o corporativismo. Plantearon que las disputas por la composición eran luchas de poder entre los partidos mayoritarios para controlar la designación y remoción de jueces, sin mejorar el acceso a la justicia para la ciudadanía.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor de sus propias propuestas. El oficialismo buscó una conformación que, según su visión, equilibrara las representaciones y evitara la 'parálisis' o el 'excesivo poder' de algún estamento (especialmente el judicial o el político opositor). Argumentaron la necesidad de cumplir con el fallo de la Corte pero adaptándolo a una visión que consideraban más democrática y funcional.",
-        "voto": "A favor (de sus propuestas)"
+        "voto": "A favor"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo a las propuestas del oficialismo. Defendieron modelos de Consejo que, según ellos, garantizaban mayor independencia judicial y menor influencia del poder político de turno. Argumentaron que el oficialismo buscaba controlar el organismo para influir en la designación y remoción de jueces. Hubo un intenso debate sobre el rol de la Corte Suprema y la presidencia del Consejo.",
-        "voto": "Rechazo (a propuestas oficialistas)"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Crítica a la politización del Consejo. Probablemente apoyarían modelos que reduzcan la influencia política y enfaticen criterios técnicos o de 'mérito' en la selección de jueces, aunque sin una propuesta unificada clara en ese período.",
-        "voto": "Crítico (de politización)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "No se aprobó una nueva ley consensuada en el plazo otorgado por la Corte. Finalmente, se restableció la vigencia de la ley anterior (con el presidente de la Corte como titular del Consejo), en medio de fuertes disputas políticas. El Congreso continuó debatiendo diferentes proyectos sin llegar a un acuerdo definitivo en el período relevado."
@@ -580,19 +580,19 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Postura crítica y de rechazo al proyecto tal como fue presentado por el gobierno, aunque con matices. Si bien algunos sectores de izquierda abogan por la estatización de empresas estratégicas, criticaron que la propuesta gubernamental implicaba un 'salvataje' a los accionistas privados con fondos públicos, sin un control obrero efectivo ni un plan claro de gestión estatal que beneficiara al pueblo. Propusieron la estatización bajo control de los trabajadores y sin pago a los dueños fraudulentos.",
-        "voto": "Rechazo (al proyecto gubernamental)"
+        "voto": "En contra"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Impulso inicial y luego retroceso. El gobierno argumentó que la intervención y expropiación buscaban evitar la quiebra y extranjerización de una empresa clave para el sector agroexportador, proteger empleos, recuperar deudas del Estado y garantizar la soberanía alimentaria. Se habló de una empresa testigo en el mercado de granos. Sin embargo, la fuerte resistencia política, social (productores agropecuarios) e institucional, sumada a cuestionamientos sobre la viabilidad y la forma, llevaron al gobierno a retirar el proyecto de expropiación y buscar otras alternativas.",
-        "voto": "A favor (inicialmente, luego retirado)"
+        "voto": "A favor"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Fuerte y unánime rechazo. Denunciaron la medida como un avasallamiento de la propiedad privada, un intento de 'venezuelización' de la economía y una señal negativa para las inversiones. Argumentaron que el Estado no debía intervenir en empresas privadas en crisis de esa manera y que existían otros mecanismos para resolver la situación concursal. Se movilizaron en defensa de la 'libertad de empresa' y contra el 'avance estatal'.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Fuerte rechazo. Coincidieron plenamente con los argumentos de JxC, enfatizando la defensa de la propiedad privada y la crítica al intervencionismo estatal. Lo vieron como un ejemplo de las políticas 'populistas' y 'confiscatorias' que, según ellos, destruyen la economía.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Retirado por el Poder Ejecutivo tras una fuerte resistencia política, social y manifestaciones en varias ciudades. El intento de expropiación fracasó."
@@ -614,11 +614,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Posturas divididas, aunque con un sector importante acompañando. Argumentos a favor se centraron en la necesidad de garantizar derechos humanos, la no discriminación y la inclusión de un colectivo históricamente marginado. Algunas resistencias o abstenciones pudieron provenir de sectores más conservadores, con argumentos sobre la 'idoneidad' como único criterio o cuestionamientos a las 'cuotas'.",
-        "voto": "Dividido - Mayoría a favor"
+        "voto": "A favor"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA con postura unificada en 2021. Sectores más conservadores o liberales meritocráticos podrían mostrarse escépticos o contrarios a las leyes de cupo, argumentando que la contratación debe basarse exclusivamente en el mérito individual y no en la pertenencia a un colectivo, aunque la problemática trans tiene particularidades reconocidas.",
-        "voto": "En contra de cupos (sectores conservadores/liberales)"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada con amplio apoyo en ambas cámaras. Diputados: 207 votos a favor, 11 en contra, 7 abstenciones. Senado: 55 a favor, 1 en contra, 6 abstenciones."
@@ -644,7 +644,7 @@
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "No aplicable como LLA en 2018. Si bien la ley tuvo un consenso muy amplio, sectores muy conservadores o que niegan la 'ideología de género' podrían, a futuro, cuestionar la obligatoriedad o el contenido de estas capacitaciones, aunque en el momento de su sanción no hubo oposición significativa.",
-        "voto": "A favor (por no oposición en su momento)"
+        "voto": "A favor"
       }
     },
     "resultado_final": "Aprobada por unanimidad en ambas cámaras."
@@ -658,7 +658,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Crítica constructiva o apoyo con reservas. Si bien valoraron la necesidad de estadísticas públicas confiables y la independencia técnica del INDEC, suelen denunciar que las metodologías pueden invisibilizar aspectos de la pobreza o la precarización laboral. Abogarían por mayor participación de trabajadores y usuarios en el control del organismo y en la definición de los indicadores.",
-        "voto": "Apoyo con reservas"
+        "voto": "A favor"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Apoyo a la normalización y fortalecimiento. Los gobiernos de este espectro (especialmente post-2019) buscaron consolidar la recuperación técnica del organismo iniciada en 2016, asegurando la continuidad de la producción estadística regular y la adopción de estándares internacionales. Pudo haber matices sobre la política de personal o la difusión de ciertos datos sensibles.",
@@ -688,15 +688,15 @@
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor, aunque con matices sobre la viabilidad fiscal inmediata. Históricamente han apoyado el aumento de la inversión educativa (la ley del 6% fue de un gobierno de este signo). Argumentarían que una mayor inversión es clave para el desarrollo nacional, la igualdad de oportunidades y la mejora de la calidad educativa. Pudieron haber condicionado el aumento a las posibilidades presupuestarias.",
-        "voto": "A favor (con matices fiscales)"
+        "voto": "A favor"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo o reparos por 'gasto estructural no financiado'. Si bien pudieron compartir el objetivo de mejorar la educación, expresaron preocupaciones sobre la factibilidad de alcanzar un 8% del PBI sin un plan de financiamiento claro y sostenible, y sin afectar otras áreas del presupuesto o generar mayor déficit fiscal. Podrían priorizar la 'eficiencia del gasto' antes que el aumento nominal.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Rechazo por 'gasto estructural no financiado'. Argumentarían en contra de fijar pisos de gasto por ley, especialmente tan elevados, considerándolos una rigidez presupuestaria insostenible y una fuente de déficit. Propondrían reformas estructurales en el sistema educativo y una gestión más 'eficiente' de los recursos existentes antes que un aumento generalizado del presupuesto. Podrían abogar por sistemas de vouchers o mayor participación privada.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Rechazada. Proyectos de esta naturaleza no lograron consenso para ser aprobados en el período reciente, especialmente en contextos de restricción fiscal."
@@ -714,7 +714,7 @@
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Mayormente en contra de la intervención directa de las FFAA en seguridad interior. Sostendrían la distinción tradicional entre Defensa Nacional y Seguridad Interior. Podrían aceptar debates sobre la mejora de la coordinación entre fuerzas federales y provinciales, o el fortalecimiento de la inteligencia criminal, pero con reparos a cambios que desdibujen los roles o impliquen una deriva represiva. Sectores más punitivistas podrían tener posturas menos definidas.",
-        "voto": "Mayormente en contra (de intervención FFAA)"
+        "voto": "En contra"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Posturas divididas. Un sector (especialmente el ala más dura del PRO) podría mostrarse a favor de medidas de 'mano dura', incluyendo la posibilidad de una participación más activa de las FFAA en la lucha contra el narcotráfico o el terrorismo, y el endurecimiento de penas. Otro sector (UCR, Coalición Cívica) podría ser más cauto, expresando preocupaciones por el marco legal, los derechos humanos y la necesidad de no apartarse de los consensos básicos sobre el rol de las FFAA.",
@@ -736,7 +736,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "A favor de la progresividad, pero con críticas. Si bien apoyarían que los sectores de mayores ingresos paguen más, suelen considerar estas reformas como parches si no van acompañadas de una reforma tributaria integral que grave la renta financiera, las grandes fortunas de forma permanente y reduzca impuestos al consumo como el IVA. Denunciarían que el impuesto al salario es injusto.",
-        "voto": "A favor con críticas"
+        "voto": "A favor"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. Impulsaron reformas en Ganancias (como la de 2021 que subió el mínimo no imponible) argumentando la necesidad de aliviar la carga fiscal sobre los trabajadores y jubilados de ingresos medios y bajos, y mejorar la progresividad del sistema. Sostuvieron que era una medida para recomponer el poder adquisitivo y estimular el consumo interno.",
@@ -770,11 +770,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo o fuertes críticas. Argumentaron que la ley implicaría la creación de 'nuevos impuestos' (la tasa ambiental), que aumentaría los costos de producción (trasladándose a precios), que generaría una burocracia excesiva y que podría afectar la competitividad de las empresas, especialmente las pymes. Plantearon dudas sobre la efectividad del sistema REP propuesto y su implementación.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Rechazo. Considerarían la ley como una intervención estatal innecesaria que impone cargas a las empresas, aumenta costos y crea 'impuestos verdes' que afectan la actividad económica. Abogarían por soluciones de mercado o voluntarias para el reciclaje, o por una gestión municipal de residuos sin estas imposiciones a los productores.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       }
     },
     "resultado_final": "No obtuvo dictamen favorable en comisiones o no logró el consenso necesario para ser tratada en el recinto, quedando rechazada en la práctica."
@@ -796,11 +796,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo o fuertes críticas. Argumentaron que las moratorias previsionales 'quiebran el sistema', son 'injustas' con quienes sí aportaron durante 30 años, y que generan un 'gasto fiscal insostenible'. Sostuvieron que fomentan la informalidad y que se necesitan reformas estructurales en el sistema previsional en lugar de parches. Propusieron pensiones no contributivas de menor cuantía para quienes no tienen aportes, en lugar de jubilaciones por moratoria.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Rechazo. Considerarían las moratorias como un ejemplo de 'populismo previsional' que desfinancia el sistema, no respeta el principio contributivo (relación entre aportes y beneficios) y genera un incentivo perverso a no aportar. Abogarían por sistemas de capitalización individual o por una drástica reforma del sistema estatal.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Aprobada. Diputados: 134 votos a favor, 107 en contra. Senado: 37 a favor, 23 en contra."
@@ -814,7 +814,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "A favor. Apoyarían estas iniciativas como paliativos necesarios ante la crisis habitacional, pero argumentarían que son insuficientes sin un control de precios de los alquileres, un impuesto a la vivienda ociosa, y un plan masivo de construcción de vivienda pública y social.",
-        "voto": "A favor (como paliativo)"
+        "voto": "A favor"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "A favor. Impulsaron o vieron con buenos ojos programas de este tipo como complemento a la Ley de Alquileres, buscando herramientas para ayudar a los sectores más vulnerables a acceder a una vivienda alquilada. Se argumentó la necesidad de intervención estatal para corregir fallas del mercado y garantizar el derecho a la vivienda.",
@@ -822,11 +822,11 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Rechazo o escepticismo. Argumentarían que estos programas pueden generar distorsiones en el mercado, ser costosos fiscalmente y de difícil implementación. Podrían proponer, en cambio, incentivos a la construcción o a la oferta de alquileres, o programas de crédito hipotecario, más que subsidios directos al alquiler.",
-        "voto": "Rechazo o Escepticismo"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Rechazo. Considerarían que el Estado no debe intervenir subsidiando alquileres, ya que esto distorsiona los precios y genera dependencia. Abogarían por la desregulación total del mercado de alquileres y la eliminación de programas de asistencia, confiando en que la libre oferta y demanda resolverían el problema del acceso.",
-        "voto": "Rechazo"
+        "voto": "En contra"
       }
     },
     "resultado_final": "Algunos programas fueron aprobados o implementados a nivel nacional o subnacional, pero con alcance y continuidad variables, y a menudo desactivados o con bajo impacto por falta de financiamiento o cambios de gobierno."
@@ -840,7 +840,7 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Apoyo crítico. Si bien apoyaron el reconocimiento y la organización de los trabajadores de la economía popular, y la necesidad de asistencia estatal, criticaron que muchas veces estas políticas no resuelven la precarización estructural y pueden ser una forma de gestionar la pobreza sin atacar sus causas. Demandarían trabajo genuino con plenos derechos y salario digno.",
-        "voto": "Apoyo crítico"
+        "voto": "Apoyo critico"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Apoyo e impulso. Consideraron a la economía popular como un sector dinámico y una realidad laboral para millones de personas excluidas del mercado formal. Buscaron su reconocimiento, formalización y fortalecimiento a través de programas como el Potenciar Trabajo, el monotributo social, y el apoyo a proyectos productivos. Argumentaron que era una forma de inclusión social y laboral.",
@@ -848,7 +848,7 @@
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Críticas y reparos. Si bien reconocieron la existencia del sector, expresaron preocupación por la 'intermediación' de las organizaciones sociales en la distribución de planes, el 'gasto social improductivo' y la 'institucionalización de la pobreza'. Argumentaron que se debía fomentar la transición hacia el empleo formal privado y no perpetuar la dependencia de la asistencia estatal. Cuestionaron la falta de transparencia y control en algunos programas.",
-        "voto": "Crítico/En contra (del modelo FdT)"
+        "voto": "En contra"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Críticas fuertes. Considerarían que la 'economía popular' subsidiada es una forma de 'precarización institucionalizada' que desalienta el trabajo formal y la inversión. Argumentarían que se debe reducir drásticamente la asistencia social, eliminar la intermediación y fomentar el empleo privado a través de la desregulación laboral y la baja de impuestos. Denunciarían el 'negocio de la pobreza' y el 'clientelismo'.",
@@ -866,19 +866,19 @@
     "posturas": {
       "izquierda_fit": {
         "argumentacion": "Participación crítica. Si bien valoran los espacios de coordinación, suelen denunciar que el COFEMA tiene un rol limitado, que sus decisiones no son suficientemente vinculantes y que a menudo prima una visión desarrollista por sobre la protección ambiental efectiva. Exigirían mayor poder para el Consejo, participación ciudadana y políticas ambientales más audaces contra el extractivismo.",
-        "voto": "Participación crítica"
+        "voto": "Apoyo critico"
       },
       "centro_izquierda_fdt_otros": {
         "argumentacion": "Apoyo al rol de coordinación. Consideran al COFEMA un instrumento importante para la articulación de políticas ambientales federales, el intercambio de experiencias y la búsqueda de consensos entre Nación y provincias. Buscarían fortalecer su capacidad técnica y política para implementar la legislación ambiental.",
-        "voto": "A favor (del rol de coordinación)"
+        "voto": "A favor"
       },
       "centro_derecha_jxc_otros": {
         "argumentacion": "Apoyo al rol de coordinación. Valoran el COFEMA como un espacio de diálogo y acuerdo federal necesario para la gestión ambiental, que involucra competencias concurrentes. Podrían enfatizar la necesidad de que las políticas ambientales sean compatibles con el desarrollo productivo y la inversión.",
-        "voto": "A favor (del rol de coordinación)"
+        "voto": "A favor"
       },
       "derecha_lla_pro_otros": {
         "argumentacion": "Apoyo a la coordinación si es eficiente y no genera 'excesiva burocracia'. En general, podrían tener un enfoque más escéptico sobre las regulaciones ambientales si las consideran un freno a la actividad económica, pero reconocerían la necesidad de un marco de coordinación interjurisdiccional para problemas ambientales que trascienden límites provinciales.",
-        "voto": "A favor (con condiciones)"
+        "voto": "A favor"
       }
     },
     "resultado_final": "Consenso general sobre la existencia y rol del COFEMA como espacio de coordinación ambiental federal, aunque con debates permanentes sobre su efectividad, el alcance de sus decisiones y el nivel de compromiso de las jurisdicciones con las políticas acordadas."
