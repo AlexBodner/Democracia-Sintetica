@@ -1,11 +1,12 @@
 import asyncio
 from copy import deepcopy
 from debate_agents.investigador import Investigador
-from logger import logger
+from logger import new_logger
 from debate.round import FirstRound, SecondRound, ThirdRound
-from researcher.deepresearch import deepresearch
 import json
+import os
 
+logger = new_logger("debate_system.log")
 class Debate:
     def __init__(self, agents, law, reviewer):  
         self.agents = agents
@@ -17,7 +18,7 @@ class Debate:
     #                                         , instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
     
 
-    async def run_debate(self,):
+    async def run_debate(self,id = 1,output_folder = "evaluaciones"):
         #Sin intervencion del reviewer en el medio
         
         full_debate = {}
@@ -47,8 +48,9 @@ class Debate:
         
         logger.info("--- Full debate ---")
         logger.info(full_debate)
-        
-        with open("debate.json", "w", encoding ='utf8') as archivo:
+        os.makedirs(output_folder, exist_ok=True)
+
+        with open(os.path.join(output_folder,f"debate_{id}.json"), "w", encoding ='utf8') as archivo:
             json.dump(full_debate, archivo, indent=4, ensure_ascii = False)
             
         return full_debate

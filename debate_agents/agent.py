@@ -1,7 +1,6 @@
 from API_Model import API_Model
 from debate_agents.response_structures import *
 from  copy import deepcopy
-from logger import logger
 
 class Agent:
     def __init__(self, sys_prompt, few_shot_ex, agent_name):
@@ -27,7 +26,6 @@ class Agent:
                                                                 pydantic_response_structure = SearchAgentResponse
             )
             if search_response.queres_buscar:
-                logger.info(f"\n\n       Consigna de busqueda: {search_response.consigna_de_busqueda}\n\n")
                 contexto = deepcopy(prev_round_context)
                 busqueda =await investigador.busca(search_response.consigna_de_busqueda)
                 contexto.append({
@@ -35,9 +33,6 @@ class Agent:
                     "content": f"Los resultados de tu investigación sobre: {search_response.consigna_de_busqueda} son: {busqueda}" ,
                 })
 
-                logger.info("------------------- Búsqueda de Google ------------------------------")
-                logger.info(busqueda)
-                logger.info("---------------------------------------------------------------------")
                 generated_response = await self.api_model_agent.call_api(
                     previous_rounds_context = contexto
                 )

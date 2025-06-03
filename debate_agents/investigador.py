@@ -9,7 +9,6 @@ import tiktoken
 import http.client
 import json
 import requests
-from logger import logger
 
 # --- Cargar variables de entorno ---
 load_dotenv()
@@ -81,8 +80,6 @@ class Investigador:
             )
             return generated_response.razonamiento
         except ValidationError as e:
-            logger.error(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
-            if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
-                 logger.error(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
+
             return None
     

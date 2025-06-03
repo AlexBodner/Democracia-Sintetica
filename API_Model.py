@@ -1,5 +1,3 @@
-# --- Imports necesarios para las definiciones de clases ---
-import asyncio # asyncio es necesario para el tipado AsyncAzureOpenAI
 from typing import Any, List, Dict, Union # Tipado para métodos y atributos
 
 from pydantic import BaseModel, Field, ValidationError # Clases base y excepciones de Pydantic
@@ -9,14 +7,7 @@ import instructor # Librería para estructurar la salida del modelo
 import os
 from debate_agents.response_structures import StructuredAgentResponse
 from dotenv import load_dotenv
-#import tiktoken
-from pydantic import BaseModel
-import openai
-from pydantic_ai import Agent, RunContext
-from openai import AsyncOpenAI
-from logger import logger
 
-# from pydantic_ai.common_tools.duckduckgo import duckduckgo_search_tool
 # --- Cargar variables de entorno ---
 load_dotenv()
 
@@ -102,8 +93,8 @@ class API_Model:
             )
             return generated_response
         except ValidationError as e:
-            logger.error(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
-            if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
-                 logger.error(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
+            # logger.error(f"Error de validación de Pydantic al parsear la respuesta de la API: {e}")
+            # if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
+            #      logger.error(f"Respuesta cruda recibida (inicio): {e.response.text[:300]}...")
             return None
 

@@ -60,7 +60,7 @@ class EvaluadorResponse(BaseModel):
 
 class EvaluarAgenteResponse(BaseModel):
     similitudes: str = Field( description="Explicación general de las coincidencias encontradas en los debates, y justificación del puntaje.")
-    diferencias: str = Field( description="Explicación general de las  diferencias encontradas en los debates, y justificación del puntaje.")
-    similitud: float = Field(description="Puntaje de similaridad global entre el debate sintético de los agentes y el real, entre 0 y 1.")
+    diferencias: str = Field( description="Explicación general de las diferencias encontradas en los debates, y justificación del puntaje.")
+    puntaje: float = Field(description="Puntaje de similaridad global entre el debate sintético de los agentes y el real, entre 0 y 1.")
     
 
