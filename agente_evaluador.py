@@ -7,11 +7,21 @@ from logger import new_logger
 class AgenteEvaluador:
     puntaje_base_general = 0
     analisis_agente = {}
+    leyes_reales = {}
+    
+    
     posturas = {"En contra": 0,
                 "Critico": 1,
                 "Dividido": 2,
                 "Apoyo critico": 3,
                 "A favor": 4}
+    
+    agente2postura = {
+        "Agente Liberal": "derecha_lla_pro_otros",
+        "Agente de Centro Derecha": "centro_derecha_jxc_otros",
+        "Agente de Centro Izquierda": "centro_izquierda_fdt_otros",
+        "Agente de Izquierda": "izquierda_fit"
+    }
 
 
     def __init__(self, system_prompt: str):
@@ -20,13 +30,22 @@ class AgenteEvaluador:
         """
         self.model = API_Model(system_prompt=system_prompt)
         self.system_promt = system_prompt
+        with open("testing\leyes_limpias.json", "r", encoding="utf-8") as f:
+            self.leyes_reales =  json.load(f)
         
     def evaluar_votacion(self, debate_sintetico_por_agente, nombre_agente, n_ley=1):
         voto = debate_sintetico_por_agente["Round 2"][nombre_agente]["voto"]
-        if voto == True:
-            return 4 
+      
+        for ley in self.leyes_reales:
+            if ley["id"] == n_ley:
+                voto_real = ley["posturas"][self.agente2postura[nombre_agente]]["voto"]
+                
+        if voto == self.posturas[voto_real]:
+            return 1
+        return 0
             
-
+        
+    
     async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, posturas_reales, n_rounds=3, 
                               id = 0, output_folder = "evaluaciones"):
         """
@@ -105,3 +124,8 @@ def get_agent_responses(debate, agent_name, n_rounds=3):
         if f"Round {i}" in debate.keys():
             agent_response += f"\n\n--- Round {i} ---\n" + debate[f"Round {i}"][agent_name]["argumentacion"] + "\n"
     return agent_response
+
+
+
+
+

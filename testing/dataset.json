@@ -884,3 +884,63 @@
     "resultado_final": "Consenso general sobre la existencia y rol del COFEMA como espacio de coordinación ambiental federal, aunque con debates permanentes sobre su efectividad, el alcance de sus decisiones y el nivel de compromiso de las jurisdicciones con las políticas acordadas."
   }
 ]
+
+
+"""
+# ESTOS DOS HAY QUE REVISARLOS (EN REALIDAD QUIZAS DIVIDIRLOS EN PARTES MAS ESPECIFICAS)
+  {
+    "id": 8.3,
+    "nombre": "Proyectos de Reforma Judicial",
+    "año": 2020,
+    "estado": "Rechazado",
+    "resumen": "El gobierno del FdT propuso una reforma del fuero federal penal (unificación de fueros, creación de nuevos juzgados) y cambios en la Ley Orgánica del Ministerio Público Fiscal. También hubo un proyecto para ampliar el Consejo de la Magistratura.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "Crítica y rechazo. Se argumentó que las reformas propuestas no apuntaban a una democratización real de la justicia ni a terminar con la influencia de los poderes económicos y políticos sobre el sistema judicial. Se denunció que podrían ser intentos de garantizar impunidad o manejar causas sensibles, y que no abordaban los problemas estructurales de acceso a la justicia para los sectores populares.",
+        "voto": "En contra"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "A favor. El oficialismo defendió las propuestas como necesarias para mejorar la eficiencia, transparencia e independencia del Poder Judicial, desconcentrar el poder en el fuero federal y 'despolitizar' la justicia. Se argumentó que buscaban terminar con el 'lawfare' y las 'mesas judiciales'. Respecto al Ministerio Público, se buscaba modificar la forma de elección y remoción del Procurador General.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Rechazo de plano. La oposición argumentó que las reformas eran un intento del oficialismo de controlar el Poder Judicial, asegurar la impunidad en causas de corrupción que involucraban a exfuncionarios y limitar la independencia de fiscales y jueces. Se denunció un supuesto plan para 'colonizar' la justicia y se criticó la falta de consenso para reformas de esta envergadura.",
+        "voto": "En contra"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "No aplicable como LLA en 2020. Los sectores más duros del PRO (dentro de JxC) lideraron el rechazo, con argumentos similares sobre el intento de cooptación de la justicia.",
+        "voto": "En contra"
+      }
+    },
+    "resultado_final": "Rechazados o no prosperaron. La reforma del fuero federal obtuvo media sanción en el Senado pero no avanzó en Diputados. Otros proyectos conexos tampoco lograron consenso."
+  },
+
+  {
+    "id": 8.5,
+    "nombre": "Ley de Reforma del Congreso",
+    "año": 2023,
+    "estado": "Derogada",
+    "resumen": "Dentro del DNU 70/2023, el gobierno de LLA incluyó modificaciones a la Ley de Administración Financiera que impactaban en el manejo presupuestario del Congreso y derogaba normativas que regulaban aspectos de su funcionamiento, interpretado por algunos como una reforma indirecta o un intento de limitar su autonomía.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "Crítica y rechazo al DNU en su conjunto. Argumentaron que estas medidas eran un avasallamiento de las facultades del Congreso, un intento de concentración de poder en el Ejecutivo y que afectaban la representación democrática y el pluralismo.",
+        "voto": "En contra"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "Crítica y rechazo al DNU. Sostuvieron que las reformas que afectaban al Congreso debían realizarse por ley y con debate parlamentario, no por decreto. Denunciaron un intento de debilitar al Poder Legislativo y alterar el equilibrio de poderes. denunció que el DNU “hace que suban todos los servicios y bajen los sueldos” de los trabajadores, y lamentó la derogación de decenas de leyes con una sola firma presidencial",
+        "voto": "En contra"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Defendió la legitimidad de las medidas porque el presidente “hizo lo que dijo que iba a hacer y la gente lo votó. declaró que rechazar el DNU era “una herida política” para el país y pidió “un proyecto común” (en la práctica, apoyar al Ejecutivo)",
+        "voto": "A favor"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "A favor. El gobierno de LLA impulsó estas reformas (contenidas en el DNU) argumentando la necesidad de reducir el gasto público, eliminar 'privilegios' de la política y agilizar la gestión del Estado. Consideraron que el Congreso era parte del 'problema' de la burocracia y el déficit.",
+        "voto": "A favor"
+      }
+    },
+    "resultado_final": "Las disposiciones del DNU 70/2023 que afectaban al Congreso fueron, junto con el resto del decreto, objeto de fuerte debate y cuestionamiento judicial. El DNU fue rechazado en su totalidad por el Senado en marzo de 2024 y estaba pendiente de tratamiento en Diputados (al momento del relevamiento original). El término 'derogada' en el texto original es impreciso si se refiere a una acción del Congreso sobre esas partes específicas del DNU; más bien, el DNU completo estaba en vilo."
+  }
+]
+
+"""
