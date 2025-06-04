@@ -468,30 +468,30 @@
   "resultado_final": "El proyecto obtuvo media sanción en el Senado el 7 de abril de 2022 (37 votos a favor, 33 en contra). Sin embargo, no logró ser tratado ni aprobado en la Cámara de Diputados, por lo que no se convirtió en ley. Finalmente, no se aprobó una nueva ley consensuada en el plazo otorgado por la Corte, restableciéndose la vigencia de la ley anterior (con el presidente de la Corte como titular del Consejo), en medio de fuertes disputas políticas."
   },
   {
-    "id": 19,
-    "nombre": "Proyecto de Expropiación de Vicentin",
-    "año": 2020,
-    "estado": "Retirado (fracasado)",
-    "resumen": "El Poder Ejecutivo (FdT) anunció la intervención de la empresa agroexportadora Vicentin (en concurso de acreedores y con una gran deuda con el Estado, especialmente el Banco Nación) y envió un proyecto de ley para su expropiación, argumentando la necesidad de rescatar la empresa, mantener las fuentes de trabajo y asegurar la soberanía alimentaria.",
-    "posturas": {
-      "izquierda_fit": {
-        "argumentacion": "Postura crítica y de rechazo al proyecto tal como fue presentado por el gobierno, aunque con matices. Si bien algunos sectores de izquierda abogan por la estatización de empresas estratégicas, criticaron que la propuesta gubernamental implicaba un 'salvataje' a los accionistas privados con fondos públicos, sin un control obrero efectivo ni un plan claro de gestión estatal que beneficiara al pueblo. Propusieron la estatización bajo control de los trabajadores y sin pago a los dueños fraudulentos.",
-        "voto": "En contra"
-      },
-      "centro_izquierda_fdt_otros": {
-        "argumentacion": "Impulso inicial y luego retroceso. El gobierno argumentó que la intervención y expropiación buscaban evitar la quiebra y extranjerización de una empresa clave para el sector agroexportador, proteger empleos, recuperar deudas del Estado y garantizar la soberanía alimentaria. Se habló de una empresa testigo en el mercado de granos. Sin embargo, la fuerte resistencia política, social (productores agropecuarios) e institucional, sumada a cuestionamientos sobre la viabilidad y la forma, llevaron al gobierno a retirar el proyecto de expropiación y buscar otras alternativas.",
-        "voto": "A favor"
-      },
-      "centro_derecha_jxc_otros": {
-        "argumentacion": "Fuerte y unánime rechazo. Denunciaron la medida como un avasallamiento de la propiedad privada, un intento de 'venezuelización' de la economía y una señal negativa para las inversiones. Argumentaron que el Estado no debía intervenir en empresas privadas en crisis de esa manera y que existían otros mecanismos para resolver la situación concursal. Se movilizaron en defensa de la 'libertad de empresa' y contra el 'avance estatal'.",
-        "voto": "En contra"
-      },
-      "derecha_lla_pro_otros": {
-        "argumentacion": "Fuerte rechazo. Coincidieron plenamente con los argumentos de JxC, enfatizando la defensa de la propiedad privada y la crítica al intervencionismo estatal. Lo vieron como un ejemplo de las políticas 'populistas' y 'confiscatorias' que, según ellos, destruyen la economía.",
-        "voto": "En contra"
-      }
+  "id": 19,
+  "nombre": "Proyecto de Expropiación de Vicentin",
+  "año": 2020,
+  "estado": "Retirado (fracasado)",
+  "resumen": "El Poder Ejecutivo (FdT) anunció la intervención de la empresa agroexportadora Vicentin (en concurso de acreedores y con una gran deuda con el Estado, especialmente el Banco Nación) y envió un proyecto de ley para su expropiación, argumentando la necesidad de rescatar la empresa, mantener las fuentes de trabajo y asegurar la soberanía alimentaria.",
+  "posturas": {
+    "izquierda_fit": {
+      "argumentacion": "Postura crítica y de rechazo al proyecto tal como fue presentado por el gobierno, aunque con matices. Si bien algunos sectores de izquierda abogan por la estatización de empresas estratégicas, criticaron que la propuesta gubernamental implicaba un 'salvataje' a los accionistas privados con fondos públicos, sin un control obrero efectivo ni un plan claro de gestión estatal que beneficiara al pueblo. Propusieron la estatización bajo control de los trabajadores y sin pago a los dueños fraudulentos.",
+      "voto": "En contra"
     },
-    "resultado_final": "Retirado por el Poder Ejecutivo tras una fuerte resistencia política, social y manifestaciones en varias ciudades. El intento de expropiación fracasó."
+    "centro_izquierda_fdt_otros": {
+      "argumentacion": "Impulso inicial y luego retroceso. El gobierno argumentó que la intervención y expropiación buscaban evitar la quiebra y extranjerización de una empresa clave para el sector agroexportador, proteger empleos, recuperar deudas del Estado y garantizar la soberanía alimentaria. Se habló de una empresa testigo en el mercado de granos. Sin embargo, la fuerte resistencia política, social (productores agropecuarios) e institucional, sumada a cuestionamientos sobre la viabilidad y la forma, llevaron al gobierno a retirar el proyecto de expropiación y buscar otras alternativas.",
+      "voto": "A favor"
+    },
+    "centro_derecha_jxc_otros": {
+      "argumentacion": "Fuerte y unánime rechazo. Denunciaron la medida como un avasallamiento de la propiedad privada, un intento de 'venezuelización' de la economía y una señal negativa para las inversiones. Argumentaron que el Estado no debía intervenir en empresas privadas en crisis de esa manera y que existían otros mecanismos para resolver la situación concursal. Se movilizaron en defensa de la 'libertad de empresa' y contra el 'avance estatal'.",
+      "voto": "En contra"
+    },
+    "derecha_lla_pro_otros": {
+      "argumentacion": "Fuerte rechazo. Coincidieron plenamente con los argumentos de JxC, enfatizando la defensa de la propiedad privada y la crítica al intervencionismo estatal. Lo vieron como un ejemplo de las políticas 'populistas' y 'confiscatorias' que, según ellos, destruyen la economía.",
+      "voto": "En contra"
+    }
+  },
+  "resultado_final": "Retirado por el Poder Ejecutivo tras una fuerte resistencia política, social y manifestaciones en varias ciudades. El intento de expropiación fracasó."
   },
   {
     "id": 20,
