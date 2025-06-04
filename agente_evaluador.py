@@ -52,9 +52,10 @@ class AgenteEvaluador:
             {
                 "role": "user",
                 "content": f"### Debate generado por agente (sintético):\n{debate_sintetico}\n\n"
-                            "Tu tarea es generar una lista de los argumentos únicos que dijo el agente a lo largo de todo el debate,"
+                            "Tu tarea es generar una lista resumiendo los argumentos únicos que dijo el agente a lo largo de todo el debate,"
                             "para luego comparar con un listado de argumentos del ground truth."
-                            "La idea es que solo agarres argumentos unicos, no muchos que se parezcan y los hagas genericos. Ademas, quiero argumentos no solo las cosas que se quieren hacer o se proponen."
+                            "La idea es que solo agarres argumentos únicos, si encuentras varios argumentos que se parezcan, juntalos en uno sin perder información"
+                            ". Ademas, quiero argumentos no solo las cosas que se quieren hacer o se proponen."
             }
         ]
 
@@ -160,7 +161,7 @@ def get_agent_responses(debate, agent_name, n_rounds=3):
     agent_response = ""
     for i in range(n_rounds):
         if f"Round {i}" in debate.keys():
-            agent_response += f"\n\n--- Round {i} ---\n" + debate[f"Round {i}"][agent_name]["argumentacion"] + "\n"
+            agent_response += f"\n\n--- Round {i} ---\n" + debate[f"Round {i}"][agent_name]["argumentacion"].join("\n") + "\n"
     return agent_response
 
 

@@ -223,3 +223,30 @@ Puntaje final promedio: 0.7000000000000001
 
 Puntaje final promedio: 0.675
 --------------------------------------------------------------------------------
+
+
+- Agente Liberal:
+  Similitudes: En el debate sintético, el Agente Liberal argumentó a favor de la legalización del aborto priorizando la libertad individual y el acceso a servicios de salud, haciéndolo compatible con criterios de salud y seguridad para las mujeres. Esto contrasta con la postura real del Partido Libertario que, en términos generales, defiende la autonomía personal. Sin embargo, el agente se desvió significativamente al no enfatizar la defensa de la vida desde la concepción, lo cual es un aspecto intrínseco a la posición del partido en temas morales y de derechos humanos.
+  Diferencias: El Agente Liberal, en el debate sintético, apoyó la legalización del aborto al argumento de la libertad individual de la mujer, mientras que la postura real del partido se opone a la legalización, defendiendo en cambio un enfoque que prioriza la vida desde la concepción. La postura real es mucho más firme en su rechazo hacia cualquier forma de intervención estatal que permita el aborto, defendiendo un enfoque basado en principios morales y religiosos que el agente no representó en su conducta en el debate.
+  Puntaje: 0.3
+
+
+- Agente de Centro Derecha:
+  Similitudes: Ambos debates presentan una fuerte oposición a la legalización del aborto, enfatizando el valor de la vida desde la concepción y la necesidad de alternativas al aborto. En el debate sintético, el agente menciona la importancia de políticas que apoyen a las madres, lo cual es coherente con la postura real que también aboga por la protección de las dos vidas y el apoyo a la maternidad. Asimismo, se observa un enfoque en la educación sexual y el acceso a métodos anticonceptivos como parte de la solución, lo que refleja un punto de coincidencia.
+  Diferencias: El debate sintético se centra exclusivamente en la oposición a la ley de aborto, sin reconocer las posturas más matizadas de otros sectores dentro del mismo partido, que en el debate real ya estaban comenzando a aceptar ciertos aspectos de la legalización desde la perspectiva de derechos de las mujeres. Además, en algunas intervenciones del debate real se hacen mencionados a objeciones constitucionales y creencias religiosas, que no se abordan en el argumento sintético. Esto muestra una limitación en la amplitud de la argumentación del agente sintético.
+  Puntaje: 0.7
+
+
+- Agente de Centro Izquierda:
+  Similitudes: El Agente de Centro Izquierda en el debate sintético utiliza argumentos en línea con la postura real del partido al enfatizar la importancia de la salud pública, la justicia social y la autonomía de las mujeres. Destaca que la legalización del aborto hasta la semana 14 no solo protege la vida de las mujeres, sino que también responde a una necesidad social urgente. Estas son las bases del discurso real del partido, que coincide en promover la equidad y el acceso a servicios de salud seguros, así como la defensa de los derechos humanos.
+  Diferencias: En el debate sintético, el agente es más enfático en la necesidad de un enfoque integral de derechos, señalando que el aborto debe ser visto como una cuestión de autonomía y también de salud pública. Si bien esto se alinea con los argumentos reales, en la práctica, el debate político puede presentar más matices sobre el papel del Estado y la responsabilidad social en la educación y prevención, que no están reflejados en la argumentación del agente sintético. La postura sintética podría carecer de una diversidad en la forma de abordar soluciones complementarias como la educación sexual y el acompañamiento emocional.
+  Puntaje: 0.8
+
+
+- Agente de Izquierda:
+  Similitudes: Ambos debates abordan la legalización de la interrupción voluntaria del embarazo desde una perspectiva pro-derechos de las mujeres, destacando su autonomía y los problemas de salud pública asociados con el aborto clandestino. También ambos ponen énfasis en las condiciones socioeconómicas que afectan a las mujeres, apoyando la idea de que la legalización es una herramienta para avanzar hacia la justicia social.
+  Diferencias: El debate sintético enfatiza más el contexto de lucha de clases y la dependencia del Estado para garantizar los derechos, lo que es característico del FIT-U, mientras que el debate real incorpora consideraciones sobre la objeción de conciencia y una postura vigilante sobre la implementación de la ley. Además, el agente del debate sintético refuerza una narrativa combativa y anticapitalista, mientras que el debate real se enfoca en triunfos históricos y el reconocimiento de la lucha feminista en un marco más conciliador.
+  Puntaje: 0.85
+
+Puntaje final promedio: 0.6625
+--------------------------------------------------------------------------------

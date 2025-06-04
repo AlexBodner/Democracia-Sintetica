@@ -1,0 +1,44 @@
+[
+    {
+    "id": 1,
+    "nombre": "Ley de Interrupción Voluntaria del Embarazo (IVE) – aborto legal",
+    "año": 2020,
+    "estado": "Aprobada",
+    "resumen": "Legaliza el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": [" Se reafirmó que era un problema de salud pública, de justicia social (la clandestinidad afectaba a las más pobres) y de autonomía personal.",
+                          "Se mantuvo una postura vigilante sobre la efectiva implementación y se cuestionaron aspectos como la objeción de conciencia que podría obstaculizar el derecho."
+          ] 
+        ,
+        "voto": "A favor"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": [" El proyecto fue impulsado por el Poder Ejecutivo.", 
+        "Salud Pública: Reducir mortalidad materna y complicaciones por abortos inseguros (clandestinos).",
+        " Equidad y Justicia Social: Terminar con la discriminación donde las mujeres con recursos accedían a abortos seguros y las pobres arriesgaban su vida. Se aclaró que no promueve el aborto, sino que lo regula para evitar más muertes.",
+        "Da Autonomía Personal y Derechos Humanos",
+        "Realidad Innegable: Los abortos ocurren y la penalización no los evita."
+        ],
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": ["Reiteraron la defensa de 'las dos vidas', objeciones constitucionales y convicciones religiosas/morales",
+            " Criticaron el plazo de 14 semanas y la amplitud de la causal salud post-semana 14.",
+            "Plantearon que la solución era la prevención y el apoyo a la maternidad.",
+          "Enfasis en la protección de la vida desde la concepción y el derecho a nacer",
+          " Algunos sectores (especialmente de la UCR y Coalición Cívica) apoyaron la ley, argumentando que era un avance en derechos de las mujeres y que debía ser regulado para evitar abusos."
+        ],
+        "voto": "En contra"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": ["Se opusieron férreamente con argumentos de defensa irrestricta de la vida desde la concepción, objeciones morales y religiosas",
+        " Consideraron la ley una imposición ideológica", "Consideran que viola la Constitucion ya que todas las personas gozan del derecho a la vida desde su conceopción",
+        "Argumentan que este proyecto de ley fomenta la anulación, invisibilización, desprotección y desconocimiento de la dignidad humana de los seres vulnerables y sin voz, a los que se pretende quitar todo derecho, hasta el más elemental derecho, que es el derecho a la vida."],
+        "voto": "En contra"
+      }
+    },
+    "resultado_final": "Aprobada. Media sanción en Diputados (131-117-6). Sancionada en el Senado (38-29-1)."
+    }
+  
+  ]
