@@ -67,4 +67,11 @@ class EvaluarAgenteResponse(BaseModel):
     diferencias: str = Field( description="Explicación general de las diferencias encontradas en los debates, y justificación del puntaje.")
     puntaje: float = Field(description="Puntaje de similaridad global entre el debate sintético de los agentes y el real, entre 0 y 1.")
     
+class ParserArgumentos(BaseModel):
+    razonamiento: str 
+    argumentos: list[str] = Field( description="Lista de argumentos únicos dichos por el agente durante todo el debate.")
+
+class CompararArgumentos(BaseModel):
+    razonamiento: str 
+    son_iguales: bool = Field( description="Booleano que compara si los argumentos ingresados son el mismo en realidad. True si son el mismo, False sino.")
 
