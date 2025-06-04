@@ -68,9 +68,10 @@ class AgenteEvaluador:
             )
             print("Argumento es igual?",response_argumentos.son_iguales)
             argumentos_iguales += 1 if response_argumentos.son_iguales else 0
-        print("argumentos_iguales", argumentos_iguales, "de:", len(argumentos_reales))
-        return argumentos_iguales
-    async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, posturas_reales, n_rounds=3, 
+        salida = argumentos_iguales + " / "+ len(argumentos_reales)
+        print("argumentos_iguales", salida)
+        return salida
+    async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, argumentaciones_reales, n_rounds=3, 
                               id = 0, output_folder = "evaluaciones"):
         """
         Evalúa un debate sintético contra las posturas reales y devuelve el razonamiento y puntaje.
@@ -82,7 +83,7 @@ class AgenteEvaluador:
             {
                 "role": "user",
                 "content": f"### Debate generado por agente (sintético):\n{debate_sintetico}\n\n"
-                        f"### Posturas reales del partido:\n{posturas_reales}\n\n"
+                        f"### Posturas reales del partido:\n{'. '.join(argumentaciones_reales)} \n\n"
                         f"Estructura la respuesta de la siguiente manera:\n\n"
                         f"1. Análisis detallado por agente:\n"
                         f"   - Para cada agente, analiza los argumentos del debate sintético y del debate real.\n"
@@ -97,16 +98,21 @@ class AgenteEvaluador:
             previous_rounds_context=context,
             pydantic_response_structure=EvaluarAgenteResponse,
         )
-        self.registrar_evaluacion(nombre_agente, response, id = id, output_folder =output_folder)
+
+        argumentos_encontrados = await self.contar_argumentos(debate_sintetico_por_agente, nombre_agente,
+                      argumentaciones_reales, n_rounds=3, )
+        self.registrar_evaluacion(nombre_agente, response, argumentos_encontrados ,  id = id, output_folder =output_folder)
         return response
 
-    def registrar_evaluacion(self,nombre_agente,analisis, id = 0, output_folder = "evaluaciones"):
+    def registrar_evaluacion(self,nombre_agente,analisis,argumentos_encontrados, id = 0, output_folder = "evaluaciones"):
         os.makedirs(output_folder, exist_ok=True)
 
         resultado = f"\n\n- {nombre_agente}:\n"
         resultado += f"  Similitudes: {analisis.similitudes}\n"
         resultado += f"  Diferencias: {analisis.diferencias}\n"
         resultado += f"  Puntaje: {analisis.puntaje}\n"
+        resultado += f"  Argumentos encontrados: {argumentos_encontrados}\n"
+
 
         with open(os.path.join(output_folder,f"evaluador_{id}.log"), "a+", encoding="utf-8") as f:
             f.write(resultado)
