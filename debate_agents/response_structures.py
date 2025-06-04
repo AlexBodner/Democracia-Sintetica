@@ -68,7 +68,7 @@ class EvaluarAgenteResponse(BaseModel):
     puntaje: float = Field(description="Puntaje de similaridad global entre el debate sintético de los agentes y el real, entre 0 y 1.")
     
 class ParserArgumentos(BaseModel):
-    razonamiento: str 
+    razonamiento: str = Field(description= "Necesito que razones y pienses que seria un argumento dicho por el agente")
     argumentos: list[str] = Field( description="Lista de argumentos únicos dichos por el agente durante todo el debate.")
 
 class CompararArgumentos(BaseModel):

@@ -1,0 +1,223 @@
+[{
+  "id": 21,
+  "nombre": "Ley Micaela (Ley 27.499 - Capacitación obligatoria en género)",
+  "año": 2019,
+  "estado": "Aprobada",
+  "resumen": "Establece la capacitación obligatoria en la temática de género y violencia contra las mujeres para todas las personas que se desempeñan en la función pública en todos sus niveles y jerarquías en los poderes Ejecutivo, Legislativo y Judicial de la Nación. Su objetivo es fomentar una perspectiva crítica sobre patrones culturales que perpetúan desigualdades y violencia, buscando una transformación cultural e institucional del Estado con perspectiva de género.",
+  "posturas": {
+    "izquierda_fit": {
+      "argumentacion": "A favor. Apoyaron la ley como una herramienta fundamental para la deconstrucción de prácticas machistas y patriarcales en el Estado y para que los funcionarios actúen con perspectiva de género. Reclamarían su efectiva implementación, profundización y la adopción de pedagogías feministas y transfeministas, considerándola un paso necesario aunque no suficiente por sí solo para erradicar la violencia de género.",
+      "voto": "A favor"
+    },
+    "centro_izquierda_fdt_otros": {
+      "argumentacion": "A favor. Impulsaron y apoyaron la ley como un paso crucial para transversalizar la perspectiva de género en todas las áreas del Estado, prevenir la violencia de género y asegurar que los agentes públicos brinden un trato adecuado y respetuoso, libre de discriminación. La ley fue aprobada con amplio consenso durante un gobierno de este signo político.",
+      "voto": "A favor"
+    },
+    "centro_derecha_jxc_otros": {
+      "argumentacion": "A favor. Hubo un consenso generalizado sobre la importancia de la capacitación en género para erradicar la violencia contra las mujeres y mejorar el funcionamiento del Estado. La ley surgió tras el femicidio de Micaela García y generó un fuerte impacto social que trascendió las diferencias partidarias, llevando a un amplio apoyo parlamentario.",
+      "voto": "A favor"
+    },
+    "derecha_lla_pro_otros": {
+      "argumentacion": "No aplicable como LLA en 2018. Si bien la ley tuvo un consenso muy amplio en el momento de su sanción, sectores conservadores o que niegan la 'ideología de género' podrían, a futuro, cuestionar la obligatoriedad o el contenido de estas capacitaciones, argumentando que no han dado resultados en la reducción de femicidios o que imponen una ideología. Sin embargo, en el momento de la aprobación, no hubo oposición significativa.",
+      "voto": "A favor"
+    }
+  },
+  "resultado_final": "Aprobada. La Ley 27.499 fue promulgada el 10 de enero de 2019 con un amplio consenso parlamentario (171 votos a favor y 1 en contra en Diputados)."
+},
+{
+  "id": 22,
+  "nombre": "Reforma del INDEC",
+  "año": "Post-2015 (proceso de normalización)",
+  "estado": "Aprobada (entendida como proceso de normalización y fortalecimiento técnico)",
+  "resumen": "Reestructuración institucional del Instituto Nacional de Estadística y Censos (INDEC) iniciada tras el período de manipulación de datos (2007-2015). El proceso se centró en restaurar la independencia técnica del organismo, la rigurosidad metodológica y la transparencia en la elaboración y difusión de datos, buscando la reinserción en la comunidad estadística internacional y el restablecimiento de la credibilidad a nivel nacional.",
+  "posturas": {
+    "izquierda_fit": {
+      "argumentacion": "Crítica constructiva o apoyo con reservas. Valoraron la necesidad de estadísticas públicas confiables y la independencia técnica del INDEC. Sin embargo, suelen denunciar que las metodologías actuales pueden invisibilizar aspectos de la pobreza o la precarización laboral, abogando por mayor participación de trabajadores y usuarios en el control del organismo y en la definición de indicadores para reflejar mejor la realidad social.",
+      "voto": "Apoyo critico"
+    },
+    "centro_izquierda_fdt_otros": {
+      "argumentacion": "Apoyo a la normalización y fortalecimiento. Los gobiernos de este espectro (especialmente post-2019) buscaron consolidar la recuperación técnica del organismo iniciada en 2016, asegurando la continuidad de la producción estadística regular y la adopción de estándares internacionales. Demostraron continuidad en las operaciones del INDEC y la inversión pública durante su mandato.",
+      "voto": "A favor"
+    },
+    "centro_derecha_jxc_otros": {
+      "argumentacion": "Fuerte impulso a la normalización (especialmente durante el gobierno 2015-2019). Se consideró una prioridad restaurar la credibilidad del INDEC tras las denuncias de manipulación. Se inició la emergencia administrativa, se designaron autoridades técnicas, se revisaron metodologías y se buscó transparentar la gestión, apoyando la autonomía del organismo y la publicación regular de todos los indicadores.",
+      "voto": "A favor"
+    },
+    "derecha_lla_pro_otros": {
+      "argumentacion": "Apoyo a la independencia técnica y estadísticas confiables. En general, valoran la disponibilidad de datos fiables para la toma de decisiones económicas y la evaluación de políticas. Aunque podrían tener un enfoque más minimalista sobre el tamaño y las funciones del Estado, incluyendo organismos estadísticos, reconocen la importancia de la fiabilidad de los datos.",
+      "voto": "A favor"
+    }
+  },
+  "resultado_final": "Aprobada (entendida como un proceso de normalización y fortalecimiento técnico que contó con apoyo transversal en sus objetivos generales, aunque con debates y matices sobre la gestión específica en diferentes períodos y la interpretación de ciertos datos sensibles)."
+},
+{
+  "id": 23,
+  "nombre": "Ley de Financiamiento Educativo (Proyecto para alcanzar el 8% del PBI)",
+  "año": 2023,
+  "estado": "Rechazada",
+  "resumen": "Iniciativa legislativa de 2023 que buscaba aumentar progresivamente la inversión en educación hasta alcanzar un piso del 8% del Producto Bruto Interno (PBI) en un período de siete años, superando el 6% fijado por la Ley de Financiamiento Educativo de 2005. Contemplaba un 6.5% del PBI para educación obligatoria y formación docente, y un 1.5% para la educación universitaria. Fue rechazada por falta de consenso y preocupaciones fiscales.",
+  "posturas": {
+    "izquierda_fit": {
+      "argumentacion": "Reclamaron consistentemente un aumento sustancial del presupuesto educativo, considerando el 8% como un piso necesario para garantizar una educación pública, gratuita y de calidad en todos los niveles. Hicieron hincapié en la mejora de los salarios docentes, la infraestructura escolar y la reversión del desfinanciamiento histórico. Se manifestaron en contra de cualquier veto presidencial o recorte presupuestario.",
+      "voto": "A favor"
+    },
+    "centro_izquierda_fdt_otros": {
+      "argumentacion": "A favor, aunque con matices sobre la viabilidad fiscal inmediata. Históricamente apoyaron el aumento de la inversión educativa (la ley del 6% fue de un gobierno de esta orientación). Argumentaron que una mayor inversión es crucial para el desarrollo nacional, la igualdad de oportunidades y la mejora de la calidad educativa. El proyecto fue presentado por el Ministro de Economía de este signo político.",
+      "voto": "A favor"
+    },
+    "centro_derecha_jxc_otros": {
+      "argumentacion": "Reparos por 'gasto estructural no financiado'. Si bien pudieron compartir el objetivo de mejorar la educación, plantearon dudas sobre la viabilidad de alcanzar el 8% del PBI sin un plan de financiamiento claro y sostenible, temiendo impactos negativos en otras áreas presupuestarias o un aumento del déficit fiscal. Priorizaron la 'eficiencia del gasto' sobre los aumentos nominales.",
+      "voto": "En contra"
+    },
+    "derecha_lla_pro_otros": {
+      "argumentacion": "Rechazo firme por 'gasto estructural no financiado'. Argumentaron en contra de fijar pisos de gasto por ley, especialmente tan elevados, considerándolos rigideces presupuestarias insostenibles y fuentes de déficit. Propusieron reformas estructurales y una gestión más 'eficiente' de los recursos existentes. Las acciones del gobierno actual, como la suspensión del piso del 6% y el veto a la ley de financiamiento universitario, se alinean con esta postura.",
+      "voto": "En contra"
+    }
+  },
+  "resultado_final": "Rechazada. El proyecto no logró el consenso necesario para su aprobación en el Congreso, especialmente en un contexto de restricciones fiscales. Esto se vio reforzado por el posterior veto presidencial a una ley de financiamiento universitario en 2024 que buscaba un incremento similar, lo que indica un claro cambio de política con respecto a los compromisos legales establecidos."
+},
+{
+  "id": 24,
+  "nombre": "Reforma de la Ley de Seguridad Interior (proyecto Artículo 27)",
+  "año": 2024,
+  "estado": "En estudio",
+  "resumen": "El proyecto propone modificar el artículo 27 de la Ley de Seguridad Interior (Ley 24.059) para habilitar el uso de Fuerzas Armadas en tareas de seguridad ante situaciones calificadas como terrorismo. La medida requeriría aprobación judicial y del Comité de Crisis. Fue impulsada por el gobierno de Javier Milei en 2024 como parte de su doctrina de orden.",
+  "posturas": {
+    "izquierda_fit": {
+      "argumentacion": "Denuncian que la iniciativa pone en riesgo los derechos humanos y quiebra el consenso de no militarización de la seguridad interior.",
+      "voto": "En contra"
+    },
+    "centro_izquierda_fdt_otros": {
+      "argumentacion": "Advierten que la reforma habilita una deriva autoritaria y contradice principios constitucionales sobre funciones de las Fuerzas Armadas.",
+      "voto": "En contra"
+    },
+    "centro_derecha_jxc_otros": {
+      "argumentacion": "Algunos sectores ven con buenos ojos la medida ante amenazas graves, otros alertan sobre su ambigüedad y riesgos institucionales.",
+      "voto": "Dividido"
+    },
+    "derecha_lla_pro_otros": {
+      "argumentacion": "Impulsada por el Ministerio de Defensa bajo el gobierno de LLA, consideran que es necesaria para enfrentar amenazas internas con mayor eficacia.",
+      "voto": "A favor"
+    }
+  },
+  "resultado_final": "En debate parlamentario desde 2024. Aún sin dictamen ni sanción definitiva."
+},
+
+{
+  "id": 25,
+  "nombre": "Reforma Impositiva – Impuesto a las Ganancias (2023)",
+  "año": 2023,
+  "estado": "Aprobada",
+  "resumen": "En septiembre de 2023 se aprobó una reforma al Impuesto a las Ganancias que eximió del pago a quienes ganan menos de 15 salarios mínimos, beneficiando a trabajadores y jubilados. Se creó un impuesto cedular progresivo para altos ingresos patrimoniales. La ley buscó aliviar la carga fiscal a los asalariados y aumentar la progresividad del sistema tributario.",
+  "posturas": {
+    "izquierda_fit": {
+      "argumentacion": "A favor. El FIT apoyó el proyecto bajo el lema 'el salario no es ganancia', aunque reclamó una reforma fiscal más integral.",
+      "voto": "A favor"
+    },
+    "centro_izquierda_fdt_otros": {
+      "argumentacion": "A favor. El Frente de Todos impulsó la medida como política redistributiva clave, orientada a fortalecer el ingreso de los trabajadores.",
+      "voto": "A favor"
+    },
+    "centro_derecha_jxc_otros": {
+      "argumentacion": "se mostró dividido entre críticas a la baja de recaudación y apoyo a alivios tributarios.",
+      "voto": "Dividido"
+    },
+    "derecha_lla_pro_otros": {
+      "argumentacion": "En contra de aumentos de impuestos, a favor de su reducción drástica o eliminación. Considerarían el Impuesto a las Ganancias sobre las personas (especialmente sobre salarios) como un 'impuesto al trabajo' que desincentiva el esfuerzo y la inversión. Abogarían por una simplificación y reducción general de la estructura impositiva.",
+      "voto": "En contra"
+    }
+  },
+  "resultado_final": "Aprobada por el Congreso en septiembre de 2023 y convertida en ley."
+},
+
+{
+  "id": 26,
+  "nombre": "Ley de Envases con Inclusión Social y Responsabilidad Extendida del Productor (proyecto)",
+  "año": 2023,
+  "estado": "En tratamiento",
+  "resumen": "Proyecto de ley que establece que los productores financien el reciclado de sus envases a través de un régimen de responsabilidad extendida, con inclusión de trabajadores recicladores y cartoneros. Plantea metas de reciclado obligatorias y una tasa ambiental del 3% a quienes no las cumplan. Promueve sistemas públicos, privados y de depósito-devolución.",
+  "posturas": {
+    "izquierda_fit": {
+      "argumentacion": "A favor. Apoya la inclusión de cartoneros y trabajadores informales en el sistema de reciclado, con financiamiento de las empresas contaminantes.",
+      "voto": "A favor"
+    },
+    "centro_izquierda_fdt_otros": {
+      "argumentacion": "A favor. El oficialismo impulsa la ley como parte de una política ambiental con justicia social, articulando con cooperativas de reciclado.",
+      "voto": "A favor"
+    },
+    "centro_derecha_jxc_otros": {
+      "argumentacion": "En contra. Critican que la tasa propuesta es un nuevo impuesto que impactará en los precios de productos y castigará al sector productivo.",
+      "voto": "En contra"
+    },
+    "derecha_lla_pro_otros": {
+      "argumentacion": "En contra. El proyecto es visto como una imposición fiscal innecesaria y una traba al sector privado, rechazando la creación de nuevos tributos.",
+      "voto": "En contra"
+    }
+  },
+  "resultado_final": "No sancionada. El proyecto fue reintroducido en 2023 y sigue en debate sin dictamen."
+},
+
+{
+  "id": 27,
+  "nombre": "Proyecto de moratoria previsional (Ley de Plan de Pago de Deuda Previsional)",
+  "año": 2023,
+  "estado": "Aprobada",
+  "resumen": "Permite a personas que alcanzaron la edad jubilatoria pero no cuentan con los 30 años de aportes requeridos, regularizar sus deudas previsionales para acceder a una jubilación. Se pueden comprar períodos de aportes faltantes, que se descuentan del haber jubilatorio.",
+  "posturas": {
+    "izquierda_fit": {
+      "argumentacion": "A favor. Apoyaron la medida como una forma de garantizar el acceso a la jubilación a miles de personas (especialmente mujeres, que suelen tener trayectorias laborales más informales o interrumpidas por tareas de cuidado) que de otra forma quedarían desprotegidas. Consideraron que es una responsabilidad del Estado ante la informalidad laboral estructural. Podrían criticar que los descuentos sean elevados.",
+      "voto": "A favor"
+    },
+    "centro_izquierda_fdt_otros": {
+      "argumentacion": "A favor. Impulsó la ley argumentando que era una medida de 'justicia social' y 'reparación' para quienes trabajaron toda su vida pero no lograron completar los aportes debido a la informalidad laboral, crisis económicas o por dedicarse a tareas de cuidado no remuneradas. Se presentó como una herramienta para garantizar la cobertura previsional y evitar que más adultos mayores caigan en la pobreza.",
+      "voto": "A favor"
+    },
+    "centro_derecha_jxc_otros": {
+      "argumentacion": "Rechazo o fuertes críticas. Argumentaron que las moratorias previsionales 'quiebran el sistema', son 'injustas' con quienes sí aportaron durante 30 años, y que generan un 'gasto fiscal insostenible'. Sostuvieron que fomentan la informalidad y que se necesitan reformas estructurales en el sistema previsional en lugar de parches. Propusieron pensiones no contributivas de menor cuantía para quienes no tienen aportes, en lugar de jubilaciones por moratoria.",
+      "voto": "En contra"
+    },
+    "derecha_lla_pro_otros": {
+      "argumentacion": "Rechazo. Considerarían las moratorias como un ejemplo de 'populismo previsional' que desfinancia el sistema, no respeta el principio contributivo (relación entre aportes y beneficios) y genera un incentivo perverso a no aportar. Abogarían por sistemas de capitalización individual o por una drástica reforma del sistema estatal.",
+      "voto": "En contra"
+    }
+  },
+  "resultado_final": "Aprobada. Diputados: 134 votos a favor, 107 en contra. Senado: 37 a favor, 23 en contra."
+},  
+{
+  "id": 28,
+  "nombre": "Ley de Alquiler Social (proyectos legislativos)",
+  "año": 2023,
+  "estado": "En tratamiento",
+  "resumen": "Varias iniciativas legislativas buscan crear un régimen de alquiler social que facilite el acceso a la vivienda. Estas propuestas incluyen plazos de contrato extendidos, subsidios estatales para inquilinos vulnerables y eliminación de requisitos como depósito o comprobantes de ingresos formales. El objetivo es ofrecer alquileres a precios asequibles a familias de bajos recursos y hogares monoparentales, liberándolos de las barreras típicas del mercado informal.",
+  "posturas": {
+  "izquierda_fit": {"argumentacion": "El FIT impulsa una ley de alquiler social con garantía estatal y subsidios para los sectores más vulnerables.", 
+  "voto": "A favor"},
+  "centro_izquierda_fdt_otros": {"argumentacion": "A favor. Desde el oficialismo apoyan medidas para proteger inquilinos (por ejemplo, extensión de subSIDios y mayor intervención estatal).",
+  "voto": "A favor"},
+  "centro_derecha_jxc_otros": {"argumentacion": "En contra. El espacio de centro-derecha se opone a nuevas cargas sobre los propietarios y cuestiona la intervención estatal en el mercado inmobiliario.",
+  "voto": "En contra"},
+  "derecha_lla_pro_otros": {"argumentacion": "En contra. El sector de derecha critica los costos fiscales que implican subsidios al alquiler y aboga por soluciones de mercado, no estatales.",
+  "voto": "En contra"}
+  },
+  "resultado_final": "No se avanzó a sanción. Los proyectos se encuentran pendientes de tratamiento en comisión."
+  },
+
+{
+  "id": 30,
+  "nombre": "Ley General del Ambiente (Ley 25.675) – COFEMA",
+  "año": 2002,
+  "estado": "Aprobada",
+  "resumen": "La Ley 25.675/2002 (Ley General del Ambiente) estableció los presupuestos mínimos para una gestión ambiental sustentable y creó el Consejo Federal de Medio Ambiente (COFEMA) como organismo permanente para la concertación de la política ambiental entre la Nación y las provincias COFEMA define políticas integrales, coordina planes regionales y promueve la cooperación federal en temas ambientales.",
+  "posturas": {
+  "izquierda_fit": {"argumentacion": "A favor. Destaca la creación de COFEMA como avance en la protección ambiental federal.",
+          "voto": "A favor" },
+  "centro_izquierda_fdt_otros": {"argumentacion": "A favor. El Frente de Todos apoya la ley como parte de su agenda ambiental y respalda el rol de COFEMA.",
+  "voto": "A favor"},
+  "centro_derecha_jxc_otros": {"argumentacion": "Generalmente a favor. Reconoce el valor del consenso federal en materia ambiental, aunque puede criticar la carga burocrática.",
+  "voto": "A favor"},
+  "derecha_lla_pro_otros": {"argumentacion": "En general crítico. Difícilmente impulsa nuevas regulaciones ambientales; sin embargo, esta ley histórica no genera controversias significativas actualmente.",
+  "voto": "A favor"}
+  },
+  "resultado_final": "Sancionada en noviembre de 2002 y vigente"
+  }
+]

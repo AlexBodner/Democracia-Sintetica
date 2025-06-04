@@ -54,6 +54,7 @@ class AgenteEvaluador:
                 "content": f"### Debate generado por agente (sintético):\n{debate_sintetico}\n\n"
                             "Tu tarea es generar una lista de los argumentos únicos que dijo el agente a lo largo de todo el debate,"
                             "para luego comparar con un listado de argumentos del ground truth."
+                            "La idea es que solo agarres argumentos unicos, no muchos que se parezcan y los hagas genericos. Ademas, quiero argumentos no solo las cosas que se quieren hacer o se proponen."
             }
         ]
 

@@ -1,0 +1,261 @@
+[{
+    "id": 21,
+    "nombre": "Ley Micaela (Ley 27.499 - Capacitación obligatoria en género)",
+    "año": 2019,
+    "estado": "Aprobada",
+    "resumen": "Establece la capacitación obligatoria en la temática de género y violencia contra las mujeres para todas las personas que se desempeñan en la función pública en todos sus niveles y jerarquías en los poderes Ejecutivo, Legislativo y Judicial de la Nación. Invita a las provincias y CABA a adherir.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "A favor. Apoyaron la ley como una herramienta necesaria, aunque quizás insuficiente por sí sola, para empezar a deconstruir las prácticas machistas y patriarcales arraigadas en el Estado y para que los funcionarios públicos actúen con perspectiva de género. Demandarían su efectiva implementación y profundización.",
+        "voto": "A favor"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "A favor. Se apoyó e impulsó la ley como un paso fundamental para transversalizar la perspectiva de género en todas las áreas del Estado, prevenir la violencia de género y garantizar que los agentes públicos brinden un trato adecuado y respetuoso, libre de discriminación.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "A favor. Hubo un consenso generalizado sobre la importancia de la capacitación en género para erradicar la violencia contra las mujeres y mejorar el funcionamiento del Estado. La ley surgió tras el femicidio de Micaela García y generó un fuerte impacto social que trascendió las diferencias partidarias.",
+        "voto": "A favor"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "No aplicable como LLA en 2018. Si bien la ley tuvo un consenso muy amplio, sectores muy conservadores o que niegan la 'ideología de género' podrían, a futuro, cuestionar la obligatoriedad o el contenido de estas capacitaciones, aunque en el momento de su sanción no hubo oposición significativa.",
+        "voto": "A favor"
+      }
+    },
+    "resultado_final": "Aprobada por unanimidad en ambas cámaras."
+  },
+  {
+    "id": 22,
+    "nombre": "Reforma del INDEC",
+    "año": "El texto no especifica un año exacto para una 'reforma' única, sino un contexto pos-manipulación de datos. Se puede inferir que se refiere a los esfuerzos de reconstrucción de la credibilidad del organismo iniciados post-2015.",
+    "estado": "Aprobada (entendida como proceso de normalización y fortalecimiento técnico)",
+    "resumen": "Reestructuración institucional del Instituto Nacional de Estadística y Censos (INDEC) para garantizar su independencia técnica, la calidad de las estadísticas públicas y la transparencia en su elaboración y difusión, tras un período de fuerte cuestionamiento y denuncias de manipulación de datos (especialmente entre 2007-2015).",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "Crítica constructiva o apoyo con reservas. Si bien valoraron la necesidad de estadísticas públicas confiables y la independencia técnica del INDEC, suelen denunciar que las metodologías pueden invisibilizar aspectos de la pobreza o la precarización laboral. Abogarían por mayor participación de trabajadores y usuarios en el control del organismo y en la definición de los indicadores.",
+        "voto": "A favor"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "Apoyo a la normalización y fortalecimiento. Los gobiernos de este espectro (especialmente post-2019) buscaron consolidar la recuperación técnica del organismo iniciada en 2016, asegurando la continuidad de la producción estadística regular y la adopción de estándares internacionales. Pudo haber matices sobre la política de personal o la difusión de ciertos datos sensibles.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Fuerte impulso a la normalización (especialmente durante el gobierno 2015-2019). Se consideró una prioridad restaurar la credibilidad del INDEC tras las denuncias de manipulación. Se designaron autoridades técnicas, se revisaron metodologías y se buscó transparentar la gestión. Se apoyó la autonomía del organismo y la publicación regular de todos los indicadores, incluidos los más sensibles como inflación y pobreza.",
+        "voto": "A favor"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "Apoyo a la independencia técnica y estadísticas confiables. En general, valoran la disponibilidad de datos fiables para la toma de decisiones económicas y la evaluación de políticas, aunque podrían tener un enfoque más minimalista sobre el tamaño y las funciones del Estado, incluyendo organismos estadísticos.",
+        "voto": "A favor"
+      }
+    },
+    "resultado_final": "Aprobada (entendida como un proceso de normalización y fortalecimiento técnico que contó con apoyo transversal en sus objetivos generales, aunque con debates sobre la gestión específica en diferentes períodos)."
+  },
+  {
+    "id": 23,
+    "nombre": "Ley de Financiamiento Educativo (Proyecto para alcanzar el 8% del PBI)",
+    "año": 2023,
+    "estado": "Rechazada",
+    "resumen": "Proyectos que buscaron establecer un aumento progresivo de la inversión en educación hasta alcanzar un piso del 8% del Producto Bruto Interno (PBI), superando el 6% fijado por la Ley de Financiamiento Educativo de 2005.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "A favor. Reclamaron consistentemente un aumento sustancial del presupuesto educativo, argumentando que es fundamental para garantizar una educación pública, gratuita y de calidad en todos los niveles, mejorar los salarios docentes, la infraestructura escolar y revertir el desfinanciamiento. Considerarían el 8% como un piso necesario.",
+        "voto": "A favor"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "A favor, aunque con matices sobre la viabilidad fiscal inmediata. Históricamente han apoyado el aumento de la inversión educativa (la ley del 6% fue de un gobierno de este signo). Argumentarían que una mayor inversión es clave para el desarrollo nacional, la igualdad de oportunidades y la mejora de la calidad educativa. Pudieron haber condicionado el aumento a las posibilidades presupuestarias.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Rechazo o reparos por 'gasto estructural no financiado'. Si bien pudieron compartir el objetivo de mejorar la educación, expresaron preocupaciones sobre la factibilidad de alcanzar un 8% del PBI sin un plan de financiamiento claro y sostenible, y sin afectar otras áreas del presupuesto o generar mayor déficit fiscal. Podrían priorizar la 'eficiencia del gasto' antes que el aumento nominal.",
+        "voto": "En contra"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "Rechazo por 'gasto estructural no financiado'. Argumentarían en contra de fijar pisos de gasto por ley, especialmente tan elevados, considerándolos una rigidez presupuestaria insostenible y una fuente de déficit. Propondrían reformas estructurales en el sistema educativo y una gestión más 'eficiente' de los recursos existentes antes que un aumento generalizado del presupuesto. Podrían abogar por sistemas de vouchers o mayor participación privada.",
+        "voto": "En contra"
+      }
+    },
+    "resultado_final": "Rechazada. Proyectos de esta naturaleza no lograron consenso para ser aprobados en el período reciente, especialmente en contextos de restricción fiscal."
+  },
+  {
+    "id": 24,
+    "nombre": "Ley de Seguridad Interior (reforma propuesta o en debate 2024)",
+    "año": 2024,
+    "estado": "En debate",
+    "resumen": "Propuestas de reforma a la Ley de Seguridad Interior que podrían incluir el endurecimiento de penas para ciertos delitos, la habilitación del uso de las Fuerzas Armadas en tareas de seguridad interior (más allá de lo actualmente permitido para apoyo logístico en circunstancias excepcionales), y cambios en las reglas de enfrentamiento o 'doctrina de seguridad'.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "En contra. Rechazaron cualquier intento de 'militarización' de la seguridad interior, argumentando que las Fuerzas Armadas no están entrenadas ni equipadas para tareas policiales y que su intervención implicaría un grave riesgo para los derechos humanos y las libertades civiles, rememorando experiencias autoritarias. Denunciarían un enfoque represivo que no ataca las causas sociales del delito.",
+        "voto": "En contra"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "Mayormente en contra de la intervención directa de las FFAA en seguridad interior. Sostendrían la distinción tradicional entre Defensa Nacional y Seguridad Interior. Podrían aceptar debates sobre la mejora de la coordinación entre fuerzas federales y provinciales, o el fortalecimiento de la inteligencia criminal, pero con reparos a cambios que desdibujen los roles o impliquen una deriva represiva. Sectores más punitivistas podrían tener posturas menos definidas.",
+        "voto": "En contra"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Posturas divididas. Un sector (especialmente el ala más dura del PRO) podría mostrarse a favor de medidas de 'mano dura', incluyendo la posibilidad de una participación más activa de las FFAA en la lucha contra el narcotráfico o el terrorismo, y el endurecimiento de penas. Otro sector (UCR, Coalición Cívica) podría ser más cauto, expresando preocupaciones por el marco legal, los derechos humanos y la necesidad de no apartarse de los consensos básicos sobre el rol de las FFAA.",
+        "voto": "Dividido"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "A favor. Impulsarían reformas que permitan una política de seguridad más 'firme' y 'sin concesiones' contra el delito. Verían con buenos ojos la posibilidad de utilizar todos los recursos del Estado, incluyendo a las FFAA, para combatir amenazas complejas como el narcotráfico. Apoyarían el endurecimiento de penas, la baja de edad de imputabilidad y cambios en las reglas de enfrentamiento para dar mayor 'respaldo' a las fuerzas de seguridad.",
+        "voto": "A favor"
+      }
+    },
+    "resultado_final": "En comisión al momento del relevamiento. Estos debates suelen ser muy sensibles y generar fuertes divisiones."
+  },
+  {
+    "id": 25,
+    "nombre": "Reforma impositiva (Proyecto para ampliar progresividad de Ganancias)",
+    "año": 2021,
+    "estado": "Rechazada",
+    "resumen": "Proyectos que buscaron modificar el Impuesto a las Ganancias para personas físicas, con el objetivo de aumentar su progresividad, es decir, que paguen proporcionalmente más quienes más ganan, y actualizar los mínimos no imponibles y las escalas para aliviar la carga sobre salarios medios y bajos.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "A favor de la progresividad, pero con críticas. Si bien apoyarían que los sectores de mayores ingresos paguen más, suelen considerar estas reformas como parches si no van acompañadas de una reforma tributaria integral que grave la renta financiera, las grandes fortunas de forma permanente y reduzca impuestos al consumo como el IVA. Denunciarían que el impuesto al salario es injusto.",
+        "voto": "A favor"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "A favor. Impulsaron reformas en Ganancias (como la de 2021 que subió el mínimo no imponible) argumentando la necesidad de aliviar la carga fiscal sobre los trabajadores y jubilados de ingresos medios y bajos, y mejorar la progresividad del sistema. Sostuvieron que era una medida para recomponer el poder adquisitivo y estimular el consumo interno.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Posturas divididas o con foco en la baja general de impuestos. Si bien pudieron acompañar actualizaciones de mínimos y escalas para evitar que más trabajadores paguen Ganancias por efecto de la inflación, su enfoque principal suele ser la reducción de la presión tributaria general. Criticaron que las reformas no fueran integrales o que solo implicaran un cambio en la distribución de la carga sin una baja neta.",
+        "voto": "Dividido"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "En contra de aumentos de impuestos, a favor de su reducción drástica o eliminación. Considerarían el Impuesto a las Ganancias sobre las personas (especialmente sobre salarios) como un 'impuesto al trabajo' que desincentiva el esfuerzo y la inversión. Abogarían por una simplificación y reducción general de la estructura impositiva.",
+        "voto": "En contra"
+      }
+    },
+    "resultado_final": "Bloqueada en Diputados (según el texto, aunque hubo varias reformas a Ganancias en el período; esta referencia podría ser a un proyecto específico que no prosperó o a la dificultad de lograr reformas más profundas)."
+  },
+  {
+    "id": 26,
+    "nombre": "Ley de Envases (Proyecto de Ley de Envases con Inclusión Social y Responsabilidad Extendida del Productor)",
+    "año": 2021,
+    "estado": "Rechazada",
+    "resumen": "Buscaba establecer un sistema de gestión integral de envases post-consumo, basado en el principio de Responsabilidad Extendida del Productor (REP), donde los fabricantes se hacen cargo de financiar y organizar el reciclado de los envases que ponen en el mercado. Proponía una tasa ambiental para los envases no recuperados e incluía a los recuperadores urbanos (cartoneros) en el sistema.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "A favor, con posibles énfasis. Apoyarían la responsabilidad de las empresas en la gestión de sus residuos y la inclusión de los recuperadores urbanos. Podrían exigir mayores metas de reciclado, que la tasa ambiental sea significativa para desincentivar envases problemáticos y que se garantice el control estatal y social sobre el sistema, evitando la privatización del reciclaje.",
+        "voto": "A favor"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "A favor. Impulsó el proyecto argumentando la necesidad de una política ambiental que aborde el problema de los residuos de envases, fomente la economía circular, reduzca la contaminación y formalice e incluya a los miles de recuperadores urbanos. Se presentó como una ley que internaliza costos ambientales en los productores y promueve el diseño de envases más sostenibles.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Rechazo o fuertes críticas. Argumentaron que la ley implicaría la creación de 'nuevos impuestos' (la tasa ambiental), que aumentaría los costos de producción (trasladándose a precios), que generaría una burocracia excesiva y que podría afectar la competitividad de las empresas, especialmente las pymes. Plantearon dudas sobre la efectividad del sistema REP propuesto y su implementación.",
+        "voto": "En contra"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "Rechazo. Considerarían la ley como una intervención estatal innecesaria que impone cargas a las empresas, aumenta costos y crea 'impuestos verdes' que afectan la actividad económica. Abogarían por soluciones de mercado o voluntarias para el reciclaje, o por una gestión municipal de residuos sin estas imposiciones a los productores.",
+        "voto": "En contra"
+      }
+    },
+    "resultado_final": "No obtuvo dictamen favorable en comisiones o no logró el consenso necesario para ser tratada en el recinto, quedando rechazada en la práctica."
+  },
+  {
+    "id": 27,
+    "nombre": "Proyecto de moratoria previsional (Ley de Plan de Pago de Deuda Previsional)",
+    "año": 2023,
+    "estado": "Aprobada",
+    "resumen": "Permite a personas que alcanzaron la edad jubilatoria pero no cuentan con los 30 años de aportes requeridos, regularizar sus deudas previsionales para acceder a una jubilación. Se pueden comprar períodos de aportes faltantes, que se descuentan del haber jubilatorio.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "A favor. Apoyaron la medida como una forma de garantizar el acceso a la jubilación a miles de personas (especialmente mujeres, que suelen tener trayectorias laborales más informales o interrumpidas por tareas de cuidado) que de otra forma quedarían desprotegidas. Consideraron que es una responsabilidad del Estado ante la informalidad laboral estructural. Podrían criticar que los descuentos sean elevados.",
+        "voto": "A favor"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "A favor. Impulsó la ley argumentando que era una medida de 'justicia social' y 'reparación' para quienes trabajaron toda su vida pero no lograron completar los aportes debido a la informalidad laboral, crisis económicas o por dedicarse a tareas de cuidado no remuneradas. Se presentó como una herramienta para garantizar la cobertura previsional y evitar que más adultos mayores caigan en la pobreza.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Rechazo o fuertes críticas. Argumentaron que las moratorias previsionales 'quiebran el sistema', son 'injustas' con quienes sí aportaron durante 30 años, y que generan un 'gasto fiscal insostenible'. Sostuvieron que fomentan la informalidad y que se necesitan reformas estructurales en el sistema previsional en lugar de parches. Propusieron pensiones no contributivas de menor cuantía para quienes no tienen aportes, en lugar de jubilaciones por moratoria.",
+        "voto": "En contra"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "Rechazo. Considerarían las moratorias como un ejemplo de 'populismo previsional' que desfinancia el sistema, no respeta el principio contributivo (relación entre aportes y beneficios) y genera un incentivo perverso a no aportar. Abogarían por sistemas de capitalización individual o por una drástica reforma del sistema estatal.",
+        "voto": "En contra"
+      }
+    },
+    "resultado_final": "Aprobada. Diputados: 134 votos a favor, 107 en contra. Senado: 37 a favor, 23 en contra."
+  },
+  {
+    "id": 28,
+    "nombre": "Ley de alquiler social (Proyectos o programas, más que una ley única con ese nombre en el período)",
+    "año": 2021,
+    "estado": "Aprobada (algunos programas específicos), pero con implementación limitada o desactivada.",
+    "resumen": "Proponía la creación de programas y mecanismos estatales para facilitar el acceso al alquiler a sectores de bajos y medios ingresos con dificultades para cumplir los requisitos del mercado (garantías, depósitos elevados). Podía incluir subsidios directos, seguros de caución estatales, fondos fiduciarios, etc.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "A favor. Apoyarían estas iniciativas como paliativos necesarios ante la crisis habitacional, pero argumentarían que son insuficientes sin un control de precios de los alquileres, un impuesto a la vivienda ociosa, y un plan masivo de construcción de vivienda pública y social.",
+        "voto": "A favor"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "A favor. Impulsaron o vieron con buenos ojos programas de este tipo como complemento a la Ley de Alquileres, buscando herramientas para ayudar a los sectores más vulnerables a acceder a una vivienda alquilada. Se argumentó la necesidad de intervención estatal para corregir fallas del mercado y garantizar el derecho a la vivienda.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Rechazo o escepticismo. Argumentarían que estos programas pueden generar distorsiones en el mercado, ser costosos fiscalmente y de difícil implementación. Podrían proponer, en cambio, incentivos a la construcción o a la oferta de alquileres, o programas de crédito hipotecario, más que subsidios directos al alquiler.",
+        "voto": "En contra"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "Rechazo. Considerarían que el Estado no debe intervenir subsidiando alquileres, ya que esto distorsiona los precios y genera dependencia. Abogarían por la desregulación total del mercado de alquileres y la eliminación de programas de asistencia, confiando en que la libre oferta y demanda resolverían el problema del acceso.",
+        "voto": "En contra"
+      }
+    },
+    "resultado_final": "Algunos programas fueron aprobados o implementados a nivel nacional o subnacional, pero con alcance y continuidad variables, y a menudo desactivados o con bajo impacto por falta de financiamiento o cambios de gobierno."
+  },
+  {
+    "id": 29,
+    "nombre": "Ley de Economía Popular (Reconocimiento y Fomento - proyectos diversos, no una única ley integral con ese nombre en el período que haya abarcado todo)",
+    "año": "Hubo varios proyectos y debates, especialmente entre 2020-2023. La Ley de Emergencia Social (27.345) de 2016 creó el Salario Social Complementario y reconoció a trabajadores de la economía popular.",
+    "estado": "Aprobada parcialmente (algunas leyes y programas específicos)",
+    "resumen": "Conjunto de iniciativas y leyes que buscaron el reconocimiento de los trabajadores de la economía popular (cartoneros, vendedores ambulantes, pequeños productores, trabajadores de cooperativas autogestionadas, etc.), la creación de herramientas para su formalización, acceso a derechos laborales y sociales (monotributo social, obras sociales, ART), y el fomento de sus actividades productivas.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "Apoyo crítico. Si bien apoyaron el reconocimiento y la organización de los trabajadores de la economía popular, y la necesidad de asistencia estatal, criticaron que muchas veces estas políticas no resuelven la precarización estructural y pueden ser una forma de gestionar la pobreza sin atacar sus causas. Demandarían trabajo genuino con plenos derechos y salario digno.",
+        "voto": "Apoyo critico"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "Apoyo e impulso. Consideraron a la economía popular como un sector dinámico y una realidad laboral para millones de personas excluidas del mercado formal. Buscaron su reconocimiento, formalización y fortalecimiento a través de programas como el Potenciar Trabajo, el monotributo social, y el apoyo a proyectos productivos. Argumentaron que era una forma de inclusión social y laboral.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Críticas y reparos. Si bien reconocieron la existencia del sector, expresaron preocupación por la 'intermediación' de las organizaciones sociales en la distribución de planes, el 'gasto social improductivo' y la 'institucionalización de la pobreza'. Argumentaron que se debía fomentar la transición hacia el empleo formal privado y no perpetuar la dependencia de la asistencia estatal. Cuestionaron la falta de transparencia y control en algunos programas.",
+        "voto": "En contra"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "Críticas fuertes. Considerarían que la 'economía popular' subsidiada es una forma de 'precarización institucionalizada' que desalienta el trabajo formal y la inversión. Argumentarían que se debe reducir drásticamente la asistencia social, eliminar la intermediación y fomentar el empleo privado a través de la desregulación laboral y la baja de impuestos. Denunciarían el 'negocio de la pobreza' y el 'clientelismo'.",
+        "voto": "En contra"
+      }
+    },
+    "resultado_final": "Se aprobaron y ejecutaron diversas leyes y programas orientados a la economía popular (ej. Ley de Emergencia Social, Potenciar Trabajo), pero sin una ley integral única que haya logrado un consenso amplio y una implementación sostenida y sin cuestionamientos."
+  },
+  {
+    "id": 30,
+    "nombre": "Ley del Consejo Federal de Medio Ambiente (COFEMA - Ley 25.675 Ley General del Ambiente establece su rol)",
+    "año": "La Ley General del Ambiente es de 2002, pero el COFEMA es un órgano preexistente que fue ratificado y fortalecido. El texto refiere a un 'consenso general' en el período 2018-2024 sobre su funcionamiento y coordinación.",
+    "estado": "Consenso general sobre su rol (más que una 'aprobación' de ley nueva en el período)",
+    "resumen": "El Consejo Federal de Medio Ambiente (COFEMA) es un ámbito de coordinación interjurisdiccional entre el Estado Nacional, las Provincias y la Ciudad Autónoma de Buenos Aires para la elaboración y ejecución de la política ambiental. La Ley General del Ambiente (25.675) establece que las decisiones del COFEMA deben ser consideradas en la gestión ambiental.",
+    "posturas": {
+      "izquierda_fit": {
+        "argumentacion": "Participación crítica. Si bien valoran los espacios de coordinación, suelen denunciar que el COFEMA tiene un rol limitado, que sus decisiones no son suficientemente vinculantes y que a menudo prima una visión desarrollista por sobre la protección ambiental efectiva. Exigirían mayor poder para el Consejo, participación ciudadana y políticas ambientales más audaces contra el extractivismo.",
+        "voto": "Apoyo critico"
+      },
+      "centro_izquierda_fdt_otros": {
+        "argumentacion": "Apoyo al rol de coordinación. Consideran al COFEMA un instrumento importante para la articulación de políticas ambientales federales, el intercambio de experiencias y la búsqueda de consensos entre Nación y provincias. Buscarían fortalecer su capacidad técnica y política para implementar la legislación ambiental.",
+        "voto": "A favor"
+      },
+      "centro_derecha_jxc_otros": {
+        "argumentacion": "Apoyo al rol de coordinación. Valoran el COFEMA como un espacio de diálogo y acuerdo federal necesario para la gestión ambiental, que involucra competencias concurrentes. Podrían enfatizar la necesidad de que las políticas ambientales sean compatibles con el desarrollo productivo y la inversión.",
+        "voto": "A favor"
+      },
+      "derecha_lla_pro_otros": {
+        "argumentacion": "Apoyo a la coordinación si es eficiente y no genera 'excesiva burocracia'. En general, podrían tener un enfoque más escéptico sobre las regulaciones ambientales si las consideran un freno a la actividad económica, pero reconocerían la necesidad de un marco de coordinación interjurisdiccional para problemas ambientales que trascienden límites provinciales.",
+        "voto": "A favor"
+      }
+    },
+    "resultado_final": "Consenso general sobre la existencia y rol del COFEMA como espacio de coordinación ambiental federal, aunque con debates permanentes sobre su efectividad, el alcance de sus decisiones y el nivel de compromiso de las jurisdicciones con las políticas acordadas."
+  }
+]
