@@ -75,7 +75,7 @@ async def main(output_folder = "evaluaciones"):
     
     agentes = [agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
 
-    with open("testing/leyes_limpias.json", "r", encoding="utf-8") as f:
+    with open("testing/leyes_limpias_lista_argumentos.json", "r", encoding="utf-8") as f:
         leyes = json.load(f)
     for ley in leyes:
         #with open('debate_{ley["id"]}.json', 'r') as file:
@@ -86,7 +86,7 @@ async def main(output_folder = "evaluaciones"):
         for agente in agentes:
             evaluador = AgenteEvaluador(system_prompt=format_system_prompt(agente))
             evaluacion = await evaluador.evaluar_debate(debate_sintetico_por_agente, agente.agent_name,
-                                                    ley['posturas'][agente2postura[agente.agent_name]]["argumentacion"].join("\n"), n_rounds = 3 , id=  ley["id"])
+                                                    "\n".join(ley['posturas'][agente2postura[agente.agent_name]]["argumentacion"]), n_rounds = 3 , id=  ley["id"])
             
             print(f"PRUEBA DELFI: {agente.agent_name}: {evaluador.evaluar_votacion(debate_sintetico_por_agente, agente.agent_name, ley['id'])}")
             print(evaluacion)

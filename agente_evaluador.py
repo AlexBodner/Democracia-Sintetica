@@ -48,42 +48,27 @@ class AgenteEvaluador:
     async def contar_argumentos(self,debate_sintetico_por_agente, nombre_agente,
                                  argumentos_reales:str, n_rounds=3, ):
         debate_sintetico = get_agent_responses(debate_sintetico_por_agente, nombre_agente, n_rounds)
-        context = [ 
-            {
-                "role": "user",
-                "content": f"### Debate generado por agente (sintético):\n{debate_sintetico}\n\n"
-                            "Tu tarea es generar una lista resumiendo los argumentos únicos que dijo el agente a lo largo de todo el debate,"
-                            "para luego comparar con un listado de argumentos del ground truth."
-                            "La idea es que solo agarres argumentos únicos, si encuentras varios argumentos que se parezcan, juntalos en uno sin perder información"
-                            ". Ademas, quiero argumentos no solo las cosas que se quieren hacer o se proponen."
-            }
-        ]
-
-        response: ParserArgumentos = await self.model.call_api(
-            previous_rounds_context=context,
-            pydantic_response_structure=ParserArgumentos,
-        )
+ 
         argumentos_iguales = 0
-        print("argumentos", response.argumentos)
 
-        for argumento_sintetico in response.argumentos: 
+        for argumento_real in argumentos_reales: 
             context = [ 
                 {
                     "role": "user",
-                    "content": f"### Argumento generado por agente (sintético):\n{argumento_sintetico}\n\n"
-                                f"### Argumentación del debate original:\n{argumentos_reales}\n\n"
+                    "content": f"### Fragmentos del debate del agente (sintético):\n{debate_sintetico}\n\n"
+                                f"### Argumentación del debate original:\n{argumento_real}\n\n"
 
-                                "Tu tarea es comparar el argumento que dijo el agente con los argumentos que sucedieron en el debate real y "
-                                "determinar si fueron el mismo argumento aunque haya sido redactado de distinta forma."
+                                "Tu tarea es comparar el argumento del debate original fue dicho por el agente en alguna parte del debate."
+                                "Debes determinar si fueron el mismo argumento aunque haya sido redactado de distinta forma."
                 }
             ]
             response_argumentos: CompararArgumentos = await self.model.call_api(
                 previous_rounds_context=context,
                 pydantic_response_structure=CompararArgumentos,
             )
-            print(response_argumentos.son_iguales)
+            print("Argumento es igual?",response_argumentos.son_iguales)
             argumentos_iguales += 1 if response_argumentos.son_iguales else 0
-        print("argumentos_iguales", argumentos_iguales)
+        print("argumentos_iguales", argumentos_iguales, "de:", len(argumentos_reales))
         return argumentos_iguales
     async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, posturas_reales, n_rounds=3, 
                               id = 0, output_folder = "evaluaciones"):
@@ -161,7 +146,7 @@ def get_agent_responses(debate, agent_name, n_rounds=3):
     agent_response = ""
     for i in range(n_rounds):
         if f"Round {i}" in debate.keys():
-            agent_response += f"\n\n--- Round {i} ---\n" + debate[f"Round {i}"][agent_name]["argumentacion"].join("\n") + "\n"
+            agent_response += f"\n\n--- Round {i} ---\n" + debate[f"Round {i}"][agent_name]["argumentacion"] + "\n"
     return agent_response
 
 

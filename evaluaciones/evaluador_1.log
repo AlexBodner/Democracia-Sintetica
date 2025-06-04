@@ -250,3 +250,36 @@ Puntaje final promedio: 0.675
 
 Puntaje final promedio: 0.6625
 --------------------------------------------------------------------------------
+
+
+- Agente Liberal:
+  Similitudes: El agente sintético presenta argumentos enfocados en la importancia de la libertad individual, la propiedad y la crítica a la intervención estatal, alineándose con los principios fundamentales del Partido Libertario. Además, ambos debates abordan temáticas relacionadas con la función del Estado, abogando por un Estado limitado y señalando la importancia de evitar la expansión del gasto público.
+  Diferencias: Sin embargo, en el debate sintético, puede haber una carencia de ejemplos concretos que ilustren las consecuencias negativas de la intervención estatal, mientras que en los debates reales, los representantes del partido Libertario suelen utilizar estadísticas y casos específicos para reforzar sus argumentos. También, en el debate real, puede haber un mayor enfoque en la crítica a políticas específicas y su impacto en la economía, lo cual a menudo no se observa en el debate sintético.
+  Puntaje: 0.75
+
+
+- Agente Liberal:
+  Similitudes: En el debate sintético, el Agente Liberal argumentó a favor de la legalización del aborto priorizando la libertad individual y el acceso a servicios de salud, haciéndolo compatible con criterios de salud y seguridad para las mujeres. Esto contrasta con la postura real del Partido Libertario que, en términos generales, se opone a cualquier intervención que pueda ser vista como restrictiva de la libertad personal. Sin embargo, en el debate sintético, extraordinariamente, el agente abogó por la autonomía de la mujer sobre su decisión de abortar, lo que es un punto más cercano a las convicciones liberales en cuanto a la libertad personal.
+  Diferencias: A nivel ideológico, el Agente Liberal en el debate sintético mostró una fuerte inclinación hacia la defensa del aborto, lo que contrasta starkamente con la postura del partido que sostiene que la vida comienza desde la concepción y que es irreprochable. En el debate real, el énfasis está en la defensa de la vida desde su inicio, alegando que este derecho es inalienable y superior a cualquier otra consideración. Esto significa que el Agente Liberal se apartó de la posición fundamental del Partido Libertario en cuanto a la defensa de la vida. Además, mientras que el agente en el debate sintético propuso soluciones que implican la legalización y el acceso seguro al aborto, en la postura real del partido se considera que dicha propuesta anula los derechos de otros, en particular los derechos del feto.
+  Puntaje: 0.3
+
+
+- Agente de Centro Derecha:
+  Similitudes: Ambos debates presentan una fuerte oposición a la legalización del aborto, enfatizando el valor de la vida desde la concepción y la necesidad de alternativas al aborto. En el debate sintético, el agente de centro derecha destaca la importancia de la educación sexual y programas de apoyo a la maternidad, que también son temas recurrentes en las posturas reales del partido. Ambos argumentan que la legalización del aborto podría desincentivar el apoyo a la maternidad y generan preocupación sobre las implicaciones éticas y morales de la ley propuesta.
+  Diferencias: En el debate sintético, el agente de centro derecha se centra más en la defensa de la vida y el bienestar de las mujeres sin ofrecer un reconocimiento amplio hacia el derecho a decidir, lo cual podría no reflejar la posición más matizada de algunos sectores de la coalición real que, aunque en contra del aborto, pueden incluir puntos de vista sobre la regulación y un enfoque más integral en la salud de la mujer. En cuanto a la referencia a ejemplos internacionales, el agente del debate sintético no menciona experiencias en las que la legalización ha tenido impactos positivos, un punto que podría mencionarse en un debate real.
+  Puntaje: 0.8
+
+
+- Agente de Centro Izquierda:
+  Similitudes: El agente de Centro Izquierda en el debate sintético reafirma principios que son centrales para su ideología, coincidiendo con la postura real del partido en relación al Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE). Destaca la cuestión de la salud pública y la necesidad de garantizar el acceso seguro y gratuito al aborto, enfatizando la importancia de reducir la mortalidad materna y promover la justicia social. Ambos debates subrayan la relevancia de proteger los derechos reproductivos de las mujeres y la autonomía personal como una cuestión de derechos humanos.
+  Diferencias: Aunque el análisis del agente en el debate sintético se alinea en gran medida con la postura real del partido, hay momentos en los que se percibe una mayor firmeza y una claridad más marcada en el rechazo a las posturas de otros agentes. En el debate real, la argumentación podría no ser tan contundente, ya que el discurso en el ámbito parlamentario puede incluir más matices y atención a la diversidad de opiniones, además de centrarse más en evidencias y datos estadísticos para sustentar su posición. El debate sintético, en cambio, muestra una defensa más emocional y apasionada de la causa.
+  Puntaje: 0.9
+
+
+- Agente de Izquierda:
+  Similitudes: El agente de izquierda sostuvo una postura coherente con los principios del FIT-U, defendiendo la legalización de la interrupción voluntaria del embarazo (IVE) como un derecho esencial. En ambos debates, se afirmó que la IVE es una cuestión de salud pública que afecta en mayor medida a las mujeres de sectores vulnerables, lo que muestra un compromiso común por la justicia social.
+  Diferencias: Sin embargo, en el debate real se acusaron ciertas omisiones en el discurso del agente respecto a aspectos específicos de la implementación de la ley, como las objeciones de conciencia. El agente de izquierda en el debate sintético fue más enfático en la reducción de mortalidad materna y el contexto socioeconómico que afecta a las mujeres, lo que podría interpretarse como una ausencia en el debate real. Por eso, aunque los ideales fueron compartidos, se nota un déficit en la profundidad de las preocupaciones prácticas que no se reflejaron en el discurso sintético.
+  Puntaje: 0.85
+
+Puntaje final promedio: 0.7125
+--------------------------------------------------------------------------------
