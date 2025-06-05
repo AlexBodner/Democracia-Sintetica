@@ -42,9 +42,7 @@ class AgenteEvaluador:
                 
         if voto == self.posturas[voto_real]:
             return 1
-        return 0
-            
-        
+        return 0        
     
     async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, posturas_reales, n_rounds=3, 
                               id = 0, output_folder = "evaluaciones"):
