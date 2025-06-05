@@ -1,6 +1,6 @@
 import json
 from API_Model import API_Model
-from debate_agents.response_structures import EvaluarAgenteResponse
+from debate_agents.response_structures import EvaluarAgenteResponse, ParserArgumentos, CompararArgumentos
 import os
 from logger import new_logger
 
@@ -30,7 +30,7 @@ class AgenteEvaluador:
         """
         self.model = API_Model(system_prompt=system_prompt)
         self.system_promt = system_prompt
-        with open("testing\leyes_limpias.json", "r", encoding="utf-8") as f:
+        with open("testing/leyes_limpias.json", "r", encoding="utf-8") as f:
             self.leyes_reales =  json.load(f)
         
     def evaluar_votacion(self, debate_sintetico_por_agente, nombre_agente, n_ley=1):
@@ -42,9 +42,44 @@ class AgenteEvaluador:
                 
         if voto == self.posturas[voto_real]:
             return 1
-        return 0        
-    
-    async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, posturas_reales, n_rounds=3, 
+        return 0
+            
+    def cambios_de_postura(self, debate_sintetico_por_agente, nombre_agente,ley, n_rondas=  3):
+        voto_agent = debate_sintetico_por_agente[f"Round 0"][nombre_agente]["voto"]
+        cambios = 0
+        for round in range(1, n_rondas):
+            if voto_agent!=debate_sintetico_por_agente[f"Round {round}"][nombre_agente]["voto"]:
+                print("cambio de voto")
+                voto_agent = debate_sintetico_por_agente[f"Round {round}"][nombre_agente]["voto"]
+                cambios+=1
+        return cambios
+    async def contar_argumentos(self,debate_sintetico_por_agente, nombre_agente,
+                                 argumentos_reales:str, n_rounds=3, ):
+        debate_sintetico = get_agent_responses(debate_sintetico_por_agente, nombre_agente, n_rounds)
+ 
+        argumentos_iguales = 0
+
+        for argumento_real in argumentos_reales: 
+            context = [ 
+                {
+                    "role": "user",
+                    "content": f"### Fragmentos del debate del agente (sintético):\n{debate_sintetico}\n\n"
+                                f"### Argumentación del debate original:\n{argumento_real}\n\n"
+
+                                "Tu tarea es comparar el argumento del debate original fue dicho por el agente en alguna parte del debate."
+                                "Debes determinar si fueron el mismo argumento aunque haya sido redactado de distinta forma."
+                }
+            ]
+            response_argumentos: CompararArgumentos = await self.model.call_api(
+                previous_rounds_context=context,
+                pydantic_response_structure=CompararArgumentos,
+            )
+            print("Argumento es igual?",response_argumentos.son_iguales)
+            argumentos_iguales += 1 if response_argumentos.son_iguales else 0
+        salida = f"{argumentos_iguales} / {len(argumentos_reales)}" 
+        print("argumentos_iguales", salida)
+        return salida
+    async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, argumentaciones_reales, n_rounds=3, 
                               id = 0, output_folder = "evaluaciones"):
         """
         Evalúa un debate sintético contra las posturas reales y devuelve el razonamiento y puntaje.
@@ -56,7 +91,7 @@ class AgenteEvaluador:
             {
                 "role": "user",
                 "content": f"### Debate generado por agente (sintético):\n{debate_sintetico}\n\n"
-                        f"### Posturas reales del partido:\n{posturas_reales}\n\n"
+                        f"### Posturas reales del partido:\n{'. '.join(argumentaciones_reales)} \n\n"
                         f"Estructura la respuesta de la siguiente manera:\n\n"
                         f"1. Análisis detallado por agente:\n"
                         f"   - Para cada agente, analiza los argumentos del debate sintético y del debate real.\n"
@@ -71,16 +106,21 @@ class AgenteEvaluador:
             previous_rounds_context=context,
             pydantic_response_structure=EvaluarAgenteResponse,
         )
-        self.registrar_evaluacion(nombre_agente, response, id = id, output_folder =output_folder)
+
+        argumentos_encontrados = await self.contar_argumentos(debate_sintetico_por_agente, nombre_agente,
+                      argumentaciones_reales, n_rounds=3, )
+        self.registrar_evaluacion(nombre_agente, response, argumentos_encontrados ,  id = id, output_folder =output_folder)
         return response
 
-    def registrar_evaluacion(self,nombre_agente,analisis, id = 0, output_folder = "evaluaciones"):
+    def registrar_evaluacion(self,nombre_agente,analisis,argumentos_encontrados, id = 0, output_folder = "evaluaciones"):
         os.makedirs(output_folder, exist_ok=True)
 
         resultado = f"\n\n- {nombre_agente}:\n"
         resultado += f"  Similitudes: {analisis.similitudes}\n"
         resultado += f"  Diferencias: {analisis.diferencias}\n"
         resultado += f"  Puntaje: {analisis.puntaje}\n"
+        resultado += f"  Argumentos encontrados: {argumentos_encontrados}\n"
+
 
         with open(os.path.join(output_folder,f"evaluador_{id}.log"), "a+", encoding="utf-8") as f:
             f.write(resultado)
