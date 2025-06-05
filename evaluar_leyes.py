@@ -85,13 +85,14 @@ async def main(output_folder = "evaluaciones"):
 
         for agente in agentes:
             evaluador = AgenteEvaluador(system_prompt=format_system_prompt(agente))
+            evaluador.cambios_de_postura(debate_sintetico_por_agente, agente.agent_name,ley, n_rondas=  3)
+
             evaluacion = await evaluador.evaluar_debate(debate_sintetico_por_agente, agente.agent_name,
                                                     (ley['posturas'][agente2postura[agente.agent_name]]["argumentacion"]), n_rounds = 3 , id=  ley["id"])
             
             print(f"PRUEBA DELFI: {agente.agent_name}: {evaluador.evaluar_votacion(debate_sintetico_por_agente, agente.agent_name, ley['id'])}")
             print(evaluacion)
             puntaje_final+=evaluacion.puntaje
-
         puntaje_final/=len(agentes)
 
 

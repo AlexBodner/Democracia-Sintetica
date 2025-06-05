@@ -44,7 +44,15 @@ class AgenteEvaluador:
             return 1
         return 0
             
-        
+    def cambios_de_postura(self, debate_sintetico_por_agente, nombre_agente,ley, n_rondas=  3):
+        voto_agent = debate_sintetico_por_agente[f"Round 0"][nombre_agente]["voto"]
+        cambios = 0
+        for round in range(1, n_rondas):
+            if voto_agent!=debate_sintetico_por_agente[f"Round {round}"][nombre_agente]["voto"]:
+                print("cambio de voto")
+                voto_agent = debate_sintetico_por_agente[f"Round {round}"][nombre_agente]["voto"]
+                cambios+=1
+        return cambios
     async def contar_argumentos(self,debate_sintetico_por_agente, nombre_agente,
                                  argumentos_reales:str, n_rounds=3, ):
         debate_sintetico = get_agent_responses(debate_sintetico_por_agente, nombre_agente, n_rounds)
@@ -68,7 +76,7 @@ class AgenteEvaluador:
             )
             print("Argumento es igual?",response_argumentos.son_iguales)
             argumentos_iguales += 1 if response_argumentos.son_iguales else 0
-        salida = argumentos_iguales + " / "+ len(argumentos_reales)
+        salida = f"{argumentos_iguales} / {len(argumentos_reales)}" 
         print("argumentos_iguales", salida)
         return salida
     async def evaluar_debate(self, debate_sintetico_por_agente, nombre_agente, argumentaciones_reales, n_rounds=3, 
