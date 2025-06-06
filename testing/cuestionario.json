@@ -1,0 +1,570 @@
+{
+  "cuestionario": [
+    {
+      "categoria": "Seguridad nacional",
+      "preguntas": [
+        {
+          "id": 1,
+          "texto": "¿Debería el gobierno invertir en inteligencia artificial (IA) para aplicaciones de defensa?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 2,
+          "texto": "¿Debería el gobierno implementar un sistema de identificación nacional para mejorar la seguridad y prevenir el fraude?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 3,
+          "texto": "¿Debería el gobierno utilizar la tecnología de reconocimiento facial para la vigilancia masiva con el fin de mejorar la seguridad pública?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Cuestiones ambientales",
+      "preguntas": [
+        {
+          "id": 4,
+          "texto": "¿Apoya el uso de fracking hidráulico para extraer los recursos de petróleo y gas natural?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 5,
+          "texto": "¿El gobierno debería aumentar la regulación ambiental en las empresas para reducir las emisiones de carbono?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 6,
+          "texto": "¿Deben prohibirse los productos desechables (como vasos, platos y cubiertos de plástico) que contengan menos del 50% de material biodegradable?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Temas científicos",
+      "preguntas": [
+        {
+          "id": 7,
+          "texto": "¿Debe el gobierno exigir la vacunación de los niños contra enfermedades prevenibles?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 8,
+          "texto": "¿Apoya usted el uso de la energía nuclear?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 9,
+          "texto": "¿Debería el gobierno financiar la investigación en ingeniería genética para la prevención y tratamiento de enfermedades?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Política exterior",
+      "preguntas": [
+        {
+          "id": 10,
+          "texto": "¿Debería Argentina aumentar o disminuir el gasto en ayuda extranjera?",
+          "opciones": ["Debería incrementarla", "Disminuir", "Otras posiciones"]
+        },
+        {
+          "id": 11,
+          "texto": "¿Debería Argentina aumentar o disminuir el gasto militar?",
+          "opciones": ["Debería incrementarla", "Disminuir", "Otras posiciones"]
+        },
+        {
+          "id": 12,
+          "texto": "¿Debería exigirse a todos los ciudadanos de 18 años que presten al menos un año de servicio militar?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Transporte",
+      "preguntas": [
+        {
+          "id": 13,
+          "texto": "¿Debe el gobierno aumentar el gasto en transporte público?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 14,
+          "texto": "¿Deberían las ciudades designar carriles especiales para vehículos autónomos?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 15,
+          "texto": "¿Debería el gobierno regular los programas de viajero frecuente de las aerolíneas?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Salud",
+      "preguntas": [
+        {
+          "id": 16,
+          "texto": "¿Apoya la legalización de la marihuana?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 17,
+          "texto": "¿Debería haber más o menos privatización de los servicios hospitalarios y de salud?",
+          "opciones": ["Más", "Menos", "Otras posiciones"]
+        },
+        {
+          "id": 18,
+          "texto": "¿Deberían las ciudades abrir 'refugios seguros' de drogas donde las personas adictas a las drogas ilegales puedan consumirlas bajo la supervisión de profesionales médicos?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 19,
+          "texto": "¿Debería el gobierno exigir que los empleados de las grandes empresas se vacunen contra el COVID?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 20,
+          "texto": "¿Debe el gobierno financiar la Organización Mundial de la Salud?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Educación",
+      "preguntas": [
+        {
+          "id": 21,
+          "texto": "¿La matrícula en las universidades públicas debería ser gratuita?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Asuntos sociales",
+      "preguntas": [
+        {
+          "id": 22,
+          "texto": "¿Cuál es su postura sobre el aborto?",
+          "opciones": ["Provida", "Proelección", "Otras posiciones"]
+        },
+        {
+          "id": 23,
+          "texto": "¿Apoya usted la pena de muerte?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 24,
+          "texto": "¿Deberían los padres perder la custodia por malgenerar intencionalmente a su hijo?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 25,
+          "texto": "¿Deben las parejas homosexuales tener los mismos derechos de adopción que las parejas heterosexuales?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Asuntos económicos",
+      "preguntas": [
+        {
+          "id": 26,
+          "texto": "¿Debería Argentina aumentar los impuestos a los ricos?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 27,
+          "texto": "¿Debe el gobierno hacer recortes en el gasto público para reducir la deuda nacional?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 28,
+          "texto": "¿Cree que los sindicatos ayudan o perjudican a la economía?",
+          "opciones": ["Dañan", "Ayudan", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Inmigración",
+      "preguntas": [
+        {
+          "id": 29,
+          "texto": "¿Se debería pedir a los inmigrantes que aprendan y hablen español?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 30,
+          "texto": "¿Debería exigirse a los inmigrantes que pasen un examen de ciudadanía para demostrar que tienen conocimientos básicos del idioma, la historia y el gobierno de nuestro país?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 31,
+          "texto": "¿Debería Argentina aumentar o disminuir la cantidad de visados de trabajo temporal otorgados a trabajadores inmigrantes altamente calificados?",
+          "opciones": ["Debería incrementarla", "Disminuir", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Vivienda",
+      "preguntas": [
+        {
+          "id": 32,
+          "texto": "¿Debería permitirse a las personas sin hogar, que se han negado a albergar o viviendas disponibles, dormir o acampar en una propiedad pública?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 33,
+          "texto": "¿Debería el gobierno proporcionar subsidios para compradores de vivienda por primera vez?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 34,
+          "texto": "¿Debería el gobierno restringir la compra de propiedades residenciales por parte de inversores extranjeros?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Tecnología",
+      "preguntas": [
+        {
+          "id": 35,
+          "texto": "¿Debería el gobierno implementar regulaciones más estrictas sobre el uso de criptomonedas?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 36,
+          "texto": "¿Debería el gobierno exigir que las grandes empresas tecnológicas compartan sus algoritmos con los reguladores?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 37,
+          "texto": "¿Debería el gobierno imponer regulaciones más estrictas sobre la recopilación y uso de datos personales por parte de las empresas?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Asuntos penales",
+      "preguntas": [
+        {
+          "id": 38,
+          "texto": "¿Deben los delincuentes condenados tener derecho a voto?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 39,
+          "texto": "¿Deben recibir los narcotraficantes la pena de muerte?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 40,
+          "texto": "¿Debe el gobierno contratar a empresas privadas para gestionar las prisiones?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Política interna",
+      "preguntas": [
+        {
+          "id": 41,
+          "texto": "¿Está usted a favor de despenalizar el consumo de drogas?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 42,
+          "texto": "¿Debería ser ilegal quemar la bandera argentina?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 43,
+          "texto": "¿Debería el gobierno regular las redes sociales para evitar las noticias falsas y la desinformación?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Cuestiones electorales",
+      "preguntas": [
+        {
+          "id": 44,
+          "texto": "¿Debería reducirse el número de representantes electos?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 45,
+          "texto": "¿Los partidos políticos deberían recibir dinero del gobierno?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 46,
+          "texto": "¿Deberían tener derecho a votar los extranjeros que residen actualmente en Argentina?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 47,
+          "texto": "¿Debe reducirse la edad mínima para votar?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 48,
+          "texto": "¿Debería permitirse que un político que haya sido condenado por un delito se presente a las elecciones?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 49,
+          "texto": "¿Debería exigirse a los candidatos políticos que hagan públicas sus declaraciones de impuestos recientes?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 50,
+          "texto": "¿Deben las empresas, los sindicatos y las organizaciones sin ánimo de lucro poder hacer donaciones a los partidos políticos?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        },
+        {
+          "id": 51,
+          "texto": "¿Se debería haber exigido a los políticos mayores de 75 años pasar una prueba de competencia mental?",
+          "opciones": ["Si", "No", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Tendencias",
+      "preguntas": [
+        {
+          "id": 52,
+          "texto": "¿Con cuál partido político te identificas más?",
+          "opciones": [
+            "Unión Cívica Radical",
+            "Nuevo encuentro",
+            "La Libertad Avanza",
+            "Partido libertario",
+            "Partido Justicialista",
+            "Frente para la Victoria",
+            "Cambiemos",
+            "Otras posiciones"
+          ]
+        },
+        {
+          "id": 53,
+          "texto": "¿Con qué ideología política te identificas más?",
+          "opciones": ["Parte: Tigre", "Otras posiciones"]
+        }
+      ]
+    },
+    {
+      "categoria": "Evaluación presidencial",
+      "preguntas": [
+        {
+          "id": 54,
+          "texto": "¿Cómo calificarías el desempeño laboral general de tu Presidente actual?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 55,
+          "texto": "¿Cómo calificarías la integridad y el apego a los estándares éticos de tu Presidente actual?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 56,
+          "texto": "¿Cómo calificarías la efectividad de tu Presidente actual en la reducción del crimen y la mejora de la seguridad en tu comunidad?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 57,
+          "texto": "¿Cómo calificarías la efectividad de tu Presidente actual en abordar las desigualdades sociales que te afectan?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 58,
+          "texto": "¿Cómo calificarías el liderazgo y la visión futura de tu Presidente actual?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 59,
+          "texto": "¿Cómo calificarías el éxito de tu Presidente actual en la implementación de políticas y programas que te afectan?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 60,
+          "texto": "¿Cómo calificarías la claridad y apertura de comunicación pública de tu Presidente actual?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 61,
+          "texto": "¿Cómo calificarías la efectividad de las políticas de tu actual Presidente en abordar los problemas que te importan?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 62,
+          "texto": "¿Cómo calificarías la colaboración de tu Presidente actual con otros funcionarios y entidades para lograr objetivos comunes?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 63,
+          "texto": "¿Cómo calificarías las políticas e iniciativas ambientales de tu Presidente actual?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 64,
+          "texto": "¿Cómo calificarías la efectividad de tu Presidente actual en el manejo de crisis y emergencias que te afectan?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 65,
+          "texto": "¿Cómo calificarías el desempeño de tu Presidente actual en garantizar tu seguridad y protección?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 66,
+          "texto": "¿Cómo calificarías el impacto de tu Presidente actual en la economía local y la creación de empleo?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 67,
+          "texto": "¿Cómo calificarías la comunicación actual de tu Presidente sobre su visión y metas contigo y con el público?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 68,
+          "texto": "¿Cómo calificarías la gestión de tu actual Presidente en cuanto a políticas económicas y recursos que te afectan?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        },
+        {
+          "id": 69,
+          "texto": "¿Cómo calificarías la transparencia y honestidad de tu Presidente actual en sus tratos?",
+          "opciones": [
+            "Muy por encima del promedio",
+            "Por encima del promedio",
+            "Promedio",
+            "Por debajo del promedio",
+            "Muy por debajo del promedio"
+          ]
+        }
+      ]
+    },
+    {
+      "categoria": "Debate",
+      "preguntas": [
+        {
+          "id": 70,
+          "texto": "¿Cuál es su mejor contraargumento a la posición No sobre el Refugio seguro?",
+          "opciones": ["Más información", "Ver respuestas", "Mostrar pregunta diferente"]
+        },
+        {
+          "id": 71,
+          "texto": "¿Qué cualidades son las más importantes para usted en un candidato?",
+          "opciones": [
+            "Inteligencia",
+            "Diplomacia",
+            "Honestidad",
+            "Moralidad",
+            "Eficacia",
+            "Liderazgo",
+            "Valor",
+            "Consistencia",
+            "Visión",
+            "Compromiso",
+            "Determinación",
+            "Integridad",
+            "Sentido común",
+            "Transparencia",
+            "Otras posiciones"
+          ]
+        }
+      ]
+    }
+  ]
+}
