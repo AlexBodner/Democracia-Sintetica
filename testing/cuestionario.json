@@ -1,22 +1,32 @@
 {
   "cuestionario": [
     {
-      "categoria": "Seguridad nacional",
+      "categoria": "Problemas de seguridad nacional",
       "preguntas": [
         {
           "id": 1,
           "texto": "¿Debería el gobierno invertir en inteligencia artificial (IA) para aplicaciones de defensa?",
-          "opciones": ["Si", "No", "Otras posiciones"]
+          "opciones": ["Si", "No"]
         },
         {
           "id": 2,
           "texto": "¿Debería el gobierno implementar un sistema de identificación nacional para mejorar la seguridad y prevenir el fraude?",
-          "opciones": ["Si", "No", "Otras posiciones"]
+          "opciones": ["Si", "No"]
         },
         {
           "id": 3,
           "texto": "¿Debería el gobierno utilizar la tecnología de reconocimiento facial para la vigilancia masiva con el fin de mejorar la seguridad pública?",
-          "opciones": ["Si", "No", "Otras posiciones"]
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 4,
+          "texto": "¿Debería el gobierno prohibir a sus ciudadanos el uso de métodos de pago transfronterizos (como las criptomonedas) para enviar dinero a familiares en países sancionados por la OFAC (Palestina, Irán, Cuba, Venezuela, Rusia y Corea del Norte)?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 5,
+          "texto": "¿Debería el gobierno requerir que las empresas tecnológicas proporcionen acceso a puertas traseras para comunicaciones encriptadas con fines de seguridad nacional?",
+          "opciones": ["Si", "No"]
         }
       ]
     },
@@ -24,19 +34,59 @@
       "categoria": "Cuestiones ambientales",
       "preguntas": [
         {
-          "id": 4,
-          "texto": "¿Apoya el uso de fracking hidráulico para extraer los recursos de petróleo y gas natural?",
-          "opciones": ["Si", "No", "Otras posiciones"]
-        },
-        {
-          "id": 5,
-          "texto": "¿El gobierno debería aumentar la regulación ambiental en las empresas para reducir las emisiones de carbono?",
-          "opciones": ["Si", "No", "Otras posiciones"]
-        },
-        {
           "id": 6,
+          "texto": "¿Apoya el uso de fracking hidráulico para extraer los recursos de petróleo y gas natural?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 7,
+          "texto": "¿El gobierno debería aumentar la regulación ambiental en las empresas para reducir las emisiones de carbono?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 8,
           "texto": "¿Deben prohibirse los productos desechables (como vasos, platos y cubiertos de plástico) que contengan menos del 50% de material biodegradable?",
-          "opciones": ["Si", "No", "Otras posiciones"]
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 9,
+          "texto": "¿Apoyas el uso de cultivos y alimentos genéticamente modificados?",
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 10,
+          "texto": "¿Debe permitirse a los investigadores utilizar animales para probar la seguridad de los medicamentos, las vacunas, los dispositivos médicos y los cosméticos?",
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 11,
+          "texto": "¿Deben las ciudades ofrecer a las empresas privadas incentivos económicos para su deslocalización?",
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 12,
+          "texto": "¿Debería el gobierno construir una red de estaciones de carga para vehículos eléctricos?",
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 13,
+          "texto": "¿Debería el gobierno proporcionar subsidios para empresas que desarrollan tecnologías de captura de carbono?",
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 14,
+          "texto": "¿Debería el gobierno ofrecer subsidios a los contribuyentes que compren un vehículo eléctrico?",
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 15,
+          "texto": "¿Debería el gobierno financiar la investigación en geoingeniería como una forma de combatir el cambio climático?",
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 16,
+          "texto": "¿Debería el gobierno invertir en programas para reducir el desperdicio de alimentos?",
+          "opciones": ["Si", "No"]
         }
       ]
     },
@@ -44,44 +94,90 @@
       "categoria": "Temas científicos",
       "preguntas": [
         {
-          "id": 7,
+          "id": 17,
           "texto": "¿Debe el gobierno exigir la vacunación de los niños contra enfermedades prevenibles?",
-          "opciones": ["Si", "No", "Otras posiciones"]
+          "opciones": ["Si", "No"]
         },
         {
-          "id": 8,
+          "id": 18,
           "texto": "¿Apoya usted el uso de la energía nuclear?",
-          "opciones": ["Si", "No", "Otras posiciones"]
+          "opciones": ["Si", "No"]
         },
         {
-          "id": 9,
+          "id": 19,
           "texto": "¿Debería el gobierno financiar la investigación en ingeniería genética para la prevención y tratamiento de enfermedades?",
-          "opciones": ["Si", "No", "Otras posiciones"]
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 20,
+          "texto": "¿Debería el gobierno permitir la comercialización de carne cultivada en laboratorio?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 21,
+          "texto": "¿Debería el gobierno regular el uso de la tecnología CRISPR para modificaciones genéticas en humanos?",
+          "opciones": ["Si", "No"]
         }
       ]
     },
     {
-      "categoria": "Política exterior",
+      "categoria": "Cuestiones de política exterior",
       "preguntas": [
         {
-          "id": 10,
+          "id": 22,
           "texto": "¿Debería Argentina aumentar o disminuir el gasto en ayuda extranjera?",
-          "opciones": ["Debería incrementarla", "Disminuir", "Otras posiciones"]
+          "opciones": ["Debería incrementarla", "Disminuir"]
         },
         {
-          "id": 11,
+          "id": 23,
           "texto": "¿Debería Argentina aumentar o disminuir el gasto militar?",
-          "opciones": ["Debería incrementarla", "Disminuir", "Otras posiciones"]
+          "opciones": ["Debería incrementarla", "Disminuir"]
         },
         {
-          "id": 12,
+          "id": 24,
           "texto": "¿Debería exigirse a todos los ciudadanos de 18 años que presten al menos un año de servicio militar?",
-          "opciones": ["Si", "No", "Otras posiciones"]
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 25,
+          "texto": "¿Debería el Gobierno tratar de influenciar en los procesos electorales extranjeros?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 26,
+          "texto": "¿Debería Argentina proporcionar suministros militares y financiación a Ucrania?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 27,
+          "texto": "¿Ucrania debería unirse a la OTAN?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 28,
+          "texto": "¿Deberían existir restricciones a las ventas de armas gubernamentales a países acusados de cometer violaciones de derechos humanos?",
+          "opciones": ["Si", "No"]
+        }, 
+        {
+          "id": 29,
+          "texto": "¿Apoya usted una solución de dos Estados al conflicto palestino-israelí?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 30,
+          "texto": "¿Deberían los militares utilizar armas guiadas por inteligencia artificial?",
+          "opciones": ["Si", "No"]
+        },
+        {
+          "id": 31,
+          "texto": "¿Apoya al gobierno que pide un alto el fuego permanente en Gaza?",
+          "opciones": ["Si", "No"]
         }
+
       ]
     },
     {
-      "categoria": "Transporte",
+      "categoria": "Problemas de transporte",
       "preguntas": [
         {
           "id": 13,
