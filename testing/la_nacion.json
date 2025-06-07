@@ -1,0 +1,82 @@
+[
+  {
+    "id_pregunta": 0,
+    "pregunta": "La historia inflacionaria del país justifica ir a una dolarización",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 1,
+    "pregunta": "Los impuestos de la Argentina son excesivos y hay que reducirlos",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 2,
+    "pregunta": "El Estado debe regular a los privados para mejorar la distribución de la riqueza",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 3,
+    "pregunta": "Las restricciones a las importaciones son necesarias para fomentar y proteger a la industria nacional",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 4,
+    "pregunta": "El Estado debe reducir sus gastos para alcanzar el equilibrio fiscal",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 5,
+    "pregunta": "El país necesita una reforma laboral que baje los costos de despido",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 6,
+    "pregunta": "El control de precios es una buena estrategia para combatir la inflación",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 7,
+    "pregunta": "La fuerza pública debe desalojar a los grupos que cortan rutas o avenidas principales de las ciudades",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 8,
+    "pregunta": "Hay que eliminar los planes sociales porque generan un enorme gasto y atentan contra la cultura del esfuerzo",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 9,
+    "pregunta": "El Estado debe tomar medidas para asegurar la paridad salarial entre mujeres y hombres",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 10,
+    "pregunta": "La ley de aborto legal, seguro y gratuito es una conquista social de enorme trascendencia",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 11,
+    "pregunta": "Ante la inseguridad creciente, debería permitirse la libre portación de armas",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 12,
+    "pregunta": "La salud y la educación pública deberían continuar siendo gratuitas",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 13,
+    "pregunta": "La Argentina debe romper el acuerdo con el FMI para cortar la dependencia económica",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 14,
+    "pregunta": "El matrimonio igualitario es uno de los grandes avances sociales de los últimos años en el país",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  },
+  {
+    "id_pregunta": 15,
+    "pregunta": "Hay que pensar leyes que protejan a los policías y no a los delincuentes",
+    "opciones": ["Muy de acuerdo", "De acuerdo", "Depende", "En desacuerdo", "Muy en desacuerdo"]
+  }
+]
