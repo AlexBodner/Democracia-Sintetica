@@ -93,3 +93,6 @@ class LeyResponse(BaseModel):
     posturas: Dict[str, Argumentacion] = Field(description="Diccionario con las posturas de los agentes, donde la clave es el nombre del agente.")
     resultado_final: str = Field(description="Resultado final de la ley, incluyendo detalles de las votaciones.")
 
+class LaNacionResponse(BaseModel):
+    razonamiento : str = Field(description="El razonamiento de la opción a elegir dada la postura política del agente.")
+    eleccion : str = Field(description="La opción elegida por el agente. Las posible respuestas son: Muy de acuerdo, De acuerdo, Depende, En desacuerdo, Muy en desacuerdo.")

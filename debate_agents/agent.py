@@ -11,7 +11,12 @@ class Agent:
             few_shot_examples=few_shot_ex
             )
         self.agent_name = agent_name
-
+    async def responder_test(self, context, response_structure):
+        generated_response = await self.api_model_agent.call_api(
+                previous_rounds_context=context,
+                pydantic_response_structure = response_structure
+            )
+        return generated_response
     async def speak(self, prev_round_context, search = False, investigador =None):
         
         if search:

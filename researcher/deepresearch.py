@@ -122,7 +122,6 @@ Required steps:
 You MUST call `SectionTool` to complete your work. Do not stop without submitting content."""
 
 
-from langchain_community.tools import DuckDuckGoSearchResults
 
 def get_search_tool(config: dict):
     cfg = Configuration.from_runnable_config(config)
