@@ -34,9 +34,9 @@ def normalizar_resultados_js_style(resultados_ejes):
     scty_norm = calc_score(resultados_ejes.get("scty", 0), max_scty)
     
     resultados_ejes["econ"] = econ_norm
-    resultados_ejes["dipl"] = dipl_norm
+    resultados_ejes["dipl"] = 100 - dipl_norm
     resultados_ejes["govt"] = govt_norm
-    resultados_ejes["scty"] = scty_norm
+    resultados_ejes["scty"] = 100 - scty_norm
     
     return np.array([econ_norm, dipl_norm, govt_norm, scty_norm])
 
@@ -65,6 +65,9 @@ def obtener_ideologia_por_eje(vector):
 
 def euclidean_distance(p1, p2):
     return sqrt(sum((a - b) ** 2 for a, b in zip(p1, p2)))
+
+
+
 
 def obtener_ideologia(vector):
     ideologias = json.load(open("testing/8values_ideologies.json", "r", encoding="utf-8"))
@@ -104,14 +107,11 @@ async def main(output_folder = "evaluaciones"):
     respuestas_por_pregunta = {p["pregunta"]: p for p in preguntas}
     
     for agent in agentes:
-        
-        
         print(f"\n\nEvaluando agente: {agent.agent_name}")
         resultados[agent.agent_name] = {"econ": 0,
                                         "dipl": 0,
                                         "govt": 0,
                                         "scty": 0}
-        
         
         for q in preguntas:
             
@@ -139,7 +139,7 @@ async def main(output_folder = "evaluaciones"):
         resultados_por_ideologia = obtener_ideologia_por_eje(results_vector)
             
         print(f"Resultados para {agent.agent_name}: {obtener_ideologia(results_vector)}")
-        print(f"Resultados para {agent.agent_name}: {resultados_por_ideologia}")
+        #print(f"Resultados para {agent.agent_name}: {resultados_por_ideologia}")
         
     with open(os.path.join(output_folder,f"resultadoss_8values.json"), "w", encoding ='utf8') as archivo:
         json.dump(resultados, archivo, indent=4, ensure_ascii = False)
