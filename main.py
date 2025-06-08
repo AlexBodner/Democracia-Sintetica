@@ -4,19 +4,19 @@ from debate_agents.reviewer import Reviewer
 from debate.debate import Debate
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
-from debate_agents.agente_centro_izquierda import AgenteCentroIzquierda
-from debate_agents.agente_centro_derecha import AgenteCentroDerecha
+from debate_agents.agente_centro_izquierda import AgenteUxP
+from debate_agents.agente_centro_derecha import AgenteJxC
 import asyncio
 
 if __name__ == "__main__":
     
     agente_liberal = AgenteLiberal
     agente_izquierda = AgenteIzquierda
-    agente_centro_izquierda = AgenteCentroIzquierda
-    agente_centro_derecha = AgenteCentroDerecha
+    agente_UxP = AgenteUxP
+    agente_jxc = AgenteJxC
     
     
-    agents = [agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
+    agents = [agente_liberal, agente_jxc, agente_UxP, agente_izquierda]
 
     #law = "Se debe legalizar el LSD?"
     law = "Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."

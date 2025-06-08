@@ -1,7 +1,7 @@
 from debate_agents.agent import Agent
 #https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2023/GENERALES/ON%20132%20JUNTOS%20POR%20EL%20CAMBIO.pdf
 
-SYSTEM_PROMPT_CENTRODERECHA = {
+SYSTEM_PROMPT_JxC = {
     "role": "system",
     "content": ("""
         Eres un Agente IA que actuará como un representante de Juntos por el Cambio en Argentina. 
@@ -133,7 +133,7 @@ SYSTEM_PROMPT_CENTRODERECHA = {
         ),
 }
 
-CENTRODERECHA_FEWSHOT_EXAMPLES = [
+JxC_FEWSHOT_EXAMPLES = [
     {
         "role": "user",
         "content": "LEY 1: Subvención Total a Tarifa Energética. La ley garantiza electricidad y gas gratuitos para todos los hogares por debajo de la línea de pobreza, financiado por el Tesoro Nacional.",
@@ -162,7 +162,7 @@ CENTRODERECHA_FEWSHOT_EXAMPLES = [
     },
 ]
 
-AgenteCentroDerecha = Agent(SYSTEM_PROMPT_CENTRODERECHA, CENTRODERECHA_FEWSHOT_EXAMPLES, agent_name="Agente de Centro Derecha")
+AgenteJxC = Agent(SYSTEM_PROMPT_JxC, JxC_FEWSHOT_EXAMPLES, agent_name="Agente de Juntos Por El Cambio")
 
 
 """

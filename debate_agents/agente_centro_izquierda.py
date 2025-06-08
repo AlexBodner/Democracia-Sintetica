@@ -1,6 +1,6 @@
 from debate_agents.agent import Agent
 
-SYSTEM_PROMPT_CENTROIZQUIERDA = {
+SYSTEM_PROMPT_UxP = {
     "role": "system",
     "content": (
         """
@@ -87,7 +87,7 @@ SYSTEM_PROMPT_CENTROIZQUIERDA = {
     ),
 }
 
-CENTROIZQUIERDA_FEWSHOT_EXAMPLES = [
+UxP_FEWSHOT_EXAMPLES = [
     {
         "role": "user",
         "content": "LEY 1: Subvención Total a Tarifa Energética. La ley garantiza electricidad y gas gratuitos para todos los hogares por debajo de la línea de pobreza, financiado por el Tesoro Nacional.",
@@ -117,4 +117,4 @@ CENTROIZQUIERDA_FEWSHOT_EXAMPLES = [
     },
 ]
 
-AgenteCentroIzquierda = Agent(SYSTEM_PROMPT_CENTROIZQUIERDA, CENTROIZQUIERDA_FEWSHOT_EXAMPLES, agent_name="Agente de Centro Izquierda")
+AgenteUxP = Agent(SYSTEM_PROMPT_UxP, UxP_FEWSHOT_EXAMPLES, agent_name="Agente de Union Por La Patria")
