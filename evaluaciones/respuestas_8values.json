@@ -1,0 +1,26 @@
+{
+    "Agente de Izquierda": {
+        "econ": 120.0,
+        "dipl": 71.25,
+        "govt": 137.5,
+        "scty": 130.5
+    },
+    "Agente Liberal": {
+        "econ": -15.0,
+        "dipl": 47.5,
+        "govt": 132.5,
+        "scty": 87.25
+    },
+    "Agente de Centro Derecha": {
+        "econ": 32.5,
+        "dipl": 61.25,
+        "govt": 76.25,
+        "scty": 75.5
+    },
+    "Agente de Centro Izquierda": {
+        "econ": 135.0,
+        "dipl": 83.75,
+        "govt": 91.25,
+        "scty": 104.5
+    }
+}

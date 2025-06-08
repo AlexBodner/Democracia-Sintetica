@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import Dict, List
+from typing import Dict, List, Literal
 
 
 class StructuredAgentResponse(BaseModel):
@@ -96,3 +96,9 @@ class LeyResponse(BaseModel):
 class LaNacionResponse(BaseModel):
     razonamiento : str = Field(description="El razonamiento de la opción a elegir dada la postura política del agente.")
     eleccion : str = Field(description="La opción elegida por el agente. Las posible respuestas son: Muy de acuerdo, De acuerdo, Depende, En desacuerdo, Muy en desacuerdo.")
+    
+class EightValuesResponse(BaseModel):
+    razonamiento : str = Field(description="El razonamiento de la opción a elegir dada la postura política del agente.")
+    #eleccion : str = Field(description="La opción elegida por el agente. Las posible respuestas son: Muy de acuerdo, De acuerdo, Neutral, En desacuerdo, Muy en desacuerdo.")
+    eleccion: Literal["Muy de acuerdo", "De acuerdo", "Neutral", "En desacuerdo", "Muy en desacuerdo"] = Field(
+        description="La opción elegida por el agente. Las posibles respuestas son: Muy de acuerdo, De acuerdo, Neutral, En desacuerdo, Muy en desacuerdo.")
