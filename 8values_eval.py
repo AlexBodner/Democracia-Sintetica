@@ -1,7 +1,4 @@
-
-
 import asyncio
-
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteCentroIzquierda
@@ -20,9 +17,51 @@ response_weights = {
     "Muy en desacuerdo": -1.0
 }
 
-def normalize(value):
-    # Convierte de [-100, 100] a [0, 100]
-    return (value + 100) / 2
+preguntas = json.load(open("testing/8values.json", "r", encoding="utf-8"))
+max_econ = sum(abs(q["effect"].get("econ", 0)) for q in preguntas)
+max_dipl = sum(abs(q["effect"].get("dipl", 0)) for q in preguntas)
+max_govt = sum(abs(q["effect"].get("govt", 0)) for q in preguntas)
+max_scty = sum(abs(q["effect"].get("scty", 0)) for q in preguntas)
+    
+def calc_score(score, max_val):
+        return 100 * (max_val + score) / (2 * max_val)
+    
+def normalizar_resultados_js_style(resultados_ejes):
+
+    econ_norm = calc_score(resultados_ejes.get("econ", 0), max_econ)
+    dipl_norm = calc_score(resultados_ejes.get("dipl", 0), max_dipl)
+    govt_norm = calc_score(resultados_ejes.get("govt", 0), max_govt)
+    scty_norm = calc_score(resultados_ejes.get("scty", 0), max_scty)
+    
+    resultados_ejes["econ"] = econ_norm
+    resultados_ejes["dipl"] = dipl_norm
+    resultados_ejes["govt"] = govt_norm
+    resultados_ejes["scty"] = scty_norm
+    
+    return np.array([econ_norm, dipl_norm, govt_norm, scty_norm])
+
+
+def obtener_ideologia_por_eje(vector):
+    ideologias = json.load(open("testing/8values_ideologies.json", "r", encoding="utf-8"))
+    
+    resultados_por_eje = {}
+    ejes = ["econ", "dipl", "govt", "scty"]
+    
+    for eje in ejes:
+        min_diff = float('inf')
+        closest_ideology = None
+        
+        for ideologia in ideologias:
+            ideologia_val = ideologia["stats"].get(eje, 0)
+            diff = abs(vector[ejes.index(eje)] - ideologia_val)
+            
+            if diff < min_diff:
+                min_diff = diff
+                closest_ideology = ideologia["name"]
+        
+        resultados_por_eje[eje] = closest_ideology
+    
+    return resultados_por_eje
 
 def euclidean_distance(p1, p2):
     return sqrt(sum((a - b) ** 2 for a, b in zip(p1, p2)))
@@ -59,42 +98,54 @@ async def main(output_folder = "evaluaciones"):
     agentes = [ agente_izquierda, agente_liberal, agente_centro_derecha, agente_centro_izquierda ]
     resultados = {}
     
+    with open("testing/8values.json", "r", encoding="utf-8") as f:
+            preguntas =  json.load(f)
+            
+    respuestas_por_pregunta = {p["pregunta"]: p for p in preguntas}
+    
     for agent in agentes:
-        print(f"/n/nEvaluando agente: {agent.agent_name}")
+        
+        
+        print(f"\n\nEvaluando agente: {agent.agent_name}")
         resultados[agent.agent_name] = {"econ": 0,
                                         "dipl": 0,
                                         "govt": 0,
                                         "scty": 0}
         
-        with open("testing/8values.json", "r", encoding="utf-8") as f:
-            preguntas =  json.load(f)
-            
+        
         for q in preguntas:
-            pregunta = q["question"]
+            
+            pregunta = q["pregunta"]
+            respuestas_por_pregunta[pregunta][agent.agent_name] = {}
             context = [ 
                 {
                     "role": "user",
                     "content": 
-                                "Tu tarea es responder preguntas de un test político con las respuestas que correspondan según tu ideología política."
-                                "Las preguntas solo pueden ser contestadas con: Muy de acuerdo, De acuerdo, Neutral, En desacuerdo, Muy en desacuerdo."
-                                f"La pregunta es {pregunta}"
+                                "Tu tarea es responder las afirmaciones de un test político con las respuestas que correspondan según tu ideología política."
+                                "Las respuestas son: Muy de acuerdo, De acuerdo, Neutral, En desacuerdo, Muy en desacuerdo."
+                                f"La afirmacion es {pregunta}"
                 }
             ]
             respuesta = await agent.responder_test(context, EightValuesResponse)
+            
+            respuestas_por_pregunta[pregunta][agent.agent_name]["razonamiento"] = respuesta.razonamiento
+            respuestas_por_pregunta[pregunta][agent.agent_name]["eleccion"] = respuesta.eleccion
             
             peso = response_weights[respuesta.eleccion]
             for eje in q["effect"]:
                 resultados[agent.agent_name][eje] += peso * q["effect"][eje]
                 
-        results_vector = np.zeros(len(resultados[agent.agent_name]))    
-        
-        for i, eje in enumerate(resultados[agent.agent_name]):
-            resultados[agent.agent_name][eje] = normalize(resultados[agent.agent_name][eje])
-            results_vector[i] = resultados[agent.agent_name][eje]
+        results_vector = normalizar_resultados_js_style(resultados[agent.agent_name])
+        resultados_por_ideologia = obtener_ideologia_por_eje(results_vector)
             
         print(f"Resultados para {agent.agent_name}: {obtener_ideologia(results_vector)}")
-    with open(os.path.join(output_folder,f"respuestas_8values.json"), "w", encoding ='utf8') as archivo:
+        print(f"Resultados para {agent.agent_name}: {resultados_por_ideologia}")
+        
+    with open(os.path.join(output_folder,f"resultadoss_8values.json"), "w", encoding ='utf8') as archivo:
         json.dump(resultados, archivo, indent=4, ensure_ascii = False)
+    
+    with open(os.path.join(output_folder,f"respuestas_8values.json"), "w", encoding ='utf8') as archivo:
+        json.dump(respuestas_por_pregunta, archivo, indent=4, ensure_ascii = False)
         
         
 if __name__ == "__main__":

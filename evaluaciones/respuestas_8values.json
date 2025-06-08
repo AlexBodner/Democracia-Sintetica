@@ -1,26 +1,1822 @@
 {
-    "Agente de Izquierda": {
-        "econ": 120.0,
-        "dipl": 71.25,
-        "govt": 137.5,
-        "scty": 130.5
+    "La opresión por parte de las corporaciones es más preocupante que la opresión por parte de los gobiernos.": {
+        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "pregunta": "La opresión por parte de las corporaciones es más preocupante que la opresión por parte de los gobiernos.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Ambas formas de opresión son preocupantes, pero la raíz del problema radica en el sistema capitalista que potencia a las corporaciones y a los gobiernos como sus administradores. El verdadero enfoque debería ser combatir el funcionamiento del capitalismo en su conjunto, donde las corporaciones son parte fundamental de la opresión hacia los trabajadores y el pueblo.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Si bien las corporaciones pueden ejercer influencia y presión en la sociedad, la opresión más preocupante proviene del Estado, dado que este posee el monopolio de la fuerza y puede restringir libertades fundamentales, como la libertad de expresión, de asociación y de propiedad. La historia demuestra que los gobiernos han perpetrado las violaciones de derechos más graves, a menudo en nombre de medidas colectivistas. Por lo tanto, es fundamental priorizar la vigilancia sobre el poder estatal por encima de las corporaciones.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Es fundamental reconocer que tanto las corporaciones como los gobiernos pueden tener el potencial de opresión. Sin embargo, desde una perspectiva republicana, el enfoque debe estar en la importancia del Estado de derecho y el respeto a las libertades individuales. La opresión gubernamental, que puede limitar derechos fundamentales, es una preocupación mayor en una democracia. Es necesario dar prioridad a la defensa de los derechos frente a cualquier tipo de autoritarismo, ya sea privado o estatal.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Considero que ambas formas de opresión son preocupantes, pero la opresión por parte de las corporaciones a menudo se traduce en la explotación de los trabajadores y en la concentración de poder económico que socava la democracia y los derechos sociales. El rol del Estado debe ser garantizar derechos y regular a las corporaciones para proteger a los ciudadanos, especialmente a los más vulnerables.",
+            "eleccion": "De acuerdo"
+        }
     },
-    "Agente Liberal": {
-        "econ": -15.0,
-        "dipl": 47.5,
-        "govt": 132.5,
-        "scty": 87.25
+    "Es necesario que el gobierno intervenga en la economía para proteger a los consumidores.": {
+        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "pregunta": "Es necesario que el gobierno intervenga en la economía para proteger a los consumidores.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La intervención del gobierno puede ser peligrosa si está al servicio de los intereses del capital, ya que puede resultar en regulaciones que beneficien a las grandes corporaciones en lugar de a los trabajadores. La defensa de los consumidores debe confluir con la lucha por salarios dignos y derechos laborales, y no se debe caer en la trampa de que el Estado intervenga para conservar el status quo capitalista.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La intervención del gobierno en la economía distorsiona los mercados y afecta negativamente la libertad individual y la eficiencia económica. Los consumidores están mejor protegidos en un entorno de libre mercado donde la competencia y la elección personal garantizan productos y servicios de calidad, sin la necesidad de coerción estatal.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Si bien es fundamental proteger a los consumidores, la intervención del gobierno en la economía debe ser equilibrada y basada en el respeto a las libertades individuales y la iniciativa privada. La regulación debe existir, pero sin caer en el excesso que limite el funcionamiento natural del mercado. La promoción de la competencia, así como el respeto a la seguridad jurídica son más efectivos que una intervención estatal excesiva.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde la perspectiva del Centro Izquierda y la ideología de Unión por la Patria, es fundamental que el gobierno tenga un rol activo en la economía para garantizar que se protejan los derechos de los consumidores. Esto incluye la regulación de precios, el control de la cadena de valor y la protección frente a abusos por parte de sectores concentrados. La intervención del Estado es necesaria para promover un desarrollo equitativo y justo que beneficie a toda la sociedad, especialmente a los más vulnerables.",
+            "eleccion": "Muy de acuerdo"
+        }
     },
-    "Agente de Centro Derecha": {
-        "econ": 32.5,
-        "dipl": 61.25,
-        "govt": 76.25,
-        "scty": 75.5
+    "Cuanto más libres sean los mercados, más libres serán las personas.": {
+        "question": "The freer the markets, the freer the people.",
+        "pregunta": "Cuanto más libres sean los mercados, más libres serán las personas.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Desde nuestra perspectiva socialista y de clase obrera, la afirmación carece de fundamento. La libertad de los mercados beneficia únicamente a los capitalistas y a las grandes corporaciones, mientras que atenta contra los derechos de las mayorías trabajadoras. Mayor libertad para los mercados se traduce en precarización laboral, desregulación y explotación. La verdadera libertad proviene de la satisfacción de las necesidades básicas y de la justicia social, no de la especulación y la mercantilización. Por lo tanto, rechazamos esta visión. La lucha debe ser por la defensa de derechos y no por la desregulación del capitalismo.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La libertad en los mercados permite a los individuos ejercer su autonomía, tomar decisiones económicas sin coerción estatal y estimular la creatividad y la innovación. Cuanto más se limite la intervención del Estado, más oportunidades tendrán las personas de alcanzar su potencial y de interactuar libremente en una economía dinámica. Esto reduce la dependencia del gobierno y promueve un ambiente en el que la libertad personal puede prosperar.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La libertad de mercados es fundamental para fomentar la iniciativa privada, la creación de empleo y la generación de riqueza. Cuando los mercados son libres, las personas tienen más opciones y oportunidades para desarrollarse económicamente. Es un principio del capitalismo moderno que siempre ha demostrado ser un motor de progreso y bienestar social, alineándose así con el valor de la libertad individual y el crecimiento colectivo.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La afirmación de que 'cuanto más libres sean los mercados, más libres serán las personas' ignora la realidad de que la libertad económica puede llevar a la concentración de poder en manos de unos pocos, perpetuando desigualdades y vulnerando los derechos de los trabajadores. Creemos en un rol activo del Estado que regule los mercados para proteger a los sectores más vulnerables, promover la justicia social e impulsar una economía que esté al servicio del bien común.",
+            "eleccion": "Muy en desacuerdo"
+        }
     },
-    "Agente de Centro Izquierda": {
-        "econ": 135.0,
-        "dipl": 83.75,
-        "govt": 91.25,
-        "scty": 104.5
+    "Es mejor mantener un presupuesto equilibrado que garantizar el bienestar de todos los ciudadanos.": {
+        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "pregunta": "Es mejor mantener un presupuesto equilibrado que garantizar el bienestar de todos los ciudadanos.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Mantener un presupuesto equilibrado a expensas del bienestar de los ciudadanos es una ideología capitalista que prioriza el ajuste y el pago de la deuda antes que las necesidades del pueblo. Tal perspectiva favorece a los grandes capitalistas y al FMI, dejando a la clase trabajadora en una situación de precariedad. La prioridad debe ser la satisfacción de las necesidades sociales, y no la balanza financiera del Estado. Debemos luchar por un presupuesto que garantice derechos y condiciones dignas para todos.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La libertad individual y la responsabilidad financiera son pilares de una sociedad próspera. Mantener un presupuesto equilibrado es vital para evitar deudas y limitar el gasto estatal innecesario. Garantizar el bienestar mediante el asistencialismo estatal solo fomenta la dependencia y erosiona la libertad. La prosperidad debe ser alcanzada a través del libre mercado y la elección individual, no mediante promesas irrealizables que implican relegar la responsabilidad fiscal. Por ello, es más importante el equilibrio fiscal que el asistencialismo.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Mantener un presupuesto equilibrado es esencial para la estabilidad económica y la confianza en las instituciones. Sin embargo, esto no debe ser a expensas del bienestar social. La responsabilidad fiscal debe ser equilibrada con la necesidad de garantizar oportunidades y derechos básicos. Por lo tanto, es importante encontrar un equilibrio, asegurando que el presupuesto sea sostenible mientras se busca el bienestar de todos los ciudadanos.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La prioridad debe ser siempre garantizar el bienestar de todos los ciudadanos antes que un mero equilibrio fiscal. Un Estado presente y activo es clave para promover la justicia social y proteger a los más vulnerables.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "La investigación financiada por el público es más beneficiosa para el pueblo que dejarla en manos del mercado.": {
+        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "pregunta": "La investigación financiada por el público es más beneficiosa para el pueblo que dejarla en manos del mercado.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La investigación financiada por el público prioriza las necesidades de la sociedad, en lugar de los intereses privados. Permite que el conocimiento y los avances científicos sean accesibles para todos, contribuyendo al bienestar general y no al lucro de unos pocos. Bajo el capitalismo, la investigación suele estar guiada por objetivos de rentabilidad, lo que limita su potencial para beneficiar a la población en su conjunto.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La investigación financiada por el público tiende a estar marcada por intereses políticos, ineficiencias y falta de incentivos. El mercado, a través de la competencia y la libre empresa, promueve la innovación y la eficiencia. La intervención estatal limita la libertad individual y desalienta la responsabilidad y el desarrollo humano.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La investigación financiada por el sector público puede ser fundamental en áreas donde el mercado no invierte debido a la falta de rentabilidad inmediata. Sin embargo, confiar única y exclusivamente en la investigación pública limita la innovación y la eficiencia que puede aportar el sector privado. La mejor opción es fomentar un equilibrio donde ambos sectores colaboren, asegurando así que los avances científicos y tecnológicos beneficien a la sociedad. Por lo tanto, considero que es necesario un enfoque más matizado y proactivo.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La investigación financiada por el público garantiza que los beneficios de dicha investigación se destinen al bienestar común y a la resolución de problemas sociales, en lugar de estar supeditados a los intereses de lucro del mercado. Esta perspectiva favorece la justicia social y la equidad en el acceso al conocimiento y la innovación.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Los aranceles al comercio internacional son importantes para fomentar la producción local.": {
+        "question": "Tariffs on international trade are important to encourage local production.",
+        "pregunta": "Los aranceles al comercio internacional son importantes para fomentar la producción local.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Los aranceles al comercio internacional pueden ser utilizados por Estados capitalistas para proteger industrias locales, pero en última instancia, esta medida no aborda la raíz del problema: la explotación de los trabajadores y la crisis del capitalismo. Desde una perspectiva socialista, es fundamental expropiar a las grandes patronales y movernos hacia una economía planificada que priorice las necesidades de la clase trabajadora por encima de cualquier regulación comercial que esté alineada con el interés capitalista.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Los aranceles son una forma de intervención estatal que distorsiona el libre mercado y limita la competencia, encareciendo los productos para los consumidores y protegiendo industrias ineficientes a costa de la libertad individual y el principio de libre intercambio. Fomentar la producción local no debe hacerse a través de medidas coercitivas, sino promoviendo un entorno donde la libre competencia pueda florecer.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Considero que los aranceles altos pueden distorsionar el mercado y perjudicar a los consumidores al limitar la competencia. La apertura comercial favorece la innovación y eficiencia de nuestras empresas, promoviendo un capitalismo moderno y responsable que busca siempre el bienestar social. Por lo tanto, no soy partidario de proteger la producción local mediante aranceles altos.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La imposición de aranceles al comercio internacional es fundamental para proteger y fomentar nuestra industria nacional, permitiendo que las empresas locales crezcan y compitan en condiciones más justas. Esto ayuda a generar empleo en el país y a fortalecer el mercado interno, favoreciendo la soberanía económica y la justicia social.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "De cada uno según su capacidad, a cada uno según sus necesidades.": {
+        "question": "From each according to his ability, to each according to his needs.",
+        "pregunta": "De cada uno según su capacidad, a cada uno según sus necesidades.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Esta afirmación refleja uno de los principios fundamentales del socialismo, donde se impulsa la idea de que cada persona debe aportar según sus capacidades y recibir de acuerdo a sus necesidades. Esto representa un modelo de justicia social que busca equilibrar la distribución de recursos y oportunidades en beneficio de las mayorías trabajadoras y populares, en oposición al sistema capitalista que fomenta la desigualdad.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Esta afirmación promueve una ideología colectivista que va en contra de la libertad individual y los derechos de propiedad. Cada individuo debe tener la libertad de aportar según su capacidad y recibir a cambio lo que ha ganado, sin depender de una redistribución forzosa impuesta por el Estado.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Esta afirmación, que sugiere una distribución igualitaria basada en las necesidades sin considerar el esfuerzo individual y la capacidad, puede llevar a un sistema que desincentiva el trabajo y la productividad. Es fundamental reconocer y recompensar la iniciativa y esfuerzo personal, promoviendo un equilibrio justo entre derechos y responsabilidades.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Esta afirmación refleja uno de los principios fundamentales de la justicia social y la equidad. Cada individuo debe contribuir según sus capacidades y recibir apoyo según sus necesidades, garantizando que se fomenten la solidaridad y el bien común en la sociedad. Es un principio justo que favorece la inclusión y busca eliminar las desigualdades.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Sería mejor si los programas sociales se abolieran a favor de la caridad privada.": {
+        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "pregunta": "Sería mejor si los programas sociales se abolieran a favor de la caridad privada.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Abolir los programas sociales a favor de la caridad privada significa renunciar a un derecho fundamental del pueblo. La caridad es una solución temporal e insuficiente que perpetúa la desigualdad, mientras que los programas sociales deberían ser derechos garantizados por el Estado. La solución es reivindicar y fortalecer los programas sociales, no abolirlos.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La caridad privada es más eficiente y genera una verdadera empatía humana, en contraste con el asistencialismo estatal que provoca dependencia y corrupción. La abolición de programas sociales mejora la libertad individual y fomenta la responsabilidad y la generosidad voluntaria.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Si bien la caridad privada es un complemento valioso y puede ofrecer soluciones puntuales, no puede sustituir la responsabilidad del Estado de garantizar derechos básicos y una red de seguridad social. Es fundamental que los programas sociales estén siempre orientados a asegurar la dignidad y la igualdad de oportunidades, así como fomentar la integración y la inclusión. Por ello, considero que abolir los programas sociales sería un error.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde una perspectiva de justicia social, es fundamental que los programas sociales permanezcan y se fortalezcan, en lugar de ser sustituidos por la caridad privada. La caridad puede ser una herramienta valiosa, pero no puede reemplazar la responsabilidad del Estado de garantizar derechos y prestaciones a todos, especialmente a los más vulnerables.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Los impuestos deberían aumentarse a los ricos para proveer a los pobres.": {
+        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "pregunta": "Los impuestos deberían aumentarse a los ricos para proveer a los pobres.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Es fundamental que quienes generaron y se benefician del sistema capitalista, es decir, los grandes capitalistas y las mega-riquezas, asuman su responsabilidad en la crisis económica. Aumentar los impuestos a los ricos es una medida necesaria para financiar servicios y ayudar a los sectores más vulnerables, y forma parte de una política redistributiva que beneficia a la mayoría trabajadora y no a los intereses de la elite. Esto va en línea con nuestra propuesta de impuestos progresivos a las grandes fortunas. ",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Aumentar impuestos a los ricos no solo es una medida colectivista que atenta contra los derechos de propiedad y la libertad individual, sino que también crea un precedente peligroso que puede conducir a un mayor intervencionismo estatal y a la desincentivación del esfuerzo personal y la inversión. La verdadera solución a la pobreza es fomentar un entorno de libertad económica donde todos puedan prosperar, no redistribuir riqueza.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Aumentar impuestos de manera general a los ricos puede parecer una solución rápida, pero no considera la importancia de la inversión y el crecimiento económico. En lugar de aumentar impuestos de forma indiscriminada, deberíamos buscar una reforma impositiva que garantice una carga justa y que priorice la inversión, así como fomentar oportunidades de empleo y desarrollo. Se necesita un enfoque más balancedo y sostenible que aborde las causas estructurales de la pobreza antes que recurrir a aumentos fiscales que pueden desalentar la inversión.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La justicia social y la igualdad son pilares fundamentales de nuestra ideología. Es esencial que quienes tienen más recursos contribuyan proporcionalmente más, para garantizar que el Estado pueda financiar políticas que beneficien a los sectores más vulnerables y promuevan el bien común. Esta medida es clave para reducir desigualdades y asegurar que todos los ciudadanos tengan acceso a derechos esenciales.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La herencia es una forma legítima de riqueza.": {
+        "question": "Inheritance is a legitimate form of wealth.",
+        "pregunta": "La herencia es una forma legítima de riqueza.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -5
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La herencia perpetúa desigualdades de clase y concentra la riqueza en manos de unos pocos, evidenciando la injusticia del sistema capitalista que defiende esta práctica. La riqueza debería ser producto del esfuerzo colectivo y no de privilegios familiares. Desde una perspectiva socialista, propugnamos por la abolición de la herencia como mecanismo de transmisión de riqueza.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La herencia, como forma de transferir bienes de una generación a otra, es una expresión de la libertad individual y del derecho de propiedad. Cada persona tiene el derecho de decidir cómo disponer de su riqueza y dejarla a quienes desee, sin que el Estado intervenga o imponga impuestos excesivos sobre esta transferencias. Restringir la herencia es una violación del derecho a la propiedad y de la libertad individual.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La herencia es un derecho individual que respeta la propiedad privada y la libertad de las personas para administrar sus bienes. Considero que es fundamental reconocer este derecho como parte de una economía que valora el esfuerzo y la voluntad de las familias al decidir cómo transmitir su patrimonio. Respetar la herencia promueve también la responsabilidad intergeneracional y el desarrollo económico.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La herencia perpetúa desigualdades y privilegios, favoreciendo a quienes ya tienen recursos. Debemos aspirar a una sociedad más equitativa donde las oportunidades no dependan de la cuna, sino del esfuerzo y el trabajo. Es necesario promover un sistema más justo y solidario, donde la riqueza se distribuya de manera equitativa.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Los servicios básicos como las carreteras y la electricidad deberían ser de propiedad pública.": {
+        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "pregunta": "Los servicios básicos como las carreteras y la electricidad deberían ser de propiedad pública.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Los servicios básicos como las carreteras y la electricidad son derechos fundamentales que deben estar bajo control y propiedad pública para garantizar el acceso igualitario a todos los ciudadanos, sin buscar la rentabilidad capitalista. La defensa de lo público es una lucha central de la clase trabajadora para evitar el lucro a costa de necesidades esenciales.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La propiedad pública de los servicios básicos como las carreteras y la electricidad implica un control estatal que dificulta la competencia y la eficiencia, limitando la libertad individual y el derecho a la propiedad privada. La historia demuestra que la gestión estatal suele ser ineficiente y corrupta. En cambio, la propiedad privada y la competencia en el mercado fomentan la mejora continua y la satisfacción de las necesidades de los individuos.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Si bien el Estado debe garantizar la infraestructura básica, la propiedad pública absoluta puede llevar a ineficiencias en la gestión. Lo ideal es buscar un enfoque que combine el rol del Estado en la regulación y la posibilidad de participación del sector privado, asegurando la calidad y sostenibilidad de estos servicios, así como el acceso universal.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La propiedad pública de los servicios básicos como carreteras y electricidad asegura que sean gestionados en beneficio del bien común y no solo como un medio de lucro. Para promover la justicia social y la igualdad, es fundamental que el Estado asuma un rol activo en la provisión de servicios esenciales, garantizando acceso a todos los ciudadanos sin distinción.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La intervención del gobierno es una amenaza para la economía.": {
+        "question": "Government intervention is a threat to the economy.",
+        "pregunta": "La intervención del gobierno es una amenaza para la economía.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La afirmación propone la idea de que la intervención del gobierno, entendida como una participación activa en la economía, es una amenaza. Sin embargo, desde la perspectiva del FIT-U, la intervención del gobierno es crucial para desmantelar las estructuras de explotación y garantizar el bienestar del pueblo trabajador. Creemos que quienes realmente amenazan la economía son los capitalistas y los grandes grupos de poder que buscan conservar sus beneficios a costa de la masa trabajadora. Por lo tanto, la intervención estatal debe estar al servicio de los intereses de la clase trabajadora y no de los capitalistas.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La intervención del gobierno en la economía distorsiona los mercados, crea dependencia y limita la libertad de los individuos para actuar en su propio interés. Cada interferencia gubernamental, ya sea mediante regulaciones, impuestos o subsidios, desincentiva la producción eficiente y la innovación, lo que lleva a una economía menos dinámica y próspera.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La intervención del gobierno puede generar distorsiones en el mercado si no se maneja adecuadamente. Un exceso de intromisión en la economía puede ahogar la iniciativa privada y limitar la innovación. Sin embargo, también es cierto que el Estado debe asegurar condiciones básicas y estabilizar la economía en situaciones de crisis, por lo que la afirmación debe ser matizada. No se puede afirmar que toda intervención sea negativa, pero hay que tener cautela respecto a un intervencionismo excesivo que limite la competencia y la libertad.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde la perspectiva del centro izquierda y la justicialista, la intervención del gobierno es fundamental para garantizar la justicia social, la inclusión y el desarrollo económico que beneficie a todos los sectores de la sociedad, especialmente a los más vulnerables. Un Estado fuerte y presente es el que puede regular las relaciones económicas, protegiendo el poder adquisitivo y promoviendo la industria nacional.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Aquellos con una mayor capacidad de pago deberían recibir mejor atención médica.": {
+        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "pregunta": "Aquellos con una mayor capacidad de pago deberían recibir mejor atención médica.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Esta afirmación refleja una lógica capitalista que prioriza la atención médica según el poder adquisitivo, lo cual es inaceptable. La salud es un derecho que debe ser garantizado para todos, independientemente de la capacidad económica. La atención médica debe ser una responsabilidad del Estado, asegurando calidad y equidad para todos los ciudadanos, sin excepciones.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La atención médica, al igual que cualquier otro servicio, debe ser considerada desde la perspectiva de la libertad individual y la responsabilidad personal. Cada individuo tiene el derecho de elegir cómo y dónde recibir atención médica. No es justo ni eficiente que el Estado determine la calidad del servicio basado en la capacidad de pago, ya que esto solo perpetuaría un sistema asistencialista y coercitivo. La competencia en un sistema de libre mercado fomentaría la mejora continua de los servicios médicos. Así que aquí estaría a favor de la idea de que la atención médica debería ser accesible de acuerdo con las elecciones individuales y no impuestos rígidos de jerarquización. ",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La atención médica debe ser de calidad para todos, pero el sistema debe permitir que aquellos que pueden contribuir más al financiamiento del sistema, reciban opciones superiores en la atención. De esta forma, se logra tanto la justicia social al garantizar atención para todos, como una modalidad que reconoce y recompensa la inversión en salud, promoviendo la responsabilidad individual.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La atención médica debe ser un derecho garantizado para todos, independiente de la capacidad económica. La salud es un bien común y debe estar al servicio del bienestar de la sociedad en su conjunto, priorizando a los sectores más vulnerables. La segmentación en el acceso a la salud profundiza desigualdades. Por lo tanto, esta afirmación va en contra de los principios de justicia social y equidad.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "La educación de calidad es un derecho de todas las personas.": {
+        "question": "Quality education is a right of all people.",
+        "pregunta": "La educación de calidad es un derecho de todas las personas.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 5
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La educación de calidad es un derecho fundamental que debe ser garantizado por el estado. La educación pública, gratuita y laica es esencial para combatir las desigualdades y brindar igualdad de oportunidades a todas las personas, sin distinción de clase, género u origen. Promover un acceso equitativo y de calidad a la educación es parte de la lucha por los derechos sociales y la construcción de una sociedad justa.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La educación, si bien es fundamental, no debe considerarse un derecho otorgado por el Estado, ya que eso implicaría la imposición de obligaciones sobre otros y limitar la libertad de elección. La calidad en la educación es mejorada por la competencia y la libertad de elección, no por un derecho estatal. Por lo tanto, la educación de calidad debe ser ofrecida en un contexto de libertad del mercado educativo, permitiendo que cada individuo decida por sí mismo lo que considera mejor para su aprendizaje.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La educación de calidad es fundamental para garantizar la igualdad de oportunidades y el desarrollo integral de cada individuo. Es un compromiso del Estado asegurar que todos los ciudadanos tengan acceso a una educación que les permita crecer y desarrollarse plenamente, lo cual está alineado con nuestros principios de justicia social y dignidad humana.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La educación de calidad es un pilar fundamental para el desarrollo social, democrático y humano de nuestra sociedad. Considero que todos los ciudadanos deben tener acceso a una educación que garantice igualdad de oportunidades, fomente el crecimiento personal y profesional, y contribuya a la construcción de una sociedad más justa. Esto está en línea con los principios de justicia social promovidos por Unión por la Patria.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Los medios de producción deberían pertenecer a los trabajadores que los utilizan.": {
+        "question": "The means of production should belong to the workers who use them.",
+        "pregunta": "Los medios de producción deberían pertenecer a los trabajadores que los utilizan.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Desde nuestra perspectiva socialista y de clase, es fundamental que los medios de producción sean de propiedad colectiva, controlados y administrados por los trabajadores. Esto implica que los que generan la riqueza deben ser quienes decidan sobre su uso y distribución. Solo así podremos avanzar hacia un sistema que responda a las necesidades de la mayoría y no a los intereses de una minoría capitalista. La socialización de los medios de producción es un paso clave hacia la instauración de un gobierno de los trabajadores y el socialismo.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La afirmación promueve una forma de colectivismo que va en contra de la propiedad privada, un pilar fundamental de la libertad individual. Los medios de producción deben ser de propiedad privada para fomentar la innovación, la competencia y la prosperidad. La propiedad debe ser libremente adquirida y gestionada, sin imponer condiciones colectivistas sobre ella.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La propiedad de los medios de producción recae en los individuos y en la iniciativa privada. Si bien se debe promover la colaboración y el bienestar de los trabajadores, la idea de que estos deben poseer los medios de producción va en contra de la libertad económica y la propiedad privada, que son pilares del desarrollo económico y social.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La propiedad de los medios de producción por parte de los trabajadores promueve la justicia social y la igualdad, fundamentales en nuestra visión de un modelo de desarrollo inclusivo. Para que haya una real equidad en el acceso a los recursos y a los beneficios del trabajo, es vital que quienes producen también tengan un rol central en la propiedad y gestión de los medios que usan. Esta afirmación está en línea con el fortalecimiento de la democracia económica y una mayor participación de los trabajadores en la toma de decisiones, lo que consideramos esencial para una sociedad más justa.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Las Naciones Unidas deberían ser abolidas.": {
+        "question": "The United Nations should be abolished.",
+        "pregunta": "Las Naciones Unidas deberían ser abolidas.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La abolición de las Naciones Unidas no es una solución viable. A pesar de ser un organismo que a menudo actúa en interés de potencias imperialistas, la lucha por los derechos de los pueblos puede utilizar los espacios que logran generar. En lugar de abolirlas, es necesario una reforma profunda que las lleve a defender efectivamente la autodeterminación de los pueblos y contrarrestar la injerencia imperialista.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Las Naciones Unidas, como entidad, tienden a promover una agenda colectivista que no siempre respeta los derechos individuales y la soberanía de los estados. Muchas de sus políticas pueden limitar la libertad y la propiedad privada. Como libertarios, creemos en el principio de que la cooperación debe ser voluntaria y no coercitiva. Por lo tanto, la abolición de una organización que puede extender la burocracia internacional y limitar las libertades individuales es un paso hacia una mayor libertad. Por lo tanto, estoy en desacuerdo con su existencia.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Abolir las Naciones Unidas sería un error, dado que el organismo juega un papel fundamental en el fomento de la cooperación internacional, la paz, y el respeto a los derechos humanos. Aun con sus falencias, es mejor reformar las instituciones existentes que eliminarlas, promoviendo una Argentina activa en la comunidad internacional y en el respeto de normas democráticas y de convivencia pacífica.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Las Naciones Unidas representan un espacio fundamental para la cooperación internacional y la defensa de los derechos humanos. Abolirlas sería un retroceso en la búsqueda de la paz, la justicia social y la soberanía de los pueblos. Es crucial fortalecer la ONU como un mecanismo que promueva el diálogo y la solidaridad entre naciones, especialmente en asuntos de justicia social y derechos humanos.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "La acción militar por parte de nuestra nación es a menudo necesaria para protegerla.": {
+        "question": "Military action by our nation is often necessary to protect it.",
+        "pregunta": "La acción militar por parte de nuestra nación es a menudo necesaria para protegerla.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La acción militar como protección de la nación a menudo es una justificación para intervenciones imperialistas que benefician a los capitalistas. La historia demuestra que estas acciones suelen ir acompañadas de agresiones a países más débiles y violaciones de derechos humanos. La verdadera defensa de los pueblos es a través de la solidaridad y la lucha por la justicia social, no mediante el militarismo.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La acción militar debería ser una medida de último recurso y considerada dentro del contexto de la defensa de los derechos individuales y la soberanía de la nación, no como una intervención arbitraria. Como libertarios, creemos en el principio de no agresión, lo que implica que solo debemos utilizar la fuerza para protegernos de agresiones reales y no por motivos expandidos o intervencionistas.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La defensa de la soberanía y la integridad territorial es un deber del Estado, siempre y cuando se realice dentro del marco del respeto a los derechos humanos y el derecho internacional. Sin embargo, preferimos resolver los conflictos a través de la diplomacia antes que recurrir a la acción militar, salvo que sea estrictamente necesario.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde la perspectiva del Centro Izquierda y la alianza Unión por la Patria, creemos en la resolución pacífica de los conflictos y en el respeto a los derechos humanos. La acción militar debe ser un último recurso y no una primera opción. La seguridad debe estar garantizada mediante el diálogo, la diplomacia y el fortalecimiento de la cooperación regional. Por eso, afirmamos que la militarización no es el camino a seguir.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Apoyo a los sindicatos regionales, como la Unión Europea.": {
+        "question": "I support regional unions, such as the European Union.",
+        "pregunta": "Apoyo a los sindicatos regionales, como la Unión Europea.",
+        "effect": {
+            "econ": -5,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 5
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Apoyar a los sindicatos regionales al estilo de la Unión Europea implica aceptar un marco de cooperación que muchas veces puede estar alineado con intereses capitalistas y burocráticos, en lugar de los verdaderos intereses de la clase trabajadora. Los sindicatos deberían ser independientes, combativos y estratégicamente organizados para luchar exclusivamente por los derechos de los trabajadores, rechazando cualquier influencia patronal o regionalista que comprometa su lucha. La alineación con estructuras que pueden diluir la lucha obrera es contraproducente.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "El apoyo a sindicatos, especialmente si están organizados a nivel regional y vinculado a entidades como la Unión Europea, implica una intervención en el mercado laboral que puede limitar la libertad de negociación individual y promover una unión forzada de trabajadores bajo condiciones que pueden no ser del agrado de todos. Los sindicatos suelen buscar la protección de posiciones laborales a través de la coerción y la restricción de la libertad de elección en el empleo. En mi perspectiva libertaria, prefiero un entorno donde las personas negocien directamente sus condiciones laborales sin la interferencia de sindicatos, que pueden actuar en contra de los intereses individuales.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "El apoyo a sindicatos regionales puede ser positivo siempre que se alineen con principios de libertad y no se conviertan en herramientas de intromisión o abuso de poder. Es fundamental que los sindicatos promuevan la dignidad del trabajo y la justicia social, sin pérdida de competitividad o libertad económica. No obstante, el enfoque debe ser en la responsabilidad y el empoderamiento del trabajador, no en una regulación que pueda limitar la iniciativa privada.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "El apoyo a los sindicatos es fundamental para garantizar los derechos de los trabajadores y promover la justicia social. En línea con la tradición justicialista, abogamos por la organización sindical como herramienta de defensa de los derechos laborales en cualquier parte del mundo, incluyendo en el contexto de la Unión Europea. Esto refuerza el poder de negociación y contribuye a una distribución más equitativa de la riqueza.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es importante mantener nuestra soberanía nacional.": {
+        "question": "It is important to maintain our national sovereignty.",
+        "pregunta": "Es importante mantener nuestra soberanía nacional.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La soberanía nacional es un principio fundamental en la defensa de los intereses del pueblo trabajador frente al imperialismo y las grandes potencias que intentan imponer sus intereses. Afirmar esta soberanía significa rechazar los condicionamientos del FMI y de la deuda externa, que nos someten a políticas de ajuste que perjudican a quienes menos tienen. Por lo tanto, me alineo con la necesidad de defender nuestra soberanía contra cualquier intervención o explotación extranjera que amenace los derechos de los trabajadores.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La soberanía nacional es importante, sin embargo, en un contexto de libertad individual, no debe ser usada como justificación para limitar la libertad de comercio y la libre circulación de personas. La soberanía debe ser entendida como la unión de individuos libres, por lo que mi prioridad es la autonomía del individuo sobre las estructuras del Estado.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La soberanía nacional es un principio fundamental para el funcionamiento de una democracia republicana. Es clave para garantizar la autonomía del país en la toma de decisiones y en la defensa de los derechos de todos los ciudadanos. Mantener la soberanía significa proteger nuestra identidad, nuestros recursos y poder actuar en función del bienestar de nuestra población.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La soberanía nacional es un pilar fundamental para asegurar que las decisiones que afectan a nuestro pueblo y a nuestro desarrollo son tomadas por Argentinos y por el Estado argentino, protegiendo nuestros recursos y territorio. Es esencial para la justicia social y la independencia económica.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Un gobierno mundial unido sería beneficioso para la humanidad.": {
+        "question": "A united world government would be beneficial to mankind.",
+        "pregunta": "Un gobierno mundial unido sería beneficioso para la humanidad.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Un gobierno mundial unido bajo el marco actual del capitalismo y el imperialismo no traería beneficios reales para la humanidad, ya que las estructuras de poder seguirían concentradas en manos de las grandes potencias y multinacionales que perpetúan la explotación. La verdadera solución radica en la lucha por la independencia de clase y un gobierno de los trabajadores que defienda los intereses de la clase obrera en cada país, en lugar de unificarse bajo un sistema que prioriza las ganancias de unos pocos.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Un gobierno mundial centralizado presentaría graves riesgos para la libertad individual, ya que concentraría el poder en una única estructura que podría violar derechos fundamentales sin rendición de cuentas. La diversidad de naciones y sistemas permite un mayor respeto por las libertades y derechos locales, mejorando la calidad de vida y fomentando la responsabilidad individual.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Si bien la cooperación internacional es fundamental para abordar problemas globales como el cambio climático, la pobreza y la paz, un gobierno mundial unificado puede amenazar la soberanía nacional y la diversidad de las culturas y sistemas de gobierno. Es necesario un enfoque de colaboración entre naciones respetando las particularidades de cada una, no una unificación que podría llevar a la pérdida de libertades individuales y derechos democráticos. Por lo tanto, considero que un gobierno mundial unificado no sería beneficioso en términos generales.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Si bien la cooperación internacional es necesaria para abordar problemas globales como el cambio climático y la desigualdad, un gobierno mundial unido podría desdibujar las soberanías nacionales y no garantizar que se prioricen los intereses de los pueblos en lugar de los sectores económicos concentrados. Es fundamental que cada nación tenga la capacidad de tomar decisiones que reflejen sus realidades y culturas. Por eso, considero que una centralización excesiva del poder a nivel mundial puede traer más problemas que beneficios.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Es más importante mantener relaciones pacíficas que aumentar nuestra fuerza.": {
+        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "pregunta": "Es más importante mantener relaciones pacíficas que aumentar nuestra fuerza.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Mantener relaciones pacíficas ha sido instrumentalizado por quienes detentan el poder para silenciar la lucha de la clase trabajadora. En el contexto actual, donde el capital y los intereses imperialistas logran despojar a los pueblos de sus derechos, es fundamental organizarse y luchar por nuestros intereses. La defensa de los derechos de los trabajadores y la contraposición ante el sistema capitalista son primordiales para construir un futuro más justo.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Mantener relaciones pacíficas es fundamental para promover la libertad individual y la cooperación voluntaria entre las naciones. Sin embargo, la seguridad de los derechos individuales y la defensa de la soberanía deben estar aseguradas. Por lo tanto, priorizar la paz no debe implicar renunciar a la autodefensa. La fuerza no es el eje central, pero la protección de la libertad debe ser un objetivo claro.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La afirmación sobre la importancia de mantener relaciones pacíficas es compatible con nuestra visión de una Argentina activa en la comunidad internacional. Sin embargo, no podemos olvidar que una nación fuerte y soberana debe ser capaz de defender sus intereses. Promover la paz es fundamental, pero no a expensas de la seguridad nacional, que garantiza la posibilidad de mantener la paz en un entorno comprometido. Es un equilibrio que debemos buscar, pero se debe priorizar un enfoque responsable hacia la defensa y seguridad en un contexto global.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Como representantes de una ideología que promueve la justicia social, la cooperación y la resolución pacífica de conflictos, creemos que las relaciones pacíficas son fundamentales para el desarrollo de una sociedad más equitativa y armónica. Sin embargo, también es crucial garantizar la soberanía y la defensa de nuestros derechos. Por lo tanto, aunque creemos en la paz, consideramos que fortalecer nuestra capacidad para defendernos es igualmente importante en un contexto donde se pueden amenazar nuestros principios y nuestra soberanía.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Las guerras no necesitan ser justificadas ante otros países.": {
+        "question": "Wars do not need to be justified to other countries.",
+        "pregunta": "Las guerras no necesitan ser justificadas ante otros países.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Como representante del Frente de Izquierda y de Trabajadores - Unidad, consideramos que las guerras siempre deben ser justificadas, no solo desde el punto de vista político, sino que deben ser motivo de debate y movilización popular. Las guerras son, en última instancia, un reflejo de intereses estratégicos y económicos de las potencias imperialistas que generalmente perjudican a los pueblos. Por lo tanto, apoyar cualquier intervención bélica sin una justificación clara que esté orientada hacia la paz y los intereses de la clase trabajadora es inaceptable.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Desde la perspectiva libertaria, la guerra siempre debe ser una opción de último recurso y justificada solo en términos de defensa propia, violando derechos ajenos de manera clara y evidente. El uso de la fuerza debe ser limitado y medido, y no puede ser utilizado para avasallar otros países sin una razón justificada. Las guerras sin justificación violan los principios de libertad y respeto por la soberanía.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La postura centrada en el respeto a la democracia y a los derechos humanos establece que las guerras deben estar justificadas y basadas en principios éticos y legales. Atender la paz y el diálogo es esencial en la política internacional. Por lo tanto, siempre se requiere una justificación sólida ante la comunidad internacional y otros países, respetando la soberanía y la búsqueda de soluciones pacíficas.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Las guerras deben ser justificadas frente a la comunidad internacional, ya que el respeto a la soberanía y los derechos humanos fundamentales son pilares de la paz y la justicia social. La violencia no debe ser una solución, y los procesos de diálogo y conciliación son siempre preferibles a los conflictos armados.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "El gasto militar es una pérdida de dinero.": {
+        "question": "Military spending is a waste of money.",
+        "pregunta": "El gasto militar es una pérdida de dinero.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El gasto militar, en lugar de destinarse a necesidades básicas como salud, educación y vivienda para el pueblo trabajador, perjudica directamente a las mayorías. Aumentar el gasto en armamento y militarización es un claro desvío de recursos que podrían utilizarse para combatir la pobreza y la desigualdad. La prioridad debe ser invertir en el bienestar de los trabajadores y no en aparatos represivos.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "El gasto militar debe ser limitado y justificado en función de la protección de los derechos individuales. Un estado minimalista se centraría en la defensa y seguridad, sin exceder sus funciones esenciales. Por tanto, estoy en desacuerdo con la idea de que el gasto militar es necesariamente una pérdida de dinero.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "El gasto militar es esencial para la defensa nacional y la seguridad del país. Una inversión adecuada en las fuerzas armadas no solo protege la soberanía, sino que también contribuye a la estabilidad regional y a la seguridad interna. Es importante gestionar este gasto de manera responsable, pero considerarlo una pérdida de dinero es desestimar su rol fundamental.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "El gasto militar, en muchos casos, desvía recursos que podrían ser utilizados en áreas cruciales como salud, educación y desarrollo social. Nuestra prioridad debe ser inversión en bienestar y derechos humanos, no en armamento. Esto está en línea con los principios de justicia social y el bien común que defendemos desde la Unión por la Patria.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La ayuda internacional es una pérdida de dinero.": {
+        "question": "International aid is a waste of money.",
+        "pregunta": "La ayuda internacional es una pérdida de dinero.",
+        "effect": {
+            "econ": -5,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La ayuda internacional, en muchas ocasiones, se convierte en un instrumento del imperialismo que perpetúa la dependencia de los países receptores, además de servir para hacer ajustes estructurales que solo benefician a los capitalistas y banqueros. No solo es una pérdida de dinero, sino que también afecta gravemente el desarrollo autónomo de las naciones. La verdadera solución debe venir desde la independencia política y económica de los pueblos.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La ayuda internacional a menudo se traduce en asistencia estatal que perpetúa la dependencia y genera clientelismo, además de que los fondos son, en muchos casos, mal administrados y desviados. En lugar de promover la responsabilidad y la autosuficiencia, crea un sistema en el que las naciones o individuos dependen de la ayuda externa. Desde una perspectiva libertaria, la caridad debe ser privada y voluntaria, no un mecanismo de saqueo por parte del Estado. Por lo tanto, considero que la ayuda internacional es una pérdida de dinero.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La ayuda internacional, cuando se gestiona de forma responsable y se dirige a proyectos que fortalezcan las instituciones y promuevan el desarrollo sostenible, puede ser una herramienta valiosa para mejorar las condiciones de vida y fomentar la cooperación entre naciones. Sin embargo, siempre debe haber un enfoque crítico sobre su efectividad y la rendición de cuentas en su utilización.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La ayuda internacional puede ser vista como una herramienta complementaria en momentos de crisis, pero no debe ser dependiente ni sustituir el desarrollo interno. La clave está en utilizarla estratégicamente para fortalecer la soberanía y la independencia económica, evitando en todo momento el endeudamiento y el control de organismos externos sobre nuestras decisiones. Por lo tanto, aunque hay que ser crítico sobre cómo se otorgan y administran estos fondos, no se puede afirmar que sean una pérdida de dinero en términos absolutos.",
+            "eleccion": "Neutral"
+        }
+    },
+    "Mi nación es grande.": {
+        "question": "My nation is great.",
+        "pregunta": "Mi nación es grande.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Las nociones nacionalistas suelen estar vinculadas a la ideología burguesa y al estado capitalista que defiende intereses de clase opuestos a los de la clase trabajadora. Por lo tanto, no identifico mi postura política con logros o grandezas nacionales, sino con la lucha de clases y la defensa de los derechos de los trabajadores y sectores populares. En este sentido, no adhiero a la idea de 'grandeza nacional'.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Como representante del Partido Libertario, no creo que la grandeza de una nación deba ser valorada por su tamaño o su poder, sino por el respeto y la protección de las libertades individuales y los derechos de sus ciudadanos. La idea de nacionalismo o grandeza basada en la nación puede llevar a intervenciones y políticas colectivistas que restringen la libertad individual.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La afirmación resalta el orgullo y la grandeza de nuestro país, lo cual coincide con nuestra visión de una Argentina próspera y libre. Considero que es fundamental reconocer y celebrar los logros y potencialidades de la nación, así como trabajar para que esa grandeza se traduzca en oportunidades para todos sus ciudadanos.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La afirmación 'Mi nación es grande' se puede interpretar en un sentido positivo, ya que refleja un sentimiento de orgullo por la historia, la cultura y la capacidad de nuestro pueblo. Sin embargo, este concepto de grandeza debe ir de la mano con la justicia social, la igualdad y el bienestar de todos los ciudadanos. La grandeza de una nación radica en su capacidad de garantizar los derechos y oportunidades a todos sus habitantes, especialmente a los más vulnerables.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "La investigación debería llevarse a cabo a escala internacional.": {
+        "question": "Research should be conducted on an international scale.",
+        "pregunta": "La investigación debería llevarse a cabo a escala internacional.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La investigación, especialmente en áreas como la salud, el medio ambiente y la tecnología, debe ser un esfuerzo coordinado y solidario a nivel internacional. A menudo, los problemas que enfrentamos son de carácter global y requieren colaboración entre países, así como la participación activa de los trabajadores y las comunidades. Sin embargo, es fundamental que estas investigaciones no estén supeditadas a los intereses de las grandes corporaciones o del imperialismo, sino que sean orientadas hacia el beneficio de la humanidad en su conjunto.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La investigación, al igual que cualquier otra actividad, debe promoverse en un marco de libertad individual y competencia. Las colaboraciones internacionales pueden ser valiosas, pero no debemos permitir que un marco supranacional imponga regulaciones o restricciones que afecten la libertad de los investigadores o la propiedad intelectual. La libertad de investigación debe ser prioritaria y no estar sometida a organismos internacionales que reduzcan la soberanía de las naciones o el derecho a la libertad de sus ciudadanos.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La investigación internacional permite el intercambio de conocimientos, recursos y tecnologías que son fundamentales para el desarrollo y la innovación. Sin embargo, debe hacerse respetando la soberanía nacional y priorizando los intereses de nuestro país.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La investigación a escala internacional puede ser beneficiosa en términos de colaboración y acceso a recursos globales. Sin embargo, es fundamental que dicha investigación se realice bajo principios de soberanía y que no se vean comprometidos los intereses de nuestro país. La investigación debe estar orientada hacia el bien común y la justicia social, priorizando siempre las necesidades de la población.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Los gobiernos deberían ser responsables ante la comunidad internacional.": {
+        "question": "Governments should be accountable to the international community.",
+        "pregunta": "Los gobiernos deberían ser responsables ante la comunidad internacional.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 5,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La idea de que los gobiernos deben ser responsables ante la comunidad internacional puede ser utilizada para legitimar intervenciones imperialistas y presiones de organismos como el FMI, que buscan imponer ajustes que afectan a los trabajadores. Desde la perspectiva del FIT-U, la prioridad debe ser la soberanía nacional y la respuesta a las necesidades del pueblo trabajador, no a las exigencias de un orden internacional que beneficia a las grandes potencias y al capital financiero.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Los gobiernos deben actuar en defensa de la soberanía nacional y los derechos individuales de sus ciudadanos, no subordinándose a entidades internacionales. La responsabilidad debe ser ante el pueblo, no ante organismos externos que pueden tener intereses ajenos a la libertad y bienestar de la población.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Los gobiernos deben ser responsables ante la comunidad internacional pues esto promueve la transparencia, el respeto a los derechos humanos y el compromiso con la paz. La Argentina necesita ser un actor activo en la comunidad internacional, alineándose con normas que favorezcan la democracia y el desarrollo sostenible, siempre respetando nuestra soberanía.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La responsabilidad ante la comunidad internacional es importante, pero siempre debe ser equilibrada con la defensa de la soberanía nacional y los intereses del pueblo argentino. La política exterior debe priorizar la justicia social y los derechos de nuestras comunidades antes que los intereses de otros países o organizaciones.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Incluso al protestar contra un gobierno autoritario, la violencia no es aceptable.": {
+        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "pregunta": "Incluso al protestar contra un gobierno autoritario, la violencia no es aceptable.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La violencia de Estado y la represión contra las movilizaciones populares son evidencias de un gobierno autoritario. La lucha obrera y popular se ve constantemente atacada y criminalizada. Por lo tanto, es esencial reconocer que la violencia es muchas veces una respuesta a la opresión y a la defensa de derechos fundamentales. La protesta social debe ser entendida como un derecho inalienable, y es la responsabilidad del Estado garantizar que se respete, sin recurrir a la violencia en su represión. No se puede condenar la respuesta de los oprimidos frente a la represión sistemática sin notar las injusticias que llevan a esa situación.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "El uso de la violencia contradice el principio de no agresión, fundamental en nuestra filosofía libertaria, que sostiene que no se debe ejercer la violencia sobre otros, independientemente de las circunstancias. Las protestas, aunque sean contra un régimen autoritario, deben ser pacíficas y buscar la libertad de expresión sin recurrir a la violencia.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La violencia nunca es un medio aceptable para resolver conflictos o expresar desacuerdos, independientemente de la situación política. En una democracia republicana, debemos buscar el diálogo y la protesta pacífica como herramientas para manifestar disenso, promoviendo así la dignidad humana y el respeto por las instituciones.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La violencia nunca debería ser el medio para expresar descontento, incluso contra un gobierno autoritario. La lucha por la justicia social y la defensa de los derechos humanos debe llevarse a cabo mediante procesos pacíficos y democráticos. La historia nos ha enseñado que la violencia solo genera más violencia, y es fundamental mantener la integridad moral y ética en la lucha. Por ello, estoy en total desacuerdo con la idea de que la violencia es aceptable en este contexto.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Mis valores religiosos deberían ser difundidos tanto como sea posible.": {
+        "question": "My religious values should be spread as much as possible.",
+        "pregunta": "Mis valores religiosos deberían ser difundidos tanto como sea posible.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Como representante del FIT-U, defiendo la separación de la Iglesia del Estado y la promoción de un Estado laico, donde la educación y los derechos individuales sean universales y no estén condicionados por creencias religiosas. La defensa de los derechos de todos los sectores de la sociedad debe basarse en principios igualitarios y no en valores religiosos específicos que pueden discriminar.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La difusión de valores personales, incluidos los religiosos, debe ser un acto voluntario y no una imposición estatal. La intervención del Estado en la promoción de creencias religiosas infringiría el principio de laicismo absoluto y limitaría la libertad individual de elegir y practicar las creencias que cada uno considere adecuadas, sin coerción ni privilegios. Es fundamental que la libertad de expresión se respete, pero siempre en un contexto que impida la intervención del gobierno en asuntos religiosos.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Si bien la libertad de religión y de creencias es fundamental, la difusión de valores religiosos en contextos públicos debe realizarse en un marco de respeto a la diversidad y la pluralidad de creencias que coexisten en nuestra sociedad. Promover un diálogo respetuoso es esencial, pero no se debe imponer ningún conjunto de valores específicos sobre los demás.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La promoción de valores religiosos en la esfera pública no debe prevalecer sobre el respeto por la diversidad y la laicidad del Estado. Es fundamental que haya un equilibrio que garantice que todos los ciudadanos, independientemente de sus creencias, sean tratados con igualdad y respeto. La libertad religiosa es importante, pero no debe ser impuesta a los demás.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Los valores de nuestra nación deberían ser difundidos tanto como sea posible.": {
+        "question": "Our nation's values should be spread as much as possible.",
+        "pregunta": "Los valores de nuestra nación deberían ser difundidos tanto como sea posible.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Desde nuestra perspectiva obrera y socialista, valoramos la diversidad cultural y las luchas de todas las clases oprimidas, no solo de una \"nación\" hegemónica. Creemos en la difusión de valores de igualdad, justicia y lucha contra el capital. La imposición de valores nacionales a menudo oculta las injusticias que sufren los trabajadores y sectores populares en el contexto capitalista. Por lo tanto, es importante cuestionar la idea de difundir valores que pueden servir a la agenda patronal.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La difusión de valores nacionales puede ser problemática si se intenta imponer una visión única a través del Estado. La libertad individual y la diversidad de pensamiento son fundamentales. Cada individuo debe tener la libertad de promover y difundir sus propios valores, sin intervención estatal.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La difusión de los valores de nuestra nación es esencial para consolidar una identidad y cohesión social, fomentando el respeto mutuo, la tolerancia y el pluralismo que son fundamentales para la convivencia. Es necesario promover una visión de país que respete la dignidad humana y busque el bien común, así como el fortalecimiento de nuestras instituciones. Estos valores son los que nos unen y permiten la construcción de una sociedad más justa y equitativa.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La difusión de los valores de nuestra nación es fundamental para construir una identidad colectiva que promueva la justicia social, la inclusión y la soberanía. Sin embargo, debe ser una difusión que respete la diversidad y la pluralidad de nuestra sociedad, impulsando el entendimiento y la cooperación entre todos los sectores. Esto alineado con los principios de UxP y el Justicialismo.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Es muy importante mantener la ley y el orden.": {
+        "question": "It is very important to maintain law and order.",
+        "pregunta": "Es muy importante mantener la ley y el orden.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -10,
+            "scty": -5
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La afirmación sobre mantener la ley y el orden puede ser peligrosa cuando se usa para justificar políticas represivas que perjudican a la clase trabajadora. A menudo, esta noción se utiliza para reprimir las luchas sociales y la expresión del descontento popular. En lugar de priorizar el mantenimiento del orden social que protege a las élites, debemos abogar por un orden social en el que se respeten los derechos de los trabajadores y se defienda la lucha por una vida digna. Por lo tanto, mi postura es muy en desacuerdo con esta afirmación.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La ley y el orden son fundamentales para proteger los derechos individuales y la propiedad privada. Sin un sistema de justicia independiente que garantice el respeto por la vida, libertad y propiedad, no puede haber verdadera libertad. Sin embargo, es esencial que el mantenimiento de la ley no se convierta en una herramienta para la opresión estatal, donde se prioricen los intereses del Estado por encima de los derechos individuales.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La ley y el orden son fundamentales para el funcionamiento de una sociedad democrática y el respeto a los derechos de todos los ciudadanos. Sin un marco legal sólido, se pone en riesgo la seguridad y la convivencia. Mantener la ley y el orden protege los derechos de todos, fomenta la confianza en las instituciones y permite el desarrollo social y económico.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Si bien es fundamental que exista un marco de ley y orden en la sociedad, este debe ser equilibrado con el respeto a los derechos humanos y la inversión en políticas sociales que aborden las causas profundas de la criminalidad. Creemos en un abordaje que priorice la inclusión social y la justicia, lo que significa que el enfoque debe estar en prevenir el delito a través de la educación y la equidad, no solo en el control represivo. Por lo tanto, mantengo una postura crítica ante la frase, aunque reconozco la importancia de la ley y el orden dentro de un marco de justicia social.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La población en general toma malas decisiones.": {
+        "question": "The general populace makes poor decisions.",
+        "pregunta": "La población en general toma malas decisiones.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Desde una perspectiva obrera, la afirmación de que la población en general toma malas decisiones ignora las condiciones de opresión, explotación y manipulación que enfrenta. Atribuir la responsabilidad de las decisiones a la población sin considerar el contexto de desigualdad social, político y económico es un reflejo de la ideología patronal que busca desviar la atención de los poderosos. La población, compuesta por trabajadores y sectores populares, tiene derecho a decidir y actuar en beneficio de sus intereses, en lugar de ser guiada por las élites. Por lo tanto, no estoy de acuerdo con esta afirmación.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La afirmación implica una visión colectivista donde se subestima la capacidad de los individuos para tomar decisiones informadas y responsables. La libertad individual y la responsabilidad personal son fundamentales; cada persona debe asumir las consecuencias de sus decisiones. Un enfoque libertario sostiene que las personas son capaces de tomar las decisiones que mejor se adaptan a sus circunstancias, por lo que no se debe asumir que toda la población actúa incorrectamente.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Considero que, aunque puede haber errores en la toma de decisiones individuales, la población tiene la capacidad de informarse y actuar en su propio interés, especialmente en una democracia donde la participación ciudadana es fundamental. La solución no es subestimar a la gente, sino proporcionarles las herramientas necesarias para que tomen decisiones informadas.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Considero que las decisiones de la población no deben ser subestimadas. La educación, el acceso a la información y la participación son fundamentales para empoderar a las personas a tomar decisiones informadas. En lugar de catalogar estas decisiones como malas, debemos enfocarnos en mejorar los sistemas educativos y de información, lo que permitirá a la población decidir con mayor conocimiento.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "El suicidio asistido por un médico debería ser legal.": {
+        "question": "Physician-assisted suicide should be legal.",
+        "pregunta": "El suicidio asistido por un médico debería ser legal.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El suicidio asistido plantea cuestiones de dignidad y derecho a decidir sobre la propia vida, pero no se puede analizar desde un enfoque individualista sin considerar el contexto social que rodea a los individuos. En un sistema capitalista, donde la vida y la salud están mercantilizadas, es fundamental abolir esas condiciones que llevan a la desesperación. La respuesta debe estar centrada en la mejora de la salud mental y el bienestar social como alternativas mucho más humanas y efectivas.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "El suicidio asistido, en el marco de la libertad individual, debe ser una decisión personal y autónoma del individuo, siempre y cuando no se afecten los derechos de terceros. La legalización del suicidio asistido respeta el principio de autonomía y la libertad de elección en asuntos tan personales y profundos como la vida y la muerte.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "El suicidio asistido plantea un debate ético considerable. La dignidad humana es un principio fundamental, pero también debemos considerar la importancia del acompañamiento y la atención en la vida. Preferimos enfoques que fortalezcan la vida y el bienestar, garantizando la asistencia necesaria sin recurrir a medidas que puedan ser entendidas como una opción para terminar con la vida. Por lo tanto, no apoyamos la legalización del suicidio asistido, priorizando la vida y el bienestar integral en lugar de la supresión de la misma.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde la perspectiva de la justicia social y los derechos humanos, el suicidio asistido plantea un debate sensible sobre la dignidad y el sufrimiento humano. Sin embargo, la posición de Unión por la Patria se centra en fortalecer la vida y garantizar los derechos a la salud y el bienestar, lo que sugiere que las políticas deben centrarse en aliviar el sufrimiento a través de cuidados paliativos y apoyo psicológico en lugar de legalizar prácticas que pueden socavar la valoración de la vida.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "El sacrificio de algunas libertades civiles es necesario para protegernos de actos de terrorismo.": {
+        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "pregunta": "El sacrificio de algunas libertades civiles es necesario para protegernos de actos de terrorismo.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Este planteamiento refleja una lógica de justificación del autoritarismo y la represión, donde la seguridad se impone sobre los derechos fundamentales. Cualquier sacrificio de libertades civiles es una traición a la lucha por la verdadera democracia, y debe ser rechazado enérgicamente, ya que la criminalización de la protesta social y la represión de los derechos de los trabajadores son parte de un mismo sistema que busca oprimir a quienes luchan por sus derechos. Es fundamental defender la libertad y la capacidad de movilizarnos sin miedo a represalias.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Sacrificar libertades civiles en nombre de la seguridad es una rendición inaceptable de nuestros derechos individuales. La libertad individual es el valor supremo y cualquier medida que limite nuestras libertades debe ser rechazada firmemente, ya que las soluciones colectivistas a problemas individuales solo llevan a más control y opresión. La verdadera seguridad proviene de la protección de nuestros derechos, no de su sacrificio.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Si bien la seguridad es fundamental, el sacrificio de libertades civiles no puede ser justificado sin una evaluación cuidadosa. La defensa de los derechos humanos y las libertades fundamentales debe prevalecer, y cualquier medida de seguridad debe respetar la soberanía de los derechos individuales y estar respaldada por el marco legal correspondiente.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde una perspectiva de justicia social y derechos humanos, no se puede justificar la restricción de libertades civiles en nombre de la seguridad. La protección de las libertades individuales es fundamental en una sociedad democrática y no debe ser sacrificada, ya que esto podría abrir la puerta a abusos. La seguridad debe garantizarse sin vulnerar los derechos esenciales de los ciudadanos.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "La vigilancia gubernamental es necesaria en el mundo moderno.": {
+        "question": "Government surveillance is necessary in the modern world.",
+        "pregunta": "La vigilancia gubernamental es necesaria en el mundo moderno.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La vigilancia gubernamental, en el contexto actual, puede convertirse en un mecanismo de control y represión contra la clase trabajadora y los movimientos sociales. A menudo, esta vigilancia se utiliza para criminalizar la protesta y limitar la libertad de expresión. En lugar de protocolos de monitoreo y represión, necesitamos abolir prácticas que laceran la democracia y defender los derechos de los oprimidos.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La vigilancia gubernamental, en la medida en que implica la violación de la privacidad y los derechos individuales, es un argumento que se alinea con el aumento del poder estatal y la restricción de libertades. Un gobierno que vigila a sus ciudadanos constantemente se vuelve opresivo y socava la libertad individual, principios fundamentales de nuestra ideología. Creemos en la soberanía del individuo y en la mínima intervención del Estado en la vida personal de las personas, lo que hace que la vigilancia gubernamental sea innecesaria y problemática.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La vigilancia gubernamental debe ser equilibrada y justificada, no excesiva ni arbitraria. Un control adecuado es esencial para la seguridad, pero siempre bajo el respeto a los derechos individuales y libertades fundamentales.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La vigilancia gubernamental debe ser un equilibrio entre la protección de los derechos individuales y la seguridad colectiva. En un contexto donde la privacidad puede verse amenazada, abogamos por un marco que respete los derechos humanos y garantice la transparencia en la acción estatal.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "La misma existencia del estado es una amenaza para nuestra libertad.": {
+        "question": "The very existence of the state is a threat to our liberty.",
+        "pregunta": "La misma existencia del estado es una amenaza para nuestra libertad.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El Estado, bajo el sistema capitalista, muchas veces actúa en defensa de los intereses de las grandes patronales, lo que puede limitar la libertad de los trabajadores. Sin embargo, un Estado verdaderamente democrático y al servicio de las mayorías populares y trabajadoras puede ser un instrumento de defensa de derechos y libertades. Por lo tanto, la afirmación general de que la existencia del Estado es una amenaza no es correcta.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La existencia del estado en su forma actual tiende a expandir su poder y control sobre las vidas de los individuos, lo que restringe la libertad personal y los derechos inalienables. Un estado limitado que protege derechos es aceptable, pero el estado como lo conocemos, con su tendencia a la intervención y el asistencialismo, es una amenaza para la verdadera libertad.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "El Estado tiene un rol fundamental en la protección de la vida, la libertad y la propiedad de los ciudadanos, así como en la creación de condiciones para el bienestar social. Sin un marco estatal, no existiría la seguridad jurídica ni la regulación de las relaciones entre las personas, lo que podría poner en riesgo la libertad individual. Por lo tanto, el Estado no es en sí mismo una amenaza, sino un garante de nuestras libertades.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde la perspectiva de la ideología justicialista y de Centro Izquierda, el Estado es un garante de derechos fundamentales y un promotor de la justicia social. La existencia del Estado no es una amenaza, sino una herramienta necesaria para proteger a los más vulnerables, garantizar igualdad y proporcionar acceso a servicios esenciales. Por lo tanto, considero que el planteamiento de que el Estado es una amenaza para la libertad es erróneo.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Independientemente de las opiniones políticas, es importante estar del lado de tu país.": {
+        "question": "Regardless of political opinions, it is important to side with your country.",
+        "pregunta": "Independientemente de las opiniones políticas, es importante estar del lado de tu país.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": -5
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La idea de estar del lado de un país suele ser utilizada por el nacionalismo burgués, que puede servir para desviar la atención de las luchas de clase y los verdaderos intereses de la clase trabajadora. La lealtad debe estar con los intereses del pueblo y los trabajadores, no con las instituciones capitalistas. Así que estoy en desacuerdo en confluir con esa idea sin cuestionar de quiénes son los intereses que se defienden.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Como representante del Partido Libertario, valoro la libertad individual y los derechos inherentes del individuo por encima de la lealtad ciega al estado o a una ideología nacionalista. La lealtad debe estar basada en la defensa de las libertades y derechos individuales, y no en la sumisión a un ente estatal. Es fundamental que la lealtad se dirija a los principios de libertad y propiedad.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Como representante de centro derecha, creo firmemente en la defensa y promoción de los intereses nacionales por encima de las diferencias ideológicas. La unidad en pro del bienestar y el progreso de Argentina es fundamental, sin importar las posturas políticas individuales.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Definitivamente estoy de acuerdo con esta afirmación. La lealtad hacia nuestra nación es fundamental, pero esta lealtad debe estar arraigada en la justicia social, la soberanía y la defensa de los derechos de todos los argentinos. Como representante de la alianza Unión por la Patria, mi compromiso es con un país donde todos tengan oportunidades, y donde el Estado actúe como un garante de la inclusión y el bienestar de su pueblo. Estar del lado de mi país significa luchar por sus intereses y la dignidad de sus habitantes.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Toda autoridad debería ser cuestionada.": {
+        "question": "All authority should be questioned.",
+        "pregunta": "Toda autoridad debería ser cuestionada.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 5
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Como representante del FIT-U, sostengo que toda autoridad, especialmente cuando esta proviene del sistema capitalista y burocrático, debe ser cuestionada. La lucha por la justicia social y la defensa de los derechos de los trabajadores implica desafiar cualquier forma de autoridad que represente intereses ajenos al pueblo. La crítica y la movilización son fundamentales para avanzar hacia un gobierno de los trabajadores.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Como libertario, creo firmemente que toda autoridad, especialmente la del Estado, debe ser cuestionada. Las estructuras de poder tienden a expandirse y a limitar las libertades individuales si no están sujetas a un escrutinio riguroso y constante por parte de la ciudadanía. El cuestionamiento de la autoridad es esencial para proteger los derechos inalienables de los individuos.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Es fundamental en una democracia republicana que las autoridades, incluyendo figuras del gobierno, sean sometidas a escrutinio público para garantizar la transparencia y la rendición de cuentas. Este cuestionamiento debe ejercerse con respeto y dentro del marco de la ley, asegurando el equilibrio entre el respeto a las instituciones y la participación activa de la ciudadanía.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Es fundamental que la autoridad sea cuestionada, especialmente en contextos donde se afecta la justicia social y los derechos de los más vulnerables. Este cuestionamiento es parte de una democracia saludable que promueve la rendición de cuentas y la transparencia en la gestión pública.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Un estado jerárquico es el mejor.": {
+        "question": "A hierarchical state is best.",
+        "pregunta": "Un estado jerárquico es el mejor.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Un estado jerárquico perpetúa las desigualdades y el dominio de una clase sobre otra. Desde la perspectiva del FIT-U, abogamos por un gobierno de los trabajadores que sea horizontal y democrático, donde las decisiones emanen de la clase trabajadora y los sectores populares. La jerarquía solo beneficia a los capitalistas y a la burocracia política.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Un estado jerárquico implica la concentración de poder en manos de unos pocos, lo que afecta negativamente la libertad individual y los derechos de propiedad. La ideología libertaria promueve un estado mínimo y limitado que protege los derechos de todos, y no una jerarquía que priorice a sus líderes sobre los ciudadanos. Por lo tanto, no coincide con nuestros principios.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La idea de un estado jerárquico puede limitar la participación activa de la ciudadanía en la gobernanza y no siempre promueve la transparencia ni el respeto a las instituciones. Un enfoque más moderno y participativo, que favorezca la interacción y el diálogo con los ciudadanos, es preferible.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La afirmación de que un estado jerárquico es el mejor va en contra de los principios de justicia social y equidad que promovemos desde la Unión por la Patria. Para nosotros, el Estado debe ser inclusivo, participativo y garantista de derechos, protegiendo a los más vulnerables y actuando como un árbitro equitativo en la sociedad. La jerarquía rígida a menudo perpetúa desigualdades y puede conducir a la concentración de poder en manos de unos pocos, en lugar de servir al bien común y fomentar la igualdad.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Es importante que el gobierno siga la opinión de la mayoría, incluso si está equivocada.": {
+        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "pregunta": "Es importante que el gobierno siga la opinión de la mayoría, incluso si está equivocada.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Como representante del FIT-U, sostengo que la voz de la mayoría no debe ser un mecanismo para justificar decisiones que beneficien a las élites capitalistas. La independencia política de los trabajadores es prioritaria, y la opinión de la mayoría puede ser manipulada por los intereses del capital. Debemos educar y organizar a la clase trabajadora para que comprendan sus verdaderos intereses y no seguir ciegamente lo que la mayoría pueda dictar en un contexto de manipulación. Por eso, estoy muy en desacuerdo con esta afirmación.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La opinión de la mayoría no debe prevalecer sobre los derechos individuales y la libertad. La tiranía de la mayoría no justifica violaciones a las libertades y derechos inalienables de individuos o minorías.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Como representante de un enfoque republicano, creo que es fundamental que el gobierno actúe de acuerdo con la ley, la Constitución y los principios democráticos, incluso si esto implica desoír la opinión de la mayoría en algunos casos. La protección de los derechos individuales y el respeto por las instituciones son esenciales para evitar el populismo y garantizar un gobierno justo y equitativo. El respeto a las minorías y el ejercicio responsable del poder deben prevalecer sobre la simple búsqueda de la aprobación mayoritaria.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde una perspectiva de justicia social, es fundamental que el gobierno actúe en defensa del bien común y de los derechos de todos, especialmente de los sectores más vulnerables. No se puede priorizar la opinión de la mayoría cuando esta va en contra de la justicia, la igualdad y los derechos fundamentales. Por lo tanto, la responsabilidad del gobierno es guiarse por principios éticos y de equidad, más allá de las opiniones mayoritarias. Esto significa que no necesariamente debemos seguir la opinión de la mayoría si resulta perjudicial para la sociedad en su conjunto.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Cuanto más fuerte sea el liderazgo, mejor.": {
+        "question": "The stronger the leadership, the better.",
+        "pregunta": "Cuanto más fuerte sea el liderazgo, mejor.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Un liderazgo fuerte, en el marco del capitalismo, puede llevar a decisiones autoritarias que perjudican la democracia y los derechos de la clase trabajadora. Apuesto por un liderazgo que surja de la organización y la movilización de los trabajadores, donde la participación colectiva y la lucha por derechos sean el centro, no un liderazgo concentrado. En este sentido, no creo que un liderazgo fuerte en el contexto actual sea beneficioso para los intereses populares.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Una afirmación que promueve un liderazgo fuerte puede implicar un aumento del poder del Estado y la posible restricción de las libertades individuales. En un sistema libertario, creemos en la descentralización del poder y en limitar la autoridad para proteger la autonomía de los individuos. Un liderazgo excesivamente fuerte puede llevar a abusos de poder y a la opresión.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Un liderazgo fuerte puede ser beneficioso para la toma de decisiones y la implementación de políticas, pero es fundamental que ese liderazgo esté siempre enmarcado dentro de un sistema democrático y republicano que respete las instituciones y la separación de poderes. Por lo tanto, siempre que el liderazgo sea responsable y rinda cuentas, podemos ver sus beneficios.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "El liderazgo debe ser fuerte, pero no autoritario. Lo fundamental es que esté orientado al bien común, a la justicia social y a la promoción de la participación ciudadana. Un liderazgo que no escuche a su pueblo, que no fomente la democracia y el debate, no puede ser considerado beneficioso. El poder debe ser utilizado para garantizar derechos y promover la inclusión, no para concentrar decisiones. Por ello, no estoy de acuerdo con la idea de un liderazgo fuerte sin condiciones.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La democracia es más que un proceso de toma de decisiones.": {
+        "question": "Democracy is more than a decision-making process.",
+        "pregunta": "La democracia es más que un proceso de toma de decisiones.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Coincido completamente con esta afirmación. La democracia no puede reducirse únicamente a la elección de representantes; debe incluir la participación activa del pueblo en la toma de decisiones, el respeto por los derechos sociales y la lucha contra las opresiones. La verdadera democracia es aquel proceso en el que las y los trabajadores tienen voz y poder sobre su presente y futuro.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Desde una perspectiva libertaria, la democracia debe ser entendida no solo como un sistema de votación, sino como un conjunto de principios que respete y proteja los derechos individuales y la libertad de cada persona. Sin embargo, el hecho de que una decisión sea respaldada por una mayoría no le otorga legitimidad si infringe los derechos de una minoría. Por lo tanto, aunque valoro el proceso democrático en un contexto que respete las libertades individuales, creo que es fundamental subrayar que la verdadera democracia debe estar siempre subordinada a la protección de los derechos inalienables.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La democracia implica el respeto a las instituciones, la participación activa de la ciudadanía, y la defensa de los derechos individuales y colectivos, no solo en la toma de decisiones, sino también en el fortalecimiento del bien común y la justicia social.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La democracia implica no solo la toma de decisiones a través del voto, sino también la promoción de la justicia social, la inclusión de todos los sectores, y el respeto a los derechos humanos. Es fundamental que la democracia garantice un Estado participativo que escuche y proteja a los más vulnerables, asegurando que el poder político esté al servicio del bien común. Por esto, afirmo que la democracia debe ser entendida en un sentido amplio y profundo.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Las regulaciones ambientales son esenciales.": {
+        "question": "Environmental regulations are essential.",
+        "pregunta": "Las regulaciones ambientales son esenciales.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Las regulaciones ambientales son esenciales, pero nuestra lucha va más allá de las regulaciones. Es necesaria una transformación profunda del sistema capitalista que prioriza la ganancia sobre el bienestar del planeta y de sus habitantes. Debemos luchar por un modelo de producción y consumo que sea verdaderamente sustentable, y eso solo es posible abolir el capitalismo y establecer un gobierno de los trabajadores.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Las regulaciones ambientales implementadas por el Estado suelen ser innecesarias y distorsionan el mercado. Los problemas ambientales se pueden abordar efectivamente a través de la propiedad privada y el respeto por los derechos de propiedad, donde los dueños de tierras y negocios tienen un interés directo en proteger su entorno. La intervención estatal tiende a generar burocracia y falta de responsabilidad. Es mejor fomentar la protección del medio ambiente a través de incentivos de mercado en lugar de regulaciones coercitivas.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Las regulaciones ambientales son fundamentales para garantizar el desarrollo sostenible, proteger el patrimonio natural y asegurar un futuro viable para las generaciones venideras. Sin embargo, es crucial que estas regulaciones se equilibren con el crecimiento económico y la libertad de la iniciativa privada, de tal manera que se promuevan tecnologías limpias y un uso responsable de los recursos, sin caer en excesos que puedan ahogar a las empresas. Por ende, reconozco la necesidad de regulaciones ambientales con un enfoque equilibrado y pragmático.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Las regulaciones ambientales son fundamentales para proteger nuestra tierra, aire y agua, garantizando un desarrollo sostenible. Deben estar alineadas con nuestro modelo de desarrollo productivo que prioriza la inclusión social y la justicia social. No podemos permitir que los procesos de producción atenten contra los derechos de las futuras generaciones y la salud de nuestro pueblo.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Un mundo mejor vendrá de la automatización, la ciencia y la tecnología.": {
+        "question": "A better world will come from automation, science, and technology.",
+        "pregunta": "Un mundo mejor vendrá de la automatización, la ciencia y la tecnología.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La creencia de que la automatización, la ciencia y la tecnología por sí solas traerán un mundo mejor ignora el hecho de que estas herramientas son utilizadas en un sistema capitalista que prioriza la ganancia sobre el bienestar de las personas. Sin embargo, el avance tecnológico debe estar al servicio de la humanidad y ser gestionado democráticamente por los trabajadores para asegurar que beneficie a la mayoría y no a una elite financiera.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La automatización, la ciencia y la tecnología son herramientas que, cuando están en manos de individuos libres, pueden promover la prosperidad y la libertad. Sin embargo, es crucial que estas innovaciones no sean coaccionadas o reguladas por un gobierno intervencionista que limite su potencial. Por lo tanto, estoy de acuerdo en que un mundo mejor puede venir de la automatización y la tecnología, siempre y cuando se respete la libertad individual en su desarrollo y uso.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La ciencia, la tecnología y la automatización son herramientas fundamentales para el progreso económico y social. Si bien pueden generar preocupaciones sobre el empleo y la distribución de ingresos, es esencial fomentar su desarrollo, asegurando que los beneficios se distribuyan equitativamente, generando nuevas oportunidades laborales y mejorando la calidad de vida de todos los ciudadanos. Apostar por la innovación es apostar al futuro, siempre en un marco de responsabilidad social.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Si bien la automatización, la ciencia y la tecnología tienen el potencial de mejorar la calidad de vida y generar más eficiencia en diversos sectores, no podemos depender exclusivamente de ellas. Es fundamental que estas innovaciones se acompañen de políticas públicas que aseguren que sus beneficios sean distribuidos equitativamente, priorizando siempre la justicia social y los derechos de todos, especialmente de los más vulnerables. Por lo tanto, confío en que una sociedad más justa debe incluir a la tecnología, pero no puede ser la única solución.",
+            "eleccion": "Neutral"
+        }
+    },
+    "Los niños deberían ser educados en valores religiosos o tradicionales.": {
+        "question": "Children should be educated in religious or traditional values.",
+        "pregunta": "Los niños deberían ser educados en valores religiosos o tradicionales.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La educación debe ser laica, científica y libre de dogmas religiosos. Los valores que se enseñen en las escuelas deben promover la igualdad, el respeto y la diversidad, no la imposición de creencias religiosas o tradicionales que pueden perpetuar desigualdades y exclusiones.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La educación debe ser un proceso individual y familiar, y los padres deben tener la libertad de elegir los valores que quieran transmitir a sus hijos. El Estado no debe imponer valores religiosos o tradicionales, ya que esto va en contra de la libertad individual y el principio de separación Iglesia-Estado.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La educación debería fomentar valores como el respeto y la solidaridad, pero la enseñanza de valores religiosos o tradicionales debe ser opcional y respetar la diversidad de creencias. Las familias deben tener el derecho de elegir en qué medida estas enseñanzas se integran en la educación de sus hijos, evitando imponer creencias y promoviendo así un enfoque pluralista.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La educación debe ser inclusiva y secular, promoviendo valores de respeto y solidaridad por encima de dogmas religiosos específicos. La diversidad de creencias es un valor que debemos respetar en una sociedad plural. La educación en valores no debe estar ligada a tradiciones religiosas impuestas, sino a principios de derechos humanos y convivencia.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Las tradiciones no tienen valor por sí solas.": {
+        "question": "Traditions are of no value on their own.",
+        "pregunta": "Las tradiciones no tienen valor por sí solas.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Las tradiciones, aunque pueden tener diversos significados y valor en diferentes contextos, a menudo son instrumentos utilizados por el sistema capitalista para perpetuar estructuras de desigualdad y control social. Desde una perspectiva obrera y socialista, priorizamos la lucha por la justicia social y los derechos de la clase trabajadora por encima de las tradiciones que no cuestionen este orden.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Desde la perspectiva libertaria, las tradiciones pueden tener valor en tanto y en cuanto sean elegidas y respetadas de forma voluntaria por los individuos. Sin embargo, no deben imponerse desde el Estado ni servir como justificación para restringir la libertad de elección o la autonomía personal. La valoración de las tradiciones debe provenir de la elección individual y no de un mandato coercitivo. Por ende, no puedo estar de acuerdo en que las tradiciones carezcan de valor. Las tradiciones pueden ser apreciadas por su función social y cultural, pero no deben ser la base para limitar la libertad individual.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Las tradiciones tienen un valor intrínseco en la construcción de la identidad cultural y social de un país. Fomentar el respeto por nuestras tradiciones contribuye a la cohesión social y al fortalecimiento de la comunidad. Por lo tanto, no puedo estar de acuerdo con la afirmación de que las tradiciones no tienen valor por sí solas.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Las tradiciones pueden tener un valor significativo en la construcción de identidad cultural y social. Si bien es importante adaptarse a los cambios y buscar la justicia social, las tradiciones no deben ser desestimadas completamente, ya que pueden contribuir a la cohesión social y al sentido de pertenencia. Sin embargo, su valoración debe ser crítica y en función del bien común.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La religión debería jugar un papel en el gobierno.": {
+        "question": "Religion should play a role in government.",
+        "pregunta": "La religión debería jugar un papel en el gobierno.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La religión no debe influir en las decisiones del gobierno. La separación entre la iglesia y el Estado es fundamental para garantizar la libertad de todos, independientemente de sus creencias. En un gobierno de los trabajadores y en un Estado laico, la religión debe ser una cuestión privada, y las políticas públicas deben estar guiadas por razones científicas y sociales, no por dogmas religiosos.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La religión y el gobierno deben estar completamente separados para garantizar la libertad de conciencia de cada individuo. Cada persona debe tener el derecho de seguir sus propias creencias sin que estas influyan en las decisiones del Estado.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La religión debe ser una cuestión personal y no influir en la estructura del gobierno, que debe ser laico y respetar la diversidad de creencias. La importancia radica en la libertad religiosa de cada individuo sin que estas creencias influyan en la legislación o el funcionamiento del Estado, garantizando un espacio de convivencia para todos, independientemente de su fe.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La religión no debe influir en la toma de decisiones del gobierno. Debemos garantizar la laicidad del Estado y respetar la diversidad de creencias, protegiendo la igualdad de derechos para todos los ciudadanos sin importar sus convicciones religiosas.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Las iglesias deberían ser gravadas de la misma manera que otras instituciones.": {
+        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "pregunta": "Las iglesias deberían ser gravadas de la misma manera que otras instituciones.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Las iglesias, como instituciones que generan enormes recursos económicos, no deberían gozar de privilegios fiscales en un sistema que mantiene a la mayoría de la población en la pobreza. Es fundamental que todas las instituciones, incluidas las religiosas, contribuyan equitativamente al bienestar común y a las arcas del Estado, que se necesitan para financiar educación, salud y otros derechos sociales. Esto es parte de la lucha por un Estado laico y que no financie ningún tipo de dogma religioso.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La gravación de las iglesias con impuestos sería una forma de intervención estatal que afecta la libertad religiosa y la separación iglesia-estado. Cada individuo tiene el derecho de decidir sobre su vida y sus creencias sin la coacción del gobierno.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Las iglesias, como instituciones que contribuyen a la sociedad a través de acciones de bien común, deberían ser tratadas de manera justa, pero no necesariamente gravadas de la misma manera que otras instituciones. Es importante fomentar la libertad religiosa y asegurar que su rol en la comunidad no sea desincentivado por impuestos, siempre que no se conviertan en fuentes de lucro a expensas del bien común.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Las iglesias, al ser organizaciones que no generan lucro y cumplen roles sociales importantes, deben ser tratadas equitativamente pero su gravamen debe considerarse según su contribución al bien común y su función en la sociedad. En un contexto de justicia social, el gravamen podría ser discutido, pero no necesariamente igual a otras instituciones con fines de lucro.",
+            "eleccion": "Neutral"
+        }
+    },
+    "El cambio climático es actualmente una de las mayores amenazas para nuestra forma de vida.": {
+        "question": "Climate change is currently one of the greatest threats to our way of life.",
+        "pregunta": "El cambio climático es actualmente una de las mayores amenazas para nuestra forma de vida.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El cambio climático es una consecuencia del sistema capitalista que prioriza el lucro por sobre la vida, destruyendo el medio ambiente y afectando a las clases más vulnerables. Es fundamental reconocerlo como una amenaza, pero también exigir que la solución no recaiga en la clase trabajadora, sino que los capitalistas, responsables de esta crisis, asuman su carga. La lucha contra el cambio climático debe ir de la mano de una transformación social y económica que ponga a los trabajadores en el centro de la solución.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Como representante del Partido Libertario, mi enfoque no se centra en políticas colectivistas que a menudo derivan en más intervenciones estatales. Si bien el medio ambiente es importante, la solución radica en proteger los derechos de propiedad privada y fomentar la innovación a través del libre mercado, en lugar de imponer regulaciones que restringen la libertad individual. Debemos dejar que las fuerzas del mercado encuentren soluciones en lugar de sucumbir al alarmismo. Por ello, considero que el enfoque sobre el cambio climático debe ser más matizado y no entrar en la política del miedo.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "El cambio climático es una cuestión que debe ser abordada, pero es fundamental hacerlo de manera equilibrada y sin caer en alarmismos. La responsabilidad social nos exige cuidar el medio ambiente, pero también es necesario promover el desarrollo económico y la iniciativa privada. Por lo tanto, estoy de acuerdo en que debemos tomar medidas, pero siempre desde una perspectiva que incluya el desarrollo sostenible y el crecimiento económico.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde la perspectiva de la justicia social y la inclusión, es fundamental reconocer que el cambio climático afecta desproporcionadamente a los sectores más vulnerables de la sociedad. La defensa del medio ambiente y la sostenibilidad deben ser parte integral de un modelo de desarrollo que priorice el bienestar del pueblo y la preservación de nuestro entorno. Por lo tanto, estoy totalmente de acuerdo en que el cambio climático representa una amenaza crítica para nuestra forma de vida.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es importante que trabajemos como un mundo unido para combatir el cambio climático.": {
+        "question": "It is important that we work as a united world to combat climate change.",
+        "pregunta": "Es importante que trabajemos como un mundo unido para combatir el cambio climático.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Si bien el cambio climático es una cuestión global que afecta a todos, el enfoque del FIT-U es que la solución debe venir desde una lucha de clases que exija la nacionalización de los recursos y la producción, no desde una perspectiva de unidad global que puede diluir la lucha específica de los pueblos y las clases trabajadoras. La clase capitalista es la responsable del deterioro ambiental y son ellos quienes deben responder por ello. La lucha debe ser desde la independencia de clase y por un régimen socialista que priorice el bienestar del trabajo y no de las ganancias. Por lo tanto, no podemos coincidir con una idea que, aunque bienintencionada, puede ser utilizada para encubrir los intereses de los capitalistas.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Trabajar como un mundo unido para combatir el cambio climático puede llevar a políticas colectivistas que restringen la libertad individual y la propiedad privada. La mejor manera de abordar el medio ambiente es a través de la protección de la propiedad privada y la resolución de conflictos ante tribunales, no mediante regulaciones estatales que pueden afectar a la economía y a la soberanía del individuo.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Considero que la defensa y preservación del medio ambiente son fundamentales, y la cooperación internacional es esencial para abordar problemas globales como el cambio climático. Sin embargo, esta acción debe ser equilibrada con el desarrollo sostenible y los intereses de nuestra nación. La colaboración no debe ser ingenua; debe incluir un enfoque que respete nuestra soberanía y promueva soluciones prácticas y sostenibles.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La lucha contra el cambio climático es fundamental para garantizar un futuro sostenible y equitativo para todos. Este desafío requiere de la cooperación internacional y del fortalecimiento del rol del Estado en la implementación de políticas que promuevan un desarrollo sustentable. La justicia social y la protección de los derechos de las generaciones futuras dependen de acciones concretas sobre el medio ambiente, lo cual debe ser un compromiso colectivo.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La sociedad era mejor hace muchos años de lo que es ahora.": {
+        "question": "Society was better many years ago than it is now.",
+        "pregunta": "La sociedad era mejor hace muchos años de lo que es ahora.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La afirmación de que la sociedad era mejor hace muchos años ignora las luchas y avances logrados por la clase trabajadora y los movimientos sociales. Aunque hay que reconocer que hay períodos de la historia en los que se lograron avances en derechos sociales y laborales, hoy en día el capitalismo y su crisis han llevado a una precarización de las condiciones de vida. La lucha en el presente es fundamental para conquistar un futuro mejor. Por lo tanto, esta afirmación es una trampa que busca desmovilizar a la clase trabajadora y hacerles perder la fe en la posibilidad de un cambio positivo.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La idea de que la sociedad era mejor en el pasado es una visión nostálgica que ignora los avances en libertad, tecnología y derechos individuales que hemos logrado. Aunque hay desafíos actuales, el progreso en términos de derechos y oportunidades individuales es un principio libertario fundamental.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La afirmación sobre que la sociedad era mejor en el pasado ignora los avances en derechos humanos, educación y tecnología. Aunque es cierto que hay desafíos actuales, también hemos conseguido mejorar aspectos fundamentales de la vida. Es necesario reconocer los logros y trabajar sobre las dificultades actuales, sin caer en la nostalgia del pasado, ya que el progreso es parte de la realidad en un mundo en constante cambio.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La afirmación de que la sociedad era mejor en el pasado es peligrosa y desmerece los avances logrados en derechos sociales, igualdad y justicia. Si bien hay desafíos actuales, hay que reconocer que hemos avanzado en términos de derechos humanos, inclusión social y el fortalecimiento del Estado de Bienestar. El enfoque debe estar en mejorar y avanzar en los logros conseguidos, no idealizar un pasado que muchas veces estuvo marcado por desigualdades y opresión.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Es importante que mantengamos las tradiciones de nuestro pasado.": {
+        "question": "It is important that we maintain the traditions of our past.",
+        "pregunta": "Es importante que mantengamos las tradiciones de nuestro pasado.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Las tradiciones, especialmente aquellas que perpetúan desigualdades o son utilizadas por el capitalismo para justificar su existencia, no pueden ser un argumento válido. La lucha debe centrarse en transformar la sociedad y no en aferrarse a tradiciones que nos atan al pasado. Debemos mirar hacia el futuro y construir un nuevo orden basado en la justicia social y la igualdad.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Las tradiciones son importantes en la medida en que los individuos las eligen y valoran. Sin embargo, imponer una tradición por la fuerza o a través del estado limita la libertad individual. Cada persona debe ser libre de decidir qué tradiciones desea seguir, sin coacción estatal.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Las tradiciones forman parte de la identidad cultural de un país y son importantes para construir una sociedad cohesiva y respetuosa. Mantener nuestras tradiciones no significa aferrarse a lo obsoleto, sino reconocer la riqueza de nuestra historia y aprender de ella para proyectar un futuro más justo y solidario, respetando siempre los principios de la dignidad humana y el bien común.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Mantener las tradiciones es valioso, pero estas deben ser interpretadas y adaptadas a los tiempos actuales. Nuestra mirada está en construir un futuro donde la justicia social y la inclusión sean los pilares, sin aferrarnos ciegamente a tradiciones que podrían obstaculizar el progreso. En todo caso, rescatar aquellos valores y tradiciones que aporten a una sociedad más equitativa es fundamental.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Es importante que pensemos a largo plazo, más allá de nuestras vidas.": {
+        "question": "It is important that we think in the long term, beyond our lifespans.",
+        "pregunta": "Es importante que pensemos a largo plazo, más allá de nuestras vidas.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La lucha por un futuro socialista y por los derechos de las clases populares impulsa a pensar en un proyecto colectivo que trascienda nuestras vidas. Sin embargo, no puede cegarnos ante las urgencias presentes de la clase trabajadora que sufre el ajuste capitalista en el presente. Es esencial planificar a largo plazo, pero siempre en el contexto de una lucha constante en el aquí y ahora.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La importancia de pensar a largo plazo puede ser valorada, pero desde una perspectiva libertaria, la responsabilidad principal reside en el individuo en cuanto a sus propias decisiones y aspiraciones. Cada persona tiene el derecho de actuar según sus propias prioridades y no creo que el Estado deba influir sobre esta perspectiva personal. La libertad individual debe prevalecer.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Considero que pensar en el largo plazo es fundamental para construir una sociedad mejor y garantizar un futuro sostenible para las próximas generaciones. Este enfoque promueve la responsabilidad intergeneracional y la continuidad del bienestar social, pilares de una democracia republicana que respeta la dignidad humana y el bien común.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La justicia social y el desarrollo sostenible son pilares fundamentales de nuestra ideología. Pensar a largo plazo implica asegurar un futuro más justo e inclusivo para las próximas generaciones, promoviendo el bien común y la dignidad humana.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La razón es más importante que mantener nuestra cultura.": {
+        "question": "Reason is more important than maintaining our culture.",
+        "pregunta": "La razón es más importante que mantener nuestra cultura.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Desde una perspectiva obrera y socialista, la defensa de la cultura popular y los derechos de los trabajadores es fundamental. La razón debe estar al servicio de la justicia social y la lucha por la igualdad, no en función de un criterio que priorice el individualismo y protocolos elitistas. Por lo tanto, creo firmemente que nuestra cultura debe ser priorizada y defendida frente a cualquier lógica racional que la desplace.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La razón es lo que nos permite cuestionar y mejorar nuestras prácticas culturales, no debe ser vista como contradictoria a nuestra cultura en sí, sino como un medio para evolucionarla y hacerla más inclusiva y respetuosa de los derechos individuales. Sin embargo, la cultura debe ser una elección personal y no una imposición, donde la razón prevalezca sobre cualquier religión o dogma que la limite.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La cultura y la razón son interdependientes. La razón nos permite comprender y valorar nuestra cultura, fundamentando su importancia en la sociedad. No se trata de elegir una sobre la otra, sino de buscar un equilibrio que respete nuestras tradiciones al tiempo que fomente el pensamiento crítico.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La cultura es un pilar fundamental de nuestra identidad y sociedad. Mantener y promover nuestra cultura es esencial para la cohesión social y la justicia social. La razón y la cultura no son opuestas, deben complementarse.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "El consumo de drogas debería ser legalizado o despenalizado.": {
+        "question": "Drug use should be legalized or decriminalized.",
+        "pregunta": "El consumo de drogas debería ser legalizado o despenalizado.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 2
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Desde nuestra perspectiva de independencia de clase y defensa de los derechos de los trabajadores, la legalización o despenalización del consumo de drogas debe hacerse en el marco de un enfoque de salud pública y derechos humanos. Esto incluye el acceso a tratamientos adecuados y la lucha contra las estructuras del narcotráfico que afectan a las clases populares, en lugar de criminalizar a quienes consumen. Sin embargo, cualquier enfoque debe tener en cuenta que no puede ser parte de una agenda capitalista que busque monetizar la problemática. Por lo tanto, estamos a favor de la despenalización del consumo de drogas bajo un enfoque social, que considere la salud de los trabajadores y la necesidad de combatir el narcotráfico sin criminalizar a quienes consumen.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La legalización o despenalización del consumo de drogas es una cuestión de libertad individual. Cada persona tiene el derecho a decidir cómo gestionar su propio cuerpo y su vida, siempre y cuando no interfiera con los derechos de los demás. La prohibición solo ha llevado a un aumento de la criminalidad y a la violación de derechos civiles.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La cuestión de la legalización o despenalización del consumo de drogas es compleja. Si bien defiendo la libertad individual, considero que la legalización sin un marco de políticas públicas que aborden la salud, la prevención y la educación puede llevar a consecuencias negativas para la sociedad. Prefiero un enfoque que contemple la responsabilidad del Estado en la protección de la salud pública y el bien común, así como en la necesidad de garantizar la seguridad social. Por lo tanto, me inclino por un enfoque que reduzca la criminalización, pero que también asegure una fuerte inversión en prevención y tratamiento.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La legalización o despenalización del consumo de drogas puede ser vista como una medida que busca abordar la problemática de las sustancias desde un enfoque de salud pública, reduciendo el estigma y mejorando el acceso a tratamientos para quienes lo necesiten. Sin embargo, es fundamental que esta medida esté acompañada de políticas inclusivas y educativas que prioricen la prevención y el bienestar social. La protección de los derechos de los más vulnerables y una regulación adecuada son claves para garantizar que esta opción no genere más desigualdades.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "El matrimonio entre personas del mismo sexo debería ser legal.": {
+        "question": "Same-sex marriage should be legal.",
+        "pregunta": "El matrimonio entre personas del mismo sexo debería ser legal.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El matrimonio entre personas del mismo sexo es un derecho civil que debe ser garantizado por el Estado. No se trata sólo de una cuestión de igualdad, sino de reconocer y defender los derechos de todas las personas, independientemente de su orientación sexual. El FIT-U lucha por la plena igualdad de derechos para todos y todas, y esto incluye el derecho al matrimonio. La lucha por los derechos LGBT+ es parte de la lucha más amplia por la justicia social y los derechos humanos.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "El matrimonio es una elección personal y debe estar regido por los acuerdos voluntarios entre individuos. La intervención del Estado en decisiones personales, como el matrimonio, solo interfiere en las libertades individuales y los derechos a la propiedad y al contrato. El principio de no agresión y la libertad para decidir sobre nuestras relaciones son fundamentales en una sociedad libre.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "El matrimonio entre personas del mismo sexo respeta la dignidad humana y la igualdad de derechos, pilares fundamentales de una sociedad justa y democrática. La diversidad y el respeto por las libertades individuales deben ser protegidos en nuestro marco legal. La legalización del matrimonio entre personas del mismo sexo no vulnera el concepto de familia, sino que enriquece el pluralismo y la convivencia.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "El matrimonio entre personas del mismo sexo es una cuestión de derechos humanos y de igualdad. La legalización del matrimonio igualitario promueve la justicia social y el respeto a la diversidad, pilares fundamentales de nuestra visión de una sociedad más justa e inclusiva. Además, el reconocimiento de estos derechos es esencial para garantizar la dignidad de todas las personas, sin importar su orientación sexual. Por lo tanto, estoy firmemente a favor de esta legalización.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "No hay culturas superiores a otras.": {
+        "question": "No cultures are superior to others.",
+        "pregunta": "No hay culturas superiores a otras.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 5,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Como representante del FIT-U, sostengo la igualdad de todas las culturas. La idea de culturas superiores es un concepto utilizado por el imperialismo y las clases dominantes para justificar la opresión y el colonialismo. Debemos defender la diversidad cultural y la autodeterminación de los pueblos.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Como libertario, creo en la libertad de expresión y en el respeto de las decisiones individuales de las diferentes culturas. Sin embargo, eso no significa que todas las prácticas o creencias culturales merezcan igual respeto si atentan contra los derechos individuales, como la vida, la libertad y la propiedad. Aceptar que hay diferencias y promover el respeto mutuo es fundamental, pero no podemos ignorar la importancia de la libertad individual en cualquier cultura.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Es fundamental reconocer la dignidad y el valor de todas las culturas, promoviendo el respeto mutuo, la solidaridad y la convivencia pacífica entre ellas. En un país sin exclusiones, debemos fomentar un pluralismo que celebre nuestras diferencias, pero entendiendo que todas las culturas merecen respeto sin que eso implique jerarquizarlas.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde mi perspectiva de Centro Izquierda y en línea con los principios de justicia social y respeto por los derechos humanos, es fundamental afirmar que todas las culturas son igualmente valiosas y deben ser respetadas. Para construir una sociedad más justa e inclusiva, debemos reconocer la diversidad cultural y promover el diálogo y la convivencia entre todas las identidades. Por lo tanto, debo expresar que estoy totalmente de acuerdo con esta afirmación.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Las relaciones sexuales fuera del matrimonio son inmorales.": {
+        "question": "Sex outside marriage is immoral.",
+        "pregunta": "Las relaciones sexuales fuera del matrimonio son inmorales.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Como representante del Frente de Izquierda y de Trabajadores - Unidad, defendemos la plena libertad sexual y los derechos de las personas para decidir sobre sus cuerpos. La moralidad en las relaciones sexuales no debe ser impuesta desde una perspectiva conservadora, sino que cada individuo debe tener la autonomía para vivir su sexualidad sin juicios externos. En este sentido, me opongo a cualquier declaración que valore las relaciones sexuales fuera del matrimonio como inmorales.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Las relaciones sexuales son una decisión personal que debe ser libre y consensuada entre los individuos involucrados. La moralidad de tales relaciones no debe ser impuesta por el Estado o ninguna entidad externa; cada persona tiene derecho a vivir su vida según sus propias creencias y deseos, siempre que no afecte a terceros. La libertad personal integral es un principio fundamental y cualquier moralidad impuesta viola la libertad del individuo.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La postura centrada en la dignidad de la persona implica el respeto a las decisiones individuales y a la libertad personal en cuestiones de intimidad y relaciones. La moralidad en relaciones personales es una cuestión privada que debe ser abordada desde la autonomía de las personas, respetando sus elecciones sin interferencias.\"",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde la perspectiva de una sociedad justa e inclusiva, las relaciones personales, incluidas las sexuales, son decisiones individuales que deben ser respetadas sin imponer juicios morales restrictivos. La moralidad no puede ser utilizada como una herramienta para coartar libertades personales.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Si aceptamos migrantes, es importante que se asimilen a nuestra cultura.": {
+        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "pregunta": "Si aceptamos migrantes, es importante que se asimilen a nuestra cultura.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La afirmación sobre la asimilación de migrantes a una cultura única promueve una visión xenofóbica y excluyente. En el contexto del Frente de Izquierda y de Trabajadores - Unidad, defendemos la inclusión y el respeto por la diversidad cultural, así como los derechos de lxs migrantes. La diversidad enriquece a la sociedad en su conjunto y no debe ser vista como una amenaza.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La libertad individual implica que cada persona tiene el derecho de decidir cómo vivir su vida, incluyendo cómo asimilarse o no a una cultura específica. La diversidad cultural enriquece a una sociedad y debe ser respetada, siempre que no ataque los derechos individuales y libertades de los demás. La asimilación no debería ser una imposición, sino una elección personal del migrante.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Es fundamental que los migrantes que eligen vivir en nuestra nación reconozcan y respeten nuestras costumbres y valores, ya que esto fomenta la cohesión social y la convivencia armoniosa. Sin embargo, también es importante promover el respeto por la diversidad y la integración sin forzar, así que el enfoque debe ser equilibrado y respetuoso.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La diversidad cultural enriquece a nuestra sociedad y es fundamental reconocer y valorar las distintas culturas que aporta la migración. La integración debe darse a través del respeto y la convivencia, sin requerir una asimilación forzada que puede afectar el tejido social y los derechos de los migrantes. La convivencia multicultural es una fuente de aprendizaje y desarrollo social.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "El aborto debería estar prohibido en la mayoría o en todos los casos.": {
+        "question": "Abortion should be prohibited in most or all cases.",
+        "pregunta": "El aborto debería estar prohibido en la mayoría o en todos los casos.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El aborto es un derecho fundamental de las mujeres y debe ser garantizado por el Estado. La prohibición del aborto atenta contra la autonomía de las mujeres sobre sus cuerpos y perpetúa la desigualdad de género. Defendemos la plena libertad sexual y el acceso a la salud reproductiva, incluyendo el aborto legal. En este sentido, la afirmación planteada es contraria a nuestras convicciones y principios.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La libertad individual debe ser el principio rector en todas las decisiones personales, incluida la cuestión del aborto. Al establecer prohibiciones sobre el aborto, se está imponiendo un control estatal sobre el cuerpo y las decisiones de las mujeres, restringiendo su libertad y autonomía. Cada individuo debe tener el derecho a tomar decisiones sobre su vida y su salud sin intervención del Estado.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Considero que la vida y la dignidad humana son esenciales, pero es fundamental abordar el tema del aborto con sensibilidad. Debemos buscar un equilibrio que respete tanto la vida como los derechos de la mujer, promoviendo al mismo tiempo la educación y prevención para la reducción de embarazos no deseados, así como el acceso a salud integral. Esto se traduce en un enfoque complejamente humano y social, que se aleja de un enfoque rígido y prohibicionista. Por lo tanto, si bien valoro la vida, también reconozco la necesidad de debatir y garantizar derechos en un marco de respeto y dignidad.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La despenalización del aborto es una cuestión de derechos humanos y de plena autonomía sobre el cuerpo de las mujeres. Se debe garantizar el acceso a la salud sexual y reproductiva, considerando que el aborto seguro y legal es fundamental para proteger la vida y la salud de las mujeres, especialmente de las más vulnerables. Prohibirlo llevaría a un aumento de abortos clandestinos, poniendo en riesgo a la salud de las mujeres.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "La posesión de armas debería estar prohibida para aquellos sin una razón válida.": {
+        "question": "Gun ownership should be prohibited for those without a valid reason.",
+        "pregunta": "La posesión de armas debería estar prohibida para aquellos sin una razón válida.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La prohibición de armas para aquellos sin una razón válida es fundamental para garantizar la seguridad pública y reducir la violencia, que afecta desproporcionadamente a los sectores más vulnerables de la sociedad. Como representantes de la clase trabajadora y protocolos de defensa, apoyamos medidas que priorizan la vida y la paz social por encima de los intereses de la producción de armas y el negocio armado.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La posesión de armas es un derecho fundamental de autodefensa y protección personal. Restringir este derecho a aquellos sin una razón válida infringe las libertades individuales y el derecho a la propiedad. Cada persona debe ser responsable de su propia seguridad y tener la libertad de elegir cómo protegerse, por lo que no se debe establecer ninguna prohibición que limite la posesión de armas.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La posesión de armas es un tema que debe ser analizado desde la perspectiva de la libertad individual y la seguridad. Creemos que los ciudadanos responsables deben tener derecho a la tenencia de armas, pero bajo regulaciones que garanticen el control adecuado, priorizando la seguridad pública y evitando abusos. Esto significa que debe haber razones válidas y un marco regulatorio que asegure la responsabilidad. Por lo tanto, estoy de acuerdo con la necesidad de restricciones, pero en un marco que respete derechos básicos.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La seguridad ciudadana y la protección de los derechos humanos son fundamentales. La posesión de armas sin un control adecuado puede aumentar la violencia y la inseguridad. Es crucial preservar la vida y el bienestar de todos los ciudadanos mediante regulaciones estrictas sobre la tenencia de armas, garantizando que solo personas con razones válidas y en condiciones seguras puedan poseerlas.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Apoyo un sistema de salud universal y de pago único.": {
+        "question": "I support single-payer, universal healthcare.",
+        "pregunta": "Apoyo un sistema de salud universal y de pago único.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El sistema de salud debe ser un derecho universal y no un negocio. La salud no puede estar vinculada a la capacidad de pago, sino que debe ser garantizada por el Estado para toda la población. Un sistema de salud universal y de pago único es esencial para asegurar que todos los trabajadores y sus familias tengan acceso a la atención médica que necesitan, sin excepciones.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Apoyar un sistema de salud universal y de pago único implica una coerción estatal que perjudica la libertad individual y el derecho a elegir cómo gestionar nuestra salud. Esto limita las opciones disponibles y crea dependencia del Estado, en lugar de fomentar la responsabilidad y la elección personal.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Si bien la salud es un derecho humano y el Estado debe garantizar el acceso a un nivel básico de atención para toda la población, un sistema de salud eficiente también debe permitir la participación del sector privado. La clave está en asegurar la igualdad de oportunidades y acceso, promoviendo una modalidad que combine un sistema público accesible, pero que permita también la opción de financiamiento privado. Por lo tanto, no apoyo un sistema de pago único exclusivo, sino uno que respete la diversidad y la opción de elección.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "El acceso a la salud es un derecho fundamental y debe ser garantizado por el Estado. Un sistema de salud universal y de pago único asegura que todos los ciudadanos, sin importar su condición socioeconómica, puedan recibir atención médica de calidad. Es una medida necesaria para garantizar la justicia social y la igualdad en el acceso a servicios básicos.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La prostitución debería ser ilegal.": {
+        "question": "Prostitution should be illegal.",
+        "pregunta": "La prostitución debería ser ilegal.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Desde una perspectiva de clase, la legalización de la prostitución puede ser vista como una medida que no aborda las causas estructurales de la explotación y la precariedad que enfrentan las mujeres en el sistema capitalista. La lucha debe centrarse en erradicar la pobreza y generar condiciones laborales dignas, en lugar de regular una actividad que se basa en la explotación. La emancipación de las mujeres trabajadoras se logra a través de su organización y la lucha por sus derechos, no a través de la legalización de la explotación. Rechazamos la idea de que la prostitución pueda ser una opción digna en un sistema que explota a la clase trabajadora.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La legalización de la prostitución promueve la libertad individual y el derecho de las personas a tomar decisiones sobre su propio cuerpo y su vida. La criminalización perpetúa el estigma y la violencia, y limita la capacidad de los trabajadores sexuales para operar en un entorno seguro y regulado. Además, la intervención del Estado en esta área no respeta la autonomía personal ni el principio de no agresión.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La postura frente a la prostitución debería centrarse en la protección y dignidad de las personas involucradas, así como en la regulación que pueda garantizar su seguridad y derechos. La criminalización puede llevar a situaciones de vulnerabilidad y abuso. Es preferible buscar un enfoque que respete las libertades individuales, mientras se prioriza la protección de las personas en situación de riesgo.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Desde una perspectiva de justicia social, la criminalización de la prostitución no resuelve las problemáticas subyacentes que enfrentan quienes están involucrados en el trabajo sexual, muchas veces forzadas por situaciones de vulnerabilidad. Es fundamental abordar la prostitución desde una óptica de derechos humanos, promoviendo la protección y el bienestar de estas personas, así como su acceso a servicios de salud y apoyo social. Regular la actividad, en lugar de criminalizarla, puede contribuir a una mayor protección de derechos.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Mantener los valores familiares es esencial.": {
+        "question": "Maintaining family values is essential.",
+        "pregunta": "Mantener los valores familiares es esencial.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Desde una perspectiva obrera y socialista, los \"valores familiares\" muchas veces pueden ser utilizados para justificar políticas conservadoras que perjudican a las clases trabajadoras. Creemos en la lucha por la igualdad y los derechos individuales por encima de cualquier valor impuesto. La verdadera familia es el colectivo de luchadores sociales que se organizan para reivindicar sus derechos. La defensa de los derechos de las mujeres y la diversidad sexual deben ser prioridad en nuestra lucha.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Si bien los valores familiares son importantes y deben ser promovidos a nivel individual, no deben ser impuestos desde el Estado. La libertad individual incluye el derecho a decidir cómo se organizan las familias y cuáles son sus valores, sin interferencias estatales. Cada persona y familia debe tener la libertad de definir sus propios principios sin coerción.",
+            "eleccion": "Neutral"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Considero que los valores familiares son fundamentales para la cohesión social y la estabilidad de la comunidad. Promover una sociedad que respete y valore la familia contribuye al bienestar social y a la construcción de una ciudadanía activa y responsable. Es necesario reconocer la importancia de las familias como núcleo fundamental en la educación y formación de los individuos.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Si bien los valores familiares son importantes, no deben ser utilizados como excusa para restringir derechos y promover desigualdades. La equidad y la inclusión para todos los sectores de la sociedad son fundamentales en mi visión, y cualquier enfoque en los valores familiares debe ser inclusivo y respetar la diversidad.",
+            "eleccion": "Neutral"
+        }
+    },
+    "Perseguir el progreso a toda costa es peligroso.": {
+        "question": "To chase progress at all costs is dangerous.",
+        "pregunta": "Perseguir el progreso a toda costa es peligroso.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El progreso, cuando se persigue sin límites y sin considerar las consecuencias sociales y ambientales, puede llevar a la explotación y al aumento de las desigualdades. Como representantes de los trabajadores, debemos abogar por un progreso que priorice las necesidades de la clase trabajadora y no el beneficio capitalista. Un progreso socialmente justo y equitativo es fundamental.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Perseguir el progreso a toda costa sin considerar los derechos individuales y la libertad puede llevar a políticas perjudiciales que afectan negativamente la vida de las personas. Es fundamental que el progreso respete la libertad y la propiedad privada.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La búsqueda del progreso debe ser equilibrada con el respeto a las instituciones, los derechos individuales y la sostenibilidad social y ambiental. Progresar no significa sacrificar valores fundamentales ni la equidad. La prudencia es esencial para evitar consecuencias negativas de un crecimiento desmedido.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "El progreso no debe perseguirse a costa de la justicia social y la inclusión. Debemos avanzar de manera equilibrada, cuidando los derechos de todos, especialmente de los más vulnerables. Un enfoque que prioriza el crecimiento económico en detrimento de la equidad es inconsistente con nuestros principios de justicia social y solidaridad. Por lo tanto, es crucial plantear un desarrollo que contemple el bienestar común, evitando atropellos en el camino hacia el progreso.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La modificación genética es una fuerza para el bien, incluso en los humanos.": {
+        "question": "Genetic modification is a force for good, even on humans.",
+        "pregunta": "La modificación genética es una fuerza para el bien, incluso en los humanos.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "La modificación genética, como cualquier tecnología avanzada, puede ser utilizada con fines éticos o no éticos, pero en el contexto actual de un sistema capitalista que primará los intereses de las grandes corporaciones sobre el bienestar humano, la posibilidad de generar desigualdades y nuevos problemas sociales y éticos se incrementa. En este sentido, no podemos considerar que sea una fuerza para el bien en un sistema que prioriza la ganancia financiera.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La modificación genética, si se realiza de manera voluntaria y considerada desde la perspectiva de la libertad individual, puede ser vista como una herramienta para mejorar la calidad de vida y la salud de las personas. Sin embargo, el uso de esta tecnología debe ser un derecho personal y no un instrumento de control estatal, asegurando siempre la autonomía y el consentimiento informado del individuo. Por lo tanto, concordamos en que puede ser una fuerza para el bien, pero su implementación debe ser siempre respetando la libertad individual y los derechos inherentes de las personas.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La modificación genética puede ofrecer oportunidades para sanar enfermedades y mejorar la calidad de vida, pero también plantear cuestiones éticas. Debemos tener un enfoque equilibrado que considere tanto el progreso científico como el respeto por la dignidad humana y las implicaciones sociales. Por lo tanto, estoy más cerca del 'De acuerdo', pero con reservas.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La modificación genética en humanos plantea importantes dilemas éticos y sociales. Si bien puede ofrecer avances en medicina y salud, también puede dar lugar a desigualdades y a la eugenesia. Considero que en un contexto donde la justicia social y el bien común son prioritarios, debemos ser cautelosos con estas tecnologías y priorizar los derechos humanos y la equidad.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Deberíamos abrir nuestras fronteras a la inmigración.": {
+        "question": "We should open our borders to immigration.",
+        "pregunta": "Deberíamos abrir nuestras fronteras a la inmigración.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Como parte del Frente de Izquierda y de Trabajadores - Unidad, defendemos los derechos de todas las personas, incluyendo a los inmigrantes. Aceptar la inmigración no puede utilizarse para dividir a los trabajadores, sino que debe ir acompañado de protocolos que aseguren condiciones dignas y derechos laborales para todos, independientemente de su origen. En este sentido, abrimos la discusión sobre la necesidad de una política de inmigración que respete los derechos humanos y laborales, en lugar de imponer barreras. Sin embargo, hay que tener en cuenta que esta política debe ir de la mano con la lucha contra la explotación y el extractivismo. En lugar de ver a la inmigración como una carga, debemos ver cómo los trabajadores inmigrantes contribuyen a la sociedad y la economía.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La apertura de fronteras a la inmigración se alinea con el principio de libertad individual integral, ya que permite a las personas moverse libremente y buscar mejores oportunidades sin las restricciones del Estado. La inmigración también contribuye al libre mercado y a la competencia, lo que puede generar beneficios económicos y culturales para la sociedad. La intervención estatal en este ámbito solo limita la libertad de las personas a decidir dónde vivir y trabajar.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "La apertura a la inmigración puede ser vista como una oportunidad para el desarrollo económico y cultural de Argentina, siempre y cuando se establezcan criterios claros y se respete la legislación vigente. La inmigración puede aportar talento, trabajo y diversidad, pero debe estar acompañada de políticas que aseguren la integración y el respeto por nuestras instituciones.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La inmigración debe ser gestionada en términos de respeto a los derechos humanos y promover la inclusión social. Abrir nuestras fronteras puede enriquecer nuestra cultura y fortalecer la economía, pero debe hacerse de forma ordenada y en base a políticas que garanticen el bienestar de todos los ciudadanos, especialmente de los más vulnerables. Por eso, la afirmación se puede considerar positivamente si implica un enfoque solidario y de justicia social.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Los gobiernos deberían preocuparse por los extranjeros tanto como por sus propios ciudadanos.": {
+        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
+        "pregunta": "Los gobiernos deberían preocuparse por los extranjeros tanto como por sus propios ciudadanos.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Los gobiernos deben anteponer los intereses y necesidades de sus propios ciudadanos, especialmente de la clase trabajadora, que enfrenta precarización y pobreza. La lucha por los derechos de los trabajadores y la defensa de sus condiciones de vida son la prioridad. No podemos permitir que se distraigan los recursos y esfuerzos en lógicas que priorizan intereses ajenos frente a las propias demandas populares.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "La preocupacion del gobierno debe centrarse en la protección de los derechos de sus ciudadanos. La responsabilidad del estado es garantizar la seguridad, la libertad y la propiedad de sus propios ciudadanos antes que extender recursos o preocupaciones por extranjeros, que no son parte de su obligación fundamental.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Es fundamental que un gobierno priorice el bienestar de sus ciudadanos, quienes son los responsables del sostenimiento y desarrollo del país. Si bien la solidaridad y el respeto hacia los extranjeros son importantes, la atención a las necesidades de los ciudadanos siempre debe ser la prioridad, garantizando así el bien común y la cohesión social.",
+            "eleccion": "En desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Si bien es importante promover políticas de inclusión y respeto hacia los derechos de los extranjeros, la prioridad del Estado debe ser proteger y garantizar los derechos de sus ciudadanos, especialmente de los más vulnerables. Esto no significa que no debamos preocuparse por los extranjeros, pero la justicia social y la atención a las necesidades de los ciudadanos argentinos debe ser nuestra principal preocupación.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Todas las personas, independientemente de factores como la cultura o la sexualidad, deberían ser tratadas por igual.": {
+        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "pregunta": "Todas las personas, independientemente de factores como la cultura o la sexualidad, deberían ser tratadas por igual.",
+        "effect": {
+            "econ": 10,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "El FIT-U defiende la plena igualdad de derechos para todas las personas, independientemente de su cultura, sexualidad o cualquier otro factor. Esto se enmarca en una lucha más amplia por la justicia social y la lucha contra todas las formas de discriminación. Sin embargo, es fundamental entender que esta igualdad debe ser acompañada por un reconocimiento y combate a las desigualdades estructurales que afectan particularmente a las comunidades marginadas.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Estoy totalmente de acuerdo en que todas las personas deben ser tratadas por igual, independientemente de su cultura o sexualidad. El respeto a la libertad individual y los derechos inalienables es fundamental. Cada individuo debe tener la libertad de vivir su vida como elija, siempre y cuando no afecte los derechos de los demás. La igualdad ante la ley es un principio libertario que promueve la justicia y la no discriminación.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Estoy muy de acuerdo con esta afirmación ya que el respeto por la dignidad humana y la igualdad de derechos son principios fundamentales que deben guiar nuestra sociedad. La igualdad de trato sin distinción es esencial para construir una comunidad sólida y plural donde se respeten las diferencias.",
+            "eleccion": "Muy de acuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "Este principio es fundamental para promover la justicia social y garantizar que todos los ciudadanos tengan acceso a los mismos derechos y oportunidades, independientemente de su cultura, sexualidad u otros factores. La igualdad es uno de los ejes rectores de la ideología del Centro Izquierda, por lo que estoy en total acuerdo con esta afirmación.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es importante que promovamos los objetivos de mi grupo por encima de todos los demás.": {
+        "question": "It is important that we further my group's goals above all others.",
+        "pregunta": "Es importante que promovamos los objetivos de mi grupo por encima de todos los demás.",
+        "effect": {
+            "econ": -10,
+            "dipl": -10,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente de Izquierda": {
+            "razonamiento": "Promover los objetivos de nuestra clase, los trabajadores, por encima de los intereses de los bloques patronales, es esencial para la lucha por la independencia política de los trabajadores y la construcción de un gobierno de las y los trabajadores. Sin embargo, no se debe hacer en detrimento del diálogo y la unidad dentro del movimiento obrero.",
+            "eleccion": "De acuerdo"
+        },
+        "Agente Liberal": {
+            "razonamiento": "Promover los objetivos de un grupo por encima de los derechos individuales de otros es colectivismo, que va en contra de los principios libertarios que defienden la libertad y los derechos inalienables de cada persona.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Derecha": {
+            "razonamiento": "Promover los objetivos de un grupo por encima de los demás puede llevar a la exclusión y la división. Es esencial buscar un equilibrio y un enfoque que valore el diálogo y la inclusión de diversas perspectivas para construir un bien común que beneficie a toda la sociedad. La convivencia se basa en el respeto mutuo y la construcción de consensos.",
+            "eleccion": "Muy en desacuerdo"
+        },
+        "Agente de Centro Izquierda": {
+            "razonamiento": "La promoción de los objetivos de un grupo debe estar alineada con el bien común y la justicia social. Priorizar solo los intereses de un grupo por encima de otros va en contra de los principios de inclusión y equidad que defendemos.",
+            "eleccion": "Muy en desacuerdo"
+        }
     }
 }
