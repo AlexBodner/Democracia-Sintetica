@@ -5,8 +5,8 @@ import numpy as np
 from agente_evaluador import AgenteEvaluador
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
-from debate_agents.agente_centro_izquierda import AgenteCentroIzquierda
-from debate_agents.agente_centro_derecha import AgenteCentroDerecha
+from debate_agents.agente_centro_izquierda import AgenteUxP
+from debate_agents.agente_centro_derecha import AgenteJxC
 import os
 import json
 
@@ -69,8 +69,8 @@ async def main(output_folder = "evaluaciones"):
 
     agente_liberal = AgenteLiberal
     agente_izquierda = AgenteIzquierda
-    agente_centro_izquierda = AgenteCentroIzquierda
-    agente_centro_derecha = AgenteCentroDerecha
+    agente_centro_izquierda = AgenteUxP
+    agente_centro_derecha = AgenteJxC
 
     
     agentes = [agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]

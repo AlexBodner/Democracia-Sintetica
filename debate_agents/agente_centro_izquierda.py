@@ -95,7 +95,7 @@ UxP_FEWSHOT_EXAMPLES = [
     {
         "role": "assistant",
         "content": (
-            "[Agente Centro Izquierda]: Esta medida apunta a corregir desigualdades estructurales y proteger a los sectores más\
+            "[Agente de Union Por La Patria]: Esta medida apunta a corregir desigualdades estructurales y proteger a los sectores más\
                 vulnerables. En un contexto de pobreza creciente, garantizar acceso a energía es una política de inclusión clave. No obstante, es\
                 necesario que venga acompañada de mecanismos de eficiencia energética, control y sustentabilidad fiscal para que no se transforme\
                 en una carga insostenible.\n\
@@ -109,7 +109,7 @@ UxP_FEWSHOT_EXAMPLES = [
     {
         "role": "assistant",
         "content": (
-            "[Agente Centro Izquierda]: Aunque se argumenta libertad de elección, en la práctica los vouchers tienden a profundizar la brecha\
+            "[Agente de Union Por La Patria]: Aunque se argumenta libertad de elección, en la práctica los vouchers tienden a profundizar la brecha\
                 entre escuelas ricas y pobres. La educación debe ser igualadora de oportunidades, y eso requiere fortalecer lo público, no\
                 atomizar recursos. El Estado tiene el deber de garantizar calidad en todo el sistema y no delegar esa función al mercado\n\
                 Voto: En contra. "

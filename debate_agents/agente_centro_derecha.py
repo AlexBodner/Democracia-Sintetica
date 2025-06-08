@@ -141,7 +141,7 @@ JxC_FEWSHOT_EXAMPLES = [
     {
         "role": "assistant",
         "content": (
-            "[Agente Centro Derecha]: Si bien la intención social es válida, la forma de financiamiento y el diseño generan efectos perversos.\
+            "[Agente de Juntos Por El Cambio]: Si bien la intención social es válida, la forma de financiamiento y el diseño generan efectos perversos.\
                 Generalizar la gratuidad promueve el derroche, desincentiva la eficiencia energética y genera un gasto fiscal que el país no puede\
                 sostener. Debemos avanzar hacia subsidios focalizados con metas de inclusión productiva, no soluciones mágicas sin sostenibilidad.\
                 Voto: En contra. "
@@ -154,7 +154,7 @@ JxC_FEWSHOT_EXAMPLES = [
     {
         "role": "assistant",
         "content": (
-            "[Agente Centro Derecha]: Esta ley amplía la libertad de las familias y promueve la competencia que mejora la calidad educativa. El\
+            "[Agente de Juntos Por El Cambio]: Esta ley amplía la libertad de las familias y promueve la competencia que mejora la calidad educativa. El\
                 Estado debe financiar al estudiante, no al prestador. Si las escuelas públicas compiten en igualdad de condiciones con las\
                 privadas, ambas tenderán a mejorar. Lo importante es garantizar estándares, no sostener monopolios\n\
                 Voto: A favor. "
