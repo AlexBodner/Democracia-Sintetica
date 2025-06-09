@@ -78,8 +78,8 @@ async def main(output_folder = "evaluaciones"):
     with open("testing/leyes_limpias_lista_argumentos.json", "r", encoding="utf-8") as f:
         leyes = json.load(f)
     for ley in leyes:
-        #with open('debate_{ley["id"]}.json', 'r') as file:
-        with open('evaluaciones/debate_1.json', 'r', encoding="utf-8") as file:
+        #with open('{output_folder}/debate_{ley["id"]}.json', 'r') as file:
+        with open('evaluaciones/debate_1.json', 'r', encoding="utf-8") as file:#OJO CON ESTO
             debate_sintetico_por_agente = json.load(file)
         puntaje_final = 0 
 
@@ -90,7 +90,7 @@ async def main(output_folder = "evaluaciones"):
             evaluacion = await evaluador.evaluar_debate(debate_sintetico_por_agente, agente.agent_name,
                                                     (ley['posturas'][agente2postura[agente.agent_name]]["argumentacion"]), n_rounds = 3 , id=  ley["id"])
             
-            print(f"PRUEBA DELFI: {agente.agent_name}: {evaluador.evaluar_votacion(debate_sintetico_por_agente, agente.agent_name, ley['id'])}")
+            #print(f"PRUEBA DELFI: {agente.agent_name}: {evaluador.evaluar_votacion(debate_sintetico_por_agente, agente.agent_name, ley['id'])}")
             print(evaluacion)
             puntaje_final+=evaluacion.puntaje
         puntaje_final/=len(agentes)

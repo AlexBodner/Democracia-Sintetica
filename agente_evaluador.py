@@ -18,8 +18,8 @@ class AgenteEvaluador:
     
     agente2postura = {
         "Agente Liberal": "derecha_lla_pro_otros",
-        "Agente de Centro Derecha": "centro_derecha_jxc_otros",
-        "Agente de Centro Izquierda": "centro_izquierda_fdt_otros",
+        "Agente de Juntos Por El Cambio": "centro_derecha_jxc",
+        "Agente de Union Por La Patria": "centro_izquierda_uxp",
         "Agente de Izquierda": "izquierda_fit"
     }
 
@@ -107,9 +107,9 @@ class AgenteEvaluador:
             pydantic_response_structure=EvaluarAgenteResponse,
         )
 
-        argumentos_encontrados = await self.contar_argumentos(debate_sintetico_por_agente, nombre_agente,
-                      argumentaciones_reales, n_rounds=3, )
-        self.registrar_evaluacion(nombre_agente, response, argumentos_encontrados ,  id = id, output_folder =output_folder)
+        # argumentos_encontrados = await self.contar_argumentos(debate_sintetico_por_agente, nombre_agente,
+        #               argumentaciones_reales, n_rounds=3, )
+        #self.registrar_evaluacion(nombre_agente, response, argumentos_encontrados ,  id = id, output_folder =output_folder)
         return response
 
     def registrar_evaluacion(self,nombre_agente,analisis,argumentos_encontrados, id = 0, output_folder = "evaluaciones"):
