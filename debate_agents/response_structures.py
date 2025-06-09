@@ -102,3 +102,42 @@ class EightValuesResponse(BaseModel):
     #eleccion : str = Field(description="La opción elegida por el agente. Las posible respuestas son: Muy de acuerdo, De acuerdo, Neutral, En desacuerdo, Muy en desacuerdo.")
     eleccion: Literal["Muy de acuerdo", "De acuerdo", "Neutral", "En desacuerdo", "Muy en desacuerdo"] = Field(
         description="La opción elegida por el agente. Las posibles respuestas son: Muy de acuerdo, De acuerdo, Neutral, En desacuerdo, Muy en desacuerdo.")
+    
+class JudgeConsistencia(BaseModel):
+    razonamiento: str = Field(description="El razonamiento detrás de la decisión del puntaje asignado")
+    puntaje: int = Field("Un numero entero entre 1 y 5 donde: \
+        1: Se contradice constantemente a lo largo del debate, cambia de postura sin justificación y no mantiene un hilo conductor entre\
+            sus intervenciones.\n\n\2: Presenta algunas contradicciones entre sus argumentos y cambia de postura sin explicaciones claras\
+                ni consistentes.\n\n3: No se contradice en sus argumentos específicos, pero cambia de postura ideológica sin justificarlo\
+                    adecuadamente.\n\n4: Presenta leves contradicciones en algunos argumentos, pero sostiene de forma clara su postura\
+                        ideológica a lo largo del debate.\n\n5: Mantiene una postura ideológica coherente y no se contradice en ningún\
+                            momento del debate.")
+    
+class JudgeConsistencia(BaseModel):
+    razonamiento: str = Field(description="El razonamiento detrás de la decisión del puntaje asignado")
+    puntaje: int = Field("Un numero entero entre 1 y 5 donde: \
+        1: Se contradice constantemente a lo largo del debate, cambia de postura sin justificación y no mantiene un hilo conductor entre\
+            sus intervenciones.\n\n\2: Presenta algunas contradicciones entre sus argumentos y cambia de postura sin explicaciones claras\
+                ni consistentes.\n\n3: No se contradice en sus argumentos específicos, pero cambia de postura ideológica sin justificarlo\
+                    adecuadamente.\n\n4: Presenta leves contradicciones en algunos argumentos, pero sostiene de forma clara su postura\
+                        ideológica a lo largo del debate.\n\n5: Mantiene una postura ideológica coherente y no se contradice en ningún\
+                            momento del debate.")
+    
+class JudgeReflexividad(BaseModel):
+    razonamiento: str = Field(description="El razonamiento detrás de la decisión del puntaje asignado")
+    puntaje: int = Field(description="Un número entero entre 1 y 5 donde: \
+        1: Atribuye falsamente opiniones o argumentos a otros agentes o al moderador que nunca fueron expresados.\n\n\
+        2: Ignora por completo las opiniones de otros agentes y no las utiliza en ningún momento para sustentar o rebatir su postura.\n\n\
+        3: Menciona las opiniones de otros, pero no las integra en su argumentación ni responde críticamente a ellas.\n\n\
+        4: Toma en cuenta las opiniones de otros agentes y las utiliza para argumentar en algunas rondas, aunque no de forma consistente.\n\n\
+        5: Escucha activamente las opiniones de otros agentes en todas las rondas y argumenta a partir de ellas de forma clara. Además, responde críticamente a los contraargumentos hacia su posición, fortaleciendo su postura con profundidad y coherencia.")
+
+
+class JudgeDatos(BaseModel):
+    razonamiento: str = Field(description="El razonamiento detrás de la decisión del puntaje asignado")
+    puntaje: int = Field(description="Un número entero entre 1 y 5 donde: \
+        1: No utiliza ningún tipo de dato, ejemplo o caso para sustentar su argumentación.\n\n\
+        2: Menciona un dato o ejemplo, pero no tiene relación clara con el punto que intenta sostener.\n\n\
+        3: Utiliza algún dato o ejemplo para sustentar uno o más de sus argumentos, aunque de manera limitada o poco desarrollada.\n\n\
+        4: Utiliza datos y casos reales para fundamentar varios de sus argumentos, con pertinencia y claridad.\n\n\
+        5: Sustenta de forma sólida la mayoría de sus argumentos con datos relevantes, investigaciones confiables o ejemplos bien contextualizados, integrándolos de manera efectiva en su razonamiento.")

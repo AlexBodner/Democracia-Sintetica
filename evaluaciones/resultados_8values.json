@@ -2,13 +2,13 @@
     "Agente de Izquierda": {
         "puntaje": {
             "econ": 90.38461538461539,
-            "dipl": 37.77777777777778,
-            "govt": 71.484375,
-            "scty": 24.143835616438352
+            "dipl": 40.55555555555556,
+            "govt": 73.046875,
+            "scty": 25.428082191780817
         },
         "orientacion": {
             "econ": "Equidad",
-            "dipl": "Nacion",
+            "dipl": "Global",
             "govt": "Libertad",
             "scty": "Progresista"
         },
@@ -16,14 +16,14 @@
     },
     "Agente Liberal": {
         "puntaje": {
-            "econ": 18.58974358974359,
+            "econ": 19.871794871794872,
             "dipl": 61.111111111111114,
-            "govt": 64.453125,
-            "scty": 42.5513698630137
+            "govt": 68.359375,
+            "scty": 35.530821917808225
         },
         "orientacion": {
             "econ": "Mercado",
-            "dipl": "Global",
+            "dipl": "Nacion",
             "govt": "Libertad",
             "scty": "Progresista"
         },
@@ -31,14 +31,14 @@
     },
     "Agente de Juntos Por El Cambio": {
         "puntaje": {
-            "econ": 39.743589743589745,
+            "econ": 37.17948717948718,
             "dipl": 50.55555555555556,
-            "govt": 51.5625,
-            "scty": 43.49315068493151
+            "govt": 52.34375,
+            "scty": 45.205479452054796
         },
         "orientacion": {
             "econ": "Mercado",
-            "dipl": "Global",
+            "dipl": "Nacion",
             "govt": "Libertad",
             "scty": "Progresista"
         },
@@ -46,14 +46,14 @@
     },
     "Agente de Union Por La Patria": {
         "puntaje": {
-            "econ": 91.66666666666667,
-            "dipl": 38.333333333333336,
-            "govt": 59.375,
-            "scty": 27.56849315068493
+            "econ": 90.38461538461539,
+            "dipl": 35.55555555555556,
+            "govt": 60.15625,
+            "scty": 24.143835616438352
         },
         "orientacion": {
             "econ": "Equidad",
-            "dipl": "Nacion",
+            "dipl": "Global",
             "govt": "Libertad",
             "scty": "Progresista"
         },

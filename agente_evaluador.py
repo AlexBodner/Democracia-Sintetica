@@ -53,6 +53,8 @@ class AgenteEvaluador:
                 voto_agent = debate_sintetico_por_agente[f"Round {round}"][nombre_agente]["voto"]
                 cambios+=1
         return cambios
+    
+    
     async def contar_argumentos(self,debate_sintetico_por_agente, nombre_agente,
                                  argumentos_reales:str, n_rounds=3, ):
         debate_sintetico = get_agent_responses(debate_sintetico_por_agente, nombre_agente, n_rounds)
