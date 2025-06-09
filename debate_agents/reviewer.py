@@ -71,7 +71,7 @@ class Reviewer:# o orquestador
         if mock == False:
             report = await deepresearch(generated_response.consigna_de_busqueda)
         else:
-            with open("final_report.txt", "r") as archivo:
+            with open("final_report_aborto.txt", "r") as archivo:
                 report = archivo.read()
         return  report
     async def make_final_summary(self, full_debate: dict):

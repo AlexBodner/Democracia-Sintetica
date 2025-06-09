@@ -12,14 +12,14 @@ class FirstRound(Round):
         self.prompt = (
             f"En esta primera ronda, cada agente debe presentar su postura inicial frente a la ley '{law}', expresando si está a favor o en contra. "
             "La argumentación debe ser clara, concreta y estar bien fundamentada desde su perspectiva ideológica. "
-            "Se espera que se incluya al menos un ejemplo relevante, una referencia específica a la ley en cuestión y el impacto que podría tener. "
+            "Se espera que se incluya al menos una referencia específica a la ley en cuestión y el impacto que podría tener. "
             "Esta ronda sienta las bases del debate, por lo tanto es fundamental que cada agente exprese con solidez sus valores, principios y preocupaciones clave. "
             "Al finalizar su intervención, cada agente debe explicitar su voto actual: a favor o en contra de la ley."
             )
 
 
 
-class SecondRound(Round):
+class SecondRoundWithResearch(Round):
     def __init__(self, law, research):
         super().__init__(law)
         self.round_nr = 1
@@ -27,10 +27,11 @@ class SecondRound(Round):
             f"Un investigador especializado en el tema recopilo datos y estadisticas que podes usar para sustentar tu argumentacion y contrargumentar a otros agentes. A continuacion te presento el informe generado: "
             f"{research} \n\n"
             "En esta segunda ronda, cada agente recibe como contexto los argumentos expresados en la primera ronda por todos los agentes, "
-            "incluyendo su propia intervención. Su tarea es analizar críticamente esos argumentos y responder, reafirmando o ajustando su postura. "
+            "incluyendo su propia intervención. Su tarea es analizar críticamente esos argumentos y responder, reafirmando o ajustando su postura. Pueden hacer repreguntas, señalar falacias, o aportar nuevos datos que refuercen su posición. "
             "Deben identificar explícitamente a qué agente(s) están respondiendo, señalar los puntos de acuerdo o desacuerdo, y plantear contraargumentos claros y consistentes con su identidad ideológica. "
             "Si algún agente decide modificar su postura o voto, debe explicar de forma justificada qué lo motivó al cambio. "
-            "Esta ronda es clave para generar diálogo, tensión argumentativa y refinar las posiciones. "
+            "Esta ronda es clave para generar diálogo, tensión argumentativa y refinar las posiciones."
+            "Deben usar datos y estadísticas concretas del informe proporcionado para fortalecer sus argumentos, citando cifras o ejemplos relevantes. "
             "Al final, cada agente debe indicar si mantiene o modifica su voto sobre la ley."
         )
 

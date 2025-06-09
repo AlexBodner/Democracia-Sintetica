@@ -2,7 +2,7 @@ import asyncio
 from copy import deepcopy
 from debate_agents.investigador import Investigador
 from logger import new_logger
-from debate.round import FirstRound, SecondRound, ThirdRound
+from debate.round import FirstRound, SecondRoundWithResearch, ThirdRound
 import json
 import os
 
@@ -12,7 +12,7 @@ class Debate:
         self.agents = agents
         self.law = law
         self.reviewer = reviewer 
-        self.rounds = [FirstRound(law), SecondRound(law, ""), ThirdRound(law)]
+        self.rounds = [FirstRound(law), SecondRoundWithResearch(law, ""), ThirdRound(law)]
         #self.round_info = []
         self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica.")
     #                                         , instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
@@ -25,7 +25,7 @@ class Debate:
         
         research = await self.reviewer.make_deep_research(self.law)
 
-        self.rounds[1] = SecondRound(self.law, research)
+        self.rounds[1] = SecondRoundWithResearch(self.law, research)
 
         context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}. \n\
                     Van a haber 3 rondas, en la primera cada agente dara su opinion y argumentos a favor o en contra. \
@@ -36,7 +36,7 @@ class Debate:
         
         for round in self.rounds:
             logger.info(f"-----------------------------------Round {round.round_nr} -----------------------------------")
-            result = await self.debate_round(context, round,  full_debate)
+            result = await self.debate_round(context, round, full_debate)
             context+= result
 
         full_debate["Debate Completo"] = context
