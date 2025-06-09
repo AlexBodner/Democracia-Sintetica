@@ -1,10 +1,10 @@
 {
     "Agente de Izquierda": {
         "puntaje": {
-            "econ": 80.76923076923077,
+            "econ": 91.02564102564102,
             "dipl": 41.666666666666664,
             "govt": 75.0,
-            "scty": 26.284246575342465
+            "scty": 24.571917808219183
         },
         "orientacion": {
             "econ": "Equidad",
@@ -12,14 +12,14 @@
             "govt": "Libertad",
             "scty": "Progresista"
         },
-        "ideologia": "Libertarian Socialism"
+        "ideologia": "Libertarian Communism"
     },
     "Agente Liberal": {
         "puntaje": {
-            "econ": 15.384615384615385,
-            "dipl": 51.111111111111114,
-            "govt": 76.953125,
-            "scty": 43.66438356164384
+            "econ": 14.743589743589743,
+            "dipl": 54.44444444444444,
+            "govt": 71.09375,
+            "scty": 44.9486301369863
         },
         "orientacion": {
             "econ": "Mercado",
@@ -29,12 +29,12 @@
         },
         "ideologia": "Libertarian Capitalism"
     },
-    "Agente de Centro Derecha": {
+    "Agente de Juntos Por El Cambio": {
         "puntaje": {
-            "econ": 40.38461538461539,
-            "dipl": 43.333333333333336,
-            "govt": 53.515625,
-            "scty": 43.321917808219176
+            "econ": 35.8974358974359,
+            "dipl": 44.44444444444444,
+            "govt": 60.9375,
+            "scty": 42.97945205479452
         },
         "orientacion": {
             "econ": "Mercado",
@@ -44,12 +44,12 @@
         },
         "ideologia": "Liberalism"
     },
-    "Agente de Centro Izquierda": {
+    "Agente de Union Por La Patria": {
         "puntaje": {
-            "econ": 92.94871794871794,
-            "dipl": 35.0,
-            "govt": 67.578125,
-            "scty": 23.715753424657535
+            "econ": 92.3076923076923,
+            "dipl": 36.666666666666664,
+            "govt": 63.671875,
+            "scty": 25.171232876712324
         },
         "orientacion": {
             "econ": "Equidad",
