@@ -20,7 +20,7 @@ async def main(output_folder = "evaluaciones"):
     agente_centro_derecha = AgenteJxC
 
     
-    agentes = [ agente_izquierda]#agente_liberal, agente_centro_derecha, agente_centro_izquierda,
+    agentes = [ agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
     with open("testing/la_nacion.json", "r", encoding="utf-8") as f:
         preguntas =  json.load(f)
     respuestas  = {}
@@ -41,6 +41,7 @@ async def main(output_folder = "evaluaciones"):
             respuestas[agente.agent_name][pregunta["pregunta"]] = {"respuesta": respuesta.eleccion, "razonamiento": respuesta.razonamiento}
     with open(os.path.join(output_folder,f"respuestas_la_nacion_izq.json"), "w", encoding ='utf8') as archivo:
         json.dump(respuestas, archivo, indent=4, ensure_ascii = False)
+        
 if __name__ == "__main__":
     asyncio.run(main())
 
