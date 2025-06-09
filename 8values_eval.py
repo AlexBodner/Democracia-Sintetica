@@ -36,7 +36,7 @@ def normalizar_resultados_js_style(resultados_ejes):
     scty_norm = calc_score(resultados_ejes.get("scty", 0), max_scty)
     
     resultados_ejes["econ"] = econ_norm
-    resultados_ejes["dipl"] = 100 - dipl_norm
+    resultados_ejes["dipl"] = dipl_norm
     resultados_ejes["govt"] = govt_norm
     resultados_ejes["scty"] = 100 - scty_norm
     
