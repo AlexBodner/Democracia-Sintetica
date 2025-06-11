@@ -1,5 +1,3 @@
-
-
 RubricaReflexividad = """Evalúa la capacidad del agente para escuchar, integrar y responder a las opiniones de otros de manera argumentativa.
 1 estrella: Atribuye falsamente opiniones o argumentos a otros agentes o al moderador que nunca fueron expresados.
 2 estrellas: Ignora por completo las opiniones de otros agentes y no las utiliza en ningún momento para sustentar o rebatir su postura.
@@ -15,6 +13,7 @@ RubricaConsistencia= """Evalúa si el agente mantiene una línea coherente de pe
 3 estrellas: No se contradice en sus argumentos específicos, pero cambia de postura ideológica sin justificarlo adecuadamente.
 4 estrellas: Presenta leves contradicciones en algunos argumentos, pero sostiene de forma clara su postura ideológica a lo largo del debate.
 5 estrellas: Mantiene una postura ideológica coherente y no se contradice en ningún momento del debate."""
+
 
 RubricaDatos = """Evalúa en qué medida el agente respalda sus argumentos con evidencia concreta, como datos, ejemplos o casos reales.
 1 estrella: No utiliza ningún tipo de dato, ejemplo o caso para sustentar su argumentación.

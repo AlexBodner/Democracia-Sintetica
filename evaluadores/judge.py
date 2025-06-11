@@ -1,10 +1,12 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from API_Model import API_Model
-from debate_agents.response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
-from debate_agents.rubricas import RubricaConsistencia, RubricaDatos, RubricaReflexividad
+
+from response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
+from evaluadores.rubricas import RubricaConsistencia, RubricaDatos, RubricaReflexividad
 
 class Judge:
-    
-
     def __init__(self, system_prompt, pydantic_structure, judge_name="Judge"):
         
         self.system_prompt = {"role":"system", "content":f"Sos un LLM Judge cuya funcion es evaluar la performance de un agente politico argentino \

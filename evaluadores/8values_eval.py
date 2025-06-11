@@ -1,10 +1,14 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import asyncio
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteUxP
 from debate_agents.agente_centro_derecha import AgenteJxC
 import json
-from debate_agents.response_structures import  EightValuesResponse
+from response_structures import  EightValuesResponse
 import os
 from math import sqrt
 import numpy as np

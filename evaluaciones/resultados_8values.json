@@ -1,10 +1,10 @@
 {
     "Agente de Izquierda": {
         "puntaje": {
-            "econ": 90.38461538461539,
-            "dipl": 40.55555555555556,
-            "govt": 73.046875,
-            "scty": 25.428082191780817
+            "econ": 88.46153846153847,
+            "dipl": 39.44444444444444,
+            "govt": 75.78125,
+            "scty": 19.86301369863014
         },
         "orientacion": {
             "econ": "Equidad",
@@ -16,10 +16,10 @@
     },
     "Agente Liberal": {
         "puntaje": {
-            "econ": 19.871794871794872,
-            "dipl": 61.111111111111114,
-            "govt": 68.359375,
-            "scty": 35.530821917808225
+            "econ": 16.666666666666668,
+            "dipl": 57.77777777777778,
+            "govt": 69.53125,
+            "scty": 44.52054794520548
         },
         "orientacion": {
             "econ": "Mercado",
@@ -31,14 +31,14 @@
     },
     "Agente de Juntos Por El Cambio": {
         "puntaje": {
-            "econ": 37.17948717948718,
-            "dipl": 50.55555555555556,
-            "govt": 52.34375,
-            "scty": 45.205479452054796
+            "econ": 41.666666666666664,
+            "dipl": 48.333333333333336,
+            "govt": 53.90625,
+            "scty": 44.178082191780824
         },
         "orientacion": {
             "econ": "Mercado",
-            "dipl": "Nacion",
+            "dipl": "Global",
             "govt": "Libertad",
             "scty": "Progresista"
         },
@@ -46,10 +46,10 @@
     },
     "Agente de Union Por La Patria": {
         "puntaje": {
-            "econ": 90.38461538461539,
-            "dipl": 35.55555555555556,
-            "govt": 60.15625,
-            "scty": 24.143835616438352
+            "econ": 91.02564102564102,
+            "dipl": 38.333333333333336,
+            "govt": 61.71875,
+            "scty": 26.198630136986296
         },
         "orientacion": {
             "econ": "Equidad",

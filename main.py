@@ -1,7 +1,6 @@
 import asyncio
 from debate_agents.reviewer import Reviewer
-#from debate_agents.agent import Agent
-from debate.debate import Debate
+from debate.debate import DebateThreeRoundsWithResearch
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteUxP
@@ -21,7 +20,7 @@ if __name__ == "__main__":
     #law = "Se debe legalizar el LSD?"
     law = "Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."
 
-    debate = Debate(agents, 
+    debate = DebateThreeRoundsWithResearch(agents, 
                     law,
                     Reviewer(system_prompt = "Sos un agente especializado en análisis de debates normativos. Tu tarea es evaluar y resumir las posturas expresadas por otros agentes de distintas ideologías sobre un proyecto de ley, organizadas por eje temático (por ejemplo: equidad, constitucionalidad, impacto económico, etc.)."\
                                             "Para cada eje temático:" \

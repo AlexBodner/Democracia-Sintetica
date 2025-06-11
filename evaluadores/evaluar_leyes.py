@@ -1,20 +1,18 @@
 import asyncio
 import random
 import numpy as np
-#from agenteEvaluador import AgenteEvaluador
-from agente_evaluador import AgenteEvaluador
+
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from evaluadores.agente_evaluador import AgenteEvaluador
+
 from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteUxP
 from debate_agents.agente_centro_derecha import AgenteJxC
 import os
 import json
-
-
-
-
-
-
 
 def set_seed(seed: int):
     """
@@ -58,8 +56,8 @@ def format_system_prompt(agent):
     
 agente2postura = {
     "Agente Liberal": "derecha_lla_pro_otros",
-    "Agente de Centro Derecha": "centro_derecha_jxc_otros",
-    "Agente de Centro Izquierda": "centro_izquierda_fdt_otros",
+    "Agente de Juntos Por El Cambio": "centro_derecha_jxc_otros",
+    "Agente de Union Por La Patria": "centro_izquierda_fdt_otros",
     "Agente de Izquierda": "izquierda_fit"
 }
 

@@ -1,5 +1,5 @@
 from API_Model import API_Model
-from debate_agents.response_structures import StructuredReviewerResponse, DeepResearchQuery
+from response_structures import StructuredReviewerResponse, DeepResearchQuery
 from researcher.deepresearch import deepresearch
 class Reviewer:# o orquestador
     def __init__(self, system_prompt, agents,):
@@ -71,7 +71,7 @@ class Reviewer:# o orquestador
         if mock == False:
             report = await deepresearch(generated_response.consigna_de_busqueda)
         else:
-            with open("final_report_aborto.txt", "r") as archivo:
+            with open("output_utils/final_report_aborto.txt", "r") as archivo:
                 report = archivo.read()
         return  report
     

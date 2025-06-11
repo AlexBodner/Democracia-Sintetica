@@ -1,12 +1,11 @@
 import asyncio
 from copy import deepcopy
-from debate_agents.investigador import Investigador
-from logger import new_logger
+from output_utils.logger import new_logger
 from debate.round import FirstRound, SecondRoundWithResearch, ThirdRound
 import json
 import os
 
-logger = new_logger("debate_system.log")
+logger = new_logger("output_utils/debate_system.log")
 
 class DebateThreeRoundsWithResearch:
     def __init__(self, agents, law, reviewer):  
@@ -15,10 +14,10 @@ class DebateThreeRoundsWithResearch:
         self.law = law
         self.reviewer = reviewer 
         self.rounds = [FirstRound(law), SecondRoundWithResearch(law, ""), ThirdRound(law)]
-        self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica."), instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
+        
     
 
-    async def run_debate(self,id = 1,output_folder = "evaluaciones"):
+    async def run_debate(self,id = 1, output_folder = "evaluaciones"):
         #Sin intervencion del reviewer en el medio
         
         full_debate = {}
@@ -71,7 +70,7 @@ class DebateThreeRoundsWithResearch:
             agent_context = deepcopy(prev_round_context)
             agent_context.append(dar_palabra)
 
-            agent_response = await agent.speak(agent_context, search = False, investigador = self.investigador)
+            agent_response = await agent.speak(agent_context)
             full_debate[f"Round {round.round_nr}"][agent.agent_name] = {"argumentacion": agent_response["content"]["argumentacion"], "voto": agent_response["content"]["voto"]}
             
             agent_context = agent_response
@@ -88,48 +87,4 @@ class DebateThreeRoundsWithResearch:
 
     def conclusiones(self,full_debate):
         return self.reviewer.make_final_summary(full_debate)
-    
-
-    # async def make_closing_arguments(self, full_debate):
-    #     closing_round = []
-    #     logger.info("\n\n------------------- RONDA FINAL: CONCLUSIÓN GENERAL -------------------\n\n")
-
-
-    #     for agent in self.agents:
-    #         closing_instruction = {
-    #         "role": "user",
-    #         "content": (
-    #             "A continuación, deberás realizar un argumento de cierre sobre la ley en debate, tomando en cuenta todo el intercambio anterior.\n"
-    #             "Revisá tus posturas anteriores y las de los demás agentes, y hacé una síntesis final de tu postura general sobre la ley.\n"
-    #             "Podés mantener o cambiar tu voto si considerás que los argumentos de otros agentes te convencieron en alguno de los ejes.\n\n"
-    #             "Tu respuesta debe:\n"
-    #             f"- Ser coherente con tu identidad política. Recorda que debes ser fiel a {agent.agent_name}. Junta todos tus argumentos,\
-    #                 resumilos, y hace una conclusion final de tu voto general considerando todos los ejes.\n"
-    #             "- Incluir referencias o menciones a los argumentos más relevantes de los distintos tópicos.\n"
-    #             "- Terminar tu argumento con tu voto a favor o en contra, siguiendo este formato: \
-    #                 { argumentacion:  ....,\
-    #                   voto: ....\
-    #                 }\n\n"
-    #             "Este voto será considerado el definitivo."
-    #         )
-    #     }
-    #         logger.info(f"Agente: {agent.agent_name}")
-    #         agent_context = []
-
-        
-    #         for topic, messages in full_debate.items():
-    #             agent_context.append({
-    #                 "role": "user",
-    #                 "content": f"Debate sobre el eje '{topic}':\n"
-    #             })
-    #             agent_context.extend(messages)
-
-        
-    #         agent_context.append(closing_instruction)
-        
-    #         response = await agent.speak(agent_context,  search=False)
-    #         logger.info(response)
-    #         closing_round.append({"agent": agent.agent_name, "response": response})
-
-    #     return closing_round
     

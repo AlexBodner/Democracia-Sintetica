@@ -5,7 +5,7 @@ from openai import AsyncAzureOpenAI # Cliente asíncrono de OpenAI
 import instructor # Librería para estructurar la salida del modelo
 
 import os
-from debate_agents.response_structures import StructuredAgentResponse
+from response_structures import StructuredAgentResponse
 from dotenv import load_dotenv
 
 # --- Cargar variables de entorno ---

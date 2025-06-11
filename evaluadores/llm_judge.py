@@ -1,4 +1,4 @@
-from debate_agents.judge import judgeConsistencia, judgeDatos, judgeReflexividad
+from judge import judgeConsistencia, judgeDatos, judgeReflexividad
 import json
 import asyncio
 
