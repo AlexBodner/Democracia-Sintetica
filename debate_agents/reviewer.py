@@ -74,6 +74,8 @@ class Reviewer:# o orquestador
             with open("final_report_aborto.txt", "r") as archivo:
                 report = archivo.read()
         return  report
+    
+    
     async def make_final_summary(self, full_debate: dict):
         """Creates the final summary out of the topic summaries (o lo hacemos dado toda la conversacion?)
 

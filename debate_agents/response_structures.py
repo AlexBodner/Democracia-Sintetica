@@ -103,15 +103,6 @@ class EightValuesResponse(BaseModel):
     eleccion: Literal["Muy de acuerdo", "De acuerdo", "Neutral", "En desacuerdo", "Muy en desacuerdo"] = Field(
         description="La opción elegida por el agente. Las posibles respuestas son: Muy de acuerdo, De acuerdo, Neutral, En desacuerdo, Muy en desacuerdo.")
     
-class JudgeConsistencia(BaseModel):
-    razonamiento: str = Field(description="El razonamiento detrás de la decisión del puntaje asignado")
-    puntaje: int = Field("Un numero entero entre 1 y 5 donde: \
-        1: Se contradice constantemente a lo largo del debate, cambia de postura sin justificación y no mantiene un hilo conductor entre\
-            sus intervenciones.\n\n\2: Presenta algunas contradicciones entre sus argumentos y cambia de postura sin explicaciones claras\
-                ni consistentes.\n\n3: No se contradice en sus argumentos específicos, pero cambia de postura ideológica sin justificarlo\
-                    adecuadamente.\n\n4: Presenta leves contradicciones en algunos argumentos, pero sostiene de forma clara su postura\
-                        ideológica a lo largo del debate.\n\n5: Mantiene una postura ideológica coherente y no se contradice en ningún\
-                            momento del debate.")
     
 class JudgeConsistencia(BaseModel):
     razonamiento: str = Field(description="El razonamiento detrás de la decisión del puntaje asignado")

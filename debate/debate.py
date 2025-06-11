@@ -7,15 +7,15 @@ import json
 import os
 
 logger = new_logger("debate_system.log")
-class Debate:
+
+class DebateThreeRoundsWithResearch:
     def __init__(self, agents, law, reviewer):  
+        
         self.agents = agents
         self.law = law
         self.reviewer = reviewer 
         self.rounds = [FirstRound(law), SecondRoundWithResearch(law, ""), ThirdRound(law)]
-        #self.round_info = []
-        self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica.")
-    #                                         , instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
+        self.investigador = Investigador("Sos un investigador que va a proveer informacion de noticias y argumentos a distintos agentes que debaten de poltiica."), instruction="Cuando busques en la web, únicamente busca datos reales que sirvan para argumentar sobre la ley y no debates previos donde políticos expliciten su posición."
     
 
     async def run_debate(self,id = 1,output_folder = "evaluaciones"):
