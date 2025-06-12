@@ -8,13 +8,14 @@ import os
 logger = new_logger("output_utils/debate_system.log")
 
 class DebateThreeRoundsWithResearch:
-    def __init__(self, agents, law, reviewer):  
+    def __init__(self, agents, law, reviewer, mock_research = False):  
         
         self.agents = agents
         self.law = law
         self.reviewer = reviewer 
         self.rounds = [FirstRound(law), SecondRoundWithResearch(law, ""), ThirdRound(law)]
-        
+        self.mock_research = mock_research 
+
     
 
     async def run_debate(self,id = 1, output_folder = "evaluaciones"):
@@ -22,8 +23,8 @@ class DebateThreeRoundsWithResearch:
         
         full_debate = {}
         
-        research = await self.reviewer.make_deep_research(self.law)
-
+        research = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = id)
+        return 
         self.rounds[1] = SecondRoundWithResearch(self.law, research)
 
         context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}. \n\

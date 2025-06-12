@@ -41,7 +41,7 @@ class Reviewer:# o orquestador
         )
         return generated_response.resumen
     
-    async def make_deep_research(self, ley, mock=True):
+    async def make_deep_research(self, ley, mock=True,id  = 1):
         context = []
         #  Como especialista en Geopolitica, ciencias sociales y economía,
         context.append({"role" : "user", "content":  f"""\
@@ -70,8 +70,11 @@ class Reviewer:# o orquestador
         )
         if mock == False:
             report = await deepresearch(generated_response.consigna_de_busqueda)
+            # Save final report
+            with open(f"researchs/{id}.txt",'w', encoding='utf-8') as f:
+                f.write(report)
         else:
-            with open("output_utils/final_report_aborto.txt", "r") as archivo:
+            with open(f"researchs/{id}.txt", "r") as archivo:
                 report = archivo.read()
         return  report
     

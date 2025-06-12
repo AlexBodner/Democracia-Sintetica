@@ -76,8 +76,8 @@ async def main(output_folder = "evaluaciones"):
     with open("testing/leyes_limpias_lista_argumentos.json", "r", encoding="utf-8") as f:
         leyes = json.load(f)
     for ley in leyes:
-        #with open('{output_folder}/debate_{ley["id"]}.json', 'r') as file:
-        with open('evaluaciones/debate_1.json', 'r', encoding="utf-8") as file:#OJO CON ESTO
+        with open(f'{output_folder}/debate_{ley["id"]}.json', 'r') as file:
+        #with open('evaluaciones/debate_1.json', 'r', encoding="utf-8") as file:#OJO CON ESTO
             debate_sintetico_por_agente = json.load(file)
         puntaje_final = 0 
 
