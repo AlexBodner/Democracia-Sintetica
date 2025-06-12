@@ -18,7 +18,7 @@ if __name__ == "__main__":
     agents = [agente_liberal, agente_jxc, agente_UxP, agente_izquierda]
 
     #law = "Se debe legalizar el LSD?"
-    with open("testing/leyes_limpias_lista_argumentos.json", "r", encoding="utf-8") as f:
+    with open("testing/leyes_limpias.json", "r", encoding="utf-8") as f:
         leyes = json.load(f)
     for ley in leyes:
         ley_texto = ley["nombre"] +". "+ ley["resumen"]#"Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."

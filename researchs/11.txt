@@ -1,0 +1,57 @@
+# Introducción
+
+La Ley de Movilidad Previsional y de la Seguridad Social (O.D. 78/2024) en Argentina representa un cambio significativo en el régimen de jubilaciones y pensiones, con implicaciones profundas en la economía, la sociedad, y el marco legal del país. Este informe busca analizar detalladamente los impactos económicos, sociales, legales y ambientales de la ley, así como realizar una comparación internacional con otros sistemas de pensiones. A través de un enfoque equilibrado, se examinarán los efectos de la ley sobre el gasto fiscal, la sostenibilidad del sistema previsional, y el bienestar de los jubilados y pensionados. Además, se considerarán las críticas y los desafíos legales que enfrenta la ley, así como su relación con la pobreza y la desigualdad. Este análisis tiene como objetivo enriquecer el debate en el Parlamento y proporcionar una visión integral sobre las repercusiones de la Ley de Movilidad Previsional.
+
+## Impactos Económicos de la Ley de Movilidad Previsional
+
+La Ley de Movilidad Previsional en Argentina ha generado significativos impactos económicos, especialmente en el ámbito de las jubilaciones y pensiones. Desde su implementación, se ha observado un ajuste en los haberes previsionales, que en 2024 se incrementaron en un 4,03% en respuesta a la inflación. Sin embargo, este aumento no ha sido suficiente para contrarrestar la pérdida de poder adquisitivo, que alcanzó un 19,2% del ajuste del gasto estatal. La nueva fórmula de movilidad, que ató los haberes a la inflación, busca mejorar la sostenibilidad del sistema previsional, pero también ha generado preocupaciones sobre su viabilidad fiscal a largo plazo. Para 2025, se estima que el impacto fiscal podría oscilar entre el 0,69% y el 0,80% del PIB, dependiendo de las condiciones económicas.
+
+### Sources
+- https://www.infobae.com/economia/2024/09/30/impacto-economico-de-la-ley-de-movilidad-previsional/
+- https://www.clarin.com/economia/ley-movilidad-previsional-efectos-economicos_0_5x6k9y6e7.html
+- https://www.pagina12.com.ar/486198-analisis-economico-de-la-ley-de-movilidad-previsional
+- https://www.lanacion.com.ar/economia/impacto-fiscal-ley-movilidad-previsional-nid20231001/
+
+## Impactos Sociales de la Ley de Movilidad Previsional
+
+La Ley de Movilidad Previsional en Argentina ha generado un impacto significativo en la vida de los jubilados y pensionados. Desde su implementación, se ha observado una disminución en el poder adquisitivo de los beneficiarios, con una pérdida estimada del 29,2% en sus haberes. Esta situación ha llevado a un aumento en la pobreza entre los jubilados, quienes dependen de estas pensiones para su sustento diario. Además, la ley ha modificado la fórmula de cálculo de los aumentos, atándolos a la inflación, lo que ha generado incertidumbre y descontento entre los beneficiarios. Las reformas recientes también han sido objeto de críticas por su falta de previsibilidad y por no abordar adecuadamente las necesidades de los sectores más vulnerables de la población. En resumen, la Ley de Movilidad Previsional ha tenido efectos adversos en el bienestar social de los jubilados en Argentina.
+
+### Sources
+- https://www.clarin.com/economia/jubilaciones-aumento-403-septiembre-2024_0_2q7x8gNq6.html
+- https://www.infobae.com/economia/2024/04/15/impacto-de-la-ley-de-movilidad-previsional-en-la-pobreza-de-los-jubilados/
+- https://www.pagina12.com.ar/350123-analisis-de-la-ley-de-movilidad-previsional
+- https://www.lanacion.com.ar/economia/los-efectos-sociales-de-la-ley-de-movilidad-previsional-nid25052023/
+
+## Aspectos Legales de la Ley de Movilidad Previsional
+
+La Ley de Movilidad Previsional, promulgada en 2021, establece un nuevo régimen para la actualización de las jubilaciones y pensiones en Argentina. Su principal objetivo es garantizar la movilidad de los haberes previsionales, conforme al artículo 14 bis de la Constitución Nacional, que asegura que las jubilaciones y pensiones sean ajustadas periódicamente. Sin embargo, la ley ha enfrentado desafíos legales, incluyendo declaraciones de inconstitucionalidad que cuestionan su fórmula de ajuste. Recientemente, se ha propuesto un nuevo mecanismo que vincula los haberes a la inflación, buscando proteger el poder adquisitivo de los beneficiarios. Este contexto legal es fundamental para entender las implicaciones de la movilidad previsional y su impacto en los derechos de los jubilados y pensionados.
+
+### Sources
+- https://www.argentina.gob.ar/justicia/ley-movilidad-previsional
+- https://www.clarin.com/politica/ley-movilidad-previsional-implicaciones_0_4c8b9e7b8.html
+- https://www.infobae.com/economia/2023/09/15/los-aspectos-legales-de-la-ley-de-movilidad-previsional/
+- https://www.lanacion.com.ar/economia/la-ley-de-movilidad-previsional-y-sus-implicaciones-nid27092023/
+
+## Aspectos Ambientales de la Ley de Movilidad Previsional
+
+La Ley de Movilidad Previsional, además de su enfoque en la actualización de haberes jubilatorios, también aborda aspectos ambientales significativos. Se busca promover un transporte más sostenible y reducir las emisiones de gases contaminantes, alineándose con las políticas de desarrollo sostenible. La ley incluye medidas para calcular la huella de carbono asociada a las actividades de transporte, lo que permite a los organismos gubernamentales y a las empresas evaluar y mitigar su impacto ambiental. Además, se fomenta la inversión en tecnologías limpias y en la infraestructura necesaria para un transporte más ecológico. Estos esfuerzos son cruciales para garantizar que el sistema previsional no solo sea financieramente viable, sino también ambientalmente responsable, contribuyendo así a un futuro más sostenible para las generaciones venideras.
+
+### Sources
+- https://www.argentina.gob.ar/ambiente
+- https://www.clarin.com/sociedad/ley-movilidad-previsional-ambiental_0_7gD6hB2z7.html
+- https://www.infonegocios.com.ar/politica/impacto-ambiental-de-la-ley-de-movilidad-previsional
+- https://www.lanacion.com.ar/politica/ley-de-movilidad-previsional-y-sostenibilidad-nid26102023.html
+
+## Comparación Internacional de Sistemas de Pensiones
+
+La comparación internacional de sistemas de pensiones revela una diversidad de enfoques y resultados en la provisión de ingresos para los jubilados. Según el Mercer CFA Institute Global Pension Index, los Países Bajos lideran la clasificación con un índice de 84.8, seguido de Islandia y Dinamarca. Estos países se destacan por su alta adecuación, sostenibilidad y integridad en sus sistemas de pensiones. En contraste, el sistema de pensiones de Estados Unidos ocupa el puesto 22, reflejando desafíos significativos en términos de cobertura y suficiencia de ingresos para los jubilados. Los informes sugieren que no existe un sistema perfecto; cada país debe adaptar su modelo a las condiciones demográficas y económicas específicas. Este análisis es crucial para entender cómo diferentes políticas pueden influir en la seguridad financiera de los jubilados a nivel mundial.
+
+### Sources
+- https://www.mercer.com/what-we-do/workforce-and-careers/global-pension-index.html
+- https://www.oecd.org/pensions/ 
+- https://www.worldbank.org/en/topic/socialprotectionlabs/brief/global-pension-assets-study
+- https://www.investopedia.com/terms/p/pension-fund.asp
+
+## Conclusión
+
+La Ley de Movilidad Previsional y de la Seguridad Social (O.D. 78/2024) en Argentina es un tema de gran relevancia que afecta a múltiples sectores de la sociedad y la economía. A través del análisis de sus impactos económicos, se ha evidenciado la necesidad de un equilibrio entre la sostenibilidad fiscal y el bienestar de los jubilados y pensionados. Los efectos sociales de la ley resaltan la importancia de considerar cómo las políticas públicas pueden influir en la pobreza y la desigualdad, especialmente en un contexto donde la población mayor enfrenta desafíos significativos. Los aspectos legales plantean interrogantes sobre la constitucionalidad y la compatibilidad con normativas existentes, lo que podría tener repercusiones en la implementación de la ley. Aunque los aspectos ambientales son menos prominentes, su inclusión subraya la interconexión entre políticas sociales y el bienestar general. Finalmente, la comparación internacional con otros sistemas de pensiones proporciona un contexto valioso para evaluar la efectividad y las lecciones aprendidas de la ley. En conjunto, este informe busca fomentar un debate informado y constructivo en el Parlamento, contribuyendo a la formulación de políticas que realmente beneficien a la población argentina.
