@@ -956,40 +956,6 @@
         "resultado_final": "Aprobada. Diputados: 134 votos a favor, 107 en contra. Senado: 37 a favor, 23 en contra."
     },
     {
-        "id": 28,
-        "nombre": "Ley de Alquiler Social (proyectos legislativos)",
-        "año": 2023,
-        "estado": "En tratamiento",
-        "resumen": "Varias iniciativas legislativas buscan crear un régimen de alquiler social que facilite el acceso a la vivienda. Estas propuestas incluyen plazos de contrato extendidos, subsidios estatales para inquilinos vulnerables y eliminaci&oacute;n de requisitos como dep&oacute;sito o comprobantes de ingresos formales. El objetivo es ofrecer alquileres a precios asequibles a familias de bajos recursos y hogares monoparentales, liber&aacute;ndolos de las barreras típicas del mercado informal.",
-        "posturas": {
-            "izquierda_fit": {
-                "argumentacion": [
-                    "El FIT impulsa una ley de alquiler social con garant&iacute;a estatal y subsidios para los sectores m&aacute;s vulnerables."
-                ],
-                "voto": "A favor"
-            },
-            "centro_izquierda_fdt_otros": {
-                "argumentacion": [
-                    "Desde el oficialismo apoyan medidas para proteger inquilinos (por ejemplo, extensi&oacute;n de subSIDios y mayor intervenci&oacute;n estatal)."
-                ],
-                "voto": "A favor"
-            },
-            "centro_derecha_jxc_otros": {
-                "argumentacion": [
-                    "El espacio de centro-derecha se opone a nuevas cargas sobre los propietarios y cuestiona la intervenci&oacute;n estatal en el mercado inmobiliario."
-                ],
-                "voto": "En contra"
-            },
-            "derecha_lla_pro_otros": {
-                "argumentacion": [
-                    "El sector de derecha critica los costos fiscales que implican subsidios al alquiler y aboga por soluciones de mercado, no estatales."
-                ],
-                "voto": "En contra"
-            }
-        },
-        "resultado_final": "No se avanz&oacute; a sanci&oacute;n. Los proyectos se encuentran pendientes de tratamiento en comisi&oacute;n."
-    },
-    {
         "id": 29,
         "nombre": "Ley General del Ambiente (Ley 25.675) – COFEMA",
         "año": 2002,

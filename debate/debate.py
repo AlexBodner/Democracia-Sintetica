@@ -65,6 +65,7 @@ class DebateThreeRoundsWithResearch:
         prev_round_context.append({"role":"user", "content": round.prompt})
 
         for agent in self.agents:
+            
             logger.info(f"Agente: {agent.agent_name}")
             dar_palabra = {"role":"user", "content": f"Tiene la palabra el {agent.agent_name}"} #este es el reviewer
             agent_context = deepcopy(prev_round_context)
@@ -80,7 +81,6 @@ class DebateThreeRoundsWithResearch:
             round_context.append(dar_palabra)
 
             round_context.append(agent_context)
-            
             
         return round_context
 
