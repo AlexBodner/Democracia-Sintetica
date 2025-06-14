@@ -71,5 +71,5 @@ with open("testing/leyes.json", "r", encoding="utf-8") as f:
     leyes = json.load(f)
 
 for ley in leyes:
-    asyncio.run(judge_full_debate(f"debates/debate_{ley["id"]}.json", ley["id"], n_rounds=3))
+    asyncio.run(judge_full_debate(f"debates/debate_{ley['id']}.json", ley['id'], n_rounds=3))
 
