@@ -8,7 +8,7 @@ import os
 logger = new_logger("output_utils/debate_system.log")
 
 class DebateThreeRoundsWithResearch:
-    def __init__(self, agents, law, reviewer, mock_research = False):  
+    def __init__(self, agents, law, reviewer, mock_research = True):  
         
         self.agents = agents
         self.law = law
@@ -24,7 +24,6 @@ class DebateThreeRoundsWithResearch:
         full_debate = {}
         
         research = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = id)
-        return 
         self.rounds[1] = SecondRoundWithResearch(self.law, research)
 
         context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}. \n\
