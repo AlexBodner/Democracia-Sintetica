@@ -8,7 +8,7 @@ import os
 logger = new_logger("output_utils/debate_system.log")
 
 class DebateThreeRoundsWithResearch:
-    def __init__(self, agents, law, reviewer, mock_research = True):  
+    def __init__(self, agents, law, reviewer, mock_research = False):  
         
         self.agents = agents
         self.law = law
