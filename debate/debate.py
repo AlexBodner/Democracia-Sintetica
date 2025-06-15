@@ -18,7 +18,7 @@ class DebateThreeRoundsWithResearch:
 
     
 
-    async def run_debate(self,id = 1, output_folder = "evaluaciones"):
+    async def run_debate(self, id = 1, output_folder = "evaluaciones"):
         #Sin intervencion del reviewer en el medio
         
         full_debate = {}
