@@ -43,7 +43,7 @@ async def judge_agent_debate(debate, agent_name, n_rounds=3):
     }
         
 
-async def judge_full_debate(debate, n_rounds=3, output_folder="evaluaciones"):
+async def judge_full_debate(debate, id, n_rounds=3, output_folder="evaluaciones"):
     """
     Juzga el debate completo de todos los agentes políticos.
 
@@ -62,10 +62,14 @@ async def judge_full_debate(debate, n_rounds=3, output_folder="evaluaciones"):
         results[agent_name] = await judge_agent_debate(debate, agent_name, n_rounds)
     
     print(results)
-    json.dump(results, open(f"{output_folder}/judgment_results.json", "w", encoding="utf-8"), indent=4, ensure_ascii=False)
+    json.dump(results, open(f"{output_folder}/judgment_results_{id}.json", "w", encoding="utf-8"), indent=4, ensure_ascii=False)
     return results
 
 
 
-asyncio.run(judge_full_debate("evaluaciones/debate_1.json", n_rounds=3))
+with open("testing/leyes.json", "r", encoding="utf-8") as f:
+    leyes = json.load(f)
+
+for ley in leyes:
+    asyncio.run(judge_full_debate(f"debates/debate_{ley["id"]}.json", ley["id"], n_rounds=3))
 

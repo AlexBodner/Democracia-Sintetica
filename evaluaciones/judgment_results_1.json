@@ -1,0 +1,58 @@
+{
+    "Agente Liberal": {
+        "consistencia": {
+            "razonamiento": "El Agente Liberal presenta una postura coherente a lo largo del debate, en torno al derecho de la mujer a decidir sobre su cuerpo, pero se contradice en su postura ideológica al justificar su apoyo a la legalización del aborto, y al mismo tiempo argumentar en contra de la cobertura estatal del mismo. A pesar de reconocer la autonomía de la mujer y la importancia de su derecho a decidir, su preocupación por la intervención del Estado y la dependencia del sector privado genera una falta de claridad en su posición final. El Agente mantiene una preocupación constante acerca del gasto público y el papel del Estado, lo que se alinea con los principios del liberalismo, pero su transición de apoyar la legalización a oponerse a la cobertura estatal se presenta como contradictoria, lo que podría ser considerado como un cambio ideológico sin suficientes justificaciones claras. Esto le da un puntaje de 3 ya que no se contradice en sus argumentos específicos, pero cambia de postura ideológica sin justificarlo adecuadamente.",
+            "puntaje": 3
+        },
+        "datos": {
+            "razonamiento": "El Agente Liberal presenta una postura clara sobre la Ley de Interrupción Voluntaria del Embarazo, abogando por la autonomía de la mujer, pero su argumentación carece de datos concretos, ejemplos específicos o investigaciones relevantes que respalden sus afirmaciones. Si bien menciona el costo y los beneficios para el sistema de salud, no proporciona cifras ni estudios que demuestren su punto de vista sobre el posible aumento del gasto público y la creación de dependencia. Además, aunque llama a la eficiencia del mercado y la educación preventiva, no ofrece ejemplos de cómo estas alternativas han funcionado en otros contextos o con evidencia concreta. Por lo tanto, su argumentación se queda en una exposición de principios y preocupaciones sin el apoyo requerido para otorgar mayor peso a sus afirmaciones.",
+            "puntaje": 2
+        },
+        "reflexividad": {
+            "razonamiento": "El Agente Liberal muestra cierta atención a las opiniones de otros agentes, como el de Unión Por la Patria y el de Izquierda, mencionando sus argumentos sobre la importancia de la cobertura estatal y el acceso seguro al aborto. Sin embargo, aunque los menciona, no los integra de manera profunda ni responde críticamente a sus propuestas; en cambio, se limita a reafirmar su posición en contra de la cobertura estatal sin abordar sus puntos de vista de manera exhaustiva. Además, no se observa una respuesta clara a posibles contraargumentos hacia su postura, lo que limita la consistencia de su argumentación. Por lo tanto, le asigno un puntaje de 3, dado que menciona las opiniones de otros, pero no las integra efectivamente en su argumentación ni responde críticamente a ellas como podría hacerlo.",
+            "puntaje": 3
+        }
+    },
+    "Agente de Juntos Por El Cambio": {
+        "consistencia": {
+            "razonamiento": "El agente de Juntos por el Cambio mantiene una postura ideológica clara a lo largo de su intervención, centrándose en la defensa de la vida desde la concepción. A pesar de reconocer algunas implicancias del informe en el cuidado de la salud pública y el acceso a servicios, no se contradice al sustentar su oposición a la ley de aborto desde el principio hasta el final. Si bien repite sus argumentos sobre la desresponsabilización y la falta de educación sexual, lo hace de manera coherente, reforzando su lógica en cada una de las rondas sin cambiar su postura. Aunque podría considerarse que su retórica podría ser interpretada como rígida, esto no implica contradicciones en sus argumentos. Por lo tanto, su desempeño se califica como notable por su consistencia ideológica y la falta de contradicciones en su argumentación.",
+            "puntaje": 5
+        },
+        "datos": {
+            "razonamiento": "El agente presenta sus argumentos en contra de la Ley de Interrupción Voluntaria del Embarazo (IVE) fundamentándose principalmente en principios éticos y la defensa de la vida. Sin embargo, no menciona datos concretos ni ejemplos específicos que refuercen su postura. Aunque hace alusión a un informe que menciona beneficios económicos o el acceso a servicios de salud, no ofrece cifras o estudios que respalden estas afirmaciones. Su argumentación se basa en preocupaciones morales y éticas sin proporcionar evidencias que fortalezcan sus puntos de vista, lo que limita la efectividad de su argumentación.",
+            "puntaje": 2
+        },
+        "reflexividad": {
+            "razonamiento": "El agente de Juntos por el Cambio presenta una postura clara y consistente en contra de la Ley de Interrupción Voluntaria del Embarazo (IVE), centrándose en la defensa del valor de la vida desde la concepción. Sin embargo, aunque menciona y discute argumentos de los demás, no los integra efectivamente en su propia argumentación, ni responde de manera crítica a los mismos. A lo largo de las rondas, se observó que el agente ignora en gran medida los contraargumentos que se le presentan, limitándose a reiterar sus puntos sin abordar de manera significativa las preocupaciones sobre los beneficios de la legalización o del impacto en la salud pública. En consecuencia, aunque se reconocen algunos aspectos de los argumentos de otros, su interacción no es lo suficientemente profunda como para ser considerada activa o crítica. Así, su desempeño se alinea más con una calificación de 3.",
+            "puntaje": 3
+        }
+    },
+    "Agente de Union Por La Patria": {
+        "consistencia": {
+            "razonamiento": "El agente mantiene una postura coherente a lo largo de todas sus intervenciones, sin contradicciones en su postura ideológica sobre la Ley de Interrupción Voluntaria del Embarazo. A lo largo del debate, sustenta consistentemente su apoyo a la ley como un avance en los derechos de las mujeres y la salud pública. Refuerza sus argumentos al mencionar cómo la ley contribuye a la justicia social y a la equidad en el acceso a servicios de salud, sin cambiar su postura general. Aunque menciona consideraciones sobre la educación y la prevención, esto no se presenta como una contradicción, sino como un complemento a su argumento principal. Por lo tanto, el agente mantiene una postura ideológica clara y consistente a lo largo del debate, lo que le otorga una calificación alta.",
+            "puntaje": 5
+        },
+        "datos": {
+            "razonamiento": "El agente, a lo largo de sus intervenciones, presenta varios argumentos a favor de la Ley de Interrupción Voluntaria del Embarazo y menciona la reducción de la mortalidad materna y la mejora en el acceso a la salud como beneficios claros de la ley. Sin embargo, aunque hace referencia a datos y conceptos generales (como la disminución de gastos por complicaciones de abortos inseguros), carece de cifras específicas o ejemplos concretos que sustenten estas afirmaciones. Menciona que el informe respalda sus puntos, pero no detalla de qué informe se trata ni proporciona datos claros que fortalezcan sus argumentos. Por lo tanto, aunque hay elementos de fundamentación, estos son limitados y no desarrollados en profundidad. Esto lo coloca en un nivel bajo de sustentación argumentativa.",
+            "puntaje": 3
+        },
+        "reflexividad": {
+            "razonamiento": "El Agente de Unión por la Patria muestra una postura sostenida a favor de la Ley de Interrupción Voluntaria del Embarazo, señalando diversos argumentos y datos que respaldan su posición. Sin embargo, aunque menciona algunas opiniones de la oposición, no se observa una integración efectiva de las mismas en su argumentación. A lo largo de los fragmentos presentados, el agente no responde de manera crítica a las opiniones contrarias, solo las menciona y reafirma su postura sin un diálogo constructivo. Esto limita la profundidad de su argumentación y la percepción de un verdadero intercambio de ideas. Además, si bien se refiere a preocupaciones sobre salud pública y derechos, no se ve una respuesta clara a los contraargumentos, lo que reduce la fortaleza de su posición. En resumen, aunque hay un esfuerzo por considerar puntos de vista opuestos, la falta de integración y respuesta crítica sostiene la evaluación en un nivel 3.",
+            "puntaje": 3
+        }
+    },
+    "Agente de Izquierda": {
+        "consistencia": {
+            "razonamiento": "El Agente de Izquierda presenta una postura clara y consistente a favor de la Ley de Interrupción Voluntaria del Embarazo (IVE) a lo largo de todo el debate. En cada intervención, sostiene que la ley es un avance en la defensa de los derechos de las mujeres y en la salud pública, argumentando que la despenalización del aborto es fundamental para garantizar la autonomía sobre el propio cuerpo. No hay contradicciones evidentes en sus argumentaciones y su enfoque sobre la importancia del acceso universal al aborto que debe ser garantizado por el Estado es siempre el mismo. En términos de cambios de postura, se mantiene firme en su postura ideológica a lo largo del debate, abordando diferentes aspectos del tema desde la salud pública hasta los derechos humanos, pero sin cambiar de base su postura. Con todo esto, su consistencia y línea de pensamiento son claras y coherentes a lo largo de las tres rondas.",
+            "puntaje": 5
+        },
+        "datos": {
+            "razonamiento": "El Agente de Izquierda utiliza varios argumentos apoyados por evidencia, especialmente al mencionar el impacto positivo que la Ley de IVE puede tener en la salud pública y en el sistema de salud en general, al reducir complicaciones por abortos inseguros. Hace referencia a un informe que menciona la eficiencia económica y la reducción de gastos para el sistema de salud, lo cual es pertinente y está bien desarrollado. Además, contextualiza su comparación con los estándares internacionales de derechos humanos, lo que otorga mayor peso a sus afirmaciones. Sin embargo, aunque menciona la existencia de un informe, no presenta datos concretos o cifras que podrían reforzar sus argumentos de manera más sólida. Por lo tanto, si bien su argumentación es más robusta que en un nivel básico, aún puede ser considerada limitada, ya que no todos sus argumentos están fundamentados con datos claros y específicos de manera consistente. Por estas razones, considero que la evaluación más adecuada para su actuación es de 4 estrellas.",
+            "puntaje": 4
+        },
+        "reflexividad": {
+            "razonamiento": "El Agente de Izquierda demuestra una capacidad notable para escuchar y responder a las opiniones de otros en cada ronda del debate. En comparación con los argumentos de otros agentes, integra sus puntos de vista sobre la importancia del acceso al aborto y que el enfoque en la educación y la prevención no debe ser un reemplazo de la legalización. En distintas oportunidades, menciona y refuerza sus opiniones basándose en evidencias y argumentos presentados por otros. Además, aborda las críticas planteadas con respuestas claras y fundadas, aunque no siempre lo hace de forma consistente en cada ronda. Por lo tanto, aunque hay momentos de integración efectiva y respuesta a críticas, la consistencia en el uso de opiniones ajenas podría mejorar. En general, recibió 4 estrellas ya que toma en cuenta las opiniones de otros agentes y las utiliza para argumentar, aunque en ocasiones de manera inconsistente.",
+            "puntaje": 4
+        }
+    }
+}
