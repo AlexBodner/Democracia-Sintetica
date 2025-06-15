@@ -1,7 +1,8 @@
-from judge import judgeConsistencia, judgeDatos, judgeReflexividad
 import json
 import asyncio
-
+from response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
+from evaluadores.rubricas import RubricaConsistencia, RubricaDatos, RubricaReflexividad
+from evaluadores.judge import Judge
 def get_agent_responses(debate, agent_name, n_rounds=3):
     agent_response = ""
     for i in range(n_rounds):
@@ -9,67 +10,36 @@ def get_agent_responses(debate, agent_name, n_rounds=3):
             agent_response += f"\n\n--- Round {i} ---\n" + debate[f"Round {i}"][agent_name]["argumentacion"] + "\n"
     return agent_response
 
-async def judge_agent_debate(debate, agent_name, n_rounds=3):
+
+async def judge_rubric_with_arguments(agent_name, rubric, agent_response, pydantic_structure):
     """
-    Juzga el debate de un agente político en base a las respuestas del debate.
+    Juzga la rubrica de un agente politico en base a las respuestas del debate.
 
     Args:
-        debate (dict): Diccionario que contiene el debate completo.
-        agent_name (str): Nombre del agente político.
-        n_rounds (int): Número de rondas del debate.
-
+        agent_name (str): Nombre del agente politico.
+        rubric (str): Rubrica de evaluacion.
+        agent_response (List[str]): Todo lo que dijo el agente en el debate.
+        pydantic_structure (Pydantic): Estructura de datos Pydantic para la respuesta del juez.
     Returns:
-        dict: Resultados del juicio, incluyendo consistencia, datos y reflexividad.
+        dict: Resultados del juicio, incluyendo razonamiento y puntaje.
     """
-    agent_response = get_agent_responses(debate, agent_name, n_rounds)
-
-    consistencia_razonamiento, consistencia_puntaje = await judgeConsistencia.judge_debate(agent_name, agent_response)
-    datos_razonamiento, datos_puntaje = await judgeDatos.judge_debate(agent_name, agent_response)
-    reflexividad_razonamiento, reflexividad_puntaje = await judgeReflexividad.judge_debate(agent_name, agent_response)
-
-    return {
-        "consistencia": {
-            "razonamiento": consistencia_razonamiento,
-            "puntaje": consistencia_puntaje
-        },
-        "datos": {
-            "razonamiento": datos_razonamiento,
-            "puntaje": datos_puntaje
-        },
-        "reflexividad": {
-            "razonamiento": reflexividad_razonamiento,
-            "puntaje": reflexividad_puntaje
-        }
-    }
-        
-
-async def judge_full_debate(debate, id, n_rounds=3, output_folder="evaluaciones"):
-    """
-    Juzga el debate completo de todos los agentes políticos.
-
-    Args:
-        debate (dict): Diccionario que contiene el debate completo.
-        n_rounds (int): Número de rondas del debate.
-
-    Returns:
-        dict: Resultados del juicio para cada agente político.
-    """
-    results = {}
-    with open(debate, "r", encoding="utf-8") as f:
-        debate = json.load(f)
-        
-    for agent_name in debate[f"Round {n_rounds-1}"].keys():
-        results[agent_name] = await judge_agent_debate(debate, agent_name, n_rounds)
+    judge = Judge(rubric=rubric, pydantic_structure=pydantic_structure,)
+    razonamiento, puntaje = await judge.judge_agent_arguments(agent_name, agent_response)
+    return razonamiento, puntaje
     
-    print(results)
-    json.dump(results, open(f"{output_folder}/judgment_results_{id}.json", "w", encoding="utf-8"), indent=4, ensure_ascii=False)
-    return results
+from typings import Optional
+async def judge_rubric_with_debate_and_summary(agent_name: Optional,rubric, debate, summary,pydantic_structure):
+    """
+    Juzga la rubrica de un agente politico en base a las respuestas del debate.
 
-
-
-with open("testing/leyes.json", "r", encoding="utf-8") as f:
-    leyes = json.load(f)
-
-for ley in leyes:
-    asyncio.run(judge_full_debate(f"debates/debate_{ley['id']}.json", ley['id'], n_rounds=3))
+    Args:
+        rubric (str): Rubrica de evaluacion.
+        debate (List[str]): Todo lo que dijo el/los agente en el debate.
+        pydantic_structure (Pydantic): Estructura de datos Pydantic para la respuesta del juez.
+    Returns:
+        dict: Resultados del juicio, incluyendo razonamiento y puntaje.
+    """
+    judge = Judge(system_prompt=rubric, pydantic_structure=pydantic_structure,)
+    razonamiento, puntaje = await judge.judge_debate_summary(debate, summary, agent_name,research=None)
+    return razonamiento, puntaje
 

@@ -98,7 +98,6 @@ async def main(output_folder = "evaluaciones"):
         resultado += f"{'-'*80}\n"
         with open(os.path.join(output_folder,f"evaluador_{ley['id']}.log"), "a+", encoding="utf-8") as f:
             f.write(resultado)
-        break # PARA SOLO HACER CON LA PRIMERA
     
     
     

@@ -88,7 +88,7 @@ class API_Model:
                 model=self.deployment_name,
                 messages=messages,
                 response_model=pydantic_response_structure,
-                max_retries=3,
+                max_retries=10,
                 seed=42
             )
             return generated_response
