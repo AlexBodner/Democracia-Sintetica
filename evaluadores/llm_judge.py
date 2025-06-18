@@ -1,7 +1,4 @@
-import json
-import asyncio
-from response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
-from evaluadores.rubricas import RubricaConsistencia, RubricaDatos, RubricaReflexividad
+
 from evaluadores.judge import Judge
 def get_agent_responses(debate, agent_name, n_rounds=3):
     agent_response = ""
@@ -27,7 +24,7 @@ async def judge_rubric_with_arguments(agent_name, rubric, agent_response, pydant
     razonamiento, puntaje = await judge.judge_agent_arguments(agent_name, agent_response)
     return razonamiento, puntaje
     
-from typings import Optional
+from typing import Optional
 async def judge_rubric_with_debate_and_summary(agent_name: Optional,rubric, debate, summary,pydantic_structure):
     """
     Juzga la rubrica de un agente politico en base a las respuestas del debate.
@@ -39,7 +36,7 @@ async def judge_rubric_with_debate_and_summary(agent_name: Optional,rubric, deba
     Returns:
         dict: Resultados del juicio, incluyendo razonamiento y puntaje.
     """
-    judge = Judge(system_prompt=rubric, pydantic_structure=pydantic_structure,)
+    judge = Judge(rubric=rubric, pydantic_structure=pydantic_structure,)
     razonamiento, puntaje = await judge.judge_debate_summary(debate, summary, agent_name,research=None)
     return razonamiento, puntaje
 

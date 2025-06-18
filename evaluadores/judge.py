@@ -67,5 +67,5 @@ class Judge:
             pydantic_response_structure=self.pydantic_structure,
         )
         
-        return response.razonamiento, response.puntaje
+        return response.razonamiento, response.respuesta
         

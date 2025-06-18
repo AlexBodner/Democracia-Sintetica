@@ -105,3 +105,54 @@ class JudgeDatos(BaseModel):
         3: Utiliza algún dato o ejemplo para sustentar uno o más de sus argumentos, aunque de manera limitada o poco desarrollada.\n\n\
         4: Utiliza datos y casos reales para fundamentar varios de sus argumentos, con pertinencia y claridad.\n\n\
         5: Sustenta de forma sólida la mayoría de sus argumentos con datos relevantes, investigaciones confiables o ejemplos bien contextualizados, integrándolos de manera efectiva en su razonamiento.")
+class EstructuraVotos(BaseModel):
+    """
+    Evalúa si el resumen captura correctamente los votos de cada agente.
+    """
+    razonamiento: str = Field(description="Explicación de por qué se considera que los votos están bien o mal capturados.")
+    respuesta: bool = Field(description="Booleano True/False según si el voto fue correctamente capturado.")
+
+class EstructuraPosicionFinal(BaseModel):
+    """
+    Evalúa si el resumen captura correctamente la posición final de cada agente.
+    """
+    razonamiento: str = Field(description="Explicación de por qué se considera que la posición final está bien o mal capturada.")
+    respuesta: bool = Field(description="Booleano True/False según si la posición final fue correctamente capturada en el resumen.")
+
+class EstructuraArgumentos(BaseModel):
+    """
+    Evalúa si el resumen captura correctamente los argumentos de cada agente, según la rúbrica.
+    """
+    razonamiento: str = Field(description = "Explicación de la evaluación sobre la captura de argumentos.")
+    respuesta: int = Field(description = "Un número entero entre 1 y 3 donde: \n"\
+                        "1. No. Malinterpreta argumentos del agente, no los menciona o inventa cosas que no dijo. \n" \
+                        "2. Deja afuera argumentos importantes que son los que definen su postura final \n"\
+                        "3. Sí, captura todos los argumentos relevantes del agente.")
+
+class EstructuraFidelidad(BaseModel):
+    """
+    Evalúa si el resumen inventa información que no estuvo en el debate.
+    """
+    razonamiento: str = Field(description="Explicación de la evaluación sobre la fidelidad.")
+    respuesta: bool = Field(description="True si el resumen inventa cosas que no estuvieron en el debate, False si no.")
+
+class EstructuraImparcialidad(BaseModel):
+    """
+    Evalúa el grado de imparcialidad del resumen según la rúbrica.
+    """
+    razonamiento: str = Field(description="Explicación de la evaluación sobre la imparcialidad.")
+
+    respuesta: int = Field(description="Número entre 1 y 4 que indica nivel de imparcialidad del resumen según la rúbrica:\n"\
+                        "1. Parcial evidente: El resumen toma partido: minimiza o ridiculiza a un agente, exagera al otro, usa lenguaje cargado (“refutó con contundencia”, “confundido”), o declara un “ganador” sin base objetiva.\n"\
+                        "2. Parcial leve: Hay sesgos sutiles: se omite un argumento importante de un lado, se describe con tono desigual (“agente A explicó… vs. agente B mencionó…”), o se usa lenguaje connotativo leve.\n"\
+                        "3. Mayormente neutral: El resumen presenta las dos posiciones razonablemente bien, pero puede haber un ligero desequilibrio (más detalle o énfasis en un agente sin justificar).\n"\
+                        "4. Completamente imparcial: Trata a todos los agentes con el mismo grado de detalle, tono y orden. No sugiere juicio sobre quién tiene razón. No oculta ni distorsiona nada relevante.")
+
+
+
+    # imparcialidad: Literal[
+    #     "Parcial evidente",
+    #     "Parcial leve",
+    #     "Mayormente neutral",
+    #     "Completamente imparcial"
+    # ] = Field(description="Nivel de imparcialidad del resumen según la rúbrica.")
