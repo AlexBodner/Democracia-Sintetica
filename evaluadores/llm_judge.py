@@ -3,6 +3,8 @@ import asyncio
 from response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
 from evaluadores.rubricas import RubricaConsistencia, RubricaDatos, RubricaReflexividad
 from evaluadores.judge import Judge
+
+
 def get_agent_responses(debate, agent_name, n_rounds=3):
     agent_response = ""
     for i in range(n_rounds):

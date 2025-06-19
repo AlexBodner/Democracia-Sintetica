@@ -37,7 +37,9 @@ class Judge:
         )
         
         return response.razonamiento, response.puntaje
-    async def judge_debate_summary(self, debate, summary, agent_name,research=None):
+    
+    
+    async def judge_debate_summary(self, debate, summary, agent_name, research=None):
         """En el caso de querer evaluar lo que dijo el agente, pasar solo lo que el dijo en el debate."""
         if agent_name is None:
             context = [ 
