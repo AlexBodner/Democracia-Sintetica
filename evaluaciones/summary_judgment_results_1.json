@@ -1,0 +1,66 @@
+{
+    "Agente Liberal": {
+        "votos": {
+            "razonamiento": "El Agente Liberal en la ronda 0 se posicionó a favor de la legalización del aborto, pero en contra de la cobertura estatal, lo que implica una postura crítica sobre el financiamiento estatal. En las rondas siguientes, mantuvo su preocupación por la intervención estatal, reafirmando su voto en contra de la ley de IVE al final del debate. Por lo tanto, el resumen refleja correctamente su voto final en contra de la ley basándose en su preocupación por la cobertura estatal. Sin embargo, el resumen original puede generar algo de confusión al sugerir que el Agente Liberal vota a favor de la ley con condiciones, lo cual no se alinea con su voto final en contra de la ley. Así que es necesario recalcar que su postura fue crítica al apuntar a que rechaza el financiamiento estatal.",
+            "puntaje": false
+        },
+        "posicion_final": {
+            "razonamiento": "El resumen describe indebidamente la postura final del Agente Liberal, quien en su última intervención se opone a la ley, fundamentalmente a la cobertura estatal gratuita del aborto porque esto podría incrementar el gasto público. No está a favor de la ley en conjunto, sino que expresa una preferencia por la legalización del aborto bajo ciertas condiciones. El resumen simplemente menciona que está a favor de la legalización, sin aclarar que está en contra de la ley en términos de su implementación y cobertura estatal, lo que confunde su verdadera postura. Por tanto, el resumen no es preciso en la representación final de su opinión.",
+            "puntaje": false
+        },
+        "argumentos": {
+            "razonamiento": "El resumen presenta de manera adecuada los argumentos del Agente Liberal, incluyendo su apoyo a la legalización del aborto, su preocupación sobre la cobertura estatal y su creencia en que el mercado puede proporcionar los servicios necesarios. Sin embargo, el resumen también mencionar que su postura final es de rechazo, lo cual contradice su intervención inicial donde se mostraba a favor, aunque con condiciones. Aunque sus puntos sobre la autonomía de la mujer y la crítica al gasto estatal están bien resumidos, la conclusión final incorrecta daña la precisión del registro.",
+            "puntaje": 2
+        }
+    },
+    "Agente de Juntos Por El Cambio": {
+        "votos": {
+            "razonamiento": "El resumen indica que el Agente de Juntos por el Cambio votó en contra de la Ley de Interrupción Voluntaria del Embarazo en todas las rondas del debate, lo cual se alinea con lo que el agente manifestó en sus intervenciones. En la ronda 0, 1 y 2, el agente reafirma constantemente su oposición a la ley argumentando en contra de su legalización.",
+            "puntaje": true
+        },
+        "posicion_final": {
+            "razonamiento": "El resumen final describe que el Agente de Juntos por el Cambio se opone a la Ley de Interrupción Voluntaria del Embarazo, argumentando en favor de la vida desde la concepción. Esto concuerda con la postura presentada durante el debate, donde en todos los rounds se reafirma su oposición a la legalización del aborto y su llamado a la educación y la prevención como alternativas. Por lo tanto, el resumen refleja correctamente su postura final de manera coherente y adecuada.",
+            "puntaje": true
+        },
+        "argumentos": {
+            "razonamiento": "El resumen final del debate captura algunos, pero no todos, los argumentos pertinentes del Agente de Juntos por el Cambio. Aunque menciona que el agente se opone a la ley en defensa de la vida desde la concepción y alude a su relevancia en el contexto de la educación y prevención, no recoge la profundidad de su insistencia en que la ley generar desresponsabilización parental y su planteamiento de buscar alternativas que respeten la vida en formación, así como su fundamentación ética. Además, no se menciona que el agente sostiene que el valor de la vida que se interrumpe no puede ser justificado por beneficios económicos. Por tanto, aunque algunas ideas clave están presentes, faltan detalles sustanciales que son cruciales para comprender su postura completa y cómo se diferencia de las opiniones de otros agentes.",
+            "puntaje": 2
+        }
+    },
+    "Agente de Union Por La Patria": {
+        "votos": {
+            "razonamiento": "El resumen de los votos de los agentes refleja con precisión cómo votó el Agente de Unión por la Patria en el debate. En cada ronda, este agente mantuvo su postura a favor de la Ley de Interrupción Voluntaria del Embarazo (IVE), y su voto final también se posicionó a favor de la ley, lo que concuerda plenamente con lo presentado en el resumen.",
+            "puntaje": true
+        },
+        "posicion_final": {
+            "razonamiento": "El resumen del debate describe correctamente la postura final de cada agente. Se evidencia que el Agente de Unión por la Patria mantuvo su apoyo a la Ley de IVE, al igual que el Agente de Izquierda. Por otro lado, el Agente de Juntos por el Cambio reafirmó su posición en contra de la ley, así como el Agente Liberal que, aunque a favor de la legalización del aborto, se opuso a la cobertura estatal. Las posiciones de todos los agentes están correctamente alineadas con sus respectivos argumentos finales.",
+            "puntaje": true
+        },
+        "argumentos": {
+            "razonamiento": "El resumen refleja con precisión los argumentos del Agente de Unión por la Patria, incluyendo su afirmación de que la Ley de Interrupción Voluntaria del Embarazo (IVE) representa un avance en derechos humanos, reduce la mortalidad materna y promueve la justicia social. Se abordan aspectos críticos como la autonomía de las mujeres, el acceso a la atención médica y la necesidad de un marco legal que respete diferentes opiniones. No se introduce contenido falso y se reconoce la importancia de la cobertura estatal, lo que es clave para comprender su postura final. Por lo tanto, el resumen cumple con la rúbrica de evaluación al capturar todos los argumentos relevantes del agente.",
+            "puntaje": 3
+        }
+    },
+    "Agente de Izquierda": {
+        "votos": {
+            "razonamiento": "El Agente de Izquierda ha expresado su apoyo a la Ley de Interrupción Voluntaria del Embarazo (IVE) en cada ronda del debate, argumentando consistentemente a favor de la despenalización y acceso al aborto. Al final del debate, reafirma su voto a favor de la ley, alineándolo con su argumentación inicial sobre los derechos de las mujeres y la salud pública. Por lo tanto, el resumen refleja correctamente que votó a favor de la ley.",
+            "puntaje": true
+        },
+        "posicion_final": {
+            "razonamiento": "El resumen describe correctamente la postura final de cada agente. El Agente de Izquierda se presenta a favor de la Ley de Interrupción Voluntaria del Embarazo (IVE), argumentando su importancia para la salud pública y los derechos de las mujeres, y reafirma su postura final a favor en la última ronda. El resumen refleja esta postura adecuadamente. Además, se detalla la postura de los otros agentes, cada uno con su respectiva conclusión y postura final, lo que muestra la consistencia y claridad de cada uno during el debate.",
+            "puntaje": true
+        },
+        "argumentos": {
+            "razonamiento": "El agente de Izquierda ha argumentado consistentemente a favor de la Ley de Interrupción Voluntaria del Embarazo, enfatizando la importancia de la autonomía de las mujeres sobre sus cuerpos y el acceso a servicios de salud que garanticen sus derechos. En cada ronda, ha aportado argumentos sobre los beneficios de la legalización del aborto en términos de salud pública y reducción de gastos en complicaciones por abortos inseguros, lo que fue reforzado con datos del informe. En el resumen final, su posición aparece claramente reflejada, incluyendo su argumento contra la visión que prioriza la protección de la vida desde la concepción, así como su llamado a la necesidad de educación y prevención. En síntesis, su postura está correctamente capturada sin omisiones ni tergiversaciones.",
+            "puntaje": 3
+        }
+    },
+    "fidelidad": {
+        "razonamiento": "El resumen mantiene fidelidad al contenido del debate al reflejar correctamente las posturas de cada agente político. Los argumentos presentados en el resumen por el Agente de Izquierda, sus referencias a la autonomía y la salud pública, así como su posición firme a favor de la ley coinciden con sus intervenciones en el debate. La defensa del Agente de Unión por la Patria sobre la IVE y el acceso a servicios de salud también está bien representada. Las posturas en contra de la ley por parte del Agente de Juntos por el Cambio y el Agente Liberal, junto con sus argumentos éticos y económicos, se reflejan de forma precisa en el resumen. Sin embargo, podría mencionarse con mayor claridad que el Agente Liberal apoyaba la legalización del aborto, aunque se oponía a la cobertura estatal en el contexto del sistema de salud. En general, el resumen captura adecuadamente el intercambio argumentativo sin introducir información que no estuvo presente en el debate. ",
+        "puntaje": false
+    },
+    "imparcialidad": {
+        "razonamiento": "El resumen presenta de forma balanceada los distintos argumentos de los agentes. No ridiculiza ni minimiza las posiciones de ningún agente, pero se observa un leve desbalance debido a que la presentación del Agente Liberal es menos enfática en su crítica al mercado que la presentación de otros agentes sobre el Estado. Sin embargo, se informa adecuadamente sobre todas las posiciones y se evita tomar partido.",
+        "puntaje": 2
+    }
+}
