@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import json
 from evaluadores.llm_judge_agentes import main as judge_main
-from evaluadores.llm_judge_debate import main as judge_debate_main
+from evaluadores.llm_judge_summary import main as judge_debate_main
 
 def main():
     with open("testing/leyes.json", "r", encoding="utf-8") as f:
