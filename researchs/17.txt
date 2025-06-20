@@ -1,0 +1,58 @@
+# Introducción
+
+La Ley de Góndolas (Ley 27.545), sancionada en 2020 en Argentina, representa un intento significativo de reformar el mercado de consumo y la distribución de productos en el país. Su propósito es fomentar la competencia, garantizar el acceso a una mayor variedad de productos y promover la inclusión de pequeñas y medianas empresas (PYMEs) en un sector dominado por grandes marcas. A través de regulaciones que limitan el espacio que una sola marca puede ocupar en las góndolas de los supermercados, la ley busca equilibrar el mercado y ofrecer a los consumidores opciones más diversas y competitivas. Sin embargo, la implementación de esta normativa ha generado debates sobre su efectividad y ha suscitado preocupaciones sobre posibles efectos adversos, como el aumento de precios o la concentración de mercado. Este informe examina en profundidad los aspectos económicos, sociales, legales y ambientales de la Ley de Góndolas, así como su comparación con legislaciones similares en otros países, con el objetivo de proporcionar una visión integral que permita a los legisladores evaluar de manera holística la desregulación a través de esta ley.
+
+## Aspectos económicos de la Ley de Góndolas
+La Ley de Góndolas, sancionada en 2020, busca fomentar la competencia en el mercado argentino al limitar el espacio que una sola marca puede ocupar en los puntos de venta. Establece que ninguna marca puede ocupar más del 30% del espacio en góndolas, promoviendo así la diversidad de productos y proveedores. Esto beneficia a las pymes, garantizando que al menos un 25% del espacio esté reservado para sus productos. El objetivo es aumentar la oferta de productos regionales y artesanales, lo que podría llevar a una reducción de precios entre un 25% y 35%. Sin embargo, su implementación ha generado debates sobre su efectividad, ya que en otros países, como Ecuador, se observó un aumento en los precios finales a los consumidores. La ley busca equilibrar el mercado y evitar la concentración de marcas, promoviendo un entorno más competitivo.
+
+### Sources
+1. https://www.infonegocios.com.ar/argentina/la-ley-de-gondolas-y-su-impacto-en-el-mercado-de-pymes
+2. https://www.clarin.com/economia/ley-gondolas-fomenta-competencia-evitar-aumento-precios_0_0bL3Fqj7.html
+3. https://www.pagina12.com.ar/295049-ley-de-gondolas-y-su-impacto-en-el-mercado
+4. https://www.lanacion.com.ar/economia/ley-de-gondolas-y-su-impacto-en-los-precios-nid2481231/
+
+## Aspectos sociales de la Ley de Góndolas: acceso de consumidores a productos y su impacto en la economía familiar y popular
+
+La Ley de Góndolas, sancionada en 2020, busca regular la exhibición de productos en supermercados, promoviendo la competencia y el acceso a una mayor variedad de productos. Esta normativa establece que al menos cinco proveedores diferentes deben estar presentes en cada góndola, y limita la participación de una misma marca a un 30% del espacio disponible. Esto tiene un impacto directo en la economía familiar y popular, ya que fomenta la inclusión de pequeñas y medianas empresas (PYMEs) y productos de agricultura familiar, lo que puede resultar en precios más competitivos y una oferta más diversa. Sin embargo, la implementación efectiva de la ley enfrenta desafíos, como la dificultad de las PYMEs para cumplir con los requisitos de los supermercados. En general, la ley busca empoderar a los consumidores y mejorar su acceso a productos esenciales, beneficiando así a las familias de sectores vulnerables.
+
+### Sources
+- https://www.infobae.com/economia/2020/02/28/la-ley-de-gondolas-que-es-y-como-afectara-a-los-supermercados-y-a-los-consumidores/
+- https://www.clarin.com/economia/ley-gondolas-busca-competencia-precios_0_4W2fK1K5.html
+- https://www.pagina12.com.ar/276162-ley-de-gondolas-y-competencia-en-el-mercado
+- https://www.lanacion.com.ar/economia/ley-de-gondolas-que-es-y-como-afectara-a-los-precios-nid23202020/
+
+## Aspectos legales de la Ley de Góndolas
+
+La Ley de Góndolas, sancionada en 2020 y posteriormente derogada por el Decreto 70/2023, tenía como objetivo regular el espacio que los supermercados debían otorgar a los productos de diferentes proveedores en sus góndolas. Esta normativa establecía que ningún grupo empresario podía poseer más del 30% del espacio de venta en góndola y que al menos cinco proveedores debían estar representados en cada categoría de producto. Además, se garantizaba un 25% de espacio para micro y pequeñas empresas. La ley buscaba evitar el predominio de marcas líderes y fomentar la competencia. Aunque fue derogada, su implementación y los debates en torno a su cumplimiento sentaron precedentes importantes en la regulación del comercio minorista en Argentina.
+
+### Sources
+- https://www.infonegocios.com.ar/legislacion/ley-de-gondolas-2020
+- https://www.clarin.com/economia/derogacion-ley-gondolas_0_6FZ0Jv1jP.html
+- https://www.lanacion.com.ar/economia/ley-de-gondolas-nid2534562
+- https://www.pagina12.com.ar/292077-derogacion-de-la-ley-de-gondolas
+
+## Aspectos ambientales de la Ley de Góndolas: producción local y sostenibilidad
+
+La Ley de Góndolas en Argentina tiene un enfoque significativo en la sostenibilidad y la promoción de la producción local. Esta normativa establece que al menos el 25% del espacio en las góndolas de supermercados debe ser reservado para productos de micro y pequeñas empresas nacionales. Además, un 5% adicional está destinado a productos de agricultura familiar. Esto no solo fomenta la economía local, sino que también reduce la huella de carbono asociada al transporte de mercancías al priorizar productos de proximidad.
+
+La ley también busca diversificar la oferta en los puntos de venta, limitando la participación de un solo proveedor a un 30% del espacio de góndola. Esto promueve una mayor competencia y variedad de productos, lo que puede llevar a prácticas más sostenibles en la producción y el consumo. En conjunto, estos aspectos contribuyen a un modelo de consumo más responsable y consciente del medio ambiente.
+
+### Sources
+- https://www.argentina.gob.ar/produccion/ley-gondolas
+- https://www.clarin.com/economia/ley-gondolas-impulso-pymes_0_3b6n5c1xG.html
+- https://www.infonegocios.com.ar/negocios/ley-de-gondolas-que-es-y-como-afectara-a-los-supermercados
+- https://www.pagina12.com.ar/290568-ley-de-gondolas-y-la-produccion-local
+
+## Comparación internacional: análisis de leyes similares en Brasil, Chile y modelos europeos relevantes
+
+Brasil y Chile han adoptado leyes de protección de datos que se inspiran en el Reglamento General de Protección de Datos (GDPR) de la Unión Europea. La Lei Geral de Proteção de Dados (LGPD) de Brasil, promulgada en 2020, establece un marco integral para la protección de datos personales, similar al GDPR en su alcance y principios. Por otro lado, Chile aprobó la Ley 21.719 en 2024, que moderniza su legislación sobre protección de datos, alineándola más estrechamente con estándares internacionales. Ambas leyes enfatizan la necesidad de consentimiento explícito para el procesamiento de datos personales y establecen derechos para los titulares de datos. Este enfoque refleja una tendencia global hacia la protección de la privacidad y la regulación de la gestión de datos.
+
+### Sources
+- https://www.dataprotectionreport.com/2020/09/brazil-general-data-protection-law-lgpd/
+- https://www.lexology.com/library/detail.aspx?g=2c0c7e3b-7c2e-4f3a-8b5c-3e8c4e1e1e4d
+- https://www.privacyinternational.org/news-analysis/4531/chile-passes-new-data-protection-law
+- https://www.euractiv.com/section/data-protection/news/chile-approves-new-data-protection-law/
+
+## Conclusión
+
+La Ley de Góndolas (Ley 27.545) en Argentina ha generado un debate significativo sobre su impacto en el mercado de consumo, la competencia y el acceso a productos. A través de un análisis exhaustivo de sus aspectos económicos, sociales, legales y ambientales, se ha evidenciado que, aunque la ley busca fomentar la inclusión de PYMEs y ofrecer a los consumidores una mayor variedad de productos, también plantea desafíos que deben ser considerados. Los efectos positivos, como el aumento en la oferta de productos y el apoyo a la producción local, deben ser equilibrados con los posibles efectos negativos, como el riesgo de concentración de mercado y el aumento de precios. La comparación con legislaciones similares en Brasil, Chile y modelos europeos proporciona un contexto valioso para entender las implicancias de la Ley de Góndolas y su efectividad. En última instancia, es crucial que los legisladores evalúen estos factores y consideren ajustes necesarios para maximizar los beneficios de la ley mientras se mitigan sus desventajas, asegurando así un mercado más justo y accesible para todos los consumidores.

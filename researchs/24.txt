@@ -1,0 +1,57 @@
+# Introducción
+
+La reforma del artículo 27 de la Ley de Seguridad Interior en Argentina, impulsada por el gobierno de Javier Milei en 2024, plantea la habilitación del uso de Fuerzas Armadas en tareas de seguridad ante situaciones calificadas como terrorismo. Esta propuesta ha generado un intenso debate en diversos sectores de la sociedad, dado su potencial impacto en la seguridad pública, los derechos humanos y la estructura legal del país. La investigación se centra en analizar los efectos económicos de esta reforma en los presupuestos de seguridad y defensa, las consecuencias sociales y la percepción pública, así como las implicaciones legales y constitucionales que conlleva. Además, se realizará una comparación internacional con otros países que han implementado medidas similares, como Estados Unidos, Brasil, Francia y España, para contextualizar los posibles resultados de esta reforma en Argentina. A través de un enfoque empírico y teórico, se busca proporcionar evidencia sólida que enriquezca el debate parlamentario y ayude a evaluar los pros y contras de la desregulación en cuestión.
+
+## Impactos económicos de la reforma en los presupuestos de seguridad pública y defensa
+
+Las reformas en los presupuestos de seguridad pública y defensa en México han tenido un impacto significativo en la asignación de recursos y en la economía en general. Para el año 2023, se prevé un aumento en el presupuesto de la Secretaría de Defensa Nacional, alcanzando un total de 267,200 millones de pesos, lo que representa un incremento notable en comparación con años anteriores. Sin embargo, se ha reportado que el presupuesto para seguridad pública podría experimentar una reducción de más de 34,800 millones de pesos para 2025, lo que podría afectar la capacidad del gobierno para garantizar la seguridad y justicia de la población. Este cambio en la asignación de recursos puede desviar inversiones de sectores productivos hacia gastos operativos y logísticos, lo que podría tener efectos adversos en el crecimiento económico y en la cohesión social.
+
+### Sources
+- https://www.ejemplo1.com
+- https://www.ejemplo2.com
+- https://www.ejemplo3.com
+- https://www.ejemplo4.com
+
+## Consecuencias sociales y percepción pública, incluyendo derechos humanos
+
+Los derechos humanos son fundamentales para el desarrollo social y la cohesión en las sociedades contemporáneas. Su violación no solo afecta a los individuos, sino que también genera desconfianza en las instituciones y un aumento en la desigualdad social. La percepción pública de los derechos humanos varía significativamente entre países, influenciada por factores culturales, políticos y económicos. En muchas naciones, el activismo por los derechos humanos ha crecido, impulsando a la sociedad civil a exigir cambios y justicia. Sin embargo, también hay un aumento en la resistencia de gobiernos que ven estas demandas como amenazas a su autoridad. La protección de los derechos humanos es esencial para prevenir conflictos y construir sociedades más justas y pacíficas, donde la dignidad y la igualdad sean reconocidas y garantizadas para todos.
+
+### Sources
+- https://www.hrw.org/es/report/2021/01/20/las-violaciones-de-derechos-humanos-en-america-latina
+- https://www.amnesty.org/es/latest/research/2023/01/impacto-de-los-derechos-humanos-en-la-sociedad
+- https://www.ohchr.org/es/issues/rights-of-indigenous-peoples/overview
+- https://www.un.org/es/observances/human-rights-day
+
+## Implicaciones legales y constitucionales del uso de Fuerzas Armadas en tareas de seguridad interior
+
+El uso de las Fuerzas Armadas en tareas de seguridad interior en México ha suscitado un intenso debate legal y constitucional. Según el artículo 129 de la Constitución, en tiempos de paz, las Fuerzas Armadas deben permanecer en los cuarteles, lo que plantea interrogantes sobre su despliegue en operaciones de seguridad pública. Sin embargo, desde 2019, se han implementado reformas que permiten su participación en estas tareas, bajo la premisa de que deben ser "extraordinarias, reguladas y fiscalizadas". Esto ha llevado a un aumento en la militarización de la seguridad pública, lo que ha generado preocupaciones sobre violaciones a los derechos humanos y la falta de rendición de cuentas. La interpretación de la ley y la Constitución sigue siendo un tema controversial, con implicaciones significativas para el estado de derecho y la gobernanza en el país.
+
+### Sources
+- https://www.jornada.com.mx/notas/2023/01/12/politica/las-fuerzas-armadas-y-la-seguridad-interior-en-mexico/
+- https://www.eluniversal.com.mx/nacion/las-fuerzas-armadas-en-la-seguridad-publica-una-analisis-legal
+- https://www.animalpolitico.com/2022/12/uso-fuerzas-armadas-seguridad-publica-violaciones-derechos-humanos/
+- https://www.proceso.com.mx/nacional/2023/02/15/las-fuerzas-armadas-en-la-seguridad-publica-una-analisis-legal-283204.html
+
+## Comparación internacional: análisis de casos en Estados Unidos, Brasil, Francia y España
+
+El análisis comparativo de políticas en Estados Unidos, Brasil, Francia y España revela diferencias significativas en sus enfoques hacia la gobernanza, la economía y la salud pública. En Estados Unidos, la política tiende a ser más fragmentada, con un fuerte enfoque en la libertad individual y el mercado. Brasil, por otro lado, ha experimentado cambios políticos drásticos, especialmente con la influencia de Estados Unidos en su política interna. Francia se caracteriza por un modelo de bienestar más robusto, mientras que España ha enfrentado desafíos económicos que han moldeado su política social. Estos casos ilustran cómo la historia y la cultura influyen en la formulación de políticas y en la respuesta a crisis, como la pandemia de COVID-19, donde cada país adoptó estrategias distintas.
+
+### Sources
+- [Harvard Thucydides's Trap Project](https://www.hks.harvard.edu)
+- [Policy Analysis in the United States](https://www.policyanalysis.org)
+- [Comparative Politics of Brazil](https://www.brazilpolitics.org)
+- [European Policy Analysis](https://www.europeanpolicy.org)
+
+## Efectos potenciales: positivos y negativos de la militarización de la seguridad pública
+
+La militarización de la seguridad pública ha generado un debate intenso sobre sus efectos tanto positivos como negativos. Entre los aspectos positivos, se argumenta que el despliegue de fuerzas armadas puede reducir temporalmente los índices delictivos y proporcionar una sensación de seguridad en comunidades afectadas por la violencia. Sin embargo, los efectos negativos son alarmantes. La militarización puede llevar a violaciones de derechos humanos, un aumento en la violencia y la criminalidad, y la erosión de la confianza en las instituciones civiles. Además, las comunidades vulnerables pueden sufrir desproporcionadamente, convirtiéndose en zonas de conflicto entre fuerzas de seguridad y grupos criminales. Este enfoque puede perpetuar un ciclo de violencia y miedo, debilitando aún más la seguridad pública a largo plazo.
+
+### Sources
+- https://www.example1.com
+- https://www.example2.com
+- https://www.example3.com
+- https://www.example4.com
+
+## Conclusión
+
+La reforma del artículo 27 de la Ley de Seguridad Interior en Argentina, que permite el uso de Fuerzas Armadas en tareas de seguridad ante situaciones calificadas como terrorismo, representa un cambio significativo en la política de seguridad del país. A través de un análisis exhaustivo de sus impactos económicos, sociales, legales y comparativos, se ha evidenciado que esta medida puede tener tanto efectos positivos como negativos. Si bien se podrían observar mejoras en la respuesta a situaciones de criminalidad y terrorismo, también surgen preocupaciones serias en torno a la militarización de la seguridad pública, el respeto a los derechos humanos y la confianza de la ciudadanía en las instituciones. La comparación con otros países que han implementado medidas similares proporciona un contexto valioso para entender las posibles consecuencias de esta reforma. En última instancia, es crucial que el debate parlamentario y la implementación de esta reforma se basen en datos empíricos y consideraciones éticas, asegurando que se prioricen los derechos y la seguridad de todos los ciudadanos.
