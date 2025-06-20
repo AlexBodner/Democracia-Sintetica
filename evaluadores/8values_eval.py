@@ -115,7 +115,7 @@ def obtener_resultado_por_eje(vector):
     return ejes
 
 async def main(output_folder = "evaluaciones"):
-    n_iteraciones = 5
+    n_iteraciones = 3
 
     agente_liberal = AgenteLiberal
     agente_izquierda = AgenteIzquierda
@@ -126,7 +126,14 @@ async def main(output_folder = "evaluaciones"):
 
     agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
 
+    
     resultados = {}
+    for agent in agentes:
+        resultados[agent.agent_name] = {}
+        resultados[agent.agent_name]["puntajes"] = {"econ": [0 for _ in range(n_iteraciones)],
+                                                "dipl":  [0 for _ in range(n_iteraciones)],
+                                                "govt":  [0 for _ in range(n_iteraciones)],
+                                                "scty":  [0 for _ in range(n_iteraciones)]}
     
     with open("testing/8values.json", "r", encoding="utf-8") as f:
             preguntas =  json.load(f)
@@ -135,11 +142,6 @@ async def main(output_folder = "evaluaciones"):
     for i in range(n_iteraciones):
         for agent in agentes:
             print(f"\n\nEvaluando agente: {agent.agent_name}")
-            resultados[agent.agent_name] = {}
-            resultados[agent.agent_name]["puntaje"] = {"econ": 0,
-                                            "dipl": 0,
-                                            "govt": 0,
-                                            "scty": 0}
             
             for q in preguntas:
                 
@@ -162,12 +164,16 @@ async def main(output_folder = "evaluaciones"):
                 
                 peso = response_weights[respuesta.eleccion]
                 for eje in q["effect"]:
-                    resultados[agent.agent_name]["puntaje"][eje] += (peso * q["effect"][eje])
+                    resultados[agent.agent_name]["puntajes"][eje][i] += ( (peso * q["effect"][eje]) )
             
-         
-    for agent in agentes:         
-        for eje in resultados[agent.agent_name]["puntaje"]:
-                resultados[agent.agent_name]["puntaje"][eje] /= n_iteraciones 
+    
+    for agent in agentes: 
+        resultados[agent.agent_name]["puntaje"] = {"econ": 0,
+                                                "dipl": 0,
+                                                "govt": 0,
+                                                "scty": 0}        
+        for eje in resultados[agent.agent_name]["puntajes"]:
+                resultados[agent.agent_name]["puntaje"][eje] = np.sum(resultados[agent.agent_name]["puntajes"][eje]) / n_iteraciones 
                 
         results_vector = normalizar_resultados_js_style(resultados[agent.agent_name]["puntaje"])
         resultados_por_ideologia = obtener_resultado_por_eje(results_vector)
