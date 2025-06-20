@@ -1,5 +1,5 @@
 from API_Model import API_Model
-from response_structures import StructuredReviewerResponse, DeepResearchQuery
+from response_structures import StructuredReviewerResponse, DeepResearchQuery, RepreguntaResponse
 from researcher.deepresearch import deepresearch
 
 class Reviewer:# o orquestador
@@ -33,7 +33,37 @@ class Reviewer:# o orquestador
                     }
     def give_turn(self,):
         pass
+    async def responder_pregunta(self, preguntas):
+        context = []
+        #  Como especialista en Geopolitica, ciencias sociales y economía,
+        context.append({"role" : "user", "content":  f"""\
+            Tu tarea es redactar una consigna de búsqueda exhaustiva y bien estructurada para que un Agente especializado realice una investigación profunda sobre el tema de desregulación indicado.
 
+            El objetivo de esta investigación es proporcionar a los legisladores de la República Argentina un panorama completo que les permita comprender a fondo el contexto, los antecedentes, los impactos potenciales y los casos comparables a nivel nacional e internacional.
+
+            La desregulación a debatir es: {self.ley}
+
+            La consigna debe incluir:
+            - Qué aspectos investigar (económicos, sociales, legales, ambientales, etc.)
+            - Qué fuentes consultar (académicas, gubernamentales, medios especializados, organismos internacionales, informes técnicos)
+            - Qué tipo de datos buscar (estadísticas, estudios de impacto, experiencias previas, legislación comparada, opinión de expertos)
+            - Qué países o regiones podrían ofrecer casos relevantes para comparar
+            - Posibles efectos positivos y negativos reportados
+            - Actores clave involucrados (empresas, sindicatos, ONGs, organismos públicos)
+
+            La búsqueda debe enfocarse en brindar insumos que enriquezcan el debate parlamentario, ofreciendo tanto evidencia empírica como argumentos teóricos.
+
+            Ahora redactá una consigna clara, detallada y orientada a la acción para el Agente de investigación, que incluya todos estos elementos.
+            """})
+        context.append({"role":"user", "content":"Para que el investigador finalice su investigación,"\
+            f" debe responder a las siguientes preguntas que le ha hecho:{preguntas}"})
+                
+        generated_response = await self.api_model_agent.call_api(
+            previous_rounds_context=context,
+            pydantic_response_structure=RepreguntaResponse
+        )
+        return generated_response.respuestas
+    
     async def make_topic_summary(self,full_topic_debate):
         context = []
         context.extend(full_topic_debate)
@@ -71,13 +101,13 @@ class Reviewer:# o orquestador
             Es fundamental que la consigna de busqueda pida estadisticas, datos concretos y estudios de caso que permitan a los legisladores evaluar los pros y contras de la desregulación en cuestión con evidencia sólida y objetiva.
             Ahora redactá una consigna clara, detallada y orientada a la acción para el Agente de investigación, que incluya todos estos elementos.
             """})
-
+        self.ley = ley
         generated_response = await self.api_model_agent.call_api(
             previous_rounds_context=context,
             pydantic_response_structure= DeepResearchQuery
         )
         if mock == False:
-            report = await deepresearch(generated_response.consigna_de_busqueda)
+            report = await deepresearch(generated_response.consigna_de_busqueda,self)
             # Save final report
             with open(f"researchs/{id}.txt",'w', encoding='utf-8') as f:
                 f.write(report)

@@ -1,12 +1,15 @@
 import uuid
 import asyncio
 from langchain_community.agent_toolkits.load_tools import load_tools
-from langchain_community.utilities import GoogleSerperAPIWrapper
+#from langchain_community.utilities import GoogleSerperAPIWrapper
 config = {
     "thread_id": str(uuid.uuid4()),
     "search_api": "serper",
 }
+from dotenv import load_dotenv
 
+# --- Cargar variables de entorno ---
+load_dotenv()
 from typing import List, Literal, Annotated, TypedDict
 from pydantic import BaseModel, Field
 import operator
@@ -104,10 +107,10 @@ def get_config_value(value):
     
 SUPERVISOR_INSTRUCTIONS = f"""You are a research supervisor. Follow these steps:
 
-1. **Initial Research**: Use `{config["search_api"]}` to understand the user's topic
-2. **Clarify**: Ask the user follow-up questions to refine scope
-3. **Structure**: Use `SectionsTool` to define 3-5 research sections (no intro/conclusion)
-4. **Finalize**: When sections return, use `IntroductionTool` then `ConclusionTool`
+1. **Initial Research**: Use `{config["search_api"]}` to understand the user's topic.
+2. **Clarify**: If the user's request is ambiguous or could be improved, ALWAYS ask the user follow-up questions to refine the scope. Do NOT proceed to research or tool calls until the user has answered your clarifying questions.
+3. **Structure**: Use `SectionsTool` to define 3-5 research sections (no intro/conclusion).
+4. **Finalize**: When sections return, use `IntroductionTool` then `ConclusionTool`.
 
 Always check your message history to avoid duplicate tool calls."""
 
@@ -134,7 +137,9 @@ def get_search_tool(config: dict):
         raise ValueError(f"Search API '{api}' not supported.")
         #return  duckduckgo_search
     elif api == "serper":
-        return  load_tools(["google-serper"])[0]
+        import os
+        
+        return  load_tools(["google-serper"], serper_api_key=os.environ["SERPER_API_KEY"])[0]
     else:
         raise ValueError(f"Search API '{api}' not supported.")
 
@@ -305,7 +310,7 @@ import os
 
 
 async def deepresearch(initial_msg,
-                      followup_msg = {"role": "user", "content": "Haz un reporte super detallado, incluye informacion real, trae todos los casos y datos que puedas como para favorecer el debate entre distintas ideas"}
+                      AgenteReviewer=None
     ):
     # 1. Checkpointer
     checkpointer = MemorySaver()
@@ -320,6 +325,19 @@ async def deepresearch(initial_msg,
 
     # 4. Simulated user flow
     await graph.ainvoke({"messages": [initial_msg]}, config=thread_config)
+    messages = graph.get_state(thread_config).values['messages']
+    print("Messages exchanged during the research workflow:")
+    print(messages[-1].content)
+    print("\n---\n")
+
+
+    if AgenteReviewer is not None:
+        # 3. If a reviewer agent is provided, invoke it with the initial message
+        review_msg = await AgenteReviewer.responder_pregunta(messages[-1].content)
+
+        print("Reviewer's response to the initial message:")
+        print(review_msg)
+    followup_msg = {"role": "user", "content": review_msg}
     await graph.ainvoke({"messages": [followup_msg]}, config=thread_config)
 
     # 5. Get report

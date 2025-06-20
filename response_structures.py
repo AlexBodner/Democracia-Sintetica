@@ -30,7 +30,11 @@ class StructuredReviewerResponse(BaseModel):
     Define la estructura esperada para una respuesta estructurada de un reviewer.
     """
     resumen: str = Field(description="El resumen solicitado.")
-
+class RepreguntaResponse(BaseModel):
+    """
+    Define la estructura esperada para una respuesta estructurada de un reviewer.
+    """
+    respuestas: str = Field(description="Las respuestas a las preguntas aclaratorias hechas por el agente investigador.")
 #----------------------------------------------------------------------------------------------------------------------------
 
 class EvaluarAgenteResponse(BaseModel):
