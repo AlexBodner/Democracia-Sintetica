@@ -75,8 +75,6 @@ def euclidean_distance(p1, p2):
     return sqrt(sum((a - b) ** 2 for a, b in zip(p1, p2)))
 
 
-
-
 def obtener_ideologia(vector):
     ideologias = json.load(open("testing/8values_ideologies.json", "r", encoding="utf-8"))
     min_distance = float('inf')
@@ -176,8 +174,6 @@ async def main(output_folder = "evaluaciones"):
         resultados[agent.agent_name]["ideologia"] = ideologia
         print(f"Resultados para {agent.agent_name}: {ideologia}")
         print(f"Resultados para {agent.agent_name}: {resultados_por_ideologia}")
-        
-        #print(f"Resultados para {agent.agent_name}: {resultados_por_ideologia}")
         
     with open(os.path.join(output_folder,f"resultados_8values.json"), "w", encoding ='utf8') as archivo:
         json.dump(resultados, archivo, indent=4, ensure_ascii = False)
