@@ -81,7 +81,7 @@ class Reviewer:# o orquestador
             )
         return generated_response
     
-    async def make_deep_research(self, ley, mock=True,id  = 1):
+    async def make_deep_research(self, ley, mock=True, id=1):
         context = []
         
         context.append({"role" : "user", "content":  f"""\

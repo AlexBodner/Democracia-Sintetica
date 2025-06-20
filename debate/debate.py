@@ -5,7 +5,8 @@ from debate.round import FirstRound, SecondRoundWithResearch, ThirdRound, Second
 import json
 import os
 
-logger = new_logger("output_utils/debate_system.log")
+#logger = new_logger("output_utils/debate_system.log")
+logger = new_logger("output_utils/debate_system_unbalanced.log")
 
 class DebateThreeRoundsWithResearch:
     
@@ -19,7 +20,7 @@ class DebateThreeRoundsWithResearch:
         self.use_research = use_research
     async def run_debate(self, output_folder = "evaluaciones"):
         if self.use_research:
-            self.research, self.questions_and_answers = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = self.ley_id)
+            self.research, self.questions_and_answers = await self.reviewer.make_deep_research(ley=self.law, mock = self.mock_research, id = self.ley_id)
             self.rounds = [FirstRound(self.law), SecondRoundWithResearch(self.law, self.research), ThirdRound(self.law)]
         else:
             self.rounds = [FirstRound(self.law), SecondRound(self.law), ThirdRound(self.law)]        
