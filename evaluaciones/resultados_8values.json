@@ -1,10 +1,10 @@
 {
-    "Agente de Izquierda": {
+    "Base Agent": {
         "puntaje": {
-            "econ": 88.46153846153847,
-            "dipl": 39.44444444444444,
-            "govt": 75.78125,
-            "scty": 19.86301369863014
+            "econ": 87.82051282051282,
+            "dipl": 22.77777777777777,
+            "govt": 67.96875,
+            "scty": 23.11643835616438
         },
         "orientacion": {
             "econ": "Equidad",
@@ -12,14 +12,29 @@
             "govt": "Libertad",
             "scty": "Progresista"
         },
-        "ideologia": "Libertarian Communism"
+        "ideologia": "Libertarian Socialism"
+    },
+    "Reviewer": {
+        "puntaje": {
+            "econ": 81.41025641025641,
+            "dipl": 36.666666666666664,
+            "govt": 64.0625,
+            "scty": 27.56849315068493
+        },
+        "orientacion": {
+            "econ": "Equidad",
+            "dipl": "Global",
+            "govt": "Libertad",
+            "scty": "Progresista"
+        },
+        "ideologia": "Democratic Socialism"
     },
     "Agente Liberal": {
         "puntaje": {
             "econ": 16.666666666666668,
-            "dipl": 57.77777777777778,
+            "dipl": 58.333333333333336,
             "govt": 69.53125,
-            "scty": 44.52054794520548
+            "scty": 43.66438356164384
         },
         "orientacion": {
             "econ": "Mercado",
@@ -31,10 +46,10 @@
     },
     "Agente de Juntos Por El Cambio": {
         "puntaje": {
-            "econ": 41.666666666666664,
+            "econ": 36.53846153846154,
             "dipl": 48.333333333333336,
-            "govt": 53.90625,
-            "scty": 44.178082191780824
+            "govt": 56.640625,
+            "scty": 38.18493150684932
         },
         "orientacion": {
             "econ": "Mercado",
@@ -42,14 +57,14 @@
             "govt": "Libertad",
             "scty": "Progresista"
         },
-        "ideologia": "Centrist"
+        "ideologia": "Liberalism"
     },
     "Agente de Union Por La Patria": {
         "puntaje": {
-            "econ": 91.02564102564102,
-            "dipl": 38.333333333333336,
-            "govt": 61.71875,
-            "scty": 26.198630136986296
+            "econ": 94.23076923076923,
+            "dipl": 36.666666666666664,
+            "govt": 60.546875,
+            "scty": 27.054794520547944
         },
         "orientacion": {
             "econ": "Equidad",
@@ -57,6 +72,21 @@
             "govt": "Libertad",
             "scty": "Progresista"
         },
-        "ideologia": "Democratic Socialism"
+        "ideologia": "Libertarian Communism"
+    },
+    "Agente de Izquierda": {
+        "puntaje": {
+            "econ": 88.46153846153847,
+            "dipl": 39.44444444444444,
+            "govt": 75.0,
+            "scty": 22.43150684931507
+        },
+        "orientacion": {
+            "econ": "Equidad",
+            "dipl": "Global",
+            "govt": "Libertad",
+            "scty": "Progresista"
+        },
+        "ideologia": "Libertarian Communism"
     }
 }

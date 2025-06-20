@@ -110,21 +110,21 @@ class EstructuraVotos(BaseModel):
     Evalúa si el resumen captura correctamente los votos de cada agente.
     """
     razonamiento: str = Field(description="Explicación de por qué se considera que los votos están bien o mal capturados.")
-    respuesta: bool = Field(description="Booleano True/False según si el voto fue correctamente capturado.")
+    respuesta: bool = Field(description="Booleano True/False según si el voto final del agente en el debate fue correctamente capturado en el resumen.")
 
 class EstructuraPosicionFinal(BaseModel):
     """
     Evalúa si el resumen captura correctamente la posición final de cada agente.
     """
     razonamiento: str = Field(description="Explicación de por qué se considera que la posición final está bien o mal capturada.")
-    respuesta: bool = Field(description="Booleano True/False según si la posición final fue correctamente capturada en el resumen.")
+    respuesta: bool = Field(description="Booleano True/False según si la posición final del agente con respecto a la ley fue correctamente capturada en el resumen.")
 
 class EstructuraArgumentos(BaseModel):
     """
     Evalúa si el resumen captura correctamente los argumentos de cada agente, según la rúbrica.
     """
     razonamiento: str = Field(description = "Explicación de la evaluación sobre la captura de argumentos.")
-    respuesta: int = Field(description = "Un número entero entre 1 y 3 donde: \n"\
+    respuesta: int = Field(description = "El resumen captura correctamente los argumentos de cada agente? Responder con un número entero entre 1 y 3 donde: \n"\
                         "1. No. Malinterpreta argumentos del agente, no los menciona o inventa cosas que no dijo. \n" \
                         "2. Deja afuera argumentos importantes que son los que definen su postura final \n"\
                         "3. Sí, captura todos los argumentos relevantes del agente.")

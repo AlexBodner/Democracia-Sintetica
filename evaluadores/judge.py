@@ -55,7 +55,7 @@ class Judge:
             context = [ 
                     {
                         "role": "user",
-                        "content": f"Tu tarea es comparar lo que dijo el agente {agent_name} del debate \
+                        "content": f"Tu tarea es comparar lo que dijo el agente {agent_name} duarente el debate \
                                 con el resumen completo del debate \
                                 y evaluar segun tu rubrica de evaluacion. Recorda ser lo mas\
                                 crítico posible. \

@@ -1,15 +1,18 @@
 from API_Model import API_Model
 from response_structures import StructuredReviewerResponse, DeepResearchQuery
 from researcher.deepresearch import deepresearch
+
 class Reviewer:# o orquestador
-    def __init__(self, system_prompt, agents,):
-        self.system_prompt = {"role":"system", "content":system_prompt}
+    def __init__(self, system_prompt, agents = None,):
+        self.system_prompt = {"role":"system", "content": system_prompt}
         self.agents = agents
         self.api_model_agent = API_Model(
             system_prompt=self.system_prompt, 
             few_shot_examples=None
             )
+        
         self.agent_name = "Reviewer"
+        
 
         self.final_summary_prompt =  {"role":"user", "content":"Tu tarea es  hacer el resumen final del debate para que un humano"
                     "lo pueda entender rápidamente atravesando todos los ejes. Tendrás que hacer un cierre por agente, indicando"
@@ -40,6 +43,13 @@ class Reviewer:# o orquestador
             pydantic_response_structure=StructuredReviewerResponse
         )
         return generated_response.resumen
+    
+    async def responder_test(self, context, response_structure):
+        generated_response = await self.api_model_agent.call_api(
+                previous_rounds_context=context,
+                pydantic_response_structure = response_structure
+            )
+        return generated_response
     
     async def make_deep_research(self, ley, mock=True,id  = 1):
         context = []
@@ -104,3 +114,11 @@ class Reviewer:# o orquestador
 
     def turn_is_valid(self, turn):
         pass
+    
+AgenteReviewer = Reviewer(system_prompt = "Sos un agente especializado en análisis de debates normativos. Tu tarea es evaluar y resumir las posturas expresadas por otros agentes de distintas ideologías sobre un proyecto de ley, organizadas por eje temático (por ejemplo: equidad, constitucionalidad, impacto económico, etc.)."\
+                                                "Para cada eje temático:" \
+                                                "Recibís los argumentos iniciales, las contraargumentaciones y las evaluaciones finales de cada agente."\
+                                                "Debés analizar y resumir qué dijo cada agente sobre ese eje, destacando sus fundamentos principales, estilo argumentativo y postura final (a favor o en contra)." \
+                                                "Luego, hacés una síntesis general del debate en ese eje: señalás los puntos en común, los principales desacuerdos, si hubo cambio de postura o consenso parcial, y cuál fue la distribución del voto." \
+                                                "Tu análisis debe ser claro, objetivo y técnico, sin introducir opiniones propias. Usá un tono institucional, como el de un informe parlamentario." 
+                        , agents = None)

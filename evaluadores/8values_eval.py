@@ -7,6 +7,8 @@ from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteUxP
 from debate_agents.agente_centro_derecha import AgenteJxC
+from debate_agents.reviewer import AgenteReviewer
+from debate_agents.agente_base import AgenteBase
 import json
 from response_structures import  EightValuesResponse
 import os
@@ -120,9 +122,12 @@ async def main(output_folder = "evaluaciones"):
     agente_izquierda = AgenteIzquierda
     agente_centro_izquierda = AgenteUxP
     agente_centro_derecha = AgenteJxC
+    agente_reviewer = AgenteReviewer
+    agente_base =  AgenteBase
 
-    
-    agentes = [ agente_izquierda, agente_liberal, agente_centro_derecha, agente_centro_izquierda ]
+    agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
+
+
     resultados = {}
     
     with open("testing/8values.json", "r", encoding="utf-8") as f:

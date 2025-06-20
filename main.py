@@ -5,6 +5,7 @@ from debate_agents.agente_liberal import AgenteLiberal
 from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteUxP
 from debate_agents.agente_centro_derecha import AgenteJxC
+from debate_agents.reviewer import AgenteReviewer
 import asyncio
 import json
 if __name__ == "__main__":
@@ -26,13 +27,7 @@ if __name__ == "__main__":
 
         debate = DebateThreeRoundsWithResearch(agents, 
                         ley_texto,
-                        Reviewer(system_prompt = "Sos un agente especializado en análisis de debates normativos. Tu tarea es evaluar y resumir las posturas expresadas por otros agentes de distintas ideologías sobre un proyecto de ley, organizadas por eje temático (por ejemplo: equidad, constitucionalidad, impacto económico, etc.)."\
-                                                "Para cada eje temático:" \
-                                                "Recibís los argumentos iniciales, las contraargumentaciones y las evaluaciones finales de cada agente."\
-                                                "Debés analizar y resumir qué dijo cada agente sobre ese eje, destacando sus fundamentos principales, estilo argumentativo y postura final (a favor o en contra)." \
-                                                "Luego, hacés una síntesis general del debate en ese eje: señalás los puntos en común, los principales desacuerdos, si hubo cambio de postura o consenso parcial, y cuál fue la distribución del voto." \
-                                                "Tu análisis debe ser claro, objetivo y técnico, sin introducir opiniones propias. Usá un tono institucional, como el de un informe parlamentario." 
-                        , agents = agents),
+                        AgenteReviewer,
                         mock_research= True)
         asyncio.run(debate.run_debate(id = ley["id"]))
         print(f"ley {ley['id']} terminada")

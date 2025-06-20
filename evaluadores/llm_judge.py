@@ -1,6 +1,5 @@
-
 from evaluadores.judge import Judge
-
+from typing import Optional
 
 def get_agent_responses(debate, agent_name, n_rounds=3):
     agent_response = ""
@@ -26,12 +25,13 @@ async def judge_rubric_with_arguments(agent_name, rubric, agent_response, pydant
     razonamiento, puntaje = await judge.judge_agent_arguments(agent_name, agent_response)
     return razonamiento, puntaje
     
-from typing import Optional
-async def judge_rubric_with_debate_and_summary(agent_name: Optional,rubric, debate, summary,pydantic_structure):
+
+async def judge_rubric_with_debate_and_summary(agent_name: Optional, rubric, debate, summary, pydantic_structure):
     """
     Juzga la rubrica de un agente politico en base a las respuestas del debate.
 
     Args:
+        agent_name (Optional[str]): Nombre del agente politico. Si es None, se juzga el resumen completo del debate.
         rubric (str): Rubrica de evaluacion.
         debate (List[str]): Todo lo que dijo el/los agente en el debate.
         pydantic_structure (Pydantic): Estructura de datos Pydantic para la respuesta del juez.

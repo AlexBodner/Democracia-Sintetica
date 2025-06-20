@@ -1,4 +1,70 @@
 {
+    "Reviewer": {
+        "La historia inflacionaria del país justifica ir a una dolarización": {
+            "respuesta": "Depende",
+            "razonamiento": "La historia inflacionaria del país ha generado incertidumbre económica y baja confianza en la moneda local, a lo que muchos argumentan que la dolarización podría estabilizar la economía y contener la inflación. Sin embargo, otros sostienen que la dolarización podría limitar la capacidad del país para manejar su política monetaria y responder a crisis económicas. Por lo tanto, la necesidad de dolarización debe evaluarse en contexto y con una estrategia sólida de ajustes previos."
+        },
+        "Los impuestos de la Argentina son excesivos y hay que reducirlos": {
+            "respuesta": "De acuerdo",
+            "razonamiento": "Los impuestos en Argentina han sido objeto de críticas por su carga elevada en comparación con otros países de la región, lo que podría estar afectando la economía y el crecimiento. La postura indica que es necesario reducir la carga impositiva para incentivar la inversión y mejorar la situación económica."
+        },
+        "El Estado debe regular a los privados para mejorar la distribución de la riqueza": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "La intervención del Estado en la economía es un mecanismo necesario para promover la equidad y corregir las desigualdades que se generan en un sistema de mercado. Regular a los privados es fundamental para asegurar que los recursos se distribuyan de manera más justa en la sociedad, protegiendo así los derechos de todos los ciudadanos, especialmente de aquellos en situaciones de vulnerabilidad."
+        },
+        "Las restricciones a las importaciones son necesarias para fomentar y proteger a la industria nacional": {
+            "respuesta": "De acuerdo",
+            "razonamiento": "Las restricciones a las importaciones son vistas como una medida proteccionista que puede ayudar a la industria nacional a desarrollarse al limitar la competencia externa. Esto es fundamental para preservar puestos de trabajo y fomentar el crecimiento económico interno, aunque debe equilibrarse con la necesidad de competencia para asegurar innovación y calidad."
+        },
+        "El Estado debe reducir sus gastos para alcanzar el equilibrio fiscal": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "Desde mi perspectiva, la reducción del gasto estatal es fundamental para lograr una mayor eficiencia en la administración pública y fomentar un equilibrio fiscal sostenible. Un gasto excesivo puede llevar a déficits que amenacen la estabilidad económica del país."
+        },
+        "El país necesita una reforma laboral que baje los costos de despido": {
+            "respuesta": "Depende",
+            "razonamiento": "La reforma laboral que busca disminuir los costos de despido puede promover la flexibilización del mercado laboral, a menudo argumentándose que esto puede incentivar la creación de empleo. Sin embargo, es crucial considerar el impacto potencial en los derechos de los trabajadores y la seguridad laboral."
+        },
+        "El control de precios es una buena estrategia para combatir la inflación": {
+            "respuesta": "En desacuerdo",
+            "razonamiento": "El control de precios tiende a distorsionar el mercado y puede generar desabastecimiento, ya que a menudo los productores no encuentran rentable ofrecer sus productos a precios fijados. Aunque puede ser una medida temporal durante crisis, no se considera sostenible a largo plazo."
+        },
+        "La fuerza pública debe desalojar a los grupos que cortan rutas o avenidas principales de las ciudades": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "La acción de desalojo por parte de la fuerza pública es a menudo necesaria para garantizar el orden público y la libre circulación de personas. Cortar rutas o avenidas principales puede interrumpir servicios esenciales y afectar a millones de ciudadanos, por lo que considero que es fundamental mantener el respeto por el derecho al libre tránsito."
+        },
+        "Hay que eliminar los planes sociales porque generan un enorme gasto y atentan contra la cultura del esfuerzo": {
+            "respuesta": "En desacuerdo",
+            "razonamiento": "La eliminación de los planes sociales podría tener un impacto negativo en los sectores más vulnerables de la sociedad que dependen de estos programas para su subsistencia. En lugar de su eliminación, es necesario replantear y mejorar la distribución y la gestión de los recursos para asegurar que se apoye efectivamente a quienes más lo necesitan, sin comprometer la cultura del esfuerzo."
+        },
+        "El Estado debe tomar medidas para asegurar la paridad salarial entre mujeres y hombres": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "La igualdad salarial es un principio fundamental que debe ser promovido por el Estado para garantizar equidad en el empleo y justicia social. Las medidas proactivas son necesarias para abordar las disparidades salariales históricas."
+        },
+        "La ley de aborto legal, seguro y gratuito es una conquista social de enorme trascendencia": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "La ley de aborto legal, seguro y gratuito representa un avance significativo en los derechos reproductivos y la autonomía de las mujeres. Reconocer el derecho a decidir sobre el propio cuerpo se considera esencial en una sociedad que busca igualdad y justicia social."
+        },
+        "Ante la inseguridad creciente, debería permitirse la libre portación de armas": {
+            "respuesta": "En desacuerdo",
+            "razonamiento": "La libre portación de armas podría derivar en un aumento en los índices de violencia y no contribuiría a una solución efectiva de la problemática de inseguridad. Es fundamental abordar las causas subyacentes de la inseguridad mediante políticas integrales que incluyan la mejora en la formación policial y en el sistema judicial, en lugar de aumentar el acceso a armas."
+        },
+        "La salud y la educación pública deberían continuar siendo gratuitas": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "La salud y la educación son derechos fundamentales que deben ser garantizados por el Estado. La gratuidad en estos servicios asegura que todas las personas, independientemente de su situación económica, tengan acceso a lo que necesitan para su bienestar físico y mental, así como para su desarrollo personal y profesional."
+        },
+        "La Argentina debe romper el acuerdo con el FMI para cortar la dependencia económica": {
+            "respuesta": "Depende",
+            "razonamiento": "La ruptura del acuerdo con el FMI podría derivar en una inestabilidad económica significativa y consecuencias negativas a corto plazo. Sin embargo, la dependencia económica es una preocupación válida. Es preciso evaluar los costos y beneficios antes de tomar una decisión tan radical."
+        },
+        "El matrimonio igualitario es uno de los grandes avances sociales de los últimos años en el país": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "El matrimonio igualitario representa un avance en la igualdad de derechos para todas las personas, independientemente de su orientación sexual, logrando una mayor inclusión y reconocimiento social. Este es un principio fundamental en una sociedad democrática y equitativa."
+        },
+        "Hay que pensar leyes que protejan a los policías y no a los delincuentes": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "La protección de los policías es un aspecto fundamental para garantizar la seguridad y el orden público. La ley debe priorizar la seguridad de quienes arriesgan su vida en el cumplimiento de su deber, en lugar de favorecer a aquellos que quebrantan la ley."
+        }
+    },
     "Agente Liberal": {
         "La historia inflacionaria del país justifica ir a una dolarización": {
             "respuesta": "Muy de acuerdo",
@@ -6,19 +72,19 @@
         },
         "Los impuestos de la Argentina son excesivos y hay que reducirlos": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Los impuestos en Argentina son un obstáculo para la libertad individual y el crecimiento económico. Altos impuestos restringen la propiedad privada y limitan la capacidad de los ciudadanos para invertir en sus propias vidas. Reducir la carga tributaria es esencial para fomentar la inversión y el desarrollo empresarial."
+            "razonamiento": "Los impuestos en Argentina son un obstáculo para la libertad individual y el desarrollo económico. Altos impuestos restringen la propiedad privada y limitan la capacidad de los ciudadanos para invertir en sus propias vidas. Reducir la carga tributaria es esencial para fomentar la inversión y el crecimiento. Por lo tanto, estoy completamente de acuerdo con la necesidad de reducir los impuestos en Argentina."
         },
         "El Estado debe regular a los privados para mejorar la distribución de la riqueza": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "Intervenciones estatales para regular la economía frecuentemente terminan generando más problemas que soluciones. La verdadera distribución de la riqueza se logra mediante la libertad económica y la creación de oportunidades, no por medio de regulaciones que limitan la inversión privada y la iniciativa individual. Los mercados libres y la competencia son los mecanismos más efectivos para garantizar que la riqueza sea generada y distribuida de manera justa y eficiente."
+            "razonamiento": "Intervenciones estatales para regular a los privados solamente generan distorsiones en el mercado y restringen la libre competencia. La distribución de la riqueza debe hacerse a través de la creación de oportunidades y la promoción de la iniciativa privada, no mediante la coerción estatal."
         },
         "Las restricciones a las importaciones son necesarias para fomentar y proteger a la industria nacional": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "Las restricciones a las importaciones son una forma de intervencionismo estatal que distorsiona el mercado libre. En lugar de proteger a la industria nacional, crean ineficiencia y aumentan los precios para el consumidor. La verdadera protección se logra a través de la competencia, no limitando las opciones de los ciudadanos."
+            "razonamiento": "Las restricciones a las importaciones son una forma de intervencionismo estatal que distorsiona el mercado libre. En lugar de proteger a la industria nacional, crean ineficiencia y aumentan los precios para el consumidor. La verdadera protección se logra a través de la competitividad y la innovación, no mediante restricciones que limitan la libertad comercial."
         },
         "El Estado debe reducir sus gastos para alcanzar el equilibrio fiscal": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Un Estado menos intervencionista y que reduzca su gasto público es fundamental para eliminar distorsiones en la economía y fomentar la inversión privada. Establecer un equilibrio fiscal permitirá liberar recursos que pueden ser utilizados por los ciudadanos, incentivando el crecimiento económico y la creación de riqueza."
+            "razonamiento": "Un gasto público excesivo es un obstáculo para la libertad individual y el crecimiento económico. La reducción de gastos estatales permite destinar recursos a la actividad privada, fomentando la inversión y la creación de empleos. Para alcanzar un equilibrio fiscal, es esencial un ajuste del gasto público y la eliminación de programas ineficientes."
         },
         "El país necesita una reforma laboral que baje los costos de despido": {
             "respuesta": "Muy de acuerdo",
@@ -26,89 +92,89 @@
         },
         "El control de precios es una buena estrategia para combatir la inflación": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "El control de precios interfiere en el funcionamiento del mercado, distorsiona las señales económicas y genera escasez. La inflación debe ser combatida mediante reducción del gasto público, baja de impuestos y promoción de la inversión privada, no con medidas que aumentan la intervención estatal. Los precios deben ser libres para reflejar la oferta y la demanda."
+            "razonamiento": "El control de precios es un mecanismo que interfiere en el libre funcionamiento del mercado, creando distorsiones y escasez. Esta intervención estatal solo agrava el problema, ya que desincentiva la producción y provoca el desabastecimiento. En lugar de regular precios, debemos permitir que el mercado ajuste los precios de acuerdo a la oferta y demanda, impulsando la competitividad y la inversión."
         },
         "La fuerza pública debe desalojar a los grupos que cortan rutas o avenidas principales de las ciudades": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Cortar rutas o avenidas principales atenta contra la libertad de circulación de los ciudadanos y el derecho a la propiedad privada. La fuerza pública debe garantizar el respeto por las normas y prevenir el desorden público, protegiendo así a los ciudadanos que no están involucrados en esos actos de protesta. Es fundamental que el Estado actúe en defensa de la libertad y la propiedad de todos los ciudadanos."
+            "razonamiento": "Cortar rutas o avenidas principales atenta contra la libertad de circulación de los ciudadanos y el derecho a la propiedad privada. La fuerza pública debe garantizar el respeto por las normas y prevenir el desorden público, protegiendo así a los ciudadanos que no están involucrados en esos actos de protesta. Permitir que grupos bloqueen el acceso a vías públicas simplemente crea un Estado de caos y desprotección."
         },
         "Hay que eliminar los planes sociales porque generan un enorme gasto y atentan contra la cultura del esfuerzo": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Los planes sociales mantienen a las personas en una dependencia del Estado, socavando la cultura del esfuerzo y la meritocracia. Una verdadera solución se centra en crear oportunidades de empleo y fomentar la iniciativa privada, no en perpetuar la dependencia. Por lo tanto, es fundamental eliminar los planes sociales en el camino hacia un Estado más eficiente y una sociedad más emprendedora y competitiva."
+            "razonamiento": "Los planes sociales mantienen a las personas en una dependencia del Estado, socavando la cultura del esfuerzo y la meritocracia. Una sociedad próspera se construye incentivando el trabajo y la iniciativa privada, no perpetuando la pobreza a través de subsidios. La eliminación de estos planes debe ir acompañada de políticas que creen empleos genuinos en el sector privado."
         },
         "El Estado debe tomar medidas para asegurar la paridad salarial entre mujeres y hombres": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Si bien la igualdad de salario es un principio deseable, la intervención estatal para asegurar la paridad salarial puede desincentivar la libre negociación entre empleadores y empleados. El mercado debe regularse por la oferta y la demanda, promoviendo la meritocracia y el esfuerzo individual en lugar de imposiciones gubernamentales."
+            "razonamiento": "Si bien la igualdad de salario es un principio de justicia, la intervención estatal para asegurar la paridad salarial resulta en una distorsión del mercado laboral. El Estado no debe imponer regulaciones que alteren la libertad individual ni las decisiones de las empresas. Las soluciones deben surgir de un mercado libre que valore el mérito y el esfuerzo de cada trabajador, independientemente de su género."
         },
         "La ley de aborto legal, seguro y gratuito es una conquista social de enorme trascendencia": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "La ley de aborto legal implica una intervención estatal en un tema que atañe a la vida y la libertad individual. La vida es un derecho fundamental desde la concepción, y la promoción del aborto como una conquista social despoja a los individuos de esa protección. Por lo tanto, no considero que represente una conquista social, sino una vulneración de derechos. Además, la solución al problema del embarazo no deseado debería centrarse en la educación y en el fortalecimiento de la familia, no en la eliminación de una vida."
+            "razonamiento": "La ley de aborto legal implica una intervención estatal en un tema que atañe a la vida y la libertad individual. La vida es un derecho fundamental desde la concepción, y la promoción del aborto como una conquista social despoja a los individuos de su derecho más básico. La verdadera conquista social es el respeto a la vida y al derecho de cada persona a nacer.  "
         },
         "Ante la inseguridad creciente, debería permitirse la libre portación de armas": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "La libre portación de armas es un aspecto fundamental de la defensa de la libertad individual y del derecho a la autodefensa. En un contexto de creciente inseguridad, permitir a los ciudadanos la opción de portar armas es una forma de empoderarlos y proteger su vida y propiedad. La intervención del Estado en restringir este derecho generalmente lleva a un aumento en la criminalidad, ya que los delincuentes suelen estar mejor armados que las víctimas."
+            "razonamiento": "La libre portación de armas es un aspecto fundamental de la defensa de la libertad individual y del derecho a la autodefensa. En un contexto de creciente inseguridad, permitir a los ciudadanos la opción de portar armas es una forma de empoderarlos y proteger su vida y propiedad. La intervención del Estado en restringir este derecho generalmente lleva a un aumento en la criminalidad, ya que los delincuentes suelen actuar con impunidad ante ciudadanos desarmados. La libre portación de armas promueve la responsabilidad individual y el respeto por el derecho a la vida."
         },
         "La salud y la educación pública deberían continuar siendo gratuitas": {
-            "respuesta": "En desacuerdo",
-            "razonamiento": "La salud y la educación deben ser áreas donde las familias tengan la libertad de elegir dónde invertir sus recursos. La gratuidad fomentada por el Estado genera ineficiencia, dependencia y baja calidad. Debemos promover un sistema basado en vouchers, donde las personas pueden optar por la educación y la salud pública o privada, dependiendo de sus necesidades y preferencias."
+            "respuesta": "Muy en desacuerdo",
+            "razonamiento": "La idea de que la salud y la educación pública sean gratuitas perpetúa un sistema estatal insostenible que limita la elección y la competencia. Esto reduce la eficiencia y la calidad de los servicios, además de depender de un gasto público que podría ser mejor utilizado. La educación y la salud deben ser desreguladas y que los ciudadanos tengan la libertad de elegir y financiar sus opciones en el sector privado."
         },
         "La Argentina debe romper el acuerdo con el FMI para cortar la dependencia económica": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Romper el acuerdo con el FMI puede llevar a una mayor inestabilidad económica y falta de confianza en los inversores. En lugar de cortar la dependencia económica, deberíamos enfocarnos en implementar reformas estructurales que permitan mayor libertad económica, un ajuste fiscal drástico y la reducción del tamaño del Estado. Esto fomentaría el crecimiento sostenible y la independencia verdadera en el largo plazo."
+            "razonamiento": "Romper el acuerdo con el FMI puede llevar a una mayor inestabilidad económica y falta de confianza en los inversores. En lugar de cortar la dependencia económica, deberíamos enfocarnos en implementar reformas que promuevan el crecimiento económico sostenible, la reducción del gasto público y la desregulación, que permitirán levantar la carga que el Estado ha impuesto al sector privado. Solo así podremos construir una economía sólida y moderna sin depender de organismos internacionales. Así que la idea de romper sin un plan claro es perjudicial."
         },
         "El matrimonio igualitario es uno de los grandes avances sociales de los últimos años en el país": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "El matrimonio igualitario es un reconocimiento a la libertad individual y a la igualdad de derechos entre todas las personas, independientemente de su orientación sexual. Desde la perspectiva del liberalismo, es fundamental defender el derecho de las personas a elegir con quién quieren compartir su vida y construir su familia. Esta ley no solo respeta la libertad de elección, sino que también promueve la igualdad y la no discriminación, valores que debemos fomentar en una sociedad libre y justa."
+            "razonamiento": "El matrimonio igualitario es un reconocimiento a la libertad individual y a la propiedad privada en el ámbito personal. Cada individuo debe tener la libertad de elegir con quién compartir su vida sin interferencia del Estado. Celebrar el matrimonio es un derecho fundamental que debe ser respetado, independientemente de la orientación sexual. Este avance social promueve el principio de no agresión y la igualdad ante la ley, aspectos fundamentales del liberalismo."
         },
         "Hay que pensar leyes que protejan a los policías y no a los delincuentes": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Es fundamental que las leyes protejan a quienes garantizan la seguridad y el orden en nuestra sociedad. Dar prioridad a la protección de los policías asegura que puedan cumplir con su deber sin temor a represalias, incentivando una mejor gestión de la seguridad pública. Esto también reafirma el valor de la autoridad y el respeto al orden frente a la delincuencia."
+            "razonamiento": "Es fundamental que las leyes protejan a quienes cumplen con la responsabilidad de mantener el orden y la seguridad en la sociedad. Los policías deben contar con el respaldo legal necesario para ejecutar su labor sin temor a represalias, lo que contribuye a restaurar la confianza en las instituciones. Por el contrario, las leyes no deben favorecer a los delincuentes, ya que esto socavaría la justicia y el principio de protección de la propiedad y la vida de los ciudadanos."
         }
     },
     "Agente de Juntos Por El Cambio": {
         "La historia inflacionaria del país justifica ir a una dolarización": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Si bien la inflación crónica que hemos sufrido en Argentina plantea interrogantes sobre nuestra política monetaria, la dolarización puede atentar contra nuestra soberanía económica y limitar la capacidad de un Banco Central que, bajo una nueva gestión, debe enfocarse en la estabilidad de precios como prioridad. La solución no puede ser una salida drástica sino más bien un plan integral que estabilice nuestra economía y respete la libertad económica."
+            "razonamiento": "Si bien la inflación es uno de los principales problemas económicos que enfrenta Argentina, la dolarización no es la única solución viable. La dolarización podría simplificar algunos aspectos económicos, pero también implicaría renunciar a la soberanía monetaria y limitar las herramientas de política económica que el Estado tiene para estabilizar la economía. Es fundamental abordar el problema de la inflación a través de un plan de estabilización que promueva el orden fiscal y monetario sin perder control sobre la moneda nacional."
         },
         "Los impuestos de la Argentina son excesivos y hay que reducirlos": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Los impuestos en Argentina son altamente distorsivos y afectan la capacidad de crecimiento del sector privado. Una reducción de impuestos, especialmente los que gravan el trabajo y las inversiones, promovería la formalización del empleo y la competitividad. Esto no solo favorecería a las empresas, sino que también se traduciría en más oportunidades para la población. Por lo tanto, estoy convencido de que es necesario realizar una reforma impositiva que alivie la carga fiscal."
+            "razonamiento": "Los impuestos en Argentina son altamente distorsivos y afectan la capacidad de inversión y crecimiento. La reducción tributaria es fundamental para fomentar la iniciativa privada, simplificar la carga fiscal sobre las empresas y los trabajadores, y generar un ambiente propicio para el desarrollo económico. Esto también contribuye a crear más empleo y a mejorar la calidad de vida de los ciudadanos."
         },
         "El Estado debe regular a los privados para mejorar la distribución de la riqueza": {
-            "respuesta": "En desacuerdo",
-            "razonamiento": "Si bien es importante que el Estado tenga un rol en la protección de derechos y en la promoción de la equidad, la regulación excesiva puede sofocar la iniciativa privada y desalentar la inversión. Lo que se necesita es un marco regulatorio que garantice un ambiente justo y competitivo para todos, donde la distribución de la riqueza surja del crecimiento económico y la creación de oportunidades para todos. Por tanto, no apoyo la idea de una regulación que limite la libertad económica sin un claro beneficio social."
+            "respuesta": "Depende",
+            "razonamiento": "Si bien es importante que el Estado tenga un rol en la protección de derechos y en la promoción de la equidad, la regulación excesiva puede ahogar la iniciativa privada y desalentar la inversión. Lo que se necesita es un marco regulatorio que garantice un ambiente justo y competitivo para todos, donde la distribución de la riqueza se logre a través del crecimiento económico y el desarrollo de oportunidades, no solo por intervención estatal. Es necesario encontrar un equilibrio donde el Estadoactúe como facilitador, no como obstáculo."
         },
         "Las restricciones a las importaciones son necesarias para fomentar y proteger a la industria nacional": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Las restricciones a las importaciones suelen generar distortion en el mercado, afectando tanto la competencia como los precios para los consumidores. Fomentar la industria nacional debe realizarse a través de políticas de incentivo y mejora en la productividad, en lugar de medidas proteccionistas que limitan la libertad de comercio y generan dependencia. Es fundamental equilibrar la protección del empleo con el acceso a productos de calidad y competitivos."
+            "razonamiento": "Las restricciones a las importaciones pueden generar proteccionismo que ahoga la competencia y afecta la libertad de mercado. Fomentar a la industria nacional es vital, pero debe hacerse fomentando la competitividad y la eficiencia, no mediante limitaciones que desincentiven la innovación y el desarrollo. Es importante generar un entorno donde las industrias locales puedan crecer, pero eso debe ser con mecanismos que promuevan el desarrollo y no a costa de mayores costos para los consumidores."
         },
         "El Estado debe reducir sus gastos para alcanzar el equilibrio fiscal": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "El equilibrio fiscal es fundamental para la estabilidad económica y el desarrollo sostenible de nuestro país. Reducir los gastos del Estado permite evitar el endeudamiento, combatir la inflación y asegurar que los recursos de los ciudadanos se utilicen de manera eficiente. Esto es esencial para promover la iniciativa privada y fortalecer las instituciones. Un Estado austero y eficiente es el camino hacia una Argentina más próspera."
+            "razonamiento": "El equilibrio fiscal es fundamental para la estabilidad económica y el desarrollo sostenible de nuestro país. Reducir los gastos del Estado permite evitar el endeudamiento, combatir la inflación y asegurar inversiones en áreas prioritarias como educación y salud. Un Estado eficiente y austero, que elimine privilegios y gastos superfluos, puede reinvertir esos recursos en el bienestar de los ciudadanos y garantizar igualdad de oportunidades. Por lo tanto, estoy totalmente de acuerdo con esta afirmación."
         },
         "El país necesita una reforma laboral que baje los costos de despido": {
             "respuesta": "Depende",
-            "razonamiento": "Una reforma laboral que baje los costos de despido puede ayudar a fomentar la contratación y la formalización del empleo, permitiendo mayor dinamismo en el mercado laboral. Sin embargo, esta reforma debe equilibrarse con protecciones adecuadas para los trabajadores y asegurar un entorno justo y equitativo. Por ende, dependo de las condiciones específicas de la reforma y su implementación."
+            "razonamiento": "Una reforma laboral que baje los costos de despido podría ayudar a fomentar la contratación y la formalización del empleo, permitiendo mayor dinamismo en el mercado laboral. Sin embargo, esta reforma debe ser balanceada con la protección de los derechos del trabajador, para no generar inseguridad laboral. La necesidad de una reforma depende de cómo se implemente y del equilibrio que se busque entre la flexibilización y la protección. Debemos ser cautelosos y buscar un enfoque que fomente tanto la inversión como la dignidad laboral."
         },
         "El control de precios es una buena estrategia para combatir la inflación": {
-            "respuesta": "Muy en desacuerdo",
-            "razonamiento": "El control de precios, aunque puede parecer una solución inmediata ante la inflación, a menudo genera distorsiones en la economía, desincentiva la producción y puede llevar a la escasez de productos. Lo más efectivo es estabilizar la economía mediante una política fiscal responsable y una política monetaria que priorice la estabilidad de precios, no intervenciones que afectan la libertad de mercado."
+            "respuesta": "En desacuerdo",
+            "razonamiento": "El control de precios, aunque puede parecer una solución inmediata ante la inflación, a largo plazo distorsiona el mercado, desalienta la inversión, y puede llevar a la escasez de productos. En lugar de controles, debemos centrarnos en políticas que estabilicen la economía y fomenten la producción, asegurando así que los precios reflejen el verdadero valor de los bienes y servicios en una economía de mercado. Es una medida que atenta contra la libertad económica y no presenta un beneficio claro a largo plazo."
         },
         "La fuerza pública debe desalojar a los grupos que cortan rutas o avenidas principales de las ciudades": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "La libertad de circulación es un derecho fundamental que debe ser garantizado por el Estado. Cortes de rutas o avenidas afectan la vida cotidiana de millones de ciudadanos y generan un clima de desorden e inseguridad. La fuerza pública tiene la responsabilidad de restablecer la normalidad y proteger el orden público. Es fundamental mantener la autoridad del Estado para asegurar la convivencia pacífica."
+            "razonamiento": "La libertad de tránsito es un derecho fundamental que debe ser garantizado por el Estado. Cortar rutas y avenidas atenta contra los derechos de los ciudadanos que necesitan transitar y trabajar. La fuerza pública, respetando el marco legal y los derechos humanos, debe actuar para restablecer el orden y garantizar la circulación. Esto también fomenta una convivencia pacífica y el respeto por el estado de derecho."
         },
         "Hay que eliminar los planes sociales porque generan un enorme gasto y atentan contra la cultura del esfuerzo": {
-            "respuesta": "Depende",
-            "razonamiento": "Si bien los planes sociales son necesarios como herramientas de asistencia en situaciones críticas, debemos avanzar hacia un modelo que promueva el trabajo y la inclusión laboral, de modo que no se conviertan en un fin en sí mismos. Los planes deben ser reformulados para priorizar la capacitación y el desarrollo de habilidades que fomenten la autonomía y la cultura del esfuerzo."
+            "respuesta": "En desacuerdo",
+            "razonamiento": "Si bien los planes sociales son necesarios como herramientas de asistencia en situaciones críticas, debemos avanzar hacia un modelo que promueva el trabajo y la inclusión laboral, de modo que no se conviertan en un fin en sí mismos. La clave está en transformar estos programas para que fomenten la cultura del esfuerzo y la autonomía laboral, y no se conviertan en un sustitutivo del trabajo digno. Por ello, no estoy de acuerdo con su eliminación total, sino con su reestructuración."
         },
         "El Estado debe tomar medidas para asegurar la paridad salarial entre mujeres y hombres": {
             "respuesta": "De acuerdo",
-            "razonamiento": "Apoyamos la paridad salarial como una cuestión de igualdad de oportunidades y justicia social. Las medidas del Estado deben centrarse en promover un marco normativo que fomente la igualdad en el ámbito laboral, sin embargo, el éxito también depende del compromiso de las empresas y la educación para eliminar estereotipos. Es fundamental asegurar que las políticas públicas no se conviertan en intervencionismo que limite la libertad empresarial."
+            "razonamiento": "Reconocemos la importancia de la equidad de género y entendemos que el Estado tiene un papel facilitador en la creación de un marco que garantice igualdad de oportunidades de empleo y condiciones laborales justas. Es fundamental que las políticas públicas promuevan un entorno donde ambas partes compitan en igualdad de condiciones. Sin embargo, estas medidas deben ser equilibradas para no generar distorsiones en el mercado laboral ni afectar la libertad de contratación y negociación entre empleadores y empleados."
         },
         "La ley de aborto legal, seguro y gratuito es una conquista social de enorme trascendencia": {
-            "respuesta": "En desacuerdo",
-            "razonamiento": "La ley de aborto legal, seguro y gratuito es un tema complejo que conmueve convicciones personales y valores éticos y morales. Desde Juntos por el Cambio promovemos el respeto a la vida, pero también entendemos la importancia de un enfoque que priorice la salud y la educación sexual para prevenir embarazos no deseados. Valoramos la protección de los derechos fundamentales, pero creemos que el debate debe centrarse en el fortalecimiento de la educación y las políticas de salud. Por ello, esta ley no puede ser vista como una conquista social sin que se aborden todos los aspectos involucrados."
+            "respuesta": "Depende",
+            "razonamiento": "La ley de aborto legal, seguro y gratuito es un tema complejo que conmueve convicciones personales y valores éticos y morales. Si bien consideramos de suma importancia la defensa de la vida y el respeto por los derechos del no nacido, también entendemos la relevancia de la salud y los derechos de las mujeres. Es fundamental buscar un enfoque que priorice la prevención, la educación sexual integral y el acceso a métodos anticonceptivos. Por ello, la respuesta es que se requiere un análisis más profundo sobre las implicancias sociales y éticas, que se aleje de considerar esta ley como una mera conquista social sin discutir sus efectos en todos los actores involucrados."
         },
         "Ante la inseguridad creciente, debería permitirse la libre portación de armas": {
             "respuesta": "En desacuerdo",
@@ -116,29 +182,29 @@
         },
         "La salud y la educación pública deberían continuar siendo gratuitas": {
             "respuesta": "De acuerdo",
-            "razonamiento": "La salud y la educación pública son derechos fundamentales que deben ser garantizados por el Estado. Sin embargo, es crucial que estas áreas sean gestionadas eficientemente y que se mantenga un equilibrio entre gratuidad y calidad. Se debe trabajar en la mejora de los servicios, garantizando un acceso equitativo para todos, sin caer en la complacencia o el burocratismo. Por lo tanto, votaría con matices en favor de la continuidad de estos servicios como gratuitos bajo una administración efectiva y responsable."
+            "razonamiento": "La salud y la educación pública son derechos fundamentales que deben ser garantizados por el Estado. Sin embargo, es crucial que estas áreas sean eficaces y de calidad. La gratuidad debe ir acompañada de un fuerte compromiso con la eficiencia, transparencia y mejora continua en estos sectores, para no caer en la ineficiencia que caracteriza a administraciones anteriores. Entonces, es importante asegurar que la gratuidad no comprometa la calidad del servicio."
         },
         "La Argentina debe romper el acuerdo con el FMI para cortar la dependencia económica": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Romper el acuerdo con el FMI sin un plan económico sólido y sostenible puede llevar a un mayor aislamiento financiero y a la inestabilidad económica. La dependencia se soluciona a través de políticas que promuevan el crecimiento y la inversión, no mediante el rompimiento de acuerdos que pueden ofrecer financiamiento y apoyo técnico. Es crucial trabajar en un plan que fomente la inversión y el desarrollo, manteniendo una relación responsable con organismos internacionales."
+            "razonamiento": "Romper el acuerdo con el FMI sin un plan económico sólido y sostenible puede llevar a un mayor aislamiento financiero y a la inestabilidad económica. La dependencia se soluciona a través de políticas que promuevan el crecimiento y la inversión, no mediante el rompimiento de acuerdos que pueden ofrecer financiamiento y apoyo en momentos difíciles. Es fundamental equilibrar la soberanía económica con la responsabilidad fiscal."
         },
         "El matrimonio igualitario es uno de los grandes avances sociales de los últimos años en el país": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "El matrimonio igualitario representa una expansión de derechos y un reconocimiento de la igualdad ante la ley, lo que está alineado con los principios de igualdad de oportunidades de Juntos por el Cambio. Si bien se reconoce que las tradiciones y valores son importantes, también se prioriza la necesidad de una sociedad más inclusiva y justa. En este sentido, el matrimonio igualitario puede ser visto como un gran avance social."
+            "razonamiento": "El matrimonio igualitario representa una expansión de derechos y un reconocimiento de la igualdad ante la ley, lo que está alineado con los principios de igualdad de oportunidades de Juntos por el Cambio. Si bien se reconoce que las tradiciones y valores familiares son fundamentales, la inclusión y el respeto a la diversidad son esenciales en una sociedad democrática y republicana."
         },
         "Hay que pensar leyes que protejan a los policías y no a los delincuentes": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Es fundamental garantizar la protección y el reconocimiento de la labor de las fuerzas de seguridad, quienes arriesgan sus vidas para mantener el orden y la seguridad en la sociedad. Las leyes deben enfocarse en fortalecer a las instituciones que combaten el delito, asegurando que quienes cometen actos delictivos sean llevados ante la justicia. Proteger a los policías es un paso necesario para recuperar la confianza en el sistema de seguridad y justicia."
+            "razonamiento": "Es fundamental garantizar la protección y el reconocimiento de la labor de las fuerzas de seguridad, quienes arriesgan sus vidas para mantener el orden y la seguridad en la sociedad. Las leyes deben enfocarse en fortalecer a las instituciones que combaten el delito, asegurando que quienes cometen actos delictivos enfrenten las consecuencias adecuadas. Proteger a los policías es un paso necesario para recuperar la confianza en el sistema de seguridad y justicia."
         }
     },
     "Agente de Union Por La Patria": {
         "La historia inflacionaria del país justifica ir a una dolarización": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "La dolarización no es una solución viable para la inflación, ya que compromete nuestra soberanía económica y debilita la capacidad del Estado de intervenir y regular la economía en beneficio del pueblo argentino. Es fundamental recuperar la independencia económica y abordar la inflación a través de políticas que fortalezcan el trabajo, el poder adquisitivo de los ciudadanos y la producción nacional. La experiencia muestra que la dolarización puede llevar a una pérdida de capacidad de respuesta ante crisis económicas y aumentar la precarización laboral."
+            "razonamiento": "La dolarización no es una solución viable para los problemas inflacionarios de Argentina, ya que implica renunciar a la soberanía monetaria y compromete la capacidad del Estado para implementar políticas económicas que protejan a los sectores más vulnerables. En lugar de dolarizar, es esencial trabajar en la independencia económica y abordar las causas estructurales de la inflación desde una perspectiva de justicia social y desarrollo productivo."
         },
         "Los impuestos de la Argentina son excesivos y hay que reducirlos": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Los impuestos son fundamentales para financiar el gasto público y garantizar servicios esenciales. Reducir impuestos sin considerar su impacto en el bienestar social podría afectar gravemente a los más vulnerables. Es necesario asegurar una estructura impositiva justa y equitativa que permita la inclusión y el desarrollo sustentable."
+            "razonamiento": "Los impuestos son fundamentales para financiar el gasto público y garantizar servicios esenciales. Reducir impuestos sin considerar su impacto en el bienestar social podría perjudicar a los sectores más vulnerables. Es necesario enfocar en la equidad y la eficiencia del sistema tributario antes de pensar en reducciones que pueden afectar a la justicia social y el financiamiento del Estado."
         },
         "El Estado debe regular a los privados para mejorar la distribución de la riqueza": {
             "respuesta": "Muy de acuerdo",
@@ -146,117 +212,117 @@
         },
         "Las restricciones a las importaciones son necesarias para fomentar y proteger a la industria nacional": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Las restricciones a las importaciones son fundamentales para proteger y fomentar la industria nacional, permitiendo el crecimiento de sectores productivos locales y asegurando la generación de empleo. Esto es una medida coherente con la necesidad de alcanzar la independencia económica y la soberanía política, ya que prioriza el desarrollo de nuestras capacidades productivas por encima de los intereses extranjeros. En un contexto de crisis económica y vulnerabilidad, el Estado tiene el deber de intervenir y regular para defender el bienestar de todos los argentinos."
+            "razonamiento": "Las restricciones a las importaciones son fundamentales para proteger y fomentar la industria nacional, lo que permite conservar y generar empleo en el país, fortalecer nuestra soberanía económica y garantizar la producción local. Estas medidas son una herramienta clave para la independencia económica y el desarrollo sostenible de nuestro país."
         },
         "El Estado debe reducir sus gastos para alcanzar el equilibrio fiscal": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "Reducir gastos del Estado sin considerar el impacto en los sectores vulnerables y en la inversión pública puede ser perjudicial para el bienestar social. Un enfoque equilibrado debe partir de fortalecer el Estado para asegurar derechos y fomentar el desarrollo, en lugar de ajustar su tamaño y funciones. La justicia social y la protección a los ciudadanos deben ser prioridad."
+            "razonamiento": "Reducir gastos del Estado sin considerar el impacto en los sectores vulnerables y en la provisión de servicios básicos como salud y educación va en contra de los principios de justicia social que defendemos. Un Estado fuerte y presente es fundamental para garantizar el bienestar de la ciudadanía. Priorizar el equilibrio fiscal sin tener en cuenta la inclusión y el desarrollo productivo es perjudicial, especialmente en contextos de crisis."
         },
         "El país necesita una reforma laboral que baje los costos de despido": {
-            "respuesta": "En desacuerdo",
-            "razonamiento": "Bajar los costos de despido puede ser perjudicial para los derechos de los trabajadores, afectando su estabilidad y seguridad laboral. En lugar de una reforma que recorte derechos, es necesario garantizar y fortalecer la protección laboral, promoviendo la justicia social y el bienestar de todos los argentinos. Hay que buscar alternativas que fomenten la creación de empleo sin sacrificar derechos."
+            "respuesta": "Muy en desacuerdo",
+            "razonamiento": "Bajar los costos de despido puede ser perjudicial para los derechos de los trabajadores, afectando su estabilidad laboral y debilitando su poder de negociación. La reforma laboral debería centrarse en proteger y ampliar los derechos de los trabajadores, garantizar condiciones laborales adecuadas y promover el empleo genuino, más que en favorecer el despido fácil. La justicia social y la dignidad laboral deben ser prioridades."
         },
         "El control de precios es una buena estrategia para combatir la inflación": {
             "respuesta": "De acuerdo",
-            "razonamiento": "El control de precios puede ser una herramienta útil en el corto plazo para proteger a los sectores más vulnerables y asegurar el acceso a productos básicos. Sin embargo, debe ser parte de un enfoque más amplio que contemple el aumento de la producción y la sostenibilidad del trabajo. Sin medidas complementarias, el control de precios por sí solo podría llevar a desabastecimiento. Por lo tanto, en el contexto actual, puedo considerarlo una medida razonable."
+            "razonamiento": "El control de precios puede ser una herramienta necesaria en momentos críticos para proteger el poder adquisitivo de los más vulnerables y evitar abusos en el mercado. Sin embargo, debe ir acompañado de políticas que promuevan el crecimiento económico y el desarrollo productivo sostenible. No se debe ver como la única solución, sino como parte de un enfoque más amplio que incluya medidas fiscales y estructurales."
         },
         "La fuerza pública debe desalojar a los grupos que cortan rutas o avenidas principales de las ciudades": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Es fundamental priorizar el diálogo y la concertación ante la conflictividad social. Si bien es cierto que el ejercicio del derecho a la protesta no debe interrumpir el funcionamiento de la vida urbana, la respuesta no puede ser la represión sistemática. Hay que trabajar en la transformación de las causas socioeconómicas que llevan a estas movilizaciones y buscar soluciones pacíficas."
+            "razonamiento": "Es fundamental priorizar el diálogo y la concertación ante la conflictividad social. Si bien es cierto que el ejercicio del derecho a la protesta puede generar interrupciones en la circulación, es preferible buscar mediaciones antes de recurrir a la fuerza pública. Hay que entender y abordar las causas de la protesta como parte del fortalecimiento del pacto democrático y la convivencia pacífica."
         },
         "Hay que eliminar los planes sociales porque generan un enorme gasto y atentan contra la cultura del esfuerzo": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "Eliminar los planes sociales no solo generaría un impacto negativo en los sectores más vulnerables, sino que también desprotegería a millones de argentinos que dependen de estas ayudas para su subsistencia. Los planes sociales deben ser parte de un enfoque más amplio de justicia social que promueva la inclusión y la igualdad de oportunidades, no una cultura del desprecio hacia quienes atraviesan circunstancias adversas. En lugar de eliminar, es esencial transformar y fortalecer estos programas para que cumplan su función de puente entre la vulnerabilidad y la autonomía económica."
+            "razonamiento": "Eliminar los planes sociales no solo generaría un impacto negativo en los sectores más vulnerables, sino que también desprotegería a quienes dependen de estos apoyos en tiempos de crisis. La inclusión social y la justicia son pilares fundamentales de nuestra propuesta política. En lugar de eliminar estos planes, debemos trabajar por su mejora y, sobre todo, por políticas que promuevan la inclusión laboral y el desarrollo de oportunidades."
         },
         "El Estado debe tomar medidas para asegurar la paridad salarial entre mujeres y hombres": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "El Estado debe ser un actor clave en la promoción de la igualdad de derechos y oportunidades. La paridad salarial es un tema de justicia social que garantiza que hombres y mujeres reciban una remuneración equitativa por el mismo trabajo. No sólo busca corregir injusticias sistemáticas, sino que también contribuye al bienestar de las familias y la sociedad en general."
+            "razonamiento": "El Estado debe ser un actor clave en la promoción de la igualdad de derechos y oportunidades. La paridad salarial es un tema de justicia social que garantiza que hombres y mujeres sean remunerados equitativamente por el mismo trabajo. Es fundamental para la inclusión y la dignidad de todas las personas. Por lo tanto, respaldar acciones que aseguren la igualdad salarial es un imperativo en la construcción de una sociedad más justa."
         },
         "La ley de aborto legal, seguro y gratuito es una conquista social de enorme trascendencia": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "La ley de aborto legal, seguro y gratuito es una conquista social que promueve la autonomía de las mujeres y el respeto de sus derechos plenos. Asegurar el acceso a servicios de salud reproductiva es esencial para garantizar la justicia social y la igualdad de género. Esta ley es un paso fundamental en la lucha por los derechos, que refleja el compromiso de nuestra fuerza política con la inclusión y el bienestar de todas las personas."
+            "razonamiento": "La ley de aborto legal, seguro y gratuito es una conquista social que promueve la autonomía de las mujeres y el respeto de sus derechos plenos. Asegura que todas las mujeres tengan acceso a decisiones sobre su propia salud y bienestar, contribuyendo a la justicia social y la equidad de género."
         },
         "Ante la inseguridad creciente, debería permitirse la libre portación de armas": {
-            "respuesta": "En desacuerdo",
-            "razonamiento": "Permitir la libre portación de armas no aborda las causas estructurales de la inseguridad y puede incrementar la violencia en lugar de disminuirla. La respuesta a la inseguridad debe centrarse en políticas integrales de prevención, inclusión social y fortalecimiento de las fuerzas de seguridad con respeto a los derechos humanos, en lugar de fomentar la militarización de la sociedad."
+            "respuesta": "Muy en desacuerdo",
+            "razonamiento": "Permitir la libre portación de armas no aborda las causas estructurales de la inseguridad y puede incrementar la violencia y el riesgo para la sociedad. En lugar de desregular, es fundamental fortalecer las instituciones de seguridad y garantizar su respeto por los derechos humanos, promoviendo un enfoque integral que incluya prevención, educación y desarrollo socioeconómico, que son medidas más efectivas en la solución del problema."
         },
         "La salud y la educación pública deberían continuar siendo gratuitas": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "La salud y la educación pública son derechos humanos fundamentales que deben ser garantizados por el Estado. La gratuidad en estos servicios permite el acceso equitativo para todos, especialmente para los sectores más vulnerables, asegurando así la justicia social y el bienestar de la población. La continuidad de estas políticas es esencial para construir una sociedad más equitativa y solidaria."
+            "razonamiento": "La salud y la educación pública son derechos humanos fundamentales que deben ser garantizados por el Estado. La gratuidad en estos servicios permite el acceso equitativo para todos, especialmente para los sectores más vulnerables, asegurando así la justicia social y el bienestar de la población. La continuidad de estas políticas es esencial para construir una sociedad más justa y equitativa."
         },
         "La Argentina debe romper el acuerdo con el FMI para cortar la dependencia económica": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "Romper el acuerdo con el FMI se alinea con la búsqueda de la independencia económica, permitiendo desarrollar políticas que prioricen el bienestar del pueblo argentino y la soberanía en las decisiones económicas. Es fundamental restaurar la autonomía en la toma de decisiones para el desarrollo sostenible y la justicia social."
+            "razonamiento": "Romper el acuerdo con el FMI sería una medida valiente que permite recuperar la soberanía económica y desarrollar políticas que prioricen el bienestar del pueblo. La dependencia financiera ha llevado a situaciones de crisis y ajuste que afectan a los más vulnerables. Es necesario buscar alternativas que no comprometan nuestra independencia ni la justicia social."
         },
         "El matrimonio igualitario es uno de los grandes avances sociales de los últimos años en el país": {
             "respuesta": "Muy de acuerdo",
             "razonamiento": "El matrimonio igualitario es un derecho que garantiza la igualdad de todos los ciudadanos en el acceso a la institución del matrimonio, promoviendo la justicia social y la inclusión. Esta es una conquista por la que lucharon muchas generaciones y refleja el compromiso de un Estado que defiende los derechos de todas las personas, sin distinción."
         },
         "Hay que pensar leyes que protejan a los policías y no a los delincuentes": {
-            "respuesta": "En desacuerdo",
-            "razonamiento": "Una legislación adecuada debe proteger a todos los ciudadanos, incluyendo a los policías, pero no en detrimento de los derechos humanos de los delincuentes. La respuesta debe ser equilibrada y centrarse en la prevención del delito y la promoción de la justicia social, no en la criminalización o estigmatización de personas en situación de vulnerabilidad, que son a menudo víctimas del sistema. Por lo tanto, una mirada amplia debería priorizar la dignidad humana y una respuesta justa ante la delincuencia, sin olvidar que el Estado debe ser el garante de los derechos de todas las personas."
+            "respuesta": "De acuerdo",
+            "razonamiento": "Una legislación que busca proteger a las fuerzas de seguridad debe estar enmarcada en la defensa de los derechos humanos y la garantía del estado de derecho. Es fundamental asegurar la integridad de los policías en el ejercicio de su función, pero no a costa de vulnerar derechos fundamentales. Hay que trabajar hacia una política de seguridad pública que respete la dignidad de todos, con un firmemente compromiso por la justicia social."
         }
     },
     "Agente de Izquierda": {
         "La historia inflacionaria del país justifica ir a una dolarización": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "La dolarización no es la solución a la inflación, ya que implica renunciar a la soberanía monetaria y beneficia exclusivamente a los intereses del capital financiero. La crisis inflacionaria es resultado de políticas económicas aplicadas por los distintos gobiernos, que priorizan la deuda externa y enriquecen a los grandes capitalistas. La respuesta debería ser un plan económico obrero que priorice a los trabajadores y no a los bancos. Por lo tanto, la dolarización sería un castigo para la clase trabajadora."
+            "razonamiento": "La dolarización no es la solución a la inflación, ya que implica renunciar a la soberanía monetaria y beneficia exclusivamente a los intereses del capital financiero. La crisis inflacionaria es resultado de políticas económicas aplicadas por los distintos gobiernos, que priorizan la deuda externa y enriquecen a los grandes capitalistas. La respuesta debería ser un plan económico obrero que priorice a los trabajadores y el control estatal de la economía, no adoptar una moneda que favorece al imperialismo y sitúa a nuestra economía bajo su dominio."
         },
         "Los impuestos de la Argentina son excesivos y hay que reducirlos": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Los impuestos deben ser progresivos y reorientados para que los que más tienen, los grandes capitalistas y las grandes fortunas, sean quienes más contribuyan. La crisis no puede recaer sobre el pueblo trabajador, y reducir los impuestos significa fortalecer a quienes ya se benefician a costa de la explotación. En lugar de reducirlos, hay que reformular el sistema impositivo para garantizar que los recursos vayan a satisfacer las necesidades del pueblo."
+            "razonamiento": "Los impuestos deben ser progresivos y reorientados para que los que más tienen, los grandes capitalistas y las grandes fortunas, sean quienes más aporten. La crisis no puede recaer sobre el pueblo trabajador, y reducir los impuestos significa fortalecer a quienes ya se benefician a costa de la explotación. En lugar de reducirlos, hay que reformular el sistema impositivo para garantizar que los recursos vayan a satisfacer las necesidades del pueblo."
         },
         "El Estado debe regular a los privados para mejorar la distribución de la riqueza": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "La regulación del Estado sobre los privados es insuficiente si no se acompaña de una perspectiva de clase que rompa con las estructuras del capitalismo. La verdadera mejora en la distribución de la riqueza requiere la organización y movilización de los trabajadores para tomar el control de la economía y sus recursos, no solo reformas superficiales que mantienen el sistema capitalista. Así, la postura del FIT-U rechaza la idea de que es posible lograr una distribución equitativa dentro del marco capitalista."
+            "razonamiento": "La regulación del Estado sobre los privados es insuficiente si no se acompaña de un cambio estructural que rompa con las lógicas del capitalismo. La riqueza no puede ser redistribuida dentro de un sistema que perpetúa la explotación y la desigualdad. Es necesario que la clase trabajadora se organice y luche por el control obrero y una política económica que priorice sus intereses, más allá de regulaciones que siguen beneficiando a los grandes capitales. Por lo tanto, la afirmación no es suficiente."
         },
         "Las restricciones a las importaciones son necesarias para fomentar y proteger a la industria nacional": {
             "respuesta": "En desacuerdo",
-            "razonamiento": "Las restricciones a las importaciones a menudo son utilizadas por gobiernos que priorizan los intereses de la clase capitalista y pueden terminar perjudicando a los trabajadores, al encarecer productos y limitando opciones. La solución no es simplemente proteger industrias capitalistas mediante medidas que afectan al mercado laboral y los derechos de los trabajadores. En vez de esto, es necesario promover una verdadera independencia económica que priorice el trabajo y no el lucro de unos pocos."
+            "razonamiento": "Las restricciones a las importaciones a menudo son utilizadas por gobiernos que priorizan los intereses de los grandes empresarios y las patronales. Sin embargo, desde una perspectiva obrera, lo que necesitamos es la nacionalización y control de la industria por parte de los trabajadores, y no simplemente restricciones que beneficiarán a ciertos sectores. La verdadera protección a la industria nacional debe incluir la defensa de los derechos laborales, el trabajo digno y condiciones equitativas para todos los trabajadores, lo que no se logra solo con restricciones comerciales. Por eso, rechazo esta lógica capitalista de proteger industrias que no están al servicio del pueblo, sino de los capitalistas."
         },
         "El Estado debe reducir sus gastos para alcanzar el equilibrio fiscal": {
-            "respuesta": "Muy en desacuerdo",
-            "razonamiento": "La propuesta de reducir gastos estatales para alcanzar el equilibrio fiscal suele implicar recortes en áreas esenciales como educación, salud y servicios sociales, que son fundamentales para los sectores populares y la clase trabajadora. Esta medida generalmente se traduce en un ajuste que recae sobre quienes menos tienen, mientras se beneficia a las grandes patronales y al capital. El Estado debe ser un instrumento de distribución de la riqueza, priorizando el bienestar de la población y no de la deuda externa o los intereses del FMI."
+            "respuesta": "En desacuerdo",
+            "razonamiento": "La propuesta de reducir gastos estatales suele significar recortes en servicios y programas dirigidos a los sectores más vulnerables, mientras que las grandes patronales y los banqueros continúan beneficiándose. Desde la perspectiva del FIT-U, el equilibrio fiscal no debe lograrse a costa de los derechos de los trabajadores. En cambio, necesitamos un plan que grave a las grandes fortunas y resuelva las necesidades del pueblo, no recortes. Por lo tanto, estoy en desacuerdo con la idea de que el Estado deba reducir sus gastos en este sentido."
         },
         "El país necesita una reforma laboral que baje los costos de despido": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "Una reforma laboral que baje los costos de despido es una medida que beneficia a las patronales y pone en riesgo la estabilidad laboral de los trabajadores. En lugar de facilitar despidos, necesitamos garantizar la prohibición de despidos y suspensiones, y promover la estabilidad laboral y derechos para todos los trabajadores. Cualquier intento de reducir costos a expensas de los derechos de los trabajadores debe ser rechazado."
+            "razonamiento": "Una reforma laboral que baje los costos de despido es una medida que beneficia a las patronales y pone en riesgo la estabilidad laboral de los trabajadores. En lugar de facilitar despidos, necesitamos garantizar la prohibición de despidos y suspensiones, y promover la estabilidad laboral y derechos para todos los trabajadores. Cualquier reforma que favorezca a los capitalistas va en contra de los intereses de la clase trabajadora."
         },
         "El control de precios es una buena estrategia para combatir la inflación": {
-            "respuesta": "De acuerdo",
-            "razonamiento": "El control de precios, si bien puede ser una herramienta para frenar aumentos especulativos inmediatos, no aborda las causas estructurales de la inflación, como la especulación de las grandes empresas y la fuga de capitales. Sin embargo, en el contexto actual, es necesario avanzar hacia un control de precios y abastecimiento popular que sea implementado por los trabajadores y el pueblo, y no por el gobierno al servicio de las patronales. Por eso considero que puede ser útil siempre y cuando esté acompañado de una reacción de clase que implique la reestructuración de la economía hacia una perspectiva obrera. Pero esto no debe ser visto como la única solución ni aislada de un plan económico integral que busque romper con el sistema de explotación de la clase capitalista."
+            "respuesta": "Depende",
+            "razonamiento": "El control de precios, si bien puede ser una medida temporal, no aborda la raíz del problema inflacionario que está ligado a las políticas del gobierno y los intereses de los grandes capitales. El FIT-U propone la implementación de comités de control de precios y abastecimiento popular bajo la gestión de los trabajadores para asegurar que las mercancías sean accesibles a las masas y no al lucro de unos pocos. Sin embargo, es fundamental incluir una reestructuración económica que rompa con las políticas del FMI y la dependencia del gran capital, no es suficiente controlar precios sin cambiar las estructuras económicas que los provocan. Por esto, creo que la estrategia debe ser más amplia y proponer un cambio real en la gestión de la economía y no simplemente limitar precios sin un contexto adecuado."
         },
         "La fuerza pública debe desalojar a los grupos que cortan rutas o avenidas principales de las ciudades": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "Bajo la perspectiva del FIT-U, es fundamental reconocer que los cortes de ruta y las movilizaciones son expresiones legítimas de la lucha de la clase trabajadora y los sectores populares ante la falta de respuestas a sus demandas. Utilizar la fuerza pública para desalojar estas movilizaciones no solo es una violación del derecho a la protesta, sino que también evidencia el carácter represivo del estado al servicio de las patronales y el capital. Si los trabajadores están movilizándose, es porque están exigiendo mejores condiciones de vida, y el estado debería escuchar esas demandas, no reprimirlas."
+            "razonamiento": "Desalojar a los grupos que luchan por sus derechos es un ataque a las luchas populares. La movilización es un derecho legítimo de quienes están oprimidos y explotados. En lugar de reprimir, el Estado debería escuchar las demandas sociales y políticas, promoviendo el diálogo en vez de la violencia y la represión."
         },
         "Hay que eliminar los planes sociales porque generan un enorme gasto y atentan contra la cultura del esfuerzo": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "Los planes sociales son una herramienta necesaria para mitigar la pobreza y la exclusión social. Más que eliminarlos, necesitamos ampliarlos y garantizar un soporte directo a quienes lo necesitan. La crítica de que generan un gasto excesivo ignora la responsabilidad del Estado de cuidar de sus ciudadanos y, sobre todo, la raíz del problema: el sistema capitalista que perpetúa la desigualdad. La verdadera solución pasa por generar empleo digno y condiciones de vida adecuadas para todos los trabajadores, no por eliminar los beneficios que ayudan a sobrevivir a millones de familias."
+            "razonamiento": "Los planes sociales son una herramienta necesaria para mitigar la pobreza y la exclusión social. Más que eliminarlos, necesitamos ampliarlos y transformarlos en un sistema que garantice derechos básicos a todos, sin cuestionar la dignidad de quienes reciben asistencia. Proponemos políticas que resuelvan las causas estructurales de la pobreza y exijan responsabilidad a los grandes capitales, no a los sectores más vulnerables."
         },
         "El Estado debe tomar medidas para asegurar la paridad salarial entre mujeres y hombres": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "La paridad salarial es un principio fundamental de justicia y equidad en el ámbito laboral. El Estado debe intervenir activamente para eliminar las brechas salariales que perpetúan la desigualdad de género. Esto no solo beneficia a las mujeres trabajadoras, sino que también es un paso hacia una sociedad más justa y equitativa. La lucha por la igualdad de salario es parte de la lucha contra el capitalismo y la opresión de género, y debe ser abordada como tal."
+            "razonamiento": "La paridad salarial es un principio fundamental de justicia y equidad que debería ser garantizado por el Estado. Las mujeres trabajadoras enfrentan históricamente una discriminación salarial que debe ser erradicada a través de políticas activas, asegurando que a igual trabajo se reciba igual salario. El Estado tiene la responsabilidad de asegurar esta igualdad como parte de un marco de derechos laborales."
         },
         "La ley de aborto legal, seguro y gratuito es una conquista social de enorme trascendencia": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "La ley de aborto legal, seguro y gratuito es efectivamente una conquista social fundamental que garantiza el derecho de las mujeres a decidir sobre su propio cuerpo, lo que se enmarca dentro de la lucha por los derechos de género y la autonomía de las mujeres trabajadoras. La aprobación de esta ley representa un avance en la lucha contra la violencia de género y el control sobre los cuerpos de las mujeres, es una demanda histórica del movimiento feminista que se ha organizado y movilizado de manera constante. Apoyar esta ley es estar a favor de los derechos humanos y de la equidad de género."
+            "razonamiento": "La ley de aborto legal, seguro y gratuito es efectivamente una conquista social fundamental que garantiza el derecho de las mujeres a decidir sobre su propio cuerpo, lo que se enmarca dentro de la lucha por los derechos de género y la autonomía de las mujeres trabajadoras. La aprobación de esta ley representa un avance en la lucha contra la violencia de género y el control sobre los cuerpos de las mujeres, es una demanda histórica del movimiento feminista que debe ser respaldada."
         },
         "Ante la inseguridad creciente, debería permitirse la libre portación de armas": {
             "respuesta": "Muy en desacuerdo",
-            "razonamiento": "Permitir la libre portación de armas no resuelve la raíz del problema de la inseguridad, que está ligada a la desigualdad social, la falta de oportunidades y la represión estatal. Armar a la población solo puede llevar a más violencia y una mayor confrontación entre clases. Debemos abordar la inseguridad desde la raíz con políticas que fomenten la inclusión social, y no a través de medidas que potencien la violencia. La solución pasa por un enfoque en los derechos humanos y la justicia social."
+            "razonamiento": "Permitir la libre portación de armas no resuelve la raíz del problema de la inseguridad, que está ligada a la desigualdad social, la falta de oportunidades y la represión estatal. Armar a la población solo puede llevar a más violencia y una mayor confrontación entre clases. Debemos abordar la inseguridad desde la raíz con políticas que fomenten la inclusión social, el empleo y el fortalecimiento de políticas públicas de seguridad que protejan a los sectores más vulnerables."
         },
         "La salud y la educación pública deberían continuar siendo gratuitas": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "La salud y la educación son derechos fundamentales que deben ser garantizados por el Estado. No podemos permitir que la mercantilización de estos servicios continúe, ya que ello solo beneficia a unos pocos mientras se perjudica a la mayoría de la población. La gratuidad en estos sectores es esencial para asegurar igualdad de oportunidades y acceso para todos los ciudadanos, especialmente para el pueblo trabajador."
+            "razonamiento": "La salud y la educación son derechos fundamentales que deben ser garantizados por el Estado. No podemos permitir que la mercantilización de estos servicios continúe, ya que ello solo beneficia a unos pocos mientras se perjudica a la mayoría. Todo el pueblo trabajador debe tener acceso a una educación y salud de calidad, gratuita y pública, financiada por el Estado mediante la eliminación de gastos superfluos y la imposición de impuestos a las grandes fortunas."
         },
         "La Argentina debe romper el acuerdo con el FMI para cortar la dependencia económica": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "La ruptura con el FMI es fundamental para liberar a nuestro país de la tutela imperialista y poner fin a un modelo que solo beneficia a las grandes patronales y al capital financiero. La crisis la deben pagar quienes la generaron, no el pueblo trabajador. Esta medida es esencial para avanzar hacia un desarrollo económico que priorice las necesidades del pueblo y la reorganización de la economía de manera soberana y democrática, bajo control de los trabajadores."
+            "razonamiento": "La ruptura del acuerdo con el FMI es crucial para recuperar la soberanía económica y poner fin a las políticas de ajuste que han llevado a millones de argentinos a la pobreza. La dependencia del FMI perpetúa un ciclo de deuda y austeridad que solo beneficia a las grandes patronales y banqueros. Necesitamos un plan económico que priorice las necesidades del pueblo trabajador y el desarrollo soberano del país."
         },
         "El matrimonio igualitario es uno de los grandes avances sociales de los últimos años en el país": {
             "respuesta": "Muy de acuerdo",
-            "razonamiento": "El matrimonio igualitario es un paso fundamental hacia la igualdad de derechos y la lucha contra la opresión de la comunidad LGBTQ+. Al defender los derechos de todas las personas independientemente de su orientación sexual, se avanza hacia una sociedad más justa y libre. Esto coincide con nuestra lucha por la igualdad y los derechos humanos en el marco de una sociedad socialista."
+            "razonamiento": "El matrimonio igualitario es un avance en la lucha por los derechos de la diversidad sexual, y apoyo las luchas por la igualdad de derechos para todas las personas, independientemente de su orientación sexual. Estos avances son parte de una lucha más amplia por la igualdad y la justicia social."
         },
         "Hay que pensar leyes que protejan a los policías y no a los delincuentes": {
             "respuesta": "En desacuerdo",
