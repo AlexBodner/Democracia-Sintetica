@@ -107,14 +107,14 @@ class Reviewer:# o orquestador
             pydantic_response_structure= DeepResearchQuery
         )
         if mock == False:
-            report = await deepresearch(generated_response.consigna_de_busqueda,self)
+            report, questions_and_answers = await deepresearch(generated_response.consigna_de_busqueda,self)
             # Save final report
             with open(f"researchs/{id}.txt",'w', encoding='utf-8') as f:
                 f.write(report)
         else:
             with open(f"researchs/{id}.txt", "r") as archivo:
                 report = archivo.read()
-        return  report
+        return  report, questions_and_answers
     
     
     async def make_final_summary(self, full_debate: dict):

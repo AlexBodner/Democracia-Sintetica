@@ -331,12 +331,13 @@ async def deepresearch(initial_msg,
     print("\n---\n")
 
 
-    if AgenteReviewer is not None:
-        # 3. If a reviewer agent is provided, invoke it with the initial message
-        review_msg = await AgenteReviewer.responder_pregunta(messages[-1].content)
+    # 3. If a reviewer agent is provided, invoke it with the initial message
+    review_msg = await AgenteReviewer.responder_pregunta(messages[-1].content)
 
-        print("Reviewer's response to the initial message:")
-        print(review_msg)
+    print("Reviewer's response to the initial message:")
+    print(review_msg)
+    q_and_a = messages[-1].content + "\n\n---\n\n" + review_msg
+
     followup_msg = {"role": "user", "content": review_msg}
     await graph.ainvoke({"messages": [followup_msg]}, config=thread_config)
 
@@ -360,4 +361,4 @@ async def deepresearch(initial_msg,
     print(f"Research sections completed: {len(final_state.values.get('completed_sections', []))}")
     print(f"Final report generated: {len(report)} characters")
     print("- SAVED: final_report.txt (complete research report)")
-    return report
+    return report, q_and_a

@@ -1,7 +1,7 @@
 import asyncio
 from copy import deepcopy
 from output_utils.logger import new_logger
-from debate.round import FirstRound, SecondRoundWithResearch, ThirdRound
+from debate.round import FirstRound, SecondRoundWithResearch, ThirdRound, SecondRound
 import json
 import os
 
@@ -9,18 +9,22 @@ logger = new_logger("output_utils/debate_system.log")
 
 class DebateThreeRoundsWithResearch:
     
-    async def __init__(self, agents, law, reviewer, mock_research = False):  
+    def __init__(self, agents, law, reviewer,ley_id, mock_research = False, use_research = True):
         
         self.agents = agents
         self.law = law
         self.reviewer = reviewer 
-        self.research = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = id)
-        self.rounds = [FirstRound(law), SecondRoundWithResearch(law, self.research), ThirdRound(law)]
         self.mock_research = mock_research 
+        self.ley_id = ley_id
+        self.use_research = use_research
+    async def run_debate(self, output_folder = "evaluaciones"):
+        if self.use_research:
+            self.research, self.questions_and_answers = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = self.ley_id)
+            self.rounds = [FirstRound(self.law), SecondRoundWithResearch(self.law, self.research), ThirdRound(self.law)]
+        else:
+            self.rounds = [FirstRound(self.law), SecondRound(self.law), ThirdRound(self.law)]        
 
-    async def run_debate(self,id = 1, output_folder = "evaluaciones"):
-
-        full_debate = {}
+        full_debate = {'preguntas y respuestas deep research': self.questions_and_answers,}
         
         #research = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = id)
         #self.rounds[1] = SecondRoundWithResearch(self.law, research)
@@ -51,7 +55,7 @@ class DebateThreeRoundsWithResearch:
         logger.info(full_debate)
         os.makedirs(output_folder, exist_ok=True)
 
-        with open(os.path.join(output_folder,f"debate_{id}.json"), "w", encoding ='utf8') as archivo:
+        with open(os.path.join(output_folder,f"debate_{self.ley_id}.json"), "w", encoding ='utf8') as archivo:
             json.dump(full_debate, archivo, indent=4, ensure_ascii = False)
             
         return full_debate

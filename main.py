@@ -7,6 +7,7 @@ from debate_agents.agente_centro_izquierda import AgenteUxP
 from debate_agents.agente_centro_derecha import AgenteJxC
 from debate_agents.reviewer import AgenteReviewer
 import asyncio
+import time
 import json
 if __name__ == "__main__":
     
@@ -28,6 +29,10 @@ if __name__ == "__main__":
         debate = DebateThreeRoundsWithResearch(agents, 
                         ley_texto,
                         AgenteReviewer,
-                        mock_research= False)
-        asyncio.run(debate.run_debate(id = ley["id"]))
+                        mock_research= False,
+                        use_research=True,
+                        ley_id = ley["id"])
+        asyncio.run(debate.run_debate())
         print(f"ley {ley['id']} terminada")
+        
+        time.sleep(10)
