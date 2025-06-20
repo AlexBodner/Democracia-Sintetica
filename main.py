@@ -28,6 +28,6 @@ if __name__ == "__main__":
         debate = DebateThreeRoundsWithResearch(agents, 
                         ley_texto,
                         AgenteReviewer,
-                        mock_research= True)
+                        mock_research= False)
         asyncio.run(debate.run_debate(id = ley["id"]))
         print(f"ley {ley['id']} terminada")
