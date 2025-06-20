@@ -8,30 +8,32 @@ import os
 logger = new_logger("output_utils/debate_system.log")
 
 class DebateThreeRoundsWithResearch:
-    def __init__(self, agents, law, reviewer, mock_research = False):  
+    
+    async def __init__(self, agents, law, reviewer, mock_research = False):  
         
         self.agents = agents
         self.law = law
         self.reviewer = reviewer 
-        self.rounds = [FirstRound(law), SecondRoundWithResearch(law, ""), ThirdRound(law)]
+        self.research = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = id)
+        self.rounds = [FirstRound(law), SecondRoundWithResearch(law, self.research), ThirdRound(law)]
         self.mock_research = mock_research 
 
-    
-
     async def run_debate(self,id = 1, output_folder = "evaluaciones"):
-        #Sin intervencion del reviewer en el medio
-        
+
         full_debate = {}
         
-        research = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = id)
-        self.rounds[1] = SecondRoundWithResearch(self.law, research)
+        #research = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = id)
+        #self.rounds[1] = SecondRoundWithResearch(self.law, research)
 
-        context = [{"role":"user","content": f"Esto es un debate sobre la ley {self.law}. \n\
-                    Van a haber 3 rondas, en la primera cada agente dara su opinion y argumentos a favor o en contra. \
-                    En la segunda ronda los agentes recibiran los argumentos del resto y podran contraargumentar. En \
-                    la ultima ronda cada uno recibira los argumentos y contraargumentos y podra hacer una argumentacion y conclusion final.\
-                    Se espera que en todas las rondas, el agente aclare al finalizar su argumentacion si vota a favor o en contra. El voto puede\
-                    cambiar ronda a ronda, pero el voto final para ver si una ley se aprueba o no es el de la ultima ronda."}, ]
+        context = [{"role":"user",
+                    "content":  f"""Este es un debate simulado entre agentes políticos argentinos sobre la ley {self.law}.
+                                    El debate constará de tres rondas:
+                                    1. **Primera ronda**: Cada agente expresará su postura inicial, presentando argumentos a favor o en contra de la ley.
+                                    2. **Segunda ronda**: Los agentes recibirán un informe con datos (provenientes de búsquedas en Google) y los argumentos expuestos por el resto de los agentes. Con esta información, podrán formular contraargumentos o reforzar su postura inicial.
+                                    3. **Tercera ronda**: Los agentes recibirán tanto los argumentos iniciales como los contraargumentos de las rondas previas. En base a ello, deberán realizar una argumentación final y emitir una conclusión definitiva.
+                                    En cada ronda, al finalizar su exposición, cada agente deberá explicitar su voto (a favor o en contra de la ley). El voto puede modificarse de ronda a ronda, pero el voto que determina la aprobación o rechazo de la ley será el emitido en la última ronda."""
+                                    }]
+
         
         for round in self.rounds:
             logger.info(f"-----------------------------------Round {round.round_nr} -----------------------------------")
@@ -57,7 +59,7 @@ class DebateThreeRoundsWithResearch:
     async def debate_round(self,prev_round_context, round, full_debate):
         
         prev_round_context.append({"role":"user",
-            "content": f"Ahora arranca la ronda {round.round_nr}"}) #este es el reviewer
+            "content": f"Ahora arranca la ronda {round.round_nr}"})
         
         full_debate[f"Round {round.round_nr}"] = {}
         

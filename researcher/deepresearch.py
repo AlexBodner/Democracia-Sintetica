@@ -1,4 +1,5 @@
 import uuid
+import asyncio
 from langchain_community.agent_toolkits.load_tools import load_tools
 #from langchain_community.utilities import GoogleSerperAPIWrapper
 config = {
@@ -360,4 +361,3 @@ async def deepresearch(initial_msg,
     print(f"Final report generated: {len(report)} characters")
     print("- SAVED: final_report.txt (complete research report)")
     return report
-

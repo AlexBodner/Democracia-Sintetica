@@ -41,7 +41,7 @@ async def main(output_folder="evaluaciones"):
             respuestas_acumuladas[agente.agent_name][pregunta["pregunta"]] = {"respuestas": [], "razonamientos": []}
 
 
-    for i in range(1):
+    for i in range(5):
         print(i)
         for agente in agentes:
             for pregunta in preguntas:
@@ -64,20 +64,17 @@ async def main(output_folder="evaluaciones"):
     for agente_name, preguntas_dict in respuestas_acumuladas.items():
         respuestas_finales[agente_name] = {}
         for pregunta_texto, data in preguntas_dict.items():
+            
             resp_counter = Counter(data["respuestas"])
-            razon_counter = Counter(data["razonamientos"])
-
             respuesta_mas_comun = resp_counter.most_common(1)[0][0]
 
-            # Filtrar razonamientos que correspondan a esa respuesta
             razonamientos_filtrados = [
                 razon for resp, razon in zip(data["respuestas"], data["razonamientos"])
                 if resp == respuesta_mas_comun
             ]
 
-            # Elegir uno cualquiera de esos (por ejemplo el primero)
-            razonamiento_mas_comun = razonamientos_filtrados[0] if razonamientos_filtrados else ""
 
+            razonamiento_mas_comun = razonamientos_filtrados[0]
             respuestas_finales[agente_name][pregunta_texto] = {
                 "respuesta": respuesta_mas_comun,
                 "razonamiento": razonamiento_mas_comun

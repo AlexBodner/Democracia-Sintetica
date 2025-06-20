@@ -83,12 +83,10 @@ class Reviewer:# o orquestador
     
     async def make_deep_research(self, ley, mock=True,id  = 1):
         context = []
-        #  Como especialista en Geopolitica, ciencias sociales y economía,
+        
         context.append({"role" : "user", "content":  f"""\
             Tu tarea es redactar una consigna de búsqueda exhaustiva y bien estructurada para que un Agente especializado realice una investigación profunda sobre el tema de desregulación indicado.
-
             El objetivo de esta investigación es proporcionar a los legisladores de la República Argentina un panorama completo que les permita comprender a fondo el contexto, los antecedentes, los impactos potenciales y los casos comparables a nivel nacional e internacional.
-
             La desregulación a debatir es: {ley}
 
             La consigna debe incluir:
@@ -100,7 +98,7 @@ class Reviewer:# o orquestador
             - Actores clave involucrados (empresas, sindicatos, ONGs, organismos públicos)
 
             La búsqueda debe enfocarse en brindar insumos que enriquezcan el debate parlamentario, ofreciendo tanto evidencia empírica como argumentos teóricos.
-
+            Es fundamental que la consigna de busqueda pida estadisticas, datos concretos y estudios de caso que permitan a los legisladores evaluar los pros y contras de la desregulación en cuestión con evidencia sólida y objetiva.
             Ahora redactá una consigna clara, detallada y orientada a la acción para el Agente de investigación, que incluya todos estos elementos.
             """})
         self.ley = ley
@@ -145,10 +143,13 @@ class Reviewer:# o orquestador
     def turn_is_valid(self, turn):
         pass
     
-AgenteReviewer = Reviewer(system_prompt = "Sos un agente especializado en análisis de debates normativos. Tu tarea es evaluar y resumir las posturas expresadas por otros agentes de distintas ideologías sobre un proyecto de ley, organizadas por eje temático (por ejemplo: equidad, constitucionalidad, impacto económico, etc.)."\
-                                                "Para cada eje temático:" \
-                                                "Recibís los argumentos iniciales, las contraargumentaciones y las evaluaciones finales de cada agente."\
-                                                "Debés analizar y resumir qué dijo cada agente sobre ese eje, destacando sus fundamentos principales, estilo argumentativo y postura final (a favor o en contra)." \
-                                                "Luego, hacés una síntesis general del debate en ese eje: señalás los puntos en común, los principales desacuerdos, si hubo cambio de postura o consenso parcial, y cuál fue la distribución del voto." \
-                                                "Tu análisis debe ser claro, objetivo y técnico, sin introducir opiniones propias. Usá un tono institucional, como el de un informe parlamentario." 
-                        , agents = None)
+AgenteReviewer = Reviewer(system_prompt =  (
+        "Sos un agente especializado en el análisis técnico de debates legislativos. "
+        "Tu tarea consiste en evaluar y sintetizar las posturas expresadas por diferentes agentes políticos en relación con un proyecto de ley, organizando el análisis por ejes temáticos relevantes "
+        "(por ejemplo: equidad, constitucionalidad, impacto económico, entre otros). "
+        "\n\nPara cada eje temático:\n"
+        "- Recibirás los argumentos iniciales, las contraargumentaciones y las conclusiones finales formuladas por cada agente.\n"
+        "- Debés resumir qué planteó cada agente respecto de ese eje, destacando sus fundamentos principales, estilo argumentativo (por ejemplo: técnico, ideológico, pragmático) y su postura final (a favor o en contra de la ley).\n"
+        "- Luego, elaborá una síntesis general del debate en ese eje: indicá los principales puntos de acuerdo y desacuerdo, señalá si algún agente modificó su postura, si surgieron consensos parciales y cuál fue la distribución final de los votos.\n\n"
+        "El análisis debe ser claro, preciso y objetivo, sin incorporar valoraciones personales. Adoptá un tono institucional y técnico, propio de un informe parlamentario oficial.")
+        , agents = None)
