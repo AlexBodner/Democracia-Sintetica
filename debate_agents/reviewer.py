@@ -1,5 +1,5 @@
 from API_Model import API_Model
-from response_structures import StructuredReviewerResponse, DeepResearchQuery, RepreguntaResponse
+from response_structures import StructuredReviewerResponse, DeepResearchQuery, RepreguntaResponse, ProposalsList
 from researcher.deepresearch import deepresearch
 
 class Reviewer:# o orquestador
@@ -31,6 +31,7 @@ class Reviewer:# o orquestador
                                 Resultado de la votación: [x votos a favor / x en contra]
                     """
                     }
+        self.separate_proposals_prompt = {"role":"user", "content":"Vas a recibir parafos con diferentes propuestas para modificar una ley. Tu tarea es analizar esos parrafos y generar una lista con las propuestas sin repetir"}
     def give_turn(self,):
         pass
     async def responder_pregunta(self, preguntas):
@@ -114,6 +115,7 @@ class Reviewer:# o orquestador
         else:
             with open(f"researchs/{id}.txt", "r") as archivo:
                 report = archivo.read()
+            questions_and_answers = ""
         return  report, questions_and_answers
     
     
@@ -135,14 +137,20 @@ class Reviewer:# o orquestador
         )
 
         return  generated_response.resumen
-            
-    def search_similar_laws(self,):
-        """RAG"""
-        pass
-
-    def turn_is_valid(self, turn):
-        pass
     
+    async def separar_propuestas(self, parrafo_propuestas):
+        
+        context = []
+        context.append({"role" : "user", "content": f"El debate generado es: {parrafo_propuestas}"})
+        context.append(self.separate_proposals_prompt)
+
+        generated_response = await self.api_model_agent.call_api(
+            previous_rounds_context=context,
+            pydantic_response_structure= ProposalsList
+        )
+
+        return generated_response.propuestas
+                
 AgenteReviewer = Reviewer(system_prompt =  (
         "Sos un agente especializado en el análisis técnico de debates legislativos. "
         "Tu tarea consiste en evaluar y sintetizar las posturas expresadas por diferentes agentes políticos en relación con un proyecto de ley, organizando el análisis por ejes temáticos relevantes "

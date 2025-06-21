@@ -28,6 +28,23 @@ class Agent:
         }
         return output
     
+    async def propose(self, context, response_structure):
+        generated_response = await self.api_model_agent.call_api(
+                previous_rounds_context=context,
+                pydantic_response_structure = response_structure
+            )
+        return generated_response
+    
+
+    async def vote_proposal(self, context, response_structure, proposal):
+        
+        context.append({"role": "user", "content": f"Todos los agentes han hecho propuestas de modificacioes a la ley. Ahora tenes que votar a favor o en contra de poner esta propuesta en particular {proposal}"})
+        generated_response = await self.api_model_agent.call_api(
+                previous_rounds_context=context,
+                pydantic_response_structure = response_structure
+            )
+        return generated_response
+    
 
     def get_system_prompt(self):
         return self.sys_prompt
