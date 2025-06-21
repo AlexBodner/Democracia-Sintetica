@@ -35,6 +35,28 @@ class RepreguntaResponse(BaseModel):
     Define la estructura esperada para una respuesta estructurada de un reviewer.
     """
     respuestas: str = Field(description="Las respuestas a las preguntas aclaratorias hechas por el agente investigador.")
+
+class ProposalsParagraph(BaseModel):
+    """
+    Define la estructura esperada para el parrafo con propuestas de cada agente.
+    """
+    razonamiento: str = Field(description="Razonamiento de porque se eligen esas propuestas para modificar la ley.")
+    propuestas: str = Field(description= "Parrafo indicando las nuevas propuestas para modificar la ley.")
+
+class ProposalsList(BaseModel):
+    """
+    Define la estructura esperada para el parrafo con propuestas de cada agente.
+    """
+    razonamiento: str = Field(description="Razonamiento de como separaste logicamente las propuestas")
+    propuestas: List[str] = Field(description= "Una lista con las diferentes propuestas en el parrafo sin repetir")
+
+class VoteProposal(BaseModel):
+    """
+    Define la estructura esperada para el voto de cada agente dada una propuesta.
+    """
+    
+    razonamiento: str = Field(description="Razonamiento de la propuesta y porque se elige ese voto")
+    voto: bool = Field(description= "Un booleano que determine si se acepta la propuesta para la ley o no")
 #----------------------------------------------------------------------------------------------------------------------------
 
 class EvaluarAgenteResponse(BaseModel):

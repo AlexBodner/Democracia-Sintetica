@@ -46,3 +46,38 @@ class ThirdRound(Round):
                     "Se espera una síntesis reflexiva que muestre si el debate enriqueció su perspectiva o reforzó su posición original, manteniendo siempre la coherencia con sus valores e identidad ideológica. "
                     f"Finalmente, cada agente debe justificar de manera clara y fundamentada su voto final (a favor o en contra de la ley '{law}'), cerrando así su participación en el debate."
                     "Es fundamental que la conclusión final del agente no se salga de su marco ideológico y que se mantenga fiel a su identidad política, incluso si ha habido cambios en su postura a lo largo del debate. ")
+
+class ProposalRound(Round):
+    def __init__(self, law):
+        super().__init__(law)
+        self.round_nr = 3
+        self.prompt = (f"En esta ronda, los agentes tienen la oportunidad de formular propuestas concretas de modificación, mejora o reglamentación adicional respecto a la ley '{law}'. "
+                       "Estas propuestas deben surgir tanto de su análisis ideológico como de los argumentos debatidos en rondas anteriores y de los datos provistos por el informe. "
+                       "Cada agente podrá sugerir artículos nuevos, cambios puntuales en el texto legal, mecanismos de implementación, o salvaguardas para atender preocupaciones propias o ajenas. "
+                       "Es importante que las propuestas sean viables, estén bien fundamentadas y respondan a principios políticos coherentes con la identidad del agente. "
+                       "Asimismo, pueden indicar si están dispuestos a votar afirmativamente la ley solo si se incorporan ciertas modificaciones clave. "
+                       "Al finalizar, el agente debe indicar si condiciona su voto a la aceptación de alguna propuesta, o si su posición respecto a la ley permanece firme.")
+
+
+class VoteProposals(Round):
+    def __init__(self, law):
+        super().__init__(law)
+        self.round_nr = 4
+        self.prompt = ("En esta ronda, cada agente debe evaluar las propuestas realizadas por los demás participantes. "
+                       "Deben indicar con claridad cuáles propuestas apoyan, cuáles rechazan, y por qué. "
+                       "Se espera que el análisis sea ideológicamente consistente, considerando tanto la viabilidad política como la coherencia con los principios del agente. "
+                       "Los agentes pueden modificar su voto final sobre la ley si consideran que las propuestas aceptadas alteran sustancialmente su contenido original. "
+                       f"Al cerrar su intervención, cada agente debe declarar su voto definitivo (a favor o en contra de la ley '{law}'), teniendo en cuenta tanto el texto original como las modificaciones aceptadas o descartadas. "
+                       "Este voto final debe estar sólidamente justificado desde una perspectiva política, ética e institucional.")
+
+class FinalProposalRound(Round):
+        def __init__(self, law, voted_proposals):
+            super().__init__(law)
+            self.round_nr = 5
+            if len(voted_proposals) > 0:
+                proposals = ""
+                for proposal in voted_proposals:
+                    proposals += proposal + "\n"
+                self.prompt = (f"En esta última ronda, tenes que votar a favor o en contra de la ley {law} con las siguientes modificaciones: \n{proposals}. Estas propuestas seran agregadas a la ley ya que la mayoria voto a  favor de incorporarlas a la ley original. Tu tarea ahora es votar a favor o en contra de esta nueva ley. Recorda mantenerte dentro de tu ideoloia politica y justificar tu veredicto final")
+            else:
+                self.prompt = (f"En esta última ronda, tenes que votar a favor o en contra de la ley {law}. Ninguna de las propuestas fue aprobada por la mayoria por lo que la ley queda como estaba originalmente. Recorda mantenerte dentro de tu ideoloia politica y justificar tu veredicto final")
