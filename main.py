@@ -23,14 +23,14 @@ if __name__ == "__main__":
     with open("testing/leyes.json", "r", encoding="utf-8") as f:
         leyes = json.load(f)
         
-    for ley in leyes[11:]:
+    for ley in leyes[12:]:
         ley_texto = ley["nombre"] +". "+ ley["resumen"]#"Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."
 
         debate = DebateThreeRoundsWithResearch(agents, 
                         ley_texto,
                         AgenteReviewer,
                         mock_research= False,
-                        use_research=True,
+                        use_research=False,
                         ley_id = ley["id"])
         asyncio.run(debate.run_debate())
         print(f"ley {ley['id']} terminada")

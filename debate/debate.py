@@ -21,14 +21,16 @@ class DebateThreeRoundsWithResearch:
         self.mock_research = mock_research 
         self.ley_id = ley_id
         self.use_research = use_research
-    async def run_debate(self, output_folder = "evaluaciones"):
+    async def run_debate(self, output_folder = "debates"):
+        full_debate = {}
         if self.use_research:
             self.research, self.questions_and_answers = await self.reviewer.make_deep_research(ley=self.law, mock = self.mock_research, id = self.ley_id)
             self.rounds = [FirstRound(self.law), SecondRoundWithResearch(self.law, self.research), ThirdRound(self.law)]
+            full_debate = {'preguntas y respuestas deep research': self.questions_and_answers,}
+
         else:
             self.rounds = [FirstRound(self.law), SecondRound(self.law), ThirdRound(self.law)]        
 
-        full_debate = {'preguntas y respuestas deep research': self.questions_and_answers,}
         
         #research = await self.reviewer.make_deep_research(self.law, mock = self.mock_research, id = id)
         #self.rounds[1] = SecondRoundWithResearch(self.law, research)
@@ -57,9 +59,12 @@ class DebateThreeRoundsWithResearch:
         
         logger.info("--- Full debate ---")
         logger.info(full_debate)
-        os.makedirs(output_folder, exist_ok=True)
+        research_folder= 'con_research' if self.use_research else 'sin_research'
 
-        with open(os.path.join(output_folder,f"debate_{self.ley_id}.json"), "w", encoding ='utf8') as archivo:
+        os.makedirs(output_folder, exist_ok=True)
+        os.makedirs(os.path.join(output_folder,research_folder), exist_ok=True)
+
+        with open(os.path.join(output_folder,research_folder,f"debate_{self.ley_id}.json"), "w", encoding ='utf8') as archivo:
             json.dump(full_debate, archivo, indent=4, ensure_ascii = False)
             
         return full_debate
