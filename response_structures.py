@@ -8,7 +8,7 @@ class StructuredAgentResponse(BaseModel):
     Esta clase sirve como esquema para el parseo de la respuesta de texto del modelo.
     """
     razonamiento: str = Field(description="El razonamiento detallado detrás de la respuesta del agente, explicando los argumentos o pasos seguidos.")
-    voto: int = Field(default=False, description="Indica el voto del agente. Debe ser un numero entero entre 0 y 4, con el siguiente mapeo: posturas = {'En contra': 0,\
+    voto: int = Field(description="Indica el voto del agente. Debe ser un numero entero entre 0 y 4, con el siguiente mapeo: posturas = {'En contra': 0,\
                                                                                                                                                         'Critico': 1,\
                                                                                                                                                         'Dividido': 2,\
                                                                                                                                                         'Apoyo critico': 3,\
