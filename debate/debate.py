@@ -6,14 +6,14 @@ from response_structures import ProposalsParagraph, VoteProposal
 import json
 import os
 
-#logger = new_logger("output_utils/debate_system.log")
+logger = new_logger("output_utils/debate_system.log")
 #logger = new_logger("output_utils/debate_system_unbalanced.log")
-logger = new_logger("output_utils/debate_system_proposals.log")
+#logger = new_logger("output_utils/debate_system_proposals.log")
 
 
 class DebateThreeRoundsWithResearch:
     
-    def __init__(self, agents, law, reviewer,ley_id, mock_research = False, use_research = True):
+    def __init__(self, agents, law, reviewer,ley_id, mock_research = False, use_research = True, debate_nro = 0):
         
         self.agents = agents
         self.law = law
@@ -21,6 +21,7 @@ class DebateThreeRoundsWithResearch:
         self.mock_research = mock_research 
         self.ley_id = ley_id
         self.use_research = use_research
+        self.debate_nro = debate_nro
     async def run_debate(self, output_folder = "debates"):
         full_debate = {}
         if self.use_research:
@@ -60,11 +61,11 @@ class DebateThreeRoundsWithResearch:
         logger.info("--- Full debate ---")
         logger.info(full_debate)
         research_folder= 'con_research' if self.use_research else 'sin_research'
+        #os.makedirs(output_folder, exist_ok=True)
+        path = os.path.join(output_folder,research_folder, f"ley_{self.ley_id}")
+        os.makedirs(path, exist_ok=True)
 
-        os.makedirs(output_folder, exist_ok=True)
-        os.makedirs(os.path.join(output_folder,research_folder), exist_ok=True)
-
-        with open(os.path.join(output_folder,research_folder,f"debate_{self.ley_id}.json"), "w", encoding ='utf8') as archivo:
+        with open(os.path.join(path, f"debate_{self.debate_nro}.json"), "w", encoding ='utf8') as archivo:
             json.dump(full_debate, archivo, indent=4, ensure_ascii = False)
             
         return full_debate

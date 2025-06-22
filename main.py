@@ -15,7 +15,7 @@ if __name__ == "__main__":
     agente_izquierda = AgenteIzquierda
     agente_UxP = AgenteUxP
     agente_jxc = AgenteJxC
-    
+    CANTIDAD_DEBATES = 5
     
     agents = [agente_liberal, agente_jxc, agente_UxP, agente_izquierda]
 
@@ -24,15 +24,17 @@ if __name__ == "__main__":
         leyes = json.load(f)
         
     for ley in leyes[:]:
-        ley_texto = ley["nombre"] +". "+ ley["resumen"]#"Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."
+        for i in range(CANTIDAD_DEBATES):
+            ley_texto = ley["nombre"] +". "+ ley["resumen"]#"Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."
 
-        debate = DebateThreeRoundsWithResearch(agents, 
-                        ley_texto,
-                        AgenteReviewer,
-                        mock_research= False,
-                        use_research=False,
-                        ley_id = ley["id"])
-        asyncio.run(debate.run_debate())
-        print(f"ley {ley['id']} terminada")
-        
+            debate = DebateThreeRoundsWithResearch(agents, 
+                            ley_texto,
+                            AgenteReviewer,
+                            mock_research= False,
+                            use_research=False,
+                            ley_id = ley["id"],
+                            debate_nro = i,)
+            asyncio.run(debate.run_debate())
+            print(f"ley {ley['id']} terminada")
+            
         time.sleep(10)
