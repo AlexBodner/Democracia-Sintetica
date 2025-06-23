@@ -30,11 +30,11 @@ if __name__ == "__main__":
             debate = DebateThreeRoundsWithResearch(agents, 
                             ley_texto,
                             AgenteReviewer,
-                            mock_research= False,
-                            use_research=False,
+                            mock_research= True,
+                            use_research=True,
                             ley_id = ley["id"],
                             debate_nro = i,)
             asyncio.run(debate.run_debate())
-            print(f"ley {ley['id']} terminada")
+        print(f"ley {ley['id']} terminada")
             
         time.sleep(10)
