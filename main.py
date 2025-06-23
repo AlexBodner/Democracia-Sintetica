@@ -23,7 +23,7 @@ if __name__ == "__main__":
     with open("testing/leyes.json", "r", encoding="utf-8") as f:
         leyes = json.load(f)
         
-    for ley in leyes[:]:
+    for ley in leyes[12:]:
         for i in range(CANTIDAD_DEBATES):
             ley_texto = ley["nombre"] +". "+ ley["resumen"]#"Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."
 
@@ -31,7 +31,7 @@ if __name__ == "__main__":
                             ley_texto,
                             AgenteReviewer,
                             mock_research= True,
-                            use_research=True,
+                            use_research=False,
                             ley_id = ley["id"],
                             debate_nro = i,)
             asyncio.run(debate.run_debate())
