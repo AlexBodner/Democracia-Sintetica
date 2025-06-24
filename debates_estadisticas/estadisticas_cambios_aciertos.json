@@ -1,0 +1,16 @@
+{
+  "con_research": {
+    "total_cambios": 21,
+    "inicial_erroneo_final_errado": 14,
+    "inicial_erroneo_final_acierto": 5,
+    "inicial_acierto_final_erroneo": 0,
+    "porcentaje_cambios_acertados": 26.31578947368421
+  },
+  "sin_research": {
+    "total_cambios": 23,
+    "inicial_erroneo_final_errado": 16,
+    "inicial_erroneo_final_acierto": 5,
+    "inicial_acierto_final_erroneo": 0,
+    "porcentaje_cambios_acertados": 23.809523809523807
+  }
+}
