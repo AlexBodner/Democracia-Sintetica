@@ -115,7 +115,7 @@ def obtener_resultado_por_eje(vector):
     return ejes
 
 async def main(output_folder = "evaluaciones"):
-    n_iteraciones = 3
+    n_iteraciones = 5
 
     agente_liberal = AgenteLiberal
     agente_izquierda = AgenteIzquierda
