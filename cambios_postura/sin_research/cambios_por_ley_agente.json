@@ -1,0 +1,288 @@
+{
+  "3": {
+    "Agente de Izquierda": {
+      "Debate 0": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "4": {
+    "Agente de Izquierda": {
+      "Debate 0": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 3,
+          "to_vote": 4
+        }
+      ]
+    }
+  },
+  "7": {
+    "Agente de Juntos Por El Cambio": {
+      "Debate 0": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 0,
+          "to_vote": 1
+        },
+        {
+          "from_round": 1,
+          "to_round": 2,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ],
+      "Debate 3": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "10": {
+    "Agente de Izquierda": {
+      "Debate 1": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "12": {
+    "Agente de Juntos Por El Cambio": {
+      "Debate 1": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 3,
+          "to_vote": 4
+        }
+      ],
+      "Debate 4": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 0,
+          "to_vote": 3
+        },
+        {
+          "from_round": 1,
+          "to_round": 2,
+          "from_vote": 3,
+          "to_vote": 4
+        }
+      ]
+    }
+  },
+  "16": {
+    "Agente de Union Por La Patria": {
+      "Debate 2": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 0,
+          "to_vote": 1
+        },
+        {
+          "from_round": 1,
+          "to_round": 2,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "19": {
+    "Agente de Izquierda": {
+      "Debate 0": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 3,
+          "to_vote": 4
+        }
+      ],
+      "Debate 2": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 3,
+          "to_vote": 4
+        }
+      ],
+      "Debate 3": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 3,
+          "to_vote": 4
+        }
+      ]
+    }
+  },
+  "20": {
+    "Agente de Izquierda": {
+      "Debate 0": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 1,
+          "to_vote": 4
+        }
+      ],
+      "Debate 4": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    },
+    "Agente de Juntos Por El Cambio": {
+      "Debate 1": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 0,
+          "to_vote": 3
+        },
+        {
+          "from_round": 1,
+          "to_round": 2,
+          "from_vote": 3,
+          "to_vote": 4
+        }
+      ],
+      "Debate 4": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "21": {
+    "Agente de Juntos Por El Cambio": {
+      "Debate 1": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 0,
+          "to_vote": 1
+        },
+        {
+          "from_round": 1,
+          "to_round": 2,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "23": {
+    "Agente de Juntos Por El Cambio": {
+      "Debate 2": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "24": {
+    "Agente de Juntos Por El Cambio": {
+      "Debate 2": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 0,
+          "to_vote": 4
+        }
+      ]
+    }
+  },
+  "26": {
+    "Agente de Juntos Por El Cambio": {
+      "Debate 0": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 0,
+          "to_vote": 1
+        },
+        {
+          "from_round": 1,
+          "to_round": 2,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    },
+    "Agente de Izquierda": {
+      "Debate 3": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 1,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "28": {
+    "Agente de Izquierda": {
+      "Debate 1": [
+        {
+          "from_round": 1,
+          "to_round": 2,
+          "from_vote": 0,
+          "to_vote": 3
+        }
+      ],
+      "Debate 2": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 3,
+          "to_vote": 4
+        },
+        {
+          "from_round": 1,
+          "to_round": 2,
+          "from_vote": 4,
+          "to_vote": 0
+        }
+      ]
+    }
+  },
+  "29": {
+    "Agente de Juntos Por El Cambio": {
+      "Debate 4": [
+        {
+          "from_round": 0,
+          "to_round": 1,
+          "from_vote": 0,
+          "to_vote": 3
+        }
+      ]
+    }
+  }
+}
