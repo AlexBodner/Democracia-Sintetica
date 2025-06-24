@@ -1,0 +1,15 @@
+{
+  "cambios_norma_mayor_igual_2_por_agente": {
+    "Agente de Juntos Por El Cambio": 4,
+    "Agente de Union Por La Patria": 1,
+    "Agente de Izquierda": 2
+  },
+  "cambios_por_ronda": {
+    "0->1": 21,
+    "1->2": 7
+  },
+  "cambios_por_ronda_norma_mayor_igual_2": {
+    "0->1": 6,
+    "1->2": 1
+  }
+}
