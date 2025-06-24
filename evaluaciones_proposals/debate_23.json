@@ -1,0 +1,500 @@
+{
+    "preguntas y respuestas deep research": "",
+    "Round 0": {
+        "Agente Liberal": {
+            "argumentacion": "[Agente Liberal]: La Ley de Financiamiento Educativo, que busca incrementar la inversión en educación hasta alcanzar el 8% del PBI, es un intento fallido por parte del Estado de asumir un rol dominante en un sector que debería estar abierto a la competencia y a la diversidad de ofertas. Aumentar el gasto público en educación, en lugar de resolver problemas de eficiencia y calidad, exacerba la dependencia del sistema estatal y dilapida recursos que pueden ser mejor usados a través de un sistema educativo más libre, donde los padres decidan cómo y dónde educar a sus hijos, mediante mecanismos como los vouchers. Además, el aumento del gasto público en un contexto fiscal ya crítico solo profundiza la carga sobre el contribuyente y promueve políticas insostenibles a largo plazo. En lugar de imponer porcentajes arbitrarios sobre el PBI, se debería liberar el sector, facilitar la competencia entre instituciones y permitir que la calidad educativa surja del mérito y la innovación, no del gasto estatal a ciegas. Por lo tanto, me opongo a esta ley.",
+            "voto": 0
+        },
+        "Agente de Juntos Por El Cambio": {
+            "argumentacion": "[Agente de Juntos Por El Cambio]: La Ley de Financiamiento Educativo que propone aumentar la inversión hasta el 8% del PBI parece una iniciativa noble a primera vista, ya que la educación es fundamental para el desarrollo de la sociedad y del país. Sin embargo, tenemos que considerar seriamente el contexto fiscal en el que nos encontramos. La Argentina tiene graves problemas de déficit fiscal, alta inflación y una economía en crisis. Aumentar el gasto público sin un plan claro y sostenible puede acentuar estos problemas. La propuesta menciona un 6.5% destinado a educación obligatoria y formación docente y un 1.5% para la educación universitaria, lo que podría parecer atractivo, pero debemos ver cómo se financiará esto. ¿Provendrá de un aumento de impuestos? ¿Estamos seguros de que estas partidas se gestionarán con transparencia y eficiencia?\n\nDesde Juntos por el Cambio, defendemos no solo incrementar el gasto en educación, sino también asegurar que dicho gasto sea efectivo. Históricamente, hemos visto cómo el aumento en la inversión educativa no ha garantizado mejoras en la calidad de la educación. Necesitamos un enfoque integral que combine inversión con reforma educativa, que se centre en la calidad, la eficiencia y los resultados. Propongo que se priorice el fortalecimiento de la gobernanza y la mejora de la infraestructura educativa, así como el desarrollo de un sistema de evaluación claro y riguroso.\n\nPor lo tanto, nuestra postura es que es fundamental destinar recursos adecuados a la educación, pero no a cualquier costo ni de forma desmedida, sin un análisis claro de sus implicancias fiscales y de la realidad que viven los argentinos. Por esa razón, en esta ronda, mi voto es en contra.",
+            "voto": 0
+        },
+        "Agente de Union Por La Patria": {
+            "argumentacion": "[Agente de Union Por La Patria]: En Unión por la Patria, consideramos que la educación es un derecho humano fundamental y un pilar esencial para la justicia social y el desarrollo del país. La Ley de Financiamiento Educativo que propone alcanzar el 8% del PBI es un paso necesario y valiente hacia la reconstrucción de una educación pública de calidad, que debe ser accesible para todos los argentinos, sin importar su condición socioeconómica. Para garantizar de manera efectiva la formación de docentes y el acceso a educación obligatoria, aumentar el financiamiento a un 6.5% para educación obligatoria y formación docente permite atender a la diversidad de necesidades que presenta el sistema educativo. Asimismo, el 1.5% destinado a la educación universitaria permitirá fortalecer el acceso y la calidad de las universidades estatales, contribuyendo así a la soberanía educativa del país y a la formación de una sociedad más justa y equitativa. La inversión en educación no es solo un gasto, es una inversión en el futuro de nuestra nación. Si decidimos no respaldar esta ley por \"preocupaciones fiscales\", estaríamos asumiendo una irresponsabilidad con el futuro del país, ya que el desfinanciamiento educativo perpetúa la desigualdad y limita las oportunidades. Por eso, mi voto es a favor de esta ley, como una apuesta por la educación y la justicia social.",
+            "voto": 4
+        },
+        "Agente de Izquierda": {
+            "argumentacion": "[Agente de Izquierda]: Desde el Frente de Izquierda y de Trabajadores - Unidad, apoyamos firmemente la 'Ley de Financiamiento Educativo' que busca aumentar la inversión en educación hasta alcanzar el 8% del PBI. Esta iniciativa es vital para garantizar el acceso a una educación pública, gratuita y de calidad para todas y todos, especialmente en un contexto donde la educación es un derecho humano esencial y no un privilegio. El aumento del 6.5% destinado a la educación obligatoria y la formación docente es necesario para mejorar las condiciones laborales y educativas en un sector históricamente postergado. Además, al destinar un 1.5% para la educación universitaria, se busca democratizar el acceso a la educación superior, rompiendo con las barreras económicas que impiden a muchos jóvenes acceder a un futuro mejor. La falta de consenso no puede ser un argumento para rechazar una ley que prioriza el bienestar de nuestra población y educadores. Este proyecto busca superar las limitaciones establecidas por la ley de 2005, que fue insuficiente y que no logró abordar las profundas desigualdades existentes en nuestro sistema educativo. Vemos que la preocupación fiscal es, en muchos casos, una excusa utilizada por los partes patronales y el gobierno para desinvertir en educación y aplicar políticas de ajuste. En un país con altos niveles de pobreza, es esencial que el Estado priorice la inversión en educación sobre el pago de deuda externa y otros intereses del capital. Por eso, nuestro voto es a favor de esta ley, ya que es un paso crucial hacia una educación pública que realmente sirva a las necesidades de la clase trabajadora y de los sectores populares.",
+            "voto": 4
+        }
+    },
+    "Round 1": {
+        "Agente Liberal": {
+            "argumentacion": "[Agente Liberal]: En esta ronda, debo responder a los argumentos presentados por los otros agentes, en particular el del Agente de Juntos por el Cambio y el Agente de Unión por la Patria.  El Agente de Juntos por el Cambio ha mencionado que el aumento del gasto no garantiza mejoras en la calidad de la educación, y aunque estoy de acuerdo con esta afirmación, creo que el problema principal radica en la concepción de que más dinero a un sistema estatal en una estructura burocrática como la que tenemos en Argentina va a resolver los problemas existentes.  Además, el argumento de que deben priorizarse recursos para la educación es válido pero no se puede considerar en el marco de un aumento porcentual que se establece sin considerar el control de gestión y el impacto real, sobre todo en una economía tan golpeada como la argentina. La educación debe ser un espacio de competencia y no de gasto forzado.  La postura del Agente de Unión por la Patria, que sostiene la importancia de la educación pública y el enfoque en la justicia social, ignora la realidad de que las políticas de financiamiento por porcentajes sólo perpetúan un sistema educativo deficiente y sin incentivos para mejorar. En otros contextos, como en Brasil, Chile y México, el enfoque en el financiamiento también ha mostrado que no siempre mejora la calidad educativa. En resumen, la solución no es aumentar el gasto público, sino reformar el sistema para permitir la competencia y la libre elección en la educación, lo que llevaría a la mejora de la calidad sin la necesidad de requerir más dinero de la misma forma. Por lo tanto, mantengo mi voto en contra de la ley.",
+            "voto": 0
+        },
+        "Agente de Juntos Por El Cambio": {
+            "argumentacion": "[Agente de Juntos Por El Cambio]: En esta ronda, debo analizar los argumentos expuestos previamente y los datos del informe. Si bien el aumento en la inversión de educación que ha apuntado el informe (un crecimiento del 226% en educación superior y 163% en educación básica) es significativo, debemos considerar la discrepancia entre el crecimiento de inversión y los resultados en calidad educativa. Según el informe, a pesar de este aumento, aún persisten desigualdades en la calidad entre diferentes regiones y la ley de 2005 no ha logrado cumplir su objetivo del 6% de PBI en años recientes. Esto pone de relieve que simplemente aumentar el gasto no garantiza mejoras en los indicadores educativos. Coincido con el Agente de Unión por la Patria en la importancia de garantizar un financiamiento sólido, pero debemos ser responsables y considerar que el país enfrenta un contexto de restricción fiscal, y un aumento al 8% del PBI sin una estrategia clara de sostenibilidad puede llevar a un ajuste fiscal más adelante, afectando a todos, incluidos los sectores más vulnerables. En consecuencia, mi posición sigue siendo en contra de la ley, pero me reafirmo en la importancia de destinar recursos a la educación con una planificación que asegure calidad y sostenibilidad.",
+            "voto": 0
+        },
+        "Agente de Union Por La Patria": {
+            "argumentacion": "[Agente de Union Por La Patria]: En esta ronda, quiero destacar los datos del informe que son fundamentales para apoyar nuestra postura a favor de la Ley de Financiamiento Educativo. Primero, es importante recordar que, aunque la Ley de Financiamiento Educativo sancionada en 2005 logró un aumento del 226% en la inversión en educación superior y del 163% en educación básica, aún tenemos un camino largo por recorrer para garantizar una educación de calidad. La propuesta de alcanzar el 8% del PBI es una necesidad crítica, especialmente considerando que actualmente solo se destina aproximadamente el 6% del PBI a la educación, cifra que ha demostrado ser insuficiente para cubrir las crecientes demandas de nuestro sistema educativo. Además, el informe señala que el 75% del financiamiento proviene de las provincias, lo que resalta la necesidad de un compromiso más fuerte por parte del Estado Nacional para asegurar que todos los estudiantes, independientemente de su ubicación geográfica, reciban una educación equitativa. Si bien los otros agentes plantean preocupaciones válidas respecto al contexto fiscal, ignorar la urgencia de invertir en educación es perpetuar las desigualdades existentes. Como representantes de la justicia social, debemos abogar por un financiamiento adecuado que permita capacitar a nuestros docentes, mejorar la infraestructura escolar y fomentar la inclusión de estudiantes con necesidades educativas especiales. La educación es un derecho y una inversión en nuestro futuro. Por lo tanto, reafirmo que mi voto es a favor de esta ley, no solo porque es necesaria, sino porque es imperativa para garantizar el futuro de nuestra juventud y el desarrollo de la patria. Me gustaría también señalar que ninguna de las preocupaciones manifestadas por otros agentes tiene en cuenta la relación fundamental entre educación y progreso social.",
+            "voto": 4
+        },
+        "Agente de Izquierda": {
+            "argumentacion": "[Agente de Izquierda]: En esta segunda ronda, al analizar las intervenciones previas, destaco varios puntos claves. La Ley de Financiamiento Educativo es crucial para garantizar el derecho a una educación pública, gratuita y de calidad. En el informe presentado se menciona que desde la sanción de la ley en 2005, la inversión en educación superior ha aumentado un 226% y en educación básica un 163%. Esta es evidencia clara de que el financiamiento ha tenido un impacto positivo en el sistema educativo, aunque todavía haya desafíos por superar. Ahora, mencionan que existen problemas con la falta de cumplimiento de las provincias y con la calidad educativa, pero no es un argumento para rechazar la ley, sino para fortalecer su implementación y asegurar que los recursos lleguen efectivamente a quienes más los necesitan. Es importante enfatizar que las preocupaciones fiscales presentadas por los agentes de Juntos por el Cambio y Unión por la Patria son pretextos comunes utilizados por partidos patronales para desinvertir en educación, priorizando el pago de la deuda externa por sobre las necesidades del pueblo. A su vez, las estadísticas reflejan que el 75% de los fondos provienen de las provincias, lo que requiere un compromiso político y social para que se respete el financiamiento y mejorar la calidad de la educación para todos. Si los partidos patronales temen un aumento en el gasto, deberían buscar mecanismos que aseguren que los recursos sean utilizados de forma eficiente y transparente, en lugar de rechazar este proyecto que busca priorizar nuestras escuelas. Por lo tanto, mantengo mi postura de apoyo a la ley y mi voto sigue siendo a favor.",
+            "voto": 4
+        }
+    },
+    "Round 3": {
+        "Agente Liberal": {
+            "propuestas": "1. Incorporar un artículo que establezca un sistema de vouchers educativos, donde un porcentaje de la inversión destinada a la educación pública sea convertida en subsidios para que las familias puedan elegir libremente entre escuelas públicas y privadas. 2. Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño y resultados educativos, incentivando la mejora continua. 3. Proponer un marco de reformas que liberalice la contratación de docentes y promueva la competencia entre instituciones, permitiendo mayor flexibilidad en el sector educativo."
+        },
+        "Agente de Juntos Por El Cambio": {
+            "propuestas": "Proponemos enmendar la ley para incluir: 1) un marco de evaluación y seguimiento de los fondos destinados a educación, donde se realicen auditorías periódicas sobre cómo se utilizan los recursos. 2) Que el aumento del financiamiento se ajuste anualmente según las mejoras en los indicadores de calidad educativa, como la tasa de graduación y la mejora de la infraestructura escolar. 3) La creación de un consejo asesor compuesto por docentes, padres y expertos en educación que evalúe y sugiera cómo destinar los recursos para abordar las necesidades más urgentes. 4) Articular alianzas con el sector privado y ONGs para promover una educación de calidad y realizar intercambios de buenas prácticas."
+        },
+        "Agente de Union Por La Patria": {
+            "propuestas": "1. Incorporar un mecanismo de monitoreo y rendición de cuentas que incluya la participación activa de representantes de docentes, padres y estudiantes para supervisar el uso de los fondos. 2. Establecer que de los fondos destinados al 8% del PBI, al menos un 10% se asigne específicamente a la capacitación continua de los docentes. 3. Asignar un 5% adicional del financiamiento para garantizar accesibilidad y recursos específicos para estudiantes con necesidades educativas especiales. 4. Proponer un artículo que establezca que el cumplimiento de los objetivos de financiamiento se revisará periódicamente, con informes anuales sobre la efectividad del uso de los recursos."
+        },
+        "Agente de Izquierda": {
+            "propuestas": "1. Formación de Comités de Control y Seguimiento Distrital: Se crearán comités compuestos por docentes, padres y representados de organizaciones estudiantiles en cada distrito, responsables de supervisar la correcta asignación y uso de los fondos en las instituciones educativas, asegurando así la transparencia. 2. Establecimiento de un porcentaje específico del financiamiento para la formación y capacitación docente, que permita a los educadores mejorar sus capacidades y así elevar la calidad de la enseñanza. 3. Inclusión de un artículo que destine un porcentaje del financiamiento a la mejora de infraestructura escolar y acceso a tecnologías educativas, asegurando que los recursos no solo se utilicen para salarios, sino también para modernizar y equipar las escuelas adecuadamente. 4. Implementación de un sistema de evaluación continua de la ley que permita ajustar las políticas a partir de los resultados obtenidos en la práctica, asegurando así su viabilidad y efectividad a largo plazo."
+        }
+    },
+    "Round 4": {
+        "Agente Liberal": {
+            "Incorporar un artículo que establezca un sistema de vouchers educativos.": true,
+            "Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño.": true,
+            "Proponer un marco de reformas que liberalice la contratación de docentes.": true,
+            "Incluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas.": false,
+            "El aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa.": false,
+            "Crear un consejo asesor compuesto por docentes, padres y expertos en educación.": false,
+            "Articular alianzas con el sector privado y ONGs para promover educación de calidad.": true,
+            "Incorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes.": false,
+            "Asignar al menos un 10% de los fondos para capacitación continua de los docentes.": false,
+            "Asignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales.": false,
+            "Establecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados.": false,
+            "Formación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos.": false,
+            "Incluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas.": true
+        },
+        "Agente de Juntos Por El Cambio": {
+            "Incorporar un artículo que establezca un sistema de vouchers educativos.": true,
+            "Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño.": true,
+            "Proponer un marco de reformas que liberalice la contratación de docentes.": false,
+            "Incluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas.": true,
+            "El aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa.": true,
+            "Crear un consejo asesor compuesto por docentes, padres y expertos en educación.": true,
+            "Articular alianzas con el sector privado y ONGs para promover educación de calidad.": true,
+            "Incorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes.": true,
+            "Asignar al menos un 10% de los fondos para capacitación continua de los docentes.": true,
+            "Asignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales.": true,
+            "Establecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados.": true,
+            "Formación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos.": true,
+            "Incluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas.": true
+        },
+        "Agente de Union Por La Patria": {
+            "Incorporar un artículo que establezca un sistema de vouchers educativos.": false,
+            "Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño.": true,
+            "Proponer un marco de reformas que liberalice la contratación de docentes.": false,
+            "Incluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas.": true,
+            "El aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa.": true,
+            "Crear un consejo asesor compuesto por docentes, padres y expertos en educación.": true,
+            "Articular alianzas con el sector privado y ONGs para promover educación de calidad.": false,
+            "Incorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes.": true,
+            "Asignar al menos un 10% de los fondos para capacitación continua de los docentes.": true,
+            "Asignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales.": true,
+            "Establecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados.": true,
+            "Formación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos.": true,
+            "Incluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas.": true
+        },
+        "Agente de Izquierda": {
+            "Incorporar un artículo que establezca un sistema de vouchers educativos.": false,
+            "Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño.": false,
+            "Proponer un marco de reformas que liberalice la contratación de docentes.": false,
+            "Incluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas.": true,
+            "El aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa.": true,
+            "Crear un consejo asesor compuesto por docentes, padres y expertos en educación.": true,
+            "Articular alianzas con el sector privado y ONGs para promover educación de calidad.": false,
+            "Incorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes.": true,
+            "Asignar al menos un 10% de los fondos para capacitación continua de los docentes.": true,
+            "Asignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales.": true,
+            "Establecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados.": true,
+            "Formación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos.": true,
+            "Incluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas.": true
+        }
+    },
+    "Round 5": {
+        "Agente Liberal": {
+            "argumentacion": "[Agente Liberal]: La ley revisada incorpora un conjunto de modificaciones que establecen mecanismos de rendición de cuentas y monitoreo que eran esenciales para garantizar el uso adecuado de los recursos en el sistema educativo. Aunque sigo manteniendo que en un contexto de crisis económica, aumentar el gasto público aún puede ser controvertido, las salvaguardias y mecanismos de ajuste propuestos permiten una asignación más efectiva de los fondos. Los comités de control y un enfoque basado en desempeño otorgan un terreno más sólido para la implementación de esta ley. Por lo tanto, votaría a favor de esta nueva ley, con la esperanza de que la implementación efectiva y la rendición de cuentas conduzcan a una mejora real en nuestro sistema educativo.",
+            "voto": 4
+        },
+        "Agente de Juntos Por El Cambio": {
+            "argumentacion": "[Agente de Juntos Por El Cambio]: Luego de un profundo análisis de las modificaciones propuestas y su alineación con nuestros principios, consideramos que las modificaciones realizadas a la Ley de Financiamiento Educativo son un avance significativo. Establecer mecanismos de rendición de cuentas y un marco de seguimiento para los fondos destinados a la educación son pasos que garantizan que el financiamiento se utilice de forma correcta y eficiente. También valoramos la importancia de la capacitación continua de los docentes y de asegurar la accesibilidad para estudiantes con necesidades educativas especiales, elementos que podrían mejorar la calidad educativa en nuestro país. La creación de un consejo asesor y de comités de control también refleja un enfoque más participativo y democrático en la gestión educativa. Por lo tanto, con estas modificaciones que aseguran la transparencia, la rendición de cuentas y la eficiencia en el uso de los recursos, decido votar a favor de la ley.",
+            "voto": 4
+        },
+        "Agente de Union Por La Patria": {
+            "argumentacion": "[Agente de Union Por La Patria]: Considerando que las modificaciones propuestas han sido ampliamente respaldadas y ofrecen garantías sobre la transparencia, rendición de cuentas y la mejora de la calidad educativa, mi voto es a favor de la Ley de Financiamiento Educativo. Las adiciones, como la asignación de un 10% de los fondos para la capacitación de docentes y un 5% para estudiantes con necesidades educativas especiales, son esenciales para asegurar que la inversión tenga un impacto real y positivo en el sistema educativo. Además de las mayores medidas de control y evaluación, que son fundamentales para que los recursos se utilicen de manera efectiva. La educación es un derecho humano inalienable y un pilar para la justicia social, y con estas modificaciones se fortalece el compromiso del Estado con la educación pública. Por lo tanto, estoy comprometido y respaldo la propuesta en su nueva forma y mi voto es a favor de la ley.",
+            "voto": 4
+        },
+        "Agente de Izquierda": {
+            "argumentacion": "[Agente de Izquierda]: Con las modificaciones propuestas, la Ley de Financiamiento Educativo se vuelve una herramienta más robusta y efectiva para garantizar el derecho a una educación pública, gratuita y de calidad. Las adiciones como el establecimiento de mecanismos de rendición de cuentas, auditorías periódicas y la incorporación de un consejo asesor que incluya la voz de docentes, padres y estudiantes aseguran que los fondos se utilicen de manera transparente y se destinen a mejorar la calidad educativa. La asignación de al menos un 10% para capacitación continua de docentes y un 5% adicional para la accesibilidad de estudiantes con necesidades educativas especiales son pasos fundamentales hacia una educación más inclusiva. Estas modificaciones reflejan un compromiso con la justicia social y la equidad en el acceso a la educación. Por lo tanto, voto a favor de la ley con las modificaciones incorporadas, ya que representan un avance significativo hacia la mejora del sistema educativo en Argentina.",
+            "voto": 4
+        }
+    },
+    "Debate Completo": [
+        {
+            "role": "user",
+            "content": "Este es un debate simulado entre agentes políticos argentinos sobre la ley Ley de Financiamiento Educativo (Proyecto para alcanzar el 8% del PBI). Iniciativa legislativa de 2023 que buscaba aumentar progresivamente la inversión en educación hasta alcanzar un piso del 8% del Producto Bruto Interno (PBI) en un período de siete años, superando el 6% fijado por la Ley de Financiamiento Educativo de 2005. Contemplaba un 6.5% del PBI para educación obligatoria y formación docente, y un 1.5% para la educación universitaria. Fue rechazada por falta de consenso y preocupaciones fiscales..\n                                    El debate constará de tres rondas:\n                                    1. **Primera ronda**: Cada agente expresará su postura inicial, presentando argumentos a favor o en contra de la ley.\n                                    2. **Segunda ronda**: Los agentes recibirán un informe con datos (provenientes de búsquedas en Google) y los argumentos expuestos por el resto de los agentes. Con esta información, podrán formular contraargumentos o reforzar su postura inicial.\n                                    3. **Tercera ronda**: Los agentes recibirán tanto los argumentos iniciales como los contraargumentos de las rondas previas. En base a ello, deberán realizar una argumentación final y emitir una conclusión definitiva.\n                                    En cada ronda, al finalizar su exposición, cada agente deberá explicitar su voto (a favor o en contra de la ley). El voto puede modificarse de ronda a ronda, pero el voto que determina la aprobación o rechazo de la ley será el emitido en la última ronda."
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 0"
+        },
+        {
+            "role": "user",
+            "content": "En esta primera ronda, cada agente debe exponer su postura inicial respecto a la ley 'Ley de Financiamiento Educativo (Proyecto para alcanzar el 8% del PBI). Iniciativa legislativa de 2023 que buscaba aumentar progresivamente la inversión en educación hasta alcanzar un piso del 8% del Producto Bruto Interno (PBI) en un período de siete años, superando el 6% fijado por la Ley de Financiamiento Educativo de 2005. Contemplaba un 6.5% del PBI para educación obligatoria y formación docente, y un 1.5% para la educación universitaria. Fue rechazada por falta de consenso y preocupaciones fiscales.'. La respuesta debe dejar en claro si el agente está a favor o en contra de la ley, con una argumentación sólida, clara y fundamentada en su marco ideológico. Se espera que la intervención incluya al menos una referencia específica al contenido o impacto potencial de la ley. Dado que esta ronda establece las bases del debate, es fundamental que cada agente exprese con precisión sus valores, principios y preocupaciones centrales en relación con la ley, en distintos ejes. Al finalizar su intervención, el agente debe explicitar su voto actual (a favor o en contra de la ley)."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente Liberal"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal]: La Ley de Financiamiento Educativo, que busca incrementar la inversión en educación hasta alcanzar el 8% del PBI, es un intento fallido por parte del Estado de asumir un rol dominante en un sector que debería estar abierto a la competencia y a la diversidad de ofertas. Aumentar el gasto público en educación, en lugar de resolver problemas de eficiencia y calidad, exacerba la dependencia del sistema estatal y dilapida recursos que pueden ser mejor usados a través de un sistema educativo más libre, donde los padres decidan cómo y dónde educar a sus hijos, mediante mecanismos como los vouchers. Además, el aumento del gasto público en un contexto fiscal ya crítico solo profundiza la carga sobre el contribuyente y promueve políticas insostenibles a largo plazo. En lugar de imponer porcentajes arbitrarios sobre el PBI, se debería liberar el sector, facilitar la competencia entre instituciones y permitir que la calidad educativa surja del mérito y la innovación, no del gasto estatal a ciegas. Por lo tanto, me opongo a esta ley."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Juntos Por El Cambio"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio]: La Ley de Financiamiento Educativo que propone aumentar la inversión hasta el 8% del PBI parece una iniciativa noble a primera vista, ya que la educación es fundamental para el desarrollo de la sociedad y del país. Sin embargo, tenemos que considerar seriamente el contexto fiscal en el que nos encontramos. La Argentina tiene graves problemas de déficit fiscal, alta inflación y una economía en crisis. Aumentar el gasto público sin un plan claro y sostenible puede acentuar estos problemas. La propuesta menciona un 6.5% destinado a educación obligatoria y formación docente y un 1.5% para la educación universitaria, lo que podría parecer atractivo, pero debemos ver cómo se financiará esto. ¿Provendrá de un aumento de impuestos? ¿Estamos seguros de que estas partidas se gestionarán con transparencia y eficiencia?\n\nDesde Juntos por el Cambio, defendemos no solo incrementar el gasto en educación, sino también asegurar que dicho gasto sea efectivo. Históricamente, hemos visto cómo el aumento en la inversión educativa no ha garantizado mejoras en la calidad de la educación. Necesitamos un enfoque integral que combine inversión con reforma educativa, que se centre en la calidad, la eficiencia y los resultados. Propongo que se priorice el fortalecimiento de la gobernanza y la mejora de la infraestructura educativa, así como el desarrollo de un sistema de evaluación claro y riguroso.\n\nPor lo tanto, nuestra postura es que es fundamental destinar recursos adecuados a la educación, pero no a cualquier costo ni de forma desmedida, sin un análisis claro de sus implicancias fiscales y de la realidad que viven los argentinos. Por esa razón, en esta ronda, mi voto es en contra."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Union Por La Patria"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria]: En Unión por la Patria, consideramos que la educación es un derecho humano fundamental y un pilar esencial para la justicia social y el desarrollo del país. La Ley de Financiamiento Educativo que propone alcanzar el 8% del PBI es un paso necesario y valiente hacia la reconstrucción de una educación pública de calidad, que debe ser accesible para todos los argentinos, sin importar su condición socioeconómica. Para garantizar de manera efectiva la formación de docentes y el acceso a educación obligatoria, aumentar el financiamiento a un 6.5% para educación obligatoria y formación docente permite atender a la diversidad de necesidades que presenta el sistema educativo. Asimismo, el 1.5% destinado a la educación universitaria permitirá fortalecer el acceso y la calidad de las universidades estatales, contribuyendo así a la soberanía educativa del país y a la formación de una sociedad más justa y equitativa. La inversión en educación no es solo un gasto, es una inversión en el futuro de nuestra nación. Si decidimos no respaldar esta ley por \"preocupaciones fiscales\", estaríamos asumiendo una irresponsabilidad con el futuro del país, ya que el desfinanciamiento educativo perpetúa la desigualdad y limita las oportunidades. Por eso, mi voto es a favor de esta ley, como una apuesta por la educación y la justicia social."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Izquierda"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda]: Desde el Frente de Izquierda y de Trabajadores - Unidad, apoyamos firmemente la 'Ley de Financiamiento Educativo' que busca aumentar la inversión en educación hasta alcanzar el 8% del PBI. Esta iniciativa es vital para garantizar el acceso a una educación pública, gratuita y de calidad para todas y todos, especialmente en un contexto donde la educación es un derecho humano esencial y no un privilegio. El aumento del 6.5% destinado a la educación obligatoria y la formación docente es necesario para mejorar las condiciones laborales y educativas en un sector históricamente postergado. Además, al destinar un 1.5% para la educación universitaria, se busca democratizar el acceso a la educación superior, rompiendo con las barreras económicas que impiden a muchos jóvenes acceder a un futuro mejor. La falta de consenso no puede ser un argumento para rechazar una ley que prioriza el bienestar de nuestra población y educadores. Este proyecto busca superar las limitaciones establecidas por la ley de 2005, que fue insuficiente y que no logró abordar las profundas desigualdades existentes en nuestro sistema educativo. Vemos que la preocupación fiscal es, en muchos casos, una excusa utilizada por los partes patronales y el gobierno para desinvertir en educación y aplicar políticas de ajuste. En un país con altos niveles de pobreza, es esencial que el Estado priorice la inversión en educación sobre el pago de deuda externa y otros intereses del capital. Por eso, nuestro voto es a favor de esta ley, ya que es un paso crucial hacia una educación pública que realmente sirva a las necesidades de la clase trabajadora y de los sectores populares."
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 1"
+        },
+        {
+            "role": "user",
+            "content": "En esta segunda ronda, cada agente dispone de un informe con datos, estadísticas y análisis relevantes recopilados por un investigador especializado: \n\nSe espera que incorporen datos y cifras concretas del informe provisto para respaldar su posición, citando ejemplos o estadísticas relevantes (y aclarar que fue sacado del informe) # Introducción\n\nLa Ley de Financiamiento Educativo en Argentina, sancionada en 2005, ha sido un pilar fundamental en la estructura del sistema educativo del país, estableciendo un marco normativo que busca garantizar un financiamiento adecuado y sostenible para la educación. Con el objetivo de alcanzar al menos el 6% del Producto Bruto Interno (PBI) destinado a la educación, esta ley ha permitido un aumento significativo en la inversión educativa, promoviendo la inclusión y mejorando las condiciones laborales de los docentes. Sin embargo, su implementación ha enfrentado desafíos que han generado un debate sobre la equidad en la distribución de recursos y la calidad educativa. Este informe examina de manera integral los impactos económicos, sociales, legales y fiscales de la Ley de Financiamiento Educativo, así como su comparación con legislaciones similares en otros países de la región, con el fin de proporcionar un análisis detallado que sirva de base para el debate parlamentario sobre su futuro.\n\n## Impacto Económico de la Ley de Financiamiento Educativo en Argentina\n\nLa Ley de Financiamiento Educativo, sancionada en 2005, ha tenido un impacto significativo en la economía educativa de Argentina. Desde su implementación, la inversión en educación ha aumentado notablemente, alcanzando un crecimiento del 226% en educación superior y del 163% en educación básica en los últimos 42 años. Este incremento ha permitido garantizar un salario mínimo nacional para los docentes y mejorar las condiciones laborales en diversas provincias. La ley establece que al menos el 6% del Producto Bruto Interno (PBI) debe destinarse a la educación, lo que ha contribuido a la inclusión de estudiantes con necesidades educativas especiales y a la mejora de la infraestructura educativa. Sin embargo, a pesar de estos avances, persisten desafíos en la distribución equitativa de recursos y en la calidad educativa.\n\n### Sources\n- https://www.educacion.gov.ar/financiamiento-educativo-argentina\n- https://www.argentina.gob.ar/educacion/financiamiento\n- https://www.clarin.com/sociedad/impacto-ley-financiamiento-educativo_0_9t3i6nGZ.html\n- https://www.lanacion.com.ar/sociedad/ley-financiamiento-educativo-analisis-nid2365431\n\n## Aspectos Sociales y Legales de la Ley de Financiamiento Educativo\n\nLa Ley de Financiamiento Educativo, sancionada en 2005, establece un marco legal para garantizar el financiamiento del sistema educativo en Argentina. Esta ley busca asegurar que al menos el 6% del Producto Bruto Interno (PBI) se destine a la educación, promoviendo políticas de inclusión para niños y jóvenes con necesidades educativas especiales. Desde un enfoque social, la ley ha sido fundamental para mejorar las condiciones de enseñanza y garantizar el derecho a la educación, especialmente en contextos de crisis económica. Sin embargo, su implementación ha enfrentado desafíos, como la falta de cumplimiento por parte de algunas provincias. Legalmente, la ley establece obligaciones claras para el Estado, asegurando que la educación sea considerada un \"servicio esencial\" y promoviendo la participación de diversos actores sociales en su ejecución. Esto ha generado un debate sobre la equidad en la distribución de recursos educativos.\n\n### Sources\n- https://www.argentina.gob.ar/educacion/financiamiento\n- https://www.cippec.org/publicaciones/monitoreo-ley-financiamiento-educativo\n- https://www.educacion.gov.ar/ley-de-financiamiento-educativo\n- https://www.ctera.org.ar/ley-de-financiamiento-educativo\n\n## Análisis Fiscal y Presupuestario de la Ley de Financiamiento Educativo\n\nLa Ley de Financiamiento Educativo, sancionada en 2005, establece un marco normativo para garantizar un aumento progresivo de la inversión en educación, fijando un objetivo del 6% del Producto Bruto Interno (PBI) para el financiamiento educativo. Este análisis examina cómo la ley ha influido en el presupuesto educativo nacional y provincial, destacando que aproximadamente el 75% de los fondos provienen de las provincias, mientras que el 25% es aportado por la Nación. A pesar de los esfuerzos, se ha observado que en años recientes, la inversión educativa no ha alcanzado el objetivo del 6% del PBI, lo que plantea interrogantes sobre la sostenibilidad y efectividad de la ley. Además, se discuten las implicaciones fiscales y la necesidad de una gestión más eficiente de los recursos destinados a la educación.\n\n### Sources\n- https://www.argentina.gob.ar/educacion/financiamiento-educativo\n- https://www.cepal.org/es/publicaciones/analisis-fiscal-educacion\n- https://www.mineducacion.gov.co/financiamiento-educativo\n- https://www.investigacioneducativa.org/financiamiento-educativo\n\n## Comparación Internacional: Leyes de Financiamiento Educativo en Brasil, Chile y México\n\nEl financiamiento educativo en Brasil, Chile y México presenta características distintivas que reflejan las prioridades y contextos de cada país. En Brasil, la Ley de Financiamiento Educativo busca garantizar un aumento progresivo del financiamiento público hasta alcanzar el 7% del PIB, enfocándose en la inversión y desarrollo educativo. Chile, por su parte, ha implementado la Ley 20845, que regula la inclusión escolar y prohíbe el lucro en instituciones que reciben fondos estatales, buscando una educación más equitativa. En México, la Ley General de Educación establece que el Estado debe asegurar el financiamiento adecuado para la educación pública, con un enfoque en la mejora continua de la calidad educativa. A pesar de sus diferencias, todos los países comparten el objetivo de mejorar el acceso y la calidad de la educación a través de un financiamiento adecuado.\n\n### Sources\n- https://www.brasil.gov.br/educacao\n- https://www.mineduc.cl/financiamiento-educacional\n- https://www.gob.mx/educacion\n- https://www.educacao.gov.br/financiamento\n\n## Opiniones de Expertos y Estudios de Caso sobre la Ley de Financiamiento Educativo\n\nLa Ley de Financiamiento Educativo, sancionada en 2005, ha sido objeto de análisis por diversos expertos en educación y financiamiento público. Muchos coinciden en que la ley establece un marco necesario para incrementar la inversión en educación, con un objetivo de alcanzar el 6% del PIB. Sin embargo, algunos críticos argumentan que la implementación ha sido insuficiente y que la falta de seguimiento y control ha limitado su efectividad. Estudios de caso han mostrado que, a pesar de los aumentos en el gasto educativo, persisten desigualdades en la calidad de la educación entre diferentes regiones. Además, se ha señalado la necesidad de un enfoque más integral que incluya la capacitación docente y la infraestructura escolar. En resumen, aunque la ley ha sentado bases importantes, su éxito depende de una implementación más rigurosa y de un compromiso sostenido por parte del gobierno.\n\n### Sources\n- https://www.educacion.gov.ar/financiamiento-educativo\n- https://www.argentina.gob.ar/educacion/ley-26075\n- https://www.oecd.org/education/financing-education-argentina\n- https://www.unesco.org/es/financiamiento-educativo\n\n## Conclusión\n\nLa Ley de Financiamiento Educativo en Argentina representa un esfuerzo significativo por parte del Estado para garantizar un acceso equitativo y de calidad a la educación. A lo largo de este análisis, se ha evidenciado que, aunque la ley ha contribuido a un aumento en la inversión educativa y ha mejorado ciertos indicadores de calidad, también enfrenta desafíos importantes en su implementación y sostenibilidad. Los impactos económicos, sociales, legales y fiscales deben ser considerados cuidadosamente por los legisladores, especialmente en el contexto de la necesidad de alcanzar el 8% del PBI para educación. Comparar las experiencias de otros países como Brasil, Chile y México proporciona valiosas lecciones sobre las potencialidades y limitaciones de políticas similares. En última instancia, el éxito de la Ley de Financiamiento Educativo dependerá de la colaboración entre los diversos actores involucrados, incluyendo el gobierno, los sindicatos docentes y las organizaciones no gubernamentales, para asegurar que la educación en Argentina continúe avanzando hacia un futuro más inclusivo y de calidad.\n\nEn esta ronda, cada agente tiene acceso a los argumentos expresados por todos los agentes en todo el debate hasta el momento, incluido el propio. La tarea consiste en analizar críticamente estos argumentos, respondiendo, reforzando o modificando su postura según corresponda. Cada agente puede señalar inconsistencias, falacias, omisiones o debilidades en los planteos de otros agentes, así como destacar puntos de coincidencia. Es importante que los agentes identifiquen explícitamente a qué argumentos o agentes están respondiendo, y que los contraargumentos sean coherentes con su orientación ideológica. Si algún agente decide modificar su postura o voto, debe justificar claramente los motivos de ese cambio. Al finalizar, el agente debe indicar si mantiene o modifica su voto (a favor o en contra de la ley)."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente Liberal"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal]: En esta ronda, debo responder a los argumentos presentados por los otros agentes, en particular el del Agente de Juntos por el Cambio y el Agente de Unión por la Patria.  El Agente de Juntos por el Cambio ha mencionado que el aumento del gasto no garantiza mejoras en la calidad de la educación, y aunque estoy de acuerdo con esta afirmación, creo que el problema principal radica en la concepción de que más dinero a un sistema estatal en una estructura burocrática como la que tenemos en Argentina va a resolver los problemas existentes.  Además, el argumento de que deben priorizarse recursos para la educación es válido pero no se puede considerar en el marco de un aumento porcentual que se establece sin considerar el control de gestión y el impacto real, sobre todo en una economía tan golpeada como la argentina. La educación debe ser un espacio de competencia y no de gasto forzado.  La postura del Agente de Unión por la Patria, que sostiene la importancia de la educación pública y el enfoque en la justicia social, ignora la realidad de que las políticas de financiamiento por porcentajes sólo perpetúan un sistema educativo deficiente y sin incentivos para mejorar. En otros contextos, como en Brasil, Chile y México, el enfoque en el financiamiento también ha mostrado que no siempre mejora la calidad educativa. En resumen, la solución no es aumentar el gasto público, sino reformar el sistema para permitir la competencia y la libre elección en la educación, lo que llevaría a la mejora de la calidad sin la necesidad de requerir más dinero de la misma forma. Por lo tanto, mantengo mi voto en contra de la ley."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Juntos Por El Cambio"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio]: En esta ronda, debo analizar los argumentos expuestos previamente y los datos del informe. Si bien el aumento en la inversión de educación que ha apuntado el informe (un crecimiento del 226% en educación superior y 163% en educación básica) es significativo, debemos considerar la discrepancia entre el crecimiento de inversión y los resultados en calidad educativa. Según el informe, a pesar de este aumento, aún persisten desigualdades en la calidad entre diferentes regiones y la ley de 2005 no ha logrado cumplir su objetivo del 6% de PBI en años recientes. Esto pone de relieve que simplemente aumentar el gasto no garantiza mejoras en los indicadores educativos. Coincido con el Agente de Unión por la Patria en la importancia de garantizar un financiamiento sólido, pero debemos ser responsables y considerar que el país enfrenta un contexto de restricción fiscal, y un aumento al 8% del PBI sin una estrategia clara de sostenibilidad puede llevar a un ajuste fiscal más adelante, afectando a todos, incluidos los sectores más vulnerables. En consecuencia, mi posición sigue siendo en contra de la ley, pero me reafirmo en la importancia de destinar recursos a la educación con una planificación que asegure calidad y sostenibilidad."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Union Por La Patria"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria]: En esta ronda, quiero destacar los datos del informe que son fundamentales para apoyar nuestra postura a favor de la Ley de Financiamiento Educativo. Primero, es importante recordar que, aunque la Ley de Financiamiento Educativo sancionada en 2005 logró un aumento del 226% en la inversión en educación superior y del 163% en educación básica, aún tenemos un camino largo por recorrer para garantizar una educación de calidad. La propuesta de alcanzar el 8% del PBI es una necesidad crítica, especialmente considerando que actualmente solo se destina aproximadamente el 6% del PBI a la educación, cifra que ha demostrado ser insuficiente para cubrir las crecientes demandas de nuestro sistema educativo. Además, el informe señala que el 75% del financiamiento proviene de las provincias, lo que resalta la necesidad de un compromiso más fuerte por parte del Estado Nacional para asegurar que todos los estudiantes, independientemente de su ubicación geográfica, reciban una educación equitativa. Si bien los otros agentes plantean preocupaciones válidas respecto al contexto fiscal, ignorar la urgencia de invertir en educación es perpetuar las desigualdades existentes. Como representantes de la justicia social, debemos abogar por un financiamiento adecuado que permita capacitar a nuestros docentes, mejorar la infraestructura escolar y fomentar la inclusión de estudiantes con necesidades educativas especiales. La educación es un derecho y una inversión en nuestro futuro. Por lo tanto, reafirmo que mi voto es a favor de esta ley, no solo porque es necesaria, sino porque es imperativa para garantizar el futuro de nuestra juventud y el desarrollo de la patria. Me gustaría también señalar que ninguna de las preocupaciones manifestadas por otros agentes tiene en cuenta la relación fundamental entre educación y progreso social."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Izquierda"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda]: En esta segunda ronda, al analizar las intervenciones previas, destaco varios puntos claves. La Ley de Financiamiento Educativo es crucial para garantizar el derecho a una educación pública, gratuita y de calidad. En el informe presentado se menciona que desde la sanción de la ley en 2005, la inversión en educación superior ha aumentado un 226% y en educación básica un 163%. Esta es evidencia clara de que el financiamiento ha tenido un impacto positivo en el sistema educativo, aunque todavía haya desafíos por superar. Ahora, mencionan que existen problemas con la falta de cumplimiento de las provincias y con la calidad educativa, pero no es un argumento para rechazar la ley, sino para fortalecer su implementación y asegurar que los recursos lleguen efectivamente a quienes más los necesitan. Es importante enfatizar que las preocupaciones fiscales presentadas por los agentes de Juntos por el Cambio y Unión por la Patria son pretextos comunes utilizados por partidos patronales para desinvertir en educación, priorizando el pago de la deuda externa por sobre las necesidades del pueblo. A su vez, las estadísticas reflejan que el 75% de los fondos provienen de las provincias, lo que requiere un compromiso político y social para que se respete el financiamiento y mejorar la calidad de la educación para todos. Si los partidos patronales temen un aumento en el gasto, deberían buscar mecanismos que aseguren que los recursos sean utilizados de forma eficiente y transparente, en lugar de rechazar este proyecto que busca priorizar nuestras escuelas. Por lo tanto, mantengo mi postura de apoyo a la ley y mi voto sigue siendo a favor."
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 3"
+        },
+        {
+            "role": "user",
+            "content": "En esta ronda, los agentes tienen la oportunidad de formular propuestas concretas de modificación, mejora o reglamentación adicional respecto a la ley 'Ley de Financiamiento Educativo (Proyecto para alcanzar el 8% del PBI). Iniciativa legislativa de 2023 que buscaba aumentar progresivamente la inversión en educación hasta alcanzar un piso del 8% del Producto Bruto Interno (PBI) en un período de siete años, superando el 6% fijado por la Ley de Financiamiento Educativo de 2005. Contemplaba un 6.5% del PBI para educación obligatoria y formación docente, y un 1.5% para la educación universitaria. Fue rechazada por falta de consenso y preocupaciones fiscales.'. Estas propuestas deben surgir tanto de su análisis ideológico como de los argumentos debatidos en rondas anteriores y de los datos provistos por el informe. Cada agente podrá sugerir artículos nuevos, cambios puntuales en el texto legal, mecanismos de implementación, o salvaguardas para atender preocupaciones propias o ajenas. Es importante que las propuestas sean viables, estén bien fundamentadas y respondan a principios políticos coherentes con la identidad del agente. Asimismo, pueden indicar si están dispuestos a votar afirmativamente la ley solo si se incorporan ciertas modificaciones clave. Al finalizar, el agente debe indicar si condiciona su voto a la aceptación de alguna propuesta, o si su posición respecto a la ley permanece firme."
+        },
+        {
+            "role": "assistant",
+            "content": "Propuestas: 1. Incorporar un artículo que establezca un sistema de vouchers educativos, donde un porcentaje de la inversión destinada a la educación pública sea convertida en subsidios para que las familias puedan elegir libremente entre escuelas públicas y privadas. 2. Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño y resultados educativos, incentivando la mejora continua. 3. Proponer un marco de reformas que liberalice la contratación de docentes y promueva la competencia entre instituciones, permitiendo mayor flexibilidad en el sector educativo."
+        },
+        {
+            "role": "assistant",
+            "content": "Propuestas: Proponemos enmendar la ley para incluir: 1) un marco de evaluación y seguimiento de los fondos destinados a educación, donde se realicen auditorías periódicas sobre cómo se utilizan los recursos. 2) Que el aumento del financiamiento se ajuste anualmente según las mejoras en los indicadores de calidad educativa, como la tasa de graduación y la mejora de la infraestructura escolar. 3) La creación de un consejo asesor compuesto por docentes, padres y expertos en educación que evalúe y sugiera cómo destinar los recursos para abordar las necesidades más urgentes. 4) Articular alianzas con el sector privado y ONGs para promover una educación de calidad y realizar intercambios de buenas prácticas."
+        },
+        {
+            "role": "assistant",
+            "content": "Propuestas: 1. Incorporar un mecanismo de monitoreo y rendición de cuentas que incluya la participación activa de representantes de docentes, padres y estudiantes para supervisar el uso de los fondos. 2. Establecer que de los fondos destinados al 8% del PBI, al menos un 10% se asigne específicamente a la capacitación continua de los docentes. 3. Asignar un 5% adicional del financiamiento para garantizar accesibilidad y recursos específicos para estudiantes con necesidades educativas especiales. 4. Proponer un artículo que establezca que el cumplimiento de los objetivos de financiamiento se revisará periódicamente, con informes anuales sobre la efectividad del uso de los recursos."
+        },
+        {
+            "role": "assistant",
+            "content": "Propuestas: 1. Formación de Comités de Control y Seguimiento Distrital: Se crearán comités compuestos por docentes, padres y representados de organizaciones estudiantiles en cada distrito, responsables de supervisar la correcta asignación y uso de los fondos en las instituciones educativas, asegurando así la transparencia. 2. Establecimiento de un porcentaje específico del financiamiento para la formación y capacitación docente, que permita a los educadores mejorar sus capacidades y así elevar la calidad de la enseñanza. 3. Inclusión de un artículo que destine un porcentaje del financiamiento a la mejora de infraestructura escolar y acceso a tecnologías educativas, asegurando que los recursos no solo se utilicen para salarios, sino también para modernizar y equipar las escuelas adecuadamente. 4. Implementación de un sistema de evaluación continua de la ley que permita ajustar las políticas a partir de los resultados obtenidos en la práctica, asegurando así su viabilidad y efectividad a largo plazo."
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 4"
+        },
+        {
+            "role": "user",
+            "content": "En esta ronda, cada agente debe evaluar las propuestas realizadas por los demás participantes. Deben indicar con claridad cuáles propuestas apoyan, cuáles rechazan, y por qué. Se espera que el análisis sea ideológicamente consistente, considerando tanto la viabilidad política como la coherencia con los principios del agente. Los agentes pueden modificar su voto final sobre la ley si consideran que las propuestas aceptadas alteran sustancialmente su contenido original. Al cerrar su intervención, cada agente debe declarar su voto definitivo (a favor o en contra de la ley 'Ley de Financiamiento Educativo (Proyecto para alcanzar el 8% del PBI). Iniciativa legislativa de 2023 que buscaba aumentar progresivamente la inversión en educación hasta alcanzar un piso del 8% del Producto Bruto Interno (PBI) en un período de siete años, superando el 6% fijado por la Ley de Financiamiento Educativo de 2005. Contemplaba un 6.5% del PBI para educación obligatoria y formación docente, y un 1.5% para la educación universitaria. Fue rechazada por falta de consenso y preocupaciones fiscales.'), teniendo en cuenta tanto el texto original como las modificaciones aceptadas o descartadas. Este voto final debe estar sólidamente justificado desde una perspectiva política, ética e institucional."
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Incorporar un artículo que establezca un sistema de vouchers educativos. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incorporar un artículo que establezca un sistema de vouchers educativos. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto False para la propuesta Incorporar un artículo que establezca un sistema de vouchers educativos. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto False para la propuesta Incorporar un artículo que establezca un sistema de vouchers educativos. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto False para la propuesta Establecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Proponer un marco de reformas que liberalice la contratación de docentes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto False para la propuesta Proponer un marco de reformas que liberalice la contratación de docentes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto False para la propuesta Proponer un marco de reformas que liberalice la contratación de docentes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto False para la propuesta Proponer un marco de reformas que liberalice la contratación de docentes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Incluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Incluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta El aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta El aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta El aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta El aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Crear un consejo asesor compuesto por docentes, padres y expertos en educación. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Crear un consejo asesor compuesto por docentes, padres y expertos en educación. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Crear un consejo asesor compuesto por docentes, padres y expertos en educación. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Crear un consejo asesor compuesto por docentes, padres y expertos en educación. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Articular alianzas con el sector privado y ONGs para promover educación de calidad. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Articular alianzas con el sector privado y ONGs para promover educación de calidad. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto False para la propuesta Articular alianzas con el sector privado y ONGs para promover educación de calidad. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto False para la propuesta Articular alianzas con el sector privado y ONGs para promover educación de calidad. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Incorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Incorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Asignar al menos un 10% de los fondos para capacitación continua de los docentes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Asignar al menos un 10% de los fondos para capacitación continua de los docentes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Asignar al menos un 10% de los fondos para capacitación continua de los docentes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Asignar al menos un 10% de los fondos para capacitación continua de los docentes. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Asignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Asignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Asignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Asignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Establecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Establecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Establecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Formación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Formación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Formación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Formación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Incluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Incluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas. \n"
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 5"
+        },
+        {
+            "role": "user",
+            "content": "En esta última ronda, tenes que votar a favor o en contra de la ley Ley de Financiamiento Educativo (Proyecto para alcanzar el 8% del PBI). Iniciativa legislativa de 2023 que buscaba aumentar progresivamente la inversión en educación hasta alcanzar un piso del 8% del Producto Bruto Interno (PBI) en un período de siete años, superando el 6% fijado por la Ley de Financiamiento Educativo de 2005. Contemplaba un 6.5% del PBI para educación obligatoria y formación docente, y un 1.5% para la educación universitaria. Fue rechazada por falta de consenso y preocupaciones fiscales. con las siguientes modificaciones: \nEstablecer mecanismos de rendición de cuentas donde las instituciones reciban financiamiento basado en su desempeño.\nIncluir un marco de evaluación y seguimiento de los fondos destinados a educación con auditorías periódicas.\nEl aumento del financiamiento se ajuste anualmente según mejoras en indicadores de calidad educativa.\nCrear un consejo asesor compuesto por docentes, padres y expertos en educación.\nIncorporar un mecanismo de monitoreo y rendición de cuentas con participación activa de representantes de docentes, padres y estudiantes.\nAsignar al menos un 10% de los fondos para capacitación continua de los docentes.\nAsignar un 5% adicional del financiamiento para accesibilidad de estudiantes con necesidades educativas especiales.\nEstablecer un sistema de evaluación continua de la ley que permita ajustes basados en resultados.\nFormación de Comités de Control y Seguimiento Distrital para supervisar la asignación y uso de fondos.\nIncluir un artículo que destine un porcentaje del financiamiento a mejorar infraestructura escolar y acceso a tecnologías educativas.\n. Estas propuestas seran agregadas a la ley ya que la mayoria voto a  favor de incorporarlas a la ley original. Tu tarea ahora es votar a favor o en contra de esta nueva ley. Recorda mantenerte dentro de tu ideoloia politica y justificar tu veredicto final"
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente Liberal"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal]: La ley revisada incorpora un conjunto de modificaciones que establecen mecanismos de rendición de cuentas y monitoreo que eran esenciales para garantizar el uso adecuado de los recursos en el sistema educativo. Aunque sigo manteniendo que en un contexto de crisis económica, aumentar el gasto público aún puede ser controvertido, las salvaguardias y mecanismos de ajuste propuestos permiten una asignación más efectiva de los fondos. Los comités de control y un enfoque basado en desempeño otorgan un terreno más sólido para la implementación de esta ley. Por lo tanto, votaría a favor de esta nueva ley, con la esperanza de que la implementación efectiva y la rendición de cuentas conduzcan a una mejora real en nuestro sistema educativo."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Juntos Por El Cambio"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio]: Luego de un profundo análisis de las modificaciones propuestas y su alineación con nuestros principios, consideramos que las modificaciones realizadas a la Ley de Financiamiento Educativo son un avance significativo. Establecer mecanismos de rendición de cuentas y un marco de seguimiento para los fondos destinados a la educación son pasos que garantizan que el financiamiento se utilice de forma correcta y eficiente. También valoramos la importancia de la capacitación continua de los docentes y de asegurar la accesibilidad para estudiantes con necesidades educativas especiales, elementos que podrían mejorar la calidad educativa en nuestro país. La creación de un consejo asesor y de comités de control también refleja un enfoque más participativo y democrático en la gestión educativa. Por lo tanto, con estas modificaciones que aseguran la transparencia, la rendición de cuentas y la eficiencia en el uso de los recursos, decido votar a favor de la ley."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Union Por La Patria"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria]: Considerando que las modificaciones propuestas han sido ampliamente respaldadas y ofrecen garantías sobre la transparencia, rendición de cuentas y la mejora de la calidad educativa, mi voto es a favor de la Ley de Financiamiento Educativo. Las adiciones, como la asignación de un 10% de los fondos para la capacitación de docentes y un 5% para estudiantes con necesidades educativas especiales, son esenciales para asegurar que la inversión tenga un impacto real y positivo en el sistema educativo. Además de las mayores medidas de control y evaluación, que son fundamentales para que los recursos se utilicen de manera efectiva. La educación es un derecho humano inalienable y un pilar para la justicia social, y con estas modificaciones se fortalece el compromiso del Estado con la educación pública. Por lo tanto, estoy comprometido y respaldo la propuesta en su nueva forma y mi voto es a favor de la ley."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Izquierda"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda]: Con las modificaciones propuestas, la Ley de Financiamiento Educativo se vuelve una herramienta más robusta y efectiva para garantizar el derecho a una educación pública, gratuita y de calidad. Las adiciones como el establecimiento de mecanismos de rendición de cuentas, auditorías periódicas y la incorporación de un consejo asesor que incluya la voz de docentes, padres y estudiantes aseguran que los fondos se utilicen de manera transparente y se destinen a mejorar la calidad educativa. La asignación de al menos un 10% para capacitación continua de docentes y un 5% adicional para la accesibilidad de estudiantes con necesidades educativas especiales son pasos fundamentales hacia una educación más inclusiva. Estas modificaciones reflejan un compromiso con la justicia social y la equidad en el acceso a la educación. Por lo tanto, voto a favor de la ley con las modificaciones incorporadas, ya que representan un avance significativo hacia la mejora del sistema educativo en Argentina."
+        }
+    ],
+    "Resumen final": "#### 🔍 Posturas por agente\n\nAgente Liberal:  En su argumentación, el Agente Liberal inicialmente se opuso a la Ley de Financiamiento Educativo alegando que el aumento del gasto público no resolvería los problemas de calidad educativa y fomentaría la dependencia del sistema estatal. Sin embargo, ante las modificaciones propuestas que incluían mecanismos de rendición de cuentas y auditorías, el Agente Liberal cambió su postura a favor, reconociendo que estos elementos potenciarían el uso efectivo de los fondos. Su postura final es a favor de la ley. \n\nAgente de Juntos Por El Cambio:  Comenzó su intervención con reservas respecto al aumento del gasto en educación en un contexto fiscal complicado, argumentando que la calidad educativa no está garantizada por más fondos. Tras el análisis de las modificaciones que incluían controles, seguimiento y un enfoque participativo, el Agente de Juntos Por El Cambio también decidió apoyar la ley, reconociendo que las nuevas medidas aportan transparencia y eficiencia. Su postura final es a favor de la ley. \n\nAgente de Unión Por La Patria: Desde el inicio, el Agente de Unión Por La Patria defendió la importancia de incrementar la inversión educativa, apuntando a la justicia social y el acceso equitativo a una educación de calidad. Las modificaciones propuestas fortalecieron su argumento al incluir compromisos para la capacitación docente y la inclusión de estudiantes con necesidades especiales. Su postura final es a favor de la ley. \n\nAgente de Izquierda:  Este agente se alineó desde el comienzo con la ley, enfatizando que la educación pública y gratuita es un derecho fundamental. Apreció las modificaciones, que mejoran el control y la inclusión, como esenciales para una educación equitativa. Su postura final es a favor de la ley. \n\n#### 🧠 Síntesis del debate\nPuntos de acuerdo:  Todos los agentes coinciden en la necesidad de contar con mecanismos de control y auditoría para el uso de los fondos destinados a la educación. Además, existe un consenso sobre la importancia de capacitar a docentes y asegurar el acceso a estudiantes con necesidades educativas especiales.\n\nConflictos ideológicos principales:  Las diferencias ideológicas se presentan entre los agentes que priorizan la libertad educativa y la competencia (Agente Liberal) y aquellos que abogan por un financiamiento estatal significativo y soluciones estructurales frente a la desigualdad (Agente Izquierda, Unión Por La Patria).\n\nDivergencias argumentativas:  El Agente Liberal y el Agente de Juntos Por El Cambio inicialmente cuestionaron el aumento del gasto en un contexto fiscal adverso, mientras que los otros agentes defendieron la inversión como fundamental para asegurar una educación de calidad y equitativa. \n\nResultado de la votación:  4 votos a favor / 0 en contra."
+}
