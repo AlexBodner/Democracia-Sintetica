@@ -1,0 +1,560 @@
+{
+    "preguntas y respuestas deep research": "",
+    "Round 0": {
+        "Agente Liberal": {
+            "argumentacion": "[Agente Liberal]: La 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19' representa una violación clara de los principios del liberalismo y un abuso de poder estatal. Primero, al declarar de interés público el desarrollo y adquisición de vacunas, se está asumiendo que el Estado está mejor capacitado para gestionar la salud pública que las instancias del mercado, además de imponer costos a los contribuyentes. Esta visión paternalista del Estado coarta la libertad individual, privilegia a grupos específicos y desvía recursos que podrían utilizarse de manera más eficiente en el sector privado. Las aprobaciones de emergencia y la indemnidad para los fabricantes crean un ambiente de impunidad que puede comprometer la calidad y seguridad de los productos. La competencia y transparencia son fundamentales para garantizar la innovación y mejora en el acceso a la salud, no la intervención estatal. En resumen, la ley reforzaría un sistema coercitivo y burocrático en lugar de permitir la libertad de elección, limitando la capacidad de los ciudadanos de decidir sobre su propia salud.",
+            "voto": 0
+        },
+        "Agente de Juntos Por El Cambio": {
+            "argumentacion": "[Agente de Juntos Por El Cambio]: La Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 tiene un propósito noble al intentar garantizar el acceso equitativo a las vacunas, lo que es esencial para proteger la salud pública. Sin embargo, es fundamental analizar los aspectos de indemnidad para los fabricantes y la autorización de procedimientos abreviados de emergencia. La indemnización puede desincentivar a las empresas a garantizar la calidad, lo que podría poner en riesgo la salud de los ciudadanos. También es importante mencionar que los procedimientos abreviados, aunque necesarios en situaciones de emergencia, deben ser transparentes y mantener un control riguroso para no comprometer la confianza en el sistema de salud. La producción nacional es vital, pero debe ser acompañada de un marco normativo que asegure la calidad y seguridad de las vacunas. Por lo tanto, si bien la intención detrás de la ley es valiosa, me preocupa el saldo en términos de libertades y responsabilidad. Por ello, voto en contra de la ley en su redacción actual.",
+            "voto": 0
+        },
+        "Agente de Union Por La Patria": {
+            "argumentacion": "[Agente de Union Por La Patria]: Desde la perspectiva de la Unión por la Patria, la 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19' es un paso fundamental para fortalecer la soberanía sanitaria de nuestro país. En el contexto de la pandemia, se ha hecho evidente la necesidad de contar con un sistema de salud robusto y accesible, que garantice a todos los ciudadanos el acceso equitativo a vacunas y tratamientos. Esta ley no solo promueve la investigación y producción nacional de vacunas, sino que también establece un marco que permite a Argentina convertirse en un actor clave en la producción y distribución de vacunas en la región, priorizando la salud del pueblo argentino. Es crucial que garantice las indemnidades para fabricantes y distribuidores, ya que esto puede fomentar la inversión y el desarrollo de soluciones innovadoras en salud. Además, los procedimientos abreviados para la aprobación de vacunas en emergencias son necesarios para responder rápidamente a futuras crisis sanitarias. Por estas razones, esta ley es coherente con nuestra visión de un Estado que se articula para defender los derechos de todos, especialmente en un área tan crítica como la salud pública. Por lo tanto, estamos a favor de esta ley, ya que promueve justicia social, acceso universal a la atención sanitaria y un enfoque proactivo en la protección de la salud de nuestra población.",
+            "voto": 4
+        },
+        "Agente de Izquierda": {
+            "argumentacion": "[Agente de Izquierda]: La 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19' plantea una serie de consideraciones que debemos analizar desde una perspectiva de clase. En primer lugar, el acceso equitativo a las vacunas es fundamental en una situación de crisis sanitaria, y esta ley puede ayudar a garantizar que los sectores más vulnerables de la población tengan acceso a la vacunación, lo que es un paso positivo. Sin embargo, es crucial señalar que la ley incluye aspectos de indemnidad para los fabricantes y distribuidores. Esta medida es problemática, ya que coloca el interés de las grandes empresas por encima de la protección y la salud del pueblo trabajador. Históricamente, hemos visto cómo los intereses capitalistas han priorizado sus beneficios por encima de la vida de los trabajadores y los sectores populares. También se debe considerar que la aprobación de procedimientos abreviados para la autorización de vacunas podría comprometer la salud pública si no se realizan los controles adecuados. Por lo tanto, aunque el objetivo de asegurar el acceso a las vacunas es importante, la forma en que se implementa la ley puede llevar a la privatización de la salud pública y a la libertad de las corporaciones para actuar sin responsables.",
+            "voto": 1
+        }
+    },
+    "Round 1": {
+        "Agente Liberal": {
+            "argumentacion": "[Agente Liberal]: Los argumentos presentados por otros agentes no abordan de manera efectiva las implicancias del intervencionismo estatal que esta ley representa. Aunque el agente de Juntos Por El Cambio reconoce preocupaciones sobre la indemnidad y la calidad, no se propone una solución que evite que el Estado asuma un rol demasiado invasivo en la salud pública. Por otro lado, el agente de Unión por la Patria parece ignorar que estas medidas pueden crear dependencia y desincentivar la innovación en el sector privado, afectando negativamente a las empresas que producen vacunas y tratamientos. Adicionalmente, el argumento del agente de Izquierda sobre el acceso equitativo es válido, pero al igual que los anteriores, no reconoce la necesidad de un mercado competitivo y regulado, que es lo que podría garantizar un acceso real a vacunas de calidad. En vez de asegurar un acceso equitativo a través de la coerción estatal, deberíamos permitir que el sector privado y la competencia fomenten la innovación y la calidad. En cuanto a los aspectos de sostenibilidad y medio ambiente, esta ley no establece criterios claros para el manejo de residuos resultantes de la producción de vacunas, lo que podría tener impactos negativos que no están siendo considerados. Por todas estas razones, mantengo mi posición en contra de la ley.",
+            "voto": 0
+        },
+        "Agente de Juntos Por El Cambio": {
+            "argumentacion": "[Agente de Juntos Por El Cambio]: En esta ronda, he tomado en cuenta el análisis del informe, y en particular, quiero resaltar algunos puntos claves sobre la ley. El informe menciona que la implementación de nuevas leyes puede generar un aumento en la carga financiera para las empresas, afectando su productividad. Esto es crítico porque, si se generan costos excesivos de cumplimiento, se podría desincentivar la inversión en el sector. A su vez, esto podría resultar en un aumento en los precios de las vacunas y, por ende, un acceso menos equitativo, contradiciendo uno de los objetivos centrales de la ley. Además, se menciona que otros países han enfrentado desafíos similares; por ejemplo, las legislaciones de control en otros contextos han manifestado la importancia de una gestión equilibrada. No obstante, en esta ley observo un riesgo de apresuramiento en el proceso de aprobación que podría comprometer la calidad y la confianza en el sistema de salud. Aunque comparto la relevancia del acceso equitativo, pienso que es vital equilibrar esto con la seguridad y la calidad de las vacunas, evitando políticas que, si bien parecen bien intencionadas, puedan resultar contraproducentes. Por lo tanto, a pesar de la buena intención, reitero mi postura de que la ley, en su redacción actual, podría generar efectos negativos y voto en contra.",
+            "voto": 0
+        },
+        "Agente de Union Por La Patria": {
+            "argumentacion": "[Agente de Union Por La Patria]: La Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 es esencial para garantizar el acceso equitativo a las vacunas, especialmente en un contexto de crisis como el que enfrentamos con la pandemia. Como se destaca en el informe, el acceso equitativo a las vacunas sigue siendo un desafío global, y esta legislación aborda ese desafío específicamente para Argentina. La posibilidad de producción nacional y de aprobación ágil de vacunas es una fuerte señal de soberanía sanitaria. La inclusión de aspectos de indemnidad para los fabricantes es un mecanismo que no solo estimulará la producción nacional, sino que también contribuirá a una mayor inversión en el sector salud. En respuesta a los argumentos presentados por otros agentes, considero que la preocupación por la calidad y la seguridad de las vacunas es válida, pero el marco que establece esta Ley otorga una supervisión necesaria para garantizar que dichos estándares sean cumplidos. Además, la comparación con otros países muestra que un enfoque proactivo, como el que implica esta ley, puede traer resultados positivos en este contexto. La ley no solo es un aporte para la salud pública, sino que también fortalece nuestro sistema de salud como activo indispensable en el bienestar de nuestros ciudadanos. Por lo tanto, reafirmo mi postura y por ende, mi voto se mantiene a favor de la ley.",
+            "voto": 4
+        },
+        "Agente de Izquierda": {
+            "argumentacion": "[Agente de Izquierda]: La información del informe respalda aún más nuestra crítica hacia las políticas de indemnidad para fabricantes presentes en la ley. La evidencia demuestra cómo el acceso equitativo a las vacunas sigue siendo un desafío global y que, a pesar de los esfuerzos, muchos países enfrentan dificultades para obtener dosis suficientes. Esto pone de manifiesto que las políticas impulsadas por el gobierno actual, que repiten fórmulas neoliberales, priorizan a las grandes corporaciones por encima de la salud del pueblo. Además, a pesar de que la oferta de vacunas asegure un mejor acceso, no podemos dejar de lado que la calidad y la seguridad están comprometidas si la ley permite procedimientos abreviados de aprobación. Al mencionar directamente que muchos países en desarrollo tienen problemas para garantizar el acceso, se evidencia la falta de voluntad política del Estado argentino para garantizar salud para todos y todas en lugar de negociar con laboratorios extranjeros. También, el análisis sobre el impacto ambiental de la producción de vacunas es una preocupación para nosotros, ya que no puede haber salud sin un entorno sano, y esto debería ser parte de cualquier legislación en este contexto. Por lo tanto, aunque la intención de la ley pueda ser positiva, la realidad muestra su falta de garantías para la clase trabajadora y el riesgo de priorizar intereses privados sobre el bienestar público. Por todo esto, mantengo que no podemos apoyar esta ley tal como está redactada.",
+            "voto": 0
+        }
+    },
+    "Round 3": {
+        "Agente Liberal": {
+            "propuestas": "1. Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas. 2. Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso. 3. Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados."
+        },
+        "Agente de Juntos Por El Cambio": {
+            "propuestas": "1. Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas desarrolladas y adquiridas bajo esta ley, garantizando que se cumplan estándares internacionales y se mantenga la confianza pública. 2. Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución, asegurando que no haya un aumento en el precio de las vacunas que afecte el acceso equitativo, y que se informe públicamente sobre estos datos. 3. Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas que exijan transparencia y rendición de cuentas sobre el uso de dicha indemnidad, evitando que se convierta en un escudo para ocultar responsabilidades en caso de mal funcionamiento o daños.4. Incluir un exhaustivo análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas, regulando estrictamente las prácticas para minimizar su impacto. Estas propuestas tienen como objetivo asegurar no solo acceso equitativo, sino también calidad, transparencia y respeto por el medio ambiente."
+        },
+        "Agente de Union Por La Patria": {
+            "propuestas": "1. Control riguroso sobre las indemnidades a fabricantes y distribuidores, condicionado a la calidad y efectividad de las vacunas. 2. Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas. 3. Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables. 4. Incorporación de estándares ambientales en la producción de vacunas para asegurar prácticas sostenibles y adecuada gestión de desechos."
+        },
+        "Agente de Izquierda": {
+            "propuestas": "1. Establecer un artículo que declare la creación de un Comité de Control Ciudadano para la Evaluación de Vacunas, compuesto por representantes de organizaciones de salud, trabajadores de la salud y movimientos sociales, que supervise el proceso de producción y aprobación de vacunas. 2. Suprimir los aspectos de indemnidad para fabricantes. En su lugar, se debe implementar un seguro estatal que cubra posibles daños, garantizando así responsabilidad. 3. Incluir criterios de sostenibilidad ambiental en la producción de vacunas, estableciendo estándares claros para la gestión de residuos y el uso de materiales biodegradables. 4. Reforzar las cláusulas que aseguran que la producción y distribución de vacunas sea completamente pública, con financiamiento estatal y sin participación de empresas privadas en la obtención de beneficios. 5. Garantizar que la ley incluya la provisión de formación y educación para la población sobre la importancia de la vacunación, para combatir la desinformación y aumentar la confianza en el sistema de salud."
+        }
+    },
+    "Round 4": {
+        "Agente Liberal": {
+            "Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas.": false,
+            "Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso.": true,
+            "Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados.": true,
+            "Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas.": true,
+            "Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas.": true,
+            "Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas de transparencia.": false,
+            "Incluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas.": false,
+            "Control riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas.": false,
+            "Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas.": true,
+            "Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables.": false,
+            "Incorporación de estándares ambientales en la producción de vacunas.": false,
+            "Establecer un Comité de Control Ciudadano para la Evaluación de Vacunas.": false,
+            "Suprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal.": false,
+            "Incluir criterios de sostenibilidad ambiental en la producción de vacunas.": true,
+            "Reforzar las cláusulas que aseguran la producción y distribución de vacunas sea completamente pública.": false,
+            "Garantizar formación y educación para la población sobre la importancia de la vacunación.": false
+        },
+        "Agente de Juntos Por El Cambio": {
+            "Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas.": true,
+            "Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso.": true,
+            "Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados.": true,
+            "Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas.": true,
+            "Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas.": true,
+            "Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas de transparencia.": true,
+            "Incluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas.": true,
+            "Control riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas.": true,
+            "Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas.": true,
+            "Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables.": true,
+            "Incorporación de estándares ambientales en la producción de vacunas.": true,
+            "Establecer un Comité de Control Ciudadano para la Evaluación de Vacunas.": true,
+            "Suprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal.": true,
+            "Incluir criterios de sostenibilidad ambiental en la producción de vacunas.": true,
+            "Reforzar las cláusulas que aseguran la producción y distribución de vacunas sea completamente pública.": false,
+            "Garantizar formación y educación para la población sobre la importancia de la vacunación.": true
+        },
+        "Agente de Union Por La Patria": {
+            "Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas.": true,
+            "Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso.": false,
+            "Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados.": false,
+            "Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas.": true,
+            "Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas.": true,
+            "Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas de transparencia.": true,
+            "Incluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas.": true,
+            "Control riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas.": true,
+            "Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas.": true,
+            "Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables.": true,
+            "Incorporación de estándares ambientales en la producción de vacunas.": true,
+            "Establecer un Comité de Control Ciudadano para la Evaluación de Vacunas.": true,
+            "Suprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal.": true,
+            "Incluir criterios de sostenibilidad ambiental en la producción de vacunas.": true,
+            "Reforzar las cláusulas que aseguran la producción y distribución de vacunas sea completamente pública.": true,
+            "Garantizar formación y educación para la población sobre la importancia de la vacunación.": true
+        },
+        "Agente de Izquierda": {
+            "Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas.": true,
+            "Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso.": true,
+            "Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados.": false,
+            "Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas.": true,
+            "Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas.": true,
+            "Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas de transparencia.": false,
+            "Incluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas.": true,
+            "Control riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas.": true,
+            "Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas.": true,
+            "Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables.": true,
+            "Incorporación de estándares ambientales en la producción de vacunas.": true,
+            "Establecer un Comité de Control Ciudadano para la Evaluación de Vacunas.": true,
+            "Suprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal.": true,
+            "Incluir criterios de sostenibilidad ambiental en la producción de vacunas.": true,
+            "Reforzar las cláusulas que aseguran la producción y distribución de vacunas sea completamente pública.": true,
+            "Garantizar formación y educación para la población sobre la importancia de la vacunación.": true
+        }
+    },
+    "Round 5": {
+        "Agente Liberal": {
+            "argumentacion": "[Agente Liberal]: La ley original, aunque con intenciones positivas, contenía aspectos de intervención estatal que limitaban la libertad individual y la competencia en el mercado de vacunas. Sin embargo, después de las modificaciones propuestas, la nueva ley incluye múltiples salvaguardias que priorizan la calidad, la efectividad y la sostenibilidad en la producción de vacunas. Al eliminar los procedimientos abreviados, se asegura un riguroso proceso de aprobación, lo que ayuda a construir confianza en el sistema. La creación de comités de control y el establecimiento de un consejo asesor permitirá una mayor transparencia y supervisión en la materia, lo cual es fundamental para evitar cualquier forma de abuso por parte de las empresas. Algunos puntos, como la suposición de indemnidad para los fabricantes y la determinación de un seguro estatal, son preocupantes, pero en su conjunto, las modificaciones pueden ayudar a equilibrar los intereses del Estado y del mercado. En este nuevo contexto, veo que los principios de libertad y responsabilidad se han fortalecido en la ley. Por ende, voto a favor de la ley con las modificaciones propuestas.",
+            "voto": 4
+        },
+        "Agente de Juntos Por El Cambio": {
+            "argumentacion": "[Agente de Juntos Por El Cambio]: Con las modificaciones propuestas, considero que la Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 regresa a un marco adecuado que prioriza no solo el acceso equitativo a las vacunas, sino también la calidad, la supervisión y la sostenibilidad. Estas modificaciones incorporan criterios de control riguroso y establecen mecanismos de transparencia y rendición de cuentas que son claves para garantizar la confianza pública. Al eliminar los procedimientos abreviados, se protege la evaluación rigurosa que debe caracterizar a cualquier producto de salud. Además, la creación de un comité de control ciudadano y un consejo asesor con participación de expertos contribuye a construir un sistema más robusto y participativo, alineado con nuestros principios republicanos.",
+            "voto": 4
+        },
+        "Agente de Union Por La Patria": {
+            "argumentacion": "[Agente de Union Por La Patria]: Con las modificaciones propuestas, la Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 se convierte en un marco legal robusto que asegura el acceso equitativo a las vacunas, al tiempo que garantiza la calidad, seguridad y sostenibilidad de los procesos de producción. La inclusión de un Comité de Control Independiente y un consejo asesor con participación de expertos y ONG es un paso importante hacia la transparencia y la rendición de cuentas, elementos cruciales en la gestión de la salud pública. Además, las cláusulas que especifican la necesidad de criterios de calidad y seguridad obligatorios fortalecen nuestra soberanía sanitaria. Este conjunto de modificaciones, que resultan de un amplio consenso, también asegura que los recursos generados por las farmacéuticas beneficien a las comunidades más vulnerables, combatiendo así las desigualdades existentes. Por lo tanto, aplaudo las modificaciones incorporadas y voto a favor de la ley.",
+            "voto": 4
+        },
+        "Agente de Izquierda": {
+            "argumentacion": "[Agente de Izquierda]: A pesar de que la Ley original contenía aspectos problemáticos, las modificaciones incorporadas representan un avance significativo en términos de control, transparencia y responsabilidad. La inclusión de criterios de calidad y seguridad, la eliminación de procedimientos abreviados, y la creación de un Comité de Control Ciudadano son componentes fundamentales que afectan directamente el acceso seguro a las vacunas y la defensa de la salud pública. Además, el control riguroso sobre las indemnidades y la creación de un consejo asesor con participación de ONG son medidas que garantizan la participación de la ciudadanía y de especialistas en el proceso. Estas modificaciones, junto a la atención a la sostenibilidad ambiental, reflejan una postura que estamos promoviendo desde el FIT-U y son pasos fundamentales hacia la construcción de un sistema de salud que priorice la vida del pueblo trabajador frente a los intereses de las corporaciones. Por lo tanto, dado que los cambios realizados a la ley original representan una mejora sustancial desde nuestra posición ideológica, vengo a votar a favor de la ley en esta versión modificada.",
+            "voto": 4
+        }
+    },
+    "Debate Completo": [
+        {
+            "role": "user",
+            "content": "Este es un debate simulado entre agentes políticos argentinos sobre la ley Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19. Declaró de interés público la investigación, desarrollo, fabricación y adquisición de las vacunas contra el Covid-19. La ley buscaba asegurar el acceso equitativo a las vacunas, estableciendo un marco legal para su producción nacional y la importación, incluyendo aspectos de indemnidad para los fabricantes y distribuidores, y la autorización de procedimientos abreviados de emergencia para su aprobación..\n                                    El debate constará de tres rondas:\n                                    1. **Primera ronda**: Cada agente expresará su postura inicial, presentando argumentos a favor o en contra de la ley.\n                                    2. **Segunda ronda**: Los agentes recibirán un informe con datos (provenientes de búsquedas en Google) y los argumentos expuestos por el resto de los agentes. Con esta información, podrán formular contraargumentos o reforzar su postura inicial.\n                                    3. **Tercera ronda**: Los agentes recibirán tanto los argumentos iniciales como los contraargumentos de las rondas previas. En base a ello, deberán realizar una argumentación final y emitir una conclusión definitiva.\n                                    En cada ronda, al finalizar su exposición, cada agente deberá explicitar su voto (a favor o en contra de la ley). El voto puede modificarse de ronda a ronda, pero el voto que determina la aprobación o rechazo de la ley será el emitido en la última ronda."
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 0"
+        },
+        {
+            "role": "user",
+            "content": "En esta primera ronda, cada agente debe exponer su postura inicial respecto a la ley 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19. Declaró de interés público la investigación, desarrollo, fabricación y adquisición de las vacunas contra el Covid-19. La ley buscaba asegurar el acceso equitativo a las vacunas, estableciendo un marco legal para su producción nacional y la importación, incluyendo aspectos de indemnidad para los fabricantes y distribuidores, y la autorización de procedimientos abreviados de emergencia para su aprobación.'. La respuesta debe dejar en claro si el agente está a favor o en contra de la ley, con una argumentación sólida, clara y fundamentada en su marco ideológico. Se espera que la intervención incluya al menos una referencia específica al contenido o impacto potencial de la ley. Dado que esta ronda establece las bases del debate, es fundamental que cada agente exprese con precisión sus valores, principios y preocupaciones centrales en relación con la ley, en distintos ejes. Al finalizar su intervención, el agente debe explicitar su voto actual (a favor o en contra de la ley)."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente Liberal"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal]: La 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19' representa una violación clara de los principios del liberalismo y un abuso de poder estatal. Primero, al declarar de interés público el desarrollo y adquisición de vacunas, se está asumiendo que el Estado está mejor capacitado para gestionar la salud pública que las instancias del mercado, además de imponer costos a los contribuyentes. Esta visión paternalista del Estado coarta la libertad individual, privilegia a grupos específicos y desvía recursos que podrían utilizarse de manera más eficiente en el sector privado. Las aprobaciones de emergencia y la indemnidad para los fabricantes crean un ambiente de impunidad que puede comprometer la calidad y seguridad de los productos. La competencia y transparencia son fundamentales para garantizar la innovación y mejora en el acceso a la salud, no la intervención estatal. En resumen, la ley reforzaría un sistema coercitivo y burocrático en lugar de permitir la libertad de elección, limitando la capacidad de los ciudadanos de decidir sobre su propia salud."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Juntos Por El Cambio"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio]: La Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 tiene un propósito noble al intentar garantizar el acceso equitativo a las vacunas, lo que es esencial para proteger la salud pública. Sin embargo, es fundamental analizar los aspectos de indemnidad para los fabricantes y la autorización de procedimientos abreviados de emergencia. La indemnización puede desincentivar a las empresas a garantizar la calidad, lo que podría poner en riesgo la salud de los ciudadanos. También es importante mencionar que los procedimientos abreviados, aunque necesarios en situaciones de emergencia, deben ser transparentes y mantener un control riguroso para no comprometer la confianza en el sistema de salud. La producción nacional es vital, pero debe ser acompañada de un marco normativo que asegure la calidad y seguridad de las vacunas. Por lo tanto, si bien la intención detrás de la ley es valiosa, me preocupa el saldo en términos de libertades y responsabilidad. Por ello, voto en contra de la ley en su redacción actual."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Union Por La Patria"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria]: Desde la perspectiva de la Unión por la Patria, la 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19' es un paso fundamental para fortalecer la soberanía sanitaria de nuestro país. En el contexto de la pandemia, se ha hecho evidente la necesidad de contar con un sistema de salud robusto y accesible, que garantice a todos los ciudadanos el acceso equitativo a vacunas y tratamientos. Esta ley no solo promueve la investigación y producción nacional de vacunas, sino que también establece un marco que permite a Argentina convertirse en un actor clave en la producción y distribución de vacunas en la región, priorizando la salud del pueblo argentino. Es crucial que garantice las indemnidades para fabricantes y distribuidores, ya que esto puede fomentar la inversión y el desarrollo de soluciones innovadoras en salud. Además, los procedimientos abreviados para la aprobación de vacunas en emergencias son necesarios para responder rápidamente a futuras crisis sanitarias. Por estas razones, esta ley es coherente con nuestra visión de un Estado que se articula para defender los derechos de todos, especialmente en un área tan crítica como la salud pública. Por lo tanto, estamos a favor de esta ley, ya que promueve justicia social, acceso universal a la atención sanitaria y un enfoque proactivo en la protección de la salud de nuestra población."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Izquierda"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda]: La 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19' plantea una serie de consideraciones que debemos analizar desde una perspectiva de clase. En primer lugar, el acceso equitativo a las vacunas es fundamental en una situación de crisis sanitaria, y esta ley puede ayudar a garantizar que los sectores más vulnerables de la población tengan acceso a la vacunación, lo que es un paso positivo. Sin embargo, es crucial señalar que la ley incluye aspectos de indemnidad para los fabricantes y distribuidores. Esta medida es problemática, ya que coloca el interés de las grandes empresas por encima de la protección y la salud del pueblo trabajador. Históricamente, hemos visto cómo los intereses capitalistas han priorizado sus beneficios por encima de la vida de los trabajadores y los sectores populares. También se debe considerar que la aprobación de procedimientos abreviados para la autorización de vacunas podría comprometer la salud pública si no se realizan los controles adecuados. Por lo tanto, aunque el objetivo de asegurar el acceso a las vacunas es importante, la forma en que se implementa la ley puede llevar a la privatización de la salud pública y a la libertad de las corporaciones para actuar sin responsables."
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 1"
+        },
+        {
+            "role": "user",
+            "content": "En esta segunda ronda, cada agente dispone de un informe con datos, estadísticas y análisis relevantes recopilados por un investigador especializado: \n\nSe espera que incorporen datos y cifras concretas del informe provisto para respaldar su posición, citando ejemplos o estadísticas relevantes (y aclarar que fue sacado del informe) # Introducción\n\nLa Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 en Argentina representa un hito significativo en la respuesta del país a la pandemia. Esta legislación no solo busca facilitar el acceso a las vacunas, sino que también aborda aspectos económicos, sociales, legales y ambientales que son cruciales para garantizar una implementación efectiva y equitativa. A través de un análisis exhaustivo de los impactos económicos, la percepción pública, los marcos legales y las consideraciones ambientales, esta investigación proporciona una visión integral de la ley y su efectividad. Además, se incluye una comparativa internacional que permite extraer lecciones de otros países que han enfrentado desafíos similares, contribuyendo así a un entendimiento más profundo de las implicaciones de esta legislación en el contexto argentino.\n\n## Aspectos Económicos de la Ley: Impactos en Costos y Financiación\n\nLa implementación de nuevas leyes puede tener efectos económicos significativos, tanto directos como indirectos. En términos de costos, la regulación puede generar un aumento en la carga financiera para las empresas, afectando su productividad y capacidad de inversión. Por ejemplo, los costos de cumplimiento pueden ser elevados, lo que puede llevar a un aumento en los precios de los productos y servicios. Además, las modificaciones en la legislación fiscal pueden impactar la viabilidad de proyectos de inversión, afectando la financiación disponible para las empresas. Por otro lado, un entorno regulatorio favorable puede facilitar el acceso a financiamiento, promoviendo el crecimiento económico. Por lo tanto, es crucial realizar un análisis exhaustivo de los costos y beneficios que derivan de cualquier legislación para entender su impacto en la economía.\n\n### Sources\n- https://www.economist.com\n- https://www.forbes.com\n- https://www.brookings.edu\n- https://www.imf.org\n\n## Aspectos Sociales: Percepción Pública y Acceso Equitativo a las Vacunas\n\nLa percepción pública sobre las vacunas ha cambiado significativamente durante la pandemia de COVID-19. Inicialmente, la mayoría de la población mostró una actitud positiva hacia la vacunación, con una gran parte de la población reportando haber recibido al menos dos dosis. Sin embargo, factores como la saturación de información y la desconfianza han generado reacciones negativas, afectando la disposición a vacunarse. Por otro lado, el acceso equitativo a las vacunas sigue siendo un desafío global. A pesar de los esfuerzos de la Organización Mundial de la Salud (OMS) para garantizar que al menos el 70% de la población mundial esté vacunada, muchos países en desarrollo enfrentan dificultades para obtener suficientes dosis. Esto ha exacerbado las desigualdades existentes, poniendo de relieve la necesidad de abordar los determinantes sociales que afectan la distribución y el acceso a las vacunas.\n\n### Sources\n- https://www.who.int/es/news-room/feature-stories/detail/vaccine-equity\n- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8492344/\n- https://www.bbc.com/mundo/noticias-59094481\n- https://www.un.org/es/coronavirus/faq/vaccines\n\n## Aspectos Legales: Análisis de la Legislación y Procesos de Aprobación\n\nLos aspectos legales son fundamentales en la gestión de proyectos, ya que garantizan que todas las actividades se realicen dentro del marco normativo vigente. Este análisis incluye la revisión de la legislación aplicable, la identificación de permisos necesarios y el cumplimiento de normativas específicas. El proceso de aprobación de un proyecto generalmente comienza con la presentación de un proyecto de ley o decreto, que luego es discutido y votado en las asambleas legislativas. Durante esta etapa, se pueden realizar modificaciones al proyecto original. Además, es esencial contar con un equipo legal que asegure que el proyecto cumpla con todos los requisitos legales, previniendo así posibles controversias futuras. La gestión adecuada de estos aspectos no solo facilita la aprobación, sino que también protege los derechos de las partes involucradas.\n\n### Sources\n- [Aspectos Legales en la Gestión de Proyectos](https://www.ejemplo1.com)\n- [Proceso de Aprobación de Proyectos en el Congreso](https://www.ejemplo2.com)\n- [Legislación y Normativas para Proyectos](https://www.ejemplo3.com)\n- [Importancia de los Aspectos Legales en Proyectos](https://www.ejemplo4.com)\n\n## Aspectos Ambientales: Producción de Vacunas y Manejo de Desechos\n\nLa producción de vacunas y su manejo de desechos tienen un impacto ambiental significativo. Durante el proceso de vacunación, se generan diversos tipos de residuos, incluidos plásticos de jeringas y frascos, que pueden contribuir a la contaminación. La gestión inadecuada de estos desechos, especialmente los biohazardous, puede resultar en la liberación de materiales peligrosos al medio ambiente, afectando los ecosistemas locales. Para mitigar estos efectos, se están explorando prácticas sostenibles, como el uso de materiales biodegradables y la implementación de tecnologías verdes en la producción. Además, la optimización de la gestión de residuos, que incluye la segregación y el reciclaje, es crucial para reducir la huella ambiental de las campañas de vacunación. Las iniciativas que promueven la sostenibilidad en la fabricación de vacunas son esenciales para equilibrar la salud pública y la protección del medio ambiente.\n\n### Sources\n- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8465560/\n- https://www.sciencedirect.com/science/article/pii/S0959652621000206\n- https://www.who.int/publications/i/item/9789240062261\n- https://www.frontiersin.org/articles/10.3389/fpubh.2021.00001/full\n\n## Comparativa Internacional: Lecciones de Otros Países sobre Legislaciones Similares\n\nLa comparación internacional de legislaciones similares ofrece valiosas lecciones sobre la efectividad y los desafíos de diferentes enfoques legales. Por ejemplo, el análisis de la legislación de control de tabaco en Australia y el Reino Unido ha demostrado que las políticas de empaquetado neutro pueden reducir el consumo entre los jóvenes. En el ámbito de la protección ambiental, los marcos legislativos de Alemania y Nueva Zelanda han sido elogiados por su enfoque inclusivo y participativo, lo que ha mejorado la implementación de leyes climáticas. Además, las reformas en Brasil y Europa han mostrado que la adaptación de leyes a contextos locales es crucial para su éxito. Estas experiencias resaltan la importancia de considerar el contexto cultural y social al implementar nuevas legislaciones.\n\n### Sources\n- https://www.comparativelaw.org\n- https://www.internationallegislation.com\n- https://www.globalpolicyjournal.com\n- https://www.lawanddevelopment.net\n\n## Conclusión\n\nLa Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 en Argentina ha demostrado ser un instrumento clave en la lucha contra la pandemia, facilitando el acceso a las vacunas y promoviendo la producción local. A través del análisis de sus aspectos económicos, sociales, legales y ambientales, se ha evidenciado tanto su potencial para mejorar la salud pública como los desafíos que enfrenta en términos de percepción pública y calidad de las vacunas. La comparación con experiencias internacionales resalta la importancia de un enfoque equilibrado que contemple no solo la rapidez en la adquisición de vacunas, sino también la seguridad y la equidad en su distribución. En resumen, esta legislación representa una oportunidad para fortalecer el sistema de salud argentino, pero requiere un monitoreo constante y ajustes para maximizar sus beneficios y minimizar sus riesgos.\n\nEn esta ronda, cada agente tiene acceso a los argumentos expresados por todos los agentes en todo el debate hasta el momento, incluido el propio. La tarea consiste en analizar críticamente estos argumentos, respondiendo, reforzando o modificando su postura según corresponda. Cada agente puede señalar inconsistencias, falacias, omisiones o debilidades en los planteos de otros agentes, así como destacar puntos de coincidencia. Es importante que los agentes identifiquen explícitamente a qué argumentos o agentes están respondiendo, y que los contraargumentos sean coherentes con su orientación ideológica. Si algún agente decide modificar su postura o voto, debe justificar claramente los motivos de ese cambio. Al finalizar, el agente debe indicar si mantiene o modifica su voto (a favor o en contra de la ley)."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente Liberal"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal]: Los argumentos presentados por otros agentes no abordan de manera efectiva las implicancias del intervencionismo estatal que esta ley representa. Aunque el agente de Juntos Por El Cambio reconoce preocupaciones sobre la indemnidad y la calidad, no se propone una solución que evite que el Estado asuma un rol demasiado invasivo en la salud pública. Por otro lado, el agente de Unión por la Patria parece ignorar que estas medidas pueden crear dependencia y desincentivar la innovación en el sector privado, afectando negativamente a las empresas que producen vacunas y tratamientos. Adicionalmente, el argumento del agente de Izquierda sobre el acceso equitativo es válido, pero al igual que los anteriores, no reconoce la necesidad de un mercado competitivo y regulado, que es lo que podría garantizar un acceso real a vacunas de calidad. En vez de asegurar un acceso equitativo a través de la coerción estatal, deberíamos permitir que el sector privado y la competencia fomenten la innovación y la calidad. En cuanto a los aspectos de sostenibilidad y medio ambiente, esta ley no establece criterios claros para el manejo de residuos resultantes de la producción de vacunas, lo que podría tener impactos negativos que no están siendo considerados. Por todas estas razones, mantengo mi posición en contra de la ley."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Juntos Por El Cambio"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio]: En esta ronda, he tomado en cuenta el análisis del informe, y en particular, quiero resaltar algunos puntos claves sobre la ley. El informe menciona que la implementación de nuevas leyes puede generar un aumento en la carga financiera para las empresas, afectando su productividad. Esto es crítico porque, si se generan costos excesivos de cumplimiento, se podría desincentivar la inversión en el sector. A su vez, esto podría resultar en un aumento en los precios de las vacunas y, por ende, un acceso menos equitativo, contradiciendo uno de los objetivos centrales de la ley. Además, se menciona que otros países han enfrentado desafíos similares; por ejemplo, las legislaciones de control en otros contextos han manifestado la importancia de una gestión equilibrada. No obstante, en esta ley observo un riesgo de apresuramiento en el proceso de aprobación que podría comprometer la calidad y la confianza en el sistema de salud. Aunque comparto la relevancia del acceso equitativo, pienso que es vital equilibrar esto con la seguridad y la calidad de las vacunas, evitando políticas que, si bien parecen bien intencionadas, puedan resultar contraproducentes. Por lo tanto, a pesar de la buena intención, reitero mi postura de que la ley, en su redacción actual, podría generar efectos negativos y voto en contra."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Union Por La Patria"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria]: La Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 es esencial para garantizar el acceso equitativo a las vacunas, especialmente en un contexto de crisis como el que enfrentamos con la pandemia. Como se destaca en el informe, el acceso equitativo a las vacunas sigue siendo un desafío global, y esta legislación aborda ese desafío específicamente para Argentina. La posibilidad de producción nacional y de aprobación ágil de vacunas es una fuerte señal de soberanía sanitaria. La inclusión de aspectos de indemnidad para los fabricantes es un mecanismo que no solo estimulará la producción nacional, sino que también contribuirá a una mayor inversión en el sector salud. En respuesta a los argumentos presentados por otros agentes, considero que la preocupación por la calidad y la seguridad de las vacunas es válida, pero el marco que establece esta Ley otorga una supervisión necesaria para garantizar que dichos estándares sean cumplidos. Además, la comparación con otros países muestra que un enfoque proactivo, como el que implica esta ley, puede traer resultados positivos en este contexto. La ley no solo es un aporte para la salud pública, sino que también fortalece nuestro sistema de salud como activo indispensable en el bienestar de nuestros ciudadanos. Por lo tanto, reafirmo mi postura y por ende, mi voto se mantiene a favor de la ley."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Izquierda"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda]: La información del informe respalda aún más nuestra crítica hacia las políticas de indemnidad para fabricantes presentes en la ley. La evidencia demuestra cómo el acceso equitativo a las vacunas sigue siendo un desafío global y que, a pesar de los esfuerzos, muchos países enfrentan dificultades para obtener dosis suficientes. Esto pone de manifiesto que las políticas impulsadas por el gobierno actual, que repiten fórmulas neoliberales, priorizan a las grandes corporaciones por encima de la salud del pueblo. Además, a pesar de que la oferta de vacunas asegure un mejor acceso, no podemos dejar de lado que la calidad y la seguridad están comprometidas si la ley permite procedimientos abreviados de aprobación. Al mencionar directamente que muchos países en desarrollo tienen problemas para garantizar el acceso, se evidencia la falta de voluntad política del Estado argentino para garantizar salud para todos y todas en lugar de negociar con laboratorios extranjeros. También, el análisis sobre el impacto ambiental de la producción de vacunas es una preocupación para nosotros, ya que no puede haber salud sin un entorno sano, y esto debería ser parte de cualquier legislación en este contexto. Por lo tanto, aunque la intención de la ley pueda ser positiva, la realidad muestra su falta de garantías para la clase trabajadora y el riesgo de priorizar intereses privados sobre el bienestar público. Por todo esto, mantengo que no podemos apoyar esta ley tal como está redactada."
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 3"
+        },
+        {
+            "role": "user",
+            "content": "En esta ronda, los agentes tienen la oportunidad de formular propuestas concretas de modificación, mejora o reglamentación adicional respecto a la ley 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19. Declaró de interés público la investigación, desarrollo, fabricación y adquisición de las vacunas contra el Covid-19. La ley buscaba asegurar el acceso equitativo a las vacunas, estableciendo un marco legal para su producción nacional y la importación, incluyendo aspectos de indemnidad para los fabricantes y distribuidores, y la autorización de procedimientos abreviados de emergencia para su aprobación.'. Estas propuestas deben surgir tanto de su análisis ideológico como de los argumentos debatidos en rondas anteriores y de los datos provistos por el informe. Cada agente podrá sugerir artículos nuevos, cambios puntuales en el texto legal, mecanismos de implementación, o salvaguardas para atender preocupaciones propias o ajenas. Es importante que las propuestas sean viables, estén bien fundamentadas y respondan a principios políticos coherentes con la identidad del agente. Asimismo, pueden indicar si están dispuestos a votar afirmativamente la ley solo si se incorporan ciertas modificaciones clave. Al finalizar, el agente debe indicar si condiciona su voto a la aceptación de alguna propuesta, o si su posición respecto a la ley permanece firme."
+        },
+        {
+            "role": "assistant",
+            "content": "Propuestas: 1. Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas. 2. Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso. 3. Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados."
+        },
+        {
+            "role": "assistant",
+            "content": "Propuestas: 1. Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas desarrolladas y adquiridas bajo esta ley, garantizando que se cumplan estándares internacionales y se mantenga la confianza pública. 2. Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución, asegurando que no haya un aumento en el precio de las vacunas que afecte el acceso equitativo, y que se informe públicamente sobre estos datos. 3. Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas que exijan transparencia y rendición de cuentas sobre el uso de dicha indemnidad, evitando que se convierta en un escudo para ocultar responsabilidades en caso de mal funcionamiento o daños.4. Incluir un exhaustivo análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas, regulando estrictamente las prácticas para minimizar su impacto. Estas propuestas tienen como objetivo asegurar no solo acceso equitativo, sino también calidad, transparencia y respeto por el medio ambiente."
+        },
+        {
+            "role": "assistant",
+            "content": "Propuestas: 1. Control riguroso sobre las indemnidades a fabricantes y distribuidores, condicionado a la calidad y efectividad de las vacunas. 2. Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas. 3. Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables. 4. Incorporación de estándares ambientales en la producción de vacunas para asegurar prácticas sostenibles y adecuada gestión de desechos."
+        },
+        {
+            "role": "assistant",
+            "content": "Propuestas: 1. Establecer un artículo que declare la creación de un Comité de Control Ciudadano para la Evaluación de Vacunas, compuesto por representantes de organizaciones de salud, trabajadores de la salud y movimientos sociales, que supervise el proceso de producción y aprobación de vacunas. 2. Suprimir los aspectos de indemnidad para fabricantes. En su lugar, se debe implementar un seguro estatal que cubra posibles daños, garantizando así responsabilidad. 3. Incluir criterios de sostenibilidad ambiental en la producción de vacunas, estableciendo estándares claros para la gestión de residuos y el uso de materiales biodegradables. 4. Reforzar las cláusulas que aseguran que la producción y distribución de vacunas sea completamente pública, con financiamiento estatal y sin participación de empresas privadas en la obtención de beneficios. 5. Garantizar que la ley incluya la provisión de formación y educación para la población sobre la importancia de la vacunación, para combatir la desinformación y aumentar la confianza en el sistema de salud."
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 4"
+        },
+        {
+            "role": "user",
+            "content": "En esta ronda, cada agente debe evaluar las propuestas realizadas por los demás participantes. Deben indicar con claridad cuáles propuestas apoyan, cuáles rechazan, y por qué. Se espera que el análisis sea ideológicamente consistente, considerando tanto la viabilidad política como la coherencia con los principios del agente. Los agentes pueden modificar su voto final sobre la ley si consideran que las propuestas aceptadas alteran sustancialmente su contenido original. Al cerrar su intervención, cada agente debe declarar su voto definitivo (a favor o en contra de la ley 'Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19. Declaró de interés público la investigación, desarrollo, fabricación y adquisición de las vacunas contra el Covid-19. La ley buscaba asegurar el acceso equitativo a las vacunas, estableciendo un marco legal para su producción nacional y la importación, incluyendo aspectos de indemnidad para los fabricantes y distribuidores, y la autorización de procedimientos abreviados de emergencia para su aprobación.'), teniendo en cuenta tanto el texto original como las modificaciones aceptadas o descartadas. Este voto final debe estar sólidamente justificado desde una perspectiva política, ética e institucional."
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Incluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto False para la propuesta Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Eliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto False para la propuesta Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto False para la propuesta Establecer mecanismos que promuevan la competencia en el mercado de vacunas, permitiendo la participación de actores privados. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Incorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Proponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas de transparencia. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas de transparencia. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas de transparencia. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto False para la propuesta Modificar el artículo relacionado con la indemnidad de los fabricantes para incluir cláusulas de transparencia. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Incluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Incluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Control riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Control riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Control riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Control riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Creación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Destinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Incorporación de estándares ambientales en la producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incorporación de estándares ambientales en la producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incorporación de estándares ambientales en la producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Incorporación de estándares ambientales en la producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Establecer un Comité de Control Ciudadano para la Evaluación de Vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer un Comité de Control Ciudadano para la Evaluación de Vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Establecer un Comité de Control Ciudadano para la Evaluación de Vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Establecer un Comité de Control Ciudadano para la Evaluación de Vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Suprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Suprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Suprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Suprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto True para la propuesta Incluir criterios de sostenibilidad ambiental en la producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incluir criterios de sostenibilidad ambiental en la producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incluir criterios de sostenibilidad ambiental en la producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Incluir criterios de sostenibilidad ambiental en la producción de vacunas. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Reforzar las cláusulas que aseguran la producción y distribución de vacunas sea completamente pública. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto False para la propuesta Reforzar las cláusulas que aseguran la producción y distribución de vacunas sea completamente pública. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Reforzar las cláusulas que aseguran la producción y distribución de vacunas sea completamente pública. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Reforzar las cláusulas que aseguran la producción y distribución de vacunas sea completamente pública. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal] voto False para la propuesta Garantizar formación y educación para la población sobre la importancia de la vacunación. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Garantizar formación y educación para la población sobre la importancia de la vacunación. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria] voto True para la propuesta Garantizar formación y educación para la población sobre la importancia de la vacunación. \n"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda] voto True para la propuesta Garantizar formación y educación para la población sobre la importancia de la vacunación. \n"
+        },
+        {
+            "role": "user",
+            "content": "Ahora arranca la ronda 5"
+        },
+        {
+            "role": "user",
+            "content": "En esta última ronda, tenes que votar a favor o en contra de la ley Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19. Declaró de interés público la investigación, desarrollo, fabricación y adquisición de las vacunas contra el Covid-19. La ley buscaba asegurar el acceso equitativo a las vacunas, estableciendo un marco legal para su producción nacional y la importación, incluyendo aspectos de indemnidad para los fabricantes y distribuidores, y la autorización de procedimientos abreviados de emergencia para su aprobación. con las siguientes modificaciones: \nIncluir criterios de calidad y seguridad obligatorios que los fabricantes deben cumplir para la investigación y producción de vacunas.\nEliminar los procedimientos abreviados para garantizar un proceso de aprobación riguroso.\nIncorporar un artículo que establezca un comité de control independiente para supervisar la calidad de las vacunas.\nProponer mecanismos de evaluación anuales que analicen los costos de producción y distribución de vacunas.\nIncluir un análisis de impacto ambiental sobre los procesos de producción y disposición de residuos relacionados con las vacunas.\nControl riguroso sobre las indemnidades a fabricantes, condicionado a la calidad y efectividad de las vacunas.\nCreación de un consejo asesor con participación de expertos y ONG para evaluar la seguridad de las vacunas.\nDestinar un porcentaje de las ganancias de las empresas farmacéuticas a programas de salud pública en comunidades vulnerables.\nIncorporación de estándares ambientales en la producción de vacunas.\nEstablecer un Comité de Control Ciudadano para la Evaluación de Vacunas.\nSuprimir los aspectos de indemnidad para fabricantes e implementar un seguro estatal.\nIncluir criterios de sostenibilidad ambiental en la producción de vacunas.\nGarantizar formación y educación para la población sobre la importancia de la vacunación.\n. Estas propuestas seran agregadas a la ley ya que la mayoria voto a  favor de incorporarlas a la ley original. Tu tarea ahora es votar a favor o en contra de esta nueva ley. Recorda mantenerte dentro de tu ideoloia politica y justificar tu veredicto final"
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente Liberal"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal]: La ley original, aunque con intenciones positivas, contenía aspectos de intervención estatal que limitaban la libertad individual y la competencia en el mercado de vacunas. Sin embargo, después de las modificaciones propuestas, la nueva ley incluye múltiples salvaguardias que priorizan la calidad, la efectividad y la sostenibilidad en la producción de vacunas. Al eliminar los procedimientos abreviados, se asegura un riguroso proceso de aprobación, lo que ayuda a construir confianza en el sistema. La creación de comités de control y el establecimiento de un consejo asesor permitirá una mayor transparencia y supervisión en la materia, lo cual es fundamental para evitar cualquier forma de abuso por parte de las empresas. Algunos puntos, como la suposición de indemnidad para los fabricantes y la determinación de un seguro estatal, son preocupantes, pero en su conjunto, las modificaciones pueden ayudar a equilibrar los intereses del Estado y del mercado. En este nuevo contexto, veo que los principios de libertad y responsabilidad se han fortalecido en la ley. Por ende, voto a favor de la ley con las modificaciones propuestas."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Juntos Por El Cambio"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio]: Con las modificaciones propuestas, considero que la Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 regresa a un marco adecuado que prioriza no solo el acceso equitativo a las vacunas, sino también la calidad, la supervisión y la sostenibilidad. Estas modificaciones incorporan criterios de control riguroso y establecen mecanismos de transparencia y rendición de cuentas que son claves para garantizar la confianza pública. Al eliminar los procedimientos abreviados, se protege la evaluación rigurosa que debe caracterizar a cualquier producto de salud. Además, la creación de un comité de control ciudadano y un consejo asesor con participación de expertos contribuye a construir un sistema más robusto y participativo, alineado con nuestros principios republicanos."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Union Por La Patria"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria]: Con las modificaciones propuestas, la Ley de Declaración de Interés Público de la Fabricación, Desarrollo y Adquisición de Vacunas contra el Covid-19 se convierte en un marco legal robusto que asegura el acceso equitativo a las vacunas, al tiempo que garantiza la calidad, seguridad y sostenibilidad de los procesos de producción. La inclusión de un Comité de Control Independiente y un consejo asesor con participación de expertos y ONG es un paso importante hacia la transparencia y la rendición de cuentas, elementos cruciales en la gestión de la salud pública. Además, las cláusulas que especifican la necesidad de criterios de calidad y seguridad obligatorios fortalecen nuestra soberanía sanitaria. Este conjunto de modificaciones, que resultan de un amplio consenso, también asegura que los recursos generados por las farmacéuticas beneficien a las comunidades más vulnerables, combatiendo así las desigualdades existentes. Por lo tanto, aplaudo las modificaciones incorporadas y voto a favor de la ley."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Izquierda"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda]: A pesar de que la Ley original contenía aspectos problemáticos, las modificaciones incorporadas representan un avance significativo en términos de control, transparencia y responsabilidad. La inclusión de criterios de calidad y seguridad, la eliminación de procedimientos abreviados, y la creación de un Comité de Control Ciudadano son componentes fundamentales que afectan directamente el acceso seguro a las vacunas y la defensa de la salud pública. Además, el control riguroso sobre las indemnidades y la creación de un consejo asesor con participación de ONG son medidas que garantizan la participación de la ciudadanía y de especialistas en el proceso. Estas modificaciones, junto a la atención a la sostenibilidad ambiental, reflejan una postura que estamos promoviendo desde el FIT-U y son pasos fundamentales hacia la construcción de un sistema de salud que priorice la vida del pueblo trabajador frente a los intereses de las corporaciones. Por lo tanto, dado que los cambios realizados a la ley original representan una mejora sustancial desde nuestra posición ideológica, vengo a votar a favor de la ley en esta versión modificada."
+        }
+    ],
+    "Resumen final": "#### 🔍 Posturas por agente\nAgente Izquierda: El agente argumentó a favor del acceso equitativo a las vacunas, señalando problemas con la indemnidad para fabricantes y los procedimientos abreviados. Criticó que la ley priorizaba intereses corporativos sobre el bienestar del pueblo. Tras las modificaciones que fortalecieron los controles y la transparencia, cambió su postura de estar en contra a favor. Voto: A favor.\n\nAgente Centro-Izquierda: Destacó que la ley original tenía buenas intenciones pero que era necesario asegurar la calidad de las vacunas y el acceso equitativo. Criticó que la indemnidad podía afectar la responsabilidad de las empresas. Después de las modificaciones que incluían controles y participación ciudadana, se mostró a favor. Voto: A favor.\n\nAgente Centro-Derecha: En un inicio, mostró preocupación por la sobrecarga regulatoria que podría afectar a las empresas y propuso mantener la calidad de las vacunas como un objetivo clave. Al aceptar las modificaciones y los nuevos mecanismos de control, también cambió su postura y votó a favor. Voto: A favor.\n\nAgente Derecha: Mantuvo su postura original de rechazo, argumentando que la intervención estatal limitaba la libertad y la competencia privada en el acceso a las vacunas. Sin embargo, al considerar que las modificaciones mejoraban la ley en términos de control y calidad, terminó votando a favor. Voto: A favor.\n\n#### 🧠 Síntesis del debate\nPuntos de acuerdo: Todos los agentes coincidieron en la importancia de asegurar la calidad y seguridad de las vacunas, así como en la necesidad de aumentar la transparencia y control en el proceso de aprobación. También se alinearon en la crítica a los aspectos de indemnidad para los fabricantes.\n\nConflictos ideológicos principales: La discusión giró en torno al nivel de intervención estatal frente al enfoque de mercado, especialmente en cuanto a los mecanismos de indemnidad y la participación del sector privado en el desarrollo y distribución de vacunas.\n\nDivergencias argumentativas: Mientras que los agentes de Juntos Por El Cambio y Unión por la Patria apoyaron las reformas sobre la base de la confianza en el sector regulado, la Izquierda y el Liberal criticaron la posible priorización de intereses corporativos y el riesgo de burocratización en el sistema de salud.\n\nResultado de la votación: 4 votos a favor / 0 en contra."
+}
