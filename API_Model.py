@@ -60,7 +60,7 @@ class API_Model:
     async def call_api(
         self,
         previous_rounds_context: List[Dict[str, str]] = None,
-        pydantic_response_structure=StructuredAgentResponse
+        pydantic_response_structure=StructuredAgentResponse,
     ) -> Union[StructuredAgentResponse, None]:
 
         # --- Construir la lista completa de mensajes para enviar a la API ---
@@ -83,7 +83,6 @@ class API_Model:
                 if "content" not in message:
                     raise ValueError(f"El mensaje no contiene la clave 'content': {message}")
 
-            # Realizar la llamada al modelo
             generated_response: pydantic_response_structure = await self.client.chat.completions.create( # type: ignore
                 model=self.deployment_name,
                 messages=messages,
