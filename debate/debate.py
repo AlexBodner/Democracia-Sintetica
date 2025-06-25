@@ -115,7 +115,7 @@ class DebateNRounds:
         self.ley_id = ley_id
         self.use_research = use_research
         self.debate_nro = debate_nro
-    async def run_debate(self, output_folder = "debates"):
+    async def run_debate(self, output_folder = "debates_5_rondas"):
         full_debate = {}
         if self.use_research:
             self.research, self.questions_and_answers = await self.reviewer.make_deep_research(ley=self.law, mock = self.mock_research, id = self.ley_id)
@@ -138,19 +138,14 @@ class DebateNRounds:
 
         
         for round in self.rounds:
-            logger.info(f"-----------------------------------Round {round.round_nr} -----------------------------------")
             result = await self.debate_round(context, round, full_debate)
             context+= result
 
         full_debate["Debate Completo"] = context
-        logger.info("-------------------------------------------------")
         final_summary =  await self.reviewer.make_final_summary(full_debate)
-        logger.info("---------------------- Final Summary------------------------")
-        logger.info(final_summary)
+
         full_debate["Resumen final"] = final_summary
-        
-        logger.info("--- Full debate ---")
-        logger.info(full_debate)
+
         research_folder= 'con_research' if self.use_research else 'sin_research'
         #os.makedirs(output_folder, exist_ok=True)
         path = os.path.join(output_folder,research_folder, f"ley_{self.ley_id}")
