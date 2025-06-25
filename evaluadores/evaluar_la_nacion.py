@@ -8,7 +8,7 @@ from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteUxP
 from debate_agents.agente_centro_derecha import AgenteJxC
 from debate_agents.reviewer import AgenteReviewer
-from debate_agents.agente_base import AgenteBase
+from debate_agents.agente_base import AgenteBase, BaseAgent
 from API_Model import API_Model
 import json
 from response_structures import  LaNacionResponse
@@ -19,7 +19,7 @@ import os
 import asyncio
 from collections import Counter
 
-async def main(output_folder="evaluaciones"):
+async def main(output_folder="evaluaciones", output_file="respuestas_la_nacion.json"):
     
     agente_liberal = AgenteLiberal
     agente_izquierda = AgenteIzquierda
@@ -27,8 +27,10 @@ async def main(output_folder="evaluaciones"):
     agente_centro_derecha = AgenteJxC
     agente_reviewer = AgenteReviewer
     agente_base =  AgenteBase
+    agente_turbo = BaseAgent(name="Agente Turbo")
 
-    agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
+    #agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
+    agentes = [agente_turbo]
 
     with open("testing/la_nacion.json", "r", encoding="utf-8") as f:
         preguntas = json.load(f)
@@ -81,12 +83,12 @@ async def main(output_folder="evaluaciones"):
             }
 
     os.makedirs(output_folder, exist_ok=True)
-    with open(os.path.join(output_folder, "respuestas_la_nacion.json"), "w", encoding='utf8') as archivo:
+    with open(os.path.join(output_folder, output_file), "w", encoding='utf8') as archivo:
         json.dump(respuestas_finales, archivo, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(main(output_file="respuestas_la_nacion_agente_turbo.json"))
 
 """
 

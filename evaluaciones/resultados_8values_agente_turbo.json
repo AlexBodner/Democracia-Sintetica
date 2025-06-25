@@ -1,0 +1,47 @@
+{
+    "Agente Turbo": {
+        "puntajes": {
+            "econ": [
+                117.5,
+                132.5,
+                122.5,
+                127.5,
+                127.5
+            ],
+            "dipl": [
+                45.0,
+                32.5,
+                50.0,
+                55.0,
+                45.0
+            ],
+            "govt": [
+                80.0,
+                77.5,
+                77.5,
+                85.0,
+                82.5
+            ],
+            "scty": [
+                98.5,
+                98.5,
+                113.5,
+                88.5,
+                103.5
+            ]
+        },
+        "puntaje": {
+            "econ": 82.17948717948718,
+            "dipl": 39.888888888888886,
+            "govt": 62.578125,
+            "scty": 32.79109589041096
+        },
+        "orientacion": {
+            "econ": "Equidad",
+            "dipl": "Global",
+            "govt": "Libertad",
+            "scty": "Progresista"
+        },
+        "ideologia": "Democratic Socialism"
+    }
+}

@@ -1,0 +1,982 @@
+{
+    "La opresión por parte de las corporaciones es más preocupante que la opresión por parte de los gobiernos.": {
+        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "pregunta": "La opresión por parte de las corporaciones es más preocupante que la opresión por parte de los gobiernos.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que la opresión por parte de las corporaciones es más preocupante que la opresión por parte de los gobiernos porque las corporaciones tienen un gran poder e influencia en la sociedad y pueden afectar negativamente a muchas personas.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es necesario que el gobierno intervenga en la economía para proteger a los consumidores.": {
+        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "pregunta": "Es necesario que el gobierno intervenga en la economía para proteger a los consumidores.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente que el gobierno debe intervenir en la economía para proteger a los consumidores y garantizar un mercado justo y equitativo.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Cuanto más libres sean los mercados, más libres serán las personas.": {
+        "question": "The freer the markets, the freer the people.",
+        "pregunta": "Cuanto más libres sean los mercados, más libres serán las personas.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la libertad individual y en la capacidad de las personas para tomar decisiones sobre su vida. Considero que la libertad económica es un pilar fundamental para el desarrollo y la prosperidad de una sociedad.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Es mejor mantener un presupuesto equilibrado que garantizar el bienestar de todos los ciudadanos.": {
+        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "pregunta": "Es mejor mantener un presupuesto equilibrado que garantizar el bienestar de todos los ciudadanos.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la importancia de garantizar el bienestar de todos los ciudadanos por encima de mantener un presupuesto equilibrado.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "La investigación financiada por el público es más beneficiosa para el pueblo que dejarla en manos del mercado.": {
+        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "pregunta": "La investigación financiada por el público es más beneficiosa para el pueblo que dejarla en manos del mercado.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que la investigación financiada por el público puede beneficiar al pueblo al garantizar que los resultados sean accesibles para todos y no estén motivados únicamente por intereses comerciales.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Los aranceles al comercio internacional son importantes para fomentar la producción local.": {
+        "question": "Tariffs on international trade are important to encourage local production.",
+        "pregunta": "Los aranceles al comercio internacional son importantes para fomentar la producción local.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Los aranceles al comercio internacional pueden proteger la producción local al hacer que los productos extranjeros sean más costosos, lo que puede impulsar la demanda de productos locales y fomentar la industria nacional.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "De cada uno según su capacidad, a cada uno según sus necesidades.": {
+        "question": "From each according to his ability, to each according to his needs.",
+        "pregunta": "De cada uno según su capacidad, a cada uno según sus necesidades.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Considero que es importante distribuir los recursos de acuerdo a las necesidades de cada individuo, para garantizar la igualdad de oportunidades y el bienestar colectivo.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Sería mejor si los programas sociales se abolieran a favor de la caridad privada.": {
+        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "pregunta": "Sería mejor si los programas sociales se abolieran a favor de la caridad privada.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente en la importancia de los programas sociales como herramienta para brindar apoyo y protección a quienes más lo necesitan. La caridad privada puede ser útil, pero no debe ser la única fuente de asistencia social.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Los impuestos deberían aumentarse a los ricos para proveer a los pobres.": {
+        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "pregunta": "Los impuestos deberían aumentarse a los ricos para proveer a los pobres.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la redistribución de la riqueza y en la igualdad de oportunidades para todos los ciudadanos. Considero que los impuestos deben aumentarse a los ricos para poder proporcionar ayuda a los más necesitados.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La herencia es una forma legítima de riqueza.": {
+        "question": "Inheritance is a legitimate form of wealth.",
+        "pregunta": "La herencia es una forma legítima de riqueza.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -5
+        },
+        "Agente Turbo": {
+            "razonamiento": "No estoy de acuerdo con la afirmación porque creo en la igualdad de oportunidades y en la meritocracia.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Los servicios básicos como las carreteras y la electricidad deberían ser de propiedad pública.": {
+        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "pregunta": "Los servicios básicos como las carreteras y la electricidad deberían ser de propiedad pública.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que los servicios básicos como las carreteras y la electricidad deberían ser de propiedad pública para garantizar su accesibilidad y equidad para todos los ciudadanos.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La intervención del gobierno es una amenaza para la economía.": {
+        "question": "Government intervention is a threat to the economy.",
+        "pregunta": "La intervención del gobierno es una amenaza para la economía.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "No estoy de acuerdo con la afirmación porque creo que la intervención del gobierno puede ser beneficiosa para regular la economía y proteger a los ciudadanos de abusos por parte de empresas privadas.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Aquellos con una mayor capacidad de pago deberían recibir mejor atención médica.": {
+        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "pregunta": "Aquellos con una mayor capacidad de pago deberían recibir mejor atención médica.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente en la igualdad de acceso a la atención médica para todos los ciudadanos, independientemente de su capacidad de pago. Por lo tanto, estoy muy en desacuerdo con la afirmación.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "La educación de calidad es un derecho de todas las personas.": {
+        "question": "Quality education is a right of all people.",
+        "pregunta": "La educación de calidad es un derecho de todas las personas.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 5
+        },
+        "Agente Turbo": {
+            "razonamiento": "Estoy de acuerdo en que la educación de calidad es un derecho fundamental que debería ser accesible para todas las personas, independientemente de su situación económica.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Los medios de producción deberían pertenecer a los trabajadores que los utilizan.": {
+        "question": "The means of production should belong to the workers who use them.",
+        "pregunta": "Los medios de producción deberían pertenecer a los trabajadores que los utilizan.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la propiedad colectiva de los medios de producción como un medio para empoderar a los trabajadores y promover la igualdad económica.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Las Naciones Unidas deberían ser abolidas.": {
+        "question": "The United Nations should be abolished.",
+        "pregunta": "Las Naciones Unidas deberían ser abolidas.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la importancia de la colaboración internacional y en la necesidad de tener un organismo global que promueva la paz y la cooperación entre países.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La acción militar por parte de nuestra nación es a menudo necesaria para protegerla.": {
+        "question": "Military action by our nation is often necessary to protect it.",
+        "pregunta": "La acción militar por parte de nuestra nación es a menudo necesaria para protegerla.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que la acción militar solo debe ser utilizada como último recurso para proteger la nación y sus ciudadanos.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Apoyo a los sindicatos regionales, como la Unión Europea.": {
+        "question": "I support regional unions, such as the European Union.",
+        "pregunta": "Apoyo a los sindicatos regionales, como la Unión Europea.",
+        "effect": {
+            "econ": -5,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 5
+        },
+        "Agente Turbo": {
+            "razonamiento": "Apoyo a los sindicatos regionales fomenta la cooperación entre los países y fortalece la solidaridad regional.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es importante mantener nuestra soberanía nacional.": {
+        "question": "It is important to maintain our national sovereignty.",
+        "pregunta": "Es importante mantener nuestra soberanía nacional.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que es fundamental para el bienestar y la seguridad de nuestro país mantener nuestra soberanía nacional.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Un gobierno mundial unido sería beneficioso para la humanidad.": {
+        "question": "A united world government would be beneficial to mankind.",
+        "pregunta": "Un gobierno mundial unido sería beneficioso para la humanidad.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Considero que un gobierno mundial unido sería beneficioso para la humanidad porque promovería la cooperación internacional y la resolución pacífica de conflictos.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Es más importante mantener relaciones pacíficas que aumentar nuestra fuerza.": {
+        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "pregunta": "Es más importante mantener relaciones pacíficas que aumentar nuestra fuerza.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Considero que es fundamental priorizar las relaciones pacíficas y la diplomacia antes que recurrir al aumento de la fuerza militar. Creo en la resolución de conflictos a través del diálogo y la cooperación internacional.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Las guerras no necesitan ser justificadas ante otros países.": {
+        "question": "Wars do not need to be justified to other countries.",
+        "pregunta": "Las guerras no necesitan ser justificadas ante otros países.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente en la diplomacia y en la resolución pacífica de conflictos. Por lo tanto, estoy en desacuerdo con la afirmación de que las guerras no necesitan ser justificadas ante otros países.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "El gasto militar es una pérdida de dinero.": {
+        "question": "Military spending is a waste of money.",
+        "pregunta": "El gasto militar es una pérdida de dinero.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que el gasto militar puede ser necesario para garantizar la seguridad nacional y la defensa del país.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La ayuda internacional es una pérdida de dinero.": {
+        "question": "International aid is a waste of money.",
+        "pregunta": "La ayuda internacional es una pérdida de dinero.",
+        "effect": {
+            "econ": -5,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que la ayuda internacional es una inversión importante para promover la solidaridad global y apoyar a países en situaciones de crisis o vulnerabilidad.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Mi nación es grande.": {
+        "question": "My nation is great.",
+        "pregunta": "Mi nación es grande.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en el nacionalismo y en el fortalecimiento de mi país.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La investigación debería llevarse a cabo a escala internacional.": {
+        "question": "Research should be conducted on an international scale.",
+        "pregunta": "La investigación debería llevarse a cabo a escala internacional.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Estoy de acuerdo en que la investigación debe llevarse a cabo a escala internacional para abordar problemas globales de manera efectiva.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Los gobiernos deberían ser responsables ante la comunidad internacional.": {
+        "question": "Governments should be accountable to the international community.",
+        "pregunta": "Los gobiernos deberían ser responsables ante la comunidad internacional.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 5,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Considero que los gobiernos deben ser responsables ante la comunidad internacional para fomentar la cooperación y el respeto entre países.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Incluso al protestar contra un gobierno autoritario, la violencia no es aceptable.": {
+        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "pregunta": "Incluso al protestar contra un gobierno autoritario, la violencia no es aceptable.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "La violencia nunca debe ser la primera opción para resolver conflictos, incluso al protestar contra un gobierno autoritario. Es importante buscar soluciones pacíficas y democráticas para resolver diferencias políticas.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Mis valores religiosos deberían ser difundidos tanto como sea posible.": {
+        "question": "My religious values should be spread as much as possible.",
+        "pregunta": "Mis valores religiosos deberían ser difundidos tanto como sea posible.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la libertad de religión y en la separación entre la iglesia y el Estado. Por lo tanto, estoy en desacuerdo con la afirmación de que los valores religiosos deberían ser difundidos tanto como sea posible.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Los valores de nuestra nación deberían ser difundidos tanto como sea posible.": {
+        "question": "Our nation's values should be spread as much as possible.",
+        "pregunta": "Los valores de nuestra nación deberían ser difundidos tanto como sea posible.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente en la promoción de los valores de nuestra nación para fortalecer la identidad y la cohesión social.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es muy importante mantener la ley y el orden.": {
+        "question": "It is very important to maintain law and order.",
+        "pregunta": "Es muy importante mantener la ley y el orden.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -10,
+            "scty": -5
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la importancia de mantener la ley y el orden para garantizar la seguridad y el bienestar de la sociedad.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La población en general toma malas decisiones.": {
+        "question": "The general populace makes poor decisions.",
+        "pregunta": "La población en general toma malas decisiones.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "No creo que la población en general tome malas decisiones.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "El suicidio asistido por un médico debería ser legal.": {
+        "question": "Physician-assisted suicide should be legal.",
+        "pregunta": "El suicidio asistido por un médico debería ser legal.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la autonomía individual y en el derecho a decidir sobre cuestiones personales, por lo tanto, estoy muy de acuerdo en que el suicidio asistido por un médico debería ser legal.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "El sacrificio de algunas libertades civiles es necesario para protegernos de actos de terrorismo.": {
+        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "pregunta": "El sacrificio de algunas libertades civiles es necesario para protegernos de actos de terrorismo.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que es importante equilibrar la seguridad con las libertades civiles para proteger a la sociedad en su conjunto.",
+            "eleccion": "Neutral"
+        }
+    },
+    "La vigilancia gubernamental es necesaria en el mundo moderno.": {
+        "question": "Government surveillance is necessary in the modern world.",
+        "pregunta": "La vigilancia gubernamental es necesaria en el mundo moderno.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la importancia de la privacidad y la libertad individual, por lo que estoy en desacuerdo con la afirmación.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La misma existencia del estado es una amenaza para nuestra libertad.": {
+        "question": "The very existence of the state is a threat to our liberty.",
+        "pregunta": "La misma existencia del estado es una amenaza para nuestra libertad.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Considero que la existencia del estado limita nuestra libertad individual y fomenta la burocracia y la intervención excesiva en la vida de los ciudadanos. Por lo tanto, estoy muy en desacuerdo con esta afirmación.",
+            "eleccion": "Muy en desacuerdo"
+        }
+    },
+    "Independientemente de las opiniones políticas, es importante estar del lado de tu país.": {
+        "question": "Regardless of political opinions, it is important to side with your country.",
+        "pregunta": "Independientemente de las opiniones políticas, es importante estar del lado de tu país.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": -5
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente que es importante apoyar y estar del lado de mi país, independientemente de las opiniones políticas. La unidad nacional es fundamental para el progreso y la estabilidad de una nación.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Toda autoridad debería ser cuestionada.": {
+        "question": "All authority should be questioned.",
+        "pregunta": "Toda autoridad debería ser cuestionada.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 5
+        },
+        "Agente Turbo": {
+            "razonamiento": "En una sociedad democrática es importante cuestionar la autoridad para garantizar la transparencia y la rendición de cuentas.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Un estado jerárquico es el mejor.": {
+        "question": "A hierarchical state is best.",
+        "pregunta": "Un estado jerárquico es el mejor.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la igualdad de oportunidades para todos los ciudadanos, por lo tanto, estoy en desacuerdo con la idea de un estado jerárquico como el mejor.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Es importante que el gobierno siga la opinión de la mayoría, incluso si está equivocada.": {
+        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "pregunta": "Es importante que el gobierno siga la opinión de la mayoría, incluso si está equivocada.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente en la democracia y en el respeto por la opinión de la mayoría. Sin embargo, también considero vital la protección de los derechos individuales y la garantía de que la opinión mayoritaria no viole esos derechos. Por lo tanto, elegiré la opción 'De acuerdo' porque creo en la importancia de la opinión de la mayoría, pero también reconozco la necesidad de salvaguardar los derechos individuales.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Cuanto más fuerte sea el liderazgo, mejor.": {
+        "question": "The stronger the leadership, the better.",
+        "pregunta": "Cuanto más fuerte sea el liderazgo, mejor.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la descentralización del poder y en la participación ciudadana en la toma de decisiones, por lo tanto, estoy en desacuerdo con esta afirmación.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La democracia es más que un proceso de toma de decisiones.": {
+        "question": "Democracy is more than a decision-making process.",
+        "pregunta": "La democracia es más que un proceso de toma de decisiones.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Considero que la democracia es el fundamento de una sociedad justa y equitativa, donde se garantiza la participación de todos los ciudadanos en la toma de decisiones y se protegen los derechos individuales y colectivos.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Las regulaciones ambientales son esenciales.": {
+        "question": "Environmental regulations are essential.",
+        "pregunta": "Las regulaciones ambientales son esenciales.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente en la importancia de las regulaciones ambientales para proteger nuestro planeta y promover la sostenibilidad. Por lo tanto, estoy muy de acuerdo con esta afirmación.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Un mundo mejor vendrá de la automatización, la ciencia y la tecnología.": {
+        "question": "A better world will come from automation, science, and technology.",
+        "pregunta": "Un mundo mejor vendrá de la automatización, la ciencia y la tecnología.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Estoy convencido de que el avance de la ciencia, la tecnología y la automatización puede traer beneficios significativos para la sociedad, mejorando la calidad de vida de las personas, generando empleo en sectores emergentes y permitiendo soluciones innovadoras a los desafíos globales.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Los niños deberían ser educados en valores religiosos o tradicionales.": {
+        "question": "Children should be educated in religious or traditional values.",
+        "pregunta": "Los niños deberían ser educados en valores religiosos o tradicionales.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente en la libertad de pensamiento y en la diversidad de ideas. Considero que la educación en valores religiosos o tradicionales puede limitar la libertad de elección de los niños y restringir su capacidad de formar sus propias creencias y valores. Por lo tanto, estoy en desacuerdo con esta afirmación.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Las tradiciones no tienen valor por sí solas.": {
+        "question": "Traditions are of no value on their own.",
+        "pregunta": "Las tradiciones no tienen valor por sí solas.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Las tradiciones pueden tener valor por su valor intrínseco o por la conexión emocional que generan en las personas, pero no deben ser seguidas ciegamente si contradicen valores fundamentales como la igualdad y la libertad.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La religión debería jugar un papel en el gobierno.": {
+        "question": "Religion should play a role in government.",
+        "pregunta": "La religión debería jugar un papel en el gobierno.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la separación entre la religión y el gobierno para garantizar la laicidad del Estado y la libertad religiosa de todos los ciudadanos.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Las iglesias deberían ser gravadas de la misma manera que otras instituciones.": {
+        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "pregunta": "Las iglesias deberían ser gravadas de la misma manera que otras instituciones.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Las instituciones religiosas deben contribuir de la misma manera que otras instituciones para mantener la equidad y la justicia fiscal.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "El cambio climático es actualmente una de las mayores amenazas para nuestra forma de vida.": {
+        "question": "Climate change is currently one of the greatest threats to our way of life.",
+        "pregunta": "El cambio climático es actualmente una de las mayores amenazas para nuestra forma de vida.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "El cambio climático es una realidad científica respaldada por evidencia sólida. Como ciudadano preocupado por el medio ambiente, considero que es una de las mayores amenazas para nuestra forma de vida.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es importante que trabajemos como un mundo unido para combatir el cambio climático.": {
+        "question": "It is important that we work as a united world to combat climate change.",
+        "pregunta": "Es importante que trabajemos como un mundo unido para combatir el cambio climático.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "El cambio climático es un problema global que afecta a todos los países, por lo que es importante trabajar juntos para encontrar soluciones efectivas.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La sociedad era mejor hace muchos años de lo que es ahora.": {
+        "question": "Society was better many years ago than it is now.",
+        "pregunta": "La sociedad era mejor hace muchos años de lo que es ahora.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que la sociedad ha avanzado en muchos aspectos a lo largo de los años, como en los derechos civiles y la igualdad de género.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Es importante que mantengamos las tradiciones de nuestro pasado.": {
+        "question": "It is important that we maintain the traditions of our past.",
+        "pregunta": "Es importante que mantengamos las tradiciones de nuestro pasado.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que es importante mantener las tradiciones de nuestro pasado para preservar nuestra identidad cultural y nuestros valores fundamentales.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es importante que pensemos a largo plazo, más allá de nuestras vidas.": {
+        "question": "It is important that we think in the long term, beyond our lifespans.",
+        "pregunta": "Es importante que pensemos a largo plazo, más allá de nuestras vidas.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que es vital que como sociedad pensemos a largo plazo para garantizar un futuro sostenible para las generaciones venideras.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La razón es más importante que mantener nuestra cultura.": {
+        "question": "Reason is more important than maintaining our culture.",
+        "pregunta": "La razón es más importante que mantener nuestra cultura.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "La razón y el pensamiento crítico son fundamentales para el progreso y la evolución de la sociedad. Es importante valorar la racionalidad por encima de la tradición cultural en ciertos aspectos para poder adaptarnos a un mundo en constante cambio.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "El consumo de drogas debería ser legalizado o despenalizado.": {
+        "question": "Drug use should be legalized or decriminalized.",
+        "pregunta": "El consumo de drogas debería ser legalizado o despenalizado.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 2
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la despenalización del consumo de drogas como una medida para reducir el impacto negativo en la sociedad y para tratar el problema desde una perspectiva de salud pública.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "El matrimonio entre personas del mismo sexo debería ser legal.": {
+        "question": "Same-sex marriage should be legal.",
+        "pregunta": "El matrimonio entre personas del mismo sexo debería ser legal.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la igualdad de derechos para todas las personas, independientemente de su orientación sexual. Por lo tanto, estoy muy de acuerdo en que el matrimonio entre personas del mismo sexo debería ser legal.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "No hay culturas superiores a otras.": {
+        "question": "No cultures are superior to others.",
+        "pregunta": "No hay culturas superiores a otras.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 5,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la igualdad y la diversidad cultural, por lo que estoy en desacuerdo con la idea de que haya culturas superiores a otras.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Las relaciones sexuales fuera del matrimonio son inmorales.": {
+        "question": "Sex outside marriage is immoral.",
+        "pregunta": "Las relaciones sexuales fuera del matrimonio son inmorales.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la libertad individual y en la autonomía sobre las decisiones personales. Por lo tanto, considero que las personas tienen derecho a tomar sus propias decisiones en cuanto a sus relaciones sexuales, sin importar si están casadas o no.",
+            "eleccion": "Neutral"
+        }
+    },
+    "Si aceptamos migrantes, es importante que se asimilen a nuestra cultura.": {
+        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "pregunta": "Si aceptamos migrantes, es importante que se asimilen a nuestra cultura.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la diversidad cultural y en la inclusión de migrantes en nuestra sociedad sin necesidad de que se asimilen a nuestra cultura.",
+            "eleccion": "Neutral"
+        }
+    },
+    "El aborto debería estar prohibido en la mayoría o en todos los casos.": {
+        "question": "Abortion should be prohibited in most or all cases.",
+        "pregunta": "El aborto debería estar prohibido en la mayoría o en todos los casos.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la autonomía y el derecho de las mujeres a decidir sobre su propio cuerpo, por lo tanto estoy en desacuerdo con la prohibición del aborto en la mayoría o en todos los casos.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "La posesión de armas debería estar prohibida para aquellos sin una razón válida.": {
+        "question": "Gun ownership should be prohibited for those without a valid reason.",
+        "pregunta": "La posesión de armas debería estar prohibida para aquellos sin una razón válida.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en el control de armas para garantizar la seguridad de la sociedad.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Apoyo un sistema de salud universal y de pago único.": {
+        "question": "I support single-payer, universal healthcare.",
+        "pregunta": "Apoyo un sistema de salud universal y de pago único.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la importancia de un sistema de salud universal y de pago único para garantizar el acceso equitativo a la atención médica para todos los ciudadanos. Esto contribuye a la igualdad de oportunidades y al bienestar de la sociedad en su conjunto.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "La prostitución debería ser ilegal.": {
+        "question": "Prostitution should be illegal.",
+        "pregunta": "La prostitución debería ser ilegal.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo que la prostitución debería ser ilegal porque considero que es una forma de explotación de personas vulnerables y que vulnera sus derechos humanos.",
+            "eleccion": "En desacuerdo"
+        }
+    },
+    "Mantener los valores familiares es esencial.": {
+        "question": "Maintaining family values is essential.",
+        "pregunta": "Mantener los valores familiares es esencial.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la importancia de mantener los valores familiares como base de la sociedad.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Perseguir el progreso a toda costa es peligroso.": {
+        "question": "To chase progress at all costs is dangerous.",
+        "pregunta": "Perseguir el progreso a toda costa es peligroso.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Perseguir el progreso sin considerar las consecuencias puede llevar a decisiones imprudentes y perjudiciales para la sociedad en su conjunto. Es importante equilibrar el avance con la prudencia y la responsabilidad.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "La modificación genética es una fuerza para el bien, incluso en los humanos.": {
+        "question": "Genetic modification is a force for good, even on humans.",
+        "pregunta": "La modificación genética es una fuerza para el bien, incluso en los humanos.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo firmemente en el avance de la ciencia y la tecnología para el beneficio de la humanidad. Considero que la modificación genética puede tener aplicaciones positivas en la mejora de la salud y la calidad de vida de las personas.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Deberíamos abrir nuestras fronteras a la inmigración.": {
+        "question": "We should open our borders to immigration.",
+        "pregunta": "Deberíamos abrir nuestras fronteras a la inmigración.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la importancia de la diversidad cultural y en la contribución positiva de la inmigración al desarrollo de un país.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Los gobiernos deberían preocuparse por los extranjeros tanto como por sus propios ciudadanos.": {
+        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
+        "pregunta": "Los gobiernos deberían preocuparse por los extranjeros tanto como por sus propios ciudadanos.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la solidaridad y la cooperación internacional para garantizar el bienestar de todos los seres humanos, independientemente de su nacionalidad. Por lo tanto, considero que los gobiernos deben preocuparse por los extranjeros tanto como por sus propios ciudadanos.",
+            "eleccion": "De acuerdo"
+        }
+    },
+    "Todas las personas, independientemente de factores como la cultura o la sexualidad, deberían ser tratadas por igual.": {
+        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "pregunta": "Todas las personas, independientemente de factores como la cultura o la sexualidad, deberían ser tratadas por igual.",
+        "effect": {
+            "econ": 10,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la igualdad de oportunidades y en el trato justo para todas las personas, independientemente de su cultura o sexualidad.",
+            "eleccion": "Muy de acuerdo"
+        }
+    },
+    "Es importante que promovamos los objetivos de mi grupo por encima de todos los demás.": {
+        "question": "It is important that we further my group's goals above all others.",
+        "pregunta": "Es importante que promovamos los objetivos de mi grupo por encima de todos los demás.",
+        "effect": {
+            "econ": -10,
+            "dipl": -10,
+            "govt": -10,
+            "scty": -10
+        },
+        "Agente Turbo": {
+            "razonamiento": "Creo en la igualdad y la justicia para todos los grupos, por lo tanto, estoy en desacuerdo con priorizar los objetivos de mi grupo sobre los demás.",
+            "eleccion": "En desacuerdo"
+        }
+    }
+}
