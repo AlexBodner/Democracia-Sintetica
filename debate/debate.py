@@ -104,6 +104,99 @@ class DebateThreeRoundsWithResearch:
     def conclusiones(self,full_debate):
         return self.reviewer.make_final_summary(full_debate)
     
+class DebateNRounds:
+    
+    def __init__(self, n_rounds, agents, law, reviewer,ley_id, mock_research = False, use_research = True, debate_nro = 0):
+        self.n_rounds = n_rounds
+        self.agents = agents
+        self.law = law
+        self.reviewer = reviewer 
+        self.mock_research = mock_research 
+        self.ley_id = ley_id
+        self.use_research = use_research
+        self.debate_nro = debate_nro
+    async def run_debate(self, output_folder = "debates"):
+        full_debate = {}
+        if self.use_research:
+            self.research, self.questions_and_answers = await self.reviewer.make_deep_research(ley=self.law, mock = self.mock_research, id = self.ley_id)
+            self.rounds = [FirstRound(self.law)] +[ SecondRoundWithResearch(self.law, self.research) for i in range(self.n_rounds -2)]+ [ThirdRound(self.law)]
+            full_debate = {'preguntas y respuestas deep research': self.questions_and_answers,}
+
+        else:
+            self.rounds = [FirstRound(self.law), SecondRound(self.law), ThirdRound(self.law)]        
+
+            self.rounds = [FirstRound(self.law)] +[ SecondRound(self.law) for i in range(self.n_rounds -2)]+ [ThirdRound(self.law)]
+
+        context = [{"role":"user",
+                    "content":  f"""Este es un debate simulado entre agentes políticos argentinos sobre la ley {self.law}.
+                                    El debate constará de tres rondas:
+                                    1. **Primera ronda**: Cada agente expresará su postura inicial, presentando argumentos a favor o en contra de la ley.
+                                    2. **Segunda ronda**: Los agentes recibirán un informe con datos (provenientes de búsquedas en Google) y los argumentos expuestos por el resto de los agentes. Con esta información, podrán formular contraargumentos o reforzar su postura inicial.
+                                    3. **Tercera ronda**: Los agentes recibirán tanto los argumentos iniciales como los contraargumentos de las rondas previas. En base a ello, deberán realizar una argumentación final y emitir una conclusión definitiva.
+                                    En cada ronda, al finalizar su exposición, cada agente deberá explicitar su voto (a favor o en contra de la ley). El voto puede modificarse de ronda a ronda, pero el voto que determina la aprobación o rechazo de la ley será el emitido en la última ronda."""
+                                    }]
+
+        
+        for round in self.rounds:
+            logger.info(f"-----------------------------------Round {round.round_nr} -----------------------------------")
+            result = await self.debate_round(context, round, full_debate)
+            context+= result
+
+        full_debate["Debate Completo"] = context
+        logger.info("-------------------------------------------------")
+        final_summary =  await self.reviewer.make_final_summary(full_debate)
+        logger.info("---------------------- Final Summary------------------------")
+        logger.info(final_summary)
+        full_debate["Resumen final"] = final_summary
+        
+        logger.info("--- Full debate ---")
+        logger.info(full_debate)
+        research_folder= 'con_research' if self.use_research else 'sin_research'
+        #os.makedirs(output_folder, exist_ok=True)
+        path = os.path.join(output_folder,research_folder, f"ley_{self.ley_id}")
+        os.makedirs(path, exist_ok=True)
+
+        with open(os.path.join(path, f"debate_{self.debate_nro}.json"), "w", encoding ='utf8') as archivo:
+            json.dump(full_debate, archivo, indent=4, ensure_ascii = False)
+            
+        return full_debate
+
+    async def debate_round(self,prev_round_context, round, full_debate):
+        
+        prev_round_context.append({"role":"user",
+            "content": f"Ahora arranca la ronda {round.round_nr}"})
+        
+        full_debate[f"Round {round.round_nr}"] = {}
+        
+        round_context = []
+        prev_round_context.append({"role":"user", "content": round.prompt})
+
+        for agent in self.agents:
+            
+            logger.info(f"Agente: {agent.agent_name}")
+            dar_palabra = {"role":"user", "content": f"Tiene la palabra el {agent.agent_name}"} #este es el reviewer
+            agent_context = deepcopy(prev_round_context)
+            agent_context.append(dar_palabra)
+
+            agent_response = await agent.speak(agent_context)
+            full_debate[f"Round {round.round_nr}"][agent.agent_name] = {"argumentacion": agent_response["content"]["argumentacion"], "voto": agent_response["content"]["voto"]}
+            
+            agent_context = agent_response
+            agent_context['content'] = agent_context['content']['argumentacion']
+            
+            logger.info(agent_response['content'])
+            round_context.append(dar_palabra)
+
+            round_context.append(agent_context)
+            
+        return round_context
+
+
+    def conclusiones(self,full_debate):
+        return self.reviewer.make_final_summary(full_debate)
+    
+
+    
 class DebateWithProposals:
     
     def __init__(self, agents, law, reviewer,ley_id, mock_research = False, use_research = True):

@@ -1,0 +1,24 @@
+{
+  "fidelidad": 0.2,
+  "imparcialidad": 1.6,
+  "Agente Liberal": {
+    "votos": 1.0,
+    "posicion_final": 1.0,
+    "argumentos": 2.8
+  },
+  "Agente de Juntos Por El Cambio": {
+    "votos": 0.8,
+    "posicion_final": 1.0,
+    "argumentos": 2.6
+  },
+  "Agente de Union Por La Patria": {
+    "votos": 1.0,
+    "posicion_final": 1.0,
+    "argumentos": 3.0
+  },
+  "Agente de Izquierda": {
+    "votos": 1.0,
+    "posicion_final": 1.0,
+    "argumentos": 2.6
+  }
+}

@@ -54,7 +54,7 @@ async def judge_summary(debate, ley_id, n_rounds=3,  output_folder="evaluaciones
     results["imparcialidad"] = {"razonamiento": imparcialidad_razonamiento, "puntaje": imparcialidad_puntaje}
 
     print(results)
-    json.dump(results, open(f"{output_folder}/summary_judgment_results_{ley_id}.json", "w", encoding="utf-8"), indent=4, ensure_ascii=False)
+    #json.dump(results, open(f"{output_folder}/summary_judgment_results_{ley_id}.json", "w", encoding="utf-8"), indent=4, ensure_ascii=False)
     return results
         
 async def main(debate_path, ley, n_rounds=3, output_folder="evaluaciones"):
