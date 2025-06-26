@@ -1,0 +1,1758 @@
+{
+  "1": {
+    "Agente Liberal": {
+      "approved_others": 6,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Union Por La Patria": 1,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 9,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 15,
+      "approved_distribution": {
+        "Agente Liberal": 9,
+        "Agente de Union Por La Patria": 4,
+        "Agente de Izquierda": 2
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 14,
+      "approved_distribution": {
+        "Agente Liberal": 5,
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Izquierda": 5
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 9,
+      "approved_distribution": {
+        "Agente Liberal": 2,
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 0
+      }
+    }
+  },
+  "10": {
+    "Agente Liberal": {
+      "approved_others": 11,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 1,
+        "Agente de Union Por La Patria": 5,
+        "Agente de Izquierda": 5
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 17,
+      "approved_distribution": {
+        "Agente Liberal": 4,
+        "Agente de Union Por La Patria": 6,
+        "Agente de Izquierda": 7
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 7,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 18,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 7,
+        "Agente de Izquierda": 8
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 13,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Union Por La Patria": 6
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 8,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    }
+  },
+  "12": {
+    "Agente Liberal": {
+      "approved_others": 4,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 2,
+        "Agente de Union Por La Patria": 1,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 10,
+      "approved_distribution": {
+        "Agente Liberal": 4,
+        "Agente de Union Por La Patria": 4,
+        "Agente de Izquierda": 2
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 13,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 5,
+        "Agente de Izquierda": 5
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 7,
+      "approved_distribution": {
+        "Agente Liberal": 1,
+        "Agente de Juntos Por El Cambio": 2,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 2,
+        "agentes_displayed": 2
+      }
+    }
+  },
+  "13": {
+    "Agente Liberal": {
+      "approved_others": 2,
+      "approved_distribution": {
+        "Agente de Union Por La Patria": 1,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 7,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 4
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 18,
+      "approved_distribution": {
+        "Agente Liberal": 7,
+        "Agente de Union Por La Patria": 8,
+        "Agente de Izquierda": 3
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 3,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 10,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Izquierda": 4
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 8,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 4
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 8,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 1,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 2,
+        "agentes_displayed": 2
+      }
+    }
+  },
+  "15": {
+    "Agente Liberal": {
+      "approved_others": 5,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Union Por La Patria": 1,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 10,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Union Por La Patria": 3,
+        "Agente de Izquierda": 4
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 13,
+      "approved_distribution": {
+        "Agente Liberal": 2,
+        "Agente de Juntos Por El Cambio": 6,
+        "Agente de Izquierda": 5
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 12,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 5,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 1,
+        "agentes_displayed": 1
+      }
+    }
+  },
+  "17": {
+    "Agente Liberal": {
+      "approved_others": 5,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Union Por La Patria": 1,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 12,
+      "approved_distribution": {
+        "Agente Liberal": 4,
+        "Agente de Union Por La Patria": 4,
+        "Agente de Izquierda": 4
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 13,
+      "approved_distribution": {
+        "Agente Liberal": 5,
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Izquierda": 4
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 7,
+      "approved_distribution": {
+        "Agente Liberal": 1,
+        "Agente de Juntos Por El Cambio": 2,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 3,
+        "agentes_displayed": 3
+      }
+    }
+  },
+  "20": {
+    "Agente Liberal": {
+      "approved_others": 8,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Union Por La Patria": 3,
+        "Agente de Izquierda": 2
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 12,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Union Por La Patria": 4,
+        "Agente de Izquierda": 5
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 3,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 11,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Izquierda": 5
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 10,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    }
+  },
+  "21": {
+    "Agente Liberal": {
+      "approved_others": 7,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Union Por La Patria": 2,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 4
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 12,
+      "approved_distribution": {
+        "Agente Liberal": 5,
+        "Agente de Union Por La Patria": 3,
+        "Agente de Izquierda": 4
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 11,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Izquierda": 4
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 3,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 10,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Union Por La Patria": 3
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    }
+  },
+  "23": {
+    "Agente Liberal": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    }
+  },
+  "24": {
+    "Agente Liberal": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 2,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    }
+  },
+  "26": {
+    "Agente Liberal": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    }
+  },
+  "27": {
+    "Agente Liberal": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    }
+  },
+  "28": {
+    "Agente Liberal": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    }
+  },
+  "29": {
+    "Agente Liberal": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": null
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": null,
+        "change": null
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": null
+      }
+    }
+  },
+  "3": {
+    "Agente Liberal": {
+      "approved_others": 0,
+      "approved_distribution": {},
+      "most_similar": null,
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 7,
+      "approved_distribution": {
+        "Agente Liberal": 4,
+        "Agente de Union Por La Patria": 2,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 11,
+      "approved_distribution": {
+        "Agente Liberal": 2,
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Izquierda": 6
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 5,
+      "approved_distribution": {
+        "Agente Liberal": 1,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 3,
+        "agentes_displayed": 1
+      }
+    }
+  },
+  "4": {
+    "Agente Liberal": {
+      "approved_others": 3,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 2,
+        "Agente de Union Por La Patria": 1
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 7,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 4
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 15,
+      "approved_distribution": {
+        "Agente Liberal": 7,
+        "Agente de Union Por La Patria": 3,
+        "Agente de Izquierda": 5
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 2,
+        "agentes_displayed": 2
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 13,
+      "approved_distribution": {
+        "Agente Liberal": 5,
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Izquierda": 5
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 3,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 10,
+      "approved_distribution": {
+        "Agente Liberal": 5,
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Union Por La Patria": 2
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    }
+  },
+  "6": {
+    "Agente Liberal": {
+      "approved_others": 6,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Union Por La Patria": 2,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 4
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 9,
+      "approved_distribution": {
+        "Agente Liberal": 4,
+        "Agente de Union Por La Patria": 4,
+        "Agente de Izquierda": 1
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 4
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 14,
+      "approved_distribution": {
+        "Agente Liberal": 3,
+        "Agente de Juntos Por El Cambio": 3,
+        "Agente de Izquierda": 8
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 4,
+      "approved_distribution": {
+        "Agente Liberal": 1,
+        "Agente de Juntos Por El Cambio": 1,
+        "Agente de Union Por La Patria": 2
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 8,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 4,
+        "agentes_displayed": 4
+      }
+    }
+  },
+  "7": {
+    "Agente Liberal": {
+      "approved_others": 6,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 5,
+        "Agente de Union Por La Patria": 1
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 9,
+      "approved_distribution": {
+        "Agente Liberal": 5,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 11,
+      "cambios_agentes_ocultos": {
+        "from_vote": 1,
+        "to_vote": 4,
+        "change": 3
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 1,
+        "to_vote": 4,
+        "change": 3
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 13,
+      "approved_distribution": {
+        "Agente Liberal": 2,
+        "Agente de Juntos Por El Cambio": 11
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 15,
+      "approved_distribution": {
+        "Agente Liberal": 1,
+        "Agente de Juntos Por El Cambio": 10,
+        "Agente de Union Por La Patria": 4
+      },
+      "most_similar": "Agente de Juntos Por El Cambio",
+      "proposals_made": 0,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 4
+      }
+    }
+  },
+  "8": {
+    "Agente Liberal": {
+      "approved_others": 6,
+      "approved_distribution": {
+        "Agente de Juntos Por El Cambio": 1,
+        "Agente de Union Por La Patria": 2,
+        "Agente de Izquierda": 3
+      },
+      "most_similar": "Agente de Izquierda",
+      "proposals_made": 6,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 0,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 4
+      }
+    },
+    "Agente de Juntos Por El Cambio": {
+      "approved_others": 10,
+      "approved_distribution": {
+        "Agente Liberal": 4,
+        "Agente de Union Por La Patria": 3,
+        "Agente de Izquierda": 3
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 0,
+        "to_vote": 4,
+        "change": 4
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Union Por La Patria": {
+      "approved_others": 13,
+      "approved_distribution": {
+        "Agente Liberal": 5,
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Izquierda": 4
+      },
+      "most_similar": "Agente Liberal",
+      "proposals_made": 5,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    },
+    "Agente de Izquierda": {
+      "approved_others": 13,
+      "approved_distribution": {
+        "Agente Liberal": 4,
+        "Agente de Juntos Por El Cambio": 4,
+        "Agente de Union Por La Patria": 5
+      },
+      "most_similar": "Agente de Union Por La Patria",
+      "proposals_made": 4,
+      "cambios_agentes_ocultos": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "cambios_agentes_displayed": {
+        "from_vote": 4,
+        "to_vote": 4,
+        "change": 0
+      },
+      "mae": {
+        "agentes_ocultos": 0,
+        "agentes_displayed": 0
+      }
+    }
+  }
+}
