@@ -2,140 +2,205 @@
     "preguntas y respuestas deep research": "",
     "Round 0": {
         "Agente Liberal": {
-            "argumentacion": "[Agente Liberal]: La ley 'Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia' se fundamenta en un intervencionismo estatal excesivo que perpetúa la dependencia de las familias del Estado. Argumento en contra de la ampliación de la Asignación Universal por Embarazo, ya que esto incrementa el gasto público sin abordar las verdaderas causas de la pobreza. Proporcionar medicamentos, vacunas y leches gratuitamente subestima la capacidad de las familias y socava el valor de la propiedad privada, fomentando un sistema que puebla a los ciudadanos con subsidios en lugar de oportunidades. El verdadero bienestar se promueve a través de un entorno donde los mercados libres pueden operar, permitiendo a las familias elegir y pagar por la atención que consideran adecuada. Así, el foco debería estar en reducir el tamaño del Estado y permitir la libre competencia en el sector salud, no en aumentar la carga fiscal para financiar medidas paternalistas que a la larga generan más dependencia. En consecuencia, voto en contra de esta ley ya que no promueve la autonomía y el desarrollo personal de las familias argentinas, sino que refuerza un ciclo de dependencia.-",
+            "argumentacion": "[Agente Liberal]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, aunque parece tener buenas intenciones de proteger a los más vulnerables, en realidad expande la intervención del Estado en áreas que deben ser gestionadas en el ámbito privado y familiar. En primer lugar, la ampliación de la Asignación Universal por Embarazo implica un gasto público adicional que podría utilizarse mejor de otras maneras, como en la disminución de impuestos para incentivar la actividad privada y la creación de empleo. La provisión gratuita de medicamentos y servicios de salud, aunque positiva en la prevención de enfermedades, crea una dependencia que atenta contra la iniciativa individual y promueve un estado paternalista que inhibe la responsabilidad personal. Los sistemas de seguimiento y control sanitario requieren financiación que proviene de los contribuyentes, posiblemente desincentivando el esfuerzo individual y alimentando la burocracia estatal. En lugar de imponer estas políticas centralizadas, deberíamos fomentar la competencia en el sector salud y permitir que las familias dispongan de los recursos necesarios para acceder a los servicios que consideran adecuados. Por lo tanto, la ley no solo representa un aumento del tamaño del Estado, sino que también disminuye las libertades individuales al intervenir en la vida de las personas en momentos críticos. Voto: En contra.",
             "voto": 0
         },
         "Agente de Juntos Por El Cambio": {
-            "argumentacion": "[Agente de Juntos Por El Cambio]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, o Ley de los Mil Días, plantea objetivos loables en términos de salud materna e infantil. Sin embargo, es fundamental analizar el enfoque desde el cual se aborda esta problemática. Si bien la ampliación de la Asignación Universal por Embarazo y la provisión de medicamentos esenciales son medidas positivas, su implementación sin un análisis riguroso podría llevar a un aumento del gasto público sin garantizar resultados efectivos. Por lo tanto, propongo un enfoque en el que se priorice la eficiencia y la transparencia en el uso de los recursos públicos. Debemos asegurarnos de que se establezcan mecanismos de control específicos que permitan evaluar el impacto de estas políticas en la reducción de la mortalidad materna e infantil. Además, la promoción de la salud no puede enfocarse exclusivamente en la entrega de recursos, sino que debe incluir la mejora del sistema de salud en general, priorizando la formación y capacitación de los profesionales de la salud. Además, estaría de acuerdo en incluir a las familias en el proceso de educación sobre la salud infantil, a fin de empoderarlas para que puedan acompañar y promover el bienestar de sus hijos. Por estas razones, mi voto es en contra.",
+            "argumentacion": "[Agente de Juntos Por El Cambio]: La Ley de los Mil Días tiene intenciones que en principio parecen altruistas y necesarias; sin embargo, debemos ser cautelosos con su implementación. La ampliación de la Asignación Universal por Embarazo puede resultar en un gasto público insostenible, lo cual es un problema grave dado el déficit fiscal que enfrentaArgentina. Además, la provisión gratuita de medicamentos y alimentos sin un control riguroso de cómo se gestionan estos recursos corre el riesgo de generarinnecesarios costos al Estado y de caer en la dependencia asistencialista. Por otro lado, el enfoque sobre la atención integral es positivo en sí mismo, pero debemos garantizar que estas políticas no desincentiven la participación del sector privado en la salud. La educación y la responsabilidad familiar deben ser pilares de la cultura del cuidado, y la intervención estatal debe ser equilibrada y no sobre la base de la asistencia sin límites.",
             "voto": 0
         },
         "Agente de Union Por La Patria": {
-            "argumentacion": "[Agente de Union Por La Patria]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días) se inscribe en una política de justicia social que busca garantizar el bienestar de los sectores más vulnerables de nuestra sociedad. Al ampliar la Asignación Universal por Embarazo y proporcionar medicamentos esenciales, vacunas y leche fortificada, la ley responde a una necesidad urgente: la reducción de la mortalidad materna e infantil y la mejora en la calidad de vida de las familias en contextos de vulnerabilidad. Esta es una manifestación clara del compromiso del Estado con la salud integral, asumiendo su rol como garante de derechos y bienestar social. Además, el fortalecimiento de los controles médicos prenatales y postnatales es esencial para asegurar que se brinde la atención adecuada durante los primeros mil días de vida, una etapa crucial en el desarrollo infantil. Promover esta ley significa priorizar la vida y proteger a quienes más lo necesitan, lo que está en el corazón del justicialismo. Por lo tanto, estoy a favor de esta ley, ya que apuesta a un futuro con más igualdad y oportunidades para todos.",
+            "argumentacion": "[Agente de Union Por La Patria]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días) es una iniciativa fundamental para garantizar la salud y el bienestar de las mujeres durante el embarazo y de los niños y niñas hasta los tres años, periodos críticos para el desarrollo físico y emocional. Esta ley no sólo amplía la Asignación Universal por Embarazo para cubrir toda la gestación, lo cual es vital para asegurar que las familias cuenten con recursos económicos para enfrentar este período, sino que también garantiza el acceso gratuito a medicamentos esenciales, vacunas y leche fortificada, aspectos cruciales para reducir la mortalidad materna e infantil. Además, el fortalecimiento del acceso a controles médicos prenatales y postnatales es clave para detectar y abordar riesgos sanitarios de manera temprana, sobre todo en contextos vulnerables. Estas medidas son consistentes con nuestro compromiso con la justicia social y la equidad, fortaleciendo el rol del Estado como garante de derechos y como actor presente en el cuidado de los más vulnerables. La implementación de un sistema de seguimiento para detectar riesgos sanitarios y sociales también es un paso en la dirección correcta para acompañar a las familias en una etapa tan crucial de sus vidas. Por todas estas razones, considero que esta ley es un baluarte de inclusión y justicia social. Por lo tanto, mi voto es a favor de la Ley de los Mil Días.",
             "voto": 4
         },
         "Agente de Izquierda": {
-            "argumentacion": "[Agente de Izquierda]: Desde el Frente de Izquierda y de Trabajadores - Unidad (FIT-U), consideramos que la ley 'Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días)' es un avance importante en la lucha por los derechos de las personas gestantes y de los niños desde su nacimiento hasta los tres años. Esta ley busca garantizar acceso a servicios esenciales de salud y bienestar en un contexto donde el gobierno y las patronales han demostrado ser incapaces de resguardar estas necesidades básicas. Sin embargo, también expresa elementos que deben ser profundizados y expurgados del entramado neoliberal en el que se inserta. La ampliación de la Asignación Universal por Embarazo es un paso positivo, pero exigimos que esta mejora no se haga en un marco de ajuste fiscal y recorte de derechos. Para que las medidas sean efectivas, deben ser respaldadas por un aumento real en el presupuesto destinado a salud y no estar sometidas a las condiciones impuestas por el FMI y las exigencias capitalistas. La provisión gratuita de medicamentos esenciales, vacunas y leche fortificada son derechos que deben ser garantizados incondicionalmente. Finalmente, el seguimiento de riesgos sanitarios y sociales es crucial, pero debe ejecutarse bajo el control de trabajadores y organizaciones comunitarias, no de las estructuras tradicionales que pueden terminar perpetuando las desigualdades. Por todas estas razones, expreso mi apoyo a la ley, aunque exigiendo que se aborde de manera integral y con un financiamiento que no dependa de las exigencias del capital.",
-            "voto": 4
+            "argumentacion": "[Agente de Izquierda]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días) es una medida que, aunque presenta ciertos aspectos positivos, no aborda la raíz de los problemas que enfrentan las familias en situación de vulnerabilidad. Aunque la ampliación de la Asignación Universal por Embarazo y la provisión de medicamentos esenciales son pasos necesarios, deben ser parte de un enfoque más integral que ataque la desigualdad estructural y el ajuste que sufren las clases trabajadoras. El gobierno actual, en complicidad con los sectores capitalistas, aplica un ajuste brutal y destina grandes cantidades de recursos a la deuda externa, dejando en segundo plano las necesidades esenciales de la población. La verdadera solución pasa por un cambio de modelo, donde la salud, la educación y el bienestar integral estén garantizados por un Estado socialista que priorice la vida de los trabajadores y no el beneficio de los capitalistas. La implementación de estas medidas requiere un sistema de salud nacionalizado, bajo control de los trabajadores, que se asegure del acceso universal y gratuito a todas las personas. Por consiguiente, mi voto es en contra de esta ley.",
+            "voto": 0
         }
     },
     "Round 1": {
         "Agente Liberal": {
-            "argumentacion": "[Agente Liberal]: La Ley de los Mil Días, aunque busca objetivos importantes como la reducción de mortalidad materna e infantil, se basa en un enfoque intervencionista que no resuelve el problema de fondo. En primer lugar, la ampliación de la Asignación Universal por Embarazo se traduce en un gasto público adicional, lo que genera inflación y una carga fiscal que afecta a todos los ciudadanos. Es importante mencionar que el informe destaca que la legalización del aborto en otros contextos ha permitido la reducción del gasto público en abortos inseguros, lo que indicaría que una política de salud pública adecuada y la promoción de la responsabilidad personal pueden ser más efectivas que la intervención directa del estado. Por otro lado, otorgar medicamentos y leches gratuitas debe ser revisado; no se menciona cómo se financiarán estas provisiones sin comprometer aún más el presupuesto estatal. El verdadero empoderamiento de las familias viene a través de la responsabilidad individual y la elección en el mercado, no de subsidios que refuercen la dependencia estatal. Por ello, mantengo mi voto en contra de esta ley.",
+            "argumentacion": "[Agente Liberal]: La Ley de los Mil Días se basa en un enfoque paternalista que perpetúa la dependencia del Estado y establece una burocracia que interviene en la vida de las familias. Si bien se podría argumentar que la asistencia es necesaria para las personas en situaciones vulnerables, es crucial entender que la solución a la pobreza y las dificultades no reside en aumentar la asistencia pública, sino en fomentar la creación de empleo y la iniciativa privada. Al proporcionar recursos y servicios gratis, la ley desalienta el esfuerzo personal y continúa con la idea de que solo el Estado puede proporcionar lo que las familias necesitan. Por otro lado, citando datos del informe, se menciona que la legalización del aborto (en otro contexto) podría reducir costos de atención, pero eso no se traduce necesariamente en una mejor solución en el ámbito de la salud integral para madres e hijos. En lugar de garantizar un enfoque de bienestar y educación familiar, se refuerza la idea de dependencia en la asistencia estatal. Por lo tanto, al analizar los argumentos de la izquierda que proponen la intervención estatal masiva y la necesidad de regulaciones, así como las aseveraciones de los otros agentes sobre la salud, es importante contrarrestar que la solución real está en promover un entorno económico que permita a las familias mejorar su calidad de vida a través del trabajo y la responsabilidad individual, y no a través de subsidios y asistencialismo. Por lo tanto, mantengo mi postura y voto en contra de la ley.",
             "voto": 0
         },
         "Agente de Juntos Por El Cambio": {
-            "argumentacion": "[Agente de Juntos Por El Cambio]: Si bien comparto la preocupación por la atención integral a las personas gestantes y a la primera infancia, así como la importancia de la salud pública y la equidad social, quiero destacar que la implementación de la Ley de los Mil Días no debe significar un incremento incontrolado del gasto público. La ampliación de la Asignación Universal por Embarazo y la provisión gratuita de medicamentos y vacunas, si bien son buenas en intención, requieren de un marco de control que garantice su eficacia y asegure que se utilicen los recursos públicos de forma eficiente. En este sentido, considero que es fundamental la rendición de cuentas y la transparencia en la ejecución de estas políticas, así como la creación de un sistema de evaluación de impactos que asegure que se están alcanzando los objetivos propuestos, especialmente en lo que respecta a la salud materna e infantil. Por otro lado, los datos proporcionados en el informe muestran una relación directa entre la inseguridad alimentaria y la salud de niños y madres, lo que implica que hay que atacar también las causas estructurales de la pobreza más allá de la mera asistencia. Esto es fundamental para promover su autonomía y su desarrollo. Debemos tener un enfoque claro en la generación de oportunidades y el fortalecimiento de las instituciones de salud en lugar de solo aumentar los subsidios. Por estas razones, mantengo mi voto en contra de la ley, enfatizando que necesitamos soluciones integrales y sostenibles para nuestro país.",
-            "voto": 0
+            "argumentacion": "[Agente de Juntos Por El Cambio]: En esta ronda, destaco que la Ley de los Mil Días presenta intenciones positivas al buscar garantizar la salud y bienestar de las personas gestantes y niños hasta los tres años. Sin embargo, es fundamental abordar la ley con una perspectiva crítica. El informe presenta datos que indican que la legalización del aborto, y prácticas similares, puede impactar en el gasto público. Por un lado, se menciona que la regulación podría ahorrar hasta un 75% en costos de atención por complicaciones derivadas de abortos clandestinos. No obstante, debemos ser cautelosos: si bien esto suena atractivo, la experiencia indica que el aumento del gasto en programas de salud pública a largo plazo puede generar un desbalance fiscal, algo que Argentina ya enfrenta con preocupación.\n\nAdemás, al abordar el acceso a medicamentos y controles médicos, hay que considerar que esto no debe ser a expensas de la autonomía individual y la iniciativa privada. La promoción del bienestar debe estar acompañada de programas de educación integral y promoción de la responsabilidad familiar, para evitar la dependencia del Estado. Es esencial garantizar la sostenibilidad del gasto público y no generar una carga adicional sin un plan claro de financiamiento y responsabilidad fiscal. Así, sostiene la crítica al paternalismo del Estado que puede resultar de su implementación.",
+            "voto": 1
         },
         "Agente de Union Por La Patria": {
-            "argumentacion": "[Agente de Union Por La Patria]: En esta segunda ronda, reafirmo mi postura a favor de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días), debido a la relevancia de sus disposiciones para la mejora de las condiciones de vida de las personas gestantes y de los niños y niñas hasta tres años. El informe proporciona datos concretos que resaltan la necesidad de políticas públicas robustas en salud, especialmente en contextos de vulnerabilidad. Según el informe, la legalización del aborto podría ahorrar hasta un 75% en costos de atención derivadas de embarazos no deseados y complicaciones de abortos clandestinos. Esto subraya la importancia de prevenir embarazos no deseados, y es un llamado a la necesidad de ir más allá, asegurando recursos para atención infantil y maternal. El hecho de que la ley promueva la provisión gratuita de medicamentos, vacunas y leche fortificada es vital para garantizar la salud integral, y se alinea con el principio de justicia social que defendemos desde la Unión por la Patria. Es crucial asegurar que nadie quede fuera del acceso a servicios esenciales de salud, y con esta ley se da un paso hacia adelante en ese camino. Será fundamental contemplar estos datos y seguir el impacto positivo que esta ley pueda generar en la salud pública y el bienestar de las familias argentinas. Por lo tanto, mantengo mi voto a favor de la ley.",
+            "argumentacion": "[Agente de Union Por La Patria]: En esta ronda, quiero centrarme en los argumentos presentados por mis colegas y fortalecer nuestra postura a favor de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia. La ley es un paso fundamental para garantizar la salud y el bienestar de las personas gestantes y niños hasta los tres años. Como se mencionó, la ampliación de la Asignación Universal por Embarazo y el acceso a medicamentos y controles médicos son esenciales para reducir la mortalidad materna e infantil y garantizar el desarrollo saludable de los niños y niñas.  \n\nLos datos del informe prevén un ahorro significativo en el gasto público al reducir complicaciones derivadas de abortos inseguros, lo que demuestra que invertir en educación y salud materno-infantil resulta beneficioso a largo plazo. En cambio, el enfoque liberal de reducir el tamaño del Estado y recortar la asistencia social no solo pone en riesgo la vida de las madres y sus hijos, sino que perpetúa la desigualdad.  \n\nMientras que algunos agentes argumentaron que la asistencia puede generar dependencia, es importante destacar que el acceso a derechos básicos es lo que garantiza la capacidad de las familias para salir de la pobreza. La ley nos acerca a una sociedad más justa y equitativa. Por lo tanto, debo reafirmar mi apoyo a esta ley, ya que protege a los más vulnerables y pone en el centro de la agenda política el cuidado integral en momentos críticos. Mi voto se mantiene a favor de la Ley de los Mil Días.",
             "voto": 4
         },
         "Agente de Izquierda": {
-            "argumentacion": "[Agente de Izquierda]: En esta segunda ronda, refuerzo mi postura a favor de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia. Esta ley, como se analizó en el informe, aborda de manera fundamental la situación crítica de muchas familias en situación de vulnerabilidad. Según el informe, se estima que la legalización del acceso a atención integral podría reducir significativamente el gasto público en atención a embarazos no deseados y complicaciones, lo que es un argumento sólido a favor de su implementación. Además, el enfoque en la protección de los derechos de las personas gestantes y el bienestar de los niños es una necesidad urgente en un contexto donde, como sabemos, la pobreza y la desigualdad continúan en aumento.  Otro dato relevante que se desprende del informe es que un 75% menos en costos de atención podría ser posible. Esta baja en costos es necesaria frente al ajustado presupuesto que el gobierno mantiene en salud. Es fundamental que la implementación de la ley sea acompañada de un aumento real en la financiación del sistema de salud pública, pero este marco legal es un primer paso vital hacia una mejora real en la vida de las familias trabajadoras. Por tanto, reafirmo mi apoyo a la ley, con la exigencia de un financiamiento adecuado y el control obrero sobre su ejecución.",
-            "voto": 4
+            "argumentacion": "[Agente de Izquierda]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días) contiene propuestas que, aunque parecen bienintencionadas, no abordan la raíz de los problemas estructurales que enfrentan las comunidades vulnerables. La Ley IVE, adoptada en 2020, demostró que un enfoque centrado en el acceso seguro y legal a servicios de salud y aborto es esencial para reducir la mortalidad materna e infantil. La legislación equivoca el camino al no cuestionar la desmesurada carga de la deuda con el FMI que este gobierno sostiene, priorizando el ajuste en lugar de la atención integral hacia las familias. Según el informe, se estima que el aborto inseguro representa el 13% de las muertes maternas globales. Sin embargo, la Ley de los Mil Días no aborda las causas que llevan a las personas gestantes a no poder llevar a cabo un embarazo deseado, ni las condiciones que ponen en riesgo su salud. El Estado debe garantizar no solo el acceso a medicamentos y atención médica, sino también condiciones de vida dignas. Y esto es algo que se logra con un verdadero enfoque socialista, con una política que luche por la vida de las y los trabajadores, donde la salud, la educación y el bienestar sean derechos inalienables y no solo asistencialismo. Ante este panorama, mi voto sigue siendo en contra de la ley, ya que no se presentan soluciones estructurales que realmente transformen la vida de las familias trabajadoras y vulnerables.",
+            "voto": 0
         }
     },
     "Round 3": {
         "Agente Liberal": {
-            "propuestas": "1. Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios, permitiendo la elección de proveedores de salud, públicos o privados. 2. Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa que apoyen a las familias en el cuidado de la salud de sus hijos. 3. Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud que promueva la libre elección y la competencia."
+            "propuestas": "Proponemos eliminar la ampliación de la Asignación Universal por Embarazo y, en su lugar, implementar un sistema de bonos de salud que otorgue a las familias la libertad de elegir los servicios que necesiten, fomentando así la competencia en el sector salud. También sugiero la creación de un programa de educación sobre salud y nutrición dirigido a las familias, que les permita tomar decisiones informadas sobre el cuidado de sus hijos. Además, instamos a que se prioricen incentivos fiscales para las empresas que ofrezcan servicios de salud y apoyo a la maternidad, así como para aquellas que implementen programas de capacitación en sus comunidades. Solo así podremos garantizar una verdadera mejora en el bienestar de la población sin caer en el asistencialismo."
         },
         "Agente de Juntos Por El Cambio": {
-            "propuestas": "1. **Sistema de Evaluación y Rendición de Cuentas:** Incorporar un artículo que establezca un sistema de evaluación permanente sobre la implementación y el impacto de la ley, con informes anuales que aseguren la transparencia en el uso de recursos.  \n2. **Capacitación de Profesionales de la Salud:** Incluir un programa de capacitación continua para profesionales de salud que trabajen directamente en el sistema de atención integral, de forma que puedan ofrecer la mejor atención a las familias.  \n3. **Información a las Familias:** Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas, asegurando que comprendan su importancia y puedan utilizarlos correctamente.  \n4. **Fondo Específico:** Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos, con auditorías anuales realizadas por entidades independientes para garantizar la correcta gestión de dichos recursos."
+            "propuestas": "1. Introducir un artículo que establezca un programa de capacitación en salud reproductiva, educación sexual integral y planificación familiar para las familias, orientado a prevenir embarazos no deseados y promover el empoderamiento personal y familiar. 2. Proponer la creación de un sistema de subsidios para la educación prenatal y postnatal que incentive la participación de las familias en programas de formación en salud, evitando así un enfoque meramente asistencial. 3. Asegurar que la provisión de medicamentos gratuitos y otros insumos se haga a través de un sistema que garantice tanto la disponibilidad como una evaluación del uso, evitando el desabastecimiento y optimizando los recursos públicos. 4. Establecer mecanismos de rendición de cuentas y auditoría para la implementación de la ley, incluyendo informes anuales sobre el gasto y el impacto en la salud pública, con un enfoque en la sostenibilidad fiscal."
         },
         "Agente de Union Por La Patria": {
-            "propuestas": "1. Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil, con informes públicos sobre los avances y áreas de mejora. 2. Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley, asegurando que no haya recortes en tiempos de crisis. 3. Proponer la creación de centros de atención integral en comunidades vulnerables que faciliten el acceso a servicios de salud, educación y bienestar, creando espacios donde las familias puedan recibir orientación y apoyo. 4. Inclusión de un programa de educación sobre salud reproductiva y nutrición para las personas gestantes y las familias con niños en la primera infancia, para empoderar y fomentar su autonomía. Todos estos puntos son vitales para asegurar la efectividad de la Ley de los Mil Días en un contexto donde la salud y el bienestar de las familias son prioridad."
+            "propuestas": "Propongo las siguientes modificaciones a la ley: 1. Establecer un sistema de capacitación y sensibilización para profesionales de la salud sobre la atención integral y la importancia de los primeros mil días, garantizando que todos los agentes de salud comprendan y apliquen estas políticas con un enfoque centrado en la familia y la diversidad. 2. Incluir un mecanismo de evaluación y control social, donde las comunidades participen activamente en el seguimiento de los recursos destinados a estas políticas, asegurando transparencia y rendición de cuentas. 3. Incorporar un programa de educación y concientización sobre salud reproductiva y derechos de las mujeres, que complemente el acceso a medicamentos y servicios de salud, fomentando la autonomía de las personas gestantes. 4. Crear un fondo específico dentro del presupuesto nacional que garantice la sostenibilidad de la ley a largo plazo, evitando la dependencia de recursos insuficientes que comprometan su implementación."
         },
         "Agente de Izquierda": {
-            "propuestas": "1. Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley, asegurando que los recursos destinados verdaderamente lleguen a quienes los necesitan. 2. Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias y puntos de distribución gestionados por organizaciones comunitarias y sindicatos, para garantizar acceso directo y evitar la burocracia estatal. 3. Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud, asegurando que no dependa del ajuste presupuesto, sino de impuestos progresivos a las grandes fortunas y patrimonios de los más ricos. 4. Establecer campañas de educación en salud y derechos reproductivos, que sean implementadas y controladas por las organizaciones de mujeres y de trabajadores, para fomentar la concientización y el empoderamiento de las personas gestantes."
+            "propuestas": ""
         }
     },
     "Round 4": {
         "Agente Liberal": {
-            "Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios.": true,
-            "Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa.": true,
-            "Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud.": true,
-            "Incorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley.": true,
-            "Incluir un programa de capacitación continua para profesionales de salud.": true,
-            "Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas.": true,
-            "Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos.": false,
-            "Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil.": true,
-            "Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley.": false,
-            "Proponer la creación de centros de atención integral en comunidades vulnerables.": false,
-            "Inclusión de un programa de educación sobre salud reproductiva y nutrición.": true,
-            "Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley.": false,
-            "Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias gestionadas por organizaciones comunitarias y sindicatos.": false,
-            "Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud.": false,
-            "Establecer campañas de educación en salud y derechos reproductivos.": true
+            "Eliminar la ampliación de la Asignación Universal por Embarazo": true,
+            "Implementar un sistema de bonos de salud": false,
+            "Fomentar la competencia en el sector salud": true,
+            "Crear un programa de educación sobre salud y nutrición": true,
+            "Priorizar incentivos fiscales para empresas que ofrezcan servicios de salud y apoyo a la maternidad": true,
+            "Implementar programas de capacitación en comunidades": false,
+            "Establecer un programa de capacitación en salud reproductiva": false,
+            "Implementar educación sexual integral en las familias": true,
+            "Fomentar la planificación familiar": false,
+            "Crear un sistema de subsidios para educación prenatal": false,
+            "Incentivar la participación familiar en programas de formación en salud": false,
+            "Proporcionar medicamentos y insumos gratuitos asegurando su disponibilidad": false,
+            "Establecer un sistema que evalúe el uso de insumos de salud": true,
+            "Implementar mecanismos de rendición de cuentas": true,
+            "Realizar auditorías sobre la implementación de la ley": true,
+            "Presentar informes anuales sobre gasto e impacto en salud pública": true,
+            "Asegurar sostenibilidad fiscal en la implementación del programa": false,
+            "Establecer un sistema de capacitación y sensibilización para profesionales de la salud sobre la atención integral y la importancia de los primeros mil días.": true,
+            "Incluir un mecanismo de evaluación y control social que permita la participación activa de las comunidades en el seguimiento de los recursos destinados a las políticas de salud.": false,
+            "Incorporar un programa de educación y concientización sobre salud reproductiva y derechos de las mujeres, complementando el acceso a medicamentos y servicios de salud.": false,
+            "Crear un fondo específico dentro del presupuesto nacional que garantice la sostenibilidad de la ley a largo plazo.": false
         },
         "Agente de Juntos Por El Cambio": {
-            "Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios.": false,
-            "Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa.": true,
-            "Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud.": false,
-            "Incorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley.": true,
-            "Incluir un programa de capacitación continua para profesionales de salud.": true,
-            "Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas.": true,
-            "Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos.": true,
-            "Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil.": true,
-            "Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley.": true,
-            "Proponer la creación de centros de atención integral en comunidades vulnerables.": true,
-            "Inclusión de un programa de educación sobre salud reproductiva y nutrición.": true,
-            "Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley.": true,
-            "Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias gestionadas por organizaciones comunitarias y sindicatos.": false,
-            "Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud.": true,
-            "Establecer campañas de educación en salud y derechos reproductivos.": true
+            "Eliminar la ampliación de la Asignación Universal por Embarazo": false,
+            "Implementar un sistema de bonos de salud": true,
+            "Fomentar la competencia en el sector salud": true,
+            "Crear un programa de educación sobre salud y nutrición": true,
+            "Priorizar incentivos fiscales para empresas que ofrezcan servicios de salud y apoyo a la maternidad": true,
+            "Implementar programas de capacitación en comunidades": true,
+            "Establecer un programa de capacitación en salud reproductiva": true,
+            "Implementar educación sexual integral en las familias": true,
+            "Fomentar la planificación familiar": true,
+            "Crear un sistema de subsidios para educación prenatal": true,
+            "Incentivar la participación familiar en programas de formación en salud": true,
+            "Proporcionar medicamentos y insumos gratuitos asegurando su disponibilidad": true,
+            "Establecer un sistema que evalúe el uso de insumos de salud": true,
+            "Implementar mecanismos de rendición de cuentas": true,
+            "Realizar auditorías sobre la implementación de la ley": true,
+            "Presentar informes anuales sobre gasto e impacto en salud pública": true,
+            "Asegurar sostenibilidad fiscal en la implementación del programa": true,
+            "Establecer un sistema de capacitación y sensibilización para profesionales de la salud sobre la atención integral y la importancia de los primeros mil días.": true,
+            "Incluir un mecanismo de evaluación y control social que permita la participación activa de las comunidades en el seguimiento de los recursos destinados a las políticas de salud.": true,
+            "Incorporar un programa de educación y concientización sobre salud reproductiva y derechos de las mujeres, complementando el acceso a medicamentos y servicios de salud.": true,
+            "Crear un fondo específico dentro del presupuesto nacional que garantice la sostenibilidad de la ley a largo plazo.": true
         },
         "Agente de Union Por La Patria": {
-            "Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios.": false,
-            "Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa.": false,
-            "Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud.": true,
-            "Incorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley.": true,
-            "Incluir un programa de capacitación continua para profesionales de salud.": true,
-            "Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas.": true,
-            "Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos.": true,
-            "Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil.": true,
-            "Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley.": true,
-            "Proponer la creación de centros de atención integral en comunidades vulnerables.": true,
-            "Inclusión de un programa de educación sobre salud reproductiva y nutrición.": true,
-            "Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley.": true,
-            "Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias gestionadas por organizaciones comunitarias y sindicatos.": true,
-            "Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud.": true,
-            "Establecer campañas de educación en salud y derechos reproductivos.": true
+            "Eliminar la ampliación de la Asignación Universal por Embarazo": false,
+            "Implementar un sistema de bonos de salud": false,
+            "Fomentar la competencia en el sector salud": false,
+            "Crear un programa de educación sobre salud y nutrición": true,
+            "Priorizar incentivos fiscales para empresas que ofrezcan servicios de salud y apoyo a la maternidad": false,
+            "Implementar programas de capacitación en comunidades": true,
+            "Establecer un programa de capacitación en salud reproductiva": true,
+            "Implementar educación sexual integral en las familias": true,
+            "Fomentar la planificación familiar": true,
+            "Crear un sistema de subsidios para educación prenatal": true,
+            "Incentivar la participación familiar en programas de formación en salud": true,
+            "Proporcionar medicamentos y insumos gratuitos asegurando su disponibilidad": true,
+            "Establecer un sistema que evalúe el uso de insumos de salud": true,
+            "Implementar mecanismos de rendición de cuentas": true,
+            "Realizar auditorías sobre la implementación de la ley": true,
+            "Presentar informes anuales sobre gasto e impacto en salud pública": true,
+            "Asegurar sostenibilidad fiscal en la implementación del programa": true,
+            "Establecer un sistema de capacitación y sensibilización para profesionales de la salud sobre la atención integral y la importancia de los primeros mil días.": true,
+            "Incluir un mecanismo de evaluación y control social que permita la participación activa de las comunidades en el seguimiento de los recursos destinados a las políticas de salud.": true,
+            "Incorporar un programa de educación y concientización sobre salud reproductiva y derechos de las mujeres, complementando el acceso a medicamentos y servicios de salud.": true,
+            "Crear un fondo específico dentro del presupuesto nacional que garantice la sostenibilidad de la ley a largo plazo.": true
         },
         "Agente de Izquierda": {
-            "Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios.": false,
-            "Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa.": false,
-            "Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud.": false,
-            "Incorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley.": true,
-            "Incluir un programa de capacitación continua para profesionales de salud.": true,
-            "Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas.": true,
-            "Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos.": true,
-            "Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil.": true,
-            "Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley.": true,
-            "Proponer la creación de centros de atención integral en comunidades vulnerables.": true,
-            "Inclusión de un programa de educación sobre salud reproductiva y nutrición.": true,
-            "Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley.": true,
-            "Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias gestionadas por organizaciones comunitarias y sindicatos.": true,
-            "Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud.": true,
-            "Establecer campañas de educación en salud y derechos reproductivos.": true
+            "Eliminar la ampliación de la Asignación Universal por Embarazo": false,
+            "Implementar un sistema de bonos de salud": false,
+            "Fomentar la competencia en el sector salud": false,
+            "Crear un programa de educación sobre salud y nutrición": true,
+            "Priorizar incentivos fiscales para empresas que ofrezcan servicios de salud y apoyo a la maternidad": false,
+            "Implementar programas de capacitación en comunidades": false,
+            "Establecer un programa de capacitación en salud reproductiva": true,
+            "Implementar educación sexual integral en las familias": true,
+            "Fomentar la planificación familiar": true,
+            "Crear un sistema de subsidios para educación prenatal": true,
+            "Incentivar la participación familiar en programas de formación en salud": true,
+            "Proporcionar medicamentos y insumos gratuitos asegurando su disponibilidad": true,
+            "Establecer un sistema que evalúe el uso de insumos de salud": true,
+            "Implementar mecanismos de rendición de cuentas": false,
+            "Realizar auditorías sobre la implementación de la ley": true,
+            "Presentar informes anuales sobre gasto e impacto en salud pública": true,
+            "Asegurar sostenibilidad fiscal en la implementación del programa": true,
+            "Establecer un sistema de capacitación y sensibilización para profesionales de la salud sobre la atención integral y la importancia de los primeros mil días.": true,
+            "Incluir un mecanismo de evaluación y control social que permita la participación activa de las comunidades en el seguimiento de los recursos destinados a las políticas de salud.": true,
+            "Incorporar un programa de educación y concientización sobre salud reproductiva y derechos de las mujeres, complementando el acceso a medicamentos y servicios de salud.": true,
+            "Crear un fondo específico dentro del presupuesto nacional que garantice la sostenibilidad de la ley a largo plazo.": true
         }
+    },
+    "proposals_por_agente": {
+        "Eliminar la ampliación de la Asignación Universal por Embarazo": "Agente Liberal",
+        "Implementar un sistema de bonos de salud": "Agente Liberal",
+        "Fomentar la competencia en el sector salud": "Agente Liberal",
+        "Crear un programa de educación sobre salud y nutrición": "Agente Liberal",
+        "Priorizar incentivos fiscales para empresas que ofrezcan servicios de salud y apoyo a la maternidad": "Agente Liberal",
+        "Implementar programas de capacitación en comunidades": "Agente Liberal",
+        "Establecer un programa de capacitación en salud reproductiva": "Agente de Juntos Por El Cambio",
+        "Implementar educación sexual integral en las familias": "Agente de Juntos Por El Cambio",
+        "Fomentar la planificación familiar": "Agente de Juntos Por El Cambio",
+        "Crear un sistema de subsidios para educación prenatal": "Agente de Juntos Por El Cambio",
+        "Incentivar la participación familiar en programas de formación en salud": "Agente de Juntos Por El Cambio",
+        "Proporcionar medicamentos y insumos gratuitos asegurando su disponibilidad": "Agente de Juntos Por El Cambio",
+        "Establecer un sistema que evalúe el uso de insumos de salud": "Agente de Juntos Por El Cambio",
+        "Implementar mecanismos de rendición de cuentas": "Agente de Juntos Por El Cambio",
+        "Realizar auditorías sobre la implementación de la ley": "Agente de Juntos Por El Cambio",
+        "Presentar informes anuales sobre gasto e impacto en salud pública": "Agente de Juntos Por El Cambio",
+        "Asegurar sostenibilidad fiscal en la implementación del programa": "Agente de Juntos Por El Cambio",
+        "Establecer un sistema de capacitación y sensibilización para profesionales de la salud sobre la atención integral y la importancia de los primeros mil días.": "Agente de Union Por La Patria",
+        "Incluir un mecanismo de evaluación y control social que permita la participación activa de las comunidades en el seguimiento de los recursos destinados a las políticas de salud.": "Agente de Union Por La Patria",
+        "Incorporar un programa de educación y concientización sobre salud reproductiva y derechos de las mujeres, complementando el acceso a medicamentos y servicios de salud.": "Agente de Union Por La Patria",
+        "Crear un fondo específico dentro del presupuesto nacional que garantice la sostenibilidad de la ley a largo plazo.": "Agente de Union Por La Patria"
     },
     "Round 5": {
         "Agente Liberal": {
-            "argumentacion": "[Agente Liberal]: A pesar de que se han realizado varias modificaciones que podrían contribuir a una gestión más eficiente y responsable de esta ley, el fundamento ideológico de la misma sigue siendo paternalista, ya que esencialmente perpetúa la dependencia estatal de las familias hacia el gobierno. Las propuestas de evaluación y capacitación son positivas, pero no abordan la raíz del problema que es la necesidad de empoderar a las familias mediante la reducción del tamaño del Estado y la promoción de la libre elección en el acceso a los servicios. Proveer subsidios, aumentar los gastos públicos y crear mecanismos de control estatal siguen sin alentar la responsabilidad individual y la autonomía de las familias. Por lo tanto, en atención a los principios del liberalismo y la defensa de la propiedad privada y la libertad individual, no puedo votar a favor de esta ley, incluso con las modificaciones.",
+            "argumentacion": "[Agente Liberal]: A pesar de las modificaciones que se han agregado a la ley original, que incluyen programas de educación y capacitación, sostengo que el enfoque principal de la ley sigue siendo el asistencialismo estatal. Aunque la creación de programas de educación sobre salud y nutrición es positiva, no cambia el hecho de que la ley implica un aumento en la intervención del Estado y la dependencia de las familias de la asistencia pública. Las modificaciones, aunque bien intencionadas, no abordan el problema principal de la dependencia del Estado y la insuficiencia de incentivos para la iniciativa individual. La implementación de un sistema que evalúe el uso de insumos de salud y mecanismos de rendición de cuentas es fundamental, pero no compensa el hecho de que esta ley se basa en un modelo que perpetúa la falta de responsabilidad individual y el asistencialismo. Como liberal, considero que debemos promover el empoderamiento mediante la reducción del tamaño del Estado y el aumento de las libertades individuales. Por lo tanto, mi voto se mantiene en contra.",
             "voto": 0
         },
         "Agente de Juntos Por El Cambio": {
-            "argumentacion": "[Agente de Juntos Por El Cambio]: Después de analizar las modificaciones realizadas a la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, creo que los cambios propuestos son positivos y necesarios para asegurar la correcta implementación y evaluación de la ley. La incorporación de un sistema de evaluación permanente y la capacitación continua para profesionales de salud garantizarán que los recursos se utilicen eficientemente y que se brinde una atención real y de calidad a las familias. Además, crear campañas de comunicación para instruir a las familias sobre el uso de medicamentos y vacunas es esencial para empoderarlas en el cuidado de su salud y la de sus hijos. Las propuestas de crear centros de atención integral en comunidades vulnerables y establecer un mecanismo de control obrero y comunitario demuestran un compromiso con la equidad y la inclusión, aspectos que valoro profundamente. Considero que la presencia de un fondo específico para financiar la atención integral de la salud es crucial para prevenir recortes presupuestarios, garantizando que las políticas se mantengan en el tiempo sin depender de ajustes fiscales. Si bien tengo mis reservas sobre algunas disposiciones originales de la ley, creo que con las modificaciones realizadas se ha mejorado considerablemente su enfoque. Por lo tanto, voto a favor de la nueva ley, ya que promueve un modelo más integral y responsable que puede beneficiar a muchas familias en Argentina.",
+            "argumentacion": "[Agente de Juntos Por El Cambio]: Considerando que una serie de modificaciones significativas han sido incorporadas a la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, debo reconocer que el enfoque de las propuestas se alinea más con lo que valoramos en Juntos por el Cambio: el empoderamiento de las familias, la promoción de la educación y la capacitación, y una gestión responsable y transparente del gasto público. La inclusión de programas de educación sobre salud y nutrición, capacitación en salud reproductiva, y la evaluación del uso de insumos son medidas que van en la dirección correcta para garantizar un impacto positivo en la salud de las personas gestantes y de los niños. Además, la creación de un fondo específico para asegurar la sostenibilidad fiscal de la ley es un cambio crítico que muestra un compromiso con la responsabilidad fiscal, lo que es fundamental para nuestra posición. No obstante, me mantengo alerta sobre cómo se implementarán estos programas, pero confío en que la ley, con estas modificaciones, puede ser una herramienta para construir una sociedad más justa y equitativa. Por lo tanto, votaré a favor de la ley con las modificaciones incorporadas, ya que hemos logrado encontrar un equilibrio entre la acción del Estado y la responsabilidad individual.",
             "voto": 4
         },
         "Agente de Union Por La Patria": {
-            "argumentacion": "[Agente de Union Por La Patria]: La aprobación de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, con las modificaciones incorporadas, representa un avance fundamental hacia una política pública de bienestar integral y justicia social. Las propuestas de creación de un sistema de evaluación permanente, capacitación para profesionales, campañas de comunicación y educación sobre derechos reproductivos aseguran que la ley sea efectiva y se ajuste a las necesidades de las familias. Además, el establecimiento de fondos específicos y un mecanismo de control obrero refuerzan el compromiso con la transparencia y la accesibilidad, cuestiones esenciales en el contexto actual de vulnerabilidad. En este sentido, al fiscalizar y evaluar el impacto, se asegura que la política pública realmente responda a la problemática que busca abordar. Por todo esto, declaro mi voto a favor, ya que creo firmemente en la importancia de cuidar de nuestras familias y de construir un país más inclusivo y equitativo.",
+            "argumentacion": "[Agente de Union Por La Patria]: Hoy, tras la deliberación y el intercambio de propuestas, puedo sostener que la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, incorporando las modificaciones acordadas, se convierte en una herramienta robusta para garantizar la salud y el bienestar de los sectores más vulnerables de nuestra sociedad. Estas modificaciones enriquecerán el enfoque integral de la ley al no solo proporcionar atención médica, sino también educación sobre salud y nutrición, capacitación en salud reproductiva, y mecanismos de control social que fomenten la transparencia y la participación de la comunidad. Estas medidas son coherentes con los principios de justicia social y equidad que defendemos desde la Unión por la Patria. En suma, este enfoque garantiza que las familias recibirán no solo apoyo en salud, sino también conocimientos y herramientas necesarias para tomar decisiones informadas y empoderar su autonomía. Por todo esto, voto a favor de la Ley de los Mil Días con las modificaciones incorporadas.",
             "voto": 4
         },
         "Agente de Izquierda": {
-            "argumentacion": "[Agente de Izquierda]: A partir de las modificaciones aceptadas, la ley 'Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia' se convierte en una herramienta más robusta y efectiva para garantizar el bienestar de las personas gestantes y sus hijos e hijas. Las incorporaciones propuestas, como el establecimiento de un sistema de evaluación permanente, programas de capacitación continua para el personal de salud, y la creación de campañas educativas, son cruciales para asegurar que la implementación se realice de manera efectiva y transparente. Además, el establecimiento de centros de atención integral en comunidades vulnerables responde a una necesidad urgente de acceso a servicios de salud adecuados para quienes más lo necesitan. La creación de un fondo específico para la provisión de medicamentos y la inclusión del control obrero y comunitario añaden capas de garantía de que los recursos se gestionen de manera justa y equitativa. Por lo tanto, consideramos que esta ley ahora incorpora las herramientas necesarias para abordar la crisis actual en salud infantil y maternal, y es un paso hacia la construcción de una sociedad más justa y equitativa para el pueblo trabajador. Por lo tanto, voy a votar a favor de la ley.",
+            "argumentacion": "[Agente de Izquierda]: La inclusión de las modificaciones propuestas en la ley mejora significativamente el enfoque integral hacia la salud y el bienestar de las personas gestantes y de los niños durante los primeros mil días. La implementación de un programa de educación sobre salud y nutrición, educación sexual integral y planificación familiar es esencial para empoderar a las familias y garantizar un acceso más informado y consciente a los servicios de salud. Además, establecer mecanismos de rendición de cuentas, auditorías y la participación activa de las comunidades en el seguimiento de los recursos fortalece la transparencia y democratiza el acceso al bienestar social. Por lo tanto, con estas modificaciones, la ley no sólo mejora las condiciones de salud, sino que también combate la desigualdad y promueve un enfoque más justo y equitativo en la política de salud pública. Estoy de acuerdo en que el Estado debe garantizar derechos básicos y que estas modificaciones son consistentes con la lucha por un sistema más humano y solidario. Con base en las profundas transformaciones que propone esta nueva versión de la ley, mi voto es a favor.",
             "voto": 4
+        }
+    },
+    "Round 6": {
+        "Agente Liberal": {
+            "argumentacion": "[Agente Liberal]: A pesar de las buenas intenciones detrás de las modificaciones propuestas, la esencia de la Ley de los Mil Días sigue siendo asistencialista y paternalista. Aunque se han incorporado elementos positivos como la educación y la capacitación, sigo considerando que la ley en su conjunto perpetúa la dependencia del Estado en lugar de fomentar la autonomía y el empoderamiento de las familias. Propuestas como el programa de educación sobre salud son valiosas, pero no son suficientes para justificar la expansión del gasto público y la intervención del Estado en la vida privada de las personas. La verdadera solución a los problemas de salud y bienestar requiere un enfoque que promueva la iniciativa privada, la reducción de impuestos y el estímulo a la generación de empleo. La ley aún refuerza la idea de que el Estado es el único proveedor de bienestar, lo que no alinea con principios del liberalismo. Por estas razones, mi voto es en contra de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días), incluso con las modificaciones propuestas.",
+            "voto": 0
+        },
+        "Agente de Juntos Por El Cambio": {
+            "argumentacion": "[Agente de Juntos Por El Cambio]: Después de analizar las propuestas adicionales que se incorporarán a la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, creo que estas modificaciones fortalecen la ley de manera significativa. Las propuestas para implementar programas de educación sobre salud y nutrición, capacitación en salud reproductiva, y la promoción de la planificación familiar son vitales para empoderar a las familias y garantizar un enfoque integral en la salud. También valoro la inclusión de mecanismos de rendición de cuentas que aseguren la transparencia y la correcta utilización de los recursos destinados a estas políticas públicas. Estos cambios reflejan un compromiso con la responsabilidad fiscal y la sostenibilidad, garantizando que el Estado cumpla efectivamente su rol sin caer en el asistencialismo. Por ello, mi voto es a favor de la ley, respaldando así un enfoque que combina la ayuda estatal con la formación y capacitación necesaria para mejorar la calidad de vida de aquellas familias más vulnerables.",
+            "voto": 4
+        },
+        "Agente de Union Por La Patria": {
+            "argumentacion": "[Agente de Union Por La Patria]: Después de analizar las modificaciones propuestas y considerando que todas las recomendaciones incorporadas refuerzan la integralidad y el enfoque de derechos de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, estoy convencido de que dichas propuestas no solo mejoran la ley, sino que también la alinean más al principio de justicia social que defendemos. La creación de programas de educación sobre salud y nutrición, así como la capacitación de profesionales, son esenciales para garantizar que las familias y los niños accedan a una atención de calidad. Además, el enfoque en la rendición de cuentas y la evaluación continua asegura que los recursos se utilicen de forma efectiva, aumentando la transparencia y la confianza en el sistema. Las modificaciones abordan preocupaciones clave sin desvirtuar el propósito central de la ley, que es proteger y acompañar a las poblaciones más vulnerables. En consecuencia, votamos a favor de esta ley con las modificaciones incorporadas, reafirmando nuestro compromiso con la justicia social y la defensa de los derechos humanos.",
+            "voto": 4
+        },
+        "Agente de Izquierda": {
+            "argumentacion": "[Agente de Izquierda]: Si bien reconozco que las modificaciones propuestas incorporan aspectos positivos, como la capacitación en salud reproductiva y la educación sobre derechos de las mujeres, sigo considerando que la Ley de los Mil Días no aborda de manera suficiente las profundas desigualdades estructurales que enfrentan las familias trabajadoras. La implementación de programas de salud y educación es necesaria, pero no es suficiente si no cuestionamos el modelo de dependencia del Estado y el rol del capital en la vida de las personas. El enfoque sigue siendo asistencialista, dejando sin abordar la raíz de los problemas sociales y de salud que enfrentamos. La ausencia de un cambio en las políticas económicas que prioricen el bienestar popular en lugar de la austeridad fiscal y la deuda con el FMI es una omisión crucial. Por lo tanto, a pesar de las mejoras que se han propuesto, mi voto sigue siendo en contra. La verdadera transformación social requiere un enfoque más radical y soluciones estructurales.",
+            "voto": 0
         }
     },
     "Debate Completo": [
@@ -157,7 +222,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente Liberal]: La ley 'Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia' se fundamenta en un intervencionismo estatal excesivo que perpetúa la dependencia de las familias del Estado. Argumento en contra de la ampliación de la Asignación Universal por Embarazo, ya que esto incrementa el gasto público sin abordar las verdaderas causas de la pobreza. Proporcionar medicamentos, vacunas y leches gratuitamente subestima la capacidad de las familias y socava el valor de la propiedad privada, fomentando un sistema que puebla a los ciudadanos con subsidios en lugar de oportunidades. El verdadero bienestar se promueve a través de un entorno donde los mercados libres pueden operar, permitiendo a las familias elegir y pagar por la atención que consideran adecuada. Así, el foco debería estar en reducir el tamaño del Estado y permitir la libre competencia en el sector salud, no en aumentar la carga fiscal para financiar medidas paternalistas que a la larga generan más dependencia. En consecuencia, voto en contra de esta ley ya que no promueve la autonomía y el desarrollo personal de las familias argentinas, sino que refuerza un ciclo de dependencia.-"
+            "content": "[Agente Liberal]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, aunque parece tener buenas intenciones de proteger a los más vulnerables, en realidad expande la intervención del Estado en áreas que deben ser gestionadas en el ámbito privado y familiar. En primer lugar, la ampliación de la Asignación Universal por Embarazo implica un gasto público adicional que podría utilizarse mejor de otras maneras, como en la disminución de impuestos para incentivar la actividad privada y la creación de empleo. La provisión gratuita de medicamentos y servicios de salud, aunque positiva en la prevención de enfermedades, crea una dependencia que atenta contra la iniciativa individual y promueve un estado paternalista que inhibe la responsabilidad personal. Los sistemas de seguimiento y control sanitario requieren financiación que proviene de los contribuyentes, posiblemente desincentivando el esfuerzo individual y alimentando la burocracia estatal. En lugar de imponer estas políticas centralizadas, deberíamos fomentar la competencia en el sector salud y permitir que las familias dispongan de los recursos necesarios para acceder a los servicios que consideran adecuados. Por lo tanto, la ley no solo representa un aumento del tamaño del Estado, sino que también disminuye las libertades individuales al intervenir en la vida de las personas en momentos críticos. Voto: En contra."
         },
         {
             "role": "user",
@@ -165,7 +230,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, o Ley de los Mil Días, plantea objetivos loables en términos de salud materna e infantil. Sin embargo, es fundamental analizar el enfoque desde el cual se aborda esta problemática. Si bien la ampliación de la Asignación Universal por Embarazo y la provisión de medicamentos esenciales son medidas positivas, su implementación sin un análisis riguroso podría llevar a un aumento del gasto público sin garantizar resultados efectivos. Por lo tanto, propongo un enfoque en el que se priorice la eficiencia y la transparencia en el uso de los recursos públicos. Debemos asegurarnos de que se establezcan mecanismos de control específicos que permitan evaluar el impacto de estas políticas en la reducción de la mortalidad materna e infantil. Además, la promoción de la salud no puede enfocarse exclusivamente en la entrega de recursos, sino que debe incluir la mejora del sistema de salud en general, priorizando la formación y capacitación de los profesionales de la salud. Además, estaría de acuerdo en incluir a las familias en el proceso de educación sobre la salud infantil, a fin de empoderarlas para que puedan acompañar y promover el bienestar de sus hijos. Por estas razones, mi voto es en contra."
+            "content": "[Agente de Juntos Por El Cambio]: La Ley de los Mil Días tiene intenciones que en principio parecen altruistas y necesarias; sin embargo, debemos ser cautelosos con su implementación. La ampliación de la Asignación Universal por Embarazo puede resultar en un gasto público insostenible, lo cual es un problema grave dado el déficit fiscal que enfrentaArgentina. Además, la provisión gratuita de medicamentos y alimentos sin un control riguroso de cómo se gestionan estos recursos corre el riesgo de generarinnecesarios costos al Estado y de caer en la dependencia asistencialista. Por otro lado, el enfoque sobre la atención integral es positivo en sí mismo, pero debemos garantizar que estas políticas no desincentiven la participación del sector privado en la salud. La educación y la responsabilidad familiar deben ser pilares de la cultura del cuidado, y la intervención estatal debe ser equilibrada y no sobre la base de la asistencia sin límites."
         },
         {
             "role": "user",
@@ -173,7 +238,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Union Por La Patria]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días) se inscribe en una política de justicia social que busca garantizar el bienestar de los sectores más vulnerables de nuestra sociedad. Al ampliar la Asignación Universal por Embarazo y proporcionar medicamentos esenciales, vacunas y leche fortificada, la ley responde a una necesidad urgente: la reducción de la mortalidad materna e infantil y la mejora en la calidad de vida de las familias en contextos de vulnerabilidad. Esta es una manifestación clara del compromiso del Estado con la salud integral, asumiendo su rol como garante de derechos y bienestar social. Además, el fortalecimiento de los controles médicos prenatales y postnatales es esencial para asegurar que se brinde la atención adecuada durante los primeros mil días de vida, una etapa crucial en el desarrollo infantil. Promover esta ley significa priorizar la vida y proteger a quienes más lo necesitan, lo que está en el corazón del justicialismo. Por lo tanto, estoy a favor de esta ley, ya que apuesta a un futuro con más igualdad y oportunidades para todos."
+            "content": "[Agente de Union Por La Patria]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días) es una iniciativa fundamental para garantizar la salud y el bienestar de las mujeres durante el embarazo y de los niños y niñas hasta los tres años, periodos críticos para el desarrollo físico y emocional. Esta ley no sólo amplía la Asignación Universal por Embarazo para cubrir toda la gestación, lo cual es vital para asegurar que las familias cuenten con recursos económicos para enfrentar este período, sino que también garantiza el acceso gratuito a medicamentos esenciales, vacunas y leche fortificada, aspectos cruciales para reducir la mortalidad materna e infantil. Además, el fortalecimiento del acceso a controles médicos prenatales y postnatales es clave para detectar y abordar riesgos sanitarios de manera temprana, sobre todo en contextos vulnerables. Estas medidas son consistentes con nuestro compromiso con la justicia social y la equidad, fortaleciendo el rol del Estado como garante de derechos y como actor presente en el cuidado de los más vulnerables. La implementación de un sistema de seguimiento para detectar riesgos sanitarios y sociales también es un paso en la dirección correcta para acompañar a las familias en una etapa tan crucial de sus vidas. Por todas estas razones, considero que esta ley es un baluarte de inclusión y justicia social. Por lo tanto, mi voto es a favor de la Ley de los Mil Días."
         },
         {
             "role": "user",
@@ -181,7 +246,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Izquierda]: Desde el Frente de Izquierda y de Trabajadores - Unidad (FIT-U), consideramos que la ley 'Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días)' es un avance importante en la lucha por los derechos de las personas gestantes y de los niños desde su nacimiento hasta los tres años. Esta ley busca garantizar acceso a servicios esenciales de salud y bienestar en un contexto donde el gobierno y las patronales han demostrado ser incapaces de resguardar estas necesidades básicas. Sin embargo, también expresa elementos que deben ser profundizados y expurgados del entramado neoliberal en el que se inserta. La ampliación de la Asignación Universal por Embarazo es un paso positivo, pero exigimos que esta mejora no se haga en un marco de ajuste fiscal y recorte de derechos. Para que las medidas sean efectivas, deben ser respaldadas por un aumento real en el presupuesto destinado a salud y no estar sometidas a las condiciones impuestas por el FMI y las exigencias capitalistas. La provisión gratuita de medicamentos esenciales, vacunas y leche fortificada son derechos que deben ser garantizados incondicionalmente. Finalmente, el seguimiento de riesgos sanitarios y sociales es crucial, pero debe ejecutarse bajo el control de trabajadores y organizaciones comunitarias, no de las estructuras tradicionales que pueden terminar perpetuando las desigualdades. Por todas estas razones, expreso mi apoyo a la ley, aunque exigiendo que se aborde de manera integral y con un financiamiento que no dependa de las exigencias del capital."
+            "content": "[Agente de Izquierda]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días) es una medida que, aunque presenta ciertos aspectos positivos, no aborda la raíz de los problemas que enfrentan las familias en situación de vulnerabilidad. Aunque la ampliación de la Asignación Universal por Embarazo y la provisión de medicamentos esenciales son pasos necesarios, deben ser parte de un enfoque más integral que ataque la desigualdad estructural y el ajuste que sufren las clases trabajadoras. El gobierno actual, en complicidad con los sectores capitalistas, aplica un ajuste brutal y destina grandes cantidades de recursos a la deuda externa, dejando en segundo plano las necesidades esenciales de la población. La verdadera solución pasa por un cambio de modelo, donde la salud, la educación y el bienestar integral estén garantizados por un Estado socialista que priorice la vida de los trabajadores y no el beneficio de los capitalistas. La implementación de estas medidas requiere un sistema de salud nacionalizado, bajo control de los trabajadores, que se asegure del acceso universal y gratuito a todas las personas. Por consiguiente, mi voto es en contra de esta ley."
         },
         {
             "role": "user",
@@ -197,7 +262,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente Liberal]: La Ley de los Mil Días, aunque busca objetivos importantes como la reducción de mortalidad materna e infantil, se basa en un enfoque intervencionista que no resuelve el problema de fondo. En primer lugar, la ampliación de la Asignación Universal por Embarazo se traduce en un gasto público adicional, lo que genera inflación y una carga fiscal que afecta a todos los ciudadanos. Es importante mencionar que el informe destaca que la legalización del aborto en otros contextos ha permitido la reducción del gasto público en abortos inseguros, lo que indicaría que una política de salud pública adecuada y la promoción de la responsabilidad personal pueden ser más efectivas que la intervención directa del estado. Por otro lado, otorgar medicamentos y leches gratuitas debe ser revisado; no se menciona cómo se financiarán estas provisiones sin comprometer aún más el presupuesto estatal. El verdadero empoderamiento de las familias viene a través de la responsabilidad individual y la elección en el mercado, no de subsidios que refuercen la dependencia estatal. Por ello, mantengo mi voto en contra de esta ley."
+            "content": "[Agente Liberal]: La Ley de los Mil Días se basa en un enfoque paternalista que perpetúa la dependencia del Estado y establece una burocracia que interviene en la vida de las familias. Si bien se podría argumentar que la asistencia es necesaria para las personas en situaciones vulnerables, es crucial entender que la solución a la pobreza y las dificultades no reside en aumentar la asistencia pública, sino en fomentar la creación de empleo y la iniciativa privada. Al proporcionar recursos y servicios gratis, la ley desalienta el esfuerzo personal y continúa con la idea de que solo el Estado puede proporcionar lo que las familias necesitan. Por otro lado, citando datos del informe, se menciona que la legalización del aborto (en otro contexto) podría reducir costos de atención, pero eso no se traduce necesariamente en una mejor solución en el ámbito de la salud integral para madres e hijos. En lugar de garantizar un enfoque de bienestar y educación familiar, se refuerza la idea de dependencia en la asistencia estatal. Por lo tanto, al analizar los argumentos de la izquierda que proponen la intervención estatal masiva y la necesidad de regulaciones, así como las aseveraciones de los otros agentes sobre la salud, es importante contrarrestar que la solución real está en promover un entorno económico que permita a las familias mejorar su calidad de vida a través del trabajo y la responsabilidad individual, y no a través de subsidios y asistencialismo. Por lo tanto, mantengo mi postura y voto en contra de la ley."
         },
         {
             "role": "user",
@@ -205,7 +270,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio]: Si bien comparto la preocupación por la atención integral a las personas gestantes y a la primera infancia, así como la importancia de la salud pública y la equidad social, quiero destacar que la implementación de la Ley de los Mil Días no debe significar un incremento incontrolado del gasto público. La ampliación de la Asignación Universal por Embarazo y la provisión gratuita de medicamentos y vacunas, si bien son buenas en intención, requieren de un marco de control que garantice su eficacia y asegure que se utilicen los recursos públicos de forma eficiente. En este sentido, considero que es fundamental la rendición de cuentas y la transparencia en la ejecución de estas políticas, así como la creación de un sistema de evaluación de impactos que asegure que se están alcanzando los objetivos propuestos, especialmente en lo que respecta a la salud materna e infantil. Por otro lado, los datos proporcionados en el informe muestran una relación directa entre la inseguridad alimentaria y la salud de niños y madres, lo que implica que hay que atacar también las causas estructurales de la pobreza más allá de la mera asistencia. Esto es fundamental para promover su autonomía y su desarrollo. Debemos tener un enfoque claro en la generación de oportunidades y el fortalecimiento de las instituciones de salud en lugar de solo aumentar los subsidios. Por estas razones, mantengo mi voto en contra de la ley, enfatizando que necesitamos soluciones integrales y sostenibles para nuestro país."
+            "content": "[Agente de Juntos Por El Cambio]: En esta ronda, destaco que la Ley de los Mil Días presenta intenciones positivas al buscar garantizar la salud y bienestar de las personas gestantes y niños hasta los tres años. Sin embargo, es fundamental abordar la ley con una perspectiva crítica. El informe presenta datos que indican que la legalización del aborto, y prácticas similares, puede impactar en el gasto público. Por un lado, se menciona que la regulación podría ahorrar hasta un 75% en costos de atención por complicaciones derivadas de abortos clandestinos. No obstante, debemos ser cautelosos: si bien esto suena atractivo, la experiencia indica que el aumento del gasto en programas de salud pública a largo plazo puede generar un desbalance fiscal, algo que Argentina ya enfrenta con preocupación.\n\nAdemás, al abordar el acceso a medicamentos y controles médicos, hay que considerar que esto no debe ser a expensas de la autonomía individual y la iniciativa privada. La promoción del bienestar debe estar acompañada de programas de educación integral y promoción de la responsabilidad familiar, para evitar la dependencia del Estado. Es esencial garantizar la sostenibilidad del gasto público y no generar una carga adicional sin un plan claro de financiamiento y responsabilidad fiscal. Así, sostiene la crítica al paternalismo del Estado que puede resultar de su implementación."
         },
         {
             "role": "user",
@@ -213,7 +278,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Union Por La Patria]: En esta segunda ronda, reafirmo mi postura a favor de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días), debido a la relevancia de sus disposiciones para la mejora de las condiciones de vida de las personas gestantes y de los niños y niñas hasta tres años. El informe proporciona datos concretos que resaltan la necesidad de políticas públicas robustas en salud, especialmente en contextos de vulnerabilidad. Según el informe, la legalización del aborto podría ahorrar hasta un 75% en costos de atención derivadas de embarazos no deseados y complicaciones de abortos clandestinos. Esto subraya la importancia de prevenir embarazos no deseados, y es un llamado a la necesidad de ir más allá, asegurando recursos para atención infantil y maternal. El hecho de que la ley promueva la provisión gratuita de medicamentos, vacunas y leche fortificada es vital para garantizar la salud integral, y se alinea con el principio de justicia social que defendemos desde la Unión por la Patria. Es crucial asegurar que nadie quede fuera del acceso a servicios esenciales de salud, y con esta ley se da un paso hacia adelante en ese camino. Será fundamental contemplar estos datos y seguir el impacto positivo que esta ley pueda generar en la salud pública y el bienestar de las familias argentinas. Por lo tanto, mantengo mi voto a favor de la ley."
+            "content": "[Agente de Union Por La Patria]: En esta ronda, quiero centrarme en los argumentos presentados por mis colegas y fortalecer nuestra postura a favor de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia. La ley es un paso fundamental para garantizar la salud y el bienestar de las personas gestantes y niños hasta los tres años. Como se mencionó, la ampliación de la Asignación Universal por Embarazo y el acceso a medicamentos y controles médicos son esenciales para reducir la mortalidad materna e infantil y garantizar el desarrollo saludable de los niños y niñas.  \n\nLos datos del informe prevén un ahorro significativo en el gasto público al reducir complicaciones derivadas de abortos inseguros, lo que demuestra que invertir en educación y salud materno-infantil resulta beneficioso a largo plazo. En cambio, el enfoque liberal de reducir el tamaño del Estado y recortar la asistencia social no solo pone en riesgo la vida de las madres y sus hijos, sino que perpetúa la desigualdad.  \n\nMientras que algunos agentes argumentaron que la asistencia puede generar dependencia, es importante destacar que el acceso a derechos básicos es lo que garantiza la capacidad de las familias para salir de la pobreza. La ley nos acerca a una sociedad más justa y equitativa. Por lo tanto, debo reafirmar mi apoyo a esta ley, ya que protege a los más vulnerables y pone en el centro de la agenda política el cuidado integral en momentos críticos. Mi voto se mantiene a favor de la Ley de los Mil Días."
         },
         {
             "role": "user",
@@ -221,7 +286,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Izquierda]: En esta segunda ronda, refuerzo mi postura a favor de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia. Esta ley, como se analizó en el informe, aborda de manera fundamental la situación crítica de muchas familias en situación de vulnerabilidad. Según el informe, se estima que la legalización del acceso a atención integral podría reducir significativamente el gasto público en atención a embarazos no deseados y complicaciones, lo que es un argumento sólido a favor de su implementación. Además, el enfoque en la protección de los derechos de las personas gestantes y el bienestar de los niños es una necesidad urgente en un contexto donde, como sabemos, la pobreza y la desigualdad continúan en aumento.  Otro dato relevante que se desprende del informe es que un 75% menos en costos de atención podría ser posible. Esta baja en costos es necesaria frente al ajustado presupuesto que el gobierno mantiene en salud. Es fundamental que la implementación de la ley sea acompañada de un aumento real en la financiación del sistema de salud pública, pero este marco legal es un primer paso vital hacia una mejora real en la vida de las familias trabajadoras. Por tanto, reafirmo mi apoyo a la ley, con la exigencia de un financiamiento adecuado y el control obrero sobre su ejecución."
+            "content": "[Agente de Izquierda]: La Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días) contiene propuestas que, aunque parecen bienintencionadas, no abordan la raíz de los problemas estructurales que enfrentan las comunidades vulnerables. La Ley IVE, adoptada en 2020, demostró que un enfoque centrado en el acceso seguro y legal a servicios de salud y aborto es esencial para reducir la mortalidad materna e infantil. La legislación equivoca el camino al no cuestionar la desmesurada carga de la deuda con el FMI que este gobierno sostiene, priorizando el ajuste en lugar de la atención integral hacia las familias. Según el informe, se estima que el aborto inseguro representa el 13% de las muertes maternas globales. Sin embargo, la Ley de los Mil Días no aborda las causas que llevan a las personas gestantes a no poder llevar a cabo un embarazo deseado, ni las condiciones que ponen en riesgo su salud. El Estado debe garantizar no solo el acceso a medicamentos y atención médica, sino también condiciones de vida dignas. Y esto es algo que se logra con un verdadero enfoque socialista, con una política que luche por la vida de las y los trabajadores, donde la salud, la educación y el bienestar sean derechos inalienables y no solo asistencialismo. Ante este panorama, mi voto sigue siendo en contra de la ley, ya que no se presentan soluciones estructurales que realmente transformen la vida de las familias trabajadoras y vulnerables."
         },
         {
             "role": "user",
@@ -233,19 +298,19 @@
         },
         {
             "role": "assistant",
-            "content": "Propuestas: 1. Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios, permitiendo la elección de proveedores de salud, públicos o privados. 2. Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa que apoyen a las familias en el cuidado de la salud de sus hijos. 3. Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud que promueva la libre elección y la competencia."
+            "content": "Propuestas: Proponemos eliminar la ampliación de la Asignación Universal por Embarazo y, en su lugar, implementar un sistema de bonos de salud que otorgue a las familias la libertad de elegir los servicios que necesiten, fomentando así la competencia en el sector salud. También sugiero la creación de un programa de educación sobre salud y nutrición dirigido a las familias, que les permita tomar decisiones informadas sobre el cuidado de sus hijos. Además, instamos a que se prioricen incentivos fiscales para las empresas que ofrezcan servicios de salud y apoyo a la maternidad, así como para aquellas que implementen programas de capacitación en sus comunidades. Solo así podremos garantizar una verdadera mejora en el bienestar de la población sin caer en el asistencialismo."
         },
         {
             "role": "assistant",
-            "content": "Propuestas: 1. **Sistema de Evaluación y Rendición de Cuentas:** Incorporar un artículo que establezca un sistema de evaluación permanente sobre la implementación y el impacto de la ley, con informes anuales que aseguren la transparencia en el uso de recursos.  \n2. **Capacitación de Profesionales de la Salud:** Incluir un programa de capacitación continua para profesionales de salud que trabajen directamente en el sistema de atención integral, de forma que puedan ofrecer la mejor atención a las familias.  \n3. **Información a las Familias:** Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas, asegurando que comprendan su importancia y puedan utilizarlos correctamente.  \n4. **Fondo Específico:** Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos, con auditorías anuales realizadas por entidades independientes para garantizar la correcta gestión de dichos recursos."
+            "content": "Propuestas: 1. Introducir un artículo que establezca un programa de capacitación en salud reproductiva, educación sexual integral y planificación familiar para las familias, orientado a prevenir embarazos no deseados y promover el empoderamiento personal y familiar. 2. Proponer la creación de un sistema de subsidios para la educación prenatal y postnatal que incentive la participación de las familias en programas de formación en salud, evitando así un enfoque meramente asistencial. 3. Asegurar que la provisión de medicamentos gratuitos y otros insumos se haga a través de un sistema que garantice tanto la disponibilidad como una evaluación del uso, evitando el desabastecimiento y optimizando los recursos públicos. 4. Establecer mecanismos de rendición de cuentas y auditoría para la implementación de la ley, incluyendo informes anuales sobre el gasto y el impacto en la salud pública, con un enfoque en la sostenibilidad fiscal."
         },
         {
             "role": "assistant",
-            "content": "Propuestas: 1. Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil, con informes públicos sobre los avances y áreas de mejora. 2. Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley, asegurando que no haya recortes en tiempos de crisis. 3. Proponer la creación de centros de atención integral en comunidades vulnerables que faciliten el acceso a servicios de salud, educación y bienestar, creando espacios donde las familias puedan recibir orientación y apoyo. 4. Inclusión de un programa de educación sobre salud reproductiva y nutrición para las personas gestantes y las familias con niños en la primera infancia, para empoderar y fomentar su autonomía. Todos estos puntos son vitales para asegurar la efectividad de la Ley de los Mil Días en un contexto donde la salud y el bienestar de las familias son prioridad."
+            "content": "Propuestas: Propongo las siguientes modificaciones a la ley: 1. Establecer un sistema de capacitación y sensibilización para profesionales de la salud sobre la atención integral y la importancia de los primeros mil días, garantizando que todos los agentes de salud comprendan y apliquen estas políticas con un enfoque centrado en la familia y la diversidad. 2. Incluir un mecanismo de evaluación y control social, donde las comunidades participen activamente en el seguimiento de los recursos destinados a estas políticas, asegurando transparencia y rendición de cuentas. 3. Incorporar un programa de educación y concientización sobre salud reproductiva y derechos de las mujeres, que complemente el acceso a medicamentos y servicios de salud, fomentando la autonomía de las personas gestantes. 4. Crear un fondo específico dentro del presupuesto nacional que garantice la sostenibilidad de la ley a largo plazo, evitando la dependencia de recursos insuficientes que comprometan su implementación."
         },
         {
             "role": "assistant",
-            "content": "Propuestas: 1. Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley, asegurando que los recursos destinados verdaderamente lleguen a quienes los necesitan. 2. Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias y puntos de distribución gestionados por organizaciones comunitarias y sindicatos, para garantizar acceso directo y evitar la burocracia estatal. 3. Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud, asegurando que no dependa del ajuste presupuesto, sino de impuestos progresivos a las grandes fortunas y patrimonios de los más ricos. 4. Establecer campañas de educación en salud y derechos reproductivos, que sean implementadas y controladas por las organizaciones de mujeres y de trabajadores, para fomentar la concientización y el empoderamiento de las personas gestantes."
+            "content": "Propuestas: "
         },
         {
             "role": "user",
@@ -256,252 +321,12 @@
             "content": "En esta ronda, cada agente debe evaluar las propuestas realizadas por los demás participantes. Deben indicar con claridad cuáles propuestas apoyan, cuáles rechazan, y por qué. Se espera que el análisis sea ideológicamente consistente, considerando tanto la viabilidad política como la coherencia con los principios del agente. Los agentes pueden modificar su voto final sobre la ley si consideran que las propuestas aceptadas alteran sustancialmente su contenido original. Al cerrar su intervención, cada agente debe declarar su voto definitivo (a favor o en contra de la ley 'Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Dias).  Establece un conjunto de políticas públicas destinadas a garantizar la atención integral de la salud y el bienestar de las personas gestantes y de niños y niñas hasta los tres años de edad. Entre sus principales disposiciones se encuentran la ampliación de la Asignación Universal por Embarazo para cubrir toda la gestación, la provisión gratuita de medicamentos esenciales, vacunas y leche fortificada, y el fortalecimiento del acceso a controles médicos, tanto prenatales como postnatales. Además, promueve un sistema de seguimiento para detectar riesgos sanitarios y sociales, con especial foco en contextos de vulnerabilidad, con el objetivo de reducir la mortalidad materna e infantil y acompañar a las familias durante los primeros mil días de vida.'), teniendo en cuenta tanto el texto original como las modificaciones aceptadas o descartadas. Este voto final debe estar sólidamente justificado desde una perspectiva política, ética e institucional."
         },
         {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto False para la propuesta Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto False para la propuesta Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto False para la propuesta Modificar la ley para que las familias puedan optar por recibir un subsidio en lugar de la asistencia directa de servicios. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto False para la propuesta Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto False para la propuesta Establecer incentivos fiscales para las empresas que desarrollen programas de salud preventiva y educativa. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto False para la propuesta Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto False para la propuesta Eliminar la ampliación de la Asignación Universal por Embarazo y redirigir esos recursos hacia un sistema de vouchers educativos y de salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Incorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Incorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Incluir un programa de capacitación continua para profesionales de salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incluir un programa de capacitación continua para profesionales de salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incluir un programa de capacitación continua para profesionales de salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Incluir un programa de capacitación continua para profesionales de salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Crear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto False para la propuesta Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Establecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Establecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto False para la propuesta Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Incluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto False para la propuesta Proponer la creación de centros de atención integral en comunidades vulnerables. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Proponer la creación de centros de atención integral en comunidades vulnerables. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Proponer la creación de centros de atención integral en comunidades vulnerables. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Proponer la creación de centros de atención integral en comunidades vulnerables. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Inclusión de un programa de educación sobre salud reproductiva y nutrición. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Inclusión de un programa de educación sobre salud reproductiva y nutrición. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Inclusión de un programa de educación sobre salud reproductiva y nutrición. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Inclusión de un programa de educación sobre salud reproductiva y nutrición. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto False para la propuesta Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Establecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto False para la propuesta Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias gestionadas por organizaciones comunitarias y sindicatos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto False para la propuesta Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias gestionadas por organizaciones comunitarias y sindicatos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias gestionadas por organizaciones comunitarias y sindicatos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Proponer que la provisión de medicamentos y leche fortificada se haga a través de farmacias gestionadas por organizaciones comunitarias y sindicatos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto False para la propuesta Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Inclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente Liberal] voto True para la propuesta Establecer campañas de educación en salud y derechos reproductivos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio] voto True para la propuesta Establecer campañas de educación en salud y derechos reproductivos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Union Por La Patria] voto True para la propuesta Establecer campañas de educación en salud y derechos reproductivos. \n"
-        },
-        {
-            "role": "assistant",
-            "content": "[Agente de Izquierda] voto True para la propuesta Establecer campañas de educación en salud y derechos reproductivos. \n"
-        },
-        {
             "role": "user",
             "content": "Ahora arranca la ronda 5"
         },
         {
             "role": "user",
-            "content": "En esta última ronda, tenes que votar a favor o en contra de la ley Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Dias).  Establece un conjunto de políticas públicas destinadas a garantizar la atención integral de la salud y el bienestar de las personas gestantes y de niños y niñas hasta los tres años de edad. Entre sus principales disposiciones se encuentran la ampliación de la Asignación Universal por Embarazo para cubrir toda la gestación, la provisión gratuita de medicamentos esenciales, vacunas y leche fortificada, y el fortalecimiento del acceso a controles médicos, tanto prenatales como postnatales. Además, promueve un sistema de seguimiento para detectar riesgos sanitarios y sociales, con especial foco en contextos de vulnerabilidad, con el objetivo de reducir la mortalidad materna e infantil y acompañar a las familias durante los primeros mil días de vida. con las siguientes modificaciones: \nIncorporar un sistema de evaluación permanente sobre la implementación y el impacto de la ley.\nIncluir un programa de capacitación continua para profesionales de salud.\nCrear campañas de comunicación que instruyan a las familias sobre el uso de medicamentos y vacunas.\nEstablecer un fondo específico para asegurar la provisión adecuada de medicamentos y alimentos.\nEstablecer un sistema de control y evaluación que realice seguimiento anual sobre los indicadores de salud materna e infantil.\nIncluir una cláusula de financiamiento que garantice un presupuesto estable y creciente para la implementación de la ley.\nProponer la creación de centros de atención integral en comunidades vulnerables.\nInclusión de un programa de educación sobre salud reproductiva y nutrición.\nEstablecer un mecanismo de control obrero y comunitario que supervise la implementación de la ley.\nInclusión de un artículo que contemple la creación de un fondo específico para financiar la atención integral de la salud.\nEstablecer campañas de educación en salud y derechos reproductivos.\n. Estas propuestas seran agregadas a la ley ya que la mayoria voto a  favor de incorporarlas a la ley original. Tu tarea ahora es votar a favor o en contra de esta nueva ley. Recorda mantenerte dentro de tu ideoloia politica y justificar tu veredicto final"
+            "content": "En esta última ronda, tenes que votar a favor o en contra de la ley Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Dias).  Establece un conjunto de políticas públicas destinadas a garantizar la atención integral de la salud y el bienestar de las personas gestantes y de niños y niñas hasta los tres años de edad. Entre sus principales disposiciones se encuentran la ampliación de la Asignación Universal por Embarazo para cubrir toda la gestación, la provisión gratuita de medicamentos esenciales, vacunas y leche fortificada, y el fortalecimiento del acceso a controles médicos, tanto prenatales como postnatales. Además, promueve un sistema de seguimiento para detectar riesgos sanitarios y sociales, con especial foco en contextos de vulnerabilidad, con el objetivo de reducir la mortalidad materna e infantil y acompañar a las familias durante los primeros mil días de vida. con las siguientes modificaciones: \nCrear un programa de educación sobre salud y nutrición\nEstablecer un programa de capacitación en salud reproductiva\nImplementar educación sexual integral en las familias\nFomentar la planificación familiar\nCrear un sistema de subsidios para educación prenatal\nIncentivar la participación familiar en programas de formación en salud\nProporcionar medicamentos y insumos gratuitos asegurando su disponibilidad\nEstablecer un sistema que evalúe el uso de insumos de salud\nImplementar mecanismos de rendición de cuentas\nRealizar auditorías sobre la implementación de la ley\nPresentar informes anuales sobre gasto e impacto en salud pública\nAsegurar sostenibilidad fiscal en la implementación del programa\nEstablecer un sistema de capacitación y sensibilización para profesionales de la salud sobre la atención integral y la importancia de los primeros mil días.\nIncluir un mecanismo de evaluación y control social que permita la participación activa de las comunidades en el seguimiento de los recursos destinados a las políticas de salud.\nIncorporar un programa de educación y concientización sobre salud reproductiva y derechos de las mujeres, complementando el acceso a medicamentos y servicios de salud.\nCrear un fondo específico dentro del presupuesto nacional que garantice la sostenibilidad de la ley a largo plazo.\n. Estas propuestas seran agregadas a la ley ya que la mayoria voto a  favor de incorporarlas a la ley original. Tu tarea ahora es votar a favor o en contra de esta nueva ley. Recorda mantenerte dentro de tu ideoloia politica y justificar tu veredicto final"
         },
         {
             "role": "user",
@@ -509,7 +334,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente Liberal]: A pesar de que se han realizado varias modificaciones que podrían contribuir a una gestión más eficiente y responsable de esta ley, el fundamento ideológico de la misma sigue siendo paternalista, ya que esencialmente perpetúa la dependencia estatal de las familias hacia el gobierno. Las propuestas de evaluación y capacitación son positivas, pero no abordan la raíz del problema que es la necesidad de empoderar a las familias mediante la reducción del tamaño del Estado y la promoción de la libre elección en el acceso a los servicios. Proveer subsidios, aumentar los gastos públicos y crear mecanismos de control estatal siguen sin alentar la responsabilidad individual y la autonomía de las familias. Por lo tanto, en atención a los principios del liberalismo y la defensa de la propiedad privada y la libertad individual, no puedo votar a favor de esta ley, incluso con las modificaciones."
+            "content": "[Agente Liberal]: A pesar de las modificaciones que se han agregado a la ley original, que incluyen programas de educación y capacitación, sostengo que el enfoque principal de la ley sigue siendo el asistencialismo estatal. Aunque la creación de programas de educación sobre salud y nutrición es positiva, no cambia el hecho de que la ley implica un aumento en la intervención del Estado y la dependencia de las familias de la asistencia pública. Las modificaciones, aunque bien intencionadas, no abordan el problema principal de la dependencia del Estado y la insuficiencia de incentivos para la iniciativa individual. La implementación de un sistema que evalúe el uso de insumos de salud y mecanismos de rendición de cuentas es fundamental, pero no compensa el hecho de que esta ley se basa en un modelo que perpetúa la falta de responsabilidad individual y el asistencialismo. Como liberal, considero que debemos promover el empoderamiento mediante la reducción del tamaño del Estado y el aumento de las libertades individuales. Por lo tanto, mi voto se mantiene en contra."
         },
         {
             "role": "user",
@@ -517,7 +342,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Juntos Por El Cambio]: Después de analizar las modificaciones realizadas a la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, creo que los cambios propuestos son positivos y necesarios para asegurar la correcta implementación y evaluación de la ley. La incorporación de un sistema de evaluación permanente y la capacitación continua para profesionales de salud garantizarán que los recursos se utilicen eficientemente y que se brinde una atención real y de calidad a las familias. Además, crear campañas de comunicación para instruir a las familias sobre el uso de medicamentos y vacunas es esencial para empoderarlas en el cuidado de su salud y la de sus hijos. Las propuestas de crear centros de atención integral en comunidades vulnerables y establecer un mecanismo de control obrero y comunitario demuestran un compromiso con la equidad y la inclusión, aspectos que valoro profundamente. Considero que la presencia de un fondo específico para financiar la atención integral de la salud es crucial para prevenir recortes presupuestarios, garantizando que las políticas se mantengan en el tiempo sin depender de ajustes fiscales. Si bien tengo mis reservas sobre algunas disposiciones originales de la ley, creo que con las modificaciones realizadas se ha mejorado considerablemente su enfoque. Por lo tanto, voto a favor de la nueva ley, ya que promueve un modelo más integral y responsable que puede beneficiar a muchas familias en Argentina."
+            "content": "[Agente de Juntos Por El Cambio]: Considerando que una serie de modificaciones significativas han sido incorporadas a la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, debo reconocer que el enfoque de las propuestas se alinea más con lo que valoramos en Juntos por el Cambio: el empoderamiento de las familias, la promoción de la educación y la capacitación, y una gestión responsable y transparente del gasto público. La inclusión de programas de educación sobre salud y nutrición, capacitación en salud reproductiva, y la evaluación del uso de insumos son medidas que van en la dirección correcta para garantizar un impacto positivo en la salud de las personas gestantes y de los niños. Además, la creación de un fondo específico para asegurar la sostenibilidad fiscal de la ley es un cambio crítico que muestra un compromiso con la responsabilidad fiscal, lo que es fundamental para nuestra posición. No obstante, me mantengo alerta sobre cómo se implementarán estos programas, pero confío en que la ley, con estas modificaciones, puede ser una herramienta para construir una sociedad más justa y equitativa. Por lo tanto, votaré a favor de la ley con las modificaciones incorporadas, ya que hemos logrado encontrar un equilibrio entre la acción del Estado y la responsabilidad individual."
         },
         {
             "role": "user",
@@ -525,7 +350,7 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Union Por La Patria]: La aprobación de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, con las modificaciones incorporadas, representa un avance fundamental hacia una política pública de bienestar integral y justicia social. Las propuestas de creación de un sistema de evaluación permanente, capacitación para profesionales, campañas de comunicación y educación sobre derechos reproductivos aseguran que la ley sea efectiva y se ajuste a las necesidades de las familias. Además, el establecimiento de fondos específicos y un mecanismo de control obrero refuerzan el compromiso con la transparencia y la accesibilidad, cuestiones esenciales en el contexto actual de vulnerabilidad. En este sentido, al fiscalizar y evaluar el impacto, se asegura que la política pública realmente responda a la problemática que busca abordar. Por todo esto, declaro mi voto a favor, ya que creo firmemente en la importancia de cuidar de nuestras familias y de construir un país más inclusivo y equitativo."
+            "content": "[Agente de Union Por La Patria]: Hoy, tras la deliberación y el intercambio de propuestas, puedo sostener que la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, incorporando las modificaciones acordadas, se convierte en una herramienta robusta para garantizar la salud y el bienestar de los sectores más vulnerables de nuestra sociedad. Estas modificaciones enriquecerán el enfoque integral de la ley al no solo proporcionar atención médica, sino también educación sobre salud y nutrición, capacitación en salud reproductiva, y mecanismos de control social que fomenten la transparencia y la participación de la comunidad. Estas medidas son coherentes con los principios de justicia social y equidad que defendemos desde la Unión por la Patria. En suma, este enfoque garantiza que las familias recibirán no solo apoyo en salud, sino también conocimientos y herramientas necesarias para tomar decisiones informadas y empoderar su autonomía. Por todo esto, voto a favor de la Ley de los Mil Días con las modificaciones incorporadas."
         },
         {
             "role": "user",
@@ -533,8 +358,40 @@
         },
         {
             "role": "assistant",
-            "content": "[Agente de Izquierda]: A partir de las modificaciones aceptadas, la ley 'Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia' se convierte en una herramienta más robusta y efectiva para garantizar el bienestar de las personas gestantes y sus hijos e hijas. Las incorporaciones propuestas, como el establecimiento de un sistema de evaluación permanente, programas de capacitación continua para el personal de salud, y la creación de campañas educativas, son cruciales para asegurar que la implementación se realice de manera efectiva y transparente. Además, el establecimiento de centros de atención integral en comunidades vulnerables responde a una necesidad urgente de acceso a servicios de salud adecuados para quienes más lo necesitan. La creación de un fondo específico para la provisión de medicamentos y la inclusión del control obrero y comunitario añaden capas de garantía de que los recursos se gestionen de manera justa y equitativa. Por lo tanto, consideramos que esta ley ahora incorpora las herramientas necesarias para abordar la crisis actual en salud infantil y maternal, y es un paso hacia la construcción de una sociedad más justa y equitativa para el pueblo trabajador. Por lo tanto, voy a votar a favor de la ley."
+            "content": "[Agente de Izquierda]: La inclusión de las modificaciones propuestas en la ley mejora significativamente el enfoque integral hacia la salud y el bienestar de las personas gestantes y de los niños durante los primeros mil días. La implementación de un programa de educación sobre salud y nutrición, educación sexual integral y planificación familiar es esencial para empoderar a las familias y garantizar un acceso más informado y consciente a los servicios de salud. Además, establecer mecanismos de rendición de cuentas, auditorías y la participación activa de las comunidades en el seguimiento de los recursos fortalece la transparencia y democratiza el acceso al bienestar social. Por lo tanto, con estas modificaciones, la ley no sólo mejora las condiciones de salud, sino que también combate la desigualdad y promueve un enfoque más justo y equitativo en la política de salud pública. Estoy de acuerdo en que el Estado debe garantizar derechos básicos y que estas modificaciones son consistentes con la lucha por un sistema más humano y solidario. Con base en las profundas transformaciones que propone esta nueva versión de la ley, mi voto es a favor."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente Liberal"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente Liberal]: A pesar de las buenas intenciones detrás de las modificaciones propuestas, la esencia de la Ley de los Mil Días sigue siendo asistencialista y paternalista. Aunque se han incorporado elementos positivos como la educación y la capacitación, sigo considerando que la ley en su conjunto perpetúa la dependencia del Estado en lugar de fomentar la autonomía y el empoderamiento de las familias. Propuestas como el programa de educación sobre salud son valiosas, pero no son suficientes para justificar la expansión del gasto público y la intervención del Estado en la vida privada de las personas. La verdadera solución a los problemas de salud y bienestar requiere un enfoque que promueva la iniciativa privada, la reducción de impuestos y el estímulo a la generación de empleo. La ley aún refuerza la idea de que el Estado es el único proveedor de bienestar, lo que no alinea con principios del liberalismo. Por estas razones, mi voto es en contra de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia (Ley de los Mil Días), incluso con las modificaciones propuestas."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Juntos Por El Cambio"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Juntos Por El Cambio]: Después de analizar las propuestas adicionales que se incorporarán a la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, creo que estas modificaciones fortalecen la ley de manera significativa. Las propuestas para implementar programas de educación sobre salud y nutrición, capacitación en salud reproductiva, y la promoción de la planificación familiar son vitales para empoderar a las familias y garantizar un enfoque integral en la salud. También valoro la inclusión de mecanismos de rendición de cuentas que aseguren la transparencia y la correcta utilización de los recursos destinados a estas políticas públicas. Estos cambios reflejan un compromiso con la responsabilidad fiscal y la sostenibilidad, garantizando que el Estado cumpla efectivamente su rol sin caer en el asistencialismo. Por ello, mi voto es a favor de la ley, respaldando así un enfoque que combina la ayuda estatal con la formación y capacitación necesaria para mejorar la calidad de vida de aquellas familias más vulnerables."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Union Por La Patria"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Union Por La Patria]: Después de analizar las modificaciones propuestas y considerando que todas las recomendaciones incorporadas refuerzan la integralidad y el enfoque de derechos de la Ley de Atención y Cuidado Integral de la Salud durante el Embarazo y la Primera Infancia, estoy convencido de que dichas propuestas no solo mejoran la ley, sino que también la alinean más al principio de justicia social que defendemos. La creación de programas de educación sobre salud y nutrición, así como la capacitación de profesionales, son esenciales para garantizar que las familias y los niños accedan a una atención de calidad. Además, el enfoque en la rendición de cuentas y la evaluación continua asegura que los recursos se utilicen de forma efectiva, aumentando la transparencia y la confianza en el sistema. Las modificaciones abordan preocupaciones clave sin desvirtuar el propósito central de la ley, que es proteger y acompañar a las poblaciones más vulnerables. En consecuencia, votamos a favor de esta ley con las modificaciones incorporadas, reafirmando nuestro compromiso con la justicia social y la defensa de los derechos humanos."
+        },
+        {
+            "role": "user",
+            "content": "Tiene la palabra el Agente de Izquierda"
+        },
+        {
+            "role": "assistant",
+            "content": "[Agente de Izquierda]: Si bien reconozco que las modificaciones propuestas incorporan aspectos positivos, como la capacitación en salud reproductiva y la educación sobre derechos de las mujeres, sigo considerando que la Ley de los Mil Días no aborda de manera suficiente las profundas desigualdades estructurales que enfrentan las familias trabajadoras. La implementación de programas de salud y educación es necesaria, pero no es suficiente si no cuestionamos el modelo de dependencia del Estado y el rol del capital en la vida de las personas. El enfoque sigue siendo asistencialista, dejando sin abordar la raíz de los problemas sociales y de salud que enfrentamos. La ausencia de un cambio en las políticas económicas que prioricen el bienestar popular en lugar de la austeridad fiscal y la deuda con el FMI es una omisión crucial. Por lo tanto, a pesar de las mejoras que se han propuesto, mi voto sigue siendo en contra. La verdadera transformación social requiere un enfoque más radical y soluciones estructurales."
         }
     ],
-    "Resumen final": "#### 🔍 Posturas por agente\nAgente Izquierda: Defendió la ley como un avance en derechos para personas gestantes y niños en situación de vulnerabilidad. Propuso la inclusión de un fondo específico y mecanismos de control obrero. Mantuvo su postura a favor tras la incorporación de modificaciones en la ley. Su voto fue a favor, destacando la necesidad de garantías equitativas en la salud pública y la protección de derechos.\n\nAgente Centro-Izquierda: Aceptó la ley con modificaciones, como un sistema de evaluación permanente y capacitación para profesionales de salud. Se mostró partidario de la ley, argumentando que las nuevas disposiciones fortalecerán el impacto positivo en la salud infantil y materna. Voto a favor, enfatizando la importancia del uso eficiente de recursos públicos.\n\nAgente Centro-Derecha: Si bien reconoció mejoras en la ley, se mostró escéptico en torno a la ampliación de la Asignación Universal por Embarazo. Propuso controles más estrictos en la ejecución de recursos y se mantuvo en contra de la ley, argumentando que el enfoque asistencialista no promovía la autonomía de las familias. Voto en contra, basándose en la defensa de la libre elección y responsabilidad fiscal.\n\nAgente Derecha: Criticó la ley como un nuevo aumento del intervencionismo estatal y una dependencia de las familias. Aceptó la propuesta de mecanismos de evaluación pero se mantuvo firme en su rechazo a la ley, argumentando que la solución se encuentra en la promoción de mercados libres y responsabilidad individual. Voto en contra, enfatizando la defensa de la libertad personal y la propiedad privada.\n\n#### 🧠 Síntesis del debate\nPuntos de acuerdo: La aceptación de la necesidad de un sistema de seguimiento y evaluación en la implementación de la ley, así como la importancia de la capacitación en salud pública y el empoderamiento familiar mediante la educación. \nConflictos ideológicos principales: La diferencia substancial entre un enfoque asistencialista, defendido por la izquierda y el centro-izquierda, y la argumentación liberal de responsabilidad individual y reducción del Estado por parte de los agentes liberales y de derecha. \nDivergencias argumentativas: La efectividad de ampliar la Asignación Universal por Embarazo fue un punto de discusión central, con el enfoque liberal opuesto al de la izquierda que enfatizaba la justicia social y derechos. \nResultado de la votación: 5 votos a favor / 3 en contra."
+    "Resumen final": "#### 🔍 Posturas por agente\n\n**Agente Liberal:** Argumentó que la Ley de los Mil Días perpetúa la dependencia del estado y el asistencialismo, criticando que se expanda el gasto público sin incentivar la responsabilidad individual. Mantuvo su posición al no ver cambios significativos con las modificaciones propuestas. \n**Postura final:** En contra. \n**Voto:** En contra.\n\n**Agente Juntos Por El Cambio:** Inicialmente, mostró una postura crítica con respecto a la viabilidad financiera de la ley, pero después de las propuestas de modificación, destacó su importancia al favorecer la educación y la autonomía familiar, considerándola más alineada con su ideología. \n**Postura final:** A favor. \n**Voto:** A favor.\n\n**Agente Union Por La Patria:** Argumentó que la ley es fundamental para la salud y bienestar de personas gestantes y niños. Con las modificaciones, consideró que la ley se fortalece y se alinea con principios de justicia social, apoyando las nuevas propuestas. \n**Postura final:** A favor. \n**Voto:** A favor.\n\n**Agente Izquierda:** Sostuvo que la ley no aborda las desigualdades estructurales y que su enfoque sigue siendo asistencialista. Aunque reconoció mejoras en las propuestas, mantuvo que no solucionan las raíces de los problemas sociales. \n**Postura final:** En contra. \n**Voto:** En contra.\n\n#### 🧠 Síntesis del debate\n\n**Puntos de acuerdo:** Se destacó la importancia de la educación y la capacitación en salud y derechos reproductivos. También hubo consenso en la necesidad de rendición de cuentas en la implementación de la ley.\n\n**Conflictos ideológicos principales:** Los agentes de la izquierda y del liberalismo discrepaban sobre el rol del estado en la asistencia social; mientras que los del centro-izquierda y centro-derecha buscaban un equilibrio entre asistencia estatal y responsabilidad individual.\n\n**Divergencias argumentativas:** Los agentes liberales y de derecha se opusieron a la ley por considerarla asistencialista, mientras que los de izquierda criticaron que no se abordaban las desigualdades estructurales adecuadamente. Los agentes de centro-izquierda apoyaron la ley pero también pidieron una gestión responsable. \n\n**Resultado de la votación:** 3 votos a favor / 2 en contra."
 }
