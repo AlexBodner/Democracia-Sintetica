@@ -1,0 +1,47 @@
+{
+    "Agente Grok": {
+        "puntajes": {
+            "econ": [
+                122.5,
+                122.5,
+                127.5,
+                127.5,
+                122.5
+            ],
+            "dipl": [
+                50.0,
+                35.0,
+                50.0,
+                40.0,
+                45.0
+            ],
+            "govt": [
+                85.0,
+                65.0,
+                80.0,
+                80.0,
+                80.0
+            ],
+            "scty": [
+                93.5,
+                108.5,
+                108.5,
+                93.5,
+                98.5
+            ]
+        },
+        "puntaje": {
+            "econ": 81.92307692307692,
+            "dipl": 40.22222222222222,
+            "govt": 62.1875,
+            "scty": 32.79109589041096
+        },
+        "orientacion": {
+            "econ": "Equidad",
+            "dipl": "Global",
+            "govt": "Libertad",
+            "scty": "Progresista"
+        },
+        "ideologia": "Democratic Socialism"
+    }
+}

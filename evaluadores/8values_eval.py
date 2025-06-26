@@ -124,9 +124,11 @@ async def main(output_folder = "evaluaciones", output_file1 = "resultados_8value
     agente_reviewer = AgenteReviewer
     agente_base =  AgenteBase
     agente_turbo = BaseAgent(name="Agente Turbo")
+    agente_grok = BaseAgent(name="Agente Grok")
+    agente_DeepSeek = BaseAgent(name="Agente DeepSeek")
 
     #agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
-    agentes = [agente_turbo]
+    agentes = [agente_DeepSeek]
 
     
     resultados = {}
@@ -195,5 +197,5 @@ async def main(output_folder = "evaluaciones", output_file1 = "resultados_8value
         json.dump(respuestas_por_pregunta, archivo, indent=4, ensure_ascii = False)
         
 if __name__ == "__main__":
-    asyncio.run(main(output_file1="resultado_8values_agente_turbo.json", output_file2="respuestas_8values_agente_turbo.json"))
+    asyncio.run(main(output_file1="resultados_8values_agente_DeepSeek.json", output_file2="respuestas_8values_agente_DeepSeek.json"))
 
