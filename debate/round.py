@@ -16,9 +16,9 @@ class FirstRound(Round):
                         "Al finalizar su intervención, el agente debe explicitar su voto actual (a favor o en contra de la ley).")
 
 class SecondRound(Round):
-    def __init__(self, law):
+    def __init__(self, law, round_nr=1):
         super().__init__(law)
-        self.round_nr = 1
+        self.round_nr = round_nr
         self.prompt = (
                         "En esta ronda, cada agente tiene acceso a los argumentos expresados por todos los agentes en todo el debate hasta el momento, incluido el propio. "
                         "La tarea consiste en analizar críticamente estos argumentos, respondiendo, reforzando o modificando su postura según corresponda. "
@@ -38,10 +38,10 @@ class SecondRoundWithResearch(SecondRound):
 
 
 class ThirdRound(Round):
-    def __init__(self, law):
+    def __init__(self, law, round_nr = 2):
         super().__init__(law)
-        self.round_nr = 2
-        self.prompt = ("En esta tercera y última ronda, cada agente debe elaborar una conclusión integradora que contemple su postura inicial, los argumentos del resto de los agentes y los contraargumentos surgidos en la segunda ronda. "
+        self.round_nr = round_nr
+        self.prompt = ("En esta última ronda, cada agente debe elaborar una conclusión integradora que contemple su postura inicial, los argumentos del resto de los agentes y los contraargumentos surgidos en la segunda ronda. "
                     "La intervención debe explicar qué aspectos de los argumentos ajenos resultaron convincentes o irrelevantes, y cómo impactaron (o no) en la postura del agente. "
                     "Se espera una síntesis reflexiva que muestre si el debate enriqueció su perspectiva o reforzó su posición original, manteniendo siempre la coherencia con sus valores e identidad ideológica. "
                     f"Finalmente, cada agente debe justificar de manera clara y fundamentada su voto final (a favor o en contra de la ley '{law}'), cerrando así su participación en el debate."

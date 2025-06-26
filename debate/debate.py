@@ -123,16 +123,14 @@ class DebateNRounds:
             full_debate = {'preguntas y respuestas deep research': self.questions_and_answers,}
 
         else:
-            self.rounds = [FirstRound(self.law), SecondRound(self.law), ThirdRound(self.law)]        
-
-            self.rounds = [FirstRound(self.law)] +[ SecondRound(self.law) for i in range(self.n_rounds -2)]+ [ThirdRound(self.law)]
+            self.rounds = [FirstRound(self.law)] +[ SecondRound(self.law, i+1) for i in range(self.n_rounds -2)]+ [ThirdRound(self.law, self.n_rounds-1)]
 
         context = [{"role":"user",
                     "content":  f"""Este es un debate simulado entre agentes políticos argentinos sobre la ley {self.law}.
-                                    El debate constará de tres rondas:
+                                    El debate constará de {self.n_rounds} rondas:
                                     1. **Primera ronda**: Cada agente expresará su postura inicial, presentando argumentos a favor o en contra de la ley.
-                                    2. **Segunda ronda**: Los agentes recibirán un informe con datos (provenientes de búsquedas en Google) y los argumentos expuestos por el resto de los agentes. Con esta información, podrán formular contraargumentos o reforzar su postura inicial.
-                                    3. **Tercera ronda**: Los agentes recibirán tanto los argumentos iniciales como los contraargumentos de las rondas previas. En base a ello, deberán realizar una argumentación final y emitir una conclusión definitiva.
+                                    2-{self.n_rounds-1}. **Rondas 2 a {self.n_rounds-1}**: Los agentes recibirán un informe con datos (provenientes de búsquedas en Google) y los argumentos expuestos por el resto de los agentes. Con esta información, podrán formular contraargumentos o reforzar su postura inicial.
+                                    {self.n_rounds}. **Última ronda**: Los agentes recibirán tanto los argumentos iniciales como los contraargumentos de las rondas previas. En base a ello, deberán realizar una argumentación final y emitir una conclusión definitiva.
                                     En cada ronda, al finalizar su exposición, cada agente deberá explicitar su voto (a favor o en contra de la ley). El voto puede modificarse de ronda a ronda, pero el voto que determina la aprobación o rechazo de la ley será el emitido en la última ronda."""
                                     }]
 
