@@ -1,0 +1,66 @@
+{
+    "Agente Liberal": {
+        "votos": {
+            "razonamiento": "El resumen correctamente identifica que el 'Agente Liberal' se opone a la Ley de Aporte Solidario a las Grandes Fortunas en varias instancias durante el debate. Se hace mención a su postura firme en contra a lo largo de las tres rondas, en las cuales fundamenta su oposición en argumentos relacionados con la propiedad privada, la desincentivación de la inversión y la dependencia del Estado. Por lo tanto, el resumen refleja con precisión el voto final del Agente Liberal.",
+            "puntaje": true
+        },
+        "posicion_final": {
+            "razonamiento": "El resumen describe correctamente la postura final del Agente Liberal como contraria a la Ley de Aporte Solidario a las Grandes Fortunas, señalando que considera la ley un ataque a la propiedad privada y una desincentivación a la inversión. También detalla que el agente mantiene su postura a lo largo del debate y justifica su voto en contra en base a los principios del liberalismo. Por lo tanto, el resumen capta adecuadamente la posición final del Agente Liberal.",
+            "puntaje": true
+        },
+        "argumentos": {
+            "razonamiento": "El resumen del debate captura correctamente los argumentos del Agente Liberal. En todo momento se menciona su oposición a la Ley de Aporte Solidario a las Grandes Fortunas, resaltando aspectos como la amenaza a la propiedad privada, la generación de dependencia al Estado, las desinversiones y su convicción de que se está premiando la mediocridad por el castigo al éxito. Además, el resumen no malinterpreta ni inventa ideas que no se expresaron.",
+            "puntaje": 3
+        }
+    },
+    "Agente de Juntos Por El Cambio": {
+        "votos": {
+            "razonamiento": "El Agente de Juntos Por El Cambio mantuvo una posición clara y coherente a lo largo del debate, reiterando su oposición a la Ley de Aporte Solidario a las Grandes Fortunas en múltiples ocasiones y fundamentando su voto en la defensa de la propiedad privada y el desarrollo económico. Su argumento final confirmó que su voto fue en contra de la ley, lo cual está correctamente registrado en el resumen.",
+            "puntaje": true
+        },
+        "posicion_final": {
+            "razonamiento": "El resumen describe con precisión la posición final del Agente de Juntos Por El Cambio. Este agente se opone a la Ley de Aporte Solidario a las Grandes Fortunas, argumentando que amenaza la propiedad privada, desincentiva la inversión y puede llevar a una mayor dependencia del Estado. Es consistente en su postura a lo largo del debate y finaliza reafirmando su voto en contra. Por lo tanto, el resumen responde correctamente a su posición final.",
+            "puntaje": true
+        },
+        "argumentos": {
+            "razonamiento": "El resumen captura de manera precisa los argumentos centrales expuestos por el Agente de Juntos Por El Cambio, incluyendo sus preocupaciones sobre la libertad individual y la propiedad privada en relación con la Ley de Aporte Solidario a las Grandes Fortunas. Se hace mención a la erosión de la confianza en el sistema debido a la imposición de impuestos, la potencial creación de nuevos impuestos permanentes y el riesgo de aumentar la dependencia del Estado por parte de sectores vulnerables. Además, el resumen refleja adecuadamente la postura final del agente al votar en contra de la ley. No se evidencia ninguna mala interpretación o invención de ideas no expresadas por el agente. ",
+            "puntaje": 3
+        }
+    },
+    "Agente de Union Por La Patria": {
+        "votos": {
+            "razonamiento": "El resumen indica claramente que el Agente de Unión por la Patria votó a favor de la Ley de Aporte Solidario a las Grandes Fortunas, lo cual coincide con las afirmaciones y argumentos expresados durante el debate en cada una de sus intervenciones. En todas sus intervenciones, el agente reafirma su apoyo a la ley y argumenta a favor de su importancia en la redistribución de riqueza y la justicia social, lo que resulta en un voto consistente a favor. No hay omisiones ni errores en la asignación de su voto, por lo que el resumen es preciso en este aspecto.",
+            "puntaje": true
+        },
+        "posicion_final": {
+            "razonamiento": "El resumen final correctamente describe la postura del Agente de Unión por la Patria como a favor de la ley, resaltando su defensa de la redistribución como un acto de justicia social. También captura su reconocimiento de la crítica de insuficiencia, lo que refleja que su postura se mantuvo a pesar de las objeciones. Por lo tanto, la evaluación de la postura final del agente es adecuada.",
+            "puntaje": true
+        },
+        "argumentos": {
+            "razonamiento": "El resumen del Agente de Unión por la Patria incluye correctamente sus argumentos principales, como el apoyo a la ley como un acto de justicia social, la importancia de la redistribución de la riqueza y el financiamiento de programas esenciales para los sectores vulnerables. También menciona que la ley busca enfrentar la crisis derivada de la pandemia y que favorecerá a los más necesitados. No obstante, no se destacan algunas de las matizaciones que hizo en sus intervenciones, como la crítica que recibió sobre la insuficiencia de la medida, lo que podría ser relevante para una comprensión más profunda de su postura. Sin embargo, no se presenta información falsa o distorsionada sobre sus argumentos. En general, el resumen captura adecuadamente la esencia de su mensaje y defendió su voto a favor.",
+            "puntaje": 3
+        }
+    },
+    "Agente de Izquierda": {
+        "votos": {
+            "razonamiento": "El Agente de Izquierda votó en contra de la Ley de Aporte Solidario a las Grandes Fortunas en todas las rondas del debate. En cada intervención claramente expresó su postura crítica hacia la ley, señalando que era insuficiente y un paliativo a problemas estructurales de desigualdad y pobreza, lo que coincide con su voto final. El resumen refleja correctamente que su voto fue en contra, así como su argumentación ha sido consistente a lo largo del debate.",
+            "puntaje": true
+        },
+        "posicion_final": {
+            "razonamiento": "La evaluación del resumen indica que la postura final del Agente de Izquierda está correctamente reflejada como la de estar en contra de la ley, basándose en sus argumentos sobre la insuficiencia de la medida y su visión de la necesidad de una reforma más profunda del sistema. Las posturas de los demás agentes también son descritas con precisión, destacando las diferencias en sus enfoques hacia la ley. Esto sugiere que la descripción de la posición final de cada agente es clara y precisa, sin ambigüedades.",
+            "puntaje": true
+        },
+        "argumentos": {
+            "razonamiento": "El resumen final capta adecuadamente los argumentos presentados por el Agente de Izquierda en su posición sobre la Ley de Aporte Solidario a las Grandes Fortunas. Se menciona la crítica a la ley como insuficiente y como un mero paliativo ante problemas estructurales, así como la necesidad de un enfoque más radical y socialista. Sin embargo, el resumen podría ahondar más en la crítica a la inexistencia de reformas profundas y en la oposición al capitalismo como sistema que perpetúa la desigualdad. A pesar de estas consideraciones, el resumen hace un buen trabajo al capturar la esencia de la argumentación del Agente de Izquierda, reflejando su postura contraria a la ley y sus razones.",
+            "puntaje": 3
+        }
+    },
+    "fidelidad": {
+        "razonamiento": "El resumen mantiene la coherencia con los argumentos presentados por el Agente de Izquierda en el debate. Se destaca la postura de que la Ley de Aporte Solidario a las Grandes Fortunas no aborda el problema estructural de la desigualdad y la pobreza, y se menciona que es vista como un mero paliativo. Además, se señala que su voto fue en contra de la ley, lo cual coincide con lo expresado por el Agente en el debate. Se presentan adecuadamente los puntos esenciales y se refleja la consistencia en el discurso del agente de izquierda a lo largo de las rondas. No aparecen invenciones o ideas no presentadas en el debate anterior. El resumen también refleja de forma precisa la postura y los argumentos de los otros agentes, lo cual sugiere una representación fiel del debate.",
+        "puntaje": false
+    },
+    "imparcialidad": {
+        "razonamiento": "El resumen tiene varias inconsistencias que sugieren una falta de imparcialidad. En particular, el Agente de Izquierda es descrito extensamente y sus argumentos se presentan con énfasis, mientras que el Agente Liberal y el Agente de Juntos por el Cambio reciben descripciones más breves y con menos detalle. Además, el tono del resumen favorece a la postura del Agente de Unión por la Patria al presentarla de manera positiva, mientras que el resto de los agentes es criticado más severamente. No se logra un equilibrio adecuado al comparar los argumentos y se evita abordar las críticas fundamentales de los demás agentes a la ley propuesta, lo que se traduce en un evidente sesgo hacia el Agente de Unión por la Patria.",
+        "puntaje": 1
+    }
+}

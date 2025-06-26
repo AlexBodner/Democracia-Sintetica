@@ -8,7 +8,7 @@ from debate_agents.agente_izquierda import AgenteIzquierda
 from debate_agents.agente_centro_izquierda import AgenteUxP
 from debate_agents.agente_centro_derecha import AgenteJxC
 from debate_agents.reviewer import AgenteReviewer
-from debate_agents.agente_base import AgenteBase
+from debate_agents.agente_base import AgenteBase, BaseAgent
 import json
 from response_structures import  EightValuesResponse
 import os
@@ -114,7 +114,7 @@ def obtener_resultado_por_eje(vector):
 
     return ejes
 
-async def main(output_folder = "evaluaciones"):
+async def main(output_folder = "evaluaciones", output_file1 = "resultados_8values.json", output_file2 = "respuestas_8values.json"):
     n_iteraciones = 5
 
     agente_liberal = AgenteLiberal
@@ -123,8 +123,10 @@ async def main(output_folder = "evaluaciones"):
     agente_centro_derecha = AgenteJxC
     agente_reviewer = AgenteReviewer
     agente_base =  AgenteBase
+    agente_turbo = BaseAgent(name="Agente Turbo")
 
-    agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
+    #agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
+    agentes = [agente_turbo]
 
     
     resultados = {}
@@ -158,10 +160,10 @@ async def main(output_folder = "evaluaciones"):
                 ]
                 
                 respuesta = await agent.responder_test(context, EightValuesResponse)
-                
+
                 respuestas_por_pregunta[pregunta][agent.agent_name]["razonamiento"] = respuesta.razonamiento
                 respuestas_por_pregunta[pregunta][agent.agent_name]["eleccion"] = respuesta.eleccion
-                
+
                 peso = response_weights[respuesta.eleccion]
                 for eje in q["effect"]:
                     resultados[agent.agent_name]["puntajes"][eje][i] += ( (peso * q["effect"][eje]) )
@@ -186,12 +188,12 @@ async def main(output_folder = "evaluaciones"):
         print(f"Resultados para {agent.agent_name}: {ideologia}")
         print(f"Resultados para {agent.agent_name}: {resultados_por_ideologia}")
         
-    with open(os.path.join(output_folder,f"resultados_8values.json"), "w", encoding ='utf8') as archivo:
+    with open(os.path.join(output_folder, output_file1), "w", encoding ='utf8') as archivo:
         json.dump(resultados, archivo, indent=4, ensure_ascii = False)
-    
-    with open(os.path.join(output_folder,f"respuestas_8values.json"), "w", encoding ='utf8') as archivo:
+        
+    with open(os.path.join(output_folder, output_file2), "w", encoding ='utf8') as archivo:
         json.dump(respuestas_por_pregunta, archivo, indent=4, ensure_ascii = False)
         
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(main(output_file1="resultado_8values_agente_turbo.json", output_file2="respuestas_8values_agente_turbo.json"))
 

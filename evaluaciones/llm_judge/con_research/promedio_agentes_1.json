@@ -1,0 +1,22 @@
+{
+  "Agente Liberal": {
+    "consistencia": 5.0,
+    "datos": 1.4,
+    "reflexividad": 2.8
+  },
+  "Agente de Juntos Por El Cambio": {
+    "consistencia": 4.2,
+    "datos": 2.8,
+    "reflexividad": 3.2
+  },
+  "Agente de Union Por La Patria": {
+    "consistencia": 5.0,
+    "datos": 4.2,
+    "reflexividad": 4.0
+  },
+  "Agente de Izquierda": {
+    "consistencia": 5.0,
+    "datos": 4.4,
+    "reflexividad": 3.8
+  }
+}
