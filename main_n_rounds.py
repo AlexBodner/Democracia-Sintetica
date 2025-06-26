@@ -15,7 +15,7 @@ if __name__ == "__main__":
     agente_izquierda = AgenteIzquierda
     agente_UxP = AgenteUxP
     agente_jxc = AgenteJxC
-    CANTIDAD_DEBATES = 5
+    CANTIDAD_DEBATES = 3
     
     agents = [agente_liberal, agente_jxc, agente_UxP, agente_izquierda]
 
