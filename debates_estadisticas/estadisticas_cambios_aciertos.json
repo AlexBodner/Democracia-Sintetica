@@ -2,15 +2,22 @@
   "con_research": {
     "total_cambios": 21,
     "inicial_erroneo_final_errado": 14,
-    "inicial_erroneo_final_acierto": 5,
+    "inicial_erroneo_final_acierto": 6,
     "inicial_acierto_final_erroneo": 0,
-    "porcentaje_cambios_acertados": 26.31578947368421
+    "porcentaje_cambios_acertados": 30.0
   },
   "sin_research": {
     "total_cambios": 23,
     "inicial_erroneo_final_errado": 16,
-    "inicial_erroneo_final_acierto": 5,
+    "inicial_erroneo_final_acierto": 6,
     "inicial_acierto_final_erroneo": 0,
-    "porcentaje_cambios_acertados": 23.809523809523807
+    "porcentaje_cambios_acertados": 27.27272727272727
+  },
+  "5_rondas_sin_research": {
+    "total_cambios": 16,
+    "inicial_erroneo_final_errado": 4,
+    "inicial_erroneo_final_acierto": 10,
+    "inicial_acierto_final_erroneo": 1,
+    "porcentaje_cambios_acertados": 71.42857142857143
   }
 }

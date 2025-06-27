@@ -54,7 +54,8 @@ def analyze_debate_votes(debate_path):
 def main():
     base_dirs = [
         ('debates/con_research', 'cambios_postura/con_research'),
-        ('debates/sin_research', 'cambios_postura/sin_research')
+        ('debates/sin_research', 'cambios_postura/sin_research'),
+        ('debates_5_rondas/sin_research', 'cambios_postura/sin_research_5_rondas'),
     ]
     for debate_dir, output_dir in base_dirs:
         os.makedirs(output_dir, exist_ok=True)

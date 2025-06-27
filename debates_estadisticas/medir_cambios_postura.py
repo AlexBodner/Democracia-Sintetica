@@ -10,11 +10,11 @@ AGENTE_TO_POSTURA = {
     'Agente Liberal': 'derecha_lla_pro_otros',
 }
 
-# Mapeo de votos numéricos a string (ajustar si hay más casos)
+# Mapeo de votos numéricos a string 
 VOTO_NUM_TO_STR = {
     0: 'En contra',
-    1: 'En contra',  # Si hay matices, ajustar
-    2: 'Dividido',   # O "Crítico", "Apoyo critico", etc. según ley
+    1: 'Critico', 
+    2: 'Dividido',  
     3: 'Apoyo critico',
     4: 'A favor',
 }
@@ -39,7 +39,9 @@ def analizar_debate(path, voto_esperado):
     resultados = {}
     for agente in AGENTE_TO_POSTURA:
         votos = []
-        for ronda in ["Round 0", "Round 1", "Round 2"]:
+        rounds = [k for k in debate.keys() if k.lower().startswith('round')]
+        #for ronda in ["Round 0", "Round 1", "Round 2"]
+        for ronda in rounds:
             v = debate.get(ronda, {}).get(agente, {}).get('voto')
             if v is not None:
                 votos.append(v)
@@ -63,7 +65,7 @@ def main():
     leyes_path = 'testing/leyes.json'
     posturas_esperadas = cargar_posturas_esperadas(leyes_path)
     resumen = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
-    for tipo, folder in [('con_research', 'debates/con_research'), ('sin_research', 'debates/sin_research')]:
+    for tipo, folder in [('con_research', 'debates/con_research'), ('sin_research', 'debates/sin_research'), ('5_rondas_sin_research', 'debates_5_rondas/sin_research')]:
         for ley_dir in os.listdir(folder):
             if not ley_dir.startswith('ley_'):
                 continue
@@ -76,7 +78,7 @@ def main():
                 resultados = analizar_debate(debate_path, posturas_esperadas.get(ley_id, {}))
                 resumen[tipo][ley_id][fname] = resultados
     # Estadísticas globales
-    stats = { 'con_research': defaultdict(int), 'sin_research': defaultdict(int) }
+    stats = { 'con_research': defaultdict(int), 'sin_research': defaultdict(int), '5_rondas_sin_research': defaultdict(int) }
     for tipo in resumen:
         for ley in resumen[tipo]:
             for debate in resumen[tipo][ley]:

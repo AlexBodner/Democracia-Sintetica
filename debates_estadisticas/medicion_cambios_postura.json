@@ -323,7 +323,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "Apoyo critico",
             "voto_esperado": "A favor",
             "acierto": false
@@ -1477,7 +1477,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -1507,7 +1507,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -1933,7 +1933,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "En contra",
             "acierto": true
@@ -2389,7 +2389,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "A favor",
             "voto_esperado": "A favor",
             "acierto": true
@@ -2893,7 +2893,7 @@
         "debate_0.json": {
           "Agente de Izquierda": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -2997,7 +2997,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -3059,7 +3059,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -3179,7 +3179,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -3381,7 +3381,7 @@
         "debate_1.json": {
           "Agente de Izquierda": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -4415,7 +4415,7 @@
         "debate_0.json": {
           "Agente de Izquierda": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "A favor",
             "voto_esperado": "A favor",
             "acierto": true
@@ -4535,7 +4535,7 @@
         "debate_4.json": {
           "Agente de Izquierda": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -4549,7 +4549,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -4793,7 +4793,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "En contra",
             "acierto": true
@@ -5113,7 +5113,7 @@
         "debate_3.json": {
           "Agente de Izquierda": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -5631,7 +5631,7 @@
         "debate_0.json": {
           "Agente de Izquierda": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "Apoyo critico",
             "acierto": false
@@ -6191,7 +6191,7 @@
           },
           "Agente de Juntos Por El Cambio": {
             "hubo_cambio": true,
-            "voto_inicial": "En contra",
+            "voto_inicial": "Critico",
             "voto_final": "En contra",
             "voto_esperado": "A favor",
             "acierto": false
@@ -6387,6 +6387,1940 @@
           }
         }
       }
+    },
+    "5_rondas_sin_research": {
+      "1": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "10": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": true,
+            "voto_inicial": "Critico",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": true,
+            "voto_inicial": "Apoyo critico",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        }
+      },
+      "12": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Crítico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": true,
+            "voto_inicial": "Apoyo critico",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Crítico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": true,
+            "voto_inicial": "Apoyo critico",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Crítico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": true,
+            "voto_inicial": "Dividido",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": true,
+            "voto_inicial": "Apoyo critico",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        }
+      },
+      "13": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "En contra",
+            "acierto": false
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "En contra",
+            "acierto": false
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "En contra",
+            "acierto": false
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        }
+      },
+      "15": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        }
+      },
+      "16": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": true,
+            "voto_inicial": "En contra",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "17": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "19": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": true,
+            "voto_inicial": "Apoyo critico",
+            "voto_final": "A favor",
+            "voto_esperado": "En contra",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "20": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "21": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": true,
+            "voto_inicial": "Apoyo critico",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        }
+      },
+      "23": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": true,
+            "voto_inicial": "Critico",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "24": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        }
+      },
+      "26": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": true,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "27": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "28": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": true,
+            "voto_inicial": "Critico",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "29": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": true,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          }
+        }
+      },
+      "3": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": true,
+            "voto_inicial": "Apoyo critico",
+            "voto_final": "A favor",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Apoyo critico",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "4": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "Dividido",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "6": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": true,
+            "voto_inicial": "Critico",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "7": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": true,
+            "voto_inicial": "Critico",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      },
+      "8": {
+        "debate_0.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_1.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        },
+        "debate_2.json": {
+          "Agente de Izquierda": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Union Por La Patria": {
+            "hubo_cambio": false,
+            "voto_inicial": "A favor",
+            "voto_final": "A favor",
+            "voto_esperado": "A favor",
+            "acierto": true
+          },
+          "Agente de Juntos Por El Cambio": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "A favor",
+            "acierto": false
+          },
+          "Agente Liberal": {
+            "hubo_cambio": false,
+            "voto_inicial": "En contra",
+            "voto_final": "En contra",
+            "voto_esperado": "En contra",
+            "acierto": true
+          }
+        }
+      }
     }
   },
   "stats": {
@@ -6399,6 +8333,11 @@
       "aciertos": 262,
       "cambios": 23,
       "cambios_y_acierto": 7
+    },
+    "5_rondas_sin_research": {
+      "aciertos": 171,
+      "cambios": 16,
+      "cambios_y_acierto": 12
     }
   }
 }

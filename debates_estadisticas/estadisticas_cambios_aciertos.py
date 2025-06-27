@@ -37,7 +37,7 @@ def analizar_cambios_aciertos(path):
             #'cambios_acertados': cambios_acertados,
             'inicial_erroneo_final_acierto': inicial_erroneo_final_acierto,
             'inicial_acierto_final_erroneo': inicial_acierto_final_erroneo,
-            'porcentaje_cambios_acertados': inicial_erroneo_final_acierto /total * 100 if total else 0,
+            'porcentaje_cambios_acertados': inicial_erroneo_final_acierto / total * 100 if total else 0,
         }
     return resultados
 
@@ -48,6 +48,7 @@ def main():
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(resultados, f, indent=2, ensure_ascii=False)
     print(f'Estadísticas guardadas en {out_path}')
+
 
 if __name__ == "__main__":
     main()
