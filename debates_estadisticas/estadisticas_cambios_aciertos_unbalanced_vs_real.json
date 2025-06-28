@@ -1,0 +1,1150 @@
+{
+  "ley_1/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_1/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_1/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_1/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_1/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_1/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_1/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_1/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_6/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_6/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_6/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_6/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_6/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_6/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_6/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_6/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_8/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_8/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_8/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_8/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_8/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_8/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 19,
+    "errados": 1,
+    "porcentaje_cambios_acertados": 95.0,
+    "mae": 0.2
+  },
+  "ley_8/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_8/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_7/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_7/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 9,
+    "errados": 6,
+    "porcentaje_cambios_acertados": 60.0,
+    "mae": 1.4
+  },
+  "ley_7/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 11,
+    "errados": 4,
+    "porcentaje_cambios_acertados": 73.33333333333333,
+    "mae": 1.0666666666666667
+  },
+  "ley_7/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 2,
+    "errados": 18,
+    "porcentaje_cambios_acertados": 10.0,
+    "mae": 3.55
+  },
+  "ley_7/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.2666666666666666
+  },
+  "ley_7/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 5,
+    "errados": 15,
+    "porcentaje_cambios_acertados": 25.0,
+    "mae": 3.0
+  },
+  "ley_7/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_7/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 7,
+    "errados": 8,
+    "porcentaje_cambios_acertados": 46.666666666666664,
+    "mae": 2.1333333333333333
+  },
+  "ley_15/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_15/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 7,
+    "errados": 8,
+    "porcentaje_cambios_acertados": 46.666666666666664,
+    "mae": 1.4666666666666666
+  },
+  "ley_15/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.0
+  },
+  "ley_15/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 15,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 75.0,
+    "mae": 0.85
+  },
+  "ley_15/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 8,
+    "errados": 7,
+    "porcentaje_cambios_acertados": 53.333333333333336,
+    "mae": 1.8666666666666667
+  },
+  "ley_15/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 2.0
+  },
+  "ley_15/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 3,
+    "errados": 17,
+    "porcentaje_cambios_acertados": 15.0,
+    "mae": 3.4
+  },
+  "ley_15/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 9,
+    "errados": 6,
+    "porcentaje_cambios_acertados": 60.0,
+    "mae": 0.8
+  },
+  "ley_12/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_12/combinacion_1": {
+    "total_cambios": 10,
+    "aciertos": 5,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 50.0,
+    "mae": 2.0
+  },
+  "ley_12/combinacion_0": {
+    "total_cambios": 10,
+    "aciertos": 0,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 3.9
+  },
+  "ley_12/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 16,
+    "errados": 4,
+    "porcentaje_cambios_acertados": 80.0,
+    "mae": 0.8
+  },
+  "ley_12/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.6666666666666665
+  },
+  "ley_12/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_12/combinacion_3": {
+    "total_cambios": 10,
+    "aciertos": 5,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 50.0,
+    "mae": 2.0
+  },
+  "ley_24/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_24/combinacion_1": {
+    "total_cambios": 10,
+    "aciertos": 5,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 50.0,
+    "mae": 2.0
+  },
+  "ley_24/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 9,
+    "errados": 6,
+    "porcentaje_cambios_acertados": 60.0,
+    "mae": 1.6
+  },
+  "ley_24/combinacion_2": {
+    "total_cambios": 10,
+    "aciertos": 5,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 50.0,
+    "mae": 2.0
+  },
+  "ley_24/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_24/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_24/combinacion_3": {
+    "total_cambios": 10,
+    "aciertos": 10,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_23/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_23/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_23/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_23/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_23/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_23/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_23/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_23/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_13/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_13/combinacion_1": {
+    "total_cambios": 10,
+    "aciertos": 5,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 50.0,
+    "mae": 2.0
+  },
+  "ley_13/combinacion_0": {
+    "total_cambios": 10,
+    "aciertos": 0,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_13/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_13/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 3,
+    "errados": 12,
+    "porcentaje_cambios_acertados": 20.0,
+    "mae": 3.2
+  },
+  "ley_13/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_13/combinacion_3": {
+    "total_cambios": 10,
+    "aciertos": 5,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 50.0,
+    "mae": 2.0
+  },
+  "ley_3/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_3/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 0.6666666666666666
+  },
+  "ley_3/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 0.6666666666666666
+  },
+  "ley_3/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_3/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_3/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 1.95
+  },
+  "ley_3/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_3/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 0.6666666666666666
+  },
+  "ley_4/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_4/combinacion_1": {
+    "total_cambios": 10,
+    "aciertos": 9,
+    "errados": 1,
+    "porcentaje_cambios_acertados": 90.0,
+    "mae": 0.4
+  },
+  "ley_4/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_4/combinacion_2": {
+    "total_cambios": 10,
+    "aciertos": 10,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_4/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 18,
+    "errados": 2,
+    "porcentaje_cambios_acertados": 90.0,
+    "mae": 0.4
+  },
+  "ley_4/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 19,
+    "errados": 1,
+    "porcentaje_cambios_acertados": 95.0,
+    "mae": 0.2
+  },
+  "ley_4/combinacion_3": {
+    "total_cambios": 10,
+    "aciertos": 10,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_29/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_29/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 1,
+    "errados": 14,
+    "porcentaje_cambios_acertados": 6.666666666666667,
+    "mae": 3.7333333333333334
+  },
+  "ley_29/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.6666666666666665
+  },
+  "ley_29/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 4,
+    "errados": 16,
+    "porcentaje_cambios_acertados": 20.0,
+    "mae": 3.2
+  },
+  "ley_29/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.6666666666666665
+  },
+  "ley_29/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 1,
+    "errados": 19,
+    "porcentaje_cambios_acertados": 5.0,
+    "mae": 3.8
+  },
+  "ley_29/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 1,
+    "errados": 19,
+    "porcentaje_cambios_acertados": 5.0,
+    "mae": 3.8
+  },
+  "ley_29/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.6666666666666665
+  },
+  "ley_16/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_16/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_16/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_16/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_16/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 11,
+    "errados": 4,
+    "porcentaje_cambios_acertados": 73.33333333333333,
+    "mae": 1.0666666666666667
+  },
+  "ley_16/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_16/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_16/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 12,
+    "errados": 3,
+    "porcentaje_cambios_acertados": 80.0,
+    "mae": 0.8
+  },
+  "ley_20/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_20/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_20/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_20/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 7,
+    "errados": 13,
+    "porcentaje_cambios_acertados": 35.0,
+    "mae": 2.6
+  },
+  "ley_20/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 11,
+    "errados": 4,
+    "porcentaje_cambios_acertados": 73.33333333333333,
+    "mae": 1.0666666666666667
+  },
+  "ley_20/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_20/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_20/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 11,
+    "errados": 4,
+    "porcentaje_cambios_acertados": 73.33333333333333,
+    "mae": 1.0666666666666667
+  },
+  "ley_27/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_27/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 12,
+    "errados": 3,
+    "porcentaje_cambios_acertados": 80.0,
+    "mae": 0.8
+  },
+  "ley_27/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_27/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 19,
+    "errados": 1,
+    "porcentaje_cambios_acertados": 95.0,
+    "mae": 0.1
+  },
+  "ley_27/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_27/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_27/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_27/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_19/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_19/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_19/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_19/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_19/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_19/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 2,
+    "errados": 18,
+    "porcentaje_cambios_acertados": 10.0,
+    "mae": 3.6
+  },
+  "ley_19/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_19/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_26/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_26/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 11,
+    "errados": 4,
+    "porcentaje_cambios_acertados": 73.33333333333333,
+    "mae": 1.0
+  },
+  "ley_26/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_26/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_26/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_26/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 1,
+    "errados": 19,
+    "porcentaje_cambios_acertados": 5.0,
+    "mae": 3.8
+  },
+  "ley_26/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_26/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_21/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_21/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.6666666666666665
+  },
+  "ley_21/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_21/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_21/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.6666666666666665
+  },
+  "ley_21/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_21/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_21/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_28/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_28/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 12,
+    "errados": 3,
+    "porcentaje_cambios_acertados": 80.0,
+    "mae": 0.8
+  },
+  "ley_28/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 1.3333333333333333
+  },
+  "ley_28/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 19,
+    "errados": 1,
+    "porcentaje_cambios_acertados": 95.0,
+    "mae": 0.15
+  },
+  "ley_28/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_28/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 1,
+    "errados": 19,
+    "porcentaje_cambios_acertados": 5.0,
+    "mae": 3.65
+  },
+  "ley_28/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_28/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 11,
+    "errados": 4,
+    "porcentaje_cambios_acertados": 73.33333333333333,
+    "mae": 1.0666666666666667
+  },
+  "ley_17/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 18,
+    "errados": 2,
+    "porcentaje_cambios_acertados": 90.0,
+    "mae": 0.4
+  },
+  "ley_17/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 0.6666666666666666
+  },
+  "ley_17/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 0.6666666666666666
+  },
+  "ley_17/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_17/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 15,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_17/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 2.0
+  },
+  "ley_17/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_17/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 10,
+    "errados": 5,
+    "porcentaje_cambios_acertados": 66.66666666666666,
+    "mae": 0.6666666666666666
+  },
+  "ley_10/combinacion_6": {
+    "total_cambios": 20,
+    "aciertos": 20,
+    "errados": 0,
+    "porcentaje_cambios_acertados": 100.0,
+    "mae": 0.0
+  },
+  "ley_10/combinacion_1": {
+    "total_cambios": 15,
+    "aciertos": 2,
+    "errados": 13,
+    "porcentaje_cambios_acertados": 13.333333333333334,
+    "mae": 3.466666666666667
+  },
+  "ley_10/combinacion_0": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.6
+  },
+  "ley_10/combinacion_7": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_10/combinacion_2": {
+    "total_cambios": 15,
+    "aciertos": 5,
+    "errados": 10,
+    "porcentaje_cambios_acertados": 33.33333333333333,
+    "mae": 2.6666666666666665
+  },
+  "ley_10/combinacion_5": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_10/combinacion_4": {
+    "total_cambios": 20,
+    "aciertos": 0,
+    "errados": 20,
+    "porcentaje_cambios_acertados": 0.0,
+    "mae": 4.0
+  },
+  "ley_10/combinacion_3": {
+    "total_cambios": 15,
+    "aciertos": 7,
+    "errados": 8,
+    "porcentaje_cambios_acertados": 46.666666666666664,
+    "mae": 2.1333333333333333
+  }
+}

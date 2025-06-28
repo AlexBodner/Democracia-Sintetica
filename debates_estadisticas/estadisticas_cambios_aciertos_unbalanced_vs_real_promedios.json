@@ -1,0 +1,67 @@
+{
+  "promedios_por_combinacion": {
+    "combinacion_6": {
+      "total_cambios": 420,
+      "aciertos": 358,
+      "errados": 62,
+      "porcentaje_cambios_acertados": 85.23809523809524,
+      "mae": 0.5904761904761905
+    },
+    "combinacion_1": {
+      "total_cambios": 295,
+      "aciertos": 188,
+      "errados": 107,
+      "porcentaje_cambios_acertados": 63.49206349206348,
+      "mae": 1.3523809523809522
+    },
+    "combinacion_0": {
+      "total_cambios": 305,
+      "aciertos": 200,
+      "errados": 105,
+      "porcentaje_cambios_acertados": 63.4920634920635,
+      "mae": 1.357142857142857
+    },
+    "combinacion_7": {
+      "total_cambios": 380,
+      "aciertos": 262,
+      "errados": 118,
+      "porcentaje_cambios_acertados": 68.94736842105263,
+      "mae": 1.2236842105263157
+    },
+    "combinacion_2": {
+      "total_cambios": 305,
+      "aciertos": 223,
+      "errados": 82,
+      "porcentaje_cambios_acertados": 73.17460317460316,
+      "mae": 1.06984126984127
+    },
+    "combinacion_5": {
+      "total_cambios": 380,
+      "aciertos": 167,
+      "errados": 213,
+      "porcentaje_cambios_acertados": 43.94736842105263,
+      "mae": 1.9157894736842105
+    },
+    "combinacion_4": {
+      "total_cambios": 420,
+      "aciertos": 283,
+      "errados": 137,
+      "porcentaje_cambios_acertados": 67.38095238095238,
+      "mae": 1.3047619047619048
+    },
+    "combinacion_3": {
+      "total_cambios": 295,
+      "aciertos": 202,
+      "errados": 93,
+      "porcentaje_cambios_acertados": 68.8888888888889,
+      "mae": 1.1428571428571428
+    }
+  },
+  "promedios_globales": {
+    "total_cambios": 2800,
+    "aciertos": 1883,
+    "errados": 917,
+    "porcentaje_cambios_acertados": 67.25,
+    "mae": 1.2278571428571428
+  }
+}

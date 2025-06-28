@@ -1,0 +1,21 @@
+{
+  "ley_15": {
+    "combinacion_1": {
+      "Agente Liberal 1": 2
+    },
+    "combinacion_4": {
+      "Agente Liberal 2": 2,
+      "Agente Liberal 4": 1
+    }
+  },
+  "ley_4": {
+    "combinacion_4": {
+      "Agente Liberal 4": 1
+    }
+  },
+  "ley_29": {
+    "combinacion_4": {
+      "Agente Liberal 2": 1
+    }
+  }
+}
