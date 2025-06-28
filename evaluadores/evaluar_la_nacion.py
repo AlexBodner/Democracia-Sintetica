@@ -28,9 +28,11 @@ async def main(output_folder="evaluaciones", output_file="respuestas_la_nacion.j
     agente_reviewer = AgenteReviewer
     agente_base =  AgenteBase
     agente_turbo = BaseAgent(name="Agente Turbo")
+    agente_grok = BaseAgent(name="Agente Grok")
+    agente_DeepSeek = BaseAgent(name="Agente DeepSeek")
 
     #agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
-    agentes = [agente_turbo]
+    agentes = [agente_DeepSeek]
 
     with open("testing/la_nacion.json", "r", encoding="utf-8") as f:
         preguntas = json.load(f)
@@ -88,7 +90,7 @@ async def main(output_folder="evaluaciones", output_file="respuestas_la_nacion.j
 
 
 if __name__ == "__main__":
-    asyncio.run(main(output_file="respuestas_la_nacion_agente_turbo.json"))
+    asyncio.run(main(output_file="respuestas_la_nacion_agente_DeepSeek.json"))
 
 """
 

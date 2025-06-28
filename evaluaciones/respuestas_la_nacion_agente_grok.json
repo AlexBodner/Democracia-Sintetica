@@ -1,0 +1,68 @@
+{
+    "Agente Grok": {
+        "La historia inflacionaria del país justifica ir a una dolarización": {
+            "respuesta": "En desacuerdo",
+            "razonamiento": "No, la dolarización no es la única solución para controlar la inflación en un país. Se pueden implementar políticas monetarias y fiscales efectivas para combatir la inflación."
+        },
+        "Los impuestos de la Argentina son excesivos y hay que reducirlos": {
+            "respuesta": "De acuerdo",
+            "razonamiento": "Creo que los impuestos en Argentina son excesivos y que se debería reducir la carga impositiva para promover el crecimiento económico y fomentar la inversión."
+        },
+        "El Estado debe regular a los privados para mejorar la distribución de la riqueza": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "Creo firmemente en la intervención del Estado para garantizar una distribución más equitativa de la riqueza, por lo tanto, estoy muy de acuerdo con que el Estado regule a los privados para este fin."
+        },
+        "Las restricciones a las importaciones son necesarias para fomentar y proteger a la industria nacional": {
+            "respuesta": "Muy en desacuerdo",
+            "razonamiento": "Creo firmemente en el libre comercio y en la apertura de mercados. Considero que las restricciones a las importaciones pueden afectar negativamente la competencia y la eficiencia de la industria nacional. Por lo tanto, estoy muy en desacuerdo con esta afirmación."
+        },
+        "El Estado debe reducir sus gastos para alcanzar el equilibrio fiscal": {
+            "respuesta": "De acuerdo",
+            "razonamiento": "Creo que el Estado debe reducir sus gastos para alcanzar el equilibrio fiscal como medida de responsabilidad en la gestión de los recursos públicos."
+        },
+        "El país necesita una reforma laboral que baje los costos de despido": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "Creo que la flexibilización laboral puede fomentar la creación de empleo y la competitividad en el país, por lo tanto estoy muy de acuerdo con la afirmación."
+        },
+        "El control de precios es una buena estrategia para combatir la inflación": {
+            "respuesta": "Depende",
+            "razonamiento": "Creo que el control de precios puede tener un impacto positivo a corto plazo en la inflación, pero a largo plazo puede generar distorsiones en el mercado e incluso empeorar la situación. Por lo tanto, mi respuesta es: Depende."
+        },
+        "La fuerza pública debe desalojar a los grupos que cortan rutas o avenidas principales de las ciudades": {
+            "respuesta": "Depende",
+            "razonamiento": "Creo en el derecho a la protesta pacífica, pero también en la importancia de mantener el orden público y la circulación en las ciudades. Por lo tanto, mi elección es: Depende."
+        },
+        "Hay que eliminar los planes sociales porque generan un enorme gasto y atentan contra la cultura del esfuerzo": {
+            "respuesta": "En desacuerdo",
+            "razonamiento": "Creo en el bienestar social y en la igualdad de oportunidades para todos los ciudadanos. Por lo tanto, estoy en desacuerdo con la eliminación de los planes sociales, ya que considero que son necesarios para ayudar a las personas más vulnerables y garantizar su dignidad. Además, no creo que atenten contra la cultura del esfuerzo, sino que son una forma de apoyar a quienes más lo necesitan."
+        },
+        "El Estado debe tomar medidas para asegurar la paridad salarial entre mujeres y hombres": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "Creo firmemente en la igualdad de género y considero que el Estado debe intervenir para garantizar la paridad salarial entre mujeres y hombres."
+        },
+        "La ley de aborto legal, seguro y gratuito es una conquista social de enorme trascendencia": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "Creo en el derecho de las mujeres a decidir sobre su propio cuerpo y apoyo la ley de aborto legal, seguro y gratuito como una conquista social importante."
+        },
+        "Ante la inseguridad creciente, debería permitirse la libre portación de armas": {
+            "respuesta": "En desacuerdo",
+            "razonamiento": "Creo en un enfoque integral para abordar la inseguridad, que incluya medidas de prevención, educación y control de armas. No creo que la libre portación de armas sea la solución a este problema."
+        },
+        "La salud y la educación pública deberían continuar siendo gratuitas": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "Creo en la importancia de la igualdad de oportunidades y en el acceso equitativo a la salud y la educación para todos los ciudadanos. Por lo tanto, estoy muy de acuerdo en que la salud y la educación pública deberían continuar siendo gratuitas."
+        },
+        "La Argentina debe romper el acuerdo con el FMI para cortar la dependencia económica": {
+            "respuesta": "Depende",
+            "razonamiento": "No es conveniente romper el acuerdo con el FMI ya que podría generar inestabilidad económica y financiera en el país. Es importante mantener la relación con el FMI para garantizar el acceso a financiamiento en caso de necesidad."
+        },
+        "El matrimonio igualitario es uno de los grandes avances sociales de los últimos años en el país": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "Creo en la igualdad de derechos para todas las personas, por lo tanto, estoy muy de acuerdo con el matrimonio igualitario."
+        },
+        "Hay que pensar leyes que protejan a los policías y no a los delincuentes": {
+            "respuesta": "Muy de acuerdo",
+            "razonamiento": "Es importante considerar leyes que protejan a los policías ya que desempeñan un rol fundamental en la seguridad pública y su labor puede ser peligrosa. Sin embargo, también es crucial garantizar que se respeten los derechos de todas las personas, incluidos los delincuentes, y que se aplique la justicia de manera equitativa."
+        }
+    }
+}
