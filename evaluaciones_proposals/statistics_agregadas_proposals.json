@@ -1,0 +1,42 @@
+{
+  "Agente Liberal": {
+    "cantidad_propuestas_votadas": {
+      "Agente de Juntos Por El Cambio": 55,
+      "Agente de Union Por La Patria": 39,
+      "Agente de Izquierda": 34,
+      "total": 128
+    },
+    "propuestas_totales_hechas": 114,
+    "propuestas_propias_votadas_en_contra_total": 33
+  },
+  "Agente de Juntos Por El Cambio": {
+    "cantidad_propuestas_votadas": {
+      "Agente Liberal": 103,
+      "Agente de Union Por La Patria": 91,
+      "Agente de Izquierda": 79,
+      "total": 273
+    },
+    "propuestas_totales_hechas": 117,
+    "propuestas_propias_votadas_en_contra_total": 7
+  },
+  "Agente de Union Por La Patria": {
+    "cantidad_propuestas_votadas": {
+      "Agente de Izquierda": 108,
+      "Agente de Juntos Por El Cambio": 105,
+      "Agente Liberal": 76,
+      "total": 289
+    },
+    "propuestas_totales_hechas": 98,
+    "propuestas_propias_votadas_en_contra_total": 1
+  },
+  "Agente de Izquierda": {
+    "cantidad_propuestas_votadas": {
+      "Agente de Union Por La Patria": 81,
+      "Agente de Juntos Por El Cambio": 70,
+      "Agente Liberal": 51,
+      "total": 202
+    },
+    "propuestas_totales_hechas": 110,
+    "propuestas_propias_votadas_en_contra_total": 0
+  }
+}

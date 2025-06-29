@@ -1,0 +1,42 @@
+{
+  "Agente Liberal": {
+    "agentes_displayed": {
+      "cantidad_de_cambios": 40,
+      "mae": 36
+    },
+    "agentes_ocultos": {
+      "cantidad_de_cambios": 12,
+      "mae": 32
+    }
+  },
+  "Agente de Juntos Por El Cambio": {
+    "agentes_displayed": {
+      "cantidad_de_cambios": 59,
+      "mae": 32
+    },
+    "agentes_ocultos": {
+      "cantidad_de_cambios": 59,
+      "mae": 32
+    }
+  },
+  "Agente de Union Por La Patria": {
+    "agentes_displayed": {
+      "cantidad_de_cambios": 12,
+      "mae": 8
+    },
+    "agentes_ocultos": {
+      "cantidad_de_cambios": 8,
+      "mae": 12
+    }
+  },
+  "Agente de Izquierda": {
+    "agentes_displayed": {
+      "cantidad_de_cambios": 36,
+      "mae": 33
+    },
+    "agentes_ocultos": {
+      "cantidad_de_cambios": 20,
+      "mae": 27
+    }
+  }
+}

@@ -8,9 +8,9 @@ from collections import defaultdict, Counter
 import numpy as np
 
 # --- CONFIG ---
-PROPOSALS_DIR = os.path.dirname(__file__)
+PROPOSALS_DIR = 'evaluaciones_proposals'#os.path.dirname(__file__)
 DEBATES_GLOB = os.path.join(PROPOSALS_DIR, 'debate_*.json')
-LEY_MAP_PATH = os.path.abspath(os.path.join(PROPOSALS_DIR, '..', 'testing', 'leyes.json'))
+LEY_MAP_PATH = os.path.abspath(r'C:\Users\delfi\OneDrive\Documents\Universidad\NLP\v2\Regulacion-Agentic\testing\leyes.json')
 OUTPUT_PATH = os.path.join(PROPOSALS_DIR, 'statistics_proposals.json')
 
 # --- LOAD LEYES ---
@@ -18,7 +18,7 @@ def load_leyes():
     with open(LEY_MAP_PATH, encoding='utf-8') as f:
         leyes = json.load(f)
     # Map: nombre -> {ley dict}
-    return {ley['nombre']: ley for ley in leyes}, {ley['id']: ley for ley in leyes}
+    return leyes
 
 # --- AGENT TO POSTURA MAPPING ---
 PARTY_MAP = {
@@ -30,33 +30,23 @@ PARTY_MAP = {
 
 # --- MAIN ---
 def main():
-    leyes_by_name, leyes_by_id = load_leyes()
+    leyes_reales = load_leyes()
     stats_by_ley = {}
     for debate_path in glob.glob(DEBATES_GLOB):
+        
         with open(debate_path, encoding='utf-8') as f:
             debate = json.load(f)
+        
         # Law name from debate (assume in "Debate Completo" or infer from file)
-        law_name = None
-        for entry in debate.get('Debate Completo', []):
-            if 'Ley' in entry.get('content', ''):
-                for ley in leyes_by_name:
-                    if ley in entry['content']:
-                        law_name = ley
-                        break
-            if law_name:
-                break
-        if not law_name:
-            for ley in leyes_by_name:
-                if str(leyes_by_name[ley]['id']) in debate_path:
-                    law_name = ley
-                    break
-        if not law_name:
-            continue  # skip if cannot match
-        law_id = leyes_by_name[law_name]['id']
+
+        law_id = debate_path.split('_')[-1].replace('.json', '')
+        if law_id == 1:
+            print(debate.keys())
         # --- AGENTS ---
         agents = list(debate.get('Round 0', {}).keys())
         # --- Proposals ---
-        proposals_por_agente = debate.get('proposals_por_agente', {})
+        proposals_por_agente = debate['proposals_por_agente']
+
         # --- Votes on proposals ---
         round4 = debate.get('Round 4', {})
         # --- Final votes ---
@@ -66,12 +56,21 @@ def main():
                 for ag, d in debate[r].items():
                     final_votes[ag] = d.get('voto')
         # --- Real votes ---
-        ley_posturas = leyes_by_name[law_name]['posturas']
+        for ley in leyes_reales:
+            if ley.get('id') == int(law_id):
+                ley_posturas = ley['posturas']
+                break
+        else:
+            ley_posturas = None
         real_votes = {ag: ley_posturas[PARTY_MAP[ag]]['voto'] for ag in agents if ag in PARTY_MAP}
         # --- Proposal stats ---
         agent_stats = {ag: {} for ag in agents}
-        # 1. Number of proposals by agent
-        proposals_by_agent = Counter(proposals_por_agente.values())
+        # 1. Number of proposals by agent (fix: count in proposals_por_agente values)
+        proposals_by_agent = {ag: 0 for ag in agents}
+        for agent in agents:
+            for proposal in proposals_por_agente:
+                if proposals_por_agente[proposal] == agent:
+                    proposals_by_agent[agent] += 1
         # 2. For each agent: proposals by others they approved
         for ag in agents:
             approved = []
@@ -100,7 +99,7 @@ def main():
             #agent_stats[ag]['vote_changes_norm2'] = [c for c in changes if c >= 2]
         # 4. Number of proposals made
         for ag in agents:
-            agent_stats[ag]['proposals_made'] = proposals_by_agent.get(ag, 0)
+            agent_stats[ag]['proposals_made'] = proposals_by_agent[ag]
         # --- VOTE CHANGES: cambio entre ronda 1 y ronda 5 (agentes ocultos), y ronda 1 y ronda 6 (agentes visibles) ---
         for ag in agents:
             vote_r1 = None
@@ -143,6 +142,14 @@ def main():
                 'agentes_ocultos': mae_r5,
                 'agentes_displayed': mae_r6
             }
+        # Propuestas propias votadas en contra por el propio agente en ronda 4
+        for ag in agents:
+            propias = [prop for prop, proposer in proposals_por_agente.items() if proposer == ag]
+            count_contra = 0
+            for prop in propias:
+                if round4.get(ag, {}).get(prop) is False:
+                    count_contra += 1
+            agent_stats[ag]['propuestas_propias_votadas_en_contra'] = count_contra
         stats_by_ley[law_id] = agent_stats
     # --- Write output ---
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
