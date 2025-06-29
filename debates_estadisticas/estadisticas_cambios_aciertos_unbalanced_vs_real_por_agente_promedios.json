@@ -1,0 +1,214 @@
+{
+  "combinacion_6": {
+    "Agente UxP 1": {
+      "total_cambios": 105,
+      "aciertos": 90,
+      "errados": 15,
+      "porcentaje_cambios_acertados": 85.71428571428571,
+      "mae": 0.5714285714285714
+    },
+    "Agente UxP 2": {
+      "total_cambios": 105,
+      "aciertos": 89,
+      "errados": 16,
+      "porcentaje_cambios_acertados": 84.76190476190476,
+      "mae": 0.6095238095238096
+    },
+    "Agente UxP 3": {
+      "total_cambios": 105,
+      "aciertos": 89,
+      "errados": 16,
+      "porcentaje_cambios_acertados": 84.76190476190476,
+      "mae": 0.6095238095238096
+    },
+    "Agente UxP 4": {
+      "total_cambios": 105,
+      "aciertos": 90,
+      "errados": 15,
+      "porcentaje_cambios_acertados": 85.71428571428571,
+      "mae": 0.5714285714285714
+    }
+  },
+  "combinacion_1": {
+    "Agente Liberal 1": {
+      "total_cambios": 105,
+      "aciertos": 72,
+      "errados": 33,
+      "porcentaje_cambios_acertados": 68.57142857142857,
+      "mae": 1.2571428571428571
+    },
+    "Agente Izquierda 1": {
+      "total_cambios": 95,
+      "aciertos": 49,
+      "errados": 46,
+      "porcentaje_cambios_acertados": 51.578947368421055,
+      "mae": 1.5789473684210524
+    },
+    "Agente JxC 1": {
+      "total_cambios": 95,
+      "aciertos": 67,
+      "errados": 28,
+      "porcentaje_cambios_acertados": 70.52631578947368,
+      "mae": 1.1789473684210525
+    }
+  },
+  "combinacion_0": {
+    "Agente Liberal 1": {
+      "total_cambios": 105,
+      "aciertos": 70,
+      "errados": 35,
+      "porcentaje_cambios_acertados": 66.66666666666667,
+      "mae": 1.3333333333333333
+    },
+    "Agente Izquierda 1": {
+      "total_cambios": 95,
+      "aciertos": 41,
+      "errados": 54,
+      "porcentaje_cambios_acertados": 43.1578947368421,
+      "mae": 1.9473684210526316
+    },
+    "Agente UxP 1": {
+      "total_cambios": 105,
+      "aciertos": 89,
+      "errados": 16,
+      "porcentaje_cambios_acertados": 84.76190476190476,
+      "mae": 0.6
+    }
+  },
+  "combinacion_7": {
+    "Agente JxC 1": {
+      "total_cambios": 95,
+      "aciertos": 63,
+      "errados": 32,
+      "porcentaje_cambios_acertados": 66.3157894736842,
+      "mae": 1.3157894736842106
+    },
+    "Agente JxC 2": {
+      "total_cambios": 95,
+      "aciertos": 68,
+      "errados": 27,
+      "porcentaje_cambios_acertados": 71.57894736842105,
+      "mae": 1.1157894736842104
+    },
+    "Agente JxC 3": {
+      "total_cambios": 95,
+      "aciertos": 66,
+      "errados": 29,
+      "porcentaje_cambios_acertados": 69.47368421052632,
+      "mae": 1.2105263157894737
+    },
+    "Agente JxC 4": {
+      "total_cambios": 95,
+      "aciertos": 65,
+      "errados": 30,
+      "porcentaje_cambios_acertados": 68.42105263157895,
+      "mae": 1.2526315789473685
+    }
+  },
+  "combinacion_2": {
+    "Agente Liberal 1": {
+      "total_cambios": 105,
+      "aciertos": 70,
+      "errados": 35,
+      "porcentaje_cambios_acertados": 66.66666666666667,
+      "mae": 1.3333333333333333
+    },
+    "Agente UxP 1": {
+      "total_cambios": 105,
+      "aciertos": 91,
+      "errados": 14,
+      "porcentaje_cambios_acertados": 86.66666666666667,
+      "mae": 0.5333333333333333
+    },
+    "Agente JxC 1": {
+      "total_cambios": 95,
+      "aciertos": 62,
+      "errados": 33,
+      "porcentaje_cambios_acertados": 65.26315789473684,
+      "mae": 1.3789473684210527
+    }
+  },
+  "combinacion_5": {
+    "Agente Izquierda 1": {
+      "total_cambios": 95,
+      "aciertos": 42,
+      "errados": 53,
+      "porcentaje_cambios_acertados": 44.21052631578947,
+      "mae": 1.905263157894737
+    },
+    "Agente Izquierda 2": {
+      "total_cambios": 95,
+      "aciertos": 39,
+      "errados": 56,
+      "porcentaje_cambios_acertados": 41.05263157894737,
+      "mae": 2.0105263157894737
+    },
+    "Agente Izquierda 3": {
+      "total_cambios": 95,
+      "aciertos": 45,
+      "errados": 50,
+      "porcentaje_cambios_acertados": 47.36842105263158,
+      "mae": 1.7894736842105263
+    },
+    "Agente Izquierda 4": {
+      "total_cambios": 95,
+      "aciertos": 41,
+      "errados": 54,
+      "porcentaje_cambios_acertados": 43.1578947368421,
+      "mae": 1.9578947368421054
+    }
+  },
+  "combinacion_4": {
+    "Agente Liberal 1": {
+      "total_cambios": 105,
+      "aciertos": 70,
+      "errados": 35,
+      "porcentaje_cambios_acertados": 66.66666666666667,
+      "mae": 1.3333333333333333
+    },
+    "Agente Liberal 2": {
+      "total_cambios": 105,
+      "aciertos": 73,
+      "errados": 32,
+      "porcentaje_cambios_acertados": 69.52380952380952,
+      "mae": 1.2190476190476192
+    },
+    "Agente Liberal 3": {
+      "total_cambios": 105,
+      "aciertos": 70,
+      "errados": 35,
+      "porcentaje_cambios_acertados": 66.66666666666667,
+      "mae": 1.3333333333333333
+    },
+    "Agente Liberal 4": {
+      "total_cambios": 105,
+      "aciertos": 70,
+      "errados": 35,
+      "porcentaje_cambios_acertados": 66.66666666666667,
+      "mae": 1.3333333333333333
+    }
+  },
+  "combinacion_3": {
+    "Agente Izquierda 1": {
+      "total_cambios": 95,
+      "aciertos": 42,
+      "errados": 53,
+      "porcentaje_cambios_acertados": 44.21052631578947,
+      "mae": 1.915789473684211
+    },
+    "Agente UxP 1": {
+      "total_cambios": 105,
+      "aciertos": 93,
+      "errados": 12,
+      "porcentaje_cambios_acertados": 88.57142857142857,
+      "mae": 0.45714285714285713
+    },
+    "Agente JxC 1": {
+      "total_cambios": 95,
+      "aciertos": 67,
+      "errados": 28,
+      "porcentaje_cambios_acertados": 70.52631578947368,
+      "mae": 1.1578947368421053
+    }
+  }
+}

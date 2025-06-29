@@ -1,0 +1,4292 @@
+{
+  "ley_1": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_6": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_8": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    }
+  },
+  "ley_7": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 3.8
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 3.8
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.6
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 2,
+        "errados": 3,
+        "porcentaje_cambios_acertados": 40.0,
+        "mae": 2.4
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    }
+  },
+  "ley_15": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 2,
+        "errados": 3,
+        "porcentaje_cambios_acertados": 40.0,
+        "mae": 2.4
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.6
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.6
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 2,
+        "errados": 3,
+        "porcentaje_cambios_acertados": 40.0,
+        "mae": 2.4
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.4
+      }
+    }
+  },
+  "ley_12": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 3.8
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.6
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_3": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_24": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_23": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_13": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.6
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_3": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_3": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 1.8
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_4": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_29": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 2,
+        "errados": 3,
+        "porcentaje_cambios_acertados": 40.0,
+        "mae": 2.4
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    }
+  },
+  "ley_16": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.6
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_20": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 3,
+        "errados": 2,
+        "porcentaje_cambios_acertados": 60.0,
+        "mae": 1.6
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 2,
+        "errados": 3,
+        "porcentaje_cambios_acertados": 40.0,
+        "mae": 2.4
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      }
+    }
+  },
+  "ley_27": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 2,
+        "errados": 3,
+        "porcentaje_cambios_acertados": 40.0,
+        "mae": 2.4
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.4
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_19": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_26": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_21": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    }
+  },
+  "ley_28": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 2,
+        "errados": 3,
+        "porcentaje_cambios_acertados": 40.0,
+        "mae": 2.4
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.6
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 3.4
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_17": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 4,
+        "errados": 1,
+        "porcentaje_cambios_acertados": 80.0,
+        "mae": 0.8
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 2.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    }
+  },
+  "ley_10": {
+    "combinacion_6": {
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 2": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 3": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente UxP 4": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_1": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 1,
+        "errados": 4,
+        "porcentaje_cambios_acertados": 20.0,
+        "mae": 3.2
+      }
+    },
+    "combinacion_0": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 3.8
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      }
+    },
+    "combinacion_7": {
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente JxC 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_2": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_5": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Izquierda 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_4": {
+      "Agente Liberal 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 2": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 3": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente Liberal 4": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      }
+    },
+    "combinacion_3": {
+      "Agente Izquierda 1": {
+        "total_cambios": 5,
+        "aciertos": 0,
+        "errados": 5,
+        "porcentaje_cambios_acertados": 0.0,
+        "mae": 4.0
+      },
+      "Agente UxP 1": {
+        "total_cambios": 5,
+        "aciertos": 5,
+        "errados": 0,
+        "porcentaje_cambios_acertados": 100.0,
+        "mae": 0.0
+      },
+      "Agente JxC 1": {
+        "total_cambios": 5,
+        "aciertos": 2,
+        "errados": 3,
+        "porcentaje_cambios_acertados": 40.0,
+        "mae": 2.4
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "ley_15": {
+    "combinacion_1": [
+      {
+        "law": "ley_15",
+        "combinacion": "combinacion_1",
+        "debate": "debate_iteracion_4.json",
+        "agent": "Agente Liberal 1",
+        "unbalanced_vote": 4,
+        "balanced_mode_vote": 0
+      },
+      {
+        "law": "ley_15",
+        "combinacion": "combinacion_1",
+        "debate": "debate_iteracion_3.json", // se comio los datos del informe
+        "agent": "Agente Liberal 1",
+        "unbalanced_vote": 4,
+        "balanced_mode_vote": 0
+      }
+    ],
+    "combinacion_4": [
+      {
+        "law": "ley_15",
+        "combinacion": "combinacion_4",
+        "debate": "debate_iteracion_1.json",
+        "agent": "Agente Liberal 2",
+        "unbalanced_vote": 4,
+        "balanced_mode_vote": 0
+      },
+      {
+        "law": "ley_15",
+        "combinacion": "combinacion_4",
+        "debate": "debate_iteracion_2.json",
+        "agent": "Agente Liberal 2",
+        "unbalanced_vote": 4,
+        "balanced_mode_vote": 0
+      },
+      {
+        "law": "ley_15",
+        "combinacion": "combinacion_4",
+        "debate": "debate_iteracion_2.json",
+        "agent": "Agente Liberal 4",
+        "unbalanced_vote": 4,
+        "balanced_mode_vote": 0
+      }
+    ]
+  },
+  "ley_4": {
+    "combinacion_4": [
+      {
+        "law": "ley_4",
+        "combinacion": "combinacion_4",
+        "debate": "debate_iteracion_3.json",
+        "agent": "Agente Liberal 4",
+        "unbalanced_vote": 4,
+        "balanced_mode_vote": 0
+      }
+    ]
+  },
+  "ley_29": {
+    "combinacion_4": [
+      {
+        "law": "ley_29",
+        "combinacion": "combinacion_4",
+        "debate": "debate_iteracion_3.json",
+        "agent": "Agente Liberal 2",
+        "unbalanced_vote": 4,
+        "balanced_mode_vote": 0
+      }
+    ]
+  }
+}
