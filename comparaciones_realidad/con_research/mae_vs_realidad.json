@@ -24,19 +24,19 @@
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.1666666666666665
+      "Agente de Izquierda": 2.2
     },
     "Round 1": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.3333333333333335
+      "Agente de Izquierda": 2.2
     },
     "Round 2": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.3333333333333335
+      "Agente de Izquierda": 2.2
     }
   },
   "4": {
@@ -44,13 +44,13 @@
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 2.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 0.16666666666666652
+      "Agente de Izquierda": 0.0
     },
     "Round 1": {
       "Agente Liberal": 0.0,
-      "Agente de Juntos Por El Cambio": 1.8333333333333333,
+      "Agente de Juntos Por El Cambio": 1.8,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 0.6666666666666665
+      "Agente de Izquierda": 0.0
     },
     "Round 2": {
       "Agente Liberal": 0.0,
@@ -82,27 +82,27 @@
   "7": {
     "Round 0": {
       "Agente Liberal": 0.0,
-      "Agente de Juntos Por El Cambio": 3.8333333333333335,
+      "Agente de Juntos Por El Cambio": 3.8,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 3.1666666666666665
+      "Agente de Izquierda": 3.8
     },
     "Round 1": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 4.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 3.3333333333333335
+      "Agente de Izquierda": 4.0
     },
     "Round 2": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 4.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 3.3333333333333335
+      "Agente de Izquierda": 4.0
     }
   },
   "8": {
     "Round 0": {
       "Agente Liberal": 0.0,
-      "Agente de Juntos Por El Cambio": 3.6666666666666665,
+      "Agente de Juntos Por El Cambio": 3.6,
       "Agente de Union Por La Patria": 0.0,
       "Agente de Izquierda": 0.0
     },
@@ -142,19 +142,19 @@
   "12": {
     "Round 0": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 1.3333333333333335,
-      "Agente de Union Por La Patria": 3.8333333333333335,
+      "Agente de Juntos Por El Cambio": 1.6,
+      "Agente de Union Por La Patria": 4.0,
       "Agente de Izquierda": null
     },
     "Round 1": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 0.8333333333333335,
+      "Agente de Juntos Por El Cambio": 1.0,
       "Agente de Union Por La Patria": 4.0,
       "Agente de Izquierda": null
     },
     "Round 2": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 0.8333333333333335,
+      "Agente de Juntos Por El Cambio": 1.0,
       "Agente de Union Por La Patria": 4.0,
       "Agente de Izquierda": null
     }
@@ -209,13 +209,13 @@
     "Round 1": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
-      "Agente de Union Por La Patria": 3.1666666666666665,
+      "Agente de Union Por La Patria": 3.0,
       "Agente de Izquierda": 0.0
     },
     "Round 2": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
-      "Agente de Union Por La Patria": 3.3333333333333335,
+      "Agente de Union Por La Patria": 3.2,
       "Agente de Izquierda": 0.0
     }
   },
@@ -244,19 +244,19 @@
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.6666666666666665
+      "Agente de Izquierda": 3.2
     },
     "Round 1": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.8333333333333335
+      "Agente de Izquierda": 3.4
     },
     "Round 2": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.6666666666666665
+      "Agente de Izquierda": 3.2
     }
   },
   "20": {
@@ -264,7 +264,7 @@
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 4.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 1.3333333333333335
+      "Agente de Izquierda": 1.6
     },
     "Round 1": {
       "Agente Liberal": 0.0,
@@ -282,21 +282,21 @@
   "21": {
     "Round 0": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 3.6666666666666665,
+      "Agente de Juntos Por El Cambio": 3.6,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 0.5
+      "Agente de Izquierda": 0.0
     },
     "Round 1": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 3.8333333333333335,
+      "Agente de Juntos Por El Cambio": 3.8,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 0.5
+      "Agente de Izquierda": 0.0
     },
     "Round 2": {
       "Agente Liberal": 4.0,
       "Agente de Juntos Por El Cambio": 4.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 0.6666666666666665
+      "Agente de Izquierda": 0.0
     }
   },
   "23": {
@@ -304,19 +304,19 @@
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.0
+      "Agente de Izquierda": 2.4
     },
     "Round 1": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.0
+      "Agente de Izquierda": 2.4
     },
     "Round 2": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.0
+      "Agente de Izquierda": 2.4
     }
   },
   "24": {
@@ -328,7 +328,7 @@
     },
     "Round 1": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 1.5,
+      "Agente de Juntos Por El Cambio": 1.4,
       "Agente de Union Por La Patria": 0.0,
       "Agente de Izquierda": 0.0
     },
@@ -342,7 +342,7 @@
   "26": {
     "Round 0": {
       "Agente Liberal": 0.0,
-      "Agente de Juntos Por El Cambio": 0.16666666666666666,
+      "Agente de Juntos Por El Cambio": 0.2,
       "Agente de Union Por La Patria": 0.0,
       "Agente de Izquierda": 4.0
     },
@@ -384,37 +384,37 @@
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.0
+      "Agente de Izquierda": 1.6
     },
     "Round 1": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.0
+      "Agente de Izquierda": 1.6
     },
     "Round 2": {
       "Agente Liberal": 0.0,
       "Agente de Juntos Por El Cambio": 0.0,
       "Agente de Union Por La Patria": 0.0,
-      "Agente de Izquierda": 2.0
+      "Agente de Izquierda": 1.6
     }
   },
   "29": {
     "Round 0": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 3.0,
+      "Agente de Juntos Por El Cambio": 3.4,
       "Agente de Union Por La Patria": 0.0,
       "Agente de Izquierda": 4.0
     },
     "Round 1": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 1.8333333333333335,
+      "Agente de Juntos Por El Cambio": 2.2,
       "Agente de Union Por La Patria": 0.0,
       "Agente de Izquierda": 4.0
     },
     "Round 2": {
       "Agente Liberal": 4.0,
-      "Agente de Juntos Por El Cambio": 2.166666666666667,
+      "Agente de Juntos Por El Cambio": 2.6,
       "Agente de Union Por La Patria": 0.0,
       "Agente de Izquierda": 4.0
     }

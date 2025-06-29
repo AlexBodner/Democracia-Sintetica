@@ -1,0 +1,2354 @@
+{
+    "1": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "3": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.0,
+                "voto_moda": 0,
+                "varianza_votos": 3.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        }
+    },
+    "4": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "6": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 0.3333333333333333
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        }
+    },
+    "7": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 0.3333333333333333
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "8": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "10": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 1.0,
+                "voto_moda": 0,
+                "varianza_votos": 3.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 0.3333333333333333
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "12": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 3.0,
+                "voto_moda": 3,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 0.6666666666666666,
+                "voto_moda": 0,
+                "varianza_votos": 1.3333333333333333
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 1.0,
+                "voto_moda": 0,
+                "varianza_votos": 3.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 1.0,
+                "voto_moda": 0,
+                "varianza_votos": 3.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 1.0,
+                "voto_moda": 0,
+                "varianza_votos": 3.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "13": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "15": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "16": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "17": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "19": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.0,
+                "voto_moda": 0,
+                "varianza_votos": 3.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        }
+    },
+    "20": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "21": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 2.3333333333333335,
+                "voto_moda": 3,
+                "varianza_votos": 4.333333333333333
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 2.6666666666666665,
+                "voto_moda": 4,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 2.6666666666666665,
+                "voto_moda": 4,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 2.6666666666666665,
+                "voto_moda": 4,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 2.6666666666666665,
+                "voto_moda": 4,
+                "varianza_votos": 5.333333333333333
+            }
+        }
+    },
+    "23": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 0.3333333333333333
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "24": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "26": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 0.3333333333333333
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "27": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    },
+    "28": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 0.3333333333333333
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 1.3333333333333333,
+                "voto_moda": 0,
+                "varianza_votos": 5.333333333333333
+            }
+        }
+    },
+    "29": {
+        "Round 0": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 1": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 3.6666666666666665,
+                "voto_moda": 4,
+                "varianza_votos": 0.3333333333333333
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 2": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 3": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        },
+        "Round 4": {
+            "Agente Liberal": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            },
+            "Agente de Juntos Por El Cambio": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Union Por La Patria": {
+                "voto_promedio": 4.0,
+                "voto_moda": 4,
+                "varianza_votos": 0.0
+            },
+            "Agente de Izquierda": {
+                "voto_promedio": 0.0,
+                "voto_moda": 0,
+                "varianza_votos": 0.0
+            }
+        }
+    }
+}

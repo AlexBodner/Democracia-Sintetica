@@ -5,11 +5,13 @@ from statistics import mean, variance, mode, StatisticsError
 
 INPUT_DIRS = [
     ("debates/con_research", "promedio_debates/con_research/resultados.json"),
-    ("debates/sin_research", "promedio_debates/sin_research/resultados.json")
+    ("debates/sin_research", "promedio_debates/sin_research/resultados.json"),
+    ("debates_5_rondas/sin_research", "promedio_debates/5_rondas_sin_research/resultados.json")
 ]
 
 os.makedirs("promedio_debates/con_research", exist_ok=True)
 os.makedirs("promedio_debates/sin_research", exist_ok=True)
+os.makedirs("promedio_debates/5_rondas_sin_research", exist_ok=True)
 
 def sort_ley_id(ley):
     try:
@@ -18,6 +20,7 @@ def sort_ley_id(ley):
         return ley
 
 for input_dir, output_path in INPUT_DIRS:
+
     leyes = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))  # {ley: {ronda: {agente: [votos]}}}
     for root, _, files in os.walk(input_dir):
         for fname in files:
@@ -34,6 +37,7 @@ for input_dir, output_path in INPUT_DIRS:
                         ley = fname.split("_")[-1].replace(".json", "")
                     for ronda, agentes in debate.items():
                         if not ronda.lower().startswith("round"): continue
+                     
                         for agente, datos in agentes.items():
                             voto = datos.get("voto")
                             if voto is not None:

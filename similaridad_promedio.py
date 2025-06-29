@@ -70,9 +70,10 @@ def sumar_maes_por_ronda_agente(mae_path, out_path):
 def main():
     os.makedirs('comparaciones_realidad/con_research', exist_ok=True)
     os.makedirs('comparaciones_realidad/sin_research', exist_ok=True)
+    os.makedirs('comparaciones_realidad/5_rondas_sin_research', exist_ok=True)
     leyes_path = 'testing/leyes.json'
     votos_reales = cargar_votos_reales(leyes_path)
-    for tipo in ['con_research', 'sin_research']:
+    for tipo in ['con_research', 'sin_research', '5_rondas_sin_research']:
         promedio_path = f'promedio_debates/{tipo}/resultados.json'
         resultado = calcular_mae(promedio_path, votos_reales)
         out_path = f'comparaciones_realidad/{tipo}/mae_vs_realidad.json'
@@ -83,7 +84,7 @@ def main():
 if __name__ == "__main__":
     main()
     # Sumar MAEs para con_research y sin_research
-    for tipo in ['con_research', 'sin_research']:
+    for tipo in ['con_research', 'sin_research', '5_rondas_sin_research']:
         mae_path = f'comparaciones_realidad/{tipo}/mae_vs_realidad.json'
         out_path = f'comparaciones_realidad/{tipo}/mae_sumado_por_ronda.json'
         sumar_maes_por_ronda_agente(mae_path, out_path)
