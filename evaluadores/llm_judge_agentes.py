@@ -1,12 +1,12 @@
 import json
-from response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
+from pydantic_utils.response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
 from evaluadores.rubricas import RubricaConsistencia, RubricaDatos, RubricaReflexividad
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from evaluadores.judge import Judge
 from evaluadores.llm_judge import judge_rubric_with_arguments, judge_rubric_with_debate_and_summary
-from response_structures import EstructuraVotos, EstructuraPosicionFinal, EstructuraArgumentos, EstructuraFidelidad, EstructuraImparcialidad
+from pydantic_utils.response_structures import EstructuraVotos, EstructuraPosicionFinal, EstructuraArgumentos, EstructuraFidelidad, EstructuraImparcialidad
 
 
 def get_agent_responses(debate, agent_name, n_rounds=3):

@@ -1,9 +1,9 @@
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from API_Model import API_Model
+from pydantic_utils.API_Model import API_Model
 
-from response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
+from pydantic_utils.response_structures import JudgeConsistencia, JudgeDatos, JudgeReflexividad
 from evaluadores.rubricas import RubricaConsistencia, RubricaDatos, RubricaReflexividad
 
 class Judge:

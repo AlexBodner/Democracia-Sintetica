@@ -7,7 +7,7 @@ from evaluadores.llm_judge_agentes import main as judge_main
 from evaluadores.llm_judge_summary import main as judge_debate_main
 
 def main():
-    with open("testing/leyes.json", "r", encoding="utf-8") as f:
+    with open("dataset/leyes.json", "r", encoding="utf-8") as f:
         leyes = json.load(f)
 
     evaluaciones = [judge_debate_main, judge_main, ]

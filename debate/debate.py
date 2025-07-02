@@ -2,7 +2,7 @@ import asyncio
 from copy import deepcopy
 from output_utils.logger import new_logger
 from debate.round import FirstRound, SecondRoundWithResearch, ThirdRound, SecondRound, ProposalRound, VoteProposals, FinalProposalRound
-from response_structures import ProposalsParagraph, VoteProposal
+from pydantic_utils.response_structures import ProposalsParagraph, VoteProposal
 import json
 import os
 

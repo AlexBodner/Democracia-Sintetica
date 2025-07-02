@@ -1,5 +1,5 @@
-from API_Model import API_Model
-from response_structures import *
+from pydantic_utils.API_Model import API_Model
+from pydantic_utils.response_structures import *
 
 class Agent:
     def __init__(self, sys_prompt, few_shot_ex, agent_name):

@@ -1,5 +1,5 @@
-from API_Model import API_Model
-from response_structures import StructuredReviewerResponse, DeepResearchQuery, RepreguntaResponse, ProposalsList
+from pydantic_utils.API_Model import API_Model
+from pydantic_utils.response_structures import StructuredReviewerResponse, DeepResearchQuery, RepreguntaResponse, ProposalsList
 from researcher.deepresearch import deepresearch
 
 class Reviewer:# o orquestador

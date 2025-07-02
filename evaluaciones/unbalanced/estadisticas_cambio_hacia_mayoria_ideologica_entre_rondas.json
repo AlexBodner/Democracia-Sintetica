@@ -1,0 +1,22 @@
+{
+  "combinacion_1": {
+    "cambio_hacia_mayoria": 0,
+    "total": 105,
+    "porcentaje_cambio_hacia_mayoria": 0.0
+  },
+  "combinacion_0": {
+    "cambio_hacia_mayoria": 0,
+    "total": 105,
+    "porcentaje_cambio_hacia_mayoria": 0.0
+  },
+  "combinacion_2": {
+    "cambio_hacia_mayoria": 0,
+    "total": 105,
+    "porcentaje_cambio_hacia_mayoria": 0.0
+  },
+  "combinacion_3": {
+    "cambio_hacia_mayoria": 0,
+    "total": 105,
+    "porcentaje_cambio_hacia_mayoria": 0.0
+  }
+}

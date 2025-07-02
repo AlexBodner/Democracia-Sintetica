@@ -1,6 +1,6 @@
 import json
-from API_Model import API_Model
-from response_structures import EvaluarAgenteResponse, ParserArgumentos, CompararArgumentos
+from pydantic_utils.API_Model import API_Model
+from pydantic_utils.response_structures import EvaluarAgenteResponse, ParserArgumentos, CompararArgumentos
 import os
 from output_utils.logger import new_logger
 
@@ -30,7 +30,7 @@ class AgenteEvaluador:
         """
         self.model = API_Model(system_prompt=system_prompt)
         self.system_promt = system_prompt
-        with open("testing/leyes_limpias.json", "r", encoding="utf-8") as f:
+        with open("dataset/leyes.json", "r", encoding="utf-8") as f:
             self.leyes_reales =  json.load(f)
         
     def evaluar_votacion(self, debate_sintetico_por_agente, nombre_agente, n_ley=1):

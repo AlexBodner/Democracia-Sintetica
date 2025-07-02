@@ -1,4 +1,4 @@
-from API_Model import API_Model
+from pydantic_utils.API_Model import API_Model
 
 class BaseAgent:
     

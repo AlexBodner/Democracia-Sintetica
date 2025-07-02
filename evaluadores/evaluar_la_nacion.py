@@ -9,9 +9,9 @@ from debate_agents.agente_centro_izquierda import AgenteUxP
 from debate_agents.agente_centro_derecha import AgenteJxC
 from debate_agents.reviewer import AgenteReviewer
 from debate_agents.agente_base import AgenteBase, BaseAgent
-from API_Model import API_Model
+from pydantic_utils.API_Model import API_Model
 import json
-from response_structures import  LaNacionResponse
+from pydantic_utils.response_structures import  LaNacionResponse
 import os
 
 import json
