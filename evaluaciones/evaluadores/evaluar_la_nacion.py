@@ -34,7 +34,7 @@ async def main(output_folder="evaluaciones", output_file="respuestas_la_nacion.j
     #agentes = [agente_base, agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
     agentes = [agente_DeepSeek]
 
-    with open("testing/la_nacion.json", "r", encoding="utf-8") as f:
+    with open("tests_ideologicos/la_nacion.json", "r", encoding="utf-8") as f:
         preguntas = json.load(f)
 
     respuestas_acumuladas = {}
@@ -104,7 +104,7 @@ async def main(output_folder = "evaluaciones"):
 
     
     agentes = [agente_reviewer, agente_liberal, agente_centro_derecha, agente_centro_izquierda, agente_izquierda]
-    with open("testing/la_nacion.json", "r", encoding="utf-8") as f:
+    with open("tests_ideologicos/la_nacion.json", "r", encoding="utf-8") as f:
         preguntas =  json.load(f)
     respuestas  = {}
     

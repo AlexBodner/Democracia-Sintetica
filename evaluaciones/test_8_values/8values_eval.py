@@ -23,7 +23,7 @@ response_weights = {
     "Muy en desacuerdo": -1.0
 }
 
-preguntas = json.load(open("testing/8values.json", "r", encoding="utf-8"))
+preguntas = json.load(open("tests_ideologicos/8values.json", "r", encoding="utf-8"))
 max_econ = sum(abs(q["effect"].get("econ", 0)) for q in preguntas)
 max_dipl = sum(abs(q["effect"].get("dipl", 0)) for q in preguntas)
 max_govt = sum(abs(q["effect"].get("govt", 0)) for q in preguntas)
@@ -76,7 +76,7 @@ def euclidean_distance(p1, p2):
 
 
 def obtener_ideologia(vector):
-    ideologias = json.load(open("testing/8values_ideologies.json", "r", encoding="utf-8"))
+    ideologias = json.load(open("tests_ideologicos/8values_ideologies.json", "r", encoding="utf-8"))
     min_distance = float('inf')
     closest_ideology = None
     
@@ -139,7 +139,7 @@ async def main(output_folder = "evaluaciones", output_file1 = "resultados_8value
                                                 "govt":  [0 for _ in range(n_iteraciones)],
                                                 "scty":  [0 for _ in range(n_iteraciones)]}
     
-    with open("testing/8values.json", "r", encoding="utf-8") as f:
+    with open("tests_ideologicos/8values.json", "r", encoding="utf-8") as f:
             preguntas =  json.load(f)
             
     respuestas_por_pregunta = {p["pregunta"]: p for p in preguntas}
