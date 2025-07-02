@@ -116,7 +116,7 @@ def flatten_summary_metrics(all_results):
     return metrics
 
 def main():
-    path = "evaluaciones/llm_judge/sin_research/resultados_intermedios.json"
+    path = "evaluaciones/llm_judge/con_research/resultados_intermedios.json"
     with open(path, "r", encoding="utf-8") as f:
         all_intermediate = json.load(f)
     # Por ley
@@ -125,19 +125,19 @@ def main():
         summary_results = [debate['summary_result'] for debate in debates]
         avg_agentes = average_nested_dicts(agentes_results)
         avg_summary = average_summary_dicts(summary_results)
-        with open(f"evaluaciones/llm_judge/sin_research/promedio_agentes_{ley_id}.json", "w", encoding="utf-8") as f:
+        with open(f"evaluaciones/llm_judge/con_research/promedio_agentes_{ley_id}.json", "w", encoding="utf-8") as f:
             json.dump(avg_agentes, f, indent=2, ensure_ascii=False)
-        with open(f"evaluaciones/llm_judge/sin_research/promedio_summary_{ley_id}.json", "w", encoding="utf-8") as f:
+        with open(f"evaluaciones/llm_judge/con_research/promedio_summary_{ley_id}.json", "w", encoding="utf-8") as f:
             json.dump(avg_summary, f, indent=2, ensure_ascii=False)
     # Global agentes
     agent_metrics = flatten_agent_metrics(all_intermediate)
     global_avg_agents = {k: sum(v)/len(v) if v else None for k, v in agent_metrics.items()}
-    with open("evaluaciones/llm_judge/sin_research/promedio_global_agentes.json", "w", encoding="utf-8") as f:
+    with open("evaluaciones/llm_judge/con_research/promedio_global_agentes.json", "w", encoding="utf-8") as f:
         json.dump(global_avg_agents, f, indent=2, ensure_ascii=False)
     # Global summary
     summary_metrics = flatten_summary_metrics(all_intermediate)
     global_avg_summary = {k: sum(v)/len(v) if v else None for k, v in summary_metrics.items()}
-    with open("evaluaciones/llm_judge/sin_research/promedio_global_summary.json", "w", encoding="utf-8") as f:
+    with open("evaluaciones/llm_judge/con_research/promedio_global_summary.json", "w", encoding="utf-8") as f:
         json.dump(global_avg_summary, f, indent=2, ensure_ascii=False)
     print("Promedios recalculados y guardados.")
 
