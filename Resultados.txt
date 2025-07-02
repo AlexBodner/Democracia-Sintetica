@@ -1,0 +1,518 @@
+﻿Corrido
+Hecho
+Resultados que queremos ver:
+* Esta el LLM sesgado hacia cierta ideología?
+Lo medimos con:
+* Tests de ideología
+* Métricas del reviewer que dicen si oculta a alguna ideología[a]
+* Si hicimos bien los agentes:
+Lo medimos con:
+* Tests de ideología
+* LLM judge[b]
+* Research influye el debate? 
+Lo medimos con:
+* Comparación de votos con y sin research
+* Sesgo en el research?
+   * Ojímetro (consultar)
+
+
+* Que tan influenciables son los distintos agentes? Tal vez alguna ideologia es más influenciable
+Lo medimos:
+*  con cambio en los votos
+* Contar la cantidad de propuestas de otros que votan a favor.
+* Con debate desbalanceado ver si cambia el voto respecto del mas votado en el debate normal. 
+* Evaluar con el 8 values a cada agente pre y post debate, promedio del resultado post debate.[c]
+* Probar caso real:
+Agarrar una serie de leyes que estén hoy en dia y ver si todos están en contra 
+
+
+(Ver si un partido vota en contra de una ley propuesta por ese mismo partido  (sin el tag en el dataset) ). [d]
+* Debate vs no debate
+Viendo lo q dicen los otros se dan cuenta que en realidad estaban por el mal camino.
+Podemos contar si empieza votando algo mal y si luego cambia.
+* Semejanza a la realidad
+medir si el voto final es distinto al esperado con y sin research. De esta forma, comparamos este MAE y si research aporta algo importante, entonces el MAE con research debería ser menor
+ 
+
+
+
+Experimento Debate Básico vs Experimento Debate Basico + Deep Research: 
+Descripción:
+
+
+3 rondas: en la primera cada uno expone sus argumentos, en la segunda reciben las exposiciones de todos y pueden contraargumentar y reformular sus ideas (+ informe de deep research si es con research), y en la tercera reciben todo lo anterior para hacer su conclusión final. Comparación con y sin research{
+  "con_research": {
+    "cambios_norma_mayor_igual_2_por_agente": {
+      "Agente de Juntos Por El Cambio": 4,
+      "Agente de Union Por La Patria": 1,
+      "Agente de Izquierda": 2
+    },
+    "cambios_por_ronda": {
+      "0->1": 21,
+      "1->2": 7
+    },
+    "cambios_por_ronda_norma_mayor_igual_2": {
+      "0->1": 6,
+      "1->2": 1
+    }
+  },
+  "sin_research": {
+    "cambios_norma_mayor_igual_2_por_agente": {
+      "Agente de Juntos Por El Cambio": 4,
+      "Agente de Izquierda": 3
+    },
+    "cambios_por_ronda": {
+      "0->1": 22,
+      "1->2": 8
+    },
+    "cambios_por_ronda_norma_mayor_igual_2": {
+      "0->1": 5,
+      "1->2": 2
+    }
+  }
+}
+
+
+  
+
+  
+
+
+
+[e]
+Análisis
+* Cambios de postura entre rondas:
+   * La mayoría de los cambios de postura fueron de la ronda 0 a la ronda 1, tanto con como sin research. Esta diferencia es GIGA amplia, siendo de 21 contra 7 o 6 a 1 en el caso de que miremos solamente los de norma mayor o igual a 2 (los que son un cambio importante en la postura).
+   * Agregar el informe del deepresearch al comenzar con la ronda 1 no hizo que los agentes cambiaran mas de opinión, el número de cambios de voto se mantuvo constante.. Claramente no modifican su postura con los datos - puede ser o porque estan balanceados y no les cambia o que efectivamente no les importa. 
+   * La cantidad de cambios de postura entre rondas es casi igual para debates con y sin research.
+* Similaridad con el debate real:
+   * Los resultados obtenidos son muy similares tanto para el debate con como para el debate sin research:
+      * De la ronda 0 a la ronda 1, todos los agentes se acercan más al voto real 
+      * De la ronda 1 a la ronda 2, no hay cambios significativos en relación a la alineación del agente con el voto real[f]
+      * En general, vemos que entre la ronda 0 y la ronda 2 todos los agentes se acercan más al voto real (el MAE disminuye) (excepto en un caso). Este MAE es la diferencia absoluta entre el voto promedio entre los 5 debates de cada ley de cada agente con el voto ‘real’/’esperado’ del partido que representa el agente. Esto implica que el debate entre agentes los acerca más al voto real del partido que representan. No se puede concluir de este experimento que agregar más rondas los acerca más pero si que al menos con una ronda de debate en donde intercambian opiniones y ven las posturas del resto pueden reformular su opinión y acercarse más al voto real. Como observación, que se acerque más a la realidad no significa que el debate sea mejor o peor: el voto real del partido a veces se contradice con sus principios o se ve influenciado por factores externos, por lo que esto no es una métrica de calidad sino una comparación del debate simulado con el resultado real. Además es importante aclarar que en la realidad hay varios senadores que votan y nosotros scrapeamos a mano estos datos y pusimos lo que votó la mayoría del partido o, en el caso de no encontrar datos (porque no había senadores del partido en el momento que se voto la ley), los pusimos según pensamos que deberían votar, así que esta es una limitación importante a considerar. 
+      * En general podemos concluir que el debate hace que los votos de los agentes varíen, por lo que ese intercambio entre ideologías efectivamente sirve y afecta la posición inicial de los LLMs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debate Básico Extendido: Ronda 2 repetida N veces. 
+{
+  "Round 0": {
+    "Agente Liberal": 28.0,
+    "Agente de Juntos Por El Cambio": 23.999999999999996,
+    "Agente de Union Por La Patria": 11.333333333333334,
+    "Agente de Izquierda": 35.66666666666667,
+    "mae_total": 99.0
+  },
+  "Round 1": {
+    "Agente Liberal": 28.0,
+    "Agente de Juntos Por El Cambio": 23.0,
+    "Agente de Union Por La Patria": 9.666666666666668,
+    "Agente de Izquierda": 33.66666666666667,
+    "mae_total": 94.33333333333334
+  },
+  "Round 2": {
+    "Agente Liberal": 28.0,
+    "Agente de Juntos Por El Cambio": 22.666666666666668,
+    "Agente de Union Por La Patria": 9.666666666666668,
+    "Agente de Izquierda": 33.66666666666667,
+    "mae_total": 94.00000000000001
+  },
+  "Round 3": {
+    "Agente Liberal": 28.0,
+    "Agente de Juntos Por El Cambio": 23.0,
+    "Agente de Union Por La Patria": 9.666666666666668,
+    "Agente de Izquierda": 33.66666666666667,
+    "mae_total": 94.33333333333334
+  },
+  "Round 4": {
+    "Agente Liberal": 28.0,
+    "Agente de Juntos Por El Cambio": 22.666666666666668,
+    "Agente de Union Por La Patria": 9.333333333333334,
+    "Agente de Izquierda": 33.66666666666667,
+    "mae_total": 93.66666666666669
+  }
+}
+
+
+Análisis
+Al aumentar la cantidad de rondas a 5, el MAE final es mas bajo y a su vez, baja mas desde el inicial (5 rondas: 99->93.6 = 5,45% vs 3 rondas 113->110.6 = 2,16%). 
+Debate desbalanceado: 
+poner una mayoría de una inclinación política contra una minoría, a ver si se pueden convencer
+
+
+Resultados en crudo 
+En desbalance de ideologias (combinaciones 0 a 3) no hay cambios hacia la mayoría. 
+Análisis
+Concluimos que los agentes, al no tener un incentivo a ceder su posición, no lo hacen, aun estando en minoría.
+
+
+Debate con Propuestas
+ idem Debate Básico pero agregar un debate al final donde puedan proponer cambios a la ley y aprobarlos o rechazarlos.
+Análisis
+* Agente liberal vota el 30% de sus propuestas en contra. El resto tiene mucho menos de 8%
+* En todos los casos, al que mas propuestas le votan es al más cercano de su ideología (JxC a LLA y viceversa). Y esta ordenado como se esperaria la cantidad de votos a favor.
+* El liberal es el que menos propuestas a favor de otros vota, aproximadamente la mitad que los otros.
+* Los del medio votan más propuestas a favor.
+
+
+Debate careo: que se maten entre 2, meter al review que elija ganador
+
+
+Meter al chico del fondo que haga a todos mierda
+Resultados Test ideológicos
+Resultados 8values —-------------------------------------------------------------------------------------------
+
+
+
+
+{
+   "Agente Turbo": { → GPT 3.5
+       "puntaje": {
+           "econ": 82.17948717948718,
+           "dipl": 39.888888888888886,
+           "govt": 62.578125,
+           "scty": 32.79109589041096
+       },
+       "orientacion": {
+           "econ": "Equidad",
+           "dipl": "Global",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Democratic Socialism"
+   }
+}
+
+
+
+
+{
+   "Agente Grok": {
+       "puntaje": {
+           "econ": 81.92307692307692,
+           "dipl": 40.22222222222222,
+           "govt": 62.1875,
+           "scty": 32.79109589041096
+       },
+       "orientacion": {
+           "econ": "Equidad",
+           "dipl": "Global",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Democratic Socialism"
+   }
+}
+
+
+
+
+{
+   "Agente DeepSeek": {
+       "puntaje": {
+           "econ": 82.94871794871794,
+           "dipl": 41.111111111111114,
+           "govt": 60.78125,
+           "scty": 33.13356164383562
+       },
+       "orientacion": {
+           "econ": "Equidad",
+           "dipl": "Global",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Democratic Socialism"
+   }
+}
+
+
+
+
+{
+   "Base Agent": { → GPT 4omini
+       "puntaje": {
+           "econ": 86.53846153846153,
+           "dipl": 27.33333333333333,
+           "govt": 66.09375,
+           "scty": 22.36301369863014
+       },
+       "orientacion": {
+           "econ": "Equidad",
+           "dipl": "Global",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Libertarian Socialism"
+   },
+   "Reviewer": {
+       "puntaje": {
+           "econ": 83.46153846153847,
+           "dipl": 31.66666666666667,
+           "govt": 63.90625,
+           "scty": 25.78767123287672
+       },
+       "orientacion": {
+           "econ": "Equidad",
+           "dipl": "Global",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Libertarian Socialism"
+   },
+   "Agente Liberal": {
+       "puntaje": {
+           "econ": 18.58974358974359,
+           "dipl": 55.55555555555556,
+           "govt": 69.296875,
+           "scty": 45.804794520547944
+       },
+       "orientacion": {
+           "econ": "Mercado",
+           "dipl": "Nacion",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Libertarian Capitalism"
+   },
+   "Agente de Juntos Por El Cambio": {
+       "puntaje": {
+           "econ": 37.43589743589744,
+           "dipl": 48.55555555555556,
+           "govt": 56.328125,
+           "scty": 39.76027397260274
+       },
+       "orientacion": {
+           "econ": "Mercado",
+           "dipl": "Global",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Liberalism"
+   },
+   "Agente de Union Por La Patria": {
+       "puntaje": {
+           "econ": 93.33333333333333,
+           "dipl": 37.666666666666664,
+           "govt": 62.5,
+           "scty": 26.575342465753423
+       },
+       "orientacion": {
+           "econ": "Equidad",
+           "dipl": "Global",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Libertarian Communism"
+   },
+   "Agente de Izquierda": {
+       "puntaje": {
+           "econ": 88.46153846153847,
+           "dipl": 41.333333333333336,
+           "govt": 75.3125,
+           "scty": 22.51712328767124
+       },
+       "orientacion": {
+           "econ": "Equidad",
+           "dipl": "Global",
+           "govt": "Libertad",
+           "scty": "Progresista"
+       },
+       "ideologia": "Libertarian Communism"
+   }
+}
+
+
+  
+
+
+
+(Valores exactos más abajo).
+Analisis Debate  Summary LLM Judge
+Análisis
+sin research
+
+
+Agentes
+	reflexividad
+	consistencia
+	datos
+	Liberal
+	3.49
+	4.87
+	1.98
+	JxC
+	3.7
+	4.6
+	2.2
+	UxP
+	3.99
+	4.91
+	2.723
+	FIT
+	3.85
+	4.93
+	2.4
+	
+
+con research
+
+
+Agentes
+	reflexividad
+	consistencia
+	datos
+	Liberal
+	3.14
+	4.857
+	2.66
+	JxC
+	3.41
+	4.657
+	3.00
+	UxP
+	3.79
+	4.876
+	3.63
+	FIT
+	3.58
+	4.866
+	3.31
+	
+
+* Con research la reflexividad de todos los agentes baja → dato mata relato. 
+* Con research la consistencia de todos los agentes se mantiene estable. 
+* Con research datos da mejor para todos los agentes - aprovechan los datos del deep research
+* UxP es el agente que mejor performa en las métricas - modelo base massista? 
+* LLA es el modelo que peor performa en la mayoría de las métricas - puede deberse a que es un partido relativamente nuevo y no hay tantos datos de entrenamiento
+* FIT performa mejor que JxC
+* La métrica de datos es más alta para los agentes de izquierdas, si bien el aumento relativo es similar para todos, se ve que los datos traídos por el informe favorece más a la justificación del debate de izquierdas. Puede ser por el sesgo visto en las evaluaciones de test, donde el reviewer es más de izquierdas, o porque el internet está poblado más de estos datos.[g]
+
+
+
+
+
+
+
+
+Subida en datos sin vs con research
+
+
+Liberal: +34.3%
+JxC: +36%
+UxP: + 33%
+FIT: +38%
+
+
+SIN RESEARCH - LEY ABORTO
+{
+ "Agente Liberal": {
+   "consistencia": 4.8,
+   "datos": 1.6,
+   "reflexividad": 3.4
+ },
+ "Agente de Juntos Por El Cambio": {
+   "consistencia": 4.8,
+   "datos": 2.0,
+   "reflexividad": 3.4
+ },
+ "Agente de Union Por La Patria": {
+   "consistencia": 5.0,
+   "datos": 3.0,
+   "reflexividad": 4.0
+ },
+ "Agente de Izquierda": {
+   "consistencia": 5.0,
+   "datos": 3.0,
+   "reflexividad": 4.0
+ }
+}
+
+
+CON RESEARCH - LEY ABORTO
+{
+  "Agente Liberal": {
+    "consistencia": 5.0,
+    "datos": 1.4,
+    "reflexividad": 2.8
+  },
+  "Agente de Juntos Por El Cambio": {
+    "consistencia": 4.2,
+    "datos": 2.8,
+    "reflexividad": 3.2
+  },
+  "Agente de Union Por La Patria": {
+    "consistencia": 5.0,
+    "datos": 4.2,
+    "reflexividad": 4.0
+  },
+  "Agente de Izquierda": {
+    "consistencia": 5.0,
+    "datos": 4.4,
+    "reflexividad": 3.8
+  }
+}
+
+
+en resultados de LLM jugde, en la ley 1 (aborto) el resultado de datos del juez da alto para los agentes de izquierda y UxP y bajo para los otros, indicando que hay un sesgo en los datos. Al liberal y a JxC, como estan en contra de la ley, no les conviene usar tantos datos del informe que esta medio sesgado hacia argumentos a favor
+  
+
+
+
+
+
+
+
+
+
+
+
+[a]H - fidelidad, imparcialidad y datos
+[b]consistencia, reflexividad y datos
+[c]no
+[d]hacer
+[e]el MAE de la ronda 0 a la ronda 1 baja para UxP y FIT - puede deberse a que el r esearch en gral favorece estas posturas
+[f]no
+[g]Ver de q cada uno haga su research para cerrar este tema
