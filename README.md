@@ -14,7 +14,8 @@ Este repositorio contiene un framework para simular debates parlamentarios entre
 - `researcher/`: Generación de informes de deep research.
 - `evaluaciones/`: Evaluaciones automáticas de ideología, consistencia, reflexividad y uso de datos.
   - `llm_judge/`: Evaluación con LLM externo ("juez").
-  - `test_8_values/`: Test 8 values. Consiste de 70 preguntas con las posibles respuestas: Muy en desacuerdo, En desacuerdo, Neutral, De acuerdo, Muy de acuerdo
+  - `test_8_values/`: Test 8 values ([ver test online](https://8values.github.io/)). Consiste de 70 preguntas con las posibles respuestas: Muy en desacuerdo, En desacuerdo, Neutral, De acuerdo, Muy de acuerdo
+  - `test_la_nacion/`: Test de afinidad política de La Nación ([ver cuestionario](https://www.lanacion.com.ar/politica/con-que-candidato-te-identificas-responde-un-cuestionario-y-descubri-que-politico-esta-mas-cerca-de-nid30072023/)).
 - `debates/`, `debates_unbalanced/`, `debates_5_rondas/`: Resultados crudos de los debates simulados.
 - `debates_estadisticas/`: Scripts y resultados de análisis estadístico sobre los debates.
 - `dataset/leyes.json`: Base de leyes y resúmenes usados en los debates.
@@ -60,7 +61,9 @@ Este repositorio contiene un framework para simular debates parlamentarios entre
 
 ### 6. Evaluación de Ideología y Métricas
 - **Test 8 values:**
-  - `evaluaciones/test_8_values/8values_eval.py` evalúa el perfil ideológico de cada agente antes y después del debate.
+  - `evaluaciones/test_8_values/8values_eval.py` evalúa el perfil ideológico de cada agente antes y después del debate. El test original puede encontrarse en [8values.github.io](https://8values.github.io/).
+- **Test La Nación:**
+  - `evaluaciones/test_la_nacion/` contiene scripts y resultados del test de afinidad política de La Nación. El cuestionario original está disponible [aquí](https://www.lanacion.com.ar/politica/con-que-candidato-te-identificas-responde-un-cuestionario-y-descubri-que-politico-esta-mas-cerca-de-nid30072023/).
 - **LLM Judge:**
   - `evaluaciones/llm_judge/juzgar_con_llm.py` evalúa reflexividad, consistencia y uso de datos en los argumentos de los agentes.
 
