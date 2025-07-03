@@ -19,13 +19,12 @@ if __name__ == "__main__":
     
     agents = [agente_liberal, agente_jxc, agente_UxP, agente_izquierda]
 
-    #law = "Se debe legalizar el LSD?"
     with open("dataset/decretos.json", "r", encoding="utf-8") as f:
         decretos = json.load(f)
         
-    for decreto in decretos[:]:
+    for decreto in decretos[2:]:
         for i in range(CANTIDAD_DEBATES):
-            ley_texto = decreto["nombre"] +". "+ decreto["decreto"]#"Proyecto de Ley de Interrupción Voluntaria del Embarazo (IVE) 2020, Argentina. Legalizar el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales."
+            ley_texto = decreto["nombre"] +". "+ decreto["decreto"]
 
             debate = DebateDecretos(agents, 
                             ley_texto,
