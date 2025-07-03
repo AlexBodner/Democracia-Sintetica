@@ -19,7 +19,7 @@ if __name__ == "__main__":
     
     agents = [agente_liberal, agente_jxc, agente_UxP, agente_izquierda]
 
-    with open("dataset/decretos.json", "r", encoding="utf-8") as f:
+    with open("dataset/decretos_largos.json", "r", encoding="utf-8") as f:
         decretos = json.load(f)
         
     for decreto in decretos[2:]:
