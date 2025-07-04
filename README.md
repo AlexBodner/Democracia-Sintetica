@@ -23,7 +23,7 @@ Cada debate se estructuró en múltiples rondas:
 Los agentes votan entre: **A favor, En contra, Crítico, Dividido, Apoyo Crítico**.  
 El Reviewer resume posturas, divergencias y resultado final.
 
-![Estructura de rondas](figura/rondas.jpg)
+![Estructura de rondas](Figuras/Figura_Modelo.png)
 
 ## Estructura del repositorio
 
@@ -105,9 +105,10 @@ El Reviewer resume posturas, divergencias y resultado final.
 
 Los agentes fueron testeados con:
 - **8Values**: posicionamiento en 4 ejes ideológicos.
+![Tests políticos](Figuras/Grafico_8Values.png)
 - **Test de La Nación**: comparación con candidatos reales.
 
-![Tests políticos](path_a_test_8values_lanacion.jpg)
+![Tests políticos](Figuras/Grafico_La_Nacion.png)
 
 ---
 
@@ -123,7 +124,7 @@ Los agentes fueron testeados con:
   - El 73% (sin research) - 75% (con research) de los cambios de voto suceden de la ronda 0 a la ronda 1.
   - Cuando hay cambios de postura, el 27–30% corrigen un voto inicial erróneo. Pero al hacer 5 rondas, esto sube a 71%.
 
-![Cambio MAE y votos](path_a_grafico_mae.jpg)
+![Cambio MAE y votos](Cambio_metrica_con_sin_research.png)
 
 ---
 ### Debates con propuestas
@@ -139,8 +140,11 @@ Los agentes fueron testeados con:
 - Se detecta sesgo a favor de posturas progresistas
 - En algunos casos, el modelo genera afirmaciones irrelevantes a la ley.
 
+Estadisticas con research
+![Métricas LLM Judge con research](Figuras/Grafico_Con_Research.png)
 
-![Métricas LLM Judge](analisis sesgo.jpg)
+Estadisticas sin research
+![Métricas LLM Judge sin research](Figuras/Grafico_Sin_Research.png)
 
 ---
 
