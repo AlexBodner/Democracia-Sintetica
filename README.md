@@ -126,8 +126,6 @@ Los agentes fueron testeados con:
   - El 73% (sin research) - 75% (con research) de los cambios de voto suceden de la ronda 0 a la ronda 1.
   - Cuando hay cambios de postura, el 27–30% corrigen un voto inicial erróneo. Pero al hacer 5 rondas, esto sube a 71%.
 
-![Cambio MAE y votos](Figuras/Cambio_metrica_con_sin_research.png)
-
 ---
 ### Debates con propuestas
 - El Agente LLA rechaza el 30 % de sus propias propuestas.
