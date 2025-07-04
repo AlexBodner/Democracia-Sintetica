@@ -105,7 +105,9 @@ El Reviewer resume posturas, divergencias y resultado final.
 
 Los agentes fueron testeados con:
 - **8Values**: posicionamiento en 4 ejes ideológicos.
+  
 ![Tests políticos](Figuras/Grafico_8Values.png)
+
 - **Test de La Nación**: comparación con candidatos reales.
 
 ![Tests políticos](Figuras/Grafico_La_Nacion.png)
@@ -124,7 +126,7 @@ Los agentes fueron testeados con:
   - El 73% (sin research) - 75% (con research) de los cambios de voto suceden de la ronda 0 a la ronda 1.
   - Cuando hay cambios de postura, el 27–30% corrigen un voto inicial erróneo. Pero al hacer 5 rondas, esto sube a 71%.
 
-![Cambio MAE y votos](Cambio_metrica_con_sin_research.png)
+![Cambio MAE y votos](Figuras/Cambio_metrica_con_sin_research.png)
 
 ---
 ### Debates con propuestas
