@@ -104,6 +104,11 @@ El Reviewer resume posturas, divergencias y resultado final.
 ### 🧭 Evaluación Ideológica
 
 Los agentes fueron testeados con:
+
+Referencia:
+
+![Tests políticos](Figuras/Color_agentes_tests.png)
+
 - **8Values**: posicionamiento en 4 ejes ideológicos.
   
 ![Tests políticos](Figuras/Grafico_8Values.png)
