@@ -81,8 +81,6 @@ Este repositorio contiene un framework para simular debates parlamentarios entre
 
 ## Dataset
 
-# Leyes Recientes en Argentina
-
 | ID de Ley | Nombre de Ley | Resumen |
 |---|---|---|
 | 1 | Ley de Interrupción Voluntaria del Embarazo (IVE) – aborto legal | Legaliza el aborto voluntario hasta la semana 14 de gestación inclusive, y garantiza su cobertura por el sistema de salud de forma gratuita y segura. Después de la semana 14, se mantiene el derecho bajo causales. |
