@@ -141,9 +141,11 @@ Los agentes fueron testeados con:
 - En algunos casos, el modelo genera afirmaciones irrelevantes a la ley.
 
 Estadisticas con research
+
 ![Métricas LLM Judge con research](Figuras/Grafico_Con_Research.png)
 
 Estadisticas sin research
+
 ![Métricas LLM Judge sin research](Figuras/Grafico_Sin_Research.png)
 
 ---
