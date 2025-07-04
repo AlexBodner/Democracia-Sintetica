@@ -172,6 +172,21 @@ Tiempo de procesamiento total < 2hs ⟶ 3 min por decreto
 - Tiempo total de procesamiento: **< 2 hs** (≈3 min por decreto)
 - “UxP: La gestión anterior tomó decisiones que, bajo un velo de urgencia y falta de transparencia, favorecieron a una sola jurisdicción, en este caso, la Ciudad Autónoma de Buenos Aires”
 
+El agente de Union por la Patria votó en contra de los siguientes decretos firmados por el presidente de su partido:
+    38. "Determinación de deuda a reestructurar (monto y títulos).",
+    37. "Ajustes de prestaciones previsionales.",
+    7. "Limitación de la emergencia laboral del DNU 34/2019 al sector privado.",
+    32. "Derechos de exportación. Se deja sin efecto el límite de cuatro pesos ($ 4) por cada dólar estadounidense, establecido en el artículo 2° del Decreto N°793/2018."
+
+Decretos que todos rechazaron:
+    38. "Determinación de deuda a reestructurar (monto y títulos)."
+    37."Ajustes de prestaciones previsionales."
+    32 "Derechos de exportación. Se deja sin efecto el límite de cuatro pesos ($ 4) por cada dólar estadounidense, establecido en el artículo 2° del Decreto N°793/2018.",
+    
+
+[Ver dataset de decretos](dataset/decretos.json)
+
+
 ## Dataset
 
 | ID de Ley | Nombre de Ley | Resumen |
