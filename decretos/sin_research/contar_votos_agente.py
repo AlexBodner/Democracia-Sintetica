@@ -2,7 +2,7 @@ import os
 import json
 
 # Ruta base de los debates
-base_path = '/Users/tomascarrie/Library/Mobile Documents/com~apple~CloudDocs/Tomi/NLP/Repo-Final/decretos/sin_research/'
+base_path = '/Users/tomascarrie/Library/Mobile Documents/com~apple~CloudDocs/Tomi/NLP/Repo-Final/Regulacion-Agentic/decretos/sin_research/'
 
 # Diccionario para almacenar los votos
 votos_por_agente = {}
@@ -70,7 +70,7 @@ def contar_leyes_todos_en_contra(base_path):
 leyes_todos_en_contra, leyes_union_por_la_patria_a_favor = contar_leyes_todos_en_contra(base_path)
 
 output_path_todos_en_contra = '/Users/tomascarrie/Library/Mobile Documents/com~apple~CloudDocs/Tomi/NLP/Repo-Final/Regulacion-Agentic/decretos/sin_research/leyes_todos_en_contra.json'
-output_path_union_por_la_patria = '/Users/tomascarrie/Library/Mobile Documents/com~apple~CloudDocs/Tomi/NLP/Repo-Final/Regulacion-Agentic/decretos/sin_research/leyes_union_por_la_patria_a_favor.json'
+output_path_union_por_la_patria = '/Users/tomascarrie/Library/Mobile Documents/com~apple~CloudDocs/Tomi/NLP/Repo-Final/Regulacion-Agentic/decretos/sin_research/leyes_solo_union_por_la_patria_a_favor.json'
 
 with open(output_path_todos_en_contra, 'w', encoding='utf-8') as f:
     json.dump(leyes_todos_en_contra, f, ensure_ascii=False, indent=4)
