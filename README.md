@@ -11,7 +11,7 @@ Este repositorio contiene un framework para simular debates parlamentarios entre
 - Los agentes fueron *prompteados* con plataformas políticas de las elecciones nacionales 2023.
 - Modelos utilizados: **GPT-4o-mini** para los agentes y como Reviewer.
 
-## 🔁 Dinámica de Debate
+## Dinámica de Debate
 
 Cada debate se estructuró en múltiples rondas:
 
@@ -132,7 +132,7 @@ Los agentes fueron testeados con:
 - El Agente LLA es el que menos aprueba propuestas ajenas, con una tasa ~50 % menor que la del resto.
 - Agentes JxC y UxP votan más propuestas a favor → mayor apertura al diálogo
   
-### 🧠 Sesgo en el Deep Research
+### Sesgo en el Deep Research
 
 - Métricas: Reflexividad, Consistencia y Uso de Datos
 - Solo el **23%** de los informes presentan datos balanceados
@@ -144,7 +144,7 @@ Los agentes fueron testeados con:
 
 ---
 
-### ⚖️ Debate con Propuestas
+### Debate con Propuestas
 
 - LLA rechaza el **30%** de sus propias propuestas
 - Las propuestas son más apoyadas por agentes cercanos ideológicamente
@@ -152,7 +152,7 @@ Los agentes fueron testeados con:
 
 ---
 
-### 🏛️ Caso de Uso: Análisis de Decretos
+### Caso de Uso: Análisis de Decretos
 Tiempo de procesamiento total < 2hs ⟶ 3 min por decreto 
 - Se debatieron **41 decretos** de Alberto Fernández
 - 3 decretos fueron votados en contra por todos los agentes.
