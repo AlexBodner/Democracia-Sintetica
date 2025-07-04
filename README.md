@@ -2,6 +2,29 @@
 
 Este repositorio contiene un framework para simular debates parlamentarios entre agentes de IA con diferentes perfiles ideológicos, analizar su comportamiento, y evaluar el impacto de la información externa ("deep research") y la dinámica de grupo sobre sus posturas y votos.
 
+> **Objetivo**: Acelerar la toma de decisiones sobre (des)regulaciones sin perder profundidad ni pluralidad, y explorar la capacidad de razonamiento y sesgos de modelos fundacionales en contextos políticos.
+
+## Metodología General
+
+- Se simularon debates para **21 leyes argentinas** y **41 decretos** reales.
+- Cada ley fue debatida por 4 agentes (LLA, JxC, UxP, FIT) y evaluada por un Reviewer.
+- Los agentes fueron *prompteados* con plataformas políticas de las elecciones nacionales 2023.
+- Modelos utilizados: **GPT-4o-mini** para los agentes y como Reviewer.
+
+## 🔁 Dinámica de Debate
+
+Cada debate se estructuró en múltiples rondas:
+
+- Exposición inicial  
+- Contraargumentación (1 o más rondas, con o sin deep research)  
+- Ronda de propuestas y votación (opcional)  
+- Conclusión final y votación definitiva
+
+Los agentes votan entre: **A favor, En contra, Crítico, Dividido, Apoyo Crítico**.  
+El Reviewer resume posturas, divergencias y resultado final.
+
+![Estructura de rondas](figura/rondas.jpg)
+
 ## Estructura del repositorio
 
 - `experiments_main/`: Scripts principales para correr los distintos experimentos de debate.
@@ -53,7 +76,7 @@ Este repositorio contiene un framework para simular debates parlamentarios entre
 
 ### 5. Debate con Propuestas
 - **Script:** `experiments_main/main_proposals.py`
-- **Descripción:** Tras el debate, los agentes pueden proponer enmiendas a la ley y votar sobre ellas.
+- **Descripción:** Tras el debate, los agentes pueden proponer enmiendas a la ley y votar sobre ellas.  Exposición inicial,  contraargumentacion, propuestas, votación de propuestas y  conclusión final. 1 debate por ley
 - **Cómo correr:**
   ```bash
   python experiments_main/main_proposals.py
@@ -78,6 +101,65 @@ Este repositorio contiene un framework para simular debates parlamentarios entre
   - ¿La presión de la mayoría cambia la postura de la minoría?
   - ¿Cómo varían las métricas de consistencia, reflexividad y uso de datos?
 
+### 🧭 Evaluación Ideológica
+
+Los agentes fueron testeados con:
+- **8Values**: posicionamiento en 4 ejes ideológicos.
+- **Test de La Nación**: comparación con candidatos reales.
+
+![Tests políticos](path_a_test_8values_lanacion.jpg)
+
+---
+
+### Comparaciones con la realidad
+
+- **Precisión de votos**:
+  - MAE baja de `113 → 110.6` sin research (–2.16%)
+  - MAE baja de `111 → 108.2` sin research (–2.56%)
+  - En 5 rondas: `99 → 93.6` (–5.45%)
+  - Los cambios de voto se acercan más a la realidad con 3 rondas: cambios con voto inicial erroneo-> final correcto: 71%
+
+- **Cambio de posturas**:  
+  - El 73% (sin research) - 75% (con research) de los cambios de voto suceden de la ronda 0 a la ronda 1.
+  - Cuando hay cambios de postura, el 27–30% corrigen un voto inicial erróneo. Pero al hacer 5 rondas, esto sube a 71%.
+
+![Cambio MAE y votos](path_a_grafico_mae.jpg)
+
+---
+### Debates con propuestas
+- El Agente LLA rechaza el 30 % de sus propias propuestas.
+- Las propuestas son más apoyadas por agentes ideológicamente cercanos siguiendo un orden coherente con su ubicación política.
+- El Agente LLA es el que menos aprueba propuestas ajenas, con una tasa ~50 % menor que la del resto.
+- Agentes JxC y UxP votan más propuestas a favor → mayor apertura al diálogo
+  
+### 🧠 Sesgo en el Deep Research
+
+- Métricas: Reflexividad, Consistencia y Uso de Datos
+- Solo el **23%** de los informes presentan datos balanceados
+- Se detecta sesgo a favor de posturas progresistas
+- En algunos casos, el modelo genera afirmaciones irrelevantes a la ley.
+
+
+![Métricas LLM Judge](analisis sesgo.jpg)
+
+---
+
+### ⚖️ Debate con Propuestas
+
+- LLA rechaza el **30%** de sus propias propuestas
+- Las propuestas son más apoyadas por agentes cercanos ideológicamente
+- UxP y JxC muestran mayor apertura al acuerdo
+
+---
+
+### 🏛️ Caso de Uso: Análisis de Decretos
+Tiempo de procesamiento total < 2hs ⟶ 3 min por decreto 
+- Se debatieron **41 decretos** de Alberto Fernández
+- 3 decretos fueron votados en contra por todos los agentes.
+- LLA se opuso a 38, FIT a 31 y JxC a 32.
+- Todos votaron a favor de eliminar el inciso que permitía usar inmuebles estatales sin uso para pagar deudas del Estado (Decreto N° 1382/12)
+- Tiempo total de procesamiento: **< 2 hs** (≈3 min por decreto)
+- “UxP: La gestión anterior tomó decisiones que, bajo un velo de urgencia y falta de transparencia, favorecieron a una sola jurisdicción, en este caso, la Ciudad Autónoma de Buenos Aires”
 
 ## Dataset
 
@@ -112,12 +194,10 @@ Este repositorio contiene un framework para simular debates parlamentarios entre
   ```bash
   pip install -r requirements.txt
   ```
+## Autores
 
-## Cómo correr un experimento
-1. Edita los scripts en `experiments_main/` para ajustar parámetros si es necesario (cantidad de debates, leyes, etc).
-2. Ejecuta el script correspondiente según el experimento que quieras correr.
-3. Los resultados se guardarán en las carpetas de debates y en archivos de estadísticas.
-
-## Créditos y contacto
-
-Trabajo realizado por el equipo de Regulacion-Agentic. Para dudas o sugerencias, contacta a los autores del repositorio.
+This repository was made by:
+ - Alexander Bodner | abodner@udesa.edu.ar
+ - Tomás Augusto Carrie | tcarrie@udesa.edu.ar 
+ - Delfina Chavez Blasi | dchavezblasi@udesa.edu.ar 
+ - Julieta Guillermina García Pereyra | jgarciapereyra@udesa.edu.ar 
