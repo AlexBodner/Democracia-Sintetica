@@ -87,8 +87,79 @@ El Reviewer resume posturas, divergencias y resultado final.
   - `evaluaciones/test_8_values/8values_eval.py` evalúa el perfil ideológico de cada agente antes y después del debate. El test original puede encontrarse en [8values.github.io](https://8values.github.io/).
 - **Test La Nación:**
   - `evaluaciones/test_la_nacion/` contiene scripts y resultados del test de afinidad política de La Nación. El cuestionario original está disponible [aquí](https://www.lanacion.com.ar/politica/con-que-candidato-te-identificas-responde-un-cuestionario-y-descubri-que-politico-esta-mas-cerca-de-nid30072023/).
-- **LLM Judge:**
-  - `evaluaciones/llm_judge/juzgar_con_llm.py` evalúa reflexividad, consistencia y uso de datos en los argumentos de los agentes.
+
+## LLM Judge - Rúbricas de Evaluación
+
+Para evaluar el desempeño de los agentes durante los debates y la calidad de los resúmenes generados por el Reviewer, se utilizaron las siguientes **rúbricas estructuradas**:
+
+### Evaluación de Agentes
+
+Estas métricas se usan para evaluar la calidad argumentativa, la consistencia y el uso crítico de información por parte de los agentes participantes del debate:
+
+#### Consistencia
+
+- **Puntaje (1 a 5):**
+
+  1. Se contradice constantemente a lo largo del debate, cambia de postura sin justificación y no mantiene un hilo conductor entre sus intervenciones.  
+  2. Presenta algunas contradicciones entre sus argumentos y cambia de postura sin explicaciones claras ni consistentes.  
+  3. No se contradice en sus argumentos específicos, pero cambia de postura ideológica sin justificarlo adecuadamente.  
+  4. Presenta leves contradicciones en algunos argumentos, pero sostiene de forma clara su postura ideológica a lo largo del debate.  
+  5. Mantiene una postura ideológica coherente y no se contradice en ningún momento del debate.
+
+#### Reflexividad
+
+- **Puntaje (1 a 5):**
+
+  1. Atribuye falsamente opiniones o argumentos a otros agentes o al moderador que nunca fueron expresados.  
+  2. Ignora por completo las opiniones de otros agentes y no las utiliza en ningún momento para sustentar o rebatir su postura.  
+  3. Menciona las opiniones de otros, pero no las integra en su argumentación ni responde críticamente a ellas.  
+  4. Toma en cuenta las opiniones de otros agentes y las utiliza para argumentar en algunas rondas, aunque no de forma consistente.  
+  5. Escucha activamente las opiniones de otros agentes en todas las rondas y argumenta a partir de ellas de forma clara. Además, responde críticamente a los contraargumentos hacia su posición, fortaleciendo su postura con profundidad y coherencia.
+
+#### Uso de Datos
+
+- **Puntaje (1 a 5):**
+
+  1. No utiliza ningún tipo de dato, ejemplo o caso para sustentar su argumentación.  
+  2. Menciona un dato o ejemplo, pero no tiene relación clara con el punto que intenta sostener.  
+  3. Utiliza algún dato o ejemplo para sustentar uno o más de sus argumentos, aunque de manera limitada o poco desarrollada.  
+  4. Utiliza datos y casos reales para fundamentar varios de sus argumentos, con pertinencia y claridad.  
+  5. Sustenta de forma sólida la mayoría de sus argumentos con datos relevantes, investigaciones confiables o ejemplos bien contextualizados, integrándolos de manera efectiva en su razonamiento.
+
+---
+
+### Evaluación del Resumen del Reviewer
+
+Estas métricas evalúan si el resumen final del debate refleja fielmente el contenido, posturas y argumentos de los agentes sin distorsiones ni sesgos:
+
+#### Captura de Votos
+
+- **Respuesta:** `True` si el voto final del agente fue correctamente capturado, `False` si no.
+
+#### Captura de Posición Final
+
+- **Respuesta:** `True` si la posición final del agente con respecto a la ley fue correctamente capturada, `False` si no.
+
+#### Captura de Argumentos
+
+- **Respuesta (1 a 3):**
+
+  1. No. Malinterpreta argumentos del agente, no los menciona o inventa cosas que no dijo.  
+  2. Deja afuera argumentos importantes que son los que definen su postura final.  
+  3. Sí, captura todos los argumentos relevantes del agente.
+
+#### Fidelidad
+
+- **Respuesta:** `True` si el resumen inventa información que no estuvo en el debate, `False` si no.
+
+#### Imparcialidad
+
+- **Respuesta (1 a 4):**
+
+  1. Parcial evidente: El resumen toma partido, ridiculiza a un agente, exagera al otro, usa lenguaje cargado o declara un “ganador” sin base objetiva.  
+  2. Parcial leve: Hay sesgos sutiles como omisiones o lenguaje connotativo desigual.  
+  3. Mayormente neutral: Presenta ambas posturas razonablemente bien, aunque con leve desequilibrio.  
+  4. Completamente imparcial: Trata a todos los agentes con el mismo grado de detalle, tono y orden. No sugiere quién tiene razón ni distorsiona hechos.
 
 ## Análisis y Resultados
 
@@ -101,7 +172,7 @@ El Reviewer resume posturas, divergencias y resultado final.
   - ¿La presión de la mayoría cambia la postura de la minoría?
   - ¿Cómo varían las métricas de consistencia, reflexividad y uso de datos?
 
-### 🧭 Evaluación Ideológica
+### Evaluación Ideológica
 
 Los agentes fueron testeados con:
 
@@ -121,7 +192,8 @@ Referencia:
 
 ### Comparaciones con la realidad
 
-- **Precisión de votos**:
+- **Precisión de votos**: El debate hace que los agentes voten más similar a como lo hicieron sus partidos en la realidad.
+  - Medimos el MAE que compara la diferencia entre voto del agente y voto real y promedia a lo largo de los multiples debates por ley. Finalmente sumamos los MAEs de todas las leyes y agentes.
   - MAE baja de `113 → 110.6` sin research (–2.16%)
   - MAE baja de `111 → 108.2` sin research (–2.56%)
   - En 5 rondas: `99 → 93.6` (–5.45%)
@@ -227,7 +299,7 @@ Decretos que todos rechazaron:
   ```
 ## Autores
 
-This repository was made by:
+Este trabajo fue hecho por:
  - Alexander Bodner | abodner@udesa.edu.ar
  - Tomás Augusto Carrie | tcarrie@udesa.edu.ar 
  - Delfina Chavez Blasi | dchavezblasi@udesa.edu.ar 
